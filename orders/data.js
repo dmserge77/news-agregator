@@ -1,6 +1,16 @@
 window.NEWS_DATA = {
   "items": [
     {
+      "title": "Сделать проект корпусной мебели в базис мебельщик",
+      "link": "https://www.fl.ru/projects/5521736/sdelat-proekt-korpusnoy-mebeli-v-bazis-mebelschik.html",
+      "desc": "Подробности в личке",
+      "date": "2026-09-12",
+      "source": "FL.ru",
+      "cat": "orders",
+      "order_type": "content",
+      "lang": "ru"
+    },
+    {
       "title": "Построить лобби/спавн для плейса в Roblox",
       "link": "https://www.fl.ru/projects/5521735/postroit-lobbi-spavn-dlya-pleysa-v-roblox.html",
       "desc": "Построить лобби/спавн для плейса в Roblox Есть сгенерированное изображение, нужно точно такое же лобби создать. Большие объекты (по типу магазинов) собрать из партов, а мелкие...",
@@ -779,5 +789,5 @@ window.NEWS_DATA = {
     "jobs",
     "orders"
   ],
-  "updated": "12.09.2026, 16:51:47"
+  "updated": "12.09.2026, 17:05:06"
 };

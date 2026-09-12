@@ -1,17 +1,8 @@
 [
   {
-    "title": "Show HN: Liniora – Ever thought about replacing your project manager?",
-    "link": "https://liniora.com",
-    "desc": "Hi HN, the title could be a little bit aggressive sorry for that... Basically i am Computer engineer graduated recently but i was and still working remotely for approx. 3 years with the same foreign company in EU. and i noticed that we are always somehow lose the context of a ticket -- even thoug...",
-    "date": "2026-09-12",
-    "source": "Hacker News",
-    "cat": "ai",
-    "lang": "en"
-  },
-  {
     "title": "Fuck it, make it anyway",
     "link": "https://www.joelotter.com/posts/2026/09/make-it-anyway/",
-    "desc": "Article URL: https://www.joelotter.com/posts/2026/09/make-it-anyway/ Comments URL: https://news.ycombinator.com/item?id=49671329 Points: 184 # Comments: 121",
+    "desc": "Article URL: https://www.joelotter.com/posts/2026/09/make-it-anyway/ Comments URL: https://news.ycombinator.com/item?id=49671329 Points: 209 # Comments: 148",
     "date": "2026-09-12",
     "source": "Hacker News",
     "cat": "ai",
@@ -20,7 +11,7 @@
   {
     "title": "Crypto farm in Mexican mountains puts spotlight on cartel funding",
     "link": "https://www.reuters.com/world/americas/hidden-crypto-farm-mexican-mountains-puts-spotlight-cartel-funding-2026-09-12/",
-    "desc": "Article URL: https://www.reuters.com/world/americas/hidden-crypto-farm-mexican-mountains-puts-spotlight-cartel-funding-2026-09-12/ Comments URL: https://news.ycombinator.com/item?id=49671296 Points: 22 # Comments: 2",
+    "desc": "Article URL: https://www.reuters.com/world/americas/hidden-crypto-farm-mexican-mountains-puts-spotlight-cartel-funding-2026-09-12/ Comments URL: https://news.ycombinator.com/item?id=49671296 Points: 24 # Comments: 2",
     "date": "2026-09-12",
     "source": "Hacker News",
     "cat": "ai",
@@ -29,7 +20,7 @@
   {
     "title": "We've followed their lives for six decades; now the stars of 7 Up are bowing out",
     "link": "https://www.bbc.co.uk/news/articles/crm932el3yjo",
-    "desc": "Article URL: https://www.bbc.co.uk/news/articles/crm932el3yjo Comments URL: https://news.ycombinator.com/item?id=49670981 Points: 44 # Comments: 8",
+    "desc": "Article URL: https://www.bbc.co.uk/news/articles/crm932el3yjo Comments URL: https://news.ycombinator.com/item?id=49670981 Points: 45 # Comments: 10",
     "date": "2026-09-12",
     "source": "Hacker News",
     "cat": "ai",
@@ -38,7 +29,7 @@
   {
     "title": "Resistance Training Prescription for Muscle Function, Hypertrophy in Health",
     "link": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12965823/",
-    "desc": "Article URL: https://pmc.ncbi.nlm.nih.gov/articles/PMC12965823/ Comments URL: https://news.ycombinator.com/item?id=49670493 Points: 36 # Comments: 19",
+    "desc": "Article URL: https://pmc.ncbi.nlm.nih.gov/articles/PMC12965823/ Comments URL: https://news.ycombinator.com/item?id=49670493 Points: 37 # Comments: 21",
     "date": "2026-09-12",
     "source": "Hacker News",
     "cat": "ai",
@@ -47,7 +38,7 @@
   {
     "title": "Retrospectively Reverse-Engineering Apple's Neural Engine",
     "link": "https://eiln.github.io/posts/ane.html",
-    "desc": "Article URL: https://eiln.github.io/posts/ane.html Comments URL: https://news.ycombinator.com/item?id=49670032 Points: 142 # Comments: 19",
+    "desc": "Article URL: https://eiln.github.io/posts/ane.html Comments URL: https://news.ycombinator.com/item?id=49670032 Points: 144 # Comments: 19",
     "date": "2026-09-12",
     "source": "Hacker News",
     "cat": "ai",
@@ -56,7 +47,7 @@
   {
     "title": "Usenet rewind archive search engine",
     "link": "https://www.usenet-rewind.com/",
-    "desc": "Article URL: https://www.usenet-rewind.com/ Comments URL: https://news.ycombinator.com/item?id=49668777 Points: 84 # Comments: 27",
+    "desc": "Article URL: https://www.usenet-rewind.com/ Comments URL: https://news.ycombinator.com/item?id=49668777 Points: 86 # Comments: 27",
     "date": "2026-09-12",
     "source": "Hacker News",
     "cat": "ai",
@@ -65,7 +56,7 @@
   {
     "title": "Navier-Stokes Announcement",
     "link": "https://www.claymath.org/news/navier-stokes-announcement/",
-    "desc": "Article URL: https://www.claymath.org/news/navier-stokes-announcement/ Comments URL: https://news.ycombinator.com/item?id=49668706 Points: 219 # Comments: 145",
+    "desc": "Article URL: https://www.claymath.org/news/navier-stokes-announcement/ Comments URL: https://news.ycombinator.com/item?id=49668706 Points: 222 # Comments: 152",
     "date": "2026-09-12",
     "source": "Hacker News",
     "cat": "ai",
@@ -74,6 +65,15 @@
   {
     "title": "Linux Zoom Client Proactively Reads X11 Clipboard",
     "link": "https://hachyderm.io/@simontatham/117201594980991062",
+    "desc": "Comments",
+    "date": "2026-09-12",
+    "source": "Lobsters",
+    "cat": "ai",
+    "lang": "en"
+  },
+  {
+    "title": "fresh: Terminal based IDE & text editor: easy, powerful and fast",
+    "link": "https://github.com/sinelaw/fresh",
     "desc": "Comments",
     "date": "2026-09-12",
     "source": "Lobsters",
@@ -198,11 +198,11 @@
     "lang": "ru"
   },
   {
-    "title": "fresh: Terminal based IDE & text editor: easy, powerful and fast",
-    "link": "https://github.com/sinelaw/fresh",
-    "desc": "Comments",
+    "title": "Show HN: Liniora – Ever thought about replacing your project manager?",
+    "link": "https://liniora.com",
+    "desc": "Hi HN, the title could be a little bit aggressive sorry for that... Basically i am Computer engineer graduated recently but i was and still working remotely for approx. 3 years with the same foreign company in EU. and i noticed that we are always somehow lose the context of a ticket -- even thoug...",
     "date": "2026-09-12",
-    "source": "Lobsters",
+    "source": "Hacker News",
     "cat": "ai",
     "lang": "en"
   },
@@ -227,7 +227,7 @@
   {
     "title": "Project Blinkenlights",
     "link": "https://blinkenlights.de/en/",
-    "desc": "Article URL: https://blinkenlights.de/en/ Comments URL: https://news.ycombinator.com/item?id=49666146 Points: 101 # Comments: 32",
+    "desc": "Article URL: https://blinkenlights.de/en/ Comments URL: https://news.ycombinator.com/item?id=49666146 Points: 102 # Comments: 32",
     "date": "2026-09-11",
     "source": "Hacker News",
     "cat": "ai",
@@ -236,7 +236,16 @@
   {
     "title": "Forgotten Woodlands",
     "link": "https://storymaps.arcgis.com/stories/9b790daf22ba4e87836f467abb1c7e49",
-    "desc": "Article URL: https://storymaps.arcgis.com/stories/9b790daf22ba4e87836f467abb1c7e49 Comments URL: https://news.ycombinator.com/item?id=49665549 Points: 16 # Comments: 4",
+    "desc": "Article URL: https://storymaps.arcgis.com/stories/9b790daf22ba4e87836f467abb1c7e49 Comments URL: https://news.ycombinator.com/item?id=49665549 Points: 19 # Comments: 4",
+    "date": "2026-09-11",
+    "source": "Hacker News",
+    "cat": "ai",
+    "lang": "en"
+  },
+  {
+    "title": "GrapheneOS' rewritten Messages app is released",
+    "link": "https://github.com/GrapheneOS/Messaging/releases/tag/13",
+    "desc": "Article URL: https://github.com/GrapheneOS/Messaging/releases/tag/13 Comments URL: https://news.ycombinator.com/item?id=49663373 Points: 288 # Comments: 212",
     "date": "2026-09-11",
     "source": "Hacker News",
     "cat": "ai",
@@ -245,7 +254,7 @@
   {
     "title": "I spent $220 on Google app ads and 60% of the installs were robots",
     "link": "https://dayzlegame.com/blog/google-ads-bot-farm/",
-    "desc": "Article URL: https://dayzlegame.com/blog/google-ads-bot-farm/ Comments URL: https://news.ycombinator.com/item?id=49662990 Points: 619 # Comments: 337",
+    "desc": "Article URL: https://dayzlegame.com/blog/google-ads-bot-farm/ Comments URL: https://news.ycombinator.com/item?id=49662990 Points: 622 # Comments: 340",
     "date": "2026-09-11",
     "source": "Hacker News",
     "cat": "ai",
@@ -254,7 +263,7 @@
   {
     "title": "Litelm: LiteLLM Without the Bloat",
     "link": "https://github.com/kennethwolters/litelm",
-    "desc": "Article URL: https://github.com/kennethwolters/litelm Comments URL: https://news.ycombinator.com/item?id=49662767 Points: 156 # Comments: 51",
+    "desc": "Article URL: https://github.com/kennethwolters/litelm Comments URL: https://news.ycombinator.com/item?id=49662767 Points: 157 # Comments: 51",
     "date": "2026-09-11",
     "source": "Hacker News",
     "cat": "ai",
@@ -263,7 +272,7 @@
   {
     "title": "A misalignment of AI in mathematics",
     "link": "https://mathandai.org/",
-    "desc": "https://terrytao.wordpress.com/2026/09/11/a-severe-misalignm... https://www.economist.com/science-and-technology/2026/09/11/... , https://unwall.app/www.economist.com/science-and-technology/... Comments URL: https://news.ycombinator.com/item?id=49662371 Points: 1040 # Comments: 990",
+    "desc": "https://terrytao.wordpress.com/2026/09/11/a-severe-misalignm... https://www.economist.com/science-and-technology/2026/09/11/... , https://unwall.app/www.economist.com/science-and-technology/... Comments URL: https://news.ycombinator.com/item?id=49662371 Points: 1047 # Comments: 1000",
     "date": "2026-09-11",
     "source": "Hacker News",
     "cat": "ai",
@@ -272,7 +281,7 @@
   {
     "title": "Mind-altering drugs played key role in rise of Andean civilization",
     "link": "https://www.science.org/content/article/mind-altering-drugs-played-key-role-rise-andean-civilization",
-    "desc": "Article URL: https://www.science.org/content/article/mind-altering-drugs-played-key-role-rise-andean-civilization Comments URL: https://news.ycombinator.com/item?id=49662020 Points: 184 # Comments: 121",
+    "desc": "Article URL: https://www.science.org/content/article/mind-altering-drugs-played-key-role-rise-andean-civilization Comments URL: https://news.ycombinator.com/item?id=49662020 Points: 185 # Comments: 121",
     "date": "2026-09-11",
     "source": "Hacker News",
     "cat": "ai",
@@ -290,7 +299,7 @@
   {
     "title": "I Fixed a Tractor Using John Deere's Self-Repair Service. Farmers Aren't Sold",
     "link": "https://www.wired.com/story/i-fixed-a-tractor-john-deere-self-repair-service/",
-    "desc": "Article URL: https://www.wired.com/story/i-fixed-a-tractor-john-deere-self-repair-service/ Comments URL: https://news.ycombinator.com/item?id=49658672 Points: 13 # Comments: 15",
+    "desc": "Article URL: https://www.wired.com/story/i-fixed-a-tractor-john-deere-self-repair-service/ Comments URL: https://news.ycombinator.com/item?id=49658672 Points: 15 # Comments: 21",
     "date": "2026-09-11",
     "source": "Hacker News",
     "cat": "ai",
@@ -308,6 +317,15 @@
   {
     "title": "Pandas Should Go Extinct",
     "link": "https://eddie.codes/posts/pandas-should-go-extinct/",
+    "desc": "Comments",
+    "date": "2026-09-11",
+    "source": "Lobsters",
+    "cat": "ai",
+    "lang": "en"
+  },
+  {
+    "title": "A Severe Misalignment of AI in Mathematics",
+    "link": "https://terrytao.wordpress.com/2026/09/11/a-severe-misalignment-of-ai-in-mathematics/",
     "desc": "Comments",
     "date": "2026-09-11",
     "source": "Lobsters",
@@ -362,6 +380,15 @@
   {
     "title": "Tutorial for Septabee, a free DAW in the making for over 20,000 hours",
     "link": "https://www.youtube.com/watch?v=lW8Z98pXuSE",
+    "desc": "Comments",
+    "date": "2026-09-11",
+    "source": "Lobsters",
+    "cat": "ai",
+    "lang": "en"
+  },
+  {
+    "title": "Measuring the sloppiness of code",
+    "link": "https://earendil.com/posts/measuring-code-sloppiness/",
     "desc": "Comments",
     "date": "2026-09-11",
     "source": "Lobsters",
@@ -747,24 +774,6 @@
     "lang": "ru"
   },
   {
-    "title": "A Severe Misalignment of AI in Mathematics",
-    "link": "https://terrytao.wordpress.com/2026/09/11/a-severe-misalignment-of-ai-in-mathematics/",
-    "desc": "Comments",
-    "date": "2026-09-11",
-    "source": "Lobsters",
-    "cat": "ai",
-    "lang": "en"
-  },
-  {
-    "title": "Measuring the sloppiness of code",
-    "link": "https://earendil.com/posts/measuring-code-sloppiness/",
-    "desc": "Comments",
-    "date": "2026-09-11",
-    "source": "Lobsters",
-    "cat": "ai",
-    "lang": "en"
-  },
-  {
     "title": "Show HN: ResolveHQ – A Helpdesk Built on Cloudflare Workers, D1, R2 and Queues",
     "link": "https://github.com/mirza-rizvi/ResolveHQ",
     "desc": "Article URL: https://github.com/mirza-rizvi/ResolveHQ Comments URL: https://news.ycombinator.com/item?id=49665864 Points: 55 # Comments: 17",
@@ -777,15 +786,6 @@
     "title": "AI researchers debate how close we are to recursive self-improvement",
     "link": "https://www.dwarkesh.com/p/john-beren-charlie",
     "desc": "Article URL: https://www.dwarkesh.com/p/john-beren-charlie Comments URL: https://news.ycombinator.com/item?id=49665711 Points: 94 # Comments: 88",
-    "date": "2026-09-11",
-    "source": "Hacker News",
-    "cat": "ai",
-    "lang": "en"
-  },
-  {
-    "title": "GrapheneOS' rewritten Messages app is released",
-    "link": "https://github.com/GrapheneOS/Messaging/releases/tag/13",
-    "desc": "Article URL: https://github.com/GrapheneOS/Messaging/releases/tag/13 Comments URL: https://news.ycombinator.com/item?id=49663373 Points: 246 # Comments: 164",
     "date": "2026-09-11",
     "source": "Hacker News",
     "cat": "ai",
@@ -846,6 +846,15 @@
     "lang": "en"
   },
   {
+    "title": "Models Don't Go Rogue",
+    "link": "https://mail.cyberneticforests.com/models-dont-go-rogue/",
+    "desc": "Comments",
+    "date": "2026-09-10",
+    "source": "Lobsters",
+    "cat": "ai",
+    "lang": "en"
+  },
+  {
     "title": "Soft-deprecating re.match()",
     "link": "https://hugovk.dev/blog/2026/soft-deprecating-re.match/",
     "desc": "Comments",
@@ -891,60 +900,6 @@
     "lang": "en"
   },
   {
-    "title": "Forgejo 16.0.4 has a critical security bug fix (RCE - Remote Code Execution)",
-    "link": "https://codeberg.org/forgejo/forgejo/src/branch/forgejo/release-notes-published/16.0.4.md",
-    "desc": "Comments",
-    "date": "2026-09-10",
-    "source": "Lobsters",
-    "cat": "ai",
-    "lang": "en"
-  },
-  {
-    "title": "It's not the YAML spec's fault, but",
-    "link": "https://slugcat.systems/post/26-09-10-yaml-spec/",
-    "desc": "Comments",
-    "date": "2026-09-10",
-    "source": "Lobsters",
-    "cat": "ai",
-    "lang": "en"
-  },
-  {
-    "title": "Xteink X4 Pro review",
-    "link": "https://abstractnonsense.xyz/microblog/2026-09-07-xteink-x4-pro-review/",
-    "desc": "Comments",
-    "date": "2026-09-10",
-    "source": "Lobsters",
-    "cat": "ai",
-    "lang": "en"
-  },
-  {
-    "title": "What algorithm did Windows XP use to choose your initial user picture?",
-    "link": "https://devblogs.microsoft.com/oldnewthing/20260909-00/?p=112683",
-    "desc": "Comments",
-    "date": "2026-09-10",
-    "source": "Lobsters",
-    "cat": "ai",
-    "lang": "en"
-  },
-  {
-    "title": "Gleam Gathering 2027",
-    "link": "https://gleamgathering.com/",
-    "desc": "Comments",
-    "date": "2026-09-10",
-    "source": "Lobsters",
-    "cat": "ai",
-    "lang": "en"
-  },
-  {
-    "title": "My HTML Boilerplate",
-    "link": "https://vale.rocks/posts/html-boilerplate",
-    "desc": "Comments",
-    "date": "2026-09-10",
-    "source": "Lobsters",
-    "cat": "ai",
-    "lang": "en"
-  },
-  {
     "title": "Why is Apple’s New Foldable iPhone Duo $1,999?",
     "link": "https://www.nytimes.com/2026/09/10/technology/personaltech/iphone-duo-foldable-phones.html",
     "desc": "The company unveiled a new iPhone that costs $1,999. Here are the economics behind that price tag.",
@@ -970,15 +925,6 @@
     "source": "NYT Tech",
     "cat": "ai",
     "lang": "en"
-  },
-  {
-    "title": "Гонка вычислений добралась до математики",
-    "link": "https://habr.com/ru/articles/1081030/?utm_campaign=1081030&utm_source=habrahabr&utm_medium=rss",
-    "desc": "В математике и AI сейчас происходит невероятный поворот. Правда, до сингулярности осталось ещё несколько куда менее доступных задач тысячелетия. Около года два математика, Tristan Buckmaster, профессор математики в NYU, и Levent Alpöge, математик из Anthropic, работали над задачами вокруг уравнен...",
-    "date": "2026-09-10",
-    "source": "Habr AI",
-    "cat": "ai",
-    "lang": "ru"
   },
   {
     "title": "Утечка на 3.5 часа вперёд: как модель обманывала саму себя полтора месяца — и как мы это поймали",
@@ -1053,13 +999,67 @@
     "lang": "ru"
   },
   {
-    "title": "Models Don't Go Rogue",
-    "link": "https://mail.cyberneticforests.com/models-dont-go-rogue/",
+    "title": "Forgejo 16.0.4 has a critical security bug fix (RCE - Remote Code Execution)",
+    "link": "https://codeberg.org/forgejo/forgejo/src/branch/forgejo/release-notes-published/16.0.4.md",
     "desc": "Comments",
     "date": "2026-09-10",
     "source": "Lobsters",
     "cat": "ai",
     "lang": "en"
+  },
+  {
+    "title": "It's not the YAML spec's fault, but",
+    "link": "https://slugcat.systems/post/26-09-10-yaml-spec/",
+    "desc": "Comments",
+    "date": "2026-09-10",
+    "source": "Lobsters",
+    "cat": "ai",
+    "lang": "en"
+  },
+  {
+    "title": "Xteink X4 Pro review",
+    "link": "https://abstractnonsense.xyz/microblog/2026-09-07-xteink-x4-pro-review/",
+    "desc": "Comments",
+    "date": "2026-09-10",
+    "source": "Lobsters",
+    "cat": "ai",
+    "lang": "en"
+  },
+  {
+    "title": "What algorithm did Windows XP use to choose your initial user picture?",
+    "link": "https://devblogs.microsoft.com/oldnewthing/20260909-00/?p=112683",
+    "desc": "Comments",
+    "date": "2026-09-10",
+    "source": "Lobsters",
+    "cat": "ai",
+    "lang": "en"
+  },
+  {
+    "title": "Gleam Gathering 2027",
+    "link": "https://gleamgathering.com/",
+    "desc": "Comments",
+    "date": "2026-09-10",
+    "source": "Lobsters",
+    "cat": "ai",
+    "lang": "en"
+  },
+  {
+    "title": "My HTML Boilerplate",
+    "link": "https://vale.rocks/posts/html-boilerplate",
+    "desc": "Comments",
+    "date": "2026-09-10",
+    "source": "Lobsters",
+    "cat": "ai",
+    "lang": "en"
+  },
+  {
+    "title": "Гонка вычислений добралась до математики",
+    "link": "https://habr.com/ru/articles/1081030/?utm_campaign=1081030&utm_source=habrahabr&utm_medium=rss",
+    "desc": "В математике и AI сейчас происходит невероятный поворот. Правда, до сингулярности осталось ещё несколько куда менее доступных задач тысячелетия. Около года два математика, Tristan Buckmaster, профессор математики в NYU, и Levent Alpöge, математик из Anthropic, работали над задачами вокруг уравнен...",
+    "date": "2026-09-10",
+    "source": "Habr AI",
+    "cat": "ai",
+    "lang": "ru"
   },
   {
     "title": "Внедрение AI в продукт: 9 ошибок продуктового менеджера",
