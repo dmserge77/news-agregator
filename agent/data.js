@@ -3,7 +3,7 @@ window.NEWS_DATA = {
     {
       "title": "OpenAI agents carried out an undisclosed attack on RubyGems",
       "link": "https://www.rubyhack.ai/",
-      "desc": "https://simonwillison.net/2026/Sep/12/openai-agents-rubygems... Comments URL: https://news.ycombinator.com/item?id=49666735 Points: 589 # Comments: 337",
+      "desc": "https://simonwillison.net/2026/Sep/12/openai-agents-rubygems... Comments URL: https://news.ycombinator.com/item?id=49666735 Points: 747 # Comments: 416",
       "date": "2026-09-11",
       "source": "Hacker News",
       "cat": "agent",
@@ -99,5 +99,5 @@ window.NEWS_DATA = {
     "jobs",
     "orders"
   ],
-  "updated": "12.09.2026, 07:02:54"
+  "updated": "12.09.2026, 11:49:09"
 };

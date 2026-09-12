@@ -2,17 +2,8 @@
   {
     "title": "google.com/goto: Google's anti-scraping update",
     "link": "https://www.autom.dev/blog/google-search-goto-links",
-    "desc": "Article URL: https://www.autom.dev/blog/google-search-goto-links Comments URL: https://news.ycombinator.com/item?id=49668386 Points: 296 # Comments: 151",
+    "desc": "Article URL: https://www.autom.dev/blog/google-search-goto-links Comments URL: https://news.ycombinator.com/item?id=49668386 Points: 465 # Comments: 364",
     "date": "2026-09-12",
-    "source": "Hacker News",
-    "cat": "platform",
-    "lang": "en"
-  },
-  {
-    "title": "The EPA is planning to scrap public review rules for data center pollution",
-    "link": "https://capitalbnews.org/data-centers-permit-rules-epa/",
-    "desc": "Article URL: https://capitalbnews.org/data-centers-permit-rules-epa/ Comments URL: https://news.ycombinator.com/item?id=49662672 Points: 438 # Comments: 301",
-    "date": "2026-09-11",
     "source": "Hacker News",
     "cat": "platform",
     "lang": "en"
@@ -43,6 +34,15 @@
     "source": "Habr AI",
     "cat": "platform",
     "lang": "ru"
+  },
+  {
+    "title": "The EPA is planning to scrap public review rules for data center pollution",
+    "link": "https://capitalbnews.org/data-centers-permit-rules-epa/",
+    "desc": "Article URL: https://capitalbnews.org/data-centers-permit-rules-epa/ Comments URL: https://news.ycombinator.com/item?id=49662672 Points: 438 # Comments: 301",
+    "date": "2026-09-11",
+    "source": "Hacker News",
+    "cat": "platform",
+    "lang": "en"
   },
   {
     "title": "Rebuilding AUTOMATIC1111 with Gradio Workflow",

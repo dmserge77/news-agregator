@@ -1,6 +1,15 @@
 window.NEWS_DATA = {
   "items": [
     {
+      "title": "Вот почему я не хочу вайбкодить вирусный SaaS-проект на миллион пользователей",
+      "link": "https://habr.com/ru/articles/1081540/?utm_campaign=1081540&utm_source=habrahabr&utm_medium=rss",
+      "desc": "Впечатление от вайбкодинга. Пилил сайты, телеграм-боты, дашборды. Сначала чувствовал себя Гарри Поттером на уроках запрещенной магии, потом подостыл. Ну смотрите, я говорю Codex: “сделай мне бота, пусть собирает посты, анализирует в ИИ” . И он реально это делает. За день или за вечер у меня появл...",
+      "date": "2026-09-12",
+      "source": "Habr AI",
+      "cat": "vibe",
+      "lang": "ru"
+    },
+    {
       "title": "Marketing ops as code: Automating events from planning to follow-up on GitHub",
       "link": "https://github.blog/ai-and-ml/github-copilot/marketing-ops-as-code-automating-events-from-planning-to-follow-up-on-github/",
       "desc": "If you can write down how you do your work, you can automate it. Here's what I did to support GitHub's APAC marketing team. The post Marketing ops as code: Automating events from planning to follow-up on GitHub appeared first on The GitHub Blog .",
@@ -90,5 +99,5 @@ window.NEWS_DATA = {
     "jobs",
     "orders"
   ],
-  "updated": "12.09.2026, 07:02:54"
+  "updated": "12.09.2026, 11:49:09"
 };

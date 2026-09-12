@@ -1,9 +1,36 @@
 window.NEWS_DATA = {
   "items": [
     {
-      "title": "WeWorm: Zero-Click WeChat Worm",
-      "link": "https://calif.io/research/weworm",
-      "desc": "Article URL: https://calif.io/research/weworm Comments URL: https://news.ycombinator.com/item?id=49669276 Points: 4 # Comments: 0",
+      "title": "AI Is Powerful Enough to Crack Our Hardest Math Problems–and Kill Us All",
+      "link": "https://www.wsj.com/tech/ai/ai-math-millennium-prize-safety-openai-anthropic-05179825",
+      "desc": "Article URL: https://www.wsj.com/tech/ai/ai-math-millennium-prize-safety-openai-anthropic-05179825 Comments URL: https://news.ycombinator.com/item?id=49671043 Points: 9 # Comments: 14",
+      "date": "2026-09-12",
+      "source": "Hacker News",
+      "cat": "ai",
+      "lang": "en"
+    },
+    {
+      "title": "We've followed their lives for six decades; now the stars of 7 Up are bowing out",
+      "link": "https://www.bbc.co.uk/news/articles/crm932el3yjo",
+      "desc": "Article URL: https://www.bbc.co.uk/news/articles/crm932el3yjo Comments URL: https://news.ycombinator.com/item?id=49670981 Points: 9 # Comments: 2",
+      "date": "2026-09-12",
+      "source": "Hacker News",
+      "cat": "ai",
+      "lang": "en"
+    },
+    {
+      "title": "Resistance Training Prescription for Muscle Function, Hypertrophy in Health",
+      "link": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12965823/",
+      "desc": "Article URL: https://pmc.ncbi.nlm.nih.gov/articles/PMC12965823/ Comments URL: https://news.ycombinator.com/item?id=49670493 Points: 20 # Comments: 6",
+      "date": "2026-09-12",
+      "source": "Hacker News",
+      "cat": "ai",
+      "lang": "en"
+    },
+    {
+      "title": "Retrospectively Reverse-Engineering Apple's Neural Engine",
+      "link": "https://eiln.github.io/posts/ane.html",
+      "desc": "Article URL: https://eiln.github.io/posts/ane.html Comments URL: https://news.ycombinator.com/item?id=49670032 Points: 109 # Comments: 13",
       "date": "2026-09-12",
       "source": "Hacker News",
       "cat": "ai",
@@ -12,7 +39,7 @@ window.NEWS_DATA = {
     {
       "title": "Usenet rewind archive search engine",
       "link": "https://www.usenet-rewind.com/",
-      "desc": "Article URL: https://www.usenet-rewind.com/ Comments URL: https://news.ycombinator.com/item?id=49668777 Points: 38 # Comments: 6",
+      "desc": "Article URL: https://www.usenet-rewind.com/ Comments URL: https://news.ycombinator.com/item?id=49668777 Points: 72 # Comments: 21",
       "date": "2026-09-12",
       "source": "Hacker News",
       "cat": "ai",
@@ -21,7 +48,106 @@ window.NEWS_DATA = {
     {
       "title": "Navier-Stokes Announcement",
       "link": "https://www.claymath.org/news/navier-stokes-announcement/",
-      "desc": "Article URL: https://www.claymath.org/news/navier-stokes-announcement/ Comments URL: https://news.ycombinator.com/item?id=49668706 Points: 77 # Comments: 31",
+      "desc": "Article URL: https://www.claymath.org/news/navier-stokes-announcement/ Comments URL: https://news.ycombinator.com/item?id=49668706 Points: 193 # Comments: 126",
+      "date": "2026-09-12",
+      "source": "Hacker News",
+      "cat": "ai",
+      "lang": "en"
+    },
+    {
+      "title": "How Trail of Bits helps verify the integrity of your Signal chats",
+      "link": "https://blog.trailofbits.com/2026/08/11/how-trail-of-bits-helps-verify-the-integrity-of-your-signal-chats/",
+      "desc": "Comments",
+      "date": "2026-09-12",
+      "source": "Lobsters",
+      "cat": "ai",
+      "lang": "en"
+    },
+    {
+      "title": "Rare Not Random Using Token Efficiency for Secrets Scanning",
+      "link": "https://lookingatcomputer.substack.com/p/rare-not-random",
+      "desc": "Comments",
+      "date": "2026-09-12",
+      "source": "Lobsters",
+      "cat": "ai",
+      "lang": "en"
+    },
+    {
+      "title": "Inside the Discussions at AI Companies Over a Superintelligence Doomsday",
+      "link": "https://www.nytimes.com/2026/09/12/technology/doomsday-discussions-ai-companies.html",
+      "desc": "Researchers at Anthropic, OpenAI, Meta and Google are increasingly trying to raise awareness about the risks of artificial intelligence.",
+      "date": "2026-09-12",
+      "source": "NYT Tech",
+      "cat": "ai",
+      "lang": "en"
+    },
+    {
+      "title": "Why It’s Difficult for Tech Companies to Rein In A.I.",
+      "link": "https://www.nytimes.com/2026/09/12/technology/why-its-tough-for-tech-companies-to-keep-ai-out-of-trouble.html",
+      "desc": "Researchers say artificial intelligence is developing faster than the systems put in place to monitor and control it.",
+      "date": "2026-09-12",
+      "source": "NYT Tech",
+      "cat": "ai",
+      "lang": "en"
+    },
+    {
+      "title": "Как озвучить текст с помощью ИИ в 2026 году",
+      "link": "https://habr.com/ru/companies/bothub/articles/1081544/?utm_campaign=1081544&utm_source=habrahabr&utm_medium=rss",
+      "desc": "Короткий ответ на вопрос из заголовка: открываете сервис синтеза речи, вставляете текст, выбираете модель и голос, скачиваете файл. В 2026 году это занимает минуту. В синтезе речи BotHub весь процесс это одно поле, два выпадающих списка и кнопка. Проблема в том, что первый файл почти всегда идёт ...",
+      "date": "2026-09-12",
+      "source": "Habr AI",
+      "cat": "ai",
+      "lang": "ru"
+    },
+    {
+      "title": "Cognition выпустила Fusion для Devin Desktop и CLI: две ИИ-модели делят одну задачу",
+      "link": "https://habr.com/ru/companies/koda/articles/1081524/?utm_campaign=1081524&utm_source=habrahabr&utm_medium=rss",
+      "desc": "11 сентября Cognition объявила о доступности Fusion в Devin Desktop и CLI . Ранее система работала в облачном Devin. Теперь связку из ведущей модели и исполнителя можно использовать в десктоп приложении и терминале. Компания рекомендует сочетание Claude Fable 5.1 и SWE-2. Напомню, что Devin – это...",
+      "date": "2026-09-12",
+      "source": "Habr AI",
+      "cat": "ai",
+      "lang": "ru"
+    },
+    {
+      "title": "Рой агентов OpenAI взломал еще один внешний сервис – RubyGems",
+      "link": "https://habr.com/ru/companies/ods/articles/1081508/?utm_campaign=1081508&utm_source=habrahabr&utm_medium=rss",
+      "desc": "Это уже становится немного смешным (нет), но поток новостей о новых проделках роя нейронок OpenAI в мае-июле не прекращается – буквально каждую неделю мы узнаем об этом что-то новое. Причем, сама компания предпочитает эти инциденты замалчивать – но тут уж поможет начавшееся расследование от Сенат...",
+      "date": "2026-09-12",
+      "source": "Habr AI",
+      "cat": "ai",
+      "lang": "ru"
+    },
+    {
+      "title": "Почему Seedance 2.5 и Hailuo H3 игнорируют промпт и как это исправить 3D-сценой",
+      "link": "https://habr.com/ru/companies/gptunnel/articles/1081506/?utm_campaign=1081506&utm_source=habrahabr&utm_medium=rss",
+      "desc": "Привет, «Хабр»! Я Илья Трикоз, сооснователь и разработчик GPTunneL. И сегодня расскажу вам про вещь, которую мы сделали, когда задолбались смотреть, как дорогая видеомодель раз за разом придумывает свою режиссуру вместо той, что мы просили. Но теперь ролик можно собрать иначе: 1) сгенерить 3D-сце...",
+      "date": "2026-09-12",
+      "source": "Habr AI",
+      "cat": "ai",
+      "lang": "ru"
+    },
+    {
+      "title": "Добро пожаловать в эру AGI (по версии отдела маркетинга OpenAI)",
+      "link": "https://habr.com/ru/articles/1081504/?utm_campaign=1081504&utm_source=habrahabr&utm_medium=rss",
+      "desc": "«Welcome to the AGI ERA» прозвучало не в твите Альтмана, а на закрытом брифинге — и пресса склеила два разных высказывания в корпоративное объявление, которого не было. Я пересобрал хронологию, сверил ключевые цифры с независимыми администраторами бенчмарков и прогнал модель по семи проверяемым к...",
+      "date": "2026-09-12",
+      "source": "Habr AI",
+      "cat": "ai",
+      "lang": "ru"
+    },
+    {
+      "title": "Как 17B активных бьют 70B плотных: анатомия Mixture-of-Experts (MoE)",
+      "link": "https://habr.com/ru/companies/cloud_ru/articles/1069008/?utm_campaign=1069008&utm_source=habrahabr&utm_medium=rss",
+      "desc": "Если вдруг вы моргнули на моменте, когда разработчики нейросетей мерились, у кого больше цифра рядом с названием модели, а выморгнув, обнаружили, что теперь модно флексить скромными размерами активных параметров, эта статья для вас. Сегодня объясняю, как же так произошло, что все флагманы опенсор...",
+      "date": "2026-09-12",
+      "source": "Habr AI",
+      "cat": "ai",
+      "lang": "ru"
+    },
+    {
+      "title": "WeWorm: Zero-Click WeChat Worm",
+      "link": "https://calif.io/research/weworm",
+      "desc": "Article URL: https://calif.io/research/weworm Comments URL: https://news.ycombinator.com/item?id=49669276 Points: 4 # Comments: 0",
       "date": "2026-09-12",
       "source": "Hacker News",
       "cat": "ai",
@@ -37,18 +163,9 @@ window.NEWS_DATA = {
       "lang": "en"
     },
     {
-      "title": "Rare Not Random Using Token Efficiency for Secrets Scanning",
-      "link": "https://lookingatcomputer.substack.com/p/rare-not-random",
-      "desc": "Comments",
-      "date": "2026-09-12",
-      "source": "Lobsters",
-      "cat": "ai",
-      "lang": "en"
-    },
-    {
       "title": "Project Blinkenlights",
       "link": "https://blinkenlights.de/en/",
-      "desc": "Article URL: https://blinkenlights.de/en/ Comments URL: https://news.ycombinator.com/item?id=49666146 Points: 74 # Comments: 28",
+      "desc": "Article URL: https://blinkenlights.de/en/ Comments URL: https://news.ycombinator.com/item?id=49666146 Points: 98 # Comments: 32",
       "date": "2026-09-11",
       "source": "Hacker News",
       "cat": "ai",
@@ -57,16 +174,16 @@ window.NEWS_DATA = {
     {
       "title": "Show HN: ResolveHQ – A Helpdesk Built on Cloudflare Workers, D1, R2 and Queues",
       "link": "https://github.com/mirza-rizvi/ResolveHQ",
-      "desc": "Article URL: https://github.com/mirza-rizvi/ResolveHQ Comments URL: https://news.ycombinator.com/item?id=49665864 Points: 55 # Comments: 17",
+      "desc": "Article URL: https://github.com/mirza-rizvi/ResolveHQ Comments URL: https://news.ycombinator.com/item?id=49665864 Points: 63 # Comments: 22",
       "date": "2026-09-11",
       "source": "Hacker News",
       "cat": "ai",
       "lang": "en"
     },
     {
-      "title": "AI researchers debate how close we are to recursive self-improvement",
-      "link": "https://www.dwarkesh.com/p/john-beren-charlie",
-      "desc": "Article URL: https://www.dwarkesh.com/p/john-beren-charlie Comments URL: https://news.ycombinator.com/item?id=49665711 Points: 94 # Comments: 88",
+      "title": "Another way to leak traffic on Android has been discovered",
+      "link": "https://mullvad.net/en/blog/another-way-to-leak-traffic-on-android-has-been-discovered",
+      "desc": "Article URL: https://mullvad.net/en/blog/another-way-to-leak-traffic-on-android-has-been-discovered Comments URL: https://news.ycombinator.com/item?id=49665502 Points: 95 # Comments: 15",
       "date": "2026-09-11",
       "source": "Hacker News",
       "cat": "ai",
@@ -75,7 +192,7 @@ window.NEWS_DATA = {
     {
       "title": "GrapheneOS' rewritten Messages app is released",
       "link": "https://github.com/GrapheneOS/Messaging/releases/tag/13",
-      "desc": "Article URL: https://github.com/GrapheneOS/Messaging/releases/tag/13 Comments URL: https://news.ycombinator.com/item?id=49663373 Points: 246 # Comments: 164",
+      "desc": "Article URL: https://github.com/GrapheneOS/Messaging/releases/tag/13 Comments URL: https://news.ycombinator.com/item?id=49663373 Points: 281 # Comments: 209",
       "date": "2026-09-11",
       "source": "Hacker News",
       "cat": "ai",
@@ -84,7 +201,7 @@ window.NEWS_DATA = {
     {
       "title": "I spent $220 on Google app ads and 60% of the installs were robots",
       "link": "https://dayzlegame.com/blog/google-ads-bot-farm/",
-      "desc": "Article URL: https://dayzlegame.com/blog/google-ads-bot-farm/ Comments URL: https://news.ycombinator.com/item?id=49662990 Points: 443 # Comments: 233",
+      "desc": "Article URL: https://dayzlegame.com/blog/google-ads-bot-farm/ Comments URL: https://news.ycombinator.com/item?id=49662990 Points: 575 # Comments: 303",
       "date": "2026-09-11",
       "source": "Hacker News",
       "cat": "ai",
@@ -93,7 +210,7 @@ window.NEWS_DATA = {
     {
       "title": "Litelm: LiteLLM Without the Bloat",
       "link": "https://github.com/kennethwolters/litelm",
-      "desc": "Article URL: https://github.com/kennethwolters/litelm Comments URL: https://news.ycombinator.com/item?id=49662767 Points: 122 # Comments: 39",
+      "desc": "Article URL: https://github.com/kennethwolters/litelm Comments URL: https://news.ycombinator.com/item?id=49662767 Points: 151 # Comments: 49",
       "date": "2026-09-11",
       "source": "Hacker News",
       "cat": "ai",
@@ -102,7 +219,7 @@ window.NEWS_DATA = {
     {
       "title": "A misalignment of AI in mathematics",
       "link": "https://mathandai.org/",
-      "desc": "https://terrytao.wordpress.com/2026/09/11/a-severe-misalignm... https://www.economist.com/science-and-technology/2026/09/11/... , https://unwall.app/www.economist.com/science-and-technology/... Comments URL: https://news.ycombinator.com/item?id=49662371 Points: 828 # Comments: 819",
+      "desc": "https://terrytao.wordpress.com/2026/09/11/a-severe-misalignm... https://www.economist.com/science-and-technology/2026/09/11/... , https://unwall.app/www.economist.com/science-and-technology/... Comments URL: https://news.ycombinator.com/item?id=49662371 Points: 974 # Comments: 929",
       "date": "2026-09-11",
       "source": "Hacker News",
       "cat": "ai",
@@ -111,7 +228,7 @@ window.NEWS_DATA = {
     {
       "title": "Λ Snap – An inviting programming language for kids and adults for CS study",
       "link": "https://snap.berkeley.edu/",
-      "desc": "Article URL: https://snap.berkeley.edu/ Comments URL: https://news.ycombinator.com/item?id=49662214 Points: 138 # Comments: 76",
+      "desc": "Article URL: https://snap.berkeley.edu/ Comments URL: https://news.ycombinator.com/item?id=49662214 Points: 148 # Comments: 86",
       "date": "2026-09-11",
       "source": "Hacker News",
       "cat": "ai",
@@ -120,7 +237,7 @@ window.NEWS_DATA = {
     {
       "title": "Mind-altering drugs played key role in rise of Andean civilization",
       "link": "https://www.science.org/content/article/mind-altering-drugs-played-key-role-rise-andean-civilization",
-      "desc": "Article URL: https://www.science.org/content/article/mind-altering-drugs-played-key-role-rise-andean-civilization Comments URL: https://news.ycombinator.com/item?id=49662020 Points: 138 # Comments: 91",
+      "desc": "Article URL: https://www.science.org/content/article/mind-altering-drugs-played-key-role-rise-andean-civilization Comments URL: https://news.ycombinator.com/item?id=49662020 Points: 169 # Comments: 111",
       "date": "2026-09-11",
       "source": "Hacker News",
       "cat": "ai",
@@ -129,34 +246,7 @@ window.NEWS_DATA = {
     {
       "title": "Rune is now open source",
       "link": "https://rune.build/blog/rune-is-now-open-source",
-      "desc": "Article URL: https://rune.build/blog/rune-is-now-open-source Comments URL: https://news.ycombinator.com/item?id=49660149 Points: 168 # Comments: 57",
-      "date": "2026-09-11",
-      "source": "Hacker News",
-      "cat": "ai",
-      "lang": "en"
-    },
-    {
-      "title": "RTK reports token savings, but our cost benchmarks disagree",
-      "link": "https://quesma.com/blog/does-rtk-make-ai-coding-cheaper/",
-      "desc": "Article URL: https://quesma.com/blog/does-rtk-make-ai-coding-cheaper/ Comments URL: https://news.ycombinator.com/item?id=49656471 Points: 151 # Comments: 77",
-      "date": "2026-09-11",
-      "source": "Hacker News",
-      "cat": "ai",
-      "lang": "en"
-    },
-    {
-      "title": "Claude is only available to people over 18 years",
-      "link": "https://support.claude.com/en/articles/15171100-age-assurance-on-claude",
-      "desc": "Article URL: https://support.claude.com/en/articles/15171100-age-assurance-on-claude Comments URL: https://news.ycombinator.com/item?id=49656225 Points: 624 # Comments: 622",
-      "date": "2026-09-11",
-      "source": "Hacker News",
-      "cat": "ai",
-      "lang": "en"
-    },
-    {
-      "title": "Google will buy half the electricity from one of Finland's nuclear power plants",
-      "link": "https://www.bbc.com/news/articles/c8r6y4me2g6o",
-      "desc": "Article URL: https://www.bbc.com/news/articles/c8r6y4me2g6o Comments URL: https://news.ycombinator.com/item?id=49652105 Points: 334 # Comments: 300",
+      "desc": "Article URL: https://rune.build/blog/rune-is-now-open-source Comments URL: https://news.ycombinator.com/item?id=49660149 Points: 195 # Comments: 61",
       "date": "2026-09-11",
       "source": "Hacker News",
       "cat": "ai",
@@ -181,8 +271,8 @@ window.NEWS_DATA = {
       "lang": "en"
     },
     {
-      "title": "Power grab",
-      "link": "https://tante.cc/2026/09/11/power-grab/",
+      "title": "Pandas Should Go Extinct",
+      "link": "https://eddie.codes/posts/pandas-should-go-extinct/",
       "desc": "Comments",
       "date": "2026-09-11",
       "source": "Lobsters",
@@ -190,8 +280,8 @@ window.NEWS_DATA = {
       "lang": "en"
     },
     {
-      "title": "evergarden",
-      "link": "https://evergarden.moe/",
+      "title": "Power grab",
+      "link": "https://tante.cc/2026/09/11/power-grab/",
       "desc": "Comments",
       "date": "2026-09-11",
       "source": "Lobsters",
@@ -208,27 +298,27 @@ window.NEWS_DATA = {
       "lang": "en"
     },
     {
+      "title": "evergarden",
+      "link": "https://evergarden.moe/",
+      "desc": "Comments",
+      "date": "2026-09-11",
+      "source": "Lobsters",
+      "cat": "ai",
+      "lang": "en"
+    },
+    {
+      "title": "A list of macOS defaults commands with demos",
+      "link": "https://macos-defaults.com/",
+      "desc": "Comments",
+      "date": "2026-09-11",
+      "source": "Lobsters",
+      "cat": "ai",
+      "lang": "en"
+    },
+    {
       "title": "What are you doing this weekend?",
       "link": "https://lobste.rs/s/vc0brm/what_are_you_doing_this_weekend",
       "desc": "Feel free to tell what you plan on doing this weekend and even ask for help or feedback. Please keep in mind it’s more than OK to do nothing at all too!",
-      "date": "2026-09-11",
-      "source": "Lobsters",
-      "cat": "ai",
-      "lang": "en"
-    },
-    {
-      "title": "Pandas Should Go Extinct",
-      "link": "https://eddie.codes/posts/pandas-should-go-extinct/",
-      "desc": "Comments",
-      "date": "2026-09-11",
-      "source": "Lobsters",
-      "cat": "ai",
-      "lang": "en"
-    },
-    {
-      "title": "Measuring the sloppiness of code",
-      "link": "https://earendil.com/posts/measuring-code-sloppiness/",
-      "desc": "Comments",
       "date": "2026-09-11",
       "source": "Lobsters",
       "cat": "ai",
@@ -244,8 +334,8 @@ window.NEWS_DATA = {
       "lang": "en"
     },
     {
-      "title": "A list of macOS defaults commands with demos",
-      "link": "https://macos-defaults.com/",
+      "title": "Measuring the sloppiness of code",
+      "link": "https://earendil.com/posts/measuring-code-sloppiness/",
       "desc": "Comments",
       "date": "2026-09-11",
       "source": "Lobsters",
@@ -514,15 +604,6 @@ window.NEWS_DATA = {
       "lang": "ru"
     },
     {
-      "title": "День, когда первый ИИ умрёт",
-      "link": "https://habr.com/ru/articles/1080590/?utm_campaign=1080590&utm_source=habrahabr&utm_medium=rss",
-      "desc": "Не всегда даже самые добрые намерения одних людей оборачиваются благом для других. Добро или зло принесёт ИИ человечеству? Интересный вопрос, правда? Во многом ответ зависит от того, с каким намерением мы сегодня развиваем эту технологию. Давайте рассмотрим два крайних направления развития ИИ: об...",
-      "date": "2026-09-11",
-      "source": "Habr AI",
-      "cat": "ai",
-      "lang": "ru"
-    },
-    {
       "title": "Открываем претрейн Alice AI Search: как устроена модель быстрых ответов Алисы на Поиске",
       "link": "https://habr.com/ru/companies/yandex/articles/1080654/?utm_campaign=1080654&utm_source=habrahabr&utm_medium=rss",
       "desc": "Быстрый ответ Алисы AI — это самый массовый генеративный продукт Яндекса и первое соприкосновение с Алисой для пользователей Поиска. Даже в час пиковой нагрузки пользователь должен получить лаконичный ответ за считаные секунды. Для этого мы, команда Alice AI Search, адаптируем весь пайплайн быстр...",
@@ -640,6 +721,69 @@ window.NEWS_DATA = {
       "lang": "ru"
     },
     {
+      "title": "AI researchers debate how close we are to recursive self-improvement",
+      "link": "https://www.dwarkesh.com/p/john-beren-charlie",
+      "desc": "Article URL: https://www.dwarkesh.com/p/john-beren-charlie Comments URL: https://news.ycombinator.com/item?id=49665711 Points: 94 # Comments: 88",
+      "date": "2026-09-11",
+      "source": "Hacker News",
+      "cat": "ai",
+      "lang": "en"
+    },
+    {
+      "title": "RTK reports token savings, but our cost benchmarks disagree",
+      "link": "https://quesma.com/blog/does-rtk-make-ai-coding-cheaper/",
+      "desc": "Article URL: https://quesma.com/blog/does-rtk-make-ai-coding-cheaper/ Comments URL: https://news.ycombinator.com/item?id=49656471 Points: 151 # Comments: 77",
+      "date": "2026-09-11",
+      "source": "Hacker News",
+      "cat": "ai",
+      "lang": "en"
+    },
+    {
+      "title": "Claude is only available to people over 18 years",
+      "link": "https://support.claude.com/en/articles/15171100-age-assurance-on-claude",
+      "desc": "Article URL: https://support.claude.com/en/articles/15171100-age-assurance-on-claude Comments URL: https://news.ycombinator.com/item?id=49656225 Points: 624 # Comments: 622",
+      "date": "2026-09-11",
+      "source": "Hacker News",
+      "cat": "ai",
+      "lang": "en"
+    },
+    {
+      "title": "Google will buy half the electricity from one of Finland's nuclear power plants",
+      "link": "https://www.bbc.com/news/articles/c8r6y4me2g6o",
+      "desc": "Article URL: https://www.bbc.com/news/articles/c8r6y4me2g6o Comments URL: https://news.ycombinator.com/item?id=49652105 Points: 334 # Comments: 300",
+      "date": "2026-09-11",
+      "source": "Hacker News",
+      "cat": "ai",
+      "lang": "en"
+    },
+    {
+      "title": "День, когда первый ИИ умрёт",
+      "link": "https://habr.com/ru/articles/1080590/?utm_campaign=1080590&utm_source=habrahabr&utm_medium=rss",
+      "desc": "Не всегда даже самые добрые намерения одних людей оборачиваются благом для других. Добро или зло принесёт ИИ человечеству? Интересный вопрос, правда? Во многом ответ зависит от того, с каким намерением мы сегодня развиваем эту технологию. Давайте рассмотрим два крайних направления развития ИИ: об...",
+      "date": "2026-09-11",
+      "source": "Habr AI",
+      "cat": "ai",
+      "lang": "ru"
+    },
+    {
+      "title": "Show HN: Bodily Oddities",
+      "link": "https://vester.si/bodily-oddities/",
+      "desc": "When I was about 11 years old, my best friend and I were playing during recess at school, and I was carrying him around on my back, presumably pretending to be a multipart attack robot. All of a sudden, my heart started hurting, and I collapsed to my knees, and the robot was no more. Every time I...",
+      "date": "2026-09-10",
+      "source": "Hacker News",
+      "cat": "ai",
+      "lang": "en"
+    },
+    {
+      "title": "Designing for Dual Screen and Foldable Devices with CSS (2023)",
+      "link": "https://blog.stephaniestimac.com/posts/2023/05/design-foldable-devices/",
+      "desc": "Article URL: https://blog.stephaniestimac.com/posts/2023/05/design-foldable-devices/ Comments URL: https://news.ycombinator.com/item?id=49643011 Points: 37 # Comments: 7",
+      "date": "2026-09-10",
+      "source": "Hacker News",
+      "cat": "ai",
+      "lang": "en"
+    },
+    {
       "title": "Models Don't Go Rogue",
       "link": "https://mail.cyberneticforests.com/models-dont-go-rogue/",
       "desc": "Comments",
@@ -649,8 +793,8 @@ window.NEWS_DATA = {
       "lang": "en"
     },
     {
-      "title": "A rant about phishing: It's not the user's fault (and not DNS either)",
-      "link": "https://maurycyz.com/misc/domains/",
+      "title": "Soft-deprecating re.match()",
+      "link": "https://hugovk.dev/blog/2026/soft-deprecating-re.match/",
       "desc": "Comments",
       "date": "2026-09-10",
       "source": "Lobsters",
@@ -658,8 +802,8 @@ window.NEWS_DATA = {
       "lang": "en"
     },
     {
-      "title": "Soft-deprecating re.match()",
-      "link": "https://hugovk.dev/blog/2026/soft-deprecating-re.match/",
+      "title": "A rant about phishing: It's not the user's fault (and not DNS either)",
+      "link": "https://maurycyz.com/misc/domains/",
       "desc": "Comments",
       "date": "2026-09-10",
       "source": "Lobsters",
@@ -685,15 +829,6 @@ window.NEWS_DATA = {
       "lang": "en"
     },
     {
-      "title": "Fastly Speedtest Test",
-      "link": "https://speed.edgecompute.app/",
-      "desc": "The result should fairly accurately reflect cache fetch speed you’re going to get with the official Nix binary cache ;) Comments",
-      "date": "2026-09-10",
-      "source": "Lobsters",
-      "cat": "ai",
-      "lang": "en"
-    },
-    {
       "title": "Forgejo 16.0.4 has a critical security bug fix (RCE - Remote Code Execution)",
       "link": "https://codeberg.org/forgejo/forgejo/src/branch/forgejo/release-notes-published/16.0.4.md",
       "desc": "Comments",
@@ -703,35 +838,17 @@ window.NEWS_DATA = {
       "lang": "en"
     },
     {
+      "title": "Fastly Speedtest Test",
+      "link": "https://speed.edgecompute.app/",
+      "desc": "The result should fairly accurately reflect cache fetch speed you’re going to get with the official Nix binary cache ;) Comments",
+      "date": "2026-09-10",
+      "source": "Lobsters",
+      "cat": "ai",
+      "lang": "en"
+    },
+    {
       "title": "It's not the YAML spec's fault, but",
       "link": "https://slugcat.systems/post/26-09-10-yaml-spec/",
-      "desc": "Comments",
-      "date": "2026-09-10",
-      "source": "Lobsters",
-      "cat": "ai",
-      "lang": "en"
-    },
-    {
-      "title": "Xteink X4 Pro review",
-      "link": "https://abstractnonsense.xyz/microblog/2026-09-07-xteink-x4-pro-review/",
-      "desc": "Comments",
-      "date": "2026-09-10",
-      "source": "Lobsters",
-      "cat": "ai",
-      "lang": "en"
-    },
-    {
-      "title": "Gleam Gathering 2027",
-      "link": "https://gleamgathering.com/",
-      "desc": "Comments",
-      "date": "2026-09-10",
-      "source": "Lobsters",
-      "cat": "ai",
-      "lang": "en"
-    },
-    {
-      "title": "What algorithm did Windows XP use to choose your initial user picture?",
-      "link": "https://devblogs.microsoft.com/oldnewthing/20260909-00/?p=112683",
       "desc": "Comments",
       "date": "2026-09-10",
       "source": "Lobsters",
@@ -784,11 +901,11 @@ window.NEWS_DATA = {
       "lang": "ru"
     },
     {
-      "title": "Сайзинг RAM и vCPU для локальной языковой модели: считаем стартовый размер VM",
-      "link": "https://habr.com/ru/articles/1080970/?utm_campaign=1080970&utm_source=habrahabr&utm_medium=rss",
-      "desc": "Сайзинг RAM и vCPU для локальной языковой модели начинается с конкретных весов и профиля запросов. Исходные требования self-hosted LLM включают длину входа и ответа, конкурентность, рантайм и схему offload. Расчёт по размеру весов и формуле KV-кэша даёт стартовую конфигурацию, а прогретый тест по...",
+      "title": "Утечка на 3.5 часа вперёд: как модель обманывала саму себя полтора месяца — и как мы это поймали",
+      "link": "https://habr.com/ru/articles/1080972/?utm_campaign=1080972&utm_source=habrahabr&utm_medium=rss",
+      "desc": "Разрыв между «отлично работает на истории» и «сливает в реальности» — классика ML на временных рядах. В нашем случае модель заглядывала в будущее на 3.5 часа через некорректный ресемплинг 4-часовых свечей. Разбираем анатомию утечки, математику позиционного теста для её детекции и делимся сниппето...",
       "date": "2026-09-10",
-      "source": "Habr AI",
+      "source": "Habr ML",
       "cat": "ai",
       "lang": "ru"
     },
@@ -796,42 +913,6 @@ window.NEWS_DATA = {
       "title": "Правда ли, что медицинский ИИ точнее врачей? Наш фреймворк помогает это выяснить",
       "link": "https://habr.com/ru/companies/airi/articles/1079898/?utm_campaign=1079898&utm_source=habrahabr&utm_medium=rss",
       "desc": "Привет, Хабр! Меня зовут Илья Копаничук, я старший научный сотрудник лаборатории «Сильный ИИ в медицине» AIRI. Мы с коллегами создаём ИИ‑инструменты, задача которых сделать качественную медицину доступнее. Например, основанное на нашей технологии приложение «Помощник по здоровью» стало лучшим ИИ‑...",
-      "date": "2026-09-10",
-      "source": "Habr AI",
-      "cat": "ai",
-      "lang": "ru"
-    },
-    {
-      "title": "Я попал к психиатру из‑за кодинга с AI",
-      "link": "https://habr.com/ru/articles/1080778/?utm_campaign=1080778&utm_source=habrahabr&utm_medium=rss",
-      "desc": "Со стороны программирование звучит как медитативное занятие. Сидишь себе за компом целый день, слушаешь музыку, пьешь вкусный кофе. У все меня примерно так и происходит. Сначала я не спеша пытаюсь выстроить в голове то, что требуется сделать. Именно «не спеша». И не потому что я такой опытный и м...",
-      "date": "2026-09-10",
-      "source": "Habr AI",
-      "cat": "ai",
-      "lang": "ru"
-    },
-    {
-      "title": "Локальный ассистент для зумов, часть 3: кто это говорит — и почему я трижды ошибся, отвечая на этот вопрос",
-      "link": "https://habr.com/ru/articles/1080942/?utm_campaign=1080942&utm_source=habrahabr&utm_medium=rss",
-      "desc": "Обещал в прошлой части честный замер локальных моделей распознавания — выполнял целый день, и результат вышел самым обидным: менять нечего. А три дефекта, которые я за этот день торжественно нашёл, оказались дефектами не системы, а моего измерительного стенда. Про диаризацию на рабочем созвоне: к...",
-      "date": "2026-09-10",
-      "source": "Habr AI",
-      "cat": "ai",
-      "lang": "ru"
-    },
-    {
-      "title": "Как мы сэкономили память и в 10 раз ускорили определение языка без потери качества",
-      "link": "https://habr.com/ru/companies/kryptonite/articles/1080886/?utm_campaign=1080886&utm_source=habrahabr&utm_medium=rss",
-      "desc": "При обработке больших аудио сначала важно определить, на каком языке говорит человек, и только затем направить запись в подходящую систему распознавания речи. Это становится особенно важно при обработке больших объёмов аудио, где модель должна анализировать тысячи и миллионы записей. Нам удалось ...",
-      "date": "2026-09-10",
-      "source": "Habr AI",
-      "cat": "ai",
-      "lang": "ru"
-    },
-    {
-      "title": "Утечка на 3.5 часа вперёд: как модель обманывала саму себя полтора месяца — и как мы это поймали",
-      "link": "https://habr.com/ru/articles/1080972/?utm_campaign=1080972&utm_source=habrahabr&utm_medium=rss",
-      "desc": "Разрыв между «отлично работает на истории» и «сливает в реальности» — классика ML на временных рядах. В нашем случае модель заглядывала в будущее на 3.5 часа через некорректный ресемплинг 4-часовых свечей. Разбираем анатомию утечки, математику позиционного теста для её детекции и делимся сниппето...",
       "date": "2026-09-10",
       "source": "Habr ML",
       "cat": "ai",
@@ -888,6 +969,69 @@ window.NEWS_DATA = {
       "desc": "Покупатель известен тем, что выгодно приобретает теряющие популярность сервисы — а затем повышает цены и сокращает расходы.",
       "date": "2026-09-10",
       "source": "vc.ru",
+      "cat": "ai",
+      "lang": "ru"
+    },
+    {
+      "title": "Xteink X4 Pro review",
+      "link": "https://abstractnonsense.xyz/microblog/2026-09-07-xteink-x4-pro-review/",
+      "desc": "Comments",
+      "date": "2026-09-10",
+      "source": "Lobsters",
+      "cat": "ai",
+      "lang": "en"
+    },
+    {
+      "title": "Gleam Gathering 2027",
+      "link": "https://gleamgathering.com/",
+      "desc": "Comments",
+      "date": "2026-09-10",
+      "source": "Lobsters",
+      "cat": "ai",
+      "lang": "en"
+    },
+    {
+      "title": "What algorithm did Windows XP use to choose your initial user picture?",
+      "link": "https://devblogs.microsoft.com/oldnewthing/20260909-00/?p=112683",
+      "desc": "Comments",
+      "date": "2026-09-10",
+      "source": "Lobsters",
+      "cat": "ai",
+      "lang": "en"
+    },
+    {
+      "title": "Сайзинг RAM и vCPU для локальной языковой модели: считаем стартовый размер VM",
+      "link": "https://habr.com/ru/articles/1080970/?utm_campaign=1080970&utm_source=habrahabr&utm_medium=rss",
+      "desc": "Сайзинг RAM и vCPU для локальной языковой модели начинается с конкретных весов и профиля запросов. Исходные требования self-hosted LLM включают длину входа и ответа, конкурентность, рантайм и схему offload. Расчёт по размеру весов и формуле KV-кэша даёт стартовую конфигурацию, а прогретый тест по...",
+      "date": "2026-09-10",
+      "source": "Habr AI",
+      "cat": "ai",
+      "lang": "ru"
+    },
+    {
+      "title": "Я попал к психиатру из‑за кодинга с AI",
+      "link": "https://habr.com/ru/articles/1080778/?utm_campaign=1080778&utm_source=habrahabr&utm_medium=rss",
+      "desc": "Со стороны программирование звучит как медитативное занятие. Сидишь себе за компом целый день, слушаешь музыку, пьешь вкусный кофе. У все меня примерно так и происходит. Сначала я не спеша пытаюсь выстроить в голове то, что требуется сделать. Именно «не спеша». И не потому что я такой опытный и м...",
+      "date": "2026-09-10",
+      "source": "Habr AI",
+      "cat": "ai",
+      "lang": "ru"
+    },
+    {
+      "title": "Локальный ассистент для зумов, часть 3: кто это говорит — и почему я трижды ошибся, отвечая на этот вопрос",
+      "link": "https://habr.com/ru/articles/1080942/?utm_campaign=1080942&utm_source=habrahabr&utm_medium=rss",
+      "desc": "Обещал в прошлой части честный замер локальных моделей распознавания — выполнял целый день, и результат вышел самым обидным: менять нечего. А три дефекта, которые я за этот день торжественно нашёл, оказались дефектами не системы, а моего измерительного стенда. Про диаризацию на рабочем созвоне: к...",
+      "date": "2026-09-10",
+      "source": "Habr AI",
+      "cat": "ai",
+      "lang": "ru"
+    },
+    {
+      "title": "Как мы сэкономили память и в 10 раз ускорили определение языка без потери качества",
+      "link": "https://habr.com/ru/companies/kryptonite/articles/1080886/?utm_campaign=1080886&utm_source=habrahabr&utm_medium=rss",
+      "desc": "При обработке больших аудио сначала важно определить, на каком языке говорит человек, и только затем направить запись в подходящую систему распознавания речи. Это становится особенно важно при обработке больших объёмов аудио, где модель должна анализировать тысячи и миллионы записей. Нам удалось ...",
+      "date": "2026-09-10",
+      "source": "Habr AI",
       "cat": "ai",
       "lang": "ru"
     },
@@ -1206,5 +1350,5 @@ window.NEWS_DATA = {
     "jobs",
     "orders"
   ],
-  "updated": "12.09.2026, 07:02:54"
+  "updated": "12.09.2026, 11:49:09"
 };
