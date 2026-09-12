@@ -1,8 +1,17 @@
 [
   {
+    "title": "Show HN: Liniora – Ever thought about replacing your project manager?",
+    "link": "https://liniora.com",
+    "desc": "Hi HN, the title could be a little bit aggressive sorry for that... Basically i am Computer engineer graduated recently but i was and still working remotely for approx. 3 years with the same foreign company in EU. and i noticed that we are always somehow lose the context of a ticket -- even thoug...",
+    "date": "2026-09-12",
+    "source": "Hacker News",
+    "cat": "ai",
+    "lang": "en"
+  },
+  {
     "title": "Fuck it, make it anyway",
     "link": "https://www.joelotter.com/posts/2026/09/make-it-anyway/",
-    "desc": "Article URL: https://www.joelotter.com/posts/2026/09/make-it-anyway/ Comments URL: https://news.ycombinator.com/item?id=49671329 Points: 77 # Comments: 42",
+    "desc": "Article URL: https://www.joelotter.com/posts/2026/09/make-it-anyway/ Comments URL: https://news.ycombinator.com/item?id=49671329 Points: 98 # Comments: 56",
     "date": "2026-09-12",
     "source": "Hacker News",
     "cat": "ai",
@@ -11,16 +20,7 @@
   {
     "title": "Crypto farm in Mexican mountains puts spotlight on cartel funding",
     "link": "https://www.reuters.com/world/americas/hidden-crypto-farm-mexican-mountains-puts-spotlight-cartel-funding-2026-09-12/",
-    "desc": "Article URL: https://www.reuters.com/world/americas/hidden-crypto-farm-mexican-mountains-puts-spotlight-cartel-funding-2026-09-12/ Comments URL: https://news.ycombinator.com/item?id=49671296 Points: 11 # Comments: 0",
-    "date": "2026-09-12",
-    "source": "Hacker News",
-    "cat": "ai",
-    "lang": "en"
-  },
-  {
-    "title": "Altman tells staff OpenAI is open to slowing AI development",
-    "link": "https://www.reuters.com/business/altman-tells-staff-openai-is-open-slowing-ai-development-bloomberg-news-reports-2026-09-11/",
-    "desc": "Article URL: https://www.reuters.com/business/altman-tells-staff-openai-is-open-slowing-ai-development-bloomberg-news-reports-2026-09-11/ Comments URL: https://news.ycombinator.com/item?id=49671274 Points: 17 # Comments: 24",
+    "desc": "Article URL: https://www.reuters.com/world/americas/hidden-crypto-farm-mexican-mountains-puts-spotlight-cartel-funding-2026-09-12/ Comments URL: https://news.ycombinator.com/item?id=49671296 Points: 13 # Comments: 0",
     "date": "2026-09-12",
     "source": "Hacker News",
     "cat": "ai",
@@ -29,7 +29,7 @@
   {
     "title": "We've followed their lives for six decades; now the stars of 7 Up are bowing out",
     "link": "https://www.bbc.co.uk/news/articles/crm932el3yjo",
-    "desc": "Article URL: https://www.bbc.co.uk/news/articles/crm932el3yjo Comments URL: https://news.ycombinator.com/item?id=49670981 Points: 24 # Comments: 7",
+    "desc": "Article URL: https://www.bbc.co.uk/news/articles/crm932el3yjo Comments URL: https://news.ycombinator.com/item?id=49670981 Points: 26 # Comments: 7",
     "date": "2026-09-12",
     "source": "Hacker News",
     "cat": "ai",
@@ -38,7 +38,7 @@
   {
     "title": "Resistance Training Prescription for Muscle Function, Hypertrophy in Health",
     "link": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12965823/",
-    "desc": "Article URL: https://pmc.ncbi.nlm.nih.gov/articles/PMC12965823/ Comments URL: https://news.ycombinator.com/item?id=49670493 Points: 30 # Comments: 12",
+    "desc": "Article URL: https://pmc.ncbi.nlm.nih.gov/articles/PMC12965823/ Comments URL: https://news.ycombinator.com/item?id=49670493 Points: 31 # Comments: 12",
     "date": "2026-09-12",
     "source": "Hacker News",
     "cat": "ai",
@@ -47,7 +47,7 @@
   {
     "title": "Retrospectively Reverse-Engineering Apple's Neural Engine",
     "link": "https://eiln.github.io/posts/ane.html",
-    "desc": "Article URL: https://eiln.github.io/posts/ane.html Comments URL: https://news.ycombinator.com/item?id=49670032 Points: 125 # Comments: 15",
+    "desc": "Article URL: https://eiln.github.io/posts/ane.html Comments URL: https://news.ycombinator.com/item?id=49670032 Points: 127 # Comments: 16",
     "date": "2026-09-12",
     "source": "Hacker News",
     "cat": "ai",
@@ -56,7 +56,7 @@
   {
     "title": "Usenet rewind archive search engine",
     "link": "https://www.usenet-rewind.com/",
-    "desc": "Article URL: https://www.usenet-rewind.com/ Comments URL: https://news.ycombinator.com/item?id=49668777 Points: 82 # Comments: 27",
+    "desc": "Article URL: https://www.usenet-rewind.com/ Comments URL: https://news.ycombinator.com/item?id=49668777 Points: 83 # Comments: 27",
     "date": "2026-09-12",
     "source": "Hacker News",
     "cat": "ai",
@@ -65,7 +65,7 @@
   {
     "title": "Navier-Stokes Announcement",
     "link": "https://www.claymath.org/news/navier-stokes-announcement/",
-    "desc": "Article URL: https://www.claymath.org/news/navier-stokes-announcement/ Comments URL: https://news.ycombinator.com/item?id=49668706 Points: 201 # Comments: 136",
+    "desc": "Article URL: https://www.claymath.org/news/navier-stokes-announcement/ Comments URL: https://news.ycombinator.com/item?id=49668706 Points: 206 # Comments: 135",
     "date": "2026-09-12",
     "source": "Hacker News",
     "cat": "ai",
@@ -110,6 +110,15 @@
   {
     "title": "Rare Not Random Using Token Efficiency for Secrets Scanning",
     "link": "https://lookingatcomputer.substack.com/p/rare-not-random",
+    "desc": "Comments",
+    "date": "2026-09-12",
+    "source": "Lobsters",
+    "cat": "ai",
+    "lang": "en"
+  },
+  {
+    "title": "Rune is now open source",
+    "link": "https://rune.build/blog/rune-is-now-open-source",
     "desc": "Comments",
     "date": "2026-09-12",
     "source": "Lobsters",
@@ -189,6 +198,24 @@
     "lang": "ru"
   },
   {
+    "title": "PostgreSQL умер, да здравствует… PostgreSQL?",
+    "link": "https://habr.com/ru/articles/1081568/?utm_campaign=1081568&utm_source=habrahabr&utm_medium=rss",
+    "desc": "Привет, Хабр. Я хочу рассказать историю, которую вы уже, наверняка, где-то слышали. Только с другой стороны. Пару месяцев назад я сидела на созвоне с техдиром стартапа, который делал RAG-систему для юридических документов. Он сказал, что они уходят с Postgres на Pinecone, потому что Postgres для ...",
+    "date": "2026-09-12",
+    "source": "Habr ML",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "Altman tells staff OpenAI is open to slowing AI development",
+    "link": "https://www.reuters.com/business/altman-tells-staff-openai-is-open-slowing-ai-development-bloomberg-news-reports-2026-09-11/",
+    "desc": "Article URL: https://www.reuters.com/business/altman-tells-staff-openai-is-open-slowing-ai-development-bloomberg-news-reports-2026-09-11/ Comments URL: https://news.ycombinator.com/item?id=49671274 Points: 17 # Comments: 24",
+    "date": "2026-09-12",
+    "source": "Hacker News",
+    "cat": "ai",
+    "lang": "en"
+  },
+  {
     "title": "AI Is Powerful Enough to Crack Our Hardest Math Problems–and Kill Us All",
     "link": "https://www.wsj.com/tech/ai/ai-math-millennium-prize-safety-openai-anthropic-05179825",
     "desc": "Article URL: https://www.wsj.com/tech/ai/ai-math-millennium-prize-safety-openai-anthropic-05179825 Comments URL: https://news.ycombinator.com/item?id=49671043 Points: 9 # Comments: 14",
@@ -245,7 +272,7 @@
   {
     "title": "I spent $220 on Google app ads and 60% of the installs were robots",
     "link": "https://dayzlegame.com/blog/google-ads-bot-farm/",
-    "desc": "Article URL: https://dayzlegame.com/blog/google-ads-bot-farm/ Comments URL: https://news.ycombinator.com/item?id=49662990 Points: 591 # Comments: 325",
+    "desc": "Article URL: https://dayzlegame.com/blog/google-ads-bot-farm/ Comments URL: https://news.ycombinator.com/item?id=49662990 Points: 599 # Comments: 329",
     "date": "2026-09-11",
     "source": "Hacker News",
     "cat": "ai",
@@ -254,7 +281,7 @@
   {
     "title": "Litelm: LiteLLM Without the Bloat",
     "link": "https://github.com/kennethwolters/litelm",
-    "desc": "Article URL: https://github.com/kennethwolters/litelm Comments URL: https://news.ycombinator.com/item?id=49662767 Points: 152 # Comments: 51",
+    "desc": "Article URL: https://github.com/kennethwolters/litelm Comments URL: https://news.ycombinator.com/item?id=49662767 Points: 153 # Comments: 51",
     "date": "2026-09-11",
     "source": "Hacker News",
     "cat": "ai",
@@ -263,7 +290,7 @@
   {
     "title": "A misalignment of AI in mathematics",
     "link": "https://mathandai.org/",
-    "desc": "https://terrytao.wordpress.com/2026/09/11/a-severe-misalignm... https://www.economist.com/science-and-technology/2026/09/11/... , https://unwall.app/www.economist.com/science-and-technology/... Comments URL: https://news.ycombinator.com/item?id=49662371 Points: 1014 # Comments: 970",
+    "desc": "https://terrytao.wordpress.com/2026/09/11/a-severe-misalignm... https://www.economist.com/science-and-technology/2026/09/11/... , https://unwall.app/www.economist.com/science-and-technology/... Comments URL: https://news.ycombinator.com/item?id=49662371 Points: 1018 # Comments: 978",
     "date": "2026-09-11",
     "source": "Hacker News",
     "cat": "ai",
@@ -272,16 +299,7 @@
   {
     "title": "Mind-altering drugs played key role in rise of Andean civilization",
     "link": "https://www.science.org/content/article/mind-altering-drugs-played-key-role-rise-andean-civilization",
-    "desc": "Article URL: https://www.science.org/content/article/mind-altering-drugs-played-key-role-rise-andean-civilization Comments URL: https://news.ycombinator.com/item?id=49662020 Points: 175 # Comments: 115",
-    "date": "2026-09-11",
-    "source": "Hacker News",
-    "cat": "ai",
-    "lang": "en"
-  },
-  {
-    "title": "Rune is now open source",
-    "link": "https://rune.build/blog/rune-is-now-open-source",
-    "desc": "Article URL: https://rune.build/blog/rune-is-now-open-source Comments URL: https://news.ycombinator.com/item?id=49660149 Points: 199 # Comments: 63",
+    "desc": "Article URL: https://www.science.org/content/article/mind-altering-drugs-played-key-role-rise-andean-civilization Comments URL: https://news.ycombinator.com/item?id=49662020 Points: 175 # Comments: 116",
     "date": "2026-09-11",
     "source": "Hacker News",
     "cat": "ai",
@@ -290,7 +308,7 @@
   {
     "title": "I Fixed a Tractor Using John Deere's Self-Repair Service. Farmers Aren't Sold",
     "link": "https://www.wired.com/story/i-fixed-a-tractor-john-deere-self-repair-service/",
-    "desc": "Article URL: https://www.wired.com/story/i-fixed-a-tractor-john-deere-self-repair-service/ Comments URL: https://news.ycombinator.com/item?id=49658672 Points: 7 # Comments: 2",
+    "desc": "Article URL: https://www.wired.com/story/i-fixed-a-tractor-john-deere-self-repair-service/ Comments URL: https://news.ycombinator.com/item?id=49658672 Points: 8 # Comments: 3",
     "date": "2026-09-11",
     "source": "Hacker News",
     "cat": "ai",
@@ -837,6 +855,15 @@
     "lang": "ru"
   },
   {
+    "title": "Show HN: Bodily Oddities",
+    "link": "https://vester.si/bodily-oddities/",
+    "desc": "When I was about 11 years old, my best friend and I were playing during recess at school, and I was carrying him around on my back, presumably pretending to be a multipart attack robot. All of a sudden, my heart started hurting, and I collapsed to my knees, and the robot was no more. Every time I...",
+    "date": "2026-09-10",
+    "source": "Hacker News",
+    "cat": "ai",
+    "lang": "en"
+  },
+  {
     "title": "Models Don't Go Rogue",
     "link": "https://mail.cyberneticforests.com/models-dont-go-rogue/",
     "desc": "Comments",
@@ -1006,15 +1033,6 @@
     "source": "vc.ru",
     "cat": "ai",
     "lang": "ru"
-  },
-  {
-    "title": "Show HN: Bodily Oddities",
-    "link": "https://vester.si/bodily-oddities/",
-    "desc": "When I was about 11 years old, my best friend and I were playing during recess at school, and I was carrying him around on my back, presumably pretending to be a multipart attack robot. All of a sudden, my heart started hurting, and I collapsed to my knees, and the robot was no more. Every time I...",
-    "date": "2026-09-10",
-    "source": "Hacker News",
-    "cat": "ai",
-    "lang": "en"
   },
   {
     "title": "Forgejo 16.0.4 has a critical security bug fix (RCE - Remote Code Execution)",
