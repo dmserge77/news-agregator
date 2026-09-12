@@ -99,5 +99,5 @@ window.NEWS_DATA = {
     "jobs",
     "orders"
   ],
-  "updated": "12.09.2026, 16:43:12"
+  "updated": "12.09.2026, 16:51:47"
 };

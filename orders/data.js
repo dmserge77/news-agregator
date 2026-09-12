@@ -1,6 +1,16 @@
 window.NEWS_DATA = {
   "items": [
     {
+      "title": "Построить лобби/спавн для плейса в Roblox",
+      "link": "https://www.fl.ru/projects/5521735/postroit-lobbi-spavn-dlya-pleysa-v-roblox.html",
+      "desc": "Построить лобби/спавн для плейса в Roblox Есть сгенерированное изображение, нужно точно такое же лобби создать. Большие объекты (по типу магазинов) собрать из партов, а мелкие...",
+      "date": "2026-09-12",
+      "source": "FL.ru",
+      "cat": "orders",
+      "order_type": "content",
+      "lang": "ru"
+    },
+    {
       "title": "Разработка интернет магазина на ocStore 3.0.5.0 под ключ. Версия 3 выбрана осознанно",
       "link": "https://www.fl.ru/projects/5521730/razrabotka-internet-magazina-na-ocstore-3050-pod-klyuch-versiya-3-vyibrana-osoznanno.html",
       "desc": "Мы - ООО на УСН с НДС 5 %. Ищем исполнителя (ИП или ООО — без разницы, главное — договор, закрывающие документы и оплата с расчётного счёта по безналу). Нам нужен интернет...",
@@ -769,5 +779,5 @@ window.NEWS_DATA = {
     "jobs",
     "orders"
   ],
-  "updated": "12.09.2026, 16:43:12"
+  "updated": "12.09.2026, 16:51:47"
 };

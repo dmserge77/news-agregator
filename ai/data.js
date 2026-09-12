@@ -12,7 +12,7 @@ window.NEWS_DATA = {
     {
       "title": "Fuck it, make it anyway",
       "link": "https://www.joelotter.com/posts/2026/09/make-it-anyway/",
-      "desc": "Article URL: https://www.joelotter.com/posts/2026/09/make-it-anyway/ Comments URL: https://news.ycombinator.com/item?id=49671329 Points: 153 # Comments: 97",
+      "desc": "Article URL: https://www.joelotter.com/posts/2026/09/make-it-anyway/ Comments URL: https://news.ycombinator.com/item?id=49671329 Points: 184 # Comments: 121",
       "date": "2026-09-12",
       "source": "Hacker News",
       "cat": "ai",
@@ -21,7 +21,7 @@ window.NEWS_DATA = {
     {
       "title": "Crypto farm in Mexican mountains puts spotlight on cartel funding",
       "link": "https://www.reuters.com/world/americas/hidden-crypto-farm-mexican-mountains-puts-spotlight-cartel-funding-2026-09-12/",
-      "desc": "Article URL: https://www.reuters.com/world/americas/hidden-crypto-farm-mexican-mountains-puts-spotlight-cartel-funding-2026-09-12/ Comments URL: https://news.ycombinator.com/item?id=49671296 Points: 21 # Comments: 1",
+      "desc": "Article URL: https://www.reuters.com/world/americas/hidden-crypto-farm-mexican-mountains-puts-spotlight-cartel-funding-2026-09-12/ Comments URL: https://news.ycombinator.com/item?id=49671296 Points: 22 # Comments: 2",
       "date": "2026-09-12",
       "source": "Hacker News",
       "cat": "ai",
@@ -30,7 +30,7 @@ window.NEWS_DATA = {
     {
       "title": "We've followed their lives for six decades; now the stars of 7 Up are bowing out",
       "link": "https://www.bbc.co.uk/news/articles/crm932el3yjo",
-      "desc": "Article URL: https://www.bbc.co.uk/news/articles/crm932el3yjo Comments URL: https://news.ycombinator.com/item?id=49670981 Points: 35 # Comments: 8",
+      "desc": "Article URL: https://www.bbc.co.uk/news/articles/crm932el3yjo Comments URL: https://news.ycombinator.com/item?id=49670981 Points: 44 # Comments: 8",
       "date": "2026-09-12",
       "source": "Hacker News",
       "cat": "ai",
@@ -39,7 +39,7 @@ window.NEWS_DATA = {
     {
       "title": "Resistance Training Prescription for Muscle Function, Hypertrophy in Health",
       "link": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12965823/",
-      "desc": "Article URL: https://pmc.ncbi.nlm.nih.gov/articles/PMC12965823/ Comments URL: https://news.ycombinator.com/item?id=49670493 Points: 36 # Comments: 15",
+      "desc": "Article URL: https://pmc.ncbi.nlm.nih.gov/articles/PMC12965823/ Comments URL: https://news.ycombinator.com/item?id=49670493 Points: 36 # Comments: 19",
       "date": "2026-09-12",
       "source": "Hacker News",
       "cat": "ai",
@@ -48,7 +48,7 @@ window.NEWS_DATA = {
     {
       "title": "Retrospectively Reverse-Engineering Apple's Neural Engine",
       "link": "https://eiln.github.io/posts/ane.html",
-      "desc": "Article URL: https://eiln.github.io/posts/ane.html Comments URL: https://news.ycombinator.com/item?id=49670032 Points: 139 # Comments: 19",
+      "desc": "Article URL: https://eiln.github.io/posts/ane.html Comments URL: https://news.ycombinator.com/item?id=49670032 Points: 142 # Comments: 19",
       "date": "2026-09-12",
       "source": "Hacker News",
       "cat": "ai",
@@ -66,7 +66,7 @@ window.NEWS_DATA = {
     {
       "title": "Navier-Stokes Announcement",
       "link": "https://www.claymath.org/news/navier-stokes-announcement/",
-      "desc": "Article URL: https://www.claymath.org/news/navier-stokes-announcement/ Comments URL: https://news.ycombinator.com/item?id=49668706 Points: 214 # Comments: 144",
+      "desc": "Article URL: https://www.claymath.org/news/navier-stokes-announcement/ Comments URL: https://news.ycombinator.com/item?id=49668706 Points: 219 # Comments: 145",
       "date": "2026-09-12",
       "source": "Hacker News",
       "cat": "ai",
@@ -82,8 +82,8 @@ window.NEWS_DATA = {
       "lang": "en"
     },
     {
-      "title": "Designing for Dual Screen and Foldable Devices With CSS",
-      "link": "https://blog.stephaniestimac.com/posts/2023/05/design-foldable-devices/",
+      "title": "How Trail of Bits helps verify the integrity of your Signal chats",
+      "link": "https://blog.trailofbits.com/2026/08/11/how-trail-of-bits-helps-verify-the-integrity-of-your-signal-chats/",
       "desc": "Comments",
       "date": "2026-09-12",
       "source": "Lobsters",
@@ -91,8 +91,8 @@ window.NEWS_DATA = {
       "lang": "en"
     },
     {
-      "title": "How Trail of Bits helps verify the integrity of your Signal chats",
-      "link": "https://blog.trailofbits.com/2026/08/11/how-trail-of-bits-helps-verify-the-integrity-of-your-signal-chats/",
+      "title": "Designing for Dual Screen and Foldable Devices With CSS",
+      "link": "https://blog.stephaniestimac.com/posts/2023/05/design-foldable-devices/",
       "desc": "Comments",
       "date": "2026-09-12",
       "source": "Lobsters",
@@ -237,7 +237,7 @@ window.NEWS_DATA = {
     {
       "title": "Forgotten Woodlands",
       "link": "https://storymaps.arcgis.com/stories/9b790daf22ba4e87836f467abb1c7e49",
-      "desc": "Article URL: https://storymaps.arcgis.com/stories/9b790daf22ba4e87836f467abb1c7e49 Comments URL: https://news.ycombinator.com/item?id=49665549 Points: 12 # Comments: 0",
+      "desc": "Article URL: https://storymaps.arcgis.com/stories/9b790daf22ba4e87836f467abb1c7e49 Comments URL: https://news.ycombinator.com/item?id=49665549 Points: 16 # Comments: 4",
       "date": "2026-09-11",
       "source": "Hacker News",
       "cat": "ai",
@@ -246,7 +246,7 @@ window.NEWS_DATA = {
     {
       "title": "I spent $220 on Google app ads and 60% of the installs were robots",
       "link": "https://dayzlegame.com/blog/google-ads-bot-farm/",
-      "desc": "Article URL: https://dayzlegame.com/blog/google-ads-bot-farm/ Comments URL: https://news.ycombinator.com/item?id=49662990 Points: 612 # Comments: 337",
+      "desc": "Article URL: https://dayzlegame.com/blog/google-ads-bot-farm/ Comments URL: https://news.ycombinator.com/item?id=49662990 Points: 619 # Comments: 337",
       "date": "2026-09-11",
       "source": "Hacker News",
       "cat": "ai",
@@ -255,7 +255,7 @@ window.NEWS_DATA = {
     {
       "title": "Litelm: LiteLLM Without the Bloat",
       "link": "https://github.com/kennethwolters/litelm",
-      "desc": "Article URL: https://github.com/kennethwolters/litelm Comments URL: https://news.ycombinator.com/item?id=49662767 Points: 154 # Comments: 51",
+      "desc": "Article URL: https://github.com/kennethwolters/litelm Comments URL: https://news.ycombinator.com/item?id=49662767 Points: 156 # Comments: 51",
       "date": "2026-09-11",
       "source": "Hacker News",
       "cat": "ai",
@@ -264,7 +264,7 @@ window.NEWS_DATA = {
     {
       "title": "A misalignment of AI in mathematics",
       "link": "https://mathandai.org/",
-      "desc": "https://terrytao.wordpress.com/2026/09/11/a-severe-misalignm... https://www.economist.com/science-and-technology/2026/09/11/... , https://unwall.app/www.economist.com/science-and-technology/... Comments URL: https://news.ycombinator.com/item?id=49662371 Points: 1033 # Comments: 987",
+      "desc": "https://terrytao.wordpress.com/2026/09/11/a-severe-misalignm... https://www.economist.com/science-and-technology/2026/09/11/... , https://unwall.app/www.economist.com/science-and-technology/... Comments URL: https://news.ycombinator.com/item?id=49662371 Points: 1040 # Comments: 990",
       "date": "2026-09-11",
       "source": "Hacker News",
       "cat": "ai",
@@ -273,7 +273,7 @@ window.NEWS_DATA = {
     {
       "title": "Mind-altering drugs played key role in rise of Andean civilization",
       "link": "https://www.science.org/content/article/mind-altering-drugs-played-key-role-rise-andean-civilization",
-      "desc": "Article URL: https://www.science.org/content/article/mind-altering-drugs-played-key-role-rise-andean-civilization Comments URL: https://news.ycombinator.com/item?id=49662020 Points: 183 # Comments: 119",
+      "desc": "Article URL: https://www.science.org/content/article/mind-altering-drugs-played-key-role-rise-andean-civilization Comments URL: https://news.ycombinator.com/item?id=49662020 Points: 184 # Comments: 121",
       "date": "2026-09-11",
       "source": "Hacker News",
       "cat": "ai",
@@ -282,7 +282,7 @@ window.NEWS_DATA = {
     {
       "title": "Rune is now open source",
       "link": "https://rune.build/blog/rune-is-now-open-source",
-      "desc": "Article URL: https://rune.build/blog/rune-is-now-open-source Comments URL: https://news.ycombinator.com/item?id=49660149 Points: 203 # Comments: 64",
+      "desc": "Article URL: https://rune.build/blog/rune-is-now-open-source Comments URL: https://news.ycombinator.com/item?id=49660149 Points: 203 # Comments: 65",
       "date": "2026-09-11",
       "source": "Hacker News",
       "cat": "ai",
@@ -291,7 +291,7 @@ window.NEWS_DATA = {
     {
       "title": "I Fixed a Tractor Using John Deere's Self-Repair Service. Farmers Aren't Sold",
       "link": "https://www.wired.com/story/i-fixed-a-tractor-john-deere-self-repair-service/",
-      "desc": "Article URL: https://www.wired.com/story/i-fixed-a-tractor-john-deere-self-repair-service/ Comments URL: https://news.ycombinator.com/item?id=49658672 Points: 13 # Comments: 9",
+      "desc": "Article URL: https://www.wired.com/story/i-fixed-a-tractor-john-deere-self-repair-service/ Comments URL: https://news.ycombinator.com/item?id=49658672 Points: 13 # Comments: 15",
       "date": "2026-09-11",
       "source": "Hacker News",
       "cat": "ai",
@@ -316,8 +316,8 @@ window.NEWS_DATA = {
       "lang": "en"
     },
     {
-      "title": "Pandas Should Go Extinct",
-      "link": "https://eddie.codes/posts/pandas-should-go-extinct/",
+      "title": "Power grab",
+      "link": "https://tante.cc/2026/09/11/power-grab/",
       "desc": "Comments",
       "date": "2026-09-11",
       "source": "Lobsters",
@@ -352,9 +352,9 @@ window.NEWS_DATA = {
       "lang": "en"
     },
     {
-      "title": "evergarden",
-      "link": "https://evergarden.moe/",
-      "desc": "Comments",
+      "title": "What are you doing this weekend?",
+      "link": "https://lobste.rs/s/vc0brm/what_are_you_doing_this_weekend",
+      "desc": "Feel free to tell what you plan on doing this weekend and even ask for help or feedback. Please keep in mind it’s more than OK to do nothing at all too!",
       "date": "2026-09-11",
       "source": "Lobsters",
       "cat": "ai",
@@ -856,8 +856,8 @@ window.NEWS_DATA = {
       "lang": "en"
     },
     {
-      "title": "Soft-deprecating re.match()",
-      "link": "https://hugovk.dev/blog/2026/soft-deprecating-re.match/",
+      "title": "A rant about phishing: It's not the user's fault (and not DNS either)",
+      "link": "https://maurycyz.com/misc/domains/",
       "desc": "Comments",
       "date": "2026-09-10",
       "source": "Lobsters",
@@ -1422,5 +1422,5 @@ window.NEWS_DATA = {
     "jobs",
     "orders"
   ],
-  "updated": "12.09.2026, 16:43:12"
+  "updated": "12.09.2026, 16:51:46"
 };
