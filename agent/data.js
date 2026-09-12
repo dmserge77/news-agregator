@@ -1,9 +1,18 @@
 window.NEWS_DATA = {
   "items": [
     {
+      "title": "The Worst Spam Emails: Inside iLands' AI Agent Hustle",
+      "link": "https://tedium.co/2026/09/11/ilands-agents-email-spam-kaixin-tang/",
+      "desc": "Article URL: https://tedium.co/2026/09/11/ilands-agents-email-spam-kaixin-tang/ Comments URL: https://news.ycombinator.com/item?id=49671159 Points: 25 # Comments: 6",
+      "date": "2026-09-12",
+      "source": "Hacker News",
+      "cat": "agent",
+      "lang": "en"
+    },
+    {
       "title": "OpenAI agents carried out an undisclosed attack on RubyGems",
       "link": "https://www.rubyhack.ai/",
-      "desc": "https://simonwillison.net/2026/Sep/12/openai-agents-rubygems... Comments URL: https://news.ycombinator.com/item?id=49666735 Points: 747 # Comments: 416",
+      "desc": "https://simonwillison.net/2026/Sep/12/openai-agents-rubygems... Comments URL: https://news.ycombinator.com/item?id=49666735 Points: 778 # Comments: 432",
       "date": "2026-09-11",
       "source": "Hacker News",
       "cat": "agent",
@@ -99,5 +108,5 @@ window.NEWS_DATA = {
     "jobs",
     "orders"
   ],
-  "updated": "12.09.2026, 11:49:09"
+  "updated": "12.09.2026, 12:56:50"
 };

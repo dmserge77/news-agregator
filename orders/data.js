@@ -1,6 +1,16 @@
 window.NEWS_DATA = {
   "items": [
     {
+      "title": "Ищу Ии специалиста  (для всех)",
+      "link": "https://www.fl.ru/projects/5521731/ischu-ii-spetsialista-.html",
+      "desc": "Ищу ии специалиста, для обработки качественных фотографий",
+      "date": "2026-09-12",
+      "source": "FL.ru",
+      "cat": "orders",
+      "order_type": "content",
+      "lang": "ru"
+    },
+    {
       "title": "Ищу мужчин клиентов Сбера с подключенным премиум пакетом Сбер Премьер 2!  (Бюджет: 3 000  ₽)",
       "link": "https://www.fl.ru/projects/5521727/ischu-mujchin-klientov-sbera-s-podklyuchennyim-premium-paketom-sber-premer-2-.html",
       "desc": "Ищу мужчин клиентов Сбера с подключенным премиум пакетом Сбер Премьер 2! Онлайн беседа в Зуме, оценить прототип нового дизайна раздела Сбер Премьер. Вознаграждение 3000....",
@@ -121,16 +131,6 @@ window.NEWS_DATA = {
       "lang": "ru"
     },
     {
-      "title": "Без разница какая игра",
-      "link": "https://www.fl.ru/projects/5521711/bez-raznitsa-kakaya-igra.html",
-      "desc": "Оцениваю игры честно играя",
-      "date": "2026-09-12",
-      "source": "FL.ru",
-      "cat": "orders",
-      "order_type": "content",
-      "lang": "ru"
-    },
-    {
       "title": "3D / Blender / VRM специалист по риггингу — заменить тело персонажа, сохранить риг, ани и lip-sync",
       "link": "https://www.fl.ru/projects/5521709/3d---blender---vrm-spetsialist-po-riggingu--zamenit-telo-personaja-sohranit-rig-ani-i-lip-sync.html",
       "desc": "У нас есть готовый 3D-персонаж Jois для мобильного приложения. Сейчас у персонажа уже работают: facial rig lip-sync мимика основной body rig анимации волосы и secondary...",
@@ -168,16 +168,6 @@ window.NEWS_DATA = {
       "source": "FL.ru",
       "cat": "orders",
       "order_type": "ai",
-      "lang": "ru"
-    },
-    {
-      "title": "Внести корректировки, исправить ошибки и оптимизировать сайт на WordPress (Бюджет: 4 000  ₽)",
-      "link": "https://www.fl.ru/projects/5521705/vnesti-korrektirovki-ispravit-oshibki-i-optimizirovat-sayt-na-wordpress.html",
-      "desc": "1. Сайт был перенесен на другой домен, и перестал отображаться. Ранее к сайту был подключен сертификат SSL (сейчас он не нужен). Устранить проблемы, отображения сайта в сети 2....",
-      "date": "2026-09-12",
-      "source": "FL.ru",
-      "cat": "orders",
-      "order_type": "sites",
       "lang": "ru"
     },
     {
@@ -298,6 +288,26 @@ window.NEWS_DATA = {
       "source": "FL.ru",
       "cat": "orders",
       "order_type": "content",
+      "lang": "ru"
+    },
+    {
+      "title": "Без разница какая игра",
+      "link": "https://www.fl.ru/projects/5521711/bez-raznitsa-kakaya-igra.html",
+      "desc": "Оцениваю игры честно играя",
+      "date": "2026-09-12",
+      "source": "FL.ru",
+      "cat": "orders",
+      "order_type": "content",
+      "lang": "ru"
+    },
+    {
+      "title": "Внести корректировки, исправить ошибки и оптимизировать сайт на WordPress (Бюджет: 4 000  ₽)",
+      "link": "https://www.fl.ru/projects/5521705/vnesti-korrektirovki-ispravit-oshibki-i-optimizirovat-sayt-na-wordpress.html",
+      "desc": "1. Сайт был перенесен на другой домен, и перестал отображаться. Ранее к сайту был подключен сертификат SSL (сейчас он не нужен). Устранить проблемы, отображения сайта в сети 2....",
+      "date": "2026-09-12",
+      "source": "FL.ru",
+      "cat": "orders",
+      "order_type": "sites",
       "lang": "ru"
     },
     {
@@ -428,16 +438,6 @@ window.NEWS_DATA = {
       "source": "FL.ru",
       "cat": "orders",
       "order_type": "sites",
-      "lang": "ru"
-    },
-    {
-      "title": "Доработка для 1С Бухгалтерия",
-      "link": "https://www.fl.ru/projects/5521658/dorabotka-dlya-1s-buhgalteriya.html",
-      "desc": "Доработка для 1С: БП 8.5 3.0 Нужно сделать доработку для 1С которая отсылала бы заявки из 1С к нам на склад. Заявки на отгрузку/получение/просмотр/подготовку к отгрузке....",
-      "date": "2026-09-11",
-      "source": "FL.ru",
-      "cat": "orders",
-      "order_type": "content",
       "lang": "ru"
     },
     {
@@ -631,6 +631,16 @@ window.NEWS_DATA = {
       "lang": "ru"
     },
     {
+      "title": "Доработка для 1С Бухгалтерия",
+      "link": "https://www.fl.ru/projects/5521658/dorabotka-dlya-1s-buhgalteriya.html",
+      "desc": "Доработка для 1С: БП 8.5 3.0 Нужно сделать доработку для 1С которая отсылала бы заявки из 1С к нам на склад. Заявки на отгрузку/получение/просмотр/подготовку к отгрузке....",
+      "date": "2026-09-11",
+      "source": "FL.ru",
+      "cat": "orders",
+      "order_type": "content",
+      "lang": "ru"
+    },
+    {
       "title": "Обработать базу поставщиков промышленного оборудования (Бюджет: 1 000  ₽)",
       "link": "https://www.fl.ru/projects/5521631/obrabotat-bazu-postavschikov-promyishlennogo-oborudovaniya.html",
       "desc": "Обработать базу поставщиков промышленного оборудования Нужно связаться с 50 поставщиками промышленного оборудования по телефону или через мессенджеры. Задача — кратко...",
@@ -769,5 +779,5 @@ window.NEWS_DATA = {
     "jobs",
     "orders"
   ],
-  "updated": "12.09.2026, 11:49:09"
+  "updated": "12.09.2026, 12:56:50"
 };

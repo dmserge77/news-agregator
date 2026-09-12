@@ -1,9 +1,27 @@
 window.NEWS_DATA = {
   "items": [
     {
-      "title": "AI Is Powerful Enough to Crack Our Hardest Math Problems–and Kill Us All",
-      "link": "https://www.wsj.com/tech/ai/ai-math-millennium-prize-safety-openai-anthropic-05179825",
-      "desc": "Article URL: https://www.wsj.com/tech/ai/ai-math-millennium-prize-safety-openai-anthropic-05179825 Comments URL: https://news.ycombinator.com/item?id=49671043 Points: 9 # Comments: 14",
+      "title": "Fuck it, make it anyway",
+      "link": "https://www.joelotter.com/posts/2026/09/make-it-anyway/",
+      "desc": "Article URL: https://www.joelotter.com/posts/2026/09/make-it-anyway/ Comments URL: https://news.ycombinator.com/item?id=49671329 Points: 77 # Comments: 42",
+      "date": "2026-09-12",
+      "source": "Hacker News",
+      "cat": "ai",
+      "lang": "en"
+    },
+    {
+      "title": "Crypto farm in Mexican mountains puts spotlight on cartel funding",
+      "link": "https://www.reuters.com/world/americas/hidden-crypto-farm-mexican-mountains-puts-spotlight-cartel-funding-2026-09-12/",
+      "desc": "Article URL: https://www.reuters.com/world/americas/hidden-crypto-farm-mexican-mountains-puts-spotlight-cartel-funding-2026-09-12/ Comments URL: https://news.ycombinator.com/item?id=49671296 Points: 11 # Comments: 0",
+      "date": "2026-09-12",
+      "source": "Hacker News",
+      "cat": "ai",
+      "lang": "en"
+    },
+    {
+      "title": "Altman tells staff OpenAI is open to slowing AI development",
+      "link": "https://www.reuters.com/business/altman-tells-staff-openai-is-open-slowing-ai-development-bloomberg-news-reports-2026-09-11/",
+      "desc": "Article URL: https://www.reuters.com/business/altman-tells-staff-openai-is-open-slowing-ai-development-bloomberg-news-reports-2026-09-11/ Comments URL: https://news.ycombinator.com/item?id=49671274 Points: 17 # Comments: 24",
       "date": "2026-09-12",
       "source": "Hacker News",
       "cat": "ai",
@@ -12,7 +30,7 @@ window.NEWS_DATA = {
     {
       "title": "We've followed their lives for six decades; now the stars of 7 Up are bowing out",
       "link": "https://www.bbc.co.uk/news/articles/crm932el3yjo",
-      "desc": "Article URL: https://www.bbc.co.uk/news/articles/crm932el3yjo Comments URL: https://news.ycombinator.com/item?id=49670981 Points: 9 # Comments: 2",
+      "desc": "Article URL: https://www.bbc.co.uk/news/articles/crm932el3yjo Comments URL: https://news.ycombinator.com/item?id=49670981 Points: 24 # Comments: 7",
       "date": "2026-09-12",
       "source": "Hacker News",
       "cat": "ai",
@@ -21,7 +39,7 @@ window.NEWS_DATA = {
     {
       "title": "Resistance Training Prescription for Muscle Function, Hypertrophy in Health",
       "link": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12965823/",
-      "desc": "Article URL: https://pmc.ncbi.nlm.nih.gov/articles/PMC12965823/ Comments URL: https://news.ycombinator.com/item?id=49670493 Points: 20 # Comments: 6",
+      "desc": "Article URL: https://pmc.ncbi.nlm.nih.gov/articles/PMC12965823/ Comments URL: https://news.ycombinator.com/item?id=49670493 Points: 30 # Comments: 12",
       "date": "2026-09-12",
       "source": "Hacker News",
       "cat": "ai",
@@ -30,7 +48,7 @@ window.NEWS_DATA = {
     {
       "title": "Retrospectively Reverse-Engineering Apple's Neural Engine",
       "link": "https://eiln.github.io/posts/ane.html",
-      "desc": "Article URL: https://eiln.github.io/posts/ane.html Comments URL: https://news.ycombinator.com/item?id=49670032 Points: 109 # Comments: 13",
+      "desc": "Article URL: https://eiln.github.io/posts/ane.html Comments URL: https://news.ycombinator.com/item?id=49670032 Points: 125 # Comments: 15",
       "date": "2026-09-12",
       "source": "Hacker News",
       "cat": "ai",
@@ -39,7 +57,7 @@ window.NEWS_DATA = {
     {
       "title": "Usenet rewind archive search engine",
       "link": "https://www.usenet-rewind.com/",
-      "desc": "Article URL: https://www.usenet-rewind.com/ Comments URL: https://news.ycombinator.com/item?id=49668777 Points: 72 # Comments: 21",
+      "desc": "Article URL: https://www.usenet-rewind.com/ Comments URL: https://news.ycombinator.com/item?id=49668777 Points: 82 # Comments: 27",
       "date": "2026-09-12",
       "source": "Hacker News",
       "cat": "ai",
@@ -48,15 +66,42 @@ window.NEWS_DATA = {
     {
       "title": "Navier-Stokes Announcement",
       "link": "https://www.claymath.org/news/navier-stokes-announcement/",
-      "desc": "Article URL: https://www.claymath.org/news/navier-stokes-announcement/ Comments URL: https://news.ycombinator.com/item?id=49668706 Points: 193 # Comments: 126",
+      "desc": "Article URL: https://www.claymath.org/news/navier-stokes-announcement/ Comments URL: https://news.ycombinator.com/item?id=49668706 Points: 201 # Comments: 136",
       "date": "2026-09-12",
       "source": "Hacker News",
       "cat": "ai",
       "lang": "en"
     },
     {
+      "title": "Designing for Dual Screen and Foldable Devices With CSS",
+      "link": "https://blog.stephaniestimac.com/posts/2023/05/design-foldable-devices/",
+      "desc": "Comments",
+      "date": "2026-09-12",
+      "source": "Lobsters",
+      "cat": "ai",
+      "lang": "en"
+    },
+    {
+      "title": "fresh: Terminal based IDE & text editor: easy, powerful and fast",
+      "link": "https://github.com/sinelaw/fresh",
+      "desc": "Comments",
+      "date": "2026-09-12",
+      "source": "Lobsters",
+      "cat": "ai",
+      "lang": "en"
+    },
+    {
       "title": "How Trail of Bits helps verify the integrity of your Signal chats",
       "link": "https://blog.trailofbits.com/2026/08/11/how-trail-of-bits-helps-verify-the-integrity-of-your-signal-chats/",
+      "desc": "Comments",
+      "date": "2026-09-12",
+      "source": "Lobsters",
+      "cat": "ai",
+      "lang": "en"
+    },
+    {
+      "title": "Linux Zoom Client Proactively Reads X11 Clipboard",
+      "link": "https://hachyderm.io/@simontatham/117201594980991062",
       "desc": "Comments",
       "date": "2026-09-12",
       "source": "Lobsters",
@@ -145,6 +190,15 @@ window.NEWS_DATA = {
       "lang": "ru"
     },
     {
+      "title": "AI Is Powerful Enough to Crack Our Hardest Math Problems–and Kill Us All",
+      "link": "https://www.wsj.com/tech/ai/ai-math-millennium-prize-safety-openai-anthropic-05179825",
+      "desc": "Article URL: https://www.wsj.com/tech/ai/ai-math-millennium-prize-safety-openai-anthropic-05179825 Comments URL: https://news.ycombinator.com/item?id=49671043 Points: 9 # Comments: 14",
+      "date": "2026-09-12",
+      "source": "Hacker News",
+      "cat": "ai",
+      "lang": "en"
+    },
+    {
       "title": "WeWorm: Zero-Click WeChat Worm",
       "link": "https://calif.io/research/weworm",
       "desc": "Article URL: https://calif.io/research/weworm Comments URL: https://news.ycombinator.com/item?id=49669276 Points: 4 # Comments: 0",
@@ -165,25 +219,16 @@ window.NEWS_DATA = {
     {
       "title": "Project Blinkenlights",
       "link": "https://blinkenlights.de/en/",
-      "desc": "Article URL: https://blinkenlights.de/en/ Comments URL: https://news.ycombinator.com/item?id=49666146 Points: 98 # Comments: 32",
+      "desc": "Article URL: https://blinkenlights.de/en/ Comments URL: https://news.ycombinator.com/item?id=49666146 Points: 100 # Comments: 32",
       "date": "2026-09-11",
       "source": "Hacker News",
       "cat": "ai",
       "lang": "en"
     },
     {
-      "title": "Show HN: ResolveHQ – A Helpdesk Built on Cloudflare Workers, D1, R2 and Queues",
-      "link": "https://github.com/mirza-rizvi/ResolveHQ",
-      "desc": "Article URL: https://github.com/mirza-rizvi/ResolveHQ Comments URL: https://news.ycombinator.com/item?id=49665864 Points: 63 # Comments: 22",
-      "date": "2026-09-11",
-      "source": "Hacker News",
-      "cat": "ai",
-      "lang": "en"
-    },
-    {
-      "title": "Another way to leak traffic on Android has been discovered",
-      "link": "https://mullvad.net/en/blog/another-way-to-leak-traffic-on-android-has-been-discovered",
-      "desc": "Article URL: https://mullvad.net/en/blog/another-way-to-leak-traffic-on-android-has-been-discovered Comments URL: https://news.ycombinator.com/item?id=49665502 Points: 95 # Comments: 15",
+      "title": "Forgotten Woodlands",
+      "link": "https://storymaps.arcgis.com/stories/9b790daf22ba4e87836f467abb1c7e49",
+      "desc": "Article URL: https://storymaps.arcgis.com/stories/9b790daf22ba4e87836f467abb1c7e49 Comments URL: https://news.ycombinator.com/item?id=49665549 Points: 7 # Comments: 0",
       "date": "2026-09-11",
       "source": "Hacker News",
       "cat": "ai",
@@ -192,7 +237,7 @@ window.NEWS_DATA = {
     {
       "title": "GrapheneOS' rewritten Messages app is released",
       "link": "https://github.com/GrapheneOS/Messaging/releases/tag/13",
-      "desc": "Article URL: https://github.com/GrapheneOS/Messaging/releases/tag/13 Comments URL: https://news.ycombinator.com/item?id=49663373 Points: 281 # Comments: 209",
+      "desc": "Article URL: https://github.com/GrapheneOS/Messaging/releases/tag/13 Comments URL: https://news.ycombinator.com/item?id=49663373 Points: 285 # Comments: 209",
       "date": "2026-09-11",
       "source": "Hacker News",
       "cat": "ai",
@@ -201,7 +246,7 @@ window.NEWS_DATA = {
     {
       "title": "I spent $220 on Google app ads and 60% of the installs were robots",
       "link": "https://dayzlegame.com/blog/google-ads-bot-farm/",
-      "desc": "Article URL: https://dayzlegame.com/blog/google-ads-bot-farm/ Comments URL: https://news.ycombinator.com/item?id=49662990 Points: 575 # Comments: 303",
+      "desc": "Article URL: https://dayzlegame.com/blog/google-ads-bot-farm/ Comments URL: https://news.ycombinator.com/item?id=49662990 Points: 591 # Comments: 325",
       "date": "2026-09-11",
       "source": "Hacker News",
       "cat": "ai",
@@ -210,7 +255,7 @@ window.NEWS_DATA = {
     {
       "title": "Litelm: LiteLLM Without the Bloat",
       "link": "https://github.com/kennethwolters/litelm",
-      "desc": "Article URL: https://github.com/kennethwolters/litelm Comments URL: https://news.ycombinator.com/item?id=49662767 Points: 151 # Comments: 49",
+      "desc": "Article URL: https://github.com/kennethwolters/litelm Comments URL: https://news.ycombinator.com/item?id=49662767 Points: 152 # Comments: 51",
       "date": "2026-09-11",
       "source": "Hacker News",
       "cat": "ai",
@@ -219,16 +264,7 @@ window.NEWS_DATA = {
     {
       "title": "A misalignment of AI in mathematics",
       "link": "https://mathandai.org/",
-      "desc": "https://terrytao.wordpress.com/2026/09/11/a-severe-misalignm... https://www.economist.com/science-and-technology/2026/09/11/... , https://unwall.app/www.economist.com/science-and-technology/... Comments URL: https://news.ycombinator.com/item?id=49662371 Points: 974 # Comments: 929",
-      "date": "2026-09-11",
-      "source": "Hacker News",
-      "cat": "ai",
-      "lang": "en"
-    },
-    {
-      "title": "Λ Snap – An inviting programming language for kids and adults for CS study",
-      "link": "https://snap.berkeley.edu/",
-      "desc": "Article URL: https://snap.berkeley.edu/ Comments URL: https://news.ycombinator.com/item?id=49662214 Points: 148 # Comments: 86",
+      "desc": "https://terrytao.wordpress.com/2026/09/11/a-severe-misalignm... https://www.economist.com/science-and-technology/2026/09/11/... , https://unwall.app/www.economist.com/science-and-technology/... Comments URL: https://news.ycombinator.com/item?id=49662371 Points: 1014 # Comments: 970",
       "date": "2026-09-11",
       "source": "Hacker News",
       "cat": "ai",
@@ -237,7 +273,7 @@ window.NEWS_DATA = {
     {
       "title": "Mind-altering drugs played key role in rise of Andean civilization",
       "link": "https://www.science.org/content/article/mind-altering-drugs-played-key-role-rise-andean-civilization",
-      "desc": "Article URL: https://www.science.org/content/article/mind-altering-drugs-played-key-role-rise-andean-civilization Comments URL: https://news.ycombinator.com/item?id=49662020 Points: 169 # Comments: 111",
+      "desc": "Article URL: https://www.science.org/content/article/mind-altering-drugs-played-key-role-rise-andean-civilization Comments URL: https://news.ycombinator.com/item?id=49662020 Points: 175 # Comments: 115",
       "date": "2026-09-11",
       "source": "Hacker News",
       "cat": "ai",
@@ -246,7 +282,16 @@ window.NEWS_DATA = {
     {
       "title": "Rune is now open source",
       "link": "https://rune.build/blog/rune-is-now-open-source",
-      "desc": "Article URL: https://rune.build/blog/rune-is-now-open-source Comments URL: https://news.ycombinator.com/item?id=49660149 Points: 195 # Comments: 61",
+      "desc": "Article URL: https://rune.build/blog/rune-is-now-open-source Comments URL: https://news.ycombinator.com/item?id=49660149 Points: 199 # Comments: 63",
+      "date": "2026-09-11",
+      "source": "Hacker News",
+      "cat": "ai",
+      "lang": "en"
+    },
+    {
+      "title": "I Fixed a Tractor Using John Deere's Self-Repair Service. Farmers Aren't Sold",
+      "link": "https://www.wired.com/story/i-fixed-a-tractor-john-deere-self-repair-service/",
+      "desc": "Article URL: https://www.wired.com/story/i-fixed-a-tractor-john-deere-self-repair-service/ Comments URL: https://news.ycombinator.com/item?id=49658672 Points: 7 # Comments: 2",
       "date": "2026-09-11",
       "source": "Hacker News",
       "cat": "ai",
@@ -325,8 +370,8 @@ window.NEWS_DATA = {
       "lang": "en"
     },
     {
-      "title": "Tutorial for Septabee, a free DAW in the making for over 20,000 hours",
-      "link": "https://www.youtube.com/watch?v=lW8Z98pXuSE",
+      "title": "Measuring the sloppiness of code",
+      "link": "https://earendil.com/posts/measuring-code-sloppiness/",
       "desc": "Comments",
       "date": "2026-09-11",
       "source": "Lobsters",
@@ -334,8 +379,8 @@ window.NEWS_DATA = {
       "lang": "en"
     },
     {
-      "title": "Measuring the sloppiness of code",
-      "link": "https://earendil.com/posts/measuring-code-sloppiness/",
+      "title": "Tutorial for Septabee, a free DAW in the making for over 20,000 hours",
+      "link": "https://www.youtube.com/watch?v=lW8Z98pXuSE",
       "desc": "Comments",
       "date": "2026-09-11",
       "source": "Lobsters",
@@ -721,6 +766,33 @@ window.NEWS_DATA = {
       "lang": "ru"
     },
     {
+      "title": "Show HN: ResolveHQ – A Helpdesk Built on Cloudflare Workers, D1, R2 and Queues",
+      "link": "https://github.com/mirza-rizvi/ResolveHQ",
+      "desc": "Article URL: https://github.com/mirza-rizvi/ResolveHQ Comments URL: https://news.ycombinator.com/item?id=49665864 Points: 63 # Comments: 22",
+      "date": "2026-09-11",
+      "source": "Hacker News",
+      "cat": "ai",
+      "lang": "en"
+    },
+    {
+      "title": "Another way to leak traffic on Android has been discovered",
+      "link": "https://mullvad.net/en/blog/another-way-to-leak-traffic-on-android-has-been-discovered",
+      "desc": "Article URL: https://mullvad.net/en/blog/another-way-to-leak-traffic-on-android-has-been-discovered Comments URL: https://news.ycombinator.com/item?id=49665502 Points: 95 # Comments: 15",
+      "date": "2026-09-11",
+      "source": "Hacker News",
+      "cat": "ai",
+      "lang": "en"
+    },
+    {
+      "title": "Λ Snap – An inviting programming language for kids and adults for CS study",
+      "link": "https://snap.berkeley.edu/",
+      "desc": "Article URL: https://snap.berkeley.edu/ Comments URL: https://news.ycombinator.com/item?id=49662214 Points: 148 # Comments: 86",
+      "date": "2026-09-11",
+      "source": "Hacker News",
+      "cat": "ai",
+      "lang": "en"
+    },
+    {
       "title": "AI researchers debate how close we are to recursive self-improvement",
       "link": "https://www.dwarkesh.com/p/john-beren-charlie",
       "desc": "Article URL: https://www.dwarkesh.com/p/john-beren-charlie Comments URL: https://news.ycombinator.com/item?id=49665711 Points: 94 # Comments: 88",
@@ -764,24 +836,6 @@ window.NEWS_DATA = {
       "source": "Habr AI",
       "cat": "ai",
       "lang": "ru"
-    },
-    {
-      "title": "Show HN: Bodily Oddities",
-      "link": "https://vester.si/bodily-oddities/",
-      "desc": "When I was about 11 years old, my best friend and I were playing during recess at school, and I was carrying him around on my back, presumably pretending to be a multipart attack robot. All of a sudden, my heart started hurting, and I collapsed to my knees, and the robot was no more. Every time I...",
-      "date": "2026-09-10",
-      "source": "Hacker News",
-      "cat": "ai",
-      "lang": "en"
-    },
-    {
-      "title": "Designing for Dual Screen and Foldable Devices with CSS (2023)",
-      "link": "https://blog.stephaniestimac.com/posts/2023/05/design-foldable-devices/",
-      "desc": "Article URL: https://blog.stephaniestimac.com/posts/2023/05/design-foldable-devices/ Comments URL: https://news.ycombinator.com/item?id=49643011 Points: 37 # Comments: 7",
-      "date": "2026-09-10",
-      "source": "Hacker News",
-      "cat": "ai",
-      "lang": "en"
     },
     {
       "title": "Models Don't Go Rogue",
@@ -829,27 +883,9 @@ window.NEWS_DATA = {
       "lang": "en"
     },
     {
-      "title": "Forgejo 16.0.4 has a critical security bug fix (RCE - Remote Code Execution)",
-      "link": "https://codeberg.org/forgejo/forgejo/src/branch/forgejo/release-notes-published/16.0.4.md",
-      "desc": "Comments",
-      "date": "2026-09-10",
-      "source": "Lobsters",
-      "cat": "ai",
-      "lang": "en"
-    },
-    {
       "title": "Fastly Speedtest Test",
       "link": "https://speed.edgecompute.app/",
       "desc": "The result should fairly accurately reflect cache fetch speed you’re going to get with the official Nix binary cache ;) Comments",
-      "date": "2026-09-10",
-      "source": "Lobsters",
-      "cat": "ai",
-      "lang": "en"
-    },
-    {
-      "title": "It's not the YAML spec's fault, but",
-      "link": "https://slugcat.systems/post/26-09-10-yaml-spec/",
-      "desc": "Comments",
       "date": "2026-09-10",
       "source": "Lobsters",
       "cat": "ai",
@@ -971,6 +1007,33 @@ window.NEWS_DATA = {
       "source": "vc.ru",
       "cat": "ai",
       "lang": "ru"
+    },
+    {
+      "title": "Show HN: Bodily Oddities",
+      "link": "https://vester.si/bodily-oddities/",
+      "desc": "When I was about 11 years old, my best friend and I were playing during recess at school, and I was carrying him around on my back, presumably pretending to be a multipart attack robot. All of a sudden, my heart started hurting, and I collapsed to my knees, and the robot was no more. Every time I...",
+      "date": "2026-09-10",
+      "source": "Hacker News",
+      "cat": "ai",
+      "lang": "en"
+    },
+    {
+      "title": "Forgejo 16.0.4 has a critical security bug fix (RCE - Remote Code Execution)",
+      "link": "https://codeberg.org/forgejo/forgejo/src/branch/forgejo/release-notes-published/16.0.4.md",
+      "desc": "Comments",
+      "date": "2026-09-10",
+      "source": "Lobsters",
+      "cat": "ai",
+      "lang": "en"
+    },
+    {
+      "title": "It's not the YAML spec's fault, but",
+      "link": "https://slugcat.systems/post/26-09-10-yaml-spec/",
+      "desc": "Comments",
+      "date": "2026-09-10",
+      "source": "Lobsters",
+      "cat": "ai",
+      "lang": "en"
     },
     {
       "title": "Xteink X4 Pro review",
@@ -1350,5 +1413,5 @@ window.NEWS_DATA = {
     "jobs",
     "orders"
   ],
-  "updated": "12.09.2026, 11:49:09"
+  "updated": "12.09.2026, 12:56:50"
 };
