@@ -32,12 +32,6 @@ jobs:
           cp *.html dist/ || true
           cp -r ai vibe agent platform jobs orders dist/
 
-      - name: Подготовка дистрибутива
-        run: |
-          mkdir dist
-          cp *.html dist/ || true
-          cp -r ai vibe agent platform jobs orders dist/
-
       - name: Коммит обновлённых данных
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
