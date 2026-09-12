@@ -217,8 +217,8 @@ window.NEWS_DATA = {
       "lang": "en"
     },
     {
-      "title": "Measuring the sloppiness of code",
-      "link": "https://earendil.com/posts/measuring-code-sloppiness/",
+      "title": "Pandas Should Go Extinct",
+      "link": "https://eddie.codes/posts/pandas-should-go-extinct/",
       "desc": "Comments",
       "date": "2026-09-11",
       "source": "Lobsters",
@@ -226,8 +226,8 @@ window.NEWS_DATA = {
       "lang": "en"
     },
     {
-      "title": "Pandas Should Go Extinct",
-      "link": "https://eddie.codes/posts/pandas-should-go-extinct/",
+      "title": "Measuring the sloppiness of code",
+      "link": "https://earendil.com/posts/measuring-code-sloppiness/",
       "desc": "Comments",
       "date": "2026-09-11",
       "source": "Lobsters",
@@ -1206,5 +1206,5 @@ window.NEWS_DATA = {
     "jobs",
     "orders"
   ],
-  "updated": "12.09.2026, 06:51:32"
+  "updated": "12.09.2026, 07:02:54"
 };
