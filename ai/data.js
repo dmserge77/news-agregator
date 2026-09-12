@@ -316,8 +316,8 @@ window.NEWS_DATA = {
       "lang": "en"
     },
     {
-      "title": "Power grab",
-      "link": "https://tante.cc/2026/09/11/power-grab/",
+      "title": "Pandas Should Go Extinct",
+      "link": "https://eddie.codes/posts/pandas-should-go-extinct/",
       "desc": "Comments",
       "date": "2026-09-11",
       "source": "Lobsters",
@@ -352,9 +352,9 @@ window.NEWS_DATA = {
       "lang": "en"
     },
     {
-      "title": "What are you doing this weekend?",
-      "link": "https://lobste.rs/s/vc0brm/what_are_you_doing_this_weekend",
-      "desc": "Feel free to tell what you plan on doing this weekend and even ask for help or feedback. Please keep in mind it’s more than OK to do nothing at all too!",
+      "title": "evergarden",
+      "link": "https://evergarden.moe/",
+      "desc": "Comments",
       "date": "2026-09-11",
       "source": "Lobsters",
       "cat": "ai",
@@ -856,8 +856,8 @@ window.NEWS_DATA = {
       "lang": "en"
     },
     {
-      "title": "A rant about phishing: It's not the user's fault (and not DNS either)",
-      "link": "https://maurycyz.com/misc/domains/",
+      "title": "Soft-deprecating re.match()",
+      "link": "https://hugovk.dev/blog/2026/soft-deprecating-re.match/",
       "desc": "Comments",
       "date": "2026-09-10",
       "source": "Lobsters",
