@@ -1,6 +1,206 @@
 window.NEWS_DATA = {
   "items": [
     {
+      "title": "Разработка интернет магазина на ocStore 3.0.5.0 под ключ. Версия 3 выбрана осознанно",
+      "link": "https://www.fl.ru/projects/5521730/razrabotka-internet-magazina-na-ocstore-3050-pod-klyuch-versiya-3-vyibrana-osoznanno.html",
+      "desc": "Мы - ООО на УСН с НДС 5 %. Ищем исполнителя (ИП или ООО — без разницы, главное — договор, закрывающие документы и оплата с расчётного счёта по безналу). Нам нужен интернет...",
+      "date": "2026-09-12",
+      "source": "FL.ru",
+      "cat": "orders",
+      "order_type": "content",
+      "lang": "ru"
+    },
+    {
+      "title": "Ищу Ии специалиста  (для всех)",
+      "link": "https://www.fl.ru/projects/5521731/ischu-ii-spetsialista-.html",
+      "desc": "Ищу ии специалиста, для обработки качественных фотографий",
+      "date": "2026-09-12",
+      "source": "FL.ru",
+      "cat": "orders",
+      "order_type": "content",
+      "lang": "ru"
+    },
+    {
+      "title": "Аарбитраж трафика (для всех)",
+      "link": "https://www.fl.ru/projects/5521637/aarbitraj-trafika.html",
+      "desc": "Нужен человек с опытом в арбитраже(УБТ), нужно залить трафик на тг канал тематика товарка. Гео:РФ. Оплата:0.5 доллара за пдп или можем работать по cpa.",
+      "date": "2026-09-12",
+      "source": "FL.ru",
+      "cat": "orders",
+      "order_type": "content",
+      "lang": "ru"
+    },
+    {
+      "title": "Обработать базу поставщиков промышленного оборудования (Бюджет: 1 000  ₽, для всех)",
+      "link": "https://www.fl.ru/projects/5521631/obrabotat-bazu-postavschikov-promyishlennogo-oborudovaniya.html",
+      "desc": "Обработать базу поставщиков промышленного оборудования Нужно связаться с 50 поставщиками промышленного оборудования по телефону или через мессенджеры. Задача — кратко рассказать о нашем сервисе, уточнить заинтересованность в размещении оборудования и зафиксировать результат каждого контакта в таб...",
+      "date": "2026-09-12",
+      "source": "FL.ru",
+      "cat": "orders",
+      "order_type": "content",
+      "lang": "ru"
+    },
+    {
+      "title": "Ищу мужчин клиентов Сбера с подключенным премиум пакетом Сбер Премьер 2!  (Бюджет: 3 000  ₽)",
+      "link": "https://www.fl.ru/projects/5521727/ischu-mujchin-klientov-sbera-s-podklyuchennyim-premium-paketom-sber-premer-2-.html",
+      "desc": "Ищу мужчин клиентов Сбера с подключенным премиум пакетом Сбер Премьер 2! Онлайн беседа в Зуме, оценить прототип нового дизайна раздела Сбер Премьер. Вознаграждение 3000....",
+      "date": "2026-09-12",
+      "source": "FL.ru",
+      "cat": "orders",
+      "order_type": "design",
+      "lang": "ru"
+    },
+    {
+      "title": "Настроить Яндекс Директ",
+      "link": "https://www.fl.ru/projects/5521725/nastroit-yandeks-direkt.html",
+      "desc": "Настроить Яндекс Директ есть сайт, хотим для него настроить Яндекс.Директ и пустить трафик. Пока ищем исполнителя, рассматриваем разные варианты сотрудничества. Предложите,...",
+      "date": "2026-09-12",
+      "source": "FL.ru",
+      "cat": "orders",
+      "order_type": "sites",
+      "lang": "ru"
+    },
+    {
+      "title": "Нужен созвон на английском (для всех)",
+      "link": "https://www.fl.ru/projects/5521623/nujen-sozvon-na-angliyskom.html",
+      "desc": "Нужно созвониться с потенциальным партнером по бизнесу. Задача: рассказать ему, что мы предлагаем, обсудить возможное сотрудничество и понять, на каких условиях он готов работать. Перед созвоном я обязательно введу вас в курс дела: расскажу, чем мы занимаемся, что именно предлагаем, покажу сайт, ...",
+      "date": "2026-09-12",
+      "source": "FL.ru",
+      "cat": "orders",
+      "order_type": "sites",
+      "lang": "ru"
+    },
+    {
+      "title": "Ручное тестирование веб-сервиса перед запуском",
+      "link": "https://www.fl.ru/projects/5521723/ruchnoe-testirovanie-veb-servisa-pered-zapuskom.html",
+      "desc": "Нужно прогнать веб-приложение (Nuxt 3, адаптив, тёмная тема, RU/EN) перед выходом в прод: лендинг, регистрация, вход, личные кабинеты, подписки, онлайн-оплата, карта. Есть...",
+      "date": "2026-09-12",
+      "source": "FL.ru",
+      "cat": "orders",
+      "order_type": "sites",
+      "lang": "ru"
+    },
+    {
+      "title": "Настройка автоматической отправки чек-листа в Telegram через Wazzup + Bitrix24",
+      "link": "https://www.fl.ru/projects/5521721/nastroyka-avtomaticheskoy-otpravki-chek-lista-v-telegram-cherez-wazzup--bitrix24.html",
+      "desc": "Нужно настроить автоматическую отправку файла-чеклиста клиенту после того, как он отправляет определённое сообщение в наш Telegram-аккаунт. Что уже есть * CRM: Bitrix24 *...",
+      "date": "2026-09-12",
+      "source": "FL.ru",
+      "cat": "orders",
+      "order_type": "content",
+      "lang": "ru"
+    },
+    {
+      "title": "Разработать MVP информационной платформы (full stack разработка)",
+      "link": "https://www.fl.ru/projects/5521722/razrabotat-mvp-informatsionnoy-platformyi-full-stack-razrabotka.html",
+      "desc": "Ищу full stack разработчика для создания MVP аналитической рыночной платформы. Концепция и интерактивный мокап уже есть. Что требуется сделать: Веб-интерфейс Регистрацию,...",
+      "date": "2026-09-12",
+      "source": "FL.ru",
+      "cat": "orders",
+      "order_type": "content",
+      "lang": "ru"
+    },
+    {
+      "title": "Создание BIM-каталога (для всех)",
+      "link": "https://www.fl.ru/projects/5521616/sozdanie-bim-kataloga.html",
+      "desc": "Требуется разработать BIM-каталог для строительных товаров, чтобы проектировщик мог взять готовый узел и вставить его в свою модель здания. Объем работы будем обсуждать в процессе беседы. Пришлите стоимость часа вашей работы и примерную стоимость за 1 страницу работы.",
+      "date": "2026-09-12",
+      "source": "FL.ru",
+      "cat": "orders",
+      "order_type": "content",
+      "lang": "ru"
+    },
+    {
+      "title": "Вручную вычищать дублирующиеся кадры из ProRes. (для всех)",
+      "link": "https://www.fl.ru/projects/5521612/vruchnuyu-vyichischat-dubliruyuschiesya-kadryi-iz-prores.html",
+      "desc": "Привет! Есть задача: нужно вручную вычищать дублирующиеся кадры из ProRes. Суть работы: удаляем только кадры, которые полностью повторяют предыдущий, либо отличаются от него только шумом/зерном и создают эффект фриза. Первый кадр последовательности всегда оставляем. Нельзя трогать уникальные кадр...",
+      "date": "2026-09-12",
+      "source": "FL.ru",
+      "cat": "orders",
+      "order_type": "ai",
+      "lang": "ru"
+    },
+    {
+      "title": "Настроить связку LLM и нескольких соцсетей для работы с комментариями оттуда через единый чат в ТГ",
+      "link": "https://www.fl.ru/projects/5521717/nastroit-svyazku-llm-i-neskolkih-sotssetey-dlya-rabotyi-s-kommentariyami-ottuda-cherez-edinyiy-chat-v-tg.html",
+      "desc": "Добрый день! Нужно настроить агента таким образом, чтобы нейронка собирала комментарии под постами автора из соцсетей, ЮтЮба и ТГ-канала. Далее чтобы она сама писала ответ на...",
+      "date": "2026-09-12",
+      "source": "FL.ru",
+      "cat": "orders",
+      "order_type": "ai",
+      "lang": "ru"
+    },
+    {
+      "title": "Разработка и интеграция CRM + AI-продавца для платформы LalaGo по готовому ТЗ (Бюджет: 25 000  ₽)",
+      "link": "https://www.fl.ru/projects/5521714/razrabotka-i-integratsiya-crm--ai-prodavtsa-dlya-platformyi-lalago-po-gotovomu-tz.html",
+      "desc": "Ищем опытного full-stack разработчика для продолжения разработки платформы LalaGo. Проект уже находится в разработке. Есть готовое подробное ТЗ и существующие модули....",
+      "date": "2026-09-12",
+      "source": "FL.ru",
+      "cat": "orders",
+      "order_type": "ai",
+      "lang": "ru"
+    },
+    {
+      "title": "Сделать сайт",
+      "link": "https://www.fl.ru/projects/5521712/sdelat-sayt.html",
+      "desc": "Сделать сайт на вордпресс по благоустройству. Весь контент есть.",
+      "date": "2026-09-12",
+      "source": "FL.ru",
+      "cat": "orders",
+      "order_type": "sites",
+      "lang": "ru"
+    },
+    {
+      "title": "Посмотреть ролик в инсте и поделиться его ссылкой (Бюджет: 10  ₽, для всех)",
+      "link": "https://www.fl.ru/projects/5521606/posmotret-rolik-v-inste-i-podelitsya-ego-ssyilkoy.html",
+      "desc": "Навыков не нужно, просто скинуть 2 скрина. Что просмотрели и что поделились роликом.",
+      "date": "2026-09-12",
+      "source": "FL.ru",
+      "cat": "orders",
+      "order_type": "content",
+      "lang": "ru"
+    },
+    {
+      "title": "3D / Blender / VRM специалист по риггингу — заменить тело персонажа, сохранить риг, ани и lip-sync",
+      "link": "https://www.fl.ru/projects/5521709/3d---blender---vrm-spetsialist-po-riggingu--zamenit-telo-personaja-sohranit-rig-ani-i-lip-sync.html",
+      "desc": "У нас есть готовый 3D-персонаж Jois для мобильного приложения. Сейчас у персонажа уже работают: facial rig lip-sync мимика основной body rig анимации волосы и secondary...",
+      "date": "2026-09-12",
+      "source": "FL.ru",
+      "cat": "orders",
+      "order_type": "content",
+      "lang": "ru"
+    },
+    {
+      "title": "Аналитика магазина на Авито",
+      "link": "https://www.fl.ru/projects/5521708/analitika-magazina-na-avito.html",
+      "desc": "Есть 2 магазина автозапчастей - один около 5000 товаров, второй около 700 Летом была сезонная просадка, сейчас цена контакта периодически увеличивается до 2500р Что нужно: -...",
+      "date": "2026-09-12",
+      "source": "FL.ru",
+      "cat": "orders",
+      "order_type": "content",
+      "lang": "ru"
+    },
+    {
+      "title": "Сделать вычитку текстов на азербайджанском (для всех)",
+      "link": "https://www.fl.ru/projects/5521587/sdelat-vyichitku-tekstov-na-azerbaydjanskom.html",
+      "desc": "Есть база коротких текстов (общий объем до 2к символов) на азербайджанском языке. Необходима вычитка и редактура текстов носителем языка.",
+      "date": "2026-09-12",
+      "source": "FL.ru",
+      "cat": "orders",
+      "order_type": "content",
+      "lang": "ru"
+    },
+    {
+      "title": "Создание архитектурного бюро на базе GPT-6 Astra",
+      "link": "https://www.fl.ru/projects/5521704/sozdanie-arhitekturnogo-byuro-na-baze-gpt-6-astra.html",
+      "desc": "Сбор данных в Notion/Confluence, база проектов (PostgreSQL/NoSQL), облачное хранилище (Azure/AWS). BIM/CAD: Revit, Rhino/Grasshopper, ArchiCAD; обмен IFC. Аналитика:...",
+      "date": "2026-09-12",
+      "source": "FL.ru",
+      "cat": "orders",
+      "order_type": "ai",
+      "lang": "ru"
+    },
+    {
       "title": "Automation Reverse Engineer Task (для всех)",
       "link": "https://www.fl.ru/projects/5521545/automation-reverse-engineer-task.html",
       "desc": "The project is to reverse engineer the process for generating anti-bot cookies on Ticketmaster.com. It will not be used to automating purchasing tickets. It will be used as part of the scraping process. The cookie is called TMPT. We originally had a solution that worked, but they changed the proc...",
@@ -14,16 +214,6 @@ window.NEWS_DATA = {
       "title": "Создание короткого видео TikTok (Бюджет: 350  ₽, для всех)",
       "link": "https://www.fl.ru/projects/5521547/sozdanie-korotkogo-video-tiktok.html",
       "desc": "Создание коротких видео с тестами для пар, 30-40 секунд, примеры дам. Рекламируем приложение для знакомств, с тестами, играми и опросами для пар. Всю информацию пришлю.",
-      "date": "2026-09-12",
-      "source": "FL.ru",
-      "cat": "orders",
-      "order_type": "content",
-      "lang": "ru"
-    },
-    {
-      "title": "Добрый вечер, у нас есть два задания, которое можно выполнить удаленно.",
-      "link": "https://www.fl.ru/projects/5521686/dobryiy-vecher-u-nas-est-dva-zadaniya-kotoroe-mojno-vyipolnit-udalenno.html",
-      "desc": "Если интересно, пишите, все расскажем.",
       "date": "2026-09-12",
       "source": "FL.ru",
       "cat": "orders",
@@ -124,6 +314,16 @@ window.NEWS_DATA = {
       "title": "Хочу сделать кавер на известную песню, но с новыми словами. Подходишь ли ты для такого?",
       "link": "https://www.fl.ru/projects/5521691/hochu-sdelat-kaver-na-izvestnuyu-pesnyu-no-s-novyimi-slovami-podhodish-li-tyi-dlya-takogo.html",
       "desc": "Нужен вокалист, надо спеть кавер на известную песню, но с новыми словами. Подходишь ли ты для такого?",
+      "date": "2026-09-12",
+      "source": "FL.ru",
+      "cat": "orders",
+      "order_type": "content",
+      "lang": "ru"
+    },
+    {
+      "title": "Добрый вечер, у нас есть два задания, которое можно выполнить удаленно.",
+      "link": "https://www.fl.ru/projects/5521686/dobryiy-vecher-u-nas-est-dva-zadaniya-kotoroe-mojno-vyipolnit-udalenno.html",
+      "desc": "Если интересно, пишите, все расскажем.",
       "date": "2026-09-12",
       "source": "FL.ru",
       "cat": "orders",
@@ -248,16 +448,6 @@ window.NEWS_DATA = {
       "source": "FL.ru",
       "cat": "orders",
       "order_type": "sites",
-      "lang": "ru"
-    },
-    {
-      "title": "Доработка для 1С Бухгалтерия",
-      "link": "https://www.fl.ru/projects/5521658/dorabotka-dlya-1s-buhgalteriya.html",
-      "desc": "Доработка для 1С: БП 8.5 3.0 Нужно сделать доработку для 1С которая отсылала бы заявки из 1С к нам на склад. Заявки на отгрузку/получение/просмотр/подготовку к отгрузке....",
-      "date": "2026-09-11",
-      "source": "FL.ru",
-      "cat": "orders",
-      "order_type": "content",
       "lang": "ru"
     },
     {
@@ -411,9 +601,9 @@ window.NEWS_DATA = {
       "lang": "ru"
     },
     {
-      "title": "Аарбитраж трафика",
-      "link": "https://www.fl.ru/projects/5521637/aarbitraj-trafika.html",
-      "desc": "Нужен человек с опытом в арбитраже(УБТ), нужно залить трафик на тг канал тематика товарка. Гео:РФ. Оплата:0.5 доллара за пдп или можем работать по cpa.",
+      "title": "Обработать покупателей промышленного оборудования (Бюджет: 1 000  ₽)",
+      "link": "https://www.fl.ru/projects/5521634/obrabotat-pokupateley-promyishlennogo-oborudovaniya.html",
+      "desc": "Нужно связаться с 30 потенциальными покупателями, которые ранее интересовались промышленным оборудованием. Необходимо уточнить: — актуальна ли еще покупка; — какое...",
       "date": "2026-09-11",
       "source": "FL.ru",
       "cat": "orders",
@@ -421,9 +611,9 @@ window.NEWS_DATA = {
       "lang": "ru"
     },
     {
-      "title": "Обработать покупателей промышленного оборудования (Бюджет: 1 000  ₽)",
-      "link": "https://www.fl.ru/projects/5521634/obrabotat-pokupateley-promyishlennogo-oborudovaniya.html",
-      "desc": "Нужно связаться с 30 потенциальными покупателями, которые ранее интересовались промышленным оборудованием. Необходимо уточнить: — актуальна ли еще покупка; — какое...",
+      "title": "Доработка для 1С Бухгалтерия",
+      "link": "https://www.fl.ru/projects/5521658/dorabotka-dlya-1s-buhgalteriya.html",
+      "desc": "Доработка для 1С: БП 8.5 3.0 Нужно сделать доработку для 1С которая отсылала бы заявки из 1С к нам на склад. Заявки на отгрузку/получение/просмотр/подготовку к отгрузке....",
       "date": "2026-09-11",
       "source": "FL.ru",
       "cat": "orders",
@@ -444,16 +634,6 @@ window.NEWS_DATA = {
       "title": "Проконтролировать выполнение задач программистами (Бюджет: 1 000  ₽)",
       "link": "https://www.fl.ru/projects/5521632/prokontrolirovat-vyipolnenie-zadach-programmistami.html",
       "desc": "Проконтролировать выполнение задач программистами . Есть список из 15–20 задач по разработке интернет-сервиса и переписка с исполнителями. Необходимо разобраться в задачах,...",
-      "date": "2026-09-11",
-      "source": "FL.ru",
-      "cat": "orders",
-      "order_type": "content",
-      "lang": "ru"
-    },
-    {
-      "title": "Обработать базу поставщиков промышленного оборудования (Бюджет: 1 000  ₽)",
-      "link": "https://www.fl.ru/projects/5521631/obrabotat-bazu-postavschikov-promyishlennogo-oborudovaniya.html",
-      "desc": "Обработать базу поставщиков промышленного оборудования Нужно связаться с 50 поставщиками промышленного оборудования по телефону или через мессенджеры. Задача — кратко...",
       "date": "2026-09-11",
       "source": "FL.ru",
       "cat": "orders",
@@ -561,16 +741,6 @@ window.NEWS_DATA = {
       "lang": "ru"
     },
     {
-      "title": "Нужен созвон на английском",
-      "link": "https://www.fl.ru/projects/5521623/nujen-sozvon-na-angliyskom.html",
-      "desc": "Нужно созвониться с потенциальным партнером по бизнесу. Задача: рассказать ему, что мы предлагаем, обсудить возможное сотрудничество и понять, на каких условиях он готов...",
-      "date": "2026-09-11",
-      "source": "FL.ru",
-      "cat": "orders",
-      "order_type": "content",
-      "lang": "ru"
-    },
-    {
       "title": "Технический администратор сайта / верстальщик",
       "link": "https://www.fl.ru/projects/5521618/tehnicheskiy-administrator-sayta---verstalschik.html",
       "desc": "Ищем специалиста по WordPress / верстальщика на регулярную подработку. Сайт работает на WordPress. Нужен человек, который сможет взять на себя его техническое...",
@@ -578,16 +748,6 @@ window.NEWS_DATA = {
       "source": "FL.ru",
       "cat": "orders",
       "order_type": "sites",
-      "lang": "ru"
-    },
-    {
-      "title": "Создание BIM-каталога",
-      "link": "https://www.fl.ru/projects/5521616/sozdanie-bim-kataloga.html",
-      "desc": "Требуется разработать BIM-каталог для строительных товаров, чтобы проектировщик мог взять готовый узел и вставить его в свою модель здания. Объем работы будем обсуждать в...",
-      "date": "2026-09-11",
-      "source": "FL.ru",
-      "cat": "orders",
-      "order_type": "content",
       "lang": "ru"
     },
     {
@@ -609,5 +769,5 @@ window.NEWS_DATA = {
     "jobs",
     "orders"
   ],
-  "updated": "12.09.2026, 07:02:54"
+  "updated": "12.09.2026, 16:43:12"
 };

@@ -3,17 +3,8 @@ window.NEWS_DATA = {
     {
       "title": "google.com/goto: Google's anti-scraping update",
       "link": "https://www.autom.dev/blog/google-search-goto-links",
-      "desc": "Article URL: https://www.autom.dev/blog/google-search-goto-links Comments URL: https://news.ycombinator.com/item?id=49668386 Points: 296 # Comments: 151",
+      "desc": "Article URL: https://www.autom.dev/blog/google-search-goto-links Comments URL: https://news.ycombinator.com/item?id=49668386 Points: 491 # Comments: 392",
       "date": "2026-09-12",
-      "source": "Hacker News",
-      "cat": "platform",
-      "lang": "en"
-    },
-    {
-      "title": "The EPA is planning to scrap public review rules for data center pollution",
-      "link": "https://capitalbnews.org/data-centers-permit-rules-epa/",
-      "desc": "Article URL: https://capitalbnews.org/data-centers-permit-rules-epa/ Comments URL: https://news.ycombinator.com/item?id=49662672 Points: 438 # Comments: 301",
-      "date": "2026-09-11",
       "source": "Hacker News",
       "cat": "platform",
       "lang": "en"
@@ -44,6 +35,15 @@ window.NEWS_DATA = {
       "source": "Habr AI",
       "cat": "platform",
       "lang": "ru"
+    },
+    {
+      "title": "The EPA is planning to scrap public review rules for data center pollution",
+      "link": "https://capitalbnews.org/data-centers-permit-rules-epa/",
+      "desc": "Article URL: https://capitalbnews.org/data-centers-permit-rules-epa/ Comments URL: https://news.ycombinator.com/item?id=49662672 Points: 438 # Comments: 301",
+      "date": "2026-09-11",
+      "source": "Hacker News",
+      "cat": "platform",
+      "lang": "en"
     },
     {
       "title": "Rebuilding AUTOMATIC1111 with Gradio Workflow",
@@ -135,5 +135,5 @@ window.NEWS_DATA = {
     "jobs",
     "orders"
   ],
-  "updated": "12.09.2026, 07:02:54"
+  "updated": "12.09.2026, 16:43:12"
 };
