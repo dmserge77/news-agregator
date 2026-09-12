@@ -1,9 +1,27 @@
 window.NEWS_DATA = {
   "items": [
     {
+      "title": "My last six months at Evernote",
+      "link": "https://alexkras.com/my-last-six-months-at-evernote-after-bending-spoons-took-over/",
+      "desc": "Article URL: https://alexkras.com/my-last-six-months-at-evernote-after-bending-spoons-took-over/ Comments URL: https://news.ycombinator.com/item?id=49672342 Points: 7 # Comments: 0",
+      "date": "2026-09-12",
+      "source": "Hacker News",
+      "cat": "ai",
+      "lang": "en"
+    },
+    {
+      "title": "Coding Is Over. Get over It",
+      "link": "https://blog.pitermarx.com/2026/09/coding-is-over.-get-over-it./",
+      "desc": "Article URL: https://blog.pitermarx.com/2026/09/coding-is-over.-get-over-it./ Comments URL: https://news.ycombinator.com/item?id=49672045 Points: 8 # Comments: 1",
+      "date": "2026-09-12",
+      "source": "Hacker News",
+      "cat": "ai",
+      "lang": "en"
+    },
+    {
       "title": "Fuck it, make it anyway",
       "link": "https://www.joelotter.com/posts/2026/09/make-it-anyway/",
-      "desc": "Article URL: https://www.joelotter.com/posts/2026/09/make-it-anyway/ Comments URL: https://news.ycombinator.com/item?id=49671329 Points: 209 # Comments: 148",
+      "desc": "Article URL: https://www.joelotter.com/posts/2026/09/make-it-anyway/ Comments URL: https://news.ycombinator.com/item?id=49671329 Points: 232 # Comments: 170",
       "date": "2026-09-12",
       "source": "Hacker News",
       "cat": "ai",
@@ -12,7 +30,7 @@ window.NEWS_DATA = {
     {
       "title": "Crypto farm in Mexican mountains puts spotlight on cartel funding",
       "link": "https://www.reuters.com/world/americas/hidden-crypto-farm-mexican-mountains-puts-spotlight-cartel-funding-2026-09-12/",
-      "desc": "Article URL: https://www.reuters.com/world/americas/hidden-crypto-farm-mexican-mountains-puts-spotlight-cartel-funding-2026-09-12/ Comments URL: https://news.ycombinator.com/item?id=49671296 Points: 24 # Comments: 2",
+      "desc": "Article URL: https://www.reuters.com/world/americas/hidden-crypto-farm-mexican-mountains-puts-spotlight-cartel-funding-2026-09-12/ Comments URL: https://news.ycombinator.com/item?id=49671296 Points: 26 # Comments: 4",
       "date": "2026-09-12",
       "source": "Hacker News",
       "cat": "ai",
@@ -21,7 +39,7 @@ window.NEWS_DATA = {
     {
       "title": "We've followed their lives for six decades; now the stars of 7 Up are bowing out",
       "link": "https://www.bbc.co.uk/news/articles/crm932el3yjo",
-      "desc": "Article URL: https://www.bbc.co.uk/news/articles/crm932el3yjo Comments URL: https://news.ycombinator.com/item?id=49670981 Points: 45 # Comments: 10",
+      "desc": "Article URL: https://www.bbc.co.uk/news/articles/crm932el3yjo Comments URL: https://news.ycombinator.com/item?id=49670981 Points: 48 # Comments: 10",
       "date": "2026-09-12",
       "source": "Hacker News",
       "cat": "ai",
@@ -30,7 +48,7 @@ window.NEWS_DATA = {
     {
       "title": "Resistance Training Prescription for Muscle Function, Hypertrophy in Health",
       "link": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12965823/",
-      "desc": "Article URL: https://pmc.ncbi.nlm.nih.gov/articles/PMC12965823/ Comments URL: https://news.ycombinator.com/item?id=49670493 Points: 37 # Comments: 21",
+      "desc": "Article URL: https://pmc.ncbi.nlm.nih.gov/articles/PMC12965823/ Comments URL: https://news.ycombinator.com/item?id=49670493 Points: 37 # Comments: 24",
       "date": "2026-09-12",
       "source": "Hacker News",
       "cat": "ai",
@@ -39,7 +57,7 @@ window.NEWS_DATA = {
     {
       "title": "Retrospectively Reverse-Engineering Apple's Neural Engine",
       "link": "https://eiln.github.io/posts/ane.html",
-      "desc": "Article URL: https://eiln.github.io/posts/ane.html Comments URL: https://news.ycombinator.com/item?id=49670032 Points: 144 # Comments: 19",
+      "desc": "Article URL: https://eiln.github.io/posts/ane.html Comments URL: https://news.ycombinator.com/item?id=49670032 Points: 149 # Comments: 19",
       "date": "2026-09-12",
       "source": "Hacker News",
       "cat": "ai",
@@ -48,7 +66,7 @@ window.NEWS_DATA = {
     {
       "title": "Usenet rewind archive search engine",
       "link": "https://www.usenet-rewind.com/",
-      "desc": "Article URL: https://www.usenet-rewind.com/ Comments URL: https://news.ycombinator.com/item?id=49668777 Points: 86 # Comments: 27",
+      "desc": "Article URL: https://www.usenet-rewind.com/ Comments URL: https://news.ycombinator.com/item?id=49668777 Points: 91 # Comments: 28",
       "date": "2026-09-12",
       "source": "Hacker News",
       "cat": "ai",
@@ -57,7 +75,7 @@ window.NEWS_DATA = {
     {
       "title": "Navier-Stokes Announcement",
       "link": "https://www.claymath.org/news/navier-stokes-announcement/",
-      "desc": "Article URL: https://www.claymath.org/news/navier-stokes-announcement/ Comments URL: https://news.ycombinator.com/item?id=49668706 Points: 222 # Comments: 152",
+      "desc": "Article URL: https://www.claymath.org/news/navier-stokes-announcement/ Comments URL: https://news.ycombinator.com/item?id=49668706 Points: 223 # Comments: 156",
       "date": "2026-09-12",
       "source": "Hacker News",
       "cat": "ai",
@@ -93,6 +111,15 @@ window.NEWS_DATA = {
     {
       "title": "Designing for Dual Screen and Foldable Devices With CSS",
       "link": "https://blog.stephaniestimac.com/posts/2023/05/design-foldable-devices/",
+      "desc": "Comments",
+      "date": "2026-09-12",
+      "source": "Lobsters",
+      "cat": "ai",
+      "lang": "en"
+    },
+    {
+      "title": "Solod 0.4: Better C interop",
+      "link": "https://antonz.org/solod-0.4/",
       "desc": "Comments",
       "date": "2026-09-12",
       "source": "Lobsters",
@@ -226,27 +253,9 @@ window.NEWS_DATA = {
       "lang": "en"
     },
     {
-      "title": "Project Blinkenlights",
-      "link": "https://blinkenlights.de/en/",
-      "desc": "Article URL: https://blinkenlights.de/en/ Comments URL: https://news.ycombinator.com/item?id=49666146 Points: 102 # Comments: 32",
-      "date": "2026-09-11",
-      "source": "Hacker News",
-      "cat": "ai",
-      "lang": "en"
-    },
-    {
       "title": "Forgotten Woodlands",
       "link": "https://storymaps.arcgis.com/stories/9b790daf22ba4e87836f467abb1c7e49",
-      "desc": "Article URL: https://storymaps.arcgis.com/stories/9b790daf22ba4e87836f467abb1c7e49 Comments URL: https://news.ycombinator.com/item?id=49665549 Points: 19 # Comments: 4",
-      "date": "2026-09-11",
-      "source": "Hacker News",
-      "cat": "ai",
-      "lang": "en"
-    },
-    {
-      "title": "GrapheneOS' rewritten Messages app is released",
-      "link": "https://github.com/GrapheneOS/Messaging/releases/tag/13",
-      "desc": "Article URL: https://github.com/GrapheneOS/Messaging/releases/tag/13 Comments URL: https://news.ycombinator.com/item?id=49663373 Points: 288 # Comments: 212",
+      "desc": "Article URL: https://storymaps.arcgis.com/stories/9b790daf22ba4e87836f467abb1c7e49 Comments URL: https://news.ycombinator.com/item?id=49665549 Points: 21 # Comments: 4",
       "date": "2026-09-11",
       "source": "Hacker News",
       "cat": "ai",
@@ -255,7 +264,7 @@ window.NEWS_DATA = {
     {
       "title": "I spent $220 on Google app ads and 60% of the installs were robots",
       "link": "https://dayzlegame.com/blog/google-ads-bot-farm/",
-      "desc": "Article URL: https://dayzlegame.com/blog/google-ads-bot-farm/ Comments URL: https://news.ycombinator.com/item?id=49662990 Points: 622 # Comments: 340",
+      "desc": "Article URL: https://dayzlegame.com/blog/google-ads-bot-farm/ Comments URL: https://news.ycombinator.com/item?id=49662990 Points: 626 # Comments: 345",
       "date": "2026-09-11",
       "source": "Hacker News",
       "cat": "ai",
@@ -264,7 +273,7 @@ window.NEWS_DATA = {
     {
       "title": "Litelm: LiteLLM Without the Bloat",
       "link": "https://github.com/kennethwolters/litelm",
-      "desc": "Article URL: https://github.com/kennethwolters/litelm Comments URL: https://news.ycombinator.com/item?id=49662767 Points: 157 # Comments: 51",
+      "desc": "Article URL: https://github.com/kennethwolters/litelm Comments URL: https://news.ycombinator.com/item?id=49662767 Points: 157 # Comments: 52",
       "date": "2026-09-11",
       "source": "Hacker News",
       "cat": "ai",
@@ -273,7 +282,7 @@ window.NEWS_DATA = {
     {
       "title": "A misalignment of AI in mathematics",
       "link": "https://mathandai.org/",
-      "desc": "https://terrytao.wordpress.com/2026/09/11/a-severe-misalignm... https://www.economist.com/science-and-technology/2026/09/11/... , https://unwall.app/www.economist.com/science-and-technology/... Comments URL: https://news.ycombinator.com/item?id=49662371 Points: 1047 # Comments: 1000",
+      "desc": "https://terrytao.wordpress.com/2026/09/11/a-severe-misalignm... https://www.economist.com/science-and-technology/2026/09/11/... , https://unwall.app/www.economist.com/science-and-technology/... Comments URL: https://news.ycombinator.com/item?id=49662371 Points: 1054 # Comments: 1012",
       "date": "2026-09-11",
       "source": "Hacker News",
       "cat": "ai",
@@ -282,7 +291,7 @@ window.NEWS_DATA = {
     {
       "title": "Mind-altering drugs played key role in rise of Andean civilization",
       "link": "https://www.science.org/content/article/mind-altering-drugs-played-key-role-rise-andean-civilization",
-      "desc": "Article URL: https://www.science.org/content/article/mind-altering-drugs-played-key-role-rise-andean-civilization Comments URL: https://news.ycombinator.com/item?id=49662020 Points: 185 # Comments: 121",
+      "desc": "Article URL: https://www.science.org/content/article/mind-altering-drugs-played-key-role-rise-andean-civilization Comments URL: https://news.ycombinator.com/item?id=49662020 Points: 187 # Comments: 123",
       "date": "2026-09-11",
       "source": "Hacker News",
       "cat": "ai",
@@ -300,7 +309,7 @@ window.NEWS_DATA = {
     {
       "title": "I Fixed a Tractor Using John Deere's Self-Repair Service. Farmers Aren't Sold",
       "link": "https://www.wired.com/story/i-fixed-a-tractor-john-deere-self-repair-service/",
-      "desc": "Article URL: https://www.wired.com/story/i-fixed-a-tractor-john-deere-self-repair-service/ Comments URL: https://news.ycombinator.com/item?id=49658672 Points: 15 # Comments: 21",
+      "desc": "Article URL: https://www.wired.com/story/i-fixed-a-tractor-john-deere-self-repair-service/ Comments URL: https://news.ycombinator.com/item?id=49658672 Points: 22 # Comments: 31",
       "date": "2026-09-11",
       "source": "Hacker News",
       "cat": "ai",
@@ -775,6 +784,24 @@ window.NEWS_DATA = {
       "lang": "ru"
     },
     {
+      "title": "Project Blinkenlights",
+      "link": "https://blinkenlights.de/en/",
+      "desc": "Article URL: https://blinkenlights.de/en/ Comments URL: https://news.ycombinator.com/item?id=49666146 Points: 102 # Comments: 32",
+      "date": "2026-09-11",
+      "source": "Hacker News",
+      "cat": "ai",
+      "lang": "en"
+    },
+    {
+      "title": "GrapheneOS' rewritten Messages app is released",
+      "link": "https://github.com/GrapheneOS/Messaging/releases/tag/13",
+      "desc": "Article URL: https://github.com/GrapheneOS/Messaging/releases/tag/13 Comments URL: https://news.ycombinator.com/item?id=49663373 Points: 288 # Comments: 212",
+      "date": "2026-09-11",
+      "source": "Hacker News",
+      "cat": "ai",
+      "lang": "en"
+    },
+    {
       "title": "Show HN: ResolveHQ – A Helpdesk Built on Cloudflare Workers, D1, R2 and Queues",
       "link": "https://github.com/mirza-rizvi/ResolveHQ",
       "desc": "Article URL: https://github.com/mirza-rizvi/ResolveHQ Comments URL: https://news.ycombinator.com/item?id=49665864 Points: 55 # Comments: 17",
@@ -892,15 +919,6 @@ window.NEWS_DATA = {
       "lang": "en"
     },
     {
-      "title": "Fastly Speedtest Test",
-      "link": "https://speed.edgecompute.app/",
-      "desc": "The result should fairly accurately reflect cache fetch speed you’re going to get with the official Nix binary cache ;) Comments",
-      "date": "2026-09-10",
-      "source": "Lobsters",
-      "cat": "ai",
-      "lang": "en"
-    },
-    {
       "title": "Why is Apple’s New Foldable iPhone Duo $1,999?",
       "link": "https://www.nytimes.com/2026/09/10/technology/personaltech/iphone-duo-foldable-phones.html",
       "desc": "The company unveiled a new iPhone that costs $1,999. Here are the economics behind that price tag.",
@@ -998,6 +1016,15 @@ window.NEWS_DATA = {
       "source": "vc.ru",
       "cat": "ai",
       "lang": "ru"
+    },
+    {
+      "title": "Fastly Speedtest Test",
+      "link": "https://speed.edgecompute.app/",
+      "desc": "The result should fairly accurately reflect cache fetch speed you’re going to get with the official Nix binary cache ;) Comments",
+      "date": "2026-09-10",
+      "source": "Lobsters",
+      "cat": "ai",
+      "lang": "en"
     },
     {
       "title": "Forgejo 16.0.4 has a critical security bug fix (RCE - Remote Code Execution)",
@@ -1422,5 +1449,5 @@ window.NEWS_DATA = {
     "jobs",
     "orders"
   ],
-  "updated": "12.09.2026, 17:11:56"
+  "updated": "12.09.2026, 17:23:04"
 };
