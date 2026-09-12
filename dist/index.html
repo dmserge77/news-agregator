@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AI News Hub</title>
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🤖</text></svg>">
+<style>
+:root {
+  --bg: #f5f5f7; --card-bg: #ffffff; --text: #1d1d1f;
+  --text2: #6e6e73; --border: #e5e5ea; --accent: #0071e3;
+  --shadow: 0 2px 12px rgba(0,0,0,0.08);
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #1c1c1e; --card-bg: #2c2c2e; --text: #f5f5f7;
+    --text2: #98989d; --border: #3a3a3c; --shadow: 0 2px 12px rgba(0,0,0,0.3);
+  }
+}
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  background: var(--bg); color: var(--text); line-height: 1.5; padding: 20px;
+}
+.container { max-width: 1100px; margin: 0 auto; }
+
+header {
+  text-align: center;
+  padding: 30px 0 10px;
+}
+header h1 {
+  font-size: 2.5rem; font-weight: 700;
+  background: linear-gradient(135deg, #0071e3, #5856d6);
+  -webkit-background-clip: text; -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+header p { color: var(--text2); margin-top: 4px; font-size: 1.1rem; }
+
+.nav-bar {
+  display: flex;
+  gap: 8px;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 20px 0 30px;
+}
+.nav-btn {
+  padding: 10px 24px;
+  border-radius: 24px;
+  border: 1.5px solid var(--border);
+  background: var(--card-bg);
+  color: var(--text);
+  text-decoration: none;
+  font-size: 0.95rem;
+  transition: all 0.2s;
+}
+.nav-btn:hover { border-color: var(--accent); color: var(--accent); }
+.nav-btn.active {
+  background: var(--accent);
+  color: #fff;
+  border-color: var(--accent);
+}
+
+footer { color: var(--text2); font-size: 0.85rem; padding: 30px 0; text-align: center; }
+</style>
+</head>
+<body>
+<div class="container">
+  <header>
+    <h1>AI News Hub</h1>
+    <p>Нейросети · Вайбкодинг · ИИ-агенты · Платформы</p>
+    <div id="lastUpdated" style="font-size:.85rem;color:var(--text2);margin-top:4px"></div>
+  </header>
+
+  <nav class="nav-bar">
+    <a href="index.html" class="nav-btn active">🏠 Все</a>
+    <a href="ai/index.html" class="nav-btn">🧠 Нейросети</a>
+    <a href="vibe/index.html" class="nav-btn">✨ Вайбкодинг</a>
+    <a href="agent/index.html" class="nav-btn">🤖 ИИ-агенты</a>
+    <a href="platform/index.html" class="nav-btn">⚡ Платформы</a>
+    <a href="jobs/index.html" class="nav-btn">💼 Вакансии</a>
+    <a href="orders/index.html" class="nav-btn">💰 Есть заказ</a>
+  </nav>
+
+  <footer>
+    Автосборщик новостей о мире AI
+  </footer>
+</div>
+<script>
+document.getElementById('lastUpdated').textContent =
+    'Обновлено: ' + new Date().toLocaleString('ru-RU', {timeZone:'Europe/Moscow'}) + ' (МСК)';
+</script>
+</body>
+</html>
