@@ -1,0 +1,52 @@
+name: Сборка и деплой
+on:
+  schedule:
+    - cron: '0 */4 * * *'
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Установка Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Сбор новостей
+        run: python collector.py
+
+      - name: Коммит обновлённых данных
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: 'автообновление новостей'
+          commit_user_name: 'AI News Bot'
+          commit_user_email: 'bot@ai-news-hub.local'
+
+  deploy:
+    needs: build
+    if: github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: '.'
+
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
