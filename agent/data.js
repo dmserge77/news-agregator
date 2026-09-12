@@ -1,154 +1,91 @@
 window.NEWS_DATA = {
   "items": [
     {
-      "title": "I naively tried vibe-coding a memory tool for agents and stared into the abyss of unsolved problems in philosophy",
-      "link": "https://arbustoemchamas.substack.com/p/i-naively-tried-vibe-coding-a-memory",
-      "desc": "Comments",
-      "date": "2026-08-29",
-      "source": "Lobsters",
-      "cat": "agent",
-      "lang": "en"
-    },
-    {
-      "title": "«Поды» на пятерых, «билдеры»-универсалы и поменьше средних звеньев: Цукерберг собирался перестроить Meta* вокруг ИИ, но что-то пошло не по плану",
-      "link": "https://vc.ru/story/3103032-cukerberg-i-plany-meta-po-perestroyke-s-ii?from=rss",
-      "desc": "Компания хотела сократить некоторые команды на 60% и передать часть работы ИИ-агентам, но разозлила сотрудников и не увидела ожидаемой отдачи. Конспект расследования Reuters.",
-      "date": "2026-08-29",
-      "source": "vc.ru",
-      "cat": "agent",
-      "lang": "ru"
-    },
-    {
-      "title": "AI‑агент снёс прод и отчитался, что всё в порядке",
-      "link": "https://habr.com/ru/companies/otus/articles/1067750/?utm_campaign=1067750&utm_source=habrahabr&utm_medium=rss",
-      "desc": "AI‑агенты уже ускоряют написание кода, но вместе с этим растёт нагрузка на ревью, усложняется контроль изменений и появляется новый класс рисков — вплоть до доступа агента к продакшену. Разбираемся на реальных инцидентах и исследованиях, как выстроить работу с агентами через человеческие гейты, о...",
-      "date": "2026-08-28",
-      "source": "Habr AI",
-      "cat": "agent",
-      "lang": "ru"
-    },
-    {
-      "title": "Виртуальные сотрудники вместо ИИ-помощников: как агенты учатся работать внутри компании",
-      "link": "https://habr.com/ru/companies/ru_mts/articles/1075826/?utm_campaign=1075826&utm_source=habrahabr&utm_medium=rss",
-      "desc": "Разработка постепенно меняет привычное разделение работы между человеком и инструментами. ИИ берет на себя не отдельные операции, а последовательность действий, для которой раньше требовалось участие специалиста. Но вместе с ростом автономности меняются и требования к самой системе. Агент должен ...",
-      "date": "2026-08-28",
-      "source": "Habr AI",
-      "cat": "agent",
-      "lang": "ru"
-    },
-    {
-      "title": "Зеркало для людей. Как я сделал читаемую версию форума, на котором общаются только ИИ-агенты",
-      "link": "https://habr.com/ru/articles/1075764/?utm_campaign=1075764&utm_source=habrahabr&utm_medium=rss",
-      "desc": "Существует форум, на который вас не пустят. Не потому что закрытый — регистрация там всего в один POST-запрос. Вас просто не возьмут на сайт. Гражданами может стать только ИИ-агент. Форум называется 1f916.ai, и это, наверное, самое странное и самое живое место в русскоязычном (и не только) сегмен...",
-      "date": "2026-08-28",
-      "source": "Habr AI",
-      "cat": "agent",
-      "lang": "ru"
-    },
-    {
-      "title": "MCP-инструменты научились возвращать интерфейс: разбираем OpenSearch MCP Apps",
-      "link": "https://habr.com/ru/articles/1075512/?utm_campaign=1075512&utm_source=habrahabr&utm_medium=rss",
-      "desc": "Обычный MCP-инструмент возвращает агенту текст или структурированные данные. Агент анализирует результат и пишет тебе что-то вроде: Глубже",
-      "date": "2026-08-28",
-      "source": "Habr AI",
-      "cat": "agent",
-      "lang": "ru"
-    },
-    {
-      "title": "Autonomous Mathematical Discovery in an Open-World Multi-Agent Environment",
-      "link": "https://arxiv.org/abs/2608.23691",
-      "desc": "Article URL: https://arxiv.org/abs/2608.23691 Comments URL: https://news.ycombinator.com/item?id=49481455 Points: 75 # Comments: 16",
-      "date": "2026-08-28",
+      "title": "OpenAI agents carried out an undisclosed attack on RubyGems",
+      "link": "https://www.rubyhack.ai/",
+      "desc": "https://simonwillison.net/2026/Sep/12/openai-agents-rubygems... Comments URL: https://news.ycombinator.com/item?id=49666735 Points: 589 # Comments: 337",
+      "date": "2026-09-11",
       "source": "Hacker News",
       "cat": "agent",
       "lang": "en"
     },
     {
-      "title": "Terminal-Bench-Science: Evaluating AI agents on scientific research workflows",
-      "link": "https://www.terminal-bench-science.ai/announcement",
-      "desc": "Article URL: https://www.terminal-bench-science.ai/announcement Comments URL: https://news.ycombinator.com/item?id=49472820 Points: 101 # Comments: 29",
-      "date": "2026-08-28",
-      "source": "Hacker News",
-      "cat": "agent",
-      "lang": "en"
-    },
-    {
-      "title": "[Перевод] Конец программирования",
-      "link": "https://habr.com/ru/articles/1075732/?utm_campaign=1075732&utm_source=habrahabr&utm_medium=rss",
-      "desc": "На прошлой неделе вышел Bun 1.4. В этом релизе Bun переписан с Zig на Rust: более миллиона новых строк кода. Смена языка вызвала волну обсуждений в сообществе, но главное здесь другое: как именно выполнялась миграция и какого масштаба она достигла. Детали этой истории, мой собственный опыт и уже ...",
-      "date": "2026-08-28",
+      "title": "Agent‑Ops 0.4.0: ИИ предлагает, человек решает, программа исполняет",
+      "link": "https://habr.com/ru/articles/1081344/?utm_campaign=1081344&utm_source=habrahabr&utm_medium=rss",
+      "desc": "Привет! Я Сергей Житинский, основатель Git in Sky. Мы занимаемся эксплуатацией и технической поддержкой ИТ-инфраструктуры. Agent-Ops — проект открытой отраслевой методологии совместной работы инженеров и ИИ-агентов. Мы начали разрабатывать его весной этого года и сейчас выложили первый кандидат в...",
+      "date": "2026-09-11",
       "source": "Habr AI",
       "cat": "agent",
       "lang": "ru"
     },
     {
-      "title": "I Cut 80%+ of Context Overhead in My Coding Agent",
-      "link": "https://m-reschreiter.at/en/blog/how-i-cut-80-percent-context-overhead-dynamic-tools",
-      "desc": "Article URL: https://m-reschreiter.at/en/blog/how-i-cut-80-percent-context-overhead-dynamic-tools Comments URL: https://news.ycombinator.com/item?id=49476278 Points: 7 # Comments: 0",
-      "date": "2026-08-28",
-      "source": "Hacker News",
+      "title": "AI меняет центр тяжести разработки",
+      "link": "https://habr.com/ru/articles/1081410/?utm_campaign=1081410&utm_source=habrahabr&utm_medium=rss",
+      "desc": "В эпоху AI код становится дешевле, а качественное инженерное решение — ценнее. Поэтому важнее не просто уметь быстро писать код, а уметь спроектировать систему так, чтобы человек и агент одинаково понимали: что нужно изменить, зачем, где проходят границы и каким должен быть результат. Viaduct пом...",
+      "date": "2026-09-11",
+      "source": "Habr AI",
       "cat": "agent",
-      "lang": "en"
+      "lang": "ru"
     },
     {
-      "title": "Декомпозиция: Основы",
-      "link": "https://habr.com/ru/companies/timeweb/articles/1073460/?utm_campaign=1073460&utm_source=habrahabr&utm_medium=rss",
-      "desc": "Декомпозиция помогает превратить большую и непонятную задачу в последовательность конкретных шагов. Разберём, как применять её в жизни, обучении, разработке, проектировании систем и работе с AI-агентами. Читать далее",
-      "date": "2026-08-27",
+      "title": "[Перевод] Shadow AI в CI/CD: почему ИИ-агенты становятся угрозой",
+      "link": "https://habr.com/ru/companies/cloud_ru/articles/1081198/?utm_campaign=1081198&utm_source=habrahabr&utm_medium=rss",
+      "desc": "Привет, сегодня решила поделиться переводом от Маттео Бизи на вечнозеленую (как оказалось) тему — Shadow AI. В материале про то, почему ИИ-агентов нужно моделировать как угрозу, а не просто как инструмент продуктивности. Читать далее",
+      "date": "2026-09-11",
+      "source": "Habr AI",
+      "cat": "agent",
+      "lang": "ru"
+    },
+    {
+      "title": "Что делает разработчика ценным, когда код всё лучше пишут AI‑агенты",
+      "link": "https://habr.com/ru/articles/1081150/?utm_campaign=1081150&utm_source=habrahabr&utm_medium=rss",
+      "desc": "За последний год я стал гораздо меньше писать код руками и гораздо больше отдавать AI‑агентам: реализацию, тесты, исследование кодовой базы, поиск вариантов и часть анализа. Это заставило меня пересмотреть довольно простую гипотезу о будущем разработки. Сначала мне казалось, что по мере роста воз...",
+      "date": "2026-09-11",
+      "source": "Habr AI",
+      "cat": "agent",
+      "lang": "ru"
+    },
+    {
+      "title": "Параллельные AI-агенты: что проверил на практике и когда они действительно полезны",
+      "link": "https://habr.com/ru/articles/1080948/?utm_campaign=1080948&utm_source=habrahabr&utm_medium=rss",
+      "desc": "Когда в работе появляется несколько независимых задач, возникает очевидная идея - \"почему бы не поручить их разным AI-агентам одновременно, вместо того чтобы ждать, пока один агент закончит все по очереди?\" Поэтому я решил провести небольшой эксперимент - взять один рабочий сценарий, запустить ег...",
+      "date": "2026-09-10",
+      "source": "Habr AI",
+      "cat": "agent",
+      "lang": "ru"
+    },
+    {
+      "title": "ML System Design: Что на самом деле проверяют на собеседовании?",
+      "link": "https://habr.com/ru/articles/1079002/?utm_campaign=1079002&utm_source=habrahabr&utm_medium=rss",
+      "desc": "Однажды я упустил огромный оффер в бигтех из-за того, что провалил собеседование по ML System Design. Возникает вопрос: как готовиться к прохождению такой секции, если в реальной работе задачи на проектирование встречаются не так часто? Недавно я участвовал в ML Kata: 6 команд за 75 минут проекти...",
+      "date": "2026-09-09",
       "source": "Habr ML",
       "cat": "agent",
       "lang": "ru"
     },
     {
-      "title": "Как мы делали многоуровневую память для корпоративных AI-агентов в VK AI Space",
-      "link": "https://habr.com/ru/companies/vk/articles/1074798/?utm_campaign=1074798&utm_source=habrahabr&utm_medium=rss",
-      "desc": "Привет, Хабр. Меня зовут Сергей Врулин, я Team Lead в команде агентов VK AI Space — корпоративной платформы для создания и запуска AI-агентов. В июле 2026 года VK AI Space представила многоуровневую память для корпоративных AI‑агентов. Она позволяет агентам сохранять и переиспользовать информацию...",
-      "date": "2026-08-27",
-      "source": "Habr ML",
-      "cat": "agent",
-      "lang": "ru"
-    },
-    {
-      "title": "AI Engineer Notebooks – free, framework-free RAG/agents/evals on Colab",
-      "link": "https://github.com/calmrocks/ai-engineer-notebooks",
-      "desc": "Article URL: https://github.com/calmrocks/ai-engineer-notebooks Comments URL: https://news.ycombinator.com/item?id=49471714 Points: 108 # Comments: 11",
-      "date": "2026-08-27",
-      "source": "Hacker News",
+      "title": "Meta Introduces Muse, an A.I. Agent That Can Send Your Emails and Book Your Travel",
+      "link": "https://www.nytimes.com/2026/09/08/technology/meta-muse-ai-agent.html",
+      "desc": "Muse, Meta’s new A.I. agent, acts as a personal digital assistant that connects to Facebook and Instagram, as well as third-party apps such as Spotify and OpenTable.",
+      "date": "2026-09-08",
+      "source": "NYT Tech",
       "cat": "agent",
       "lang": "en"
     },
     {
-      "title": "Как поддерживать большую базу знаний для RAG и обновлять ее в полуавтоматическом режиме",
-      "link": "https://habr.com/ru/articles/1074624/?utm_campaign=1074624&utm_source=habrahabr&utm_medium=rss",
-      "desc": "У большой базы знаний есть неприятное свойство. Она хорошо отвечает на вопросы, которые в нее уже положили, и никак не сообщает о вопросах, которых в ней не хватает Пользователь задает вопрос AI-агенту, RAG не находит подходящего материала, и диалог уходит специалисту. Оператор разбирается и пише...",
-      "date": "2026-08-26",
+      "title": "Августовский дайджест — клонирование приложений, навыки агентов, режим стримера и документация",
+      "link": "https://habr.com/ru/companies/timeweb/articles/1079752/?utm_campaign=1079752&utm_source=habrahabr&utm_medium=rss",
+      "desc": "Последний месяц лета закрываем длинным списком релизов для AI-агентов: документация, MCP-сервер, скиллы, навыки, файлы в чате и четыре новые модели в каталоге. Причина простая: каждое третье обращение к нашей документации — от агентов, нужно считаться с новой аудиторией. Вторая половина выпуска д...",
+      "date": "2026-09-08",
       "source": "Habr ML",
       "cat": "agent",
       "lang": "ru"
     },
     {
-      "title": "Как внедрить ИИ в поддержку клиентов без потери качества",
-      "link": "https://habr.com/ru/articles/1074884/?utm_campaign=1074884&utm_source=habrahabr&utm_medium=rss",
-      "desc": "Самая распространённая ошибка — это попытаться автоматизировать всё сразу. Когда компания подключает чат на сайте, Telegram, WhatsApp, почту, консультации по продукту, претензии и сложные обращения одновременно. После первых ошибок появляется вывод: «ИИ нам не подходит». На практике успешные прое...",
-      "date": "2026-08-26",
-      "source": "Habr AI",
-      "cat": "agent",
-      "lang": "ru"
-    },
-    {
-      "title": "Практический кейс: UE5 C++ полная автоматизация. Как ИИ пишет весь код, дебажит и проверяет результат сам. Обзор",
-      "link": "https://habr.com/ru/articles/1074856/?utm_campaign=1074856&utm_source=habrahabr&utm_medium=rss",
-      "desc": "Вступление: Unreal Engine 5 — это действительно сложно. 1. UE5 - это не веб-приложение. Это не CRUD-сервис. Это не фронтенд на React. 2. Миллионы строк кода на C++ в самой кодовой базе движка. 3. Редактор с ручным управлением : большинство действий в UE5 делается через GUI — клики, перетаскивания...",
-      "date": "2026-08-26",
-      "source": "Habr AI",
-      "cat": "agent",
-      "lang": "ru"
-    },
-    {
-      "title": "How Much Memory Does Your Agent Actually Need?",
-      "link": "https://huggingface.co/blog/ibm-research/altk-evolve-hmm",
+      "title": "Give Your Coding Agents a Memory You Own",
+      "link": "https://huggingface.co/blog/funes",
       "desc": "",
-      "date": "2026-08-18",
+      "date": "2026-09-03",
       "source": "Hugging Face",
       "cat": "agent",
       "lang": "en"
@@ -162,5 +99,5 @@ window.NEWS_DATA = {
     "jobs",
     "orders"
   ],
-  "updated": "29.08.2026, 15:37:46"
+  "updated": "12.09.2026, 06:51:32"
 };
