@@ -5,7 +5,7 @@ AI News Hub — автосборщик новостей из RSS/Atom лент.
 Запуск: python collector.py
 """
 
-import json, os, re, sys, ssl, glob
+import json, os, re, sys, ssl, glob, shutil
 from datetime import datetime, timedelta
 from html import unescape
 from urllib.request import urlopen, Request
@@ -651,6 +651,29 @@ document.getElementById('lastUpdated').textContent =
     print(f"  [OK] Главная страница — {total} новостей по {len([k for k, v in counts.items() if v > 0])} категориям")
 
 
+def build_dist():
+    """Собирает папку dist/ — готовые к публикации файлы."""
+    dist = os.path.join(BASE_DIR, "dist")
+    if os.path.exists(dist):
+        shutil.rmtree(dist)
+    os.makedirs(dist, exist_ok=True)
+
+    # Копируем index.html (главная)
+    shutil.copy2(os.path.join(BASE_DIR, "index.html"), os.path.join(dist, "index.html"))
+
+    # Копируем категории: только index.html и data.js
+    for cat_key in CATEGORIES:
+        src_cat = os.path.join(BASE_DIR, cat_key)
+        dst_cat = os.path.join(dist, cat_key)
+        os.makedirs(dst_cat, exist_ok=True)
+        for fname in ("index.html", "data.js"):
+            src = os.path.join(src_cat, fname)
+            if os.path.exists(src):
+                shutil.copy2(src, os.path.join(dst_cat, fname))
+
+    print(f"  [OK] dist/ собран ({len(os.listdir(dist))} элементов)")
+
+
 def main():
     # 1. Собираем новые новости из RSS
     all_news = []
@@ -723,6 +746,9 @@ def main():
 
     # 6. Генерируем главную
     generate_main_page(filtered)
+
+    # 7. Собираем дистрибутив
+    build_dist()
 
     print(f"\n[OK] Всего новостей: {len(filtered)}")
 
