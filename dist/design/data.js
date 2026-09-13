@@ -12,7 +12,7 @@ window.NEWS_DATA = {
     {
       "title": "Linux Zoom client proactively reading everything written to X11 clipboard",
       "link": "https://hachyderm.io/@simontatham/117201594980991062",
-      "desc": "Article URL: https://hachyderm.io/@simontatham/117201594980991062 Comments URL: https://news.ycombinator.com/item?id=49675902 Points: 296 # Comments: 94",
+      "desc": "Article URL: https://hachyderm.io/@simontatham/117201594980991062 Comments URL: https://news.ycombinator.com/item?id=49675902 Points: 302 # Comments: 95",
       "date": "2026-09-12",
       "source": "Hacker News",
       "cat": "design",
@@ -316,5 +316,5 @@ window.NEWS_DATA = {
     "jobs",
     "orders"
   ],
-  "updated": "13.09.2026, 11:54:07"
+  "updated": "13.09.2026, 09:02:37"
 };

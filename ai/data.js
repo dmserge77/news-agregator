@@ -3,7 +3,7 @@ window.NEWS_DATA = {
     {
       "title": "Dramatic insider warnings over AI fall flat with some in Silicon Valley",
       "link": "https://www.bbc.co.uk/news/articles/cq635037g18o",
-      "desc": "Article URL: https://www.bbc.co.uk/news/articles/cq635037g18o Comments URL: https://news.ycombinator.com/item?id=49681276 Points: 10 # Comments: 1",
+      "desc": "Article URL: https://www.bbc.co.uk/news/articles/cq635037g18o Comments URL: https://news.ycombinator.com/item?id=49681276 Points: 12 # Comments: 6",
       "date": "2026-09-13",
       "source": "Hacker News",
       "cat": "ai",
@@ -12,16 +12,7 @@ window.NEWS_DATA = {
     {
       "title": "JetKVM Mini",
       "link": "https://jetkvm.com/blog/introducing-jetkvm-mini",
-      "desc": "Article URL: https://jetkvm.com/blog/introducing-jetkvm-mini Comments URL: https://news.ycombinator.com/item?id=49681152 Points: 29 # Comments: 13",
-      "date": "2026-09-13",
-      "source": "Hacker News",
-      "cat": "ai",
-      "lang": "en"
-    },
-    {
-      "title": "Why So Many AI Researchers Think the Machines Could Kill Everyone",
-      "link": "https://www.wired.com/story/why-so-many-ai-researchers-think-the-machines-could-kill-everyone/",
-      "desc": "Article URL: https://www.wired.com/story/why-so-many-ai-researchers-think-the-machines-could-kill-everyone/ Comments URL: https://news.ycombinator.com/item?id=49680858 Points: 8 # Comments: 4",
+      "desc": "Article URL: https://jetkvm.com/blog/introducing-jetkvm-mini Comments URL: https://news.ycombinator.com/item?id=49681152 Points: 41 # Comments: 18",
       "date": "2026-09-13",
       "source": "Hacker News",
       "cat": "ai",
@@ -30,7 +21,7 @@ window.NEWS_DATA = {
     {
       "title": "A wandering black hole caught feeding on the run",
       "link": "https://phys.org/news/2026-08-black-hole-caught.html",
-      "desc": "Article URL: https://phys.org/news/2026-08-black-hole-caught.html Comments URL: https://news.ycombinator.com/item?id=49679734 Points: 14 # Comments: 3",
+      "desc": "Article URL: https://phys.org/news/2026-08-black-hole-caught.html Comments URL: https://news.ycombinator.com/item?id=49679734 Points: 15 # Comments: 4",
       "date": "2026-09-13",
       "source": "Hacker News",
       "cat": "ai",
@@ -39,7 +30,7 @@ window.NEWS_DATA = {
     {
       "title": "A succession crisis that tore England apart (2023)",
       "link": "https://www.historytoday.com/archive/feature/succession-crisis-tore-england-apart",
-      "desc": "Article URL: https://www.historytoday.com/archive/feature/succession-crisis-tore-england-apart Comments URL: https://news.ycombinator.com/item?id=49679647 Points: 29 # Comments: 13",
+      "desc": "Article URL: https://www.historytoday.com/archive/feature/succession-crisis-tore-england-apart Comments URL: https://news.ycombinator.com/item?id=49679647 Points: 30 # Comments: 15",
       "date": "2026-09-13",
       "source": "Hacker News",
       "cat": "ai",
@@ -48,7 +39,7 @@ window.NEWS_DATA = {
     {
       "title": "Aligned to whom?",
       "link": "https://hyperbo.la/w/aligned-to-whom/",
-      "desc": "Article URL: https://hyperbo.la/w/aligned-to-whom/ Comments URL: https://news.ycombinator.com/item?id=49679643 Points: 38 # Comments: 12",
+      "desc": "Article URL: https://hyperbo.la/w/aligned-to-whom/ Comments URL: https://news.ycombinator.com/item?id=49679643 Points: 42 # Comments: 12",
       "date": "2026-09-13",
       "source": "Hacker News",
       "cat": "ai",
@@ -57,7 +48,7 @@ window.NEWS_DATA = {
     {
       "title": "After Math",
       "link": "https://terrytao.wordpress.com/2026/09/12/after-math/",
-      "desc": "Article URL: https://terrytao.wordpress.com/2026/09/12/after-math/ Comments URL: https://news.ycombinator.com/item?id=49679637 Points: 62 # Comments: 46",
+      "desc": "Article URL: https://terrytao.wordpress.com/2026/09/12/after-math/ Comments URL: https://news.ycombinator.com/item?id=49679637 Points: 63 # Comments: 47",
       "date": "2026-09-13",
       "source": "Hacker News",
       "cat": "ai",
@@ -66,7 +57,7 @@ window.NEWS_DATA = {
     {
       "title": "The Interim Computer Museum",
       "link": "https://icm.museum/",
-      "desc": "Article URL: https://icm.museum/ Comments URL: https://news.ycombinator.com/item?id=49679459 Points: 104 # Comments: 11",
+      "desc": "Article URL: https://icm.museum/ Comments URL: https://news.ycombinator.com/item?id=49679459 Points: 105 # Comments: 11",
       "date": "2026-09-13",
       "source": "Hacker News",
       "cat": "ai",
@@ -75,7 +66,7 @@ window.NEWS_DATA = {
     {
       "title": "Everyone should slow down AI development except for me",
       "link": "https://xeiaso.net/notes/2026/everyone-slowdown-but-me/",
-      "desc": "Article URL: https://xeiaso.net/notes/2026/everyone-slowdown-but-me/ Comments URL: https://news.ycombinator.com/item?id=49678683 Points: 426 # Comments: 253",
+      "desc": "Article URL: https://xeiaso.net/notes/2026/everyone-slowdown-but-me/ Comments URL: https://news.ycombinator.com/item?id=49678683 Points: 437 # Comments: 261",
       "date": "2026-09-13",
       "source": "Hacker News",
       "cat": "ai",
@@ -118,6 +109,15 @@ window.NEWS_DATA = {
       "lang": "ru"
     },
     {
+      "title": "Why So Many AI Researchers Think the Machines Could Kill Everyone",
+      "link": "https://www.wired.com/story/why-so-many-ai-researchers-think-the-machines-could-kill-everyone/",
+      "desc": "Article URL: https://www.wired.com/story/why-so-many-ai-researchers-think-the-machines-could-kill-everyone/ Comments URL: https://news.ycombinator.com/item?id=49680858 Points: 8 # Comments: 4",
+      "date": "2026-09-13",
+      "source": "Hacker News",
+      "cat": "ai",
+      "lang": "en"
+    },
+    {
       "title": "American Medical Association Backs Classification of Nearsightedness as Disease",
       "link": "https://www.aao.org/newsroom/news-releases/detail/ama-backs-formal-classification-nearsightedness",
       "desc": "Article URL: https://www.aao.org/newsroom/news-releases/detail/ama-backs-formal-classification-nearsightedness Comments URL: https://news.ycombinator.com/item?id=49681074 Points: 11 # Comments: 1",
@@ -138,7 +138,7 @@ window.NEWS_DATA = {
     {
       "title": "Don't be the out of touch Kung Fu master",
       "link": "https://twitter.com/ID_AA_Carmack/status/2098443262214230095",
-      "desc": "Article URL: https://twitter.com/ID_AA_Carmack/status/2098443262214230095 Comments URL: https://news.ycombinator.com/item?id=49677577 Points: 108 # Comments: 97",
+      "desc": "Article URL: https://twitter.com/ID_AA_Carmack/status/2098443262214230095 Comments URL: https://news.ycombinator.com/item?id=49677577 Points: 114 # Comments: 104",
       "date": "2026-09-12",
       "source": "Hacker News",
       "cat": "ai",
@@ -147,7 +147,7 @@ window.NEWS_DATA = {
     {
       "title": "P(doom)",
       "link": "https://lucumr.pocoo.org/2026/9/12/pdoom/",
-      "desc": "Article URL: https://lucumr.pocoo.org/2026/9/12/pdoom/ Comments URL: https://news.ycombinator.com/item?id=49677450 Points: 73 # Comments: 38",
+      "desc": "Article URL: https://lucumr.pocoo.org/2026/9/12/pdoom/ Comments URL: https://news.ycombinator.com/item?id=49677450 Points: 80 # Comments: 40",
       "date": "2026-09-12",
       "source": "Hacker News",
       "cat": "ai",
@@ -156,7 +156,7 @@ window.NEWS_DATA = {
     {
       "title": "Real-SWE: Benchmarking AI models on private, real-world, enterprise codebases",
       "link": "https://withspecific.com/benchmarks/real-swe",
-      "desc": "Article URL: https://withspecific.com/benchmarks/real-swe Comments URL: https://news.ycombinator.com/item?id=49676820 Points: 233 # Comments: 133",
+      "desc": "Article URL: https://withspecific.com/benchmarks/real-swe Comments URL: https://news.ycombinator.com/item?id=49676820 Points: 235 # Comments: 133",
       "date": "2026-09-12",
       "source": "Hacker News",
       "cat": "ai",
@@ -165,7 +165,7 @@ window.NEWS_DATA = {
     {
       "title": "Will there be a 7G?",
       "link": "https://arxiv.org/abs/2609.01877",
-      "desc": "Article URL: https://arxiv.org/abs/2609.01877 Comments URL: https://news.ycombinator.com/item?id=49674498 Points: 99 # Comments: 157",
+      "desc": "Article URL: https://arxiv.org/abs/2609.01877 Comments URL: https://news.ycombinator.com/item?id=49674498 Points: 101 # Comments: 158",
       "date": "2026-09-12",
       "source": "Hacker News",
       "cat": "ai",
@@ -174,7 +174,7 @@ window.NEWS_DATA = {
     {
       "title": "Make your first edit to OpenStreetMap",
       "link": "https://high5apps.github.io/josm-plugin-website-wizard/",
-      "desc": "Article URL: https://high5apps.github.io/josm-plugin-website-wizard/ Comments URL: https://news.ycombinator.com/item?id=49674050 Points: 440 # Comments: 106",
+      "desc": "Article URL: https://high5apps.github.io/josm-plugin-website-wizard/ Comments URL: https://news.ycombinator.com/item?id=49674050 Points: 444 # Comments: 109",
       "date": "2026-09-12",
       "source": "Hacker News",
       "cat": "ai",
@@ -183,7 +183,7 @@ window.NEWS_DATA = {
     {
       "title": "Microcode in Intel's 8087 floating-point chip: the scale instruction",
       "link": "https://www.righto.com/2026/09/8087-microcode-reverse-engineering-fscale.html",
-      "desc": "Article URL: https://www.righto.com/2026/09/8087-microcode-reverse-engineering-fscale.html Comments URL: https://news.ycombinator.com/item?id=49673580 Points: 106 # Comments: 33",
+      "desc": "Article URL: https://www.righto.com/2026/09/8087-microcode-reverse-engineering-fscale.html Comments URL: https://news.ycombinator.com/item?id=49673580 Points: 107 # Comments: 33",
       "date": "2026-09-12",
       "source": "Hacker News",
       "cat": "ai",
@@ -192,7 +192,16 @@ window.NEWS_DATA = {
     {
       "title": "Nvidia is the central bank of AI",
       "link": "https://www.economist.com/interactive/briefing/2026/09/03/nvidia-is-the-central-bank-of-ai",
-      "desc": "https://archive.ph/kt50V Comments URL: https://news.ycombinator.com/item?id=49673098 Points: 469 # Comments: 333",
+      "desc": "https://archive.ph/kt50V Comments URL: https://news.ycombinator.com/item?id=49673098 Points: 473 # Comments: 336",
+      "date": "2026-09-12",
+      "source": "Hacker News",
+      "cat": "ai",
+      "lang": "en"
+    },
+    {
+      "title": "We must pace the frontier",
+      "link": "https://darioamodei.com/post/we-must-pace-the-frontier",
+      "desc": "Article URL: https://darioamodei.com/post/we-must-pace-the-frontier Comments URL: https://news.ycombinator.com/item?id=49672510 Points: 638 # Comments: 892",
       "date": "2026-09-12",
       "source": "Hacker News",
       "cat": "ai",
@@ -273,15 +282,6 @@ window.NEWS_DATA = {
     {
       "title": "Opusfived",
       "link": "https://opusfived.dev/",
-      "desc": "Comments",
-      "date": "2026-09-12",
-      "source": "Lobsters",
-      "cat": "ai",
-      "lang": "en"
-    },
-    {
-      "title": "We Must Pace the Frontier",
-      "link": "https://darioamodei.com/post/we-must-pace-the-frontier",
       "desc": "Comments",
       "date": "2026-09-12",
       "source": "Lobsters",
@@ -1666,15 +1666,6 @@ window.NEWS_DATA = {
       "lang": "en"
     },
     {
-      "title": "How a Blacklisted Chinese Tech Giant Kept Buying America’s Best A.I. Chips",
-      "link": "https://www.nytimes.com/2026/09/06/technology/ai-chips-china-blacklist.html",
-      "desc": "Washington imposed sanctions on Inspur because of its work with the Chinese military. But the company’s subsidiary kept shipping Nvidia’s best chips to feed China’s leading A.I. firms.",
-      "date": "2026-09-08",
-      "source": "NYT Tech",
-      "cat": "ai",
-      "lang": "en"
-    },
-    {
       "title": "Блеск и нищета ML‑автоматизации",
       "link": "https://habr.com/ru/articles/1080066/?utm_campaign=1080066&utm_source=habrahabr&utm_medium=rss",
       "desc": "На рынке ML-автоматизации сложился заметный перекос: одни и те же вопросы всплывают у клиентов и у интеграторов снова и снова, но ответы на них редко формулируют вслух. Эта статья является попыткой сформулировать их системно. В материале представлены мои наблюдения и выводы, основанные на практич...",
@@ -1709,6 +1700,15 @@ window.NEWS_DATA = {
       "source": "Habr ML",
       "cat": "ai",
       "lang": "ru"
+    },
+    {
+      "title": "How a Blacklisted Chinese Tech Giant Kept Buying America’s Best A.I. Chips",
+      "link": "https://www.nytimes.com/2026/09/06/technology/ai-chips-china-blacklist.html",
+      "desc": "Washington imposed sanctions on Inspur because of its work with the Chinese military. But the company’s subsidiary kept shipping Nvidia’s best chips to feed China’s leading A.I. firms.",
+      "date": "2026-09-08",
+      "source": "NYT Tech",
+      "cat": "ai",
+      "lang": "en"
     },
     {
       "title": "Модель обещает uplift. А сколько это в рублях?",
@@ -1792,5 +1792,5 @@ window.NEWS_DATA = {
     "jobs",
     "orders"
   ],
-  "updated": "13.09.2026, 11:54:07"
+  "updated": "13.09.2026, 09:02:37"
 };
