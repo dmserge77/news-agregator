@@ -546,8 +546,7 @@ def save_news(filepath, items):
 
 
 def save_data_js(filepath, items, cat_keys=None):
-    dates = [i.get("date", "") for i in items if i.get("date")]
-    ts = max(dates) if dates else datetime.now().strftime("%Y-%m-%d")
+    ts = datetime.now().strftime("%d.%m.%Y, %H:%M:%S")
     data = {"items": items, "cat_keys": list(CATEGORIES.keys()), "updated": ts} if cat_keys is None else items
     body = "window.NEWS_DATA = " + json.dumps(data, ensure_ascii=False, indent=2) + ";\n"
     write_if_changed(filepath, body)

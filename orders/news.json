@@ -1,5 +1,195 @@
 [
   {
+    "title": "Отрисовка смесителей в 3D MAX",
+    "link": "https://www.fl.ru/projects/5521814/otrisovka-smesiteley-v-3d-max.html",
+    "desc": "Отрисовка смесителей в 3D MAX Добрый день! необходимо отрисовать смесители, которые можно будет отдавать дизайнерам интерьеров при работе с дизайн-проектами. Позиций много,...",
+    "date": "2026-09-13",
+    "source": "FL.ru",
+    "cat": "orders",
+    "order_type": "design",
+    "lang": "ru"
+  },
+  {
+    "title": "Орнамент в стиле хохломы, векторная графика (для всех)",
+    "link": "https://www.fl.ru/projects/5521813/ornament-v-stile-hohlomyi-vektornaya-grafika.html",
+    "desc": "Нужно нарисовать орнамент в \"русском\" стиле для рисунка на электронной печатной плате размером 100*49 мм с технологическими вырезами и отверстиями (чертеж в формате dxf во вложении), примерный внешний вид изделия - на фото (цвет будет другим). Технология изготовления накладывает следующие огранич...",
+    "date": "2026-09-13",
+    "source": "FL.ru",
+    "cat": "orders",
+    "order_type": "design",
+    "lang": "ru"
+  },
+  {
+    "title": "Создание макета для плоттера через плагин и Adobe Illustrator (для всех)",
+    "link": "https://www.fl.ru/projects/5521737/sozdanie-maketa-dlya-plottera-cherez-plagin-i-adobe-illustrator.html",
+    "desc": "Есть готовый лист с рисунками. Что нужно сделать? Добавьте контур для резки на рисунке. Нарисуйте отдельный контур (линию), который плагин будет использовать как инструкцию для вырезания. Предварительный просмотр данных. После этого в меню File появится раздел Brother ScanNCut Link. Выберите его ...",
+    "date": "2026-09-13",
+    "source": "FL.ru",
+    "cat": "orders",
+    "order_type": "design",
+    "lang": "ru"
+  },
+  {
+    "title": "Дизайн Меню",
+    "link": "https://www.fl.ru/projects/5521811/dizayn-menyu-.html",
+    "desc": "Дизайн Меню Здравствуйте. Требуется разработать дизайн меню для Лаундж бара. Всю информацию скину в личные сообщения",
+    "date": "2026-09-13",
+    "source": "FL.ru",
+    "cat": "orders",
+    "order_type": "design",
+    "lang": "ru"
+  },
+  {
+    "title": "Сделать проект корпусной мебели в базис мебельщик (для всех)",
+    "link": "https://www.fl.ru/projects/5521736/sdelat-proekt-korpusnoy-mebeli-v-bazis-mebelschik.html",
+    "desc": "Подробности в личке",
+    "date": "2026-09-13",
+    "source": "FL.ru",
+    "cat": "orders",
+    "order_type": "content",
+    "lang": "ru"
+  },
+  {
+    "title": "Провести тест контекстной рекламы на 200к (Бюджет: 200 000  ₽)",
+    "link": "https://www.fl.ru/projects/5521809/provesti-test-kontekstnoy-reklamyi-na-200k.html",
+    "desc": "Нужно протестировать контекстную рекламу для продажи якорей. Общий бюджет 200 тысяч с НДС (включает работу специалиста). Есть сайт, где можно купить якоря. Доставка по всей...",
+    "date": "2026-09-13",
+    "source": "FL.ru",
+    "cat": "orders",
+    "order_type": "sites",
+    "lang": "ru"
+  },
+  {
+    "title": "Проектирование системы сжатого воздуха.  Расчет конфигурации  пневмосети.     (для всех)",
+    "link": "https://www.fl.ru/projects/5521808/proektirovanie-sistemyi-sjatogo-vozduha--raschet-konfiguratsii--pnevmoseti----.html",
+    "desc": "Исходные данные: 1. Существующая система трубопроводов, с минимальными диаметрами. Парк компрессоров 4 шт. Рисивера -10 шт. 2. Данные компрессоров. 3. Список потребителей. Результат 1. Создание принципиальной схемы 2. Расчет 3. Рекомендации по сечению трубы.",
+    "date": "2026-09-13",
+    "source": "FL.ru",
+    "cat": "orders",
+    "order_type": "content",
+    "lang": "ru"
+  },
+  {
+    "title": "Сделать интересный рилс(ролик) для художника по презентации картины (Бюджет: 500  ₽)",
+    "link": "https://www.fl.ru/projects/5521807/sdelat-interesnyiy-rilsrolik-dlya-hudojnika-po-prezentatsii-kartinyi.html",
+    "desc": "Ищу человека, кто чувствует тренды и может делать короткие ролики до 30 секунд, залетающие в топы. Можно использовать нейросети, главное результат Исходной информацией является...",
+    "date": "2026-09-13",
+    "source": "FL.ru",
+    "cat": "orders",
+    "order_type": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "календарь квартальный (Бюджет: 2 000  ₽)",
+    "link": "https://www.fl.ru/projects/5521806/kalendar-kvartalnyiy.html",
+    "desc": "квартальный календарь на 2027 год на тему химической промышленности",
+    "date": "2026-09-13",
+    "source": "FL.ru",
+    "cat": "orders",
+    "order_type": "content",
+    "lang": "ru"
+  },
+  {
+    "title": "нужен человек который разбирается в фото иишках, и обходах цензуры в них",
+    "link": "https://www.fl.ru/projects/5521803/nujen-chelovek-kotoryiy-razbiraetsya-v-foto-iishkah-i-obhodah-tsenzuryi-v-nih.html",
+    "desc": "нужна генерация фото или видео с написанием промпта, обход цензуры и хорошей редакцией и генерацией фото/видео (такой же сложности что и рекламируемые раздевалки фото в тг...",
+    "date": "2026-09-13",
+    "source": "FL.ru",
+    "cat": "orders",
+    "order_type": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "Изменить звуковую дорожку на видео",
+    "link": "https://www.fl.ru/projects/5521804/izmenit-zvukovuyu-dorojku-na-video.html",
+    "desc": "Добрый день. Задача . Человек на видео говорит доставка авто до Читы, а нужно изменить на Москва желательно чтобы голос остался прежним, а также цену вот вроде и всё. Понятно...",
+    "date": "2026-09-13",
+    "source": "FL.ru",
+    "cat": "orders",
+    "order_type": "content",
+    "lang": "ru"
+  },
+  {
+    "title": "Создать сайт онлайн игры в алтайские шашки - шатра (для всех)",
+    "link": "https://www.fl.ru/projects/5521763/sozdat-sayt-onlayn-igryi-v-altayskie-shashki---shatra.html",
+    "desc": "Нужен сайт для одной игры - алтай шатра. Разделы - новости, правила игры, форум, турниры, онлайн игра. Требуется учет рейтинга, и сохранение всех игр в базу игр. Чтобы видеть все сыгранные игры по ходам, в режиме плей-повтор партий по ходам. Форма регистрации игроков через эл почту и согласование...",
+    "date": "2026-09-13",
+    "source": "FL.ru",
+    "cat": "orders",
+    "order_type": "sites",
+    "lang": "ru"
+  },
+  {
+    "title": "Скопировать сайт сейчас срочно",
+    "link": "https://www.fl.ru/projects/5521798/skopirovat-sayt-seychas-srochno-.html",
+    "desc": "Нужно скопировать полностью сайт, и вставить нужные реквизиты в оплату. С заменой реквизитов на наши Сегодня до вечера",
+    "date": "2026-09-13",
+    "source": "FL.ru",
+    "cat": "orders",
+    "order_type": "sites",
+    "lang": "ru"
+  },
+  {
+    "title": "Инженер-конструктор для разработки компактного XY-плоттера для телефона (Бюджет: 10 000  ₽)",
+    "link": "https://www.fl.ru/projects/5521797/injener-konstruktor-dlya-razrabotki-kompaktnogo-xy-plottera-dlya-telefona.html",
+    "desc": "Нужно спроектировать компактный ременной XY-плоттер, который будет выполнять тапы, долгие нажатия и свайпы по экрану телефона. Дополнительно нужен механизм наклона держателя...",
+    "date": "2026-09-13",
+    "source": "FL.ru",
+    "cat": "orders",
+    "order_type": "content",
+    "lang": "ru"
+  },
+  {
+    "title": "Ищу мужчин клиентов Сбера с подключенным премиум пакетом Сбер Премьер 2!  (Бюджет: 3 000  ₽, для всех)",
+    "link": "https://www.fl.ru/projects/5521727/ischu-mujchin-klientov-sbera-s-podklyuchennyim-premium-paketom-sber-premer-2-.html",
+    "desc": "Ищу мужчин клиентов Сбера с подключенным премиум пакетом Сбер Премьер 2! Онлайн беседа в Зуме, оценить прототип нового дизайна раздела Сбер Премьер. Вознаграждение 3000. Длительность до 1 часа. 15-16 сентября.",
+    "date": "2026-09-13",
+    "source": "FL.ru",
+    "cat": "orders",
+    "order_type": "design",
+    "lang": "ru"
+  },
+  {
+    "title": "Создать сайт с расписанием и списком пациентов",
+    "link": "https://www.fl.ru/projects/5521795/sozdat-sayt-s-raspisaniem-i-spiskom-patsientov-.html",
+    "desc": "Нужно сделать сайт с таким расписанием. С разделением прав редактора и наблюдателя с правом только просмотра. 1) На 1 странице должен быть редактируемый список пациентов в...",
+    "date": "2026-09-13",
+    "source": "FL.ru",
+    "cat": "orders",
+    "order_type": "sites",
+    "lang": "ru"
+  },
+  {
+    "title": "Разработать принципиальную схему (Э3) метеостанции на Arduino Nano по картинке (для курсового)",
+    "link": "https://www.fl.ru/projects/5521794/razrabotat-printsipialnuyu-shemu-e3-meteostantsii-na-arduino-nano-po-kartinke-dlya-kursovogo.html",
+    "desc": "Приветствую! Мне необходимо разработать принципиальную электрическую схему (Э3) для курсового проекта.Вся логика устройства и межплатные соединения уже готовы — есть подробная...",
+    "date": "2026-09-13",
+    "source": "FL.ru",
+    "cat": "orders",
+    "order_type": "design",
+    "lang": "ru"
+  },
+  {
+    "title": "Банеры на входную группу для стоматологии",
+    "link": "https://www.fl.ru/projects/5521792/baneryi-na-vhodnuyu-gruppu-dlya-stomatologii.html",
+    "desc": "Нужны Банеры для входной группы с описание услуг стоматологии и второй банер с описанием - семейная стоматология с заботой, без страха, без переплат.",
+    "date": "2026-09-13",
+    "source": "FL.ru",
+    "cat": "orders",
+    "order_type": "content",
+    "lang": "ru"
+  },
+  {
+    "title": "Настройка Яндекс Директ для монтажа промышленной и коммерческой вентиляции — Уфа / Башкортостан",
+    "link": "https://www.fl.ru/projects/5521791/nastroyka-yandeks-direkt-dlya-montaja-promyishlennoy-i-kommercheskoy-ventilyatsii--ufa---bashkortostan.html",
+    "desc": "Что продаём: Монтаж вентиляции под ключ. Основное направление - промышленные и коммерческие объекты: производства, склады, цеха, рестораны и кафе, клиники, бассейны,...",
+    "date": "2026-09-13",
+    "source": "FL.ru",
+    "cat": "orders",
+    "order_type": "content",
+    "lang": "ru"
+  },
+  {
     "title": "Разделы КМ, КЖ",
     "link": "https://www.fl.ru/projects/5521785/razdelyi-km-kj.html",
     "desc": "Необходимо разработать чертежи разделов КМ и КЖ, в автокаде. Расчеты все есть. Объект - защита от БПЛА.",
@@ -127,16 +317,6 @@
     "source": "FL.ru",
     "cat": "orders",
     "order_type": "ai",
-    "lang": "ru"
-  },
-  {
-    "title": "Создать сайт онлайн игры в алтайские шашки - шатра (для всех)",
-    "link": "https://www.fl.ru/projects/5521763/sozdat-sayt-onlayn-igryi-v-altayskie-shashki---shatra.html",
-    "desc": "Нужен сайт для одной игры алтай шатра. Разделы - новости, правила игры, форум, турниры, онлайн игра. Требуется учет рейтинга, и сохранение всех игр в базу игр. Чтобы видеть в режиме видео все игры. Форма регистрации игроков через эл почту и согласование админом. Чтобы в режиме онлайн игры могли и...",
-    "date": "2026-09-13",
-    "source": "FL.ru",
-    "cat": "orders",
-    "order_type": "sites",
     "lang": "ru"
   },
   {
@@ -390,29 +570,9 @@
     "lang": "ru"
   },
   {
-    "title": "Создание макета для плоттера через плагин и Adobe Illustrator",
-    "link": "https://www.fl.ru/projects/5521737/sozdanie-maketa-dlya-plottera-cherez-plagin-i-adobe-illustrator.html",
-    "desc": "Есть готовый лист с рисунками. Что нужно сделать? Добавьте контур для резки на рисунке. Нарисуйте отдельный контур (линию), который плагин будет использовать как инструкцию...",
-    "date": "2026-09-12",
-    "source": "FL.ru",
-    "cat": "orders",
-    "order_type": "design",
-    "lang": "ru"
-  },
-  {
     "title": "Зарегистрировать карточку в гугл бизнес (Бюджет: 1 000  ₽, для всех)",
     "link": "https://www.fl.ru/projects/5521653/zaregistrirovat-kartochku-v-gugl-biznes.html",
     "desc": "нужно сделать простые действия, а именно пройти регистрацию на гугл бизне, для этого нужно чтобы у вас был свой личный аккаунт \"Аккаунт должен быть активным и создан более 4 лет назад\". Все данные и инструкцию по прохождению предоставлю. Работы буквально на 5-10 минут.",
-    "date": "2026-09-12",
-    "source": "FL.ru",
-    "cat": "orders",
-    "order_type": "content",
-    "lang": "ru"
-  },
-  {
-    "title": "Сделать проект корпусной мебели в базис мебельщик",
-    "link": "https://www.fl.ru/projects/5521736/sdelat-proekt-korpusnoy-mebeli-v-bazis-mebelschik.html",
-    "desc": "Подробности в личке",
     "date": "2026-09-12",
     "source": "FL.ru",
     "cat": "orders",
@@ -467,16 +627,6 @@
     "source": "FL.ru",
     "cat": "orders",
     "order_type": "content",
-    "lang": "ru"
-  },
-  {
-    "title": "Ищу мужчин клиентов Сбера с подключенным премиум пакетом Сбер Премьер 2!  (Бюджет: 3 000  ₽)",
-    "link": "https://www.fl.ru/projects/5521727/ischu-mujchin-klientov-sbera-s-podklyuchennyim-premium-paketom-sber-premer-2-.html",
-    "desc": "Ищу мужчин клиентов Сбера с подключенным премиум пакетом Сбер Премьер 2! Онлайн беседа в Зуме, оценить прототип нового дизайна раздела Сбер Премьер. Вознаграждение 3000....",
-    "date": "2026-09-12",
-    "source": "FL.ru",
-    "cat": "orders",
-    "order_type": "design",
     "lang": "ru"
   },
   {
