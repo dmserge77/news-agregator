@@ -46,15 +46,6 @@ window.NEWS_DATA = {
       "lang": "en"
     },
     {
-      "title": "Rebuilding AUTOMATIC1111 with Gradio Workflow",
-      "link": "https://huggingface.co/blog/gradio-workflow-1111",
-      "desc": "",
-      "date": "2026-09-10",
-      "source": "Hugging Face",
-      "cat": "platform",
-      "lang": "en"
-    },
-    {
       "title": "650 млн точек, 3 поломки и PI System: технический разбор предиктивной аналитики на НПЗ (часть 2)",
       "link": "https://habr.com/ru/companies/datasapience/articles/1080892/?utm_campaign=1080892&utm_source=habrahabr&utm_medium=rss",
       "desc": "Часть 2 из 2. В первой части серии мы предсказали отказ насоса за 60 дней и выяснили, что годами чинили не то. Увидели, что материал встретил вашу живую реакцию, поэтому возвращаемся по горячим следам со второй частью. В этом материале, как и обещали, погружаемся в технику. Расскажем, что было по...",
@@ -132,8 +123,9 @@ window.NEWS_DATA = {
     "vibe",
     "agent",
     "platform",
+    "design",
     "jobs",
     "orders"
   ],
-  "updated": "13.09.2026, 08:39:05"
+  "updated": "13.09.2026, 11:54:07"
 };

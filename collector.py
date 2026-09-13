@@ -23,6 +23,7 @@ CATEGORIES = {
     "vibe":     {"label": "Вайбкодинг",   "emoji": "✨", "accent": "#34c759"},
     "agent":    {"label": "ИИ-агенты",    "emoji": "🤖", "accent": "#ff9500"},
     "platform": {"label": "Платформы",    "emoji": "⚡", "accent": "#5856d6"},
+    "design":   {"label": "Дизайн",       "emoji": "🎨", "accent": "#e3a133"},
     "jobs":     {"label": "Вакансии",     "emoji": "💼", "accent": "#e34133"},
     "orders":   {"label": "Есть заказ",   "emoji": "💰", "accent": "#e3a133"},
 }
@@ -46,6 +47,12 @@ FEEDS = [
     {"url": "https://habr.com/ru/rss/hub/artificial_intelligence/?fl=ru", "cat": "ai", "source": "Habr AI"},
     {"url": "https://habr.com/ru/rss/hub/machine_learning/?fl=ru", "cat": "ai", "source": "Habr ML"},
     {"url": "https://vc.ru/rss", "cat": "ai", "source": "vc.ru"},
+    # Дизайн
+    {"url": "https://habr.com/ru/rss/hubs/web_design/articles/?fl=ru", "cat": "design", "source": "Habr Веб-дизайн"},
+    {"url": "https://habr.com/ru/rss/hubs/web_design/news/?fl=ru", "cat": "design", "source": "Habr Веб-дизайн"},
+    {"url": "https://www.smashingmagazine.com/feed/", "cat": "design", "source": "Smashing Magazine"},
+    {"url": "https://uxdesign.cc/feed", "cat": "design", "source": "UX Collective"},
+    {"url": "https://www.awwwards.com/feed/", "cat": "design", "source": "Awwwards"},
 ]
 
 CAT_KEYWORDS = {
@@ -59,6 +66,11 @@ CAT_KEYWORDS = {
               "langgraph", "function call", "tool use", "autonomous"],
     "platform": ["api", "platform", "платформ", "saas", "free tier", "бесплат",
                  "hosting", "spaces", "hugging face", "framework"],
+    "design": ["figma", "тильд", "tilda", "веб-дизайн", "web design", "verstka",
+               "верстк", "ui", "ux", "дизайн сайт", "дизайн", "design system",
+               "интерфейс", "interface", "landing", "лендинг", "макет", "prototype",
+               "прототип", "webflow", "photoshop", "illustrator", "логотип",
+               "вебдизайн", "ux/ui", "ui/ux", "дизайнер"],
     "jobs": [],
     "orders": [],
 }
@@ -534,11 +546,9 @@ def generate_category_page(cat_key, cat_info):
     with open(tmpl_path, "r", encoding="utf-8") as f:
         html = f.read()
     html = html.replace("%%TITLE%%", cat_info["emoji"] + " " + cat_info["label"])
-    html = html.replace("%%ICON%%", cat_info["emoji"])
     html = html.replace("%%ACCENT%%", cat_info["accent"])
     for k in CATEGORIES:
         html = html.replace(f"%%ACT_{k}%%", "active" if k == cat_key else "")
-    html = html.replace("%%ACT_ALL%%", "")
     cat_dir = os.path.join(BASE_DIR, cat_key)
     os.makedirs(cat_dir, exist_ok=True)
     with open(os.path.join(cat_dir, "index.html"), "w", encoding="utf-8") as f:
@@ -546,12 +556,21 @@ def generate_category_page(cat_key, cat_info):
 
 
 def generate_main_page(all_news):
-    """Генерируем главную страницу со ссылками на категории."""
+    """Генерируем главную страницу — хаб со ссылками и счётчиками категорий."""
     counts = {k: 0 for k in CATEGORIES}
     for n in all_news:
         if n["cat"] in counts:
             counts[n["cat"]] += 1
     total = len(all_news)
+
+    cards = ""
+    for k, cat in CATEGORIES.items():
+        cards += f'''<a href="{k}/index.html" class="cat-card" style="--accent:{cat['accent']}">
+<div class="cat-emoji">{cat['emoji']}</div>
+<div class="cat-name">{cat['label']}</div>
+<div class="cat-count">{counts[k]} новостей</div>
+</a>
+'''
 
     html = f"""<!DOCTYPE html>
 <html lang="ru">
@@ -581,7 +600,7 @@ body {{
 
 header {{
   text-align: center;
-  padding: 30px 0 10px;
+  padding: 30px 0 20px;
 }}
 header h1 {{
   font-size: 2.5rem; font-weight: 700;
@@ -590,30 +609,33 @@ header h1 {{
   background-clip: text;
 }}
 header p {{ color: var(--text2); margin-top: 4px; font-size: 1.1rem; }}
+#lastUpdated {{ font-size: .85rem; color: var(--text2); margin-top: 4px; }}
 
-.nav-bar {{
-  display: flex;
-  gap: 8px;
-  justify-content: center;
-  flex-wrap: wrap;
-  margin: 20px 0 30px;
+.cat-grid {{
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 14px;
+  margin-top: 24px;
 }}
-.nav-btn {{
-  padding: 10px 24px;
-  border-radius: 24px;
-  border: 1.5px solid var(--border);
+.cat-card {{
+  display: block;
   background: var(--card-bg);
-  color: var(--text);
+  border: 1.5px solid var(--border);
+  border-radius: 14px;
+  padding: 20px;
   text-decoration: none;
-  font-size: 0.95rem;
-  transition: all 0.2s;
+  color: var(--text);
+  box-shadow: var(--shadow);
+  transition: transform .15s ease, box-shadow .15s ease;
 }}
-.nav-btn:hover {{ border-color: var(--accent); color: var(--accent); }}
-.nav-btn.active {{
-  background: var(--accent);
-  color: #fff;
+.cat-card:hover {{
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(0,0,0,.12);
   border-color: var(--accent);
 }}
+.cat-emoji {{ font-size: 2.2rem; }}
+.cat-name {{ font-size: 1.1rem; font-weight: 600; margin-top: 10px; }}
+.cat-count {{ font-size: .85rem; color: var(--text2); margin-top: 4px; }}
 
 footer {{ color: var(--text2); font-size: 0.85rem; padding: 30px 0; text-align: center; }}
 </style>
@@ -622,19 +644,12 @@ footer {{ color: var(--text2); font-size: 0.85rem; padding: 30px 0; text-align: 
 <div class="container">
   <header>
     <h1>AI News Hub</h1>
-    <p>Нейросети · Вайбкодинг · ИИ-агенты · Платформы</p>
-    <div id="lastUpdated" style="font-size:.85rem;color:var(--text2);margin-top:4px"></div>
+    <p>Нейросети · Вайбкодинг · Дизайн · ИИ-агенты · Платформы</p>
+    <div id="lastUpdated"></div>
   </header>
 
-  <nav class="nav-bar">
-    <a href="index.html" class="nav-btn active">🏠 Все</a>
-    <a href="ai/index.html" class="nav-btn">🧠 Нейросети</a>
-    <a href="vibe/index.html" class="nav-btn">✨ Вайбкодинг</a>
-    <a href="agent/index.html" class="nav-btn">🤖 ИИ-агенты</a>
-    <a href="platform/index.html" class="nav-btn">⚡ Платформы</a>
-    <a href="jobs/index.html" class="nav-btn">💼 Вакансии</a>
-    <a href="orders/index.html" class="nav-btn">💰 Есть заказ</a>
-  </nav>
+  <nav class="cat-grid">
+{cards}  </nav>
 
   <footer>
     Автосборщик новостей о мире AI
@@ -642,7 +657,7 @@ footer {{ color: var(--text2); font-size: 0.85rem; padding: 30px 0; text-align: 
 </div>
 <script>
 document.getElementById('lastUpdated').textContent =
-    'Обновлено: ' + new Date().toLocaleString('ru-RU', {{timeZone:'Europe/Moscow'}}) + ' (МСК)';
+    'Обновлено: ' + new Date().toLocaleString('ru-RU', {{timeZone:'Europe/Moscow'}}) + ' (МСК)' + ' · всего {total} новостей';
 </script>
 </body>
 </html>"""

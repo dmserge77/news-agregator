@@ -3,7 +3,7 @@ window.NEWS_DATA = {
     {
       "title": "Dramatic insider warnings over AI fall flat with some in Silicon Valley",
       "link": "https://www.bbc.co.uk/news/articles/cq635037g18o",
-      "desc": "Article URL: https://www.bbc.co.uk/news/articles/cq635037g18o Comments URL: https://news.ycombinator.com/item?id=49681276 Points: 7 # Comments: 0",
+      "desc": "Article URL: https://www.bbc.co.uk/news/articles/cq635037g18o Comments URL: https://news.ycombinator.com/item?id=49681276 Points: 10 # Comments: 1",
       "date": "2026-09-13",
       "source": "Hacker News",
       "cat": "ai",
@@ -12,7 +12,7 @@ window.NEWS_DATA = {
     {
       "title": "JetKVM Mini",
       "link": "https://jetkvm.com/blog/introducing-jetkvm-mini",
-      "desc": "Article URL: https://jetkvm.com/blog/introducing-jetkvm-mini Comments URL: https://news.ycombinator.com/item?id=49681152 Points: 17 # Comments: 6",
+      "desc": "Article URL: https://jetkvm.com/blog/introducing-jetkvm-mini Comments URL: https://news.ycombinator.com/item?id=49681152 Points: 29 # Comments: 13",
       "date": "2026-09-13",
       "source": "Hacker News",
       "cat": "ai",
@@ -21,16 +21,7 @@ window.NEWS_DATA = {
     {
       "title": "Why So Many AI Researchers Think the Machines Could Kill Everyone",
       "link": "https://www.wired.com/story/why-so-many-ai-researchers-think-the-machines-could-kill-everyone/",
-      "desc": "Article URL: https://www.wired.com/story/why-so-many-ai-researchers-think-the-machines-could-kill-everyone/ Comments URL: https://news.ycombinator.com/item?id=49680858 Points: 8 # Comments: 3",
-      "date": "2026-09-13",
-      "source": "Hacker News",
-      "cat": "ai",
-      "lang": "en"
-    },
-    {
-      "title": "When anyone can build software, who decides what not to build?",
-      "link": "https://architectureintel.com/when-anyone-can-build-software-who-decides-what-not-to-build-ae07fdb370e4",
-      "desc": "Article URL: https://architectureintel.com/when-anyone-can-build-software-who-decides-what-not-to-build-ae07fdb370e4 Comments URL: https://news.ycombinator.com/item?id=49680485 Points: 29 # Comments: 21",
+      "desc": "Article URL: https://www.wired.com/story/why-so-many-ai-researchers-think-the-machines-could-kill-everyone/ Comments URL: https://news.ycombinator.com/item?id=49680858 Points: 8 # Comments: 4",
       "date": "2026-09-13",
       "source": "Hacker News",
       "cat": "ai",
@@ -39,7 +30,7 @@ window.NEWS_DATA = {
     {
       "title": "A wandering black hole caught feeding on the run",
       "link": "https://phys.org/news/2026-08-black-hole-caught.html",
-      "desc": "Article URL: https://phys.org/news/2026-08-black-hole-caught.html Comments URL: https://news.ycombinator.com/item?id=49679734 Points: 13 # Comments: 2",
+      "desc": "Article URL: https://phys.org/news/2026-08-black-hole-caught.html Comments URL: https://news.ycombinator.com/item?id=49679734 Points: 14 # Comments: 3",
       "date": "2026-09-13",
       "source": "Hacker News",
       "cat": "ai",
@@ -57,7 +48,7 @@ window.NEWS_DATA = {
     {
       "title": "Aligned to whom?",
       "link": "https://hyperbo.la/w/aligned-to-whom/",
-      "desc": "Article URL: https://hyperbo.la/w/aligned-to-whom/ Comments URL: https://news.ycombinator.com/item?id=49679643 Points: 34 # Comments: 9",
+      "desc": "Article URL: https://hyperbo.la/w/aligned-to-whom/ Comments URL: https://news.ycombinator.com/item?id=49679643 Points: 38 # Comments: 12",
       "date": "2026-09-13",
       "source": "Hacker News",
       "cat": "ai",
@@ -66,7 +57,7 @@ window.NEWS_DATA = {
     {
       "title": "After Math",
       "link": "https://terrytao.wordpress.com/2026/09/12/after-math/",
-      "desc": "Article URL: https://terrytao.wordpress.com/2026/09/12/after-math/ Comments URL: https://news.ycombinator.com/item?id=49679637 Points: 60 # Comments: 41",
+      "desc": "Article URL: https://terrytao.wordpress.com/2026/09/12/after-math/ Comments URL: https://news.ycombinator.com/item?id=49679637 Points: 62 # Comments: 46",
       "date": "2026-09-13",
       "source": "Hacker News",
       "cat": "ai",
@@ -75,7 +66,7 @@ window.NEWS_DATA = {
     {
       "title": "The Interim Computer Museum",
       "link": "https://icm.museum/",
-      "desc": "Article URL: https://icm.museum/ Comments URL: https://news.ycombinator.com/item?id=49679459 Points: 101 # Comments: 10",
+      "desc": "Article URL: https://icm.museum/ Comments URL: https://news.ycombinator.com/item?id=49679459 Points: 104 # Comments: 11",
       "date": "2026-09-13",
       "source": "Hacker News",
       "cat": "ai",
@@ -84,7 +75,7 @@ window.NEWS_DATA = {
     {
       "title": "Everyone should slow down AI development except for me",
       "link": "https://xeiaso.net/notes/2026/everyone-slowdown-but-me/",
-      "desc": "Article URL: https://xeiaso.net/notes/2026/everyone-slowdown-but-me/ Comments URL: https://news.ycombinator.com/item?id=49678683 Points: 419 # Comments: 247",
+      "desc": "Article URL: https://xeiaso.net/notes/2026/everyone-slowdown-but-me/ Comments URL: https://news.ycombinator.com/item?id=49678683 Points: 426 # Comments: 253",
       "date": "2026-09-13",
       "source": "Hacker News",
       "cat": "ai",
@@ -136,9 +127,18 @@ window.NEWS_DATA = {
       "lang": "en"
     },
     {
+      "title": "When Anyone Can Build Software, Who Decides What Not to Build?",
+      "link": "https://architectureintel.com/when-anyone-can-build-software-who-decides-what-not-to-build-ae07fdb370e4",
+      "desc": "Article URL: https://architectureintel.com/when-anyone-can-build-software-who-decides-what-not-to-build-ae07fdb370e4 Comments URL: https://news.ycombinator.com/item?id=49680485 Points: 21 # Comments: 18",
+      "date": "2026-09-13",
+      "source": "Hacker News",
+      "cat": "ai",
+      "lang": "en"
+    },
+    {
       "title": "Don't be the out of touch Kung Fu master",
       "link": "https://twitter.com/ID_AA_Carmack/status/2098443262214230095",
-      "desc": "Article URL: https://twitter.com/ID_AA_Carmack/status/2098443262214230095 Comments URL: https://news.ycombinator.com/item?id=49677577 Points: 108 # Comments: 88",
+      "desc": "Article URL: https://twitter.com/ID_AA_Carmack/status/2098443262214230095 Comments URL: https://news.ycombinator.com/item?id=49677577 Points: 108 # Comments: 97",
       "date": "2026-09-12",
       "source": "Hacker News",
       "cat": "ai",
@@ -147,7 +147,7 @@ window.NEWS_DATA = {
     {
       "title": "P(doom)",
       "link": "https://lucumr.pocoo.org/2026/9/12/pdoom/",
-      "desc": "Article URL: https://lucumr.pocoo.org/2026/9/12/pdoom/ Comments URL: https://news.ycombinator.com/item?id=49677450 Points: 70 # Comments: 38",
+      "desc": "Article URL: https://lucumr.pocoo.org/2026/9/12/pdoom/ Comments URL: https://news.ycombinator.com/item?id=49677450 Points: 73 # Comments: 38",
       "date": "2026-09-12",
       "source": "Hacker News",
       "cat": "ai",
@@ -165,7 +165,7 @@ window.NEWS_DATA = {
     {
       "title": "Will there be a 7G?",
       "link": "https://arxiv.org/abs/2609.01877",
-      "desc": "Article URL: https://arxiv.org/abs/2609.01877 Comments URL: https://news.ycombinator.com/item?id=49674498 Points: 97 # Comments: 157",
+      "desc": "Article URL: https://arxiv.org/abs/2609.01877 Comments URL: https://news.ycombinator.com/item?id=49674498 Points: 99 # Comments: 157",
       "date": "2026-09-12",
       "source": "Hacker News",
       "cat": "ai",
@@ -174,7 +174,7 @@ window.NEWS_DATA = {
     {
       "title": "Make your first edit to OpenStreetMap",
       "link": "https://high5apps.github.io/josm-plugin-website-wizard/",
-      "desc": "Article URL: https://high5apps.github.io/josm-plugin-website-wizard/ Comments URL: https://news.ycombinator.com/item?id=49674050 Points: 440 # Comments: 105",
+      "desc": "Article URL: https://high5apps.github.io/josm-plugin-website-wizard/ Comments URL: https://news.ycombinator.com/item?id=49674050 Points: 440 # Comments: 106",
       "date": "2026-09-12",
       "source": "Hacker News",
       "cat": "ai",
@@ -183,7 +183,7 @@ window.NEWS_DATA = {
     {
       "title": "Microcode in Intel's 8087 floating-point chip: the scale instruction",
       "link": "https://www.righto.com/2026/09/8087-microcode-reverse-engineering-fscale.html",
-      "desc": "Article URL: https://www.righto.com/2026/09/8087-microcode-reverse-engineering-fscale.html Comments URL: https://news.ycombinator.com/item?id=49673580 Points: 105 # Comments: 33",
+      "desc": "Article URL: https://www.righto.com/2026/09/8087-microcode-reverse-engineering-fscale.html Comments URL: https://news.ycombinator.com/item?id=49673580 Points: 106 # Comments: 33",
       "date": "2026-09-12",
       "source": "Hacker News",
       "cat": "ai",
@@ -192,27 +192,9 @@ window.NEWS_DATA = {
     {
       "title": "Nvidia is the central bank of AI",
       "link": "https://www.economist.com/interactive/briefing/2026/09/03/nvidia-is-the-central-bank-of-ai",
-      "desc": "https://archive.ph/kt50V Comments URL: https://news.ycombinator.com/item?id=49673098 Points: 469 # Comments: 330",
+      "desc": "https://archive.ph/kt50V Comments URL: https://news.ycombinator.com/item?id=49673098 Points: 469 # Comments: 333",
       "date": "2026-09-12",
       "source": "Hacker News",
-      "cat": "ai",
-      "lang": "en"
-    },
-    {
-      "title": "I made a build visualizer to understand Bun's compile times",
-      "link": "https://lalitm.com/post/buildprof/",
-      "desc": "Article URL: https://lalitm.com/post/buildprof/ Comments URL: https://news.ycombinator.com/item?id=49672842 Points: 125 # Comments: 23",
-      "date": "2026-09-12",
-      "source": "Hacker News",
-      "cat": "ai",
-      "lang": "en"
-    },
-    {
-      "title": "Linux Zoom Client Proactively Reads X11 Clipboard",
-      "link": "https://hachyderm.io/@simontatham/117201594980991062",
-      "desc": "Comments",
-      "date": "2026-09-12",
-      "source": "Lobsters",
       "cat": "ai",
       "lang": "en"
     },
@@ -262,6 +244,15 @@ window.NEWS_DATA = {
       "lang": "en"
     },
     {
+      "title": "a better way of blocking macOS updates",
+      "link": "https://zoey-on-github.github.io/blog/updates.html",
+      "desc": "Comments",
+      "date": "2026-09-12",
+      "source": "Lobsters",
+      "cat": "ai",
+      "lang": "en"
+    },
+    {
       "title": "Make it anyway",
       "link": "https://www.joelotter.com/posts/2026/09/make-it-anyway/",
       "desc": "Comments",
@@ -280,8 +271,8 @@ window.NEWS_DATA = {
       "lang": "en"
     },
     {
-      "title": "a better way of blocking macOS updates",
-      "link": "https://zoey-on-github.github.io/blog/updates.html",
+      "title": "Opusfived",
+      "link": "https://opusfived.dev/",
       "desc": "Comments",
       "date": "2026-09-12",
       "source": "Lobsters",
@@ -291,15 +282,6 @@ window.NEWS_DATA = {
     {
       "title": "We Must Pace the Frontier",
       "link": "https://darioamodei.com/post/we-must-pace-the-frontier",
-      "desc": "Comments",
-      "date": "2026-09-12",
-      "source": "Lobsters",
-      "cat": "ai",
-      "lang": "en"
-    },
-    {
-      "title": "Opusfived",
-      "link": "https://opusfived.dev/",
       "desc": "Comments",
       "date": "2026-09-12",
       "source": "Lobsters",
@@ -487,6 +469,15 @@ window.NEWS_DATA = {
       "lang": "ru"
     },
     {
+      "title": "Why do companies stop using Haskell?",
+      "link": "https://www.youtube.com/watch?v=2PebXEak24M",
+      "desc": "Comments",
+      "date": "2026-09-12",
+      "source": "Lobsters",
+      "cat": "ai",
+      "lang": "en"
+    },
+    {
       "title": "My last six months at Evernote",
       "link": "https://alexkras.com/my-last-six-months-at-evernote-after-bending-spoons-took-over/",
       "desc": "Article URL: https://alexkras.com/my-last-six-months-at-evernote-after-bending-spoons-took-over/ Comments URL: https://news.ycombinator.com/item?id=49672342 Points: 7 # Comments: 0",
@@ -649,15 +640,6 @@ window.NEWS_DATA = {
       "lang": "en"
     },
     {
-      "title": "How Minnesota Became the Front Line in the Fight Over Prediction Markets",
-      "link": "https://www.nytimes.com/2026/09/11/business/kalshi-polymarket-minnesota-prediction-markets.html",
-      "desc": "The state was the first to pass a law banning Kalshi and Polymarket. A lawsuit filed by a federal agency may set a precedent on who gets to regulate them.",
-      "date": "2026-09-11",
-      "source": "NYT Tech",
-      "cat": "ai",
-      "lang": "en"
-    },
-    {
       "title": "The Mic Is On. So Is Live Auto-Tune.",
       "link": "https://www.nytimes.com/2026/09/11/arts/music/live-auto-tune-jojo-flo-singing.html",
       "desc": "As audiences demand perfection from live performances, pitch correction technology has become an increasingly common way for singers to deliver.",
@@ -688,15 +670,6 @@ window.NEWS_DATA = {
       "title": "How the New iPhone Duo’s Glass Screen Bends Without Breaking",
       "link": "https://www.nytimes.com/2026/09/10/science/iphone-duo-apple-foldable-glass.html",
       "desc": "The screens of foldable phones are a triumph of materials science and microengineering.",
-      "date": "2026-09-11",
-      "source": "NYT Tech",
-      "cat": "ai",
-      "lang": "en"
-    },
-    {
-      "title": "How Amazon’s Zoox Is Taking On Waymo in San Francisco",
-      "link": "https://www.nytimes.com/2026/09/09/technology/zoox-waymo-san-francisco.html",
-      "desc": "The Amazon-owned driverless car company is a distant second to Waymo. Its pitch to riders? Wine pop-ups, festival sponsorships and a car built to be filmed.",
       "date": "2026-09-11",
       "source": "NYT Tech",
       "cat": "ai",
@@ -982,6 +955,24 @@ window.NEWS_DATA = {
       "lang": "ru"
     },
     {
+      "title": "Power grab",
+      "link": "https://tante.cc/2026/09/11/power-grab/",
+      "desc": "Comments",
+      "date": "2026-09-11",
+      "source": "Lobsters",
+      "cat": "ai",
+      "lang": "en"
+    },
+    {
+      "title": "ChiPass Release 2026.09.0",
+      "link": "https://codeberg.org/ChiPass/ChiPass/releases/tag/v2026.09.0",
+      "desc": "Comments",
+      "date": "2026-09-11",
+      "source": "Lobsters",
+      "cat": "ai",
+      "lang": "en"
+    },
+    {
       "title": "Forgotten Woodlands",
       "link": "https://storymaps.arcgis.com/stories/9b790daf22ba4e87836f467abb1c7e49",
       "desc": "Article URL: https://storymaps.arcgis.com/stories/9b790daf22ba4e87836f467abb1c7e49 Comments URL: https://news.ycombinator.com/item?id=49665549 Points: 21 # Comments: 4",
@@ -1041,24 +1032,6 @@ window.NEWS_DATA = {
       "desc": "Article URL: https://www.wired.com/story/i-fixed-a-tractor-john-deere-self-repair-service/ Comments URL: https://news.ycombinator.com/item?id=49658672 Points: 22 # Comments: 31",
       "date": "2026-09-11",
       "source": "Hacker News",
-      "cat": "ai",
-      "lang": "en"
-    },
-    {
-      "title": "Power grab",
-      "link": "https://tante.cc/2026/09/11/power-grab/",
-      "desc": "Comments",
-      "date": "2026-09-11",
-      "source": "Lobsters",
-      "cat": "ai",
-      "lang": "en"
-    },
-    {
-      "title": "ChiPass Release 2026.09.0",
-      "link": "https://codeberg.org/ChiPass/ChiPass/releases/tag/v2026.09.0",
-      "desc": "Comments",
-      "date": "2026-09-11",
-      "source": "Lobsters",
       "cat": "ai",
       "lang": "en"
     },
@@ -1331,6 +1304,15 @@ window.NEWS_DATA = {
       "source": "vc.ru",
       "cat": "ai",
       "lang": "ru"
+    },
+    {
+      "title": "Cerebrium",
+      "link": "https://www.awwwards.com/sites/cerebrium",
+      "desc": "Serverless infrastructure for real-time AI. Deploy voice agents, LLMs, and AI workloads with instant scaling, global regions, and built-in observability.",
+      "date": "2026-09-10",
+      "source": "Awwwards",
+      "cat": "ai",
+      "lang": "en"
     },
     {
       "title": "Show HN: Bodily Oddities",
@@ -1666,15 +1648,6 @@ window.NEWS_DATA = {
       "lang": "en"
     },
     {
-      "title": "A Hacking Tool Built With A.I. Can Breach Phones Without a Click",
-      "link": "https://www.nytimes.com/2026/09/08/us/politics/calif-ai-worm-wechat-hack.html",
-      "desc": "An attack discovered by A.I. researchers could have compromised hundreds of millions of devices within hours, experts said.",
-      "date": "2026-09-08",
-      "source": "NYT Tech",
-      "cat": "ai",
-      "lang": "en"
-    },
-    {
       "title": "Key App Developers Have Yet to Embrace Apple’s New Siri A.I.",
       "link": "https://www.nytimes.com/2026/09/08/technology/apple-siri-ai.html",
       "desc": "For the company’s new artificial intelligence system to take off, it will need plenty of support from the makers of popular apps on Apple’s phones.",
@@ -1815,8 +1788,9 @@ window.NEWS_DATA = {
     "vibe",
     "agent",
     "platform",
+    "design",
     "jobs",
     "orders"
   ],
-  "updated": "13.09.2026, 08:39:05"
+  "updated": "13.09.2026, 11:54:07"
 };

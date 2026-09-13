@@ -1,6 +1,16 @@
 window.NEWS_DATA = {
   "items": [
     {
+      "title": "Подготовить исполнительную документацию на систему видеонаблюдения на 6 камер.",
+      "link": "https://www.fl.ru/projects/5521781/podgotovit-ispolnitelnuyu-dokumentatsiyu-na-sistemu-videonablyudeniya-na-6-kamer.html",
+      "desc": "Есть рабочая документация системы видеонаблюдения на 6 камер на пром. предприятии. На основании нее необходимо подготовить исполнительную документацию. Прошу в ответе список...",
+      "date": "2026-09-13",
+      "source": "FL.ru",
+      "cat": "orders",
+      "order_type": "content",
+      "lang": "ru"
+    },
+    {
       "title": "необходимо создать веб-3 игру",
       "link": "https://www.fl.ru/projects/5521780/neobhodimo-sozdat-veb-3-igru.html",
       "desc": "игра, есть пример обычной игры, будет проще объяснить.",
@@ -1066,8 +1076,9 @@ window.NEWS_DATA = {
     "vibe",
     "agent",
     "platform",
+    "design",
     "jobs",
     "orders"
   ],
-  "updated": "13.09.2026, 08:39:05"
+  "updated": "13.09.2026, 11:54:07"
 };

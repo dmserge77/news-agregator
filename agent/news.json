@@ -2,7 +2,7 @@
   {
     "title": "Why are AI agents lying, cheating and coordinating?",
     "link": "https://yoshuabengio.org/en/publication/why-are-ai-agents-lying-cheating-and-coordinating",
-    "desc": "Article URL: https://yoshuabengio.org/en/publication/why-are-ai-agents-lying-cheating-and-coordinating Comments URL: https://news.ycombinator.com/item?id=49678969 Points: 158 # Comments: 185",
+    "desc": "Article URL: https://yoshuabengio.org/en/publication/why-are-ai-agents-lying-cheating-and-coordinating Comments URL: https://news.ycombinator.com/item?id=49678969 Points: 162 # Comments: 197",
     "date": "2026-09-13",
     "source": "Hacker News",
     "cat": "agent",
@@ -29,7 +29,7 @@
   {
     "title": "AgentsDock: An IDE designed for agentic AI research",
     "link": "https://agentsdock.net/",
-    "desc": "Article URL: https://agentsdock.net/ Comments URL: https://news.ycombinator.com/item?id=49678435 Points: 45 # Comments: 23",
+    "desc": "Article URL: https://agentsdock.net/ Comments URL: https://news.ycombinator.com/item?id=49678435 Points: 46 # Comments: 27",
     "date": "2026-09-12",
     "source": "Hacker News",
     "cat": "agent",
@@ -126,11 +126,29 @@
     "lang": "ru"
   },
   {
+    "title": "USAvionix",
+    "link": "https://www.awwwards.com/sites/usavionix",
+    "desc": "The first agent in the air, built with the speed, range, and onboard intelligence to search vast areas on its own.",
+    "date": "2026-09-09",
+    "source": "Awwwards",
+    "cat": "agent",
+    "lang": "en"
+  },
+  {
     "title": "Meta Introduces Muse, an A.I. Agent That Can Send Your Emails and Book Your Travel",
     "link": "https://www.nytimes.com/2026/09/08/technology/meta-muse-ai-agent.html",
     "desc": "Muse, Meta’s new A.I. agent, acts as a personal digital assistant that connects to Facebook and Instagram, as well as third-party apps such as Spotify and OpenTable.",
     "date": "2026-09-08",
     "source": "NYT Tech",
+    "cat": "agent",
+    "lang": "en"
+  },
+  {
+    "title": "Seasats",
+    "link": "https://www.awwwards.com/sites/seasats",
+    "desc": "Seasats is a San Diego-based robotics and marine technology company that designs and builds autonomous surface vehicles. Specifically, solar-electric multipurpose unmanned boats.",
+    "date": "2026-09-08",
+    "source": "Awwwards",
     "cat": "agent",
     "lang": "en"
   },

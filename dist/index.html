@@ -26,7 +26,7 @@ body {
 
 header {
   text-align: center;
-  padding: 30px 0 10px;
+  padding: 30px 0 20px;
 }
 header h1 {
   font-size: 2.5rem; font-weight: 700;
@@ -35,30 +35,33 @@ header h1 {
   background-clip: text;
 }
 header p { color: var(--text2); margin-top: 4px; font-size: 1.1rem; }
+#lastUpdated { font-size: .85rem; color: var(--text2); margin-top: 4px; }
 
-.nav-bar {
-  display: flex;
-  gap: 8px;
-  justify-content: center;
-  flex-wrap: wrap;
-  margin: 20px 0 30px;
+.cat-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 14px;
+  margin-top: 24px;
 }
-.nav-btn {
-  padding: 10px 24px;
-  border-radius: 24px;
-  border: 1.5px solid var(--border);
+.cat-card {
+  display: block;
   background: var(--card-bg);
-  color: var(--text);
+  border: 1.5px solid var(--border);
+  border-radius: 14px;
+  padding: 20px;
   text-decoration: none;
-  font-size: 0.95rem;
-  transition: all 0.2s;
+  color: var(--text);
+  box-shadow: var(--shadow);
+  transition: transform .15s ease, box-shadow .15s ease;
 }
-.nav-btn:hover { border-color: var(--accent); color: var(--accent); }
-.nav-btn.active {
-  background: var(--accent);
-  color: #fff;
+.cat-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(0,0,0,.12);
   border-color: var(--accent);
 }
+.cat-emoji { font-size: 2.2rem; }
+.cat-name { font-size: 1.1rem; font-weight: 600; margin-top: 10px; }
+.cat-count { font-size: .85rem; color: var(--text2); margin-top: 4px; }
 
 footer { color: var(--text2); font-size: 0.85rem; padding: 30px 0; text-align: center; }
 </style>
@@ -67,18 +70,46 @@ footer { color: var(--text2); font-size: 0.85rem; padding: 30px 0; text-align: c
 <div class="container">
   <header>
     <h1>AI News Hub</h1>
-    <p>Нейросети · Вайбкодинг · ИИ-агенты · Платформы</p>
-    <div id="lastUpdated" style="font-size:.85rem;color:var(--text2);margin-top:4px"></div>
+    <p>Нейросети · Вайбкодинг · Дизайн · ИИ-агенты · Платформы</p>
+    <div id="lastUpdated"></div>
   </header>
 
-  <nav class="nav-bar">
-    <a href="index.html" class="nav-btn active">🏠 Все</a>
-    <a href="ai/index.html" class="nav-btn">🧠 Нейросети</a>
-    <a href="vibe/index.html" class="nav-btn">✨ Вайбкодинг</a>
-    <a href="agent/index.html" class="nav-btn">🤖 ИИ-агенты</a>
-    <a href="platform/index.html" class="nav-btn">⚡ Платформы</a>
-    <a href="jobs/index.html" class="nav-btn">💼 Вакансии</a>
-    <a href="orders/index.html" class="nav-btn">💰 Есть заказ</a>
+  <nav class="cat-grid">
+<a href="ai/index.html" class="cat-card" style="--accent:#0071e3">
+<div class="cat-emoji">🧠</div>
+<div class="cat-name">Нейросети</div>
+<div class="cat-count">198 новостей</div>
+</a>
+<a href="vibe/index.html" class="cat-card" style="--accent:#34c759">
+<div class="cat-emoji">✨</div>
+<div class="cat-name">Вайбкодинг</div>
+<div class="cat-count">11 новостей</div>
+</a>
+<a href="agent/index.html" class="cat-card" style="--accent:#ff9500">
+<div class="cat-emoji">🤖</div>
+<div class="cat-name">ИИ-агенты</div>
+<div class="cat-count">19 новостей</div>
+</a>
+<a href="platform/index.html" class="cat-card" style="--accent:#5856d6">
+<div class="cat-emoji">⚡</div>
+<div class="cat-name">Платформы</div>
+<div class="cat-count">13 новостей</div>
+</a>
+<a href="design/index.html" class="cat-card" style="--accent:#e3a133">
+<div class="cat-emoji">🎨</div>
+<div class="cat-name">Дизайн</div>
+<div class="cat-count">34 новостей</div>
+</a>
+<a href="jobs/index.html" class="cat-card" style="--accent:#e34133">
+<div class="cat-emoji">💼</div>
+<div class="cat-name">Вакансии</div>
+<div class="cat-count">113 новостей</div>
+</a>
+<a href="orders/index.html" class="cat-card" style="--accent:#e3a133">
+<div class="cat-emoji">💰</div>
+<div class="cat-name">Есть заказ</div>
+<div class="cat-count">107 новостей</div>
+</a>
   </nav>
 
   <footer>
@@ -87,7 +118,7 @@ footer { color: var(--text2); font-size: 0.85rem; padding: 30px 0; text-align: c
 </div>
 <script>
 document.getElementById('lastUpdated').textContent =
-    'Обновлено: ' + new Date().toLocaleString('ru-RU', {timeZone:'Europe/Moscow'}) + ' (МСК)';
+    'Обновлено: ' + new Date().toLocaleString('ru-RU', {timeZone:'Europe/Moscow'}) + ' (МСК)' + ' · всего 495 новостей';
 </script>
 </body>
 </html>

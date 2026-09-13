@@ -105,8 +105,9 @@ window.NEWS_DATA = {
     "vibe",
     "agent",
     "platform",
+    "design",
     "jobs",
     "orders"
   ],
-  "updated": "13.09.2026, 08:39:05"
+  "updated": "13.09.2026, 11:54:07"
 };
