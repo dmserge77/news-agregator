@@ -3,7 +3,7 @@ window.NEWS_DATA = {
     {
       "title": "Dramatic insider warnings over AI fall flat with some in Silicon Valley",
       "link": "https://www.bbc.co.uk/news/articles/cq635037g18o",
-      "desc": "Article URL: https://www.bbc.co.uk/news/articles/cq635037g18o Comments URL: https://news.ycombinator.com/item?id=49681276 Points: 12 # Comments: 6",
+      "desc": "Article URL: https://www.bbc.co.uk/news/articles/cq635037g18o Comments URL: https://news.ycombinator.com/item?id=49681276 Points: 13 # Comments: 10",
       "date": "2026-09-13",
       "source": "Hacker News",
       "cat": "ai",
@@ -12,7 +12,7 @@ window.NEWS_DATA = {
     {
       "title": "JetKVM Mini",
       "link": "https://jetkvm.com/blog/introducing-jetkvm-mini",
-      "desc": "Article URL: https://jetkvm.com/blog/introducing-jetkvm-mini Comments URL: https://news.ycombinator.com/item?id=49681152 Points: 41 # Comments: 18",
+      "desc": "Article URL: https://jetkvm.com/blog/introducing-jetkvm-mini Comments URL: https://news.ycombinator.com/item?id=49681152 Points: 53 # Comments: 29",
       "date": "2026-09-13",
       "source": "Hacker News",
       "cat": "ai",
@@ -21,7 +21,7 @@ window.NEWS_DATA = {
     {
       "title": "A wandering black hole caught feeding on the run",
       "link": "https://phys.org/news/2026-08-black-hole-caught.html",
-      "desc": "Article URL: https://phys.org/news/2026-08-black-hole-caught.html Comments URL: https://news.ycombinator.com/item?id=49679734 Points: 15 # Comments: 4",
+      "desc": "Article URL: https://phys.org/news/2026-08-black-hole-caught.html Comments URL: https://news.ycombinator.com/item?id=49679734 Points: 16 # Comments: 5",
       "date": "2026-09-13",
       "source": "Hacker News",
       "cat": "ai",
@@ -30,7 +30,7 @@ window.NEWS_DATA = {
     {
       "title": "A succession crisis that tore England apart (2023)",
       "link": "https://www.historytoday.com/archive/feature/succession-crisis-tore-england-apart",
-      "desc": "Article URL: https://www.historytoday.com/archive/feature/succession-crisis-tore-england-apart Comments URL: https://news.ycombinator.com/item?id=49679647 Points: 30 # Comments: 15",
+      "desc": "Article URL: https://www.historytoday.com/archive/feature/succession-crisis-tore-england-apart Comments URL: https://news.ycombinator.com/item?id=49679647 Points: 31 # Comments: 16",
       "date": "2026-09-13",
       "source": "Hacker News",
       "cat": "ai",
@@ -39,7 +39,7 @@ window.NEWS_DATA = {
     {
       "title": "Aligned to whom?",
       "link": "https://hyperbo.la/w/aligned-to-whom/",
-      "desc": "Article URL: https://hyperbo.la/w/aligned-to-whom/ Comments URL: https://news.ycombinator.com/item?id=49679643 Points: 42 # Comments: 12",
+      "desc": "Article URL: https://hyperbo.la/w/aligned-to-whom/ Comments URL: https://news.ycombinator.com/item?id=49679643 Points: 45 # Comments: 17",
       "date": "2026-09-13",
       "source": "Hacker News",
       "cat": "ai",
@@ -48,7 +48,7 @@ window.NEWS_DATA = {
     {
       "title": "After Math",
       "link": "https://terrytao.wordpress.com/2026/09/12/after-math/",
-      "desc": "Article URL: https://terrytao.wordpress.com/2026/09/12/after-math/ Comments URL: https://news.ycombinator.com/item?id=49679637 Points: 63 # Comments: 47",
+      "desc": "Article URL: https://terrytao.wordpress.com/2026/09/12/after-math/ Comments URL: https://news.ycombinator.com/item?id=49679637 Points: 66 # Comments: 48",
       "date": "2026-09-13",
       "source": "Hacker News",
       "cat": "ai",
@@ -57,7 +57,7 @@ window.NEWS_DATA = {
     {
       "title": "The Interim Computer Museum",
       "link": "https://icm.museum/",
-      "desc": "Article URL: https://icm.museum/ Comments URL: https://news.ycombinator.com/item?id=49679459 Points: 105 # Comments: 11",
+      "desc": "Article URL: https://icm.museum/ Comments URL: https://news.ycombinator.com/item?id=49679459 Points: 107 # Comments: 11",
       "date": "2026-09-13",
       "source": "Hacker News",
       "cat": "ai",
@@ -66,7 +66,7 @@ window.NEWS_DATA = {
     {
       "title": "Everyone should slow down AI development except for me",
       "link": "https://xeiaso.net/notes/2026/everyone-slowdown-but-me/",
-      "desc": "Article URL: https://xeiaso.net/notes/2026/everyone-slowdown-but-me/ Comments URL: https://news.ycombinator.com/item?id=49678683 Points: 437 # Comments: 261",
+      "desc": "Article URL: https://xeiaso.net/notes/2026/everyone-slowdown-but-me/ Comments URL: https://news.ycombinator.com/item?id=49678683 Points: 442 # Comments: 274",
       "date": "2026-09-13",
       "source": "Hacker News",
       "cat": "ai",
@@ -75,6 +75,15 @@ window.NEWS_DATA = {
     {
       "title": "heol",
       "link": "https://wiki.xxiivv.com/site/heol.html",
+      "desc": "Comments",
+      "date": "2026-09-13",
+      "source": "Lobsters",
+      "cat": "ai",
+      "lang": "en"
+    },
+    {
+      "title": "From Git to Fossil (2025)",
+      "link": "https://lucio.albenga.es/web-en/posts/2025/from-git-to-fossil.html",
       "desc": "Comments",
       "date": "2026-09-13",
       "source": "Lobsters",
@@ -118,6 +127,15 @@ window.NEWS_DATA = {
       "lang": "ru"
     },
     {
+      "title": "Revolut подтвердил утечку данных части пользователей из-за мошеннических запросов с почтового домена государственного ведомства",
+      "link": "https://vc.ru/services/3135851-revolut-podtverdil-utechku-dannyh-polzovatelej?from=rss",
+      "desc": "В какой стране она произошла — не раскрыли.",
+      "date": "2026-09-13",
+      "source": "vc.ru",
+      "cat": "ai",
+      "lang": "ru"
+    },
+    {
       "title": "Why So Many AI Researchers Think the Machines Could Kill Everyone",
       "link": "https://www.wired.com/story/why-so-many-ai-researchers-think-the-machines-could-kill-everyone/",
       "desc": "Article URL: https://www.wired.com/story/why-so-many-ai-researchers-think-the-machines-could-kill-everyone/ Comments URL: https://news.ycombinator.com/item?id=49680858 Points: 8 # Comments: 4",
@@ -147,7 +165,7 @@ window.NEWS_DATA = {
     {
       "title": "Don't be the out of touch Kung Fu master",
       "link": "https://twitter.com/ID_AA_Carmack/status/2098443262214230095",
-      "desc": "Article URL: https://twitter.com/ID_AA_Carmack/status/2098443262214230095 Comments URL: https://news.ycombinator.com/item?id=49677577 Points: 114 # Comments: 104",
+      "desc": "Article URL: https://twitter.com/ID_AA_Carmack/status/2098443262214230095 Comments URL: https://news.ycombinator.com/item?id=49677577 Points: 115 # Comments: 108",
       "date": "2026-09-12",
       "source": "Hacker News",
       "cat": "ai",
@@ -156,7 +174,7 @@ window.NEWS_DATA = {
     {
       "title": "P(doom)",
       "link": "https://lucumr.pocoo.org/2026/9/12/pdoom/",
-      "desc": "Article URL: https://lucumr.pocoo.org/2026/9/12/pdoom/ Comments URL: https://news.ycombinator.com/item?id=49677450 Points: 80 # Comments: 40",
+      "desc": "Article URL: https://lucumr.pocoo.org/2026/9/12/pdoom/ Comments URL: https://news.ycombinator.com/item?id=49677450 Points: 80 # Comments: 45",
       "date": "2026-09-12",
       "source": "Hacker News",
       "cat": "ai",
@@ -165,7 +183,7 @@ window.NEWS_DATA = {
     {
       "title": "Real-SWE: Benchmarking AI models on private, real-world, enterprise codebases",
       "link": "https://withspecific.com/benchmarks/real-swe",
-      "desc": "Article URL: https://withspecific.com/benchmarks/real-swe Comments URL: https://news.ycombinator.com/item?id=49676820 Points: 235 # Comments: 133",
+      "desc": "Article URL: https://withspecific.com/benchmarks/real-swe Comments URL: https://news.ycombinator.com/item?id=49676820 Points: 237 # Comments: 134",
       "date": "2026-09-12",
       "source": "Hacker News",
       "cat": "ai",
@@ -183,7 +201,7 @@ window.NEWS_DATA = {
     {
       "title": "Make your first edit to OpenStreetMap",
       "link": "https://high5apps.github.io/josm-plugin-website-wizard/",
-      "desc": "Article URL: https://high5apps.github.io/josm-plugin-website-wizard/ Comments URL: https://news.ycombinator.com/item?id=49674050 Points: 444 # Comments: 109",
+      "desc": "Article URL: https://high5apps.github.io/josm-plugin-website-wizard/ Comments URL: https://news.ycombinator.com/item?id=49674050 Points: 447 # Comments: 111",
       "date": "2026-09-12",
       "source": "Hacker News",
       "cat": "ai",
@@ -210,7 +228,7 @@ window.NEWS_DATA = {
     {
       "title": "We must pace the frontier",
       "link": "https://darioamodei.com/post/we-must-pace-the-frontier",
-      "desc": "Article URL: https://darioamodei.com/post/we-must-pace-the-frontier Comments URL: https://news.ycombinator.com/item?id=49672510 Points: 638 # Comments: 892",
+      "desc": "Article URL: https://darioamodei.com/post/we-must-pace-the-frontier Comments URL: https://news.ycombinator.com/item?id=49672510 Points: 640 # Comments: 895",
       "date": "2026-09-12",
       "source": "Hacker News",
       "cat": "ai",
@@ -280,15 +298,6 @@ window.NEWS_DATA = {
       "lang": "en"
     },
     {
-      "title": "Optimizing a single Rust Clippy lint by 3133X",
-      "link": "https://blog.goose.love/posts/making-a-clippy-lint-faster-by-3133x/",
-      "desc": "Comments",
-      "date": "2026-09-12",
-      "source": "Lobsters",
-      "cat": "ai",
-      "lang": "en"
-    },
-    {
       "title": "Opusfived",
       "link": "https://opusfived.dev/",
       "desc": "Comments",
@@ -298,8 +307,8 @@ window.NEWS_DATA = {
       "lang": "en"
     },
     {
-      "title": "Managing Complex Application State with Reactive Data Flows",
-      "link": "https://yogthos.net/posts/2026-09-12-reactive-dataflow.html",
+      "title": "Optimizing a single Rust Clippy lint by 3133X",
+      "link": "https://blog.goose.love/posts/making-a-clippy-lint-faster-by-3133x/",
       "desc": "Comments",
       "date": "2026-09-12",
       "source": "Lobsters",
@@ -309,6 +318,15 @@ window.NEWS_DATA = {
     {
       "title": "Logo Programming Language",
       "link": "https://el.media.mit.edu/logo-foundation/what_is_logo/logo_programming.html",
+      "desc": "Comments",
+      "date": "2026-09-12",
+      "source": "Lobsters",
+      "cat": "ai",
+      "lang": "en"
+    },
+    {
+      "title": "Managing Complex Application State with Reactive Data Flows",
+      "link": "https://yogthos.net/posts/2026-09-12-reactive-dataflow.html",
       "desc": "Comments",
       "date": "2026-09-12",
       "source": "Lobsters",
@@ -327,15 +345,6 @@ window.NEWS_DATA = {
     {
       "title": "Metacarp",
       "link": "https://blog.veitheller.de/Metacarp.html",
-      "desc": "Comments",
-      "date": "2026-09-12",
-      "source": "Lobsters",
-      "cat": "ai",
-      "lang": "en"
-    },
-    {
-      "title": "How Trail of Bits helps verify the integrity of your Signal chats",
-      "link": "https://blog.trailofbits.com/2026/08/11/how-trail-of-bits-helps-verify-the-integrity-of-your-signal-chats/",
       "desc": "Comments",
       "date": "2026-09-12",
       "source": "Lobsters",
@@ -476,6 +485,15 @@ window.NEWS_DATA = {
       "source": "vc.ru",
       "cat": "ai",
       "lang": "ru"
+    },
+    {
+      "title": "How Trail of Bits helps verify the integrity of your Signal chats",
+      "link": "https://blog.trailofbits.com/2026/08/11/how-trail-of-bits-helps-verify-the-integrity-of-your-signal-chats/",
+      "desc": "Comments",
+      "date": "2026-09-12",
+      "source": "Lobsters",
+      "cat": "ai",
+      "lang": "en"
     },
     {
       "title": "Why do companies stop using Haskell?",
@@ -1306,15 +1324,6 @@ window.NEWS_DATA = {
       "lang": "ru"
     },
     {
-      "title": "Bending Spoons купит американский сервис для совместной работы Miro с основателями из Перми за $1,36 млрд — это на 90% меньше оценки в 2022 году",
-      "link": "https://vc.ru/services/3131820-bending-spoons-pokupka-miro?from=rss",
-      "desc": "Покупатель известен тем, что выгодно приобретает теряющие популярность сервисы — а затем повышает цены и сокращает расходы.",
-      "date": "2026-09-10",
-      "source": "vc.ru",
-      "cat": "ai",
-      "lang": "ru"
-    },
-    {
       "title": "Cerebrium",
       "link": "https://www.awwwards.com/sites/cerebrium",
       "desc": "Serverless infrastructure for real-time AI. Deploy voice agents, LLMs, and AI workloads with instant scaling, global regions, and built-in observability.",
@@ -1322,6 +1331,15 @@ window.NEWS_DATA = {
       "source": "Awwwards",
       "cat": "ai",
       "lang": "en"
+    },
+    {
+      "title": "Bending Spoons купит американский сервис для совместной работы Miro с основателями из Перми за $1,36 млрд — это на 90% меньше оценки в 2022 году",
+      "link": "https://vc.ru/services/3131820-bending-spoons-pokupka-miro?from=rss",
+      "desc": "Покупатель известен тем, что выгодно приобретает теряющие популярность сервисы — а затем повышает цены и сокращает расходы.",
+      "date": "2026-09-10",
+      "source": "vc.ru",
+      "cat": "ai",
+      "lang": "ru"
     },
     {
       "title": "Show HN: Bodily Oddities",
@@ -1891,5 +1909,5 @@ window.NEWS_DATA = {
     "jobs",
     "orders"
   ],
-  "updated": "13.09.2026, 12:07:13"
+  "updated": "2026-09-13"
 };
