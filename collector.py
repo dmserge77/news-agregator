@@ -5,7 +5,7 @@ AI News Hub — автосборщик новостей из RSS/Atom лент.
 Запуск: python collector.py
 """
 
-import json, os, re, sys, ssl, glob, shutil
+import json, os, re, sys, ssl, shutil
 from datetime import datetime, timedelta
 from html import unescape
 from urllib.request import urlopen, Request
@@ -524,18 +524,29 @@ def load_news(filepath):
         return []
 
 
-def save_news(filepath, items):
+def write_if_changed(filepath, content):
+    """Пишет файл только если содержимое изменилось — чтобы не плодить пустые коммиты."""
     os.makedirs(os.path.dirname(filepath), exist_ok=True)
+    try:
+        with open(filepath, "r", encoding="utf-8") as f:
+            if f.read() == content:
+                return
+    except FileNotFoundError:
+        pass
     with open(filepath, "w", encoding="utf-8") as f:
-        json.dump(items, f, ensure_ascii=False, indent=2)
+        f.write(content)
+
+
+def save_news(filepath, items):
+    write_if_changed(filepath, json.dumps(items, ensure_ascii=False, indent=2))
 
 
 def save_data_js(filepath, items, cat_keys=None):
-    os.makedirs(os.path.dirname(filepath), exist_ok=True)
-    ts = datetime.now().strftime("%d.%m.%Y, %H:%M:%S")
+    dates = [i.get("date", "") for i in items if i.get("date")]
+    ts = max(dates) if dates else datetime.now().strftime("%Y-%m-%d")
     data = {"items": items, "cat_keys": list(CATEGORIES.keys()), "updated": ts} if cat_keys is None else items
-    with open(filepath, "w", encoding="utf-8") as f:
-        f.write("window.NEWS_DATA = " + json.dumps(data, ensure_ascii=False, indent=2) + ";\n")
+    body = "window.NEWS_DATA = " + json.dumps(data, ensure_ascii=False, indent=2) + ";\n"
+    write_if_changed(filepath, body)
 
 
 def generate_category_page(cat_key, cat_info):
@@ -551,8 +562,7 @@ def generate_category_page(cat_key, cat_info):
         html = html.replace(f"%%ACT_{k}%%", "active" if k == cat_key else "")
     cat_dir = os.path.join(BASE_DIR, cat_key)
     os.makedirs(cat_dir, exist_ok=True)
-    with open(os.path.join(cat_dir, "index.html"), "w", encoding="utf-8") as f:
-        f.write(html)
+    write_if_changed(os.path.join(cat_dir, "index.html"), html)
 
 
 def generate_main_page(all_news):
@@ -661,8 +671,7 @@ document.getElementById('lastUpdated').textContent =
 </script>
 </body>
 </html>"""
-    with open(os.path.join(BASE_DIR, "index.html"), "w", encoding="utf-8") as f:
-        f.write(html)
+    write_if_changed(os.path.join(BASE_DIR, "index.html"), html)
     print(f"  [OK] Главная страница — {total} новостей по {len([k for k, v in counts.items() if v > 0])} категориям")
 
 
