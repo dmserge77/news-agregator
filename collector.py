@@ -580,6 +580,7 @@ def generate_main_page(all_news):
         if n["cat"] in counts:
             counts[n["cat"]] += 1
     total = len(all_news)
+    build_time = datetime.now().strftime("%d.%m.%Y, %H:%M:%S")
 
     cards = ""
     for k, cat in CATEGORIES.items():
@@ -688,7 +689,7 @@ footer {{ color: var(--text2); font-size: 0.85rem; padding: 30px 0; text-align: 
 </div>
 <script>
 document.getElementById('lastUpdated').textContent =
-    'Обновлено: ' + new Date().toLocaleString('ru-RU', {{timeZone:'Europe/Moscow'}}) + ' (МСК)' + ' · всего {total} новостей';
+    'Обновлено: {build_time} (МСК)' + ' · всего {total} новостей';
 </script>
 </body>
 </html>"""

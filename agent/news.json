@@ -2,13 +2,29 @@
   {
     "title": "Why are AI agents lying, cheating and coordinating?",
     "link": "https://yoshuabengio.org/en/publication/why-are-ai-agents-lying-cheating-and-coordinating",
+<<<<<<< HEAD
     "desc": "Article URL: https://yoshuabengio.org/en/publication/why-are-ai-agents-lying-cheating-and-coordinating Comments URL: https://news.ycombinator.com/item?id=49678969 Points: 456 # Comments: 530",
+=======
+    "desc": "Article URL: https://yoshuabengio.org/en/publication/why-are-ai-agents-lying-cheating-and-coordinating Comments URL: https://news.ycombinator.com/item?id=49678969 Points: 465 # Comments: 543",
+>>>>>>> c40cb0e (fix: главная показывает время последней сборки, а не момент открытия)
     "date": "2026-09-13",
     "source": "Hacker News",
     "cat": "agent",
     "lang": "en"
   },
   {
+<<<<<<< HEAD
+=======
+    "title": "Google переводит соучредителя Mechanize и более десятка инженеров в DeepMind",
+    "link": "https://habr.com/ru/news/1081652/?utm_campaign=1081652&utm_source=habrahabr&utm_medium=rss",
+    "desc": "Google завершила сделку по привлечению команды стартапа Mechanize из Сан‑Франциско, специализирующегося на использовании ИИ для написания кода. Теперь в профиле соучредителя Mechanize Тамая Бесироглу в LinkedIn указано, что он работает в подразделении DeepMind. Также стало известно, что туда пере...",
+    "date": "2026-09-13",
+    "source": "Habr AI",
+    "cat": "agent",
+    "lang": "ru"
+  },
+  {
+>>>>>>> c40cb0e (fix: главная показывает время последней сборки, а не момент открытия)
     "title": "Алло, это робот: почему голосовые системы телефонии могут быть лучше, чем кажется на первый взгляд",
     "link": "https://habr.com/ru/companies/vasexperts/articles/1078212/?utm_campaign=1078212&utm_source=habrahabr&utm_medium=rss",
     "desc": "Отношение к ИИ в поддержке, мягко говоря, неоднозначное — компании активно используют голосовых ассистентов несмотря на то, что клиенты чаще всего не в восторге от таких «помощников». Поговорим, почему роботу на другом конце провода стоит дать шанс и на каких задачах голосовые системы ИИ могут пр...",
@@ -36,6 +52,7 @@
     "lang": "ru"
   },
   {
+<<<<<<< HEAD
     "title": "Google переводит соучредителя Mechanize и более десятка инженеров в DeepMind",
     "link": "https://habr.com/ru/news/1081652/?utm_campaign=1081652&utm_source=habrahabr&utm_medium=rss",
     "desc": "Google завершила сделку по привлечению команды стартапа Mechanize из Сан‑Франциско, специализирующегося на использовании ИИ для написания кода. Теперь в профиле соучредителя Mechanize Тамая Бесироглу в LinkedIn указано, что он работает в подразделении DeepMind. Также стало известно, что туда пере...",
@@ -45,6 +62,8 @@
     "lang": "ru"
   },
   {
+=======
+>>>>>>> c40cb0e (fix: главная показывает время последней сборки, а не момент открытия)
     "title": "Useful Things Agents Can Do That Are Not Writing Code",
     "link": "https://elijahpotter.dev/articles/useful_things_agents_can_do_that_are_not_writing_code",
     "desc": "Comments",
@@ -90,6 +109,24 @@
     "lang": "en"
   },
   {
+    "title": "Atlassian добавит в Jira управляемые циклы ИИ-агентов",
+    "link": "https://tproger.ru/news/atlassian-dobavit-v-jira-upravlyaemye-cikly-ii-agentov",
+    "desc": "Jira будет передавать задачи ИИ-агентам, запускать тесты и создавать pull request. Разработчики сохранят контроль над ревью и слиянием кода. — Читать дальше « Atlassian добавит в Jira управляемые циклы ИИ-агентов »",
+    "date": "2026-09-11",
+    "source": "Tproger",
+    "cat": "agent",
+    "lang": "ru"
+  },
+  {
+    "title": "Google выпустила плагин google-cloud-developer для ИИ-агентов",
+    "link": "https://tproger.ru/news/google-vypustila-plagin-google-cloud-developer-dlya-ii-agentov",
+    "desc": "Плагин google-cloud-developer объединяет навыки, рекомендации по работе с gcloud CLI и доступ к официальной документации через MCP. — Читать дальше « Google выпустила плагин google-cloud-developer для ИИ-агентов »",
+    "date": "2026-09-11",
+    "source": "Tproger",
+    "cat": "agent",
+    "lang": "ru"
+  },
+  {
     "title": "Agent‑Ops 0.4.0: ИИ предлагает, человек решает, программа исполняет",
     "link": "https://habr.com/ru/articles/1081344/?utm_campaign=1081344&utm_source=habrahabr&utm_medium=rss",
     "desc": "Привет! Я Сергей Житинский, основатель Git in Sky. Мы занимаемся эксплуатацией и технической поддержкой ИТ-инфраструктуры. Agent-Ops — проект открытой отраслевой методологии совместной работы инженеров и ИИ-агентов. Мы начали разрабатывать его весной этого года и сейчас выложили первый кандидат в...",
@@ -113,24 +150,6 @@
     "desc": "Привет, сегодня решила поделиться переводом от Маттео Бизи на вечнозеленую (как оказалось) тему — Shadow AI. В материале про то, почему ИИ-агентов нужно моделировать как угрозу, а не просто как инструмент продуктивности. Читать далее",
     "date": "2026-09-11",
     "source": "Habr AI",
-    "cat": "agent",
-    "lang": "ru"
-  },
-  {
-    "title": "Atlassian добавит в Jira управляемые циклы ИИ-агентов",
-    "link": "https://tproger.ru/news/atlassian-dobavit-v-jira-upravlyaemye-cikly-ii-agentov",
-    "desc": "Jira будет передавать задачи ИИ-агентам, запускать тесты и создавать pull request. Разработчики сохранят контроль над ревью и слиянием кода. — Читать дальше « Atlassian добавит в Jira управляемые циклы ИИ-агентов »",
-    "date": "2026-09-11",
-    "source": "Tproger",
-    "cat": "agent",
-    "lang": "ru"
-  },
-  {
-    "title": "Google выпустила плагин google-cloud-developer для ИИ-агентов",
-    "link": "https://tproger.ru/news/google-vypustila-plagin-google-cloud-developer-dlya-ii-agentov",
-    "desc": "Плагин google-cloud-developer объединяет навыки, рекомендации по работе с gcloud CLI и доступ к официальной документации через MCP. — Читать дальше « Google выпустила плагин google-cloud-developer для ИИ-агентов »",
-    "date": "2026-09-11",
-    "source": "Tproger",
     "cat": "agent",
     "lang": "ru"
   },
