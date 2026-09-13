@@ -1,10 +1,28 @@
 [
   {
-    "title": "Cpak – OCI application package format for Linux desktops, servers and devices",
-    "link": "https://cpak.it/",
-    "desc": "Article URL: https://cpak.it/ Comments URL: https://news.ycombinator.com/item?id=49684778 Points: 10 # Comments: 3",
+    "title": "AI recursive self-improvement might not come so quickly after all (August 2026)",
+    "link": "https://www.technologyreview.com/2026/08/18/1142188/ai-recursive-self-improvement/",
+    "desc": "Article URL: https://www.technologyreview.com/2026/08/18/1142188/ai-recursive-self-improvement/ Comments URL: https://news.ycombinator.com/item?id=49687334 Points: 19 # Comments: 15",
     "date": "2026-09-13",
     "source": "Hacker News",
+    "cat": "design",
+    "lang": "en"
+  },
+  {
+    "title": "Cpak – OCI application package format for Linux desktops, servers and devices",
+    "link": "https://cpak.it/",
+    "desc": "Article URL: https://cpak.it/ Comments URL: https://news.ycombinator.com/item?id=49684778 Points: 35 # Comments: 11",
+    "date": "2026-09-13",
+    "source": "Hacker News",
+    "cat": "design",
+    "lang": "en"
+  },
+  {
+    "title": "Switching to GNU Guix: A Beginner's Perspective",
+    "link": "https://whhone.com/posts/switching-to-gnu-guix/",
+    "desc": "Comments",
+    "date": "2026-09-13",
+    "source": "Lobsters",
     "cat": "design",
     "lang": "en"
   },

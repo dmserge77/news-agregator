@@ -1,8 +1,89 @@
 [
   {
+    "title": "Flawed Routers Flood University of Wisconsin Internet Time Server (2003)",
+    "link": "https://pages.cs.wisc.edu/~plonka/netgear-sntp/",
+    "desc": "Article URL: https://pages.cs.wisc.edu/~plonka/netgear-sntp/ Comments URL: https://news.ycombinator.com/item?id=49688391 Points: 7 # Comments: 0",
+    "date": "2026-09-13",
+    "source": "Hacker News",
+    "cat": "ai",
+    "lang": "en"
+  },
+  {
+    "title": "Mark Zuckerberg: \"Cambridge Analytica\" (2017)",
+    "link": "https://twitter.com/TechEmails/status/2099214399840059428",
+    "desc": "Article URL: https://twitter.com/TechEmails/status/2099214399840059428 Comments URL: https://news.ycombinator.com/item?id=49688157 Points: 95 # Comments: 10",
+    "date": "2026-09-13",
+    "source": "Hacker News",
+    "cat": "ai",
+    "lang": "en"
+  },
+  {
+    "title": "There Is No AI (It's Just People) with Jaron Lanier",
+    "link": "https://singjupost.com/startalk-there-is-no-ai-really-its-just-people-w-jaron-lanier-transcript/",
+    "desc": "Article URL: https://singjupost.com/startalk-there-is-no-ai-really-its-just-people-w-jaron-lanier-transcript/ Comments URL: https://news.ycombinator.com/item?id=49687869 Points: 28 # Comments: 14",
+    "date": "2026-09-13",
+    "source": "Hacker News",
+    "cat": "ai",
+    "lang": "en"
+  },
+  {
+    "title": "I'm being cyberattacked by Tesla, Inc",
+    "link": "https://dreamstation.systems/personal/tesla.html",
+    "desc": "Article URL: https://dreamstation.systems/personal/tesla.html Comments URL: https://news.ycombinator.com/item?id=49686766 Points: 329 # Comments: 95",
+    "date": "2026-09-13",
+    "source": "Hacker News",
+    "cat": "ai",
+    "lang": "en"
+  },
+  {
+    "title": "Global Shortage Has Led to Motor Oil Rationing at Costco",
+    "link": "https://guessingheadlights.com/global-shortage-has-led-to-motor-oil-rationing-at-costco/",
+    "desc": "Article URL: https://guessingheadlights.com/global-shortage-has-led-to-motor-oil-rationing-at-costco/ Comments URL: https://news.ycombinator.com/item?id=49686697 Points: 115 # Comments: 85",
+    "date": "2026-09-13",
+    "source": "Hacker News",
+    "cat": "ai",
+    "lang": "en"
+  },
+  {
+    "title": "Device Drivers lab exercise – COSC562",
+    "link": "https://web.eecs.utk.edu/~smarz1/courses/cosc562/drivers.html",
+    "desc": "Article URL: https://web.eecs.utk.edu/~smarz1/courses/cosc562/drivers.html Comments URL: https://news.ycombinator.com/item?id=49686503 Points: 16 # Comments: 2",
+    "date": "2026-09-13",
+    "source": "Hacker News",
+    "cat": "ai",
+    "lang": "en"
+  },
+  {
+    "title": "Why is Google still serving dodgy ads?",
+    "link": "https://www.atomic14.com/2026/09/13/why-is-google-still-serving-dodgy-ads",
+    "desc": "Article URL: https://www.atomic14.com/2026/09/13/why-is-google-still-serving-dodgy-ads Comments URL: https://news.ycombinator.com/item?id=49686445 Points: 330 # Comments: 156",
+    "date": "2026-09-13",
+    "source": "Hacker News",
+    "cat": "ai",
+    "lang": "en"
+  },
+  {
+    "title": "Romania soccer introduces black card to 'combat abusive behaviour' from parents",
+    "link": "https://www.nytimes.com/athletic/7586821/2026/09/12/football-black-card-referee/",
+    "desc": "Article URL: https://www.nytimes.com/athletic/7586821/2026/09/12/football-black-card-referee/ Comments URL: https://news.ycombinator.com/item?id=49686134 Points: 74 # Comments: 48",
+    "date": "2026-09-13",
+    "source": "Hacker News",
+    "cat": "ai",
+    "lang": "en"
+  },
+  {
+    "title": "David Sacks: OpenAI and Anthropic Don't Need Regulations to Pace Frontier Models",
+    "link": "https://twitter.com/DavidSacks/status/2098973625252708460",
+    "desc": "Article URL: https://twitter.com/DavidSacks/status/2098973625252708460 Comments URL: https://news.ycombinator.com/item?id=49685991 Points: 175 # Comments: 138",
+    "date": "2026-09-13",
+    "source": "Hacker News",
+    "cat": "ai",
+    "lang": "en"
+  },
+  {
     "title": "Garry Tan wants US open-weight AI labs to 'distill' frontier models, too",
     "link": "https://techcrunch.com/2026/09/11/y-combinators-garry-tan-wants-u-s-open-weight-ai-labs-to-distill-frontier-models-too/",
-    "desc": "Article URL: https://techcrunch.com/2026/09/11/y-combinators-garry-tan-wants-u-s-open-weight-ai-labs-to-distill-frontier-models-too/ Comments URL: https://news.ycombinator.com/item?id=49685253 Points: 29 # Comments: 7",
+    "desc": "Article URL: https://techcrunch.com/2026/09/11/y-combinators-garry-tan-wants-u-s-open-weight-ai-labs-to-distill-frontier-models-too/ Comments URL: https://news.ycombinator.com/item?id=49685253 Points: 251 # Comments: 125",
     "date": "2026-09-13",
     "source": "Hacker News",
     "cat": "ai",
@@ -11,16 +92,7 @@
   {
     "title": "Libraries Run Rust Inside Python (With PyO3)",
     "link": "https://belderbos.dev/blog/how-libraries-run-rust-inside-python/",
-    "desc": "Article URL: https://belderbos.dev/blog/how-libraries-run-rust-inside-python/ Comments URL: https://news.ycombinator.com/item?id=49685037 Points: 18 # Comments: 14",
-    "date": "2026-09-13",
-    "source": "Hacker News",
-    "cat": "ai",
-    "lang": "en"
-  },
-  {
-    "title": "Predictive intelligence to anticipate anything.",
-    "link": "https://prior.chat/",
-    "desc": "Article URL: https://prior.chat/ Comments URL: https://news.ycombinator.com/item?id=49684879 Points: 8 # Comments: 9",
+    "desc": "Article URL: https://belderbos.dev/blog/how-libraries-run-rust-inside-python/ Comments URL: https://news.ycombinator.com/item?id=49685037 Points: 43 # Comments: 27",
     "date": "2026-09-13",
     "source": "Hacker News",
     "cat": "ai",
@@ -29,7 +101,7 @@
   {
     "title": "Astra and Fable still hack on simple variants of alignment evals from 2025",
     "link": "https://www.lesswrong.com/posts/munJKF7iWMsWJLAH2/astra-and-fable-still-hack-on-simple-variants-of-alignment",
-    "desc": "Article URL: https://www.lesswrong.com/posts/munJKF7iWMsWJLAH2/astra-and-fable-still-hack-on-simple-variants-of-alignment Comments URL: https://news.ycombinator.com/item?id=49684393 Points: 122 # Comments: 34",
+    "desc": "Article URL: https://www.lesswrong.com/posts/munJKF7iWMsWJLAH2/astra-and-fable-still-hack-on-simple-variants-of-alignment Comments URL: https://news.ycombinator.com/item?id=49684393 Points: 308 # Comments: 140",
     "date": "2026-09-13",
     "source": "Hacker News",
     "cat": "ai",
@@ -38,7 +110,7 @@
   {
     "title": "CUDA for AMD on Windows",
     "link": "https://github.com/Speedstu/CUDA-for-AMD-Windows",
-    "desc": "Article URL: https://github.com/Speedstu/CUDA-for-AMD-Windows Comments URL: https://news.ycombinator.com/item?id=49684356 Points: 36 # Comments: 4",
+    "desc": "Article URL: https://github.com/Speedstu/CUDA-for-AMD-Windows Comments URL: https://news.ycombinator.com/item?id=49684356 Points: 110 # Comments: 60",
     "date": "2026-09-13",
     "source": "Hacker News",
     "cat": "ai",
@@ -47,34 +119,16 @@
   {
     "title": "Making Startups Powerful",
     "link": "https://paulgraham.com/powerful.html",
-    "desc": "Article URL: https://paulgraham.com/powerful.html Comments URL: https://news.ycombinator.com/item?id=49684196 Points: 17 # Comments: 9",
+    "desc": "Article URL: https://paulgraham.com/powerful.html Comments URL: https://news.ycombinator.com/item?id=49684196 Points: 100 # Comments: 40",
     "date": "2026-09-13",
     "source": "Hacker News",
     "cat": "ai",
     "lang": "en"
   },
   {
-    "title": "Key symbols we lost to time, pt. 1: The PC side",
-    "link": "https://unsung.aresluna.org/key-symbols-we-lost-to-time-pt-1-the-pc-side/",
-    "desc": "Article URL: https://unsung.aresluna.org/key-symbols-we-lost-to-time-pt-1-the-pc-side/ Comments URL: https://news.ycombinator.com/item?id=49684101 Points: 37 # Comments: 9",
-    "date": "2026-09-13",
-    "source": "Hacker News",
-    "cat": "ai",
-    "lang": "en"
-  },
-  {
-    "title": "Paul A. M. Dirac, Interview by Friedrich Hund (1982) [video]",
-    "link": "https://www.youtube.com/watch?v=xJzrU38pGWc",
-    "desc": "Article URL: https://www.youtube.com/watch?v=xJzrU38pGWc Comments URL: https://news.ycombinator.com/item?id=49684042 Points: 25 # Comments: 2",
-    "date": "2026-09-13",
-    "source": "Hacker News",
-    "cat": "ai",
-    "lang": "en"
-  },
-  {
-    "title": "US Customs supervisor busted for stealing hardware from Homeland Security PCs",
-    "link": "https://www.tomshardware.com/pc-components/us-customs-supervisor-busted-for-stealing-core-i7-cpus-ram-and-hard-drives-from-homeland-security-pcs-stolen-tech-swapped-with-inferior-hardware-and-cashed-out-on-newegg",
-    "desc": "Article URL: https://www.tomshardware.com/pc-components/us-customs-supervisor-busted-for-stealing-core-i7-cpus-ram-and-hard-drives-from-homeland-security-pcs-stolen-tech-swapped-with-inferior-hardware-and-cashed-out-on-newegg Comments URL: https://news.ycombinator.com/item?id=49683729 Points: 85 ...",
+    "title": "Data collected by cars and sold to third parties",
+    "link": "https://www.theverge.com/column/994172/your-car-is-selling-your-data",
+    "desc": "https://web.archive.org/web/20260913134705/https://www.theve... https://archive.ph/TWEVZ Comments URL: https://news.ycombinator.com/item?id=49683953 Points: 193 # Comments: 110",
     "date": "2026-09-13",
     "source": "Hacker News",
     "cat": "ai",
@@ -83,7 +137,7 @@
   {
     "title": "Why is the x86 undefined instruction called ud2? Why 2?",
     "link": "https://devblogs.microsoft.com/oldnewthing/20260910-00/?p=112689",
-    "desc": "Article URL: https://devblogs.microsoft.com/oldnewthing/20260910-00/?p=112689 Comments URL: https://news.ycombinator.com/item?id=49683262 Points: 57 # Comments: 15",
+    "desc": "Article URL: https://devblogs.microsoft.com/oldnewthing/20260910-00/?p=112689 Comments URL: https://news.ycombinator.com/item?id=49683262 Points: 150 # Comments: 39",
     "date": "2026-09-13",
     "source": "Hacker News",
     "cat": "ai",
@@ -92,25 +146,7 @@
   {
     "title": "'Fingerprints' inside the Sun could reveal if it once swallowed a planet",
     "link": "https://ras.ac.uk/news-and-press/research-highlights/fingerprints-inside-sun-could-reveal-if-it-once-swallowed-planet",
-    "desc": "Article URL: https://ras.ac.uk/news-and-press/research-highlights/fingerprints-inside-sun-could-reveal-if-it-once-swallowed-planet Comments URL: https://news.ycombinator.com/item?id=49683033 Points: 76 # Comments: 22",
-    "date": "2026-09-13",
-    "source": "Hacker News",
-    "cat": "ai",
-    "lang": "en"
-  },
-  {
-    "title": "Revolut confirms customer data breach through fake government requests",
-    "link": "https://techcrunch.com/2026/09/12/revolut-confirms-customer-data-breach-through-fake-government-requests/",
-    "desc": "Article URL: https://techcrunch.com/2026/09/12/revolut-confirms-customer-data-breach-through-fake-government-requests/ Comments URL: https://news.ycombinator.com/item?id=49682087 Points: 136 # Comments: 91",
-    "date": "2026-09-13",
-    "source": "Hacker News",
-    "cat": "ai",
-    "lang": "en"
-  },
-  {
-    "title": "Homebrew 7.0.0",
-    "link": "https://brew.sh/2026/09/13/homebrew-7.0.0/",
-    "desc": "Article URL: https://brew.sh/2026/09/13/homebrew-7.0.0/ Comments URL: https://news.ycombinator.com/item?id=49681545 Points: 382 # Comments: 148",
+    "desc": "Article URL: https://ras.ac.uk/news-and-press/research-highlights/fingerprints-inside-sun-could-reveal-if-it-once-swallowed-planet Comments URL: https://news.ycombinator.com/item?id=49683033 Points: 100 # Comments: 38",
     "date": "2026-09-13",
     "source": "Hacker News",
     "cat": "ai",
@@ -119,78 +155,15 @@
   {
     "title": "JetKVM Mini",
     "link": "https://jetkvm.com/blog/introducing-jetkvm-mini",
-    "desc": "Article URL: https://jetkvm.com/blog/introducing-jetkvm-mini Comments URL: https://news.ycombinator.com/item?id=49681152 Points: 367 # Comments: 143",
+    "desc": "Article URL: https://jetkvm.com/blog/introducing-jetkvm-mini Comments URL: https://news.ycombinator.com/item?id=49681152 Points: 474 # Comments: 183",
     "date": "2026-09-13",
     "source": "Hacker News",
-    "cat": "ai",
-    "lang": "en"
-  },
-  {
-    "title": "Aligned to whom?",
-    "link": "https://hyperbo.la/w/aligned-to-whom/",
-    "desc": "Article URL: https://hyperbo.la/w/aligned-to-whom/ Comments URL: https://news.ycombinator.com/item?id=49679643 Points: 141 # Comments: 83",
-    "date": "2026-09-13",
-    "source": "Hacker News",
-    "cat": "ai",
-    "lang": "en"
-  },
-  {
-    "title": "The Interim Computer Museum",
-    "link": "https://icm.museum/",
-    "desc": "Article URL: https://icm.museum/ Comments URL: https://news.ycombinator.com/item?id=49679459 Points: 148 # Comments: 18",
-    "date": "2026-09-13",
-    "source": "Hacker News",
-    "cat": "ai",
-    "lang": "en"
-  },
-  {
-    "title": "From Git to Fossil (2025)",
-    "link": "https://lucio.albenga.es/web-en/posts/2025/from-git-to-fossil.html",
-    "desc": "Comments",
-    "date": "2026-09-13",
-    "source": "Lobsters",
-    "cat": "ai",
-    "lang": "en"
-  },
-  {
-    "title": "Don't call yourself an artisanal programmer",
-    "link": "https://purplesyringa.moe/blog/dont-call-yourself-an-artisanal-programmer/",
-    "desc": "Comments",
-    "date": "2026-09-13",
-    "source": "Lobsters",
     "cat": "ai",
     "lang": "en"
   },
   {
     "title": "Watch what you say: Apple opens the door to a nightmare world of always-listening tech",
     "link": "https://this.weekinsecurity.com/watch-what-you-say-apple-opens-the-door-to-a-nightmare-world-of-always-listening-tech/",
-    "desc": "Comments",
-    "date": "2026-09-13",
-    "source": "Lobsters",
-    "cat": "ai",
-    "lang": "en"
-  },
-  {
-    "title": "heol",
-    "link": "https://wiki.xxiivv.com/site/heol.html",
-    "desc": "Comments",
-    "date": "2026-09-13",
-    "source": "Lobsters",
-    "cat": "ai",
-    "lang": "en"
-  },
-  {
-    "title": "Stabilizing Rust's never type",
-    "link": "https://lwn.net/SubscriberLink/1091015/d9e48318ed242b41/",
-    "desc": "Comments",
-    "date": "2026-09-13",
-    "source": "Lobsters",
-    "cat": "ai",
-    "lang": "en"
-  },
-  {
-    "title": "After Math",
-    "link": "https://terrytao.wordpress.com/2026/09/12/after-math/",
     "desc": "Comments",
     "date": "2026-09-13",
     "source": "Lobsters",
@@ -216,8 +189,8 @@
     "lang": "en"
   },
   {
-    "title": "Session Context — what a web page knows about you",
-    "link": "https://sessioncontext.org",
+    "title": "From Git to Fossil (2025)",
+    "link": "https://lucio.albenga.es/web-en/posts/2025/from-git-to-fossil.html",
     "desc": "Comments",
     "date": "2026-09-13",
     "source": "Lobsters",
@@ -225,8 +198,8 @@
     "lang": "en"
   },
   {
-    "title": "Being lazy in C++",
-    "link": "https://cpp-rendering.io/being-lazy-in-c/",
+    "title": "Don't call yourself an artisanal programmer",
+    "link": "https://purplesyringa.moe/blog/dont-call-yourself-an-artisanal-programmer/",
     "desc": "Comments",
     "date": "2026-09-13",
     "source": "Lobsters",
@@ -234,8 +207,26 @@
     "lang": "en"
   },
   {
-    "title": "The Esdac Film (1951, 1976)",
-    "link": "https://www.youtube.com/watch?v=DjhRRj6WYcs",
+    "title": "Homebrew 7.0.0",
+    "link": "https://brew.sh/2026/09/13/homebrew-7.0.0/",
+    "desc": "Comments",
+    "date": "2026-09-13",
+    "source": "Lobsters",
+    "cat": "ai",
+    "lang": "en"
+  },
+  {
+    "title": "heol",
+    "link": "https://wiki.xxiivv.com/site/heol.html",
+    "desc": "Comments",
+    "date": "2026-09-13",
+    "source": "Lobsters",
+    "cat": "ai",
+    "lang": "en"
+  },
+  {
+    "title": "Stabilizing Rust's never type",
+    "link": "https://lwn.net/SubscriberLink/1091015/d9e48318ed242b41/",
     "desc": "Comments",
     "date": "2026-09-13",
     "source": "Lobsters",
@@ -252,6 +243,60 @@
     "lang": "en"
   },
   {
+    "title": "After Math",
+    "link": "https://terrytao.wordpress.com/2026/09/12/after-math/",
+    "desc": "Comments",
+    "date": "2026-09-13",
+    "source": "Lobsters",
+    "cat": "ai",
+    "lang": "en"
+  },
+  {
+    "title": "Being lazy in C++",
+    "link": "https://cpp-rendering.io/being-lazy-in-c/",
+    "desc": "Comments",
+    "date": "2026-09-13",
+    "source": "Lobsters",
+    "cat": "ai",
+    "lang": "en"
+  },
+  {
+    "title": "This PCB is brought to you by Fable 5",
+    "link": "https://a6mzero.com/posts/this-pcb-is-brought-to-you-by-fable-5/",
+    "desc": "Comments",
+    "date": "2026-09-13",
+    "source": "Lobsters",
+    "cat": "ai",
+    "lang": "en"
+  },
+  {
+    "title": "The Edsac Film (1951, 1976)",
+    "link": "https://www.youtube.com/watch?v=DjhRRj6WYcs",
+    "desc": "Comments",
+    "date": "2026-09-13",
+    "source": "Lobsters",
+    "cat": "ai",
+    "lang": "en"
+  },
+  {
+    "title": "Session Context — what a web page knows about you",
+    "link": "https://sessioncontext.org",
+    "desc": "Comments",
+    "date": "2026-09-13",
+    "source": "Lobsters",
+    "cat": "ai",
+    "lang": "en"
+  },
+  {
+    "title": "GEFS: The File Shredder of the Future",
+    "link": "https://exquisite.tube/w/3QQimMdswWJxrsPaJtak2u",
+    "desc": "Comments",
+    "date": "2026-09-13",
+    "source": "Lobsters",
+    "cat": "ai",
+    "lang": "en"
+  },
+  {
     "title": "Anthropic C.E.O. Dario Amodei Calls for A.I. Slowdown",
     "link": "https://www.nytimes.com/2026/09/12/technology/anthropic-dario-amodei-ai-slowdown.html",
     "desc": "In an essay, the head of Anthropic laid out the rapidly advancing capabilities of artificial intelligence and said there needed to be greater safety controls across the industry.",
@@ -261,7 +306,7 @@
     "lang": "en"
   },
   {
-    "title": "What Anthropic’s C.E.O. Argued in His Call for Slower A.I. Development",
+    "title": "What Anthropic CEO Dario Amodei Argued in His Call for AI Slowdown",
     "link": "https://www.nytimes.com/2026/09/13/technology/anthropic-ceo-slower-ai-development.html",
     "desc": "Dario Amodei’s 3,800-word letter laid out a three-step plan to rein in artificial intelligence.",
     "date": "2026-09-13",
@@ -279,9 +324,18 @@
     "lang": "en"
   },
   {
-    "title": "Видеоаналитика на промышленном объекте: почему большинство внедрений разочаровывают и как сделать правильно (дубль)",
-    "link": "https://habr.com/ru/articles/1081772/?utm_campaign=1081772&utm_source=habrahabr&utm_medium=rss",
-    "desc": "В этой статье — не маркетинг и не обзор рынка. Личный опыт, реальные цифры и честный разговор о том, почему большинство внедрений не работают так, как обещают. Читать далее",
+    "title": "Нужна система, в которой ТЗ собирается из требований, а не пишется как структурированный документ",
+    "link": "https://habr.com/ru/articles/1081788/?utm_campaign=1081788&utm_source=habrahabr&utm_medium=rss",
+    "desc": "В одной крупной финансовой компании, где я работал системным аналитиком, технические задания оформляют не в Confluence и не в Word... Узнать секрет",
+    "date": "2026-09-13",
+    "source": "Habr AI",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "Перепеть песню и пересобрать код: почему это законно и что делать авторам в эпоху ИИ",
+    "link": "https://habr.com/ru/articles/1081768/?utm_campaign=1081768&utm_source=habrahabr&utm_medium=rss",
+    "desc": "В магазине играла «та самая» песня — но это была не она: та же композиция, переигранная заново и на два с половиной тона ниже. Авторское право защищает выражение, а не идею, — но пересборка не отменяет прав на само произведение. Разбираю, что это значит для авторов в эпоху ИИ. Читать далее",
     "date": "2026-09-13",
     "source": "Habr AI",
     "cat": "ai",
@@ -297,7 +351,7 @@
     "lang": "ru"
   },
   {
-    "title": "Как я делаю ИИ-память из переписки в Telegram: десятки тысяч сообщений, тысячи фактов, сотни людей",
+    "title": "Как я делаю ИИ‑память из переписки в Telegram: десятки тысяч сообщений, тысячи фактов, сотни людей",
     "link": "https://habr.com/ru/articles/1081382/?utm_campaign=1081382&utm_source=habrahabr&utm_medium=rss",
     "desc": "Ночью, около двух по московскому времени, сервер просыпается и запускает конвейер. Сначала сервис идёт в Telegram и скачивает новые сообщения из чатов, которые пользователь отметил галочками. Через час стартует второй воркер и превращает эти сообщения в память: режет на куски, гоняет через DeepSe...",
     "date": "2026-09-13",
@@ -306,7 +360,7 @@
     "lang": "ru"
   },
   {
-    "title": "Отличи меня, если сможешь! Как дипфейки меняют современный наем в ИТ (и не только)",
+    "title": "Отличи меня, если сможешь! Как дипфейки меняют наем в ИТ (и не только)",
     "link": "https://habr.com/ru/companies/beeline_cloud/articles/1081756/?utm_campaign=1081756&utm_source=habrahabr&utm_medium=rss",
     "desc": "Вектором для кибератак все чаще становятся обычные собеседования. Злоумышленники используют дипфейки, чтобы выдавать себя за реальных кандидатов и рекрутеров, или распространяют зловреды под видом тестовых заданий — присылают «безобидный» код или пакет-зависимость, при запуске которого на устройс...",
     "date": "2026-09-13",
@@ -315,7 +369,7 @@
     "lang": "ru"
   },
   {
-    "title": "MEO: ещё одна маркетинговая аббревиатура или реальная техническая проблема ранжирования?",
+    "title": "MEO: ещё одна маркетинговая аббревиатура или реальная техническая проблема ранжирования?",
     "link": "https://habr.com/ru/articles/1081722/?utm_campaign=1081722&utm_source=habrahabr&utm_medium=rss",
     "desc": "Для начала сразу скажу, что MEO (Multiple Engine Optimization) – пока что не отраслевой стандарт, не спецификация, не метрика. А заодно и не «техника», которую можно было бы при желании «внедрить по методичке». Это рабочая модель, которую я предлагаю для описания одной технической проблемы. Суть ...",
     "date": "2026-09-13",
@@ -396,6 +450,24 @@
     "lang": "ru"
   },
   {
+    "title": "Phoenix 20.11.0 получил заметки для трассировок и навык анализа ошибок",
+    "link": "https://tproger.ru/news/phoenix-20-11-0-poluchil-zametki-dlya-trassirovok-i-navyk-analiza",
+    "desc": "Arize AI выпустила Phoenix 20.11.0. В релиз вошли GraphQL-мутации для заметок, новый навык анализа ошибок и исправление MCP. — Читать дальше « Phoenix 20.11.0 получил заметки для трассировок и навык анализа ошибок »",
+    "date": "2026-09-13",
+    "source": "Tproger",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "Metro 0.87.1 добавил поддержку URI-схем и исправил Fast Refresh",
+    "link": "https://tproger.ru/news/metro-0-87-1-dobavil-podderzhku-uri-shem-i-ispravil-fast-refresh",
+    "desc": "Metro 0.87.1, сборщик JavaScript для React Native, получил поддержку собственных резолверов URI-схем, исправления Fast Refresh и более экономный FallbackWatcher. — Читать дальше « Metro 0.87.1 добавил поддержку URI-схем и исправил Fast Refresh »",
+    "date": "2026-09-13",
+    "source": "Tproger",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
     "title": "Crush 0.94.1 получил вход через ChatGPT и ускоренный интерфейс",
     "link": "https://tproger.ru/news/crush-0-94-1-poluchil-vhod-cherez-chatgpt-i-uskorennyj-interfejs",
     "desc": "Терминальный ИИ-помощник для программистов Crush 0.94.1 получил поддержку подписки ChatGPT и настройку reasoning effort для запуска без интерфейса. Разработчики также ускорили прокрутку и уменьшили размер программы. — Читать дальше « Crush 0.94.1 получил вход через ChatGPT и ускоренный интерфейс »",
@@ -405,22 +477,76 @@
     "lang": "ru"
   },
   {
-    "title": "TailTalk: A modern async user space AppleTalk stack with Rust and Tokio",
-    "link": "https://github.com/FeralFirmware/TailTalk/",
-    "desc": "Article URL: https://github.com/FeralFirmware/TailTalk/ Comments URL: https://news.ycombinator.com/item?id=49678423 Points: 47 # Comments: 12",
-    "date": "2026-09-12",
+    "title": "Predictive intelligence to anticipate anything.",
+    "link": "https://prior.chat/",
+    "desc": "Article URL: https://prior.chat/ Comments URL: https://news.ycombinator.com/item?id=49684879 Points: 8 # Comments: 9",
+    "date": "2026-09-13",
     "source": "Hacker News",
     "cat": "ai",
     "lang": "en"
   },
   {
-    "title": "Don't be the out of touch Kung Fu master",
-    "link": "https://twitter.com/ID_AA_Carmack/status/2098443262214230095",
-    "desc": "Article URL: https://twitter.com/ID_AA_Carmack/status/2098443262214230095 Comments URL: https://news.ycombinator.com/item?id=49677577 Points: 214 # Comments: 295",
-    "date": "2026-09-12",
+    "title": "Key symbols we lost to time, pt. 1: The PC side",
+    "link": "https://unsung.aresluna.org/key-symbols-we-lost-to-time-pt-1-the-pc-side/",
+    "desc": "Article URL: https://unsung.aresluna.org/key-symbols-we-lost-to-time-pt-1-the-pc-side/ Comments URL: https://news.ycombinator.com/item?id=49684101 Points: 37 # Comments: 9",
+    "date": "2026-09-13",
     "source": "Hacker News",
     "cat": "ai",
     "lang": "en"
+  },
+  {
+    "title": "Paul A. M. Dirac, Interview by Friedrich Hund (1982) [video]",
+    "link": "https://www.youtube.com/watch?v=xJzrU38pGWc",
+    "desc": "Article URL: https://www.youtube.com/watch?v=xJzrU38pGWc Comments URL: https://news.ycombinator.com/item?id=49684042 Points: 25 # Comments: 2",
+    "date": "2026-09-13",
+    "source": "Hacker News",
+    "cat": "ai",
+    "lang": "en"
+  },
+  {
+    "title": "US Customs supervisor busted for stealing hardware from Homeland Security PCs",
+    "link": "https://www.tomshardware.com/pc-components/us-customs-supervisor-busted-for-stealing-core-i7-cpus-ram-and-hard-drives-from-homeland-security-pcs-stolen-tech-swapped-with-inferior-hardware-and-cashed-out-on-newegg",
+    "desc": "Article URL: https://www.tomshardware.com/pc-components/us-customs-supervisor-busted-for-stealing-core-i7-cpus-ram-and-hard-drives-from-homeland-security-pcs-stolen-tech-swapped-with-inferior-hardware-and-cashed-out-on-newegg Comments URL: https://news.ycombinator.com/item?id=49683729 Points: 85 ...",
+    "date": "2026-09-13",
+    "source": "Hacker News",
+    "cat": "ai",
+    "lang": "en"
+  },
+  {
+    "title": "Revolut confirms customer data breach through fake government requests",
+    "link": "https://techcrunch.com/2026/09/12/revolut-confirms-customer-data-breach-through-fake-government-requests/",
+    "desc": "Article URL: https://techcrunch.com/2026/09/12/revolut-confirms-customer-data-breach-through-fake-government-requests/ Comments URL: https://news.ycombinator.com/item?id=49682087 Points: 136 # Comments: 91",
+    "date": "2026-09-13",
+    "source": "Hacker News",
+    "cat": "ai",
+    "lang": "en"
+  },
+  {
+    "title": "Aligned to whom?",
+    "link": "https://hyperbo.la/w/aligned-to-whom/",
+    "desc": "Article URL: https://hyperbo.la/w/aligned-to-whom/ Comments URL: https://news.ycombinator.com/item?id=49679643 Points: 141 # Comments: 83",
+    "date": "2026-09-13",
+    "source": "Hacker News",
+    "cat": "ai",
+    "lang": "en"
+  },
+  {
+    "title": "The Interim Computer Museum",
+    "link": "https://icm.museum/",
+    "desc": "Article URL: https://icm.museum/ Comments URL: https://news.ycombinator.com/item?id=49679459 Points: 148 # Comments: 18",
+    "date": "2026-09-13",
+    "source": "Hacker News",
+    "cat": "ai",
+    "lang": "en"
+  },
+  {
+    "title": "Видеоаналитика на промышленном объекте: почему большинство внедрений разочаровывают и как сделать правильно (дубль)",
+    "link": "https://habr.com/ru/articles/1081772/?utm_campaign=1081772&utm_source=habrahabr&utm_medium=rss",
+    "desc": "В этой статье — не маркетинг и не обзор рынка. Личный опыт, реальные цифры и честный разговор о том, почему большинство внедрений не работают так, как обещают. Читать далее",
+    "date": "2026-09-13",
+    "source": "Habr AI",
+    "cat": "ai",
+    "lang": "ru"
   },
   {
     "title": "A Dick Smith VZ200 without the Dick Smith",
@@ -459,8 +585,8 @@
     "lang": "en"
   },
   {
-    "title": "Base84 deserves a place in file names",
-    "link": "https://00f.net/2026/09/09/base84/",
+    "title": "xkcd-font: The xkcd font",
+    "link": "https://github.com/ipython/xkcd-font",
     "desc": "Comments",
     "date": "2026-09-12",
     "source": "Lobsters",
@@ -468,8 +594,8 @@
     "lang": "en"
   },
   {
-    "title": "xkcd-font: The xkcd font",
-    "link": "https://github.com/ipython/xkcd-font",
+    "title": "Base84 deserves a place in file names",
+    "link": "https://00f.net/2026/09/09/base84/",
     "desc": "Comments",
     "date": "2026-09-12",
     "source": "Lobsters",
@@ -666,11 +792,20 @@
     "lang": "ru"
   },
   {
-    "title": "Feeling sad about AI",
-    "link": "https://artificialworlds.net/blog/2026/09/11/feeling-sad-about-ai/",
-    "desc": "Comments",
-    "date": "2026-09-11",
-    "source": "Lobsters",
+    "title": "TailTalk: A modern async user space AppleTalk stack with Rust and Tokio",
+    "link": "https://github.com/FeralFirmware/TailTalk/",
+    "desc": "Article URL: https://github.com/FeralFirmware/TailTalk/ Comments URL: https://news.ycombinator.com/item?id=49678423 Points: 47 # Comments: 12",
+    "date": "2026-09-12",
+    "source": "Hacker News",
+    "cat": "ai",
+    "lang": "en"
+  },
+  {
+    "title": "Don't be the out of touch Kung Fu master",
+    "link": "https://twitter.com/ID_AA_Carmack/status/2098443262214230095",
+    "desc": "Article URL: https://twitter.com/ID_AA_Carmack/status/2098443262214230095 Comments URL: https://news.ycombinator.com/item?id=49677577 Points: 214 # Comments: 295",
+    "date": "2026-09-12",
+    "source": "Hacker News",
     "cat": "ai",
     "lang": "en"
   },
@@ -804,24 +939,6 @@
     "title": "Локальный ИИ класса Opus 4.6 «задешево»: две Tesla P100, 28-поточный Xeon и тесты на реальных задачах",
     "link": "https://habr.com/ru/articles/1071442/?utm_campaign=1071442&utm_source=habrahabr&utm_medium=rss",
     "desc": "Я собрал домашний сервер с нейросетками, чтобы не зависеть от облака. Далее честный рассказ с цифрами, бенчмарком на 14 реальных задачах и выводами, которые я проверял на себе. Если совсем коротко: киловатт питания, две серверные Tesla P100 (суммарно 32 ГБ видеопамяти), турбины, которые слегка шу...",
-    "date": "2026-09-11",
-    "source": "Habr AI",
-    "cat": "ai",
-    "lang": "ru"
-  },
-  {
-    "title": "Речевые технологии для языка, у которого не было ни одного датасета — на одной потребительской видеокарте",
-    "link": "https://habr.com/ru/articles/1081242/?utm_campaign=1081242&utm_source=habrahabr&utm_medium=rss",
-    "desc": "Короткая версия: за несколько месяцев на одной домашней видеокарте у крымскотатарского языка появились работающее распознавание речи (WER 0.3463 → 0.1701) и синтез, который прочитал вслух целую книгу — шестнадцать глав, 1 час 58 минут звучания. На обучение моделей из этого ушли часы. Всё остально...",
-    "date": "2026-09-11",
-    "source": "Habr AI",
-    "cat": "ai",
-    "lang": "ru"
-  },
-  {
-    "title": "Микроподчинение, ИИ и сексизм",
-    "link": "https://habr.com/ru/articles/1081238/?utm_campaign=1081238&utm_source=habrahabr&utm_medium=rss",
-    "desc": "Я сейчас дам инструкцию. Постарайтесь выполнять каждый шаг, прежде чем перейти к следующему. Поехали. Шаг первый: прочитайте слово в кавычках один раз: «Ворота». Шаг второй: прочитайте следующее слово два раза: «Синхронный». Шаг третий: прочитайте слово три раза: «Разочарование». Шаг четвёртый: п...",
     "date": "2026-09-11",
     "source": "Habr AI",
     "cat": "ai",
@@ -1139,6 +1256,33 @@
     "desc": "GigaChat 3.5 Reasoning — единственная российская открытая модель, которая последовательно рассуждает перед ответом, работает с цепочками задач и способна исправлять собственные ошибки.",
     "date": "2026-09-11",
     "source": "Cossa",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "Feeling sad about AI",
+    "link": "https://artificialworlds.net/blog/2026/09/11/feeling-sad-about-ai/",
+    "desc": "Comments",
+    "date": "2026-09-11",
+    "source": "Lobsters",
+    "cat": "ai",
+    "lang": "en"
+  },
+  {
+    "title": "Речевые технологии для языка, у которого не было ни одного датасета — на одной потребительской видеокарте",
+    "link": "https://habr.com/ru/articles/1081242/?utm_campaign=1081242&utm_source=habrahabr&utm_medium=rss",
+    "desc": "Короткая версия: за несколько месяцев на одной домашней видеокарте у крымскотатарского языка появились работающее распознавание речи (WER 0.3463 → 0.1701) и синтез, который прочитал вслух целую книгу — шестнадцать глав, 1 час 58 минут звучания. На обучение моделей из этого ушли часы. Всё остально...",
+    "date": "2026-09-11",
+    "source": "Habr AI",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "Микроподчинение, ИИ и сексизм",
+    "link": "https://habr.com/ru/articles/1081238/?utm_campaign=1081238&utm_source=habrahabr&utm_medium=rss",
+    "desc": "Я сейчас дам инструкцию. Постарайтесь выполнять каждый шаг, прежде чем перейти к следующему. Поехали. Шаг первый: прочитайте слово в кавычках один раз: «Ворота». Шаг второй: прочитайте следующее слово два раза: «Синхронный». Шаг третий: прочитайте слово три раза: «Разочарование». Шаг четвёртый: п...",
+    "date": "2026-09-11",
+    "source": "Habr AI",
     "cat": "ai",
     "lang": "ru"
   },
@@ -1773,6 +1917,15 @@
     "lang": "ru"
   },
   {
+    "title": "Как научить криптосканер не врать самому себе: ML‑часть AltScanner",
+    "link": "https://habr.com/ru/articles/1080028/?utm_campaign=1080028&utm_source=habrahabr&utm_medium=rss",
+    "desc": "Большинство рассказов о машинном обучении в трейдинге начинаются с модели. Берут свечи, добавляют индикаторы, запускают обучение и получают красивую кривую. Проблема обычно появляется раньше. В выборку могла попасть незакрытая свеча, пропуск мог превратиться в нарисованную цену, а соседние сделки...",
+    "date": "2026-09-08",
+    "source": "Habr ML",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
     "title": "Fable 5.1, GPT-6 Astra и дешёвые Flash: что брать в API в сентябре 2026",
     "link": "https://tproger.ru/articles/fable-5-1-gpt-6-astra-i-dewyovye-flash-chto-brat-v-api-v-sentyab",
     "desc": "Fable 5.1 и GPT-6 Astra по $10/$50, Gemini 3.8 Flash за $0,75, Mercury 2.5 за $0,20, MAI-Transcribe-2 за $0,10 в час: цена задачи, уровни усилия и команды API. — Читать дальше « Fable 5.1, GPT-6 Astra и дешёвые Flash: что брать в API в сентябре 2026 »",
@@ -1935,24 +2088,6 @@
     "lang": "ru"
   },
   {
-    "title": "Mozilla планирует включить Nova в Firefox 157 для всех пользователей",
-    "link": "https://tproger.ru/news/mozilla-planiruet-vklyuchit-nova-v-firefox-157-dlya-vseh-polzovat",
-    "desc": "Релиз браузера намечен на 29 сентября. В Nova вернули компактный режим, а ранний вариант можно проверить через browser.nova.enabled в стабильной версии. — Читать дальше « Mozilla планирует включить Nova в Firefox 157 для всех пользователей »",
-    "date": "2026-09-07",
-    "source": "Tproger",
-    "cat": "ai",
-    "lang": "ru"
-  },
-  {
-    "title": "В Excelize нашли DoS: файл в 3 КБ занимает OpenFile на минуту",
-    "link": "https://tproger.ru/news/v-excelize-nawli-dos-fajl-v-3-kb-zanimaet-openfile-na-minutu",
-    "desc": "GHSA-jrfj-fhj2-jjvm: Excelize 2.3.1–2.11.0 без ограничений выполняет spinCount итераций из файла. 3 072 байта держат OpenFile 58,65 с, отмены нет, патча нет. — Читать дальше « В Excelize нашли DoS: файл в 3 КБ занимает OpenFile на минуту »",
-    "date": "2026-09-07",
-    "source": "Tproger",
-    "cat": "ai",
-    "lang": "ru"
-  },
-  {
     "title": "Для Android вышла клавиатура, считающая тюремный срок за набранное сообщение",
     "link": "https://thecode.media/dlya-android-vyshla-klaviatura-schitayushaya-srok-za-vvedennyj-tekst/",
     "desc": "Интересное применение ИИ Сообщение Для Android вышла клавиатура, считающая тюремный срок за набранное сообщение появились сначала на Журнал «Код» программирование без снобизма .",
@@ -1967,6 +2102,24 @@
     "desc": "Хоть в чем-то ИИ похож на человека... Сообщение GPT-6 Astra не справилась с миссией на вертолетике в GTA: Vice City появились сначала на Журнал «Код» программирование без снобизма .",
     "date": "2026-09-07",
     "source": "The Code",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "Mozilla планирует включить Nova в Firefox 157 для всех пользователей",
+    "link": "https://tproger.ru/news/mozilla-planiruet-vklyuchit-nova-v-firefox-157-dlya-vseh-polzovat",
+    "desc": "Релиз браузера намечен на 29 сентября. В Nova вернули компактный режим, а ранний вариант можно проверить через browser.nova.enabled в стабильной версии. — Читать дальше « Mozilla планирует включить Nova в Firefox 157 для всех пользователей »",
+    "date": "2026-09-07",
+    "source": "Tproger",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "В Excelize нашли DoS: файл в 3 КБ занимает OpenFile на минуту",
+    "link": "https://tproger.ru/news/v-excelize-nawli-dos-fajl-v-3-kb-zanimaet-openfile-na-minutu",
+    "desc": "GHSA-jrfj-fhj2-jjvm: Excelize 2.3.1–2.11.0 без ограничений выполняет spinCount итераций из файла. 3 072 байта держат OpenFile 58,65 с, отмены нет, патча нет. — Читать дальше « В Excelize нашли DoS: файл в 3 КБ занимает OpenFile на минуту »",
+    "date": "2026-09-07",
+    "source": "Tproger",
     "cat": "ai",
     "lang": "ru"
   },
