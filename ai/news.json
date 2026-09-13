@@ -1,5 +1,149 @@
 [
   {
+    "title": "Garry Tan wants US open-weight AI labs to 'distill' frontier models, too",
+    "link": "https://techcrunch.com/2026/09/11/y-combinators-garry-tan-wants-u-s-open-weight-ai-labs-to-distill-frontier-models-too/",
+    "desc": "Article URL: https://techcrunch.com/2026/09/11/y-combinators-garry-tan-wants-u-s-open-weight-ai-labs-to-distill-frontier-models-too/ Comments URL: https://news.ycombinator.com/item?id=49685253 Points: 12 # Comments: 3",
+    "date": "2026-09-13",
+    "source": "Hacker News",
+    "cat": "ai",
+    "lang": "en"
+  },
+  {
+    "title": "Libraries Run Rust Inside Python (With PyO3)",
+    "link": "https://belderbos.dev/blog/how-libraries-run-rust-inside-python/",
+    "desc": "Article URL: https://belderbos.dev/blog/how-libraries-run-rust-inside-python/ Comments URL: https://news.ycombinator.com/item?id=49685037 Points: 14 # Comments: 9",
+    "date": "2026-09-13",
+    "source": "Hacker News",
+    "cat": "ai",
+    "lang": "en"
+  },
+  {
+    "title": "Predictive intelligence to anticipate anything.",
+    "link": "https://prior.chat/",
+    "desc": "Article URL: https://prior.chat/ Comments URL: https://news.ycombinator.com/item?id=49684879 Points: 7 # Comments: 8",
+    "date": "2026-09-13",
+    "source": "Hacker News",
+    "cat": "ai",
+    "lang": "en"
+  },
+  {
+    "title": "Astra and Fable still hack on simple variants of alignment evals from 2025",
+    "link": "https://www.lesswrong.com/posts/munJKF7iWMsWJLAH2/astra-and-fable-still-hack-on-simple-variants-of-alignment",
+    "desc": "Article URL: https://www.lesswrong.com/posts/munJKF7iWMsWJLAH2/astra-and-fable-still-hack-on-simple-variants-of-alignment Comments URL: https://news.ycombinator.com/item?id=49684393 Points: 107 # Comments: 29",
+    "date": "2026-09-13",
+    "source": "Hacker News",
+    "cat": "ai",
+    "lang": "en"
+  },
+  {
+    "title": "CUDA for AMD on Windows",
+    "link": "https://github.com/Speedstu/CUDA-for-AMD-Windows",
+    "desc": "Article URL: https://github.com/Speedstu/CUDA-for-AMD-Windows Comments URL: https://news.ycombinator.com/item?id=49684356 Points: 27 # Comments: 2",
+    "date": "2026-09-13",
+    "source": "Hacker News",
+    "cat": "ai",
+    "lang": "en"
+  },
+  {
+    "title": "Making Startups Powerful",
+    "link": "https://paulgraham.com/powerful.html",
+    "desc": "Article URL: https://paulgraham.com/powerful.html Comments URL: https://news.ycombinator.com/item?id=49684196 Points: 14 # Comments: 4",
+    "date": "2026-09-13",
+    "source": "Hacker News",
+    "cat": "ai",
+    "lang": "en"
+  },
+  {
+    "title": "Key symbols we lost to time, pt. 1: The PC side",
+    "link": "https://unsung.aresluna.org/key-symbols-we-lost-to-time-pt-1-the-pc-side/",
+    "desc": "Article URL: https://unsung.aresluna.org/key-symbols-we-lost-to-time-pt-1-the-pc-side/ Comments URL: https://news.ycombinator.com/item?id=49684101 Points: 34 # Comments: 7",
+    "date": "2026-09-13",
+    "source": "Hacker News",
+    "cat": "ai",
+    "lang": "en"
+  },
+  {
+    "title": "Paul A. M. Dirac, Interview by Friedrich Hund (1982) [video]",
+    "link": "https://www.youtube.com/watch?v=xJzrU38pGWc",
+    "desc": "Article URL: https://www.youtube.com/watch?v=xJzrU38pGWc Comments URL: https://news.ycombinator.com/item?id=49684042 Points: 24 # Comments: 1",
+    "date": "2026-09-13",
+    "source": "Hacker News",
+    "cat": "ai",
+    "lang": "en"
+  },
+  {
+    "title": "US Customs supervisor busted for stealing hardware from Homeland Security PCs",
+    "link": "https://www.tomshardware.com/pc-components/us-customs-supervisor-busted-for-stealing-core-i7-cpus-ram-and-hard-drives-from-homeland-security-pcs-stolen-tech-swapped-with-inferior-hardware-and-cashed-out-on-newegg",
+    "desc": "Article URL: https://www.tomshardware.com/pc-components/us-customs-supervisor-busted-for-stealing-core-i7-cpus-ram-and-hard-drives-from-homeland-security-pcs-stolen-tech-swapped-with-inferior-hardware-and-cashed-out-on-newegg Comments URL: https://news.ycombinator.com/item?id=49683729 Points: 82 ...",
+    "date": "2026-09-13",
+    "source": "Hacker News",
+    "cat": "ai",
+    "lang": "en"
+  },
+  {
+    "title": "Why is the x86 undefined instruction called ud2? Why 2?",
+    "link": "https://devblogs.microsoft.com/oldnewthing/20260910-00/?p=112689",
+    "desc": "Article URL: https://devblogs.microsoft.com/oldnewthing/20260910-00/?p=112689 Comments URL: https://news.ycombinator.com/item?id=49683262 Points: 46 # Comments: 12",
+    "date": "2026-09-13",
+    "source": "Hacker News",
+    "cat": "ai",
+    "lang": "en"
+  },
+  {
+    "title": "'Fingerprints' inside the Sun could reveal if it once swallowed a planet",
+    "link": "https://ras.ac.uk/news-and-press/research-highlights/fingerprints-inside-sun-could-reveal-if-it-once-swallowed-planet",
+    "desc": "Article URL: https://ras.ac.uk/news-and-press/research-highlights/fingerprints-inside-sun-could-reveal-if-it-once-swallowed-planet Comments URL: https://news.ycombinator.com/item?id=49683033 Points: 71 # Comments: 19",
+    "date": "2026-09-13",
+    "source": "Hacker News",
+    "cat": "ai",
+    "lang": "en"
+  },
+  {
+    "title": "Revolut confirms customer data breach through fake government requests",
+    "link": "https://techcrunch.com/2026/09/12/revolut-confirms-customer-data-breach-through-fake-government-requests/",
+    "desc": "Article URL: https://techcrunch.com/2026/09/12/revolut-confirms-customer-data-breach-through-fake-government-requests/ Comments URL: https://news.ycombinator.com/item?id=49682087 Points: 134 # Comments: 87",
+    "date": "2026-09-13",
+    "source": "Hacker News",
+    "cat": "ai",
+    "lang": "en"
+  },
+  {
+    "title": "Homebrew 7.0.0",
+    "link": "https://brew.sh/2026/09/13/homebrew-7.0.0/",
+    "desc": "Article URL: https://brew.sh/2026/09/13/homebrew-7.0.0/ Comments URL: https://news.ycombinator.com/item?id=49681545 Points: 366 # Comments: 145",
+    "date": "2026-09-13",
+    "source": "Hacker News",
+    "cat": "ai",
+    "lang": "en"
+  },
+  {
+    "title": "JetKVM Mini",
+    "link": "https://jetkvm.com/blog/introducing-jetkvm-mini",
+    "desc": "Article URL: https://jetkvm.com/blog/introducing-jetkvm-mini Comments URL: https://news.ycombinator.com/item?id=49681152 Points: 359 # Comments: 139",
+    "date": "2026-09-13",
+    "source": "Hacker News",
+    "cat": "ai",
+    "lang": "en"
+  },
+  {
+    "title": "Aligned to whom?",
+    "link": "https://hyperbo.la/w/aligned-to-whom/",
+    "desc": "Article URL: https://hyperbo.la/w/aligned-to-whom/ Comments URL: https://news.ycombinator.com/item?id=49679643 Points: 139 # Comments: 81",
+    "date": "2026-09-13",
+    "source": "Hacker News",
+    "cat": "ai",
+    "lang": "en"
+  },
+  {
+    "title": "The Interim Computer Museum",
+    "link": "https://icm.museum/",
+    "desc": "Article URL: https://icm.museum/ Comments URL: https://news.ycombinator.com/item?id=49679459 Points: 148 # Comments: 17",
+    "date": "2026-09-13",
+    "source": "Hacker News",
+    "cat": "ai",
+    "lang": "en"
+  },
+  {
     "title": "From Git to Fossil (2025)",
     "link": "https://lucio.albenga.es/web-en/posts/2025/from-git-to-fossil.html",
     "desc": "Comments",
@@ -38,15 +182,6 @@
   {
     "title": "After Math",
     "link": "https://terrytao.wordpress.com/2026/09/12/after-math/",
-    "desc": "Comments",
-    "date": "2026-09-13",
-    "source": "Lobsters",
-    "cat": "ai",
-    "lang": "en"
-  },
-  {
-    "title": "Homebrew 7.0.0",
-    "link": "https://brew.sh/2026/09/13/homebrew-7.0.0/",
     "desc": "Comments",
     "date": "2026-09-13",
     "source": "Lobsters",
@@ -234,135 +369,9 @@
     "lang": "ru"
   },
   {
-    "title": "Libraries Run Rust Inside Python (With PyO3)",
-    "link": "https://belderbos.dev/blog/how-libraries-run-rust-inside-python/",
-    "desc": "Article URL: https://belderbos.dev/blog/how-libraries-run-rust-inside-python/ Comments URL: https://news.ycombinator.com/item?id=49685037 Points: 8 # Comments: 5",
-    "date": "2026-09-13",
-    "source": "Hacker News",
-    "cat": "ai",
-    "lang": "en"
-  },
-  {
-    "title": "Predictive intelligence to anticipate anything.",
-    "link": "https://prior.chat/",
-    "desc": "Article URL: https://prior.chat/ Comments URL: https://news.ycombinator.com/item?id=49684879 Points: 4 # Comments: 4",
-    "date": "2026-09-13",
-    "source": "Hacker News",
-    "cat": "ai",
-    "lang": "en"
-  },
-  {
-    "title": "Astra and Fable still hack on simple variants of alignment evals from 2025",
-    "link": "https://www.lesswrong.com/posts/munJKF7iWMsWJLAH2/astra-and-fable-still-hack-on-simple-variants-of-alignment",
-    "desc": "Article URL: https://www.lesswrong.com/posts/munJKF7iWMsWJLAH2/astra-and-fable-still-hack-on-simple-variants-of-alignment Comments URL: https://news.ycombinator.com/item?id=49684393 Points: 83 # Comments: 22",
-    "date": "2026-09-13",
-    "source": "Hacker News",
-    "cat": "ai",
-    "lang": "en"
-  },
-  {
-    "title": "CUDA for AMD on Windows",
-    "link": "https://github.com/Speedstu/CUDA-for-AMD-Windows",
-    "desc": "Article URL: https://github.com/Speedstu/CUDA-for-AMD-Windows Comments URL: https://news.ycombinator.com/item?id=49684356 Points: 19 # Comments: 1",
-    "date": "2026-09-13",
-    "source": "Hacker News",
-    "cat": "ai",
-    "lang": "en"
-  },
-  {
-    "title": "Making Startups Powerful",
-    "link": "https://paulgraham.com/powerful.html",
-    "desc": "Article URL: https://paulgraham.com/powerful.html Comments URL: https://news.ycombinator.com/item?id=49684196 Points: 12 # Comments: 1",
-    "date": "2026-09-13",
-    "source": "Hacker News",
-    "cat": "ai",
-    "lang": "en"
-  },
-  {
-    "title": "Key symbols we lost to time, pt. 1: The PC side",
-    "link": "https://unsung.aresluna.org/key-symbols-we-lost-to-time-pt-1-the-pc-side/",
-    "desc": "Article URL: https://unsung.aresluna.org/key-symbols-we-lost-to-time-pt-1-the-pc-side/ Comments URL: https://news.ycombinator.com/item?id=49684101 Points: 31 # Comments: 3",
-    "date": "2026-09-13",
-    "source": "Hacker News",
-    "cat": "ai",
-    "lang": "en"
-  },
-  {
-    "title": "Paul A. M. Dirac, Interview by Friedrich Hund (1982) [video]",
-    "link": "https://www.youtube.com/watch?v=xJzrU38pGWc",
-    "desc": "Article URL: https://www.youtube.com/watch?v=xJzrU38pGWc Comments URL: https://news.ycombinator.com/item?id=49684042 Points: 21 # Comments: 1",
-    "date": "2026-09-13",
-    "source": "Hacker News",
-    "cat": "ai",
-    "lang": "en"
-  },
-  {
-    "title": "US Customs supervisor busted for stealing hardware from Homeland Security PCs",
-    "link": "https://www.tomshardware.com/pc-components/us-customs-supervisor-busted-for-stealing-core-i7-cpus-ram-and-hard-drives-from-homeland-security-pcs-stolen-tech-swapped-with-inferior-hardware-and-cashed-out-on-newegg",
-    "desc": "Article URL: https://www.tomshardware.com/pc-components/us-customs-supervisor-busted-for-stealing-core-i7-cpus-ram-and-hard-drives-from-homeland-security-pcs-stolen-tech-swapped-with-inferior-hardware-and-cashed-out-on-newegg Comments URL: https://news.ycombinator.com/item?id=49683729 Points: 75 ...",
-    "date": "2026-09-13",
-    "source": "Hacker News",
-    "cat": "ai",
-    "lang": "en"
-  },
-  {
-    "title": "Why is the x86 undefined instruction called ud2? Why 2?",
-    "link": "https://devblogs.microsoft.com/oldnewthing/20260910-00/?p=112689",
-    "desc": "Article URL: https://devblogs.microsoft.com/oldnewthing/20260910-00/?p=112689 Comments URL: https://news.ycombinator.com/item?id=49683262 Points: 31 # Comments: 11",
-    "date": "2026-09-13",
-    "source": "Hacker News",
-    "cat": "ai",
-    "lang": "en"
-  },
-  {
-    "title": "'Fingerprints' inside the Sun could reveal if it once swallowed a planet",
-    "link": "https://ras.ac.uk/news-and-press/research-highlights/fingerprints-inside-sun-could-reveal-if-it-once-swallowed-planet",
-    "desc": "Article URL: https://ras.ac.uk/news-and-press/research-highlights/fingerprints-inside-sun-could-reveal-if-it-once-swallowed-planet Comments URL: https://news.ycombinator.com/item?id=49683033 Points: 64 # Comments: 17",
-    "date": "2026-09-13",
-    "source": "Hacker News",
-    "cat": "ai",
-    "lang": "en"
-  },
-  {
-    "title": "Revolut confirms customer data breach through fake government requests",
-    "link": "https://techcrunch.com/2026/09/12/revolut-confirms-customer-data-breach-through-fake-government-requests/",
-    "desc": "Article URL: https://techcrunch.com/2026/09/12/revolut-confirms-customer-data-breach-through-fake-government-requests/ Comments URL: https://news.ycombinator.com/item?id=49682087 Points: 128 # Comments: 87",
-    "date": "2026-09-13",
-    "source": "Hacker News",
-    "cat": "ai",
-    "lang": "en"
-  },
-  {
-    "title": "JetKVM Mini",
-    "link": "https://jetkvm.com/blog/introducing-jetkvm-mini",
-    "desc": "Article URL: https://jetkvm.com/blog/introducing-jetkvm-mini Comments URL: https://news.ycombinator.com/item?id=49681152 Points: 351 # Comments: 135",
-    "date": "2026-09-13",
-    "source": "Hacker News",
-    "cat": "ai",
-    "lang": "en"
-  },
-  {
     "title": "A wandering black hole caught feeding on the run",
     "link": "https://phys.org/news/2026-08-black-hole-caught.html",
     "desc": "Article URL: https://phys.org/news/2026-08-black-hole-caught.html Comments URL: https://news.ycombinator.com/item?id=49679734 Points: 56 # Comments: 38",
-    "date": "2026-09-13",
-    "source": "Hacker News",
-    "cat": "ai",
-    "lang": "en"
-  },
-  {
-    "title": "Aligned to whom?",
-    "link": "https://hyperbo.la/w/aligned-to-whom/",
-    "desc": "Article URL: https://hyperbo.la/w/aligned-to-whom/ Comments URL: https://news.ycombinator.com/item?id=49679643 Points: 139 # Comments: 80",
-    "date": "2026-09-13",
-    "source": "Hacker News",
-    "cat": "ai",
-    "lang": "en"
-  },
-  {
-    "title": "The Interim Computer Museum",
-    "link": "https://icm.museum/",
-    "desc": "Article URL: https://icm.museum/ Comments URL: https://news.ycombinator.com/item?id=49679459 Points: 148 # Comments: 17",
     "date": "2026-09-13",
     "source": "Hacker News",
     "cat": "ai",
@@ -490,6 +499,24 @@
     "link": "https://architectureintel.com/when-anyone-can-build-software-who-decides-what-not-to-build-ae07fdb370e4",
     "desc": "Article URL: https://architectureintel.com/when-anyone-can-build-software-who-decides-what-not-to-build-ae07fdb370e4 Comments URL: https://news.ycombinator.com/item?id=49680485 Points: 21 # Comments: 18",
     "date": "2026-09-13",
+    "source": "Hacker News",
+    "cat": "ai",
+    "lang": "en"
+  },
+  {
+    "title": "TailTalk: A modern async user space AppleTalk stack with Rust and Tokio",
+    "link": "https://github.com/FeralFirmware/TailTalk/",
+    "desc": "Article URL: https://github.com/FeralFirmware/TailTalk/ Comments URL: https://news.ycombinator.com/item?id=49678423 Points: 44 # Comments: 11",
+    "date": "2026-09-12",
+    "source": "Hacker News",
+    "cat": "ai",
+    "lang": "en"
+  },
+  {
+    "title": "Don't be the out of touch Kung Fu master",
+    "link": "https://twitter.com/ID_AA_Carmack/status/2098443262214230095",
+    "desc": "Article URL: https://twitter.com/ID_AA_Carmack/status/2098443262214230095 Comments URL: https://news.ycombinator.com/item?id=49677577 Points: 212 # Comments: 289",
+    "date": "2026-09-12",
     "source": "Hacker News",
     "cat": "ai",
     "lang": "en"
@@ -754,24 +781,6 @@
     "source": "The Code",
     "cat": "ai",
     "lang": "ru"
-  },
-  {
-    "title": "TailTalk: A modern async user space AppleTalk stack with Rust and Tokio",
-    "link": "https://github.com/FeralFirmware/TailTalk/",
-    "desc": "Article URL: https://github.com/FeralFirmware/TailTalk/ Comments URL: https://news.ycombinator.com/item?id=49678423 Points: 43 # Comments: 11",
-    "date": "2026-09-12",
-    "source": "Hacker News",
-    "cat": "ai",
-    "lang": "en"
-  },
-  {
-    "title": "Don't be the out of touch Kung Fu master",
-    "link": "https://twitter.com/ID_AA_Carmack/status/2098443262214230095",
-    "desc": "Article URL: https://twitter.com/ID_AA_Carmack/status/2098443262214230095 Comments URL: https://news.ycombinator.com/item?id=49677577 Points: 210 # Comments: 282",
-    "date": "2026-09-12",
-    "source": "Hacker News",
-    "cat": "ai",
-    "lang": "en"
   },
   {
     "title": "Optimizing a single Rust Clippy lint by 3133X",

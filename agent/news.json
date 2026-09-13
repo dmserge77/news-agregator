@@ -1,5 +1,14 @@
 [
   {
+    "title": "Why are AI agents lying, cheating and coordinating?",
+    "link": "https://yoshuabengio.org/en/publication/why-are-ai-agents-lying-cheating-and-coordinating",
+    "desc": "Article URL: https://yoshuabengio.org/en/publication/why-are-ai-agents-lying-cheating-and-coordinating Comments URL: https://news.ycombinator.com/item?id=49678969 Points: 456 # Comments: 530",
+    "date": "2026-09-13",
+    "source": "Hacker News",
+    "cat": "agent",
+    "lang": "en"
+  },
+  {
     "title": "Алло, это робот: почему голосовые системы телефонии могут быть лучше, чем кажется на первый взгляд",
     "link": "https://habr.com/ru/companies/vasexperts/articles/1078212/?utm_campaign=1078212&utm_source=habrahabr&utm_medium=rss",
     "desc": "Отношение к ИИ в поддержке, мягко говоря, неоднозначное — компании активно используют голосовых ассистентов несмотря на то, что клиенты чаще всего не в восторге от таких «помощников». Поговорим, почему роботу на другом конце провода стоит дать шанс и на каких задачах голосовые системы ИИ могут пр...",
@@ -34,15 +43,6 @@
     "source": "Habr AI",
     "cat": "agent",
     "lang": "ru"
-  },
-  {
-    "title": "Why are AI agents lying, cheating and coordinating?",
-    "link": "https://yoshuabengio.org/en/publication/why-are-ai-agents-lying-cheating-and-coordinating",
-    "desc": "Article URL: https://yoshuabengio.org/en/publication/why-are-ai-agents-lying-cheating-and-coordinating Comments URL: https://news.ycombinator.com/item?id=49678969 Points: 450 # Comments: 519",
-    "date": "2026-09-13",
-    "source": "Hacker News",
-    "cat": "agent",
-    "lang": "en"
   },
   {
     "title": "Useful Things Agents Can Do That Are Not Writing Code",
