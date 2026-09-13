@@ -16,7 +16,7 @@ if sys.platform == "win32":
     sys.stdout.reconfigure(encoding="utf-8", errors="replace")
 
 BASE_DIR = os.path.dirname(__file__)
-MAX_AGE_DAYS = 14
+MAX_AGE_DAYS = 90
 
 CATEGORIES = {
     "ai":       {"label": "Нейросети",    "emoji": "🧠", "accent": "#0071e3"},

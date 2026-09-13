@@ -170,6 +170,105 @@ window.NEWS_DATA = {
       "source": "Hugging Face",
       "cat": "agent",
       "lang": "en"
+    },
+    {
+      "title": "Why Your Website Should Never Stop Changing",
+      "link": "https://smashingmagazine.com/2026/08/why-website-should-never-stop-changing/",
+      "desc": "Every website peaks on launch day and slowly drifts from there, not because it breaks, but because nobody has time to keep it current. Autonomous websites, continuously optimized by agents after launch, aim to change that. Pierre Burgy shares what they learned building for full website autonomy a...",
+      "date": "2026-08-25",
+      "source": "Smashing Magazine",
+      "cat": "agent",
+      "lang": "en"
+    },
+    {
+      "title": "How Much Memory Does Your Agent Actually Need?",
+      "link": "https://huggingface.co/blog/ibm-research/altk-evolve-hmm",
+      "desc": "",
+      "date": "2026-08-18",
+      "source": "Hugging Face",
+      "cat": "agent",
+      "lang": "en"
+    },
+    {
+      "title": "Record, train, and deploy from one place with Strands Agents, LeRobot, and Hugging Face Storage Buckets",
+      "link": "https://huggingface.co/blog/amazon/strands-lerobot-streaming-data-loop",
+      "desc": "",
+      "date": "2026-08-13",
+      "source": "Hugging Face",
+      "cat": "agent",
+      "lang": "en"
+    },
+    {
+      "title": "Build Low-Latency Multilingual Voice Agents: Open Weights & Full Deployment Control with NVIDIA Magpie TTS",
+      "link": "https://huggingface.co/blog/nvidia/magpie-tts-multilingual-voice-agents",
+      "desc": "",
+      "date": "2026-08-10",
+      "source": "Hugging Face",
+      "cat": "agent",
+      "lang": "en"
+    },
+    {
+      "title": "Meta is back with Muse Glimmer: local, agentic, multimodal, and open source",
+      "link": "https://huggingface.co/blog/muse-glimmer",
+      "desc": "",
+      "date": "2026-08-10",
+      "source": "Hugging Face",
+      "cat": "agent",
+      "lang": "en"
+    },
+    {
+      "title": "Anatomy of a Frontier Lab Agent Intrusion: A Technical Timeline of the July 2026 Incident",
+      "link": "https://huggingface.co/blog/agent-intrusion-technical-timeline",
+      "desc": "",
+      "date": "2026-07-27",
+      "source": "Hugging Face",
+      "cat": "agent",
+      "lang": "en"
+    },
+    {
+      "title": "ScarfBench: Benchmarking AI Agents for Enterprise Java Framework Migration",
+      "link": "https://huggingface.co/blog/ibm-research/scarfbench",
+      "desc": "",
+      "date": "2026-06-30",
+      "source": "Hugging Face",
+      "cat": "agent",
+      "lang": "en"
+    },
+    {
+      "title": "MosaicLeaks: Can your research agent keep a secret?",
+      "link": "https://huggingface.co/blog/ServiceNow/mosaicleaks",
+      "desc": "",
+      "date": "2026-06-18",
+      "source": "Hugging Face",
+      "cat": "agent",
+      "lang": "en"
+    },
+    {
+      "title": "Is it agentic enough? Benchmarking open models on your own tooling",
+      "link": "https://huggingface.co/blog/is-it-agentic-enough",
+      "desc": "",
+      "date": "2026-06-18",
+      "source": "Hugging Face",
+      "cat": "agent",
+      "lang": "en"
+    },
+    {
+      "title": "From the Hugging Face Hub to robot hardware with Strands Agents and LeRobot",
+      "link": "https://huggingface.co/blog/amazon/strands-lerobot-hub-to-hardware",
+      "desc": "",
+      "date": "2026-06-17",
+      "source": "Hugging Face",
+      "cat": "agent",
+      "lang": "en"
+    },
+    {
+      "title": "Agentic Resource Discovery: Let agents search",
+      "link": "https://huggingface.co/blog/agentic-resource-discovery-launch",
+      "desc": "",
+      "date": "2026-06-17",
+      "source": "Hugging Face",
+      "cat": "agent",
+      "lang": "en"
     }
   ],
   "cat_keys": [
@@ -181,5 +280,5 @@ window.NEWS_DATA = {
     "jobs",
     "orders"
   ],
-  "updated": "13.09.2026, 09:02:37"
+  "updated": "13.09.2026, 12:07:13"
 };

@@ -99,6 +99,15 @@
     "lang": "en"
   },
   {
+    "title": "10-Year-Old Children Predict the Future",
+    "link": "https://www.nytimes.com/2026/09/13/style/10-year-old-children-predict-the-future.html",
+    "desc": "Robot butlers. Underwater homes. Root beer perfume. Kids across the nation weigh in on what life will be like in the year 2050.",
+    "date": "2026-09-13",
+    "source": "NYT Tech",
+    "cat": "ai",
+    "lang": "en"
+  },
+  {
     "title": "Тернарная нейронка на C#",
     "link": "https://habr.com/ru/articles/1074678/?utm_campaign=1074678&utm_source=habrahabr&utm_medium=rss",
     "desc": "Мода на квантизацию скоро закончится ...когда появятся они: модели, обученные на тернарной/тритовой/троичной логике. Или нет? Пройдемся по форматам обучения от FP32 до FP4 , а потом сделаем аналог модели Microsoft Bitnet 1.58 на C# , размером 29Кб (в экстремальном варианте - 17,1 КБ) . Читать далее",
@@ -1777,6 +1786,96 @@
     "link": "https://huggingface.co/blog/allenai/benchmirt",
     "desc": "",
     "date": "2026-09-01",
+    "source": "Hugging Face",
+    "cat": "ai",
+    "lang": "en"
+  },
+  {
+    "title": "Training and Finetuning Multi-Vector Embedding Models with Sentence Transformers",
+    "link": "https://huggingface.co/blog/train-multi-vector-encoder",
+    "desc": "",
+    "date": "2026-08-26",
+    "source": "Hugging Face",
+    "cat": "ai",
+    "lang": "en"
+  },
+  {
+    "title": "How to evaluate LLMs before production",
+    "link": "https://github.blog/ai-and-ml/llms/how-to-evaluate-llms-before-production/",
+    "desc": "These are the lessons we learned evaluating LLMs for real-world secret scanning. The post How to evaluate LLMs before production appeared first on The GitHub Blog .",
+    "date": "2026-08-25",
+    "source": "GitHub Blog",
+    "cat": "ai",
+    "lang": "en"
+  },
+  {
+    "title": "Granite 4.2 LLMs: How They're Built",
+    "link": "https://huggingface.co/blog/ibm-granite/granite-4-2",
+    "desc": "",
+    "date": "2026-08-25",
+    "source": "Hugging Face",
+    "cat": "ai",
+    "lang": "en"
+  },
+  {
+    "title": "Multi-Vector (Late Interaction) Embedding Models with Sentence Transformers",
+    "link": "https://huggingface.co/blog/multi-vector-encoder",
+    "desc": "",
+    "date": "2026-08-18",
+    "source": "Hugging Face",
+    "cat": "ai",
+    "lang": "en"
+  },
+  {
+    "title": "Bringing Nunchaku 4-bit Diffusion Inference to Diffusers",
+    "link": "https://huggingface.co/blog/nunchaku-diffusers",
+    "desc": "",
+    "date": "2026-07-23",
+    "source": "Hugging Face",
+    "cat": "ai",
+    "lang": "en"
+  },
+  {
+    "title": "Native-speed vLLM transformers modeling backend",
+    "link": "https://huggingface.co/blog/native-speed-vllm-transformers-backend",
+    "desc": "",
+    "date": "2026-07-08",
+    "source": "Hugging Face",
+    "cat": "ai",
+    "lang": "en"
+  },
+  {
+    "title": "DiScoFormer: One transformer for density and score, across distributions",
+    "link": "https://huggingface.co/blog/allenai/discoformer",
+    "desc": "",
+    "date": "2026-06-29",
+    "source": "Hugging Face",
+    "cat": "ai",
+    "lang": "en"
+  },
+  {
+    "title": "Run a vLLM Server on HF Jobs in One Command",
+    "link": "https://huggingface.co/blog/vllm-jobs",
+    "desc": "",
+    "date": "2026-06-26",
+    "source": "Hugging Face",
+    "cat": "ai",
+    "lang": "en"
+  },
+  {
+    "title": "Accelerating Transformers Fine-Tuning with NVIDIA NeMo AutoModel",
+    "link": "https://huggingface.co/blog/nvidia/accelerating-fine-tuning-nvidia-nemo-automodel",
+    "desc": "",
+    "date": "2026-06-24",
+    "source": "Hugging Face",
+    "cat": "ai",
+    "lang": "en"
+  },
+  {
+    "title": "Experimenting with the proposed Cross-Origin Storage API in Transformers.js",
+    "link": "https://huggingface.co/blog/cross-origin-storage",
+    "desc": "",
+    "date": "2026-06-23",
     "source": "Hugging Face",
     "cat": "ai",
     "lang": "en"

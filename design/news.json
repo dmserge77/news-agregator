@@ -304,5 +304,527 @@
     "source": "Awwwards",
     "cat": "design",
     "lang": "en"
+  },
+  {
+    "title": "Ошибки ценою в миллионы: как не попасть под штраф за некорректную работу с персональными данными",
+    "link": "https://habr.com/ru/articles/1076288/?utm_campaign=1076288&utm_source=habrahabr&utm_medium=rss",
+    "desc": "Прошел уже год, как начали действовать новые штрафы в области защиты персональных данных. Однако до сих пор я встречаю в своей практике нарушения у предпринимателей, которые могут повлечь за собой миллионные штрафы, если эти нарушения первым обнаружит Роскомнадзор. Поэтому в этой статье расскажу ...",
+    "date": "2026-08-30",
+    "source": "Habr Веб-дизайн",
+    "cat": "design",
+    "lang": "ru"
+  },
+  {
+    "title": "Aardvark Book Club",
+    "link": "https://www.awwwards.com/sites/aardvark-book-club",
+    "desc": "Where BookTok meets the bookshelf. A digital rebuild for Aardvark Book Club — editorial curation, custom 3D, and interactions that make every page feel like an unboxing.",
+    "date": "2026-08-30",
+    "source": "Awwwards",
+    "cat": "design",
+    "lang": "en"
+  },
+  {
+    "title": "HOBRO DIGITAL",
+    "link": "https://www.awwwards.com/sites/hobro-digital",
+    "desc": "A clean website experience for a full-cycle digital agency from Canada.",
+    "date": "2026-08-29",
+    "source": "Awwwards",
+    "cat": "design",
+    "lang": "en"
+  },
+  {
+    "title": "CSS задачи на 200 IQ",
+    "link": "https://habr.com/ru/articles/1075950/?utm_campaign=1075950&utm_source=habrahabr&utm_medium=rss",
+    "desc": "У вас бывает такое чувство, когда вы при выполнении работы упёрлись в какую-то проблему и что-то внутри подсказывает, что не может такого быть, чтобы у неё не было решения? Когда кажется, что уже всё пропало и мы столкнулись с фундаментальным ограничением реальности, но отказ принять это продолжа...",
+    "date": "2026-08-28",
+    "source": "Habr Веб-дизайн",
+    "cat": "design",
+    "lang": "ru"
+  },
+  {
+    "title": "Decathlon Yestalgia",
+    "link": "https://www.awwwards.com/sites/decathlon-yestalgia",
+    "desc": "An exclusive capsule collection, brought to life through a vibrant and playful visual language celebrating the 90's and mixing new designs with archive references.",
+    "date": "2026-08-28",
+    "source": "Awwwards",
+    "cat": "design",
+    "lang": "en"
+  },
+  {
+    "title": "OpenClaw went viral. Meet the maintainers building and securing it.",
+    "link": "https://github.blog/open-source/maintainers/openclaw-went-viral-meet-the-maintainers-building-and-securing-it/",
+    "desc": "OpenClaw is the fastest-growing project in GitHub history. Peter Steinberger and several maintainers share what they learned in the project's first six months. The post OpenClaw went viral. Meet the maintainers building and securing it. appeared first on The GitHub Blog .",
+    "date": "2026-08-27",
+    "source": "GitHub Blog",
+    "cat": "design",
+    "lang": "en"
+  },
+  {
+    "title": "Бенто‑тест, который проваливают агенты — стресс‑тест для интерфейса в японском стиле",
+    "link": "https://habr.com/ru/articles/1073312/?utm_campaign=1073312&utm_source=habrahabr&utm_medium=rss",
+    "desc": "Работая над очередным проектом, я хотел сделать его визуально интересным. Работаю в соло от момента идеи до выкладки на продакшен. Я не разработчик, не верстальщик, не дизайнер, не бэкендер, не системный аналитик, но всё равно создаю свои продакшен-реди проекты. Я обычный пользователь нейро-агент...",
+    "date": "2026-08-26",
+    "source": "Habr Веб-дизайн",
+    "cat": "design",
+    "lang": "ru"
+  },
+  {
+    "title": "Rethinking Data Visualisation: A UX Approach To Dashboards That Actually Drives Decisions",
+    "link": "https://smashingmagazine.com/2026/08/rethinking-data-visualisation-ux-approach-dashboards/",
+    "desc": "Data visualisation sits at the intersection of two disciplines that rarely talk to each other: data and design. Meriem Benhabiles explores what changes when you bring structured UX thinking to dashboards and data presentations, from the questions you ask before opening any tool to the decisions t...",
+    "date": "2026-08-26",
+    "source": "Smashing Magazine",
+    "cat": "design",
+    "lang": "en"
+  },
+  {
+    "title": "Ai in Design Report 2026",
+    "link": "https://www.awwwards.com/sites/ai-in-design-report-2026",
+    "desc": "A research report transformed into an editorial digital experience, where data, analysis, and motion speak in a single visual language.",
+    "date": "2026-08-26",
+    "source": "Awwwards",
+    "cat": "design",
+    "lang": "en"
+  },
+  {
+    "title": "Как перенести навайбкоженный проект в Figma через Claude Code и получить дизайн‑систему",
+    "link": "https://habr.com/ru/articles/1074204/?utm_campaign=1074204&utm_source=habrahabr&utm_medium=rss",
+    "desc": "Знакомая ситуация: продукт написан за выходные, гипотеза подтвердилась, кто‑то уже платит. Приходит дизайнер и просит файл. Файла нет. Есть интерфейс, который существует только в виде кода. Кнопка там называется.btn‑primary,.btn‑add и.button‑save — три класса, одна кнопка, паддинги отличаются на ...",
+    "date": "2026-08-25",
+    "source": "Habr Веб-дизайн",
+    "cat": "design",
+    "lang": "ru"
+  },
+  {
+    "title": "Сайты, домены, реклама. Все сроки скоро пройдут, придет пора штрафов и отсутствия клиентов",
+    "link": "https://habr.com/ru/articles/1074080/?utm_campaign=1074080&utm_source=habrahabr&utm_medium=rss",
+    "desc": "Я пишу на Хабре, в основном, про старое железо и игры, но периодически появляются статьи по моей основной специализации — интернет‑рекламе и аналитике. Август для меня традиционно пора проведения аудитов сайтов и кабинетов контекстной рекламы Яндекс.Директ. Поток писем и звонков с вопросами идет ...",
+    "date": "2026-08-25",
+    "source": "Habr Веб-дизайн",
+    "cat": "design",
+    "lang": "ru"
+  },
+  {
+    "title": "MIU MIU A House that we shaped",
+    "link": "https://www.awwwards.com/sites/miu-miu-a-house-that-we-shaped",
+    "desc": "Explore the house and interact with the objects to discover the new Miu Miu Bags collection",
+    "date": "2026-08-25",
+    "source": "Awwwards",
+    "cat": "design",
+    "lang": "en"
+  },
+  {
+    "title": "/zeroz Brand Site",
+    "link": "https://www.awwwards.com/sites/zeroz-brand-site",
+    "desc": "Brand site for /zeroz, a self-conditioning food born from Otsuka Pharmaceutical Co., Ltd.'s \"Active Inner Resource\" concept. Chapters unfold through 3DCG and immersive WebGL.",
+    "date": "2026-08-24",
+    "source": "Awwwards",
+    "cat": "design",
+    "lang": "en"
+  },
+  {
+    "title": "Kononenko Architectural Bureau",
+    "link": "https://www.awwwards.com/sites/kononenko-architectural-bureau",
+    "desc": "A website for Kononenko Architectural Bureau, showcasing its projects and design approach through minimalism, bold typography, thoughtful structure, and immersive interactions.",
+    "date": "2026-08-23",
+    "source": "Awwwards",
+    "cat": "design",
+    "lang": "en"
+  },
+  {
+    "title": "The state of the gallery",
+    "link": "https://www.awwwards.com/sites/the-state-of-the-gallery",
+    "desc": "mesh3d - \"The state of the gallery\" is an overiew of the gallery in numbers and picks. What's catalogued, who is making the strongest Three.js work and what's at the top today.",
+    "date": "2026-08-22",
+    "source": "Awwwards",
+    "cat": "design",
+    "lang": "en"
+  },
+  {
+    "title": "Oimachi",
+    "link": "https://www.awwwards.com/sites/oimachi",
+    "desc": "Copenhagen-based innovation studio working across branding, development and AI visibility.",
+    "date": "2026-08-21",
+    "source": "Awwwards",
+    "cat": "design",
+    "lang": "en"
+  },
+  {
+    "title": "Аптечный e-com: как не перестараться с заботой и не потерять клиента при оформлении заказа",
+    "link": "https://habr.com/ru/companies/zdravcity_pro/articles/1072636/?utm_campaign=1072636&utm_source=habrahabr&utm_medium=rss",
+    "desc": "Аптечный интернет-ритейл, несмотря на свою зарегулированность различными законами, актами и распоряжениями, демонстрирует приятную продуктовую архитектуру. Комфортный глазу дизайн сайтов и приложений, удобная навигация, не причиняющий боль пользовательский путь и даже элементы геймификации. Преде...",
+    "date": "2026-08-20",
+    "source": "Habr Веб-дизайн",
+    "cat": "design",
+    "lang": "ru"
+  },
+  {
+    "title": "Timing Charts: A Blueprint For SMIL Animations",
+    "link": "https://smashingmagazine.com/2026/08/timing-charts-blueprint-smil-animations/",
+    "desc": "Discover SMIL, the often-overlooked way to animate SVGs that works inside ` ` tags and can fully animate everything in an SVG without JavaScript.",
+    "date": "2026-08-20",
+    "source": "Smashing Magazine",
+    "cat": "design",
+    "lang": "en"
+  },
+  {
+    "title": "Cipher",
+    "link": "https://www.awwwards.com/sites/cipher",
+    "desc": "Cipher is a creative production company exploring the space between precision and possibility. This portfolio celebrates craftsmanship and experiments.",
+    "date": "2026-08-20",
+    "source": "Awwwards",
+    "cat": "design",
+    "lang": "en"
+  },
+  {
+    "title": "LIKOVA",
+    "link": "https://www.awwwards.com/sites/likova",
+    "desc": "A unique, creative, and inspiring business center deserves an equally inspiring website.",
+    "date": "2026-08-19",
+    "source": "Awwwards",
+    "cat": "design",
+    "lang": "en"
+  },
+  {
+    "title": "[Перевод] Почему в Chrome маленькие JPEG выглядят иначе",
+    "link": "https://habr.com/ru/articles/1071684/?utm_campaign=1071684&utm_source=habrahabr&utm_medium=rss",
+    "desc": "Этот значок на компьютере моего коллеги выглядит лучше Как-то я общался с коллегой у него за компьютером и заметил, что логотип выглядит не совсем так, как моём компьютере. На компьютере коллеги он казался тоньше и больше походил на исходное изображение. Он имел размер 15px; на картинке выше пока...",
+    "date": "2026-08-18",
+    "source": "Habr Веб-дизайн",
+    "cat": "design",
+    "lang": "ru"
+  },
+  {
+    "title": "Michael Gatt",
+    "link": "https://www.awwwards.com/sites/michael-gatt",
+    "desc": "An interactive portfolio introducing Michael Gatt's universe of film, TV shows, games, and music composing through a collection of selected work.",
+    "date": "2026-08-18",
+    "source": "Awwwards",
+    "cat": "design",
+    "lang": "en"
+  },
+  {
+    "title": "The Watch",
+    "link": "https://www.awwwards.com/sites/the-watch",
+    "desc": "The FS 60P is our take on showing a luxury watch at its best. A real-time WebGL piece that interacts with the content around it.",
+    "date": "2026-08-17",
+    "source": "Awwwards",
+    "cat": "design",
+    "lang": "en"
+  },
+  {
+    "title": "SSTR - Friction Reduction",
+    "link": "https://www.awwwards.com/sites/sstr-friction-reduction",
+    "desc": "Brand, site and 3D for a friction-reduction company in oil drilling. Editorial minimalism that speaks the engineer's language: a modular grid, motion tuned to the hardware.",
+    "date": "2026-08-16",
+    "source": "Awwwards",
+    "cat": "design",
+    "lang": "en"
+  },
+  {
+    "title": "PX PUSH",
+    "link": "https://www.awwwards.com/sites/px-push",
+    "desc": "PX PUSH is a design subscription studio of record for brands that understand the value of consistent, professional output — established to meet the demands of modern business.",
+    "date": "2026-08-15",
+    "source": "Awwwards",
+    "cat": "design",
+    "lang": "en"
+  },
+  {
+    "title": "Разработка возвращает макет: базовая гигиена Figma‑макетов",
+    "link": "https://habr.com/ru/companies/svoi_ru/articles/1068604/?utm_campaign=1068604&utm_source=habrahabr&utm_medium=rss",
+    "desc": "Грязный макет — грязный код. Чистый макет — адекватный код и отсутствие вопросов «что тут имелось в виду»: разработка получает то, с чем можно работать. Элементарщина, про которую забывают/не успевают, ведь это просто, примитивно, но страдают все… В СВОЙ Тех решили написать спецификацию по тому, ...",
+    "date": "2026-08-13",
+    "source": "Habr Веб-дизайн",
+    "cat": "design",
+    "lang": "ru"
+  },
+  {
+    "title": "New EU Guidelines For AI Labelling",
+    "link": "https://smashingmagazine.com/2026/08/eu-guidelines-ai-labelling/",
+    "desc": "New EU guidelines, why AI sparkles aren’t enough, when AI labels are required, and what the rules mean for AI-powered features and products.",
+    "date": "2026-08-13",
+    "source": "Smashing Magazine",
+    "cat": "design",
+    "lang": "en"
+  },
+  {
+    "title": "Building Tactile UX: Honoring Intentional Design With Lottie",
+    "link": "https://smashingmagazine.com/2026/08/building-tactile-ux-honoring-intentional-design-lottie/",
+    "desc": "When tasked with building a highly interactive, tactile web experience, the architecture must serve the art direction. In this article, Alexey Kopytin explains their architectural rationale for building a digital stress-relief squeeze toy game using Lottie animations, DOM events, and distance-bas...",
+    "date": "2026-08-11",
+    "source": "Smashing Magazine",
+    "cat": "design",
+    "lang": "en"
+  },
+  {
+    "title": "Самый ламповый проект Apple, который с треском провалился",
+    "link": "https://habr.com/ru/companies/studyai/articles/1066462/?utm_campaign=1066462&utm_source=habrahabr&utm_medium=rss",
+    "desc": "90-е были для Интернета чем-то вроде эпохи Дикого Фронтира: никаких правил, никакой цензуры и никакого блёклого веб-дизайна от биг-корпов. Стремясь перетянуть на свою сторону ещё не слишком многочисленную онлайн-толпу, компании и стартапы пытались придумать что-то этакое — и порой создавали очень...",
+    "date": "2026-08-05",
+    "source": "Habr Веб-дизайн",
+    "cat": "design",
+    "lang": "ru"
+  },
+  {
+    "title": "«Я грохнула половину интерфейса, и этого никто не заметил»: как мы улучшили UX, чтобы отучить систему мешать работать",
+    "link": "https://habr.com/ru/companies/itarena/articles/1066270/?utm_campaign=1066270&utm_source=habrahabr&utm_medium=rss",
+    "desc": "Собрались однажды продакты, разработчики и отдел дизайна и решили: хватит терпеть жалобы на устаревший и запутанный интерфейс. Был сервис деск-лабиринт, стал продукт с умной навигацией — минус половина элементов, без боли адаптации, с добавлением привычных паттернов. Привет, Хабр! Меня зовут Свет...",
+    "date": "2026-08-03",
+    "source": "Habr Веб-дизайн",
+    "cat": "design",
+    "lang": "ru"
+  },
+  {
+    "title": "Слоёный пирог против F‑паттерна: как подзаголовки решают, дочитают вас или нет",
+    "link": "https://habr.com/ru/articles/1051160/?utm_campaign=1051160&utm_source=habrahabr&utm_medium=rss",
+    "desc": "Пользователи не читают ваши страницы — они их сканируют. Взгляд прыгает по подзаголовкам, как по слоям пирога, и от того, что он там находит, зависит, останется человек или уйдёт. Разбираю паттерн layer-cake, F-паттерн и почему всё решается на этапе вёрстки, а не редизайном. Читать далее",
+    "date": "2026-08-03",
+    "source": "Habr Веб-дизайн",
+    "cat": "design",
+    "lang": "ru"
+  },
+  {
+    "title": "Как мы проектировали идеальный пользовательский опыт для OTP-поля",
+    "link": "https://habr.com/ru/companies/yoomoney/articles/1065468/?utm_campaign=1065468&utm_source=habrahabr&utm_medium=rss",
+    "desc": "Почему ввод кода из смс раздражает, хотя занимает всего несколько секунд? Казалось бы, OTP-поле — простой элемент интерфейса, но именно на этом этапе пользователи часто сталкиваются с мелкими, на первый взгляд, проблемами: не срабатывает автоподстановка, неудобно вставляется код, теряется фокус, ...",
+    "date": "2026-07-31",
+    "source": "Habr Веб-дизайн",
+    "cat": "design",
+    "lang": "ru"
+  },
+  {
+    "title": "Small Joys And Big Adventures (August 2026 Wallpapers Edition)",
+    "link": "https://smashingmagazine.com/2026/07/desktop-wallpaper-calendars-august-2026/",
+    "desc": "Whether you’re enjoying some well-earned time off this August or are jumping headfirst into a new project, how about some new desktop wallpapers to accompany you on all those big and small adventures the month might bring? Well, we’ve got you covered!",
+    "date": "2026-07-31",
+    "source": "Smashing Magazine",
+    "cat": "design",
+    "lang": "en"
+  },
+  {
+    "title": "The Bull And Bear Case For Digital Design In The Age Of AI",
+    "link": "https://smashingmagazine.com/2026/07/bull-and-bear-case-digital-design-age-ai/",
+    "desc": "As AI reshapes product design, it could give designers greater autonomy or expose the gaps that autonomy makes harder to hide. Exploring both the bull and bear cases, Andy Budd examines what happens when designers need less permission to act.",
+    "date": "2026-07-29",
+    "source": "Smashing Magazine",
+    "cat": "design",
+    "lang": "en"
+  },
+  {
+    "title": "Thinking Outside The Box: Digital Design In The AI Era",
+    "link": "https://smashingmagazine.com/2026/07/digital-design-ai-era/",
+    "desc": "Many of the AI tools we interact with take the form of text boxes. But what if there was a different way to interact with AI? Oleksii Hrzhehorzhevskyi explores a different approach to creating a new AI assistant and how designers can navigate the field as AI continues to change it.",
+    "date": "2026-07-28",
+    "source": "Smashing Magazine",
+    "cat": "design",
+    "lang": "en"
+  },
+  {
+    "title": "Декомпозиционный подход организации пространства в Фигме",
+    "link": "https://habr.com/ru/articles/1063202/?utm_campaign=1063202&utm_source=habrahabr&utm_medium=rss",
+    "desc": "Этот подход плзволяет избавиться от таких проблем, как: неактуальность макетов для разработки, долгий поиск макетов и задач в фигме, протухание информации в макетах, увеличение memory usage и долгая загрузка файлов. Больше подробностей",
+    "date": "2026-07-27",
+    "source": "Habr Веб-дизайн",
+    "cat": "design",
+    "lang": "ru"
+  },
+  {
+    "title": "Прототипирование фронта в 2к26 от системного аналитика",
+    "link": "https://habr.com/ru/articles/1061532/?utm_campaign=1061532&utm_source=habrahabr&utm_medium=rss",
+    "desc": "Раньше для согласования интерфейса я собирал макет в Figma, описывал каждое поле, отдавал его дизайнеру, а потом отдельно объяснял логику фронтенд-разработчику. В 2026 году тот же путь можно пройти быстрее: передать ИИ требования и за несколько итераций получить кликабельный прототип на HTML, CSS...",
+    "date": "2026-07-21",
+    "source": "Habr Веб-дизайн",
+    "cat": "design",
+    "lang": "ru"
+  },
+  {
+    "title": "Weaponizing And Defending The React Flight Protocol: Deserialization Sinks In RSCs",
+    "link": "https://smashingmagazine.com/2026/07/weaponizing-defending-react-flight-protocol/",
+    "desc": "While React Server Components rely on the custom Flight protocol to stream interactive UIs, this same mechanism introduces powerful deserialization sinks that attackers can exploit. Durgesh Pawar breaks down the mechanics behind the CVSS 10.0 “React2Shell” vulnerability to show how protocol manip...",
+    "date": "2026-07-21",
+    "source": "Smashing Magazine",
+    "cat": "design",
+    "lang": "en"
+  },
+  {
+    "title": "Ошибки в UX у Хабр",
+    "link": "https://habr.com/ru/articles/1060132/?utm_campaign=1060132&utm_source=habrahabr&utm_medium=rss",
+    "desc": "Прохожу полный путь новичка на Хабр от регистрации до заполнения профиля и отмечаю критические ошибки в интерфейсе с позиции UX/UI дизайна и принципов эвристики доступности Читать далее",
+    "date": "2026-07-17",
+    "source": "Habr Веб-дизайн",
+    "cat": "design",
+    "lang": "ru"
+  },
+  {
+    "title": "When It Makes Sense To “Block” The Main Thread",
+    "link": "https://smashingmagazine.com/2026/07/when-makes-sense-block-main-thread/",
+    "desc": "The common rule of thumb is to never “block” the browser’s main thread when running JavaScript tasks. But is this a hard rule? Victor Ayomipo describes a use case he encountered involving a screenshot extension where he made an exception to the rule and decided that blocking the main thread was a...",
+    "date": "2026-07-17",
+    "source": "Smashing Magazine",
+    "cat": "design",
+    "lang": "en"
+  },
+  {
+    "title": "No, People Don’t Want More AI In Their Life",
+    "link": "https://smashingmagazine.com/2026/07/people-dont-want-more-ai/",
+    "desc": "Many companies assume everyone craves new AI features. But the reality is that most people don't want more AI — at least not in the way most AI leaders envision it. Brought to you by Design Patterns For AI Interfaces , **friendly video courses on UX** and design patterns by Vitaly.",
+    "date": "2026-07-15",
+    "source": "Smashing Magazine",
+    "cat": "design",
+    "lang": "en"
+  },
+  {
+    "title": "From Kickoff To First Concept: How To Turn Brand Strategy Into Visual Direction",
+    "link": "https://smashingmagazine.com/2026/07/how-turn-brand-strategy-into-visual-direction/",
+    "desc": "The strongest visual concepts don’t start in Figma. They start with the right questions. Explore the pre-concept phase of brand identity design, where teams research brand context, uncover hidden assumptions with stakeholders, and turn shared direction into a visual foundation before a single con...",
+    "date": "2026-07-10",
+    "source": "Smashing Magazine",
+    "cat": "design",
+    "lang": "en"
+  },
+  {
+    "title": "Figma больше не первый инструмент дизайнера. И это не выбор",
+    "link": "https://habr.com/ru/companies/cloud_ru/articles/1055798/?utm_campaign=1055798&utm_source=habrahabr&utm_medium=rss",
+    "desc": "Сначала был громкий тезис: «ИИ заменит дизайнеров». Потом пришел другой, помягче: мол, ничего он не заменит, наоборот — открыл возможности, дизайн теперь может больше. Звучит добрее, а врет сильнее. «Может» — слово с лазейкой. Оно намекает на выбор: хочешь — берешь новые инструменты, не хочешь — ...",
+    "date": "2026-07-07",
+    "source": "Habr Веб-дизайн",
+    "cat": "design",
+    "lang": "ru"
+  },
+  {
+    "title": "Meet Kirki: WordPress’s First Visual Builder With An Infinite Canvas",
+    "link": "https://smashingmagazine.com/2026/07/kirki-wordpress-visual-builder-infinite-canvas/",
+    "desc": "We have been building websites inside boxes for years on WordPress. Let’s take a closer look at [Kirki](https://kirki.com/), the first freeform visual builder with an infinite canvas, and explore how it redefines the experience with cleaner performance, full design freedom, and zero plugin depend...",
+    "date": "2026-07-07",
+    "source": "Smashing Magazine",
+    "cat": "design",
+    "lang": "en"
+  },
+  {
+    "title": "SecretAuth – UX-решение для авторизации посредством приватного ключа",
+    "link": "https://habr.com/ru/articles/1055364/?utm_campaign=1055364&utm_source=habrahabr&utm_medium=rss",
+    "desc": "Мир сильно изменился с начала 21 века. В том числе, что касается систем авторизации. Мы продвинулись от авторизации через обычный логин и пароль к использованию централизованных сервисов вроде Google и Apple. Но так ли хорошо это для пользователя? И можно ли сказать, что его данные принадлежат ем...",
+    "date": "2026-07-03",
+    "source": "Habr Веб-дизайн",
+    "cat": "design",
+    "lang": "ru"
+  },
+  {
+    "title": "Users Don’t Need More Tools: They Need Seamless Integrations",
+    "link": "https://smashingmagazine.com/2026/07/users-dont-need-more-tools-need-seamless-integrations/",
+    "desc": "A closer look at why users don’t need more tools in their daily lives. What they need are seamless integrations of useful features to match already existing, established mental models. Brought to you by Design Patterns For AI Interfaces , **friendly video course on UX** and design patterns by Vit...",
+    "date": "2026-07-03",
+    "source": "Smashing Magazine",
+    "cat": "design",
+    "lang": "en"
+  },
+  {
+    "title": "Matching AI Modality To User Intent: Designing The Right Interface",
+    "link": "https://smashingmagazine.com/2026/07/matching-ai-modality-user-intent-designing-right-interface/",
+    "desc": "We’ve fallen into conversational tunnel vision, defaulting every AI capability into a chat-based interface simply because LLMs are trained on dialogue data. But great UX is about matching modality to users’ context, intent, and cognitive load, so the interface adapts to the user, not the other wa...",
+    "date": "2026-07-02",
+    "source": "Smashing Magazine",
+    "cat": "design",
+    "lang": "en"
+  },
+  {
+    "title": "Как мы перестали полировать макеты и начали отдавать дизайн итерациями",
+    "link": "https://habr.com/ru/articles/1048298/?utm_campaign=1048298&utm_source=habrahabr&utm_medium=rss",
+    "desc": "Итеративный дизайн на самом деле не только про дизайн, но и про подход к созданию продукта. Он связывает дизайнеров, команду разработки, PO (product owner), PM (project manager) и пользователей в систему, где каждый влияет на то, каким становится продукт. Дизайнер перестаёт быть исполнителем маке...",
+    "date": "2026-06-30",
+    "source": "Habr Веб-дизайн",
+    "cat": "design",
+    "lang": "ru"
+  },
+  {
+    "title": "Why Accessibility Is An Operational Capability, Not A Feature",
+    "link": "https://smashingmagazine.com/2026/06/why-accessibility-operational-capability-not-feature/",
+    "desc": "Teams can generate UI faster than ever, but they still have to guarantee that what they ship is usable, secure, and maintainable. Accessibility as an operational capability rather than a compliance checklist or end-of-project audit, and what that looks like in practice.",
+    "date": "2026-06-30",
+    "source": "Smashing Magazine",
+    "cat": "design",
+    "lang": "en"
+  },
+  {
+    "title": "Snapshots Of Summer (July 2026 Wallpapers Edition)",
+    "link": "https://smashingmagazine.com/2026/06/desktop-wallpaper-calendars-july-2026/",
+    "desc": "July is just around the corner, and that means... It’s time for some new desktop wallpapers! As every month, the wallpapers in this collection were created by the community for the community and can be downloaded for free. Enjoy!",
+    "date": "2026-06-30",
+    "source": "Smashing Magazine",
+    "cat": "design",
+    "lang": "en"
+  },
+  {
+    "title": "Еще несколько «ласковых слов» о новом редакторе Habr ¯\\_(ツ)_/¯",
+    "link": "https://habr.com/ru/articles/1052730/?utm_campaign=1052730&utm_source=habrahabr&utm_medium=rss",
+    "desc": "Несколько лет назад в процессе подготовки очередной статьи (о ней чуть ниже) я вынужденно столкнулся с новым редактором Habr, которого до этого мне удавалось избегать, и который к тому моменту стал безальтернативным. Тогда “по мотивам” пользования этим поделием почти сама родилась статья Нескольк...",
+    "date": "2026-06-27",
+    "source": "Habr Веб-дизайн",
+    "cat": "design",
+    "lang": "ru"
+  },
+  {
+    "title": "Как генератор палитр дорос до конструктора бренда: один ИИ-эндпоинт, дырявая ссылка и грабли деплоя",
+    "link": "https://habr.com/ru/articles/1052768/?utm_campaign=1052768&utm_source=habrahabr&utm_medium=rss",
+    "desc": "Несколько дней назад я сделал маленький инструмент для себя. Надоело каждый раз начинать новый проект с колеса оттенков: крутишь Coolors, листаешь Pinterest, смотришь на чужие палитры, которые «почти подходят». А ведь у проекта уже есть образ, это слово. Рассвет. Шторм. Тёмный лес. У каждого слов...",
+    "date": "2026-06-27",
+    "source": "Habr Веб-дизайн",
+    "cat": "design",
+    "lang": "ru"
+  },
+  {
+    "title": "Сайт Своего Банка вошел в топ-20 рейтинга по росту качества",
+    "link": "https://habr.com/ru/companies/svoi_ru/news/1048854/?utm_campaign=1048854&utm_source=habrahabr&utm_medium=rss",
+    "desc": "Свой Банк занял 18 место в рейтинге динамики индекса качества сайтов (ИКС) среди более чем 150 крупнейших кредитных организаций страны. По итогам отчетного периода — с марта 2026 года — показатель Банка вырос на 12,5%, что позволило ему подняться сразу на четыре строчки в общем зачете веб-ресурсо...",
+    "date": "2026-06-18",
+    "source": "Habr Веб-дизайн",
+    "cat": "design",
+    "lang": "ru"
+  },
+  {
+    "title": "GLM-5.2: Built for Long-Horizon Tasks",
+    "link": "https://huggingface.co/blog/zai-org/glm-52-blog",
+    "desc": "",
+    "date": "2026-06-17",
+    "source": "Hugging Face",
+    "cat": "design",
+    "lang": "en"
+  },
+  {
+    "title": "Заменит ли умная строка традиционные графические интерфейсы? История смены парадигм в интерфейсостроении",
+    "link": "https://habr.com/ru/companies/ozontech/articles/1047914/?utm_campaign=1047914&utm_source=habrahabr&utm_medium=rss",
+    "desc": "Весь этот шум вокруг AI заставляет задуматься, а выживут ли традиционные интерфейсы с окнами и кнопками. Не окажется ли, что через несколько лет основным интерфейсом станет одна умная строка, в которую мы просто пишем или говорим, что хотим получить? Я думаю, что графические интерфейсы не исчезну...",
+    "date": "2026-06-16",
+    "source": "Habr Веб-дизайн",
+    "cat": "design",
+    "lang": "ru"
+  },
+  {
+    "title": "Линия в дизайне: как направление управляет вниманием и ощущением движения",
+    "link": "https://habr.com/ru/companies/severstal/articles/1048254/?utm_campaign=1048254&utm_source=habrahabr&utm_medium=rss",
+    "desc": "Линия — это движение. Даже в самых простых интерфейсах линия почти всегда присутствует. Именно она определяет, как пользователь «читает» интерфейс и куда движется его взгляд. Исследуем, как линия управляет вниманием пользователя. Больше о линиях",
+    "date": "2026-06-16",
+    "source": "Habr Веб-дизайн",
+    "cat": "design",
+    "lang": "ru"
+  },
+  {
+    "title": "Сабглифы, гайдлайн на 50 страниц и 2500 иконок: пересобрали всю систему, когда «просто» захотели освежить иконки",
+    "link": "https://habr.com/ru/companies/alfa/articles/1048062/?utm_campaign=1048062&utm_source=habrahabr&utm_medium=rss",
+    "desc": "Привет друзья! Меня зовут Тима, я дизайнер в дизайн-системе Альфа-Бизнес. Когда в крупном финтех-продукте заходит речь об обновлении иконок, со стороны это кажется легкой творческой задачей на пару недель: сел, порисовал в Figma, выгрузил — готово. Но в реальности бигтеха любая попытка просто «ос...",
+    "date": "2026-06-16",
+    "source": "Habr Веб-дизайн",
+    "cat": "design",
+    "lang": "ru"
+  },
+  {
+    "title": "Designing With Uncertainty: How AI Supercharges Probabilistic Thinking",
+    "link": "https://smashingmagazine.com/2026/06/designing-uncertainty-how-ai-supercharges-probabilistic-thinking/",
+    "desc": "In a world where AI is informing more design choices, it’s easy to mistake predictions for certainties. This article introduces Probabilistic Design, a mindset that allows UX and product teams to accept uncertainty, decipher AI outputs with nuance, and make smart, adaptive decisions.",
+    "date": "2026-06-16",
+    "source": "Smashing Magazine",
+    "cat": "design",
+    "lang": "en"
   }
 ]

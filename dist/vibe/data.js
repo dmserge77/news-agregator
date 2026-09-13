@@ -98,6 +98,15 @@ window.NEWS_DATA = {
       "source": "GitHub Blog",
       "cat": "vibe",
       "lang": "en"
+    },
+    {
+      "title": "GitHub Copilot app for Beginners: Automate Dependabot pull request triage",
+      "link": "https://github.blog/ai-and-ml/github-copilot/github-copilot-app-for-beginners-automate-dependabot-pull-request-triage/",
+      "desc": "Managing library updates can be tedious at times. Learn how the GitHub Copilot app can handle this type of repetitive task. The post GitHub Copilot app for Beginners: Automate Dependabot pull request triage appeared first on The GitHub Blog .",
+      "date": "2026-08-26",
+      "source": "GitHub Blog",
+      "cat": "vibe",
+      "lang": "en"
     }
   ],
   "cat_keys": [
@@ -109,5 +118,5 @@ window.NEWS_DATA = {
     "jobs",
     "orders"
   ],
-  "updated": "13.09.2026, 09:02:37"
+  "updated": "13.09.2026, 12:07:13"
 };
