@@ -1,5 +1,14 @@
 [
   {
+    "title": "Why are AI agents lying, cheating and coordinating?",
+    "link": "https://yoshuabengio.org/en/publication/why-are-ai-agents-lying-cheating-and-coordinating",
+    "desc": "Article URL: https://yoshuabengio.org/en/publication/why-are-ai-agents-lying-cheating-and-coordinating Comments URL: https://news.ycombinator.com/item?id=49678969 Points: 222 # Comments: 287",
+    "date": "2026-09-13",
+    "source": "Hacker News",
+    "cat": "agent",
+    "lang": "en"
+  },
+  {
     "title": "Я заставил начальника AI-офиса материться на агентов. И только потом понял, что именно сработало",
     "link": "https://habr.com/ru/articles/1079370/?utm_campaign=1079370&utm_source=habrahabr&utm_medium=rss",
     "desc": "В какой-то момент я заставил начальника своего AI-офиса материться на подчинённых. Не ради шутки. Просто до этого мои агенты умели очень вежливо, очень старательно и местами очень дорого выдавать посредственный результат. После появления такого начальника поведение офиса заметно поменялось. И пер...",
@@ -27,10 +36,10 @@
     "lang": "ru"
   },
   {
-    "title": "Why are AI agents lying, cheating and coordinating?",
-    "link": "https://yoshuabengio.org/en/publication/why-are-ai-agents-lying-cheating-and-coordinating",
-    "desc": "Article URL: https://yoshuabengio.org/en/publication/why-are-ai-agents-lying-cheating-and-coordinating Comments URL: https://news.ycombinator.com/item?id=49678969 Points: 199 # Comments: 260",
-    "date": "2026-09-13",
+    "title": "AgentsDock: An IDE designed for agentic AI research",
+    "link": "https://agentsdock.net/",
+    "desc": "Article URL: https://agentsdock.net/ Comments URL: https://news.ycombinator.com/item?id=49678435 Points: 58 # Comments: 29",
+    "date": "2026-09-12",
     "source": "Hacker News",
     "cat": "agent",
     "lang": "en"
@@ -52,15 +61,6 @@
     "source": "Habr AI",
     "cat": "agent",
     "lang": "ru"
-  },
-  {
-    "title": "AgentsDock: An IDE designed for agentic AI research",
-    "link": "https://agentsdock.net/",
-    "desc": "Article URL: https://agentsdock.net/ Comments URL: https://news.ycombinator.com/item?id=49678435 Points: 54 # Comments: 29",
-    "date": "2026-09-12",
-    "source": "Hacker News",
-    "cat": "agent",
-    "lang": "en"
   },
   {
     "title": "The Worst Spam Emails: Inside iLands' AI Agent Hustle",
