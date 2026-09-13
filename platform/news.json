@@ -1,14 +1,5 @@
 [
   {
-    "title": "Show HN: Analyst Index – analysts who make money telling you good stock calls",
-    "link": "https://www.analystidx.com/",
-    "desc": "Hi HN! What if analyst ratings could be relied on to help you find the next Sandisk, before it takes off? On Analyst Index, analysts publish price targets with a maturity date. Every call gets scored against what the stock actually did, so an analyst builds a record on accuracy instead of on foll...",
-    "date": "2026-09-13",
-    "source": "Hacker News",
-    "cat": "platform",
-    "lang": "en"
-  },
-  {
     "title": "backendlessConf_ 2019",
     "link": "https://vercel.com/blog/our-first-online-conference",
     "desc": "",
@@ -320,6 +311,15 @@
     "desc": "",
     "date": "2026-09-13",
     "source": "Vercel",
+    "cat": "platform",
+    "lang": "en"
+  },
+  {
+    "title": "Show HN: Analyst Index – analysts who make money telling you good stock calls",
+    "link": "https://www.analystidx.com/",
+    "desc": "Hi HN! What if analyst ratings could be relied on to help you find the next Sandisk, before it takes off? On Analyst Index, analysts publish price targets with a maturity date. Every call gets scored against what the stock actually did, so an analyst builds a record on accuracy instead of on foll...",
+    "date": "2026-09-13",
+    "source": "Hacker News",
     "cat": "platform",
     "lang": "en"
   },

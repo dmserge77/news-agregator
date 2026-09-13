@@ -1,5 +1,14 @@
 [
   {
+    "title": "Cpak – OCI application package format for Linux desktops, servers and devices",
+    "link": "https://cpak.it/",
+    "desc": "Article URL: https://cpak.it/ Comments URL: https://news.ycombinator.com/item?id=49684778 Points: 3 # Comments: 1",
+    "date": "2026-09-13",
+    "source": "Hacker News",
+    "cat": "design",
+    "lang": "en"
+  },
+  {
     "title": "The Tuscan Journey Begins",
     "link": "https://www.awwwards.com/sites/the-tuscan-journey-begins",
     "desc": "MONOGRID created an interactive journey for Weekend Max Mara, transforming Italian craftsmanship into an immersive digital experience.",
@@ -59,15 +68,6 @@
     "desc": "",
     "date": "2026-09-11",
     "source": "Vercel",
-    "cat": "design",
-    "lang": "en"
-  },
-  {
-    "title": "How Minnesota Became the Front Line in the Fight Over Prediction Markets",
-    "link": "https://www.nytimes.com/2026/09/11/business/kalshi-polymarket-minnesota-prediction-markets.html",
-    "desc": "The state was the first to pass a law banning Kalshi and Polymarket. A lawsuit filed by a federal agency may set a precedent on who gets to regulate them.",
-    "date": "2026-09-11",
-    "source": "NYT Tech",
     "cat": "design",
     "lang": "en"
   },
@@ -149,6 +149,15 @@
     "desc": "Almost everyone in tech thinks the rest of the industry is further ahead. Most of them are wrong, and for the same reasons. Continue reading on UX Collective »",
     "date": "2026-09-11",
     "source": "UX Collective",
+    "cat": "design",
+    "lang": "en"
+  },
+  {
+    "title": "How Minnesota Became the Front Line in the Fight Over Prediction Markets",
+    "link": "https://www.nytimes.com/2026/09/11/business/kalshi-polymarket-minnesota-prediction-markets.html",
+    "desc": "The state was the first to pass a law banning Kalshi and Polymarket. A lawsuit filed by a federal agency may set a precedent on who gets to regulate them.",
+    "date": "2026-09-11",
+    "source": "NYT Tech",
     "cat": "design",
     "lang": "en"
   },

@@ -1,17 +1,44 @@
 [
   {
-    "title": "Astra and Fable still hack on simple variants of alignment evals from 2025",
-    "link": "https://www.lesswrong.com/posts/munJKF7iWMsWJLAH2/astra-and-fable-still-hack-on-simple-variants-of-alignment",
-    "desc": "Article URL: https://www.lesswrong.com/posts/munJKF7iWMsWJLAH2/astra-and-fable-still-hack-on-simple-variants-of-alignment Comments URL: https://news.ycombinator.com/item?id=49684393 Points: 10 # Comments: 0",
+    "title": "Libraries Run Rust Inside Python (With PyO3)",
+    "link": "https://belderbos.dev/blog/how-libraries-run-rust-inside-python/",
+    "desc": "Article URL: https://belderbos.dev/blog/how-libraries-run-rust-inside-python/ Comments URL: https://news.ycombinator.com/item?id=49685037 Points: 8 # Comments: 5",
     "date": "2026-09-13",
     "source": "Hacker News",
     "cat": "ai",
     "lang": "en"
   },
   {
-    "title": "Houthis Used Claude Code to Develop Missile Guidance Software: Anthropic",
-    "link": "https://clashreport.com/world/articles/houthis-used-claude-code-to-develop-missile-guidance-software-anthropic-s52mnx4pwpo",
-    "desc": "Article URL: https://clashreport.com/world/articles/houthis-used-claude-code-to-develop-missile-guidance-software-anthropic-s52mnx4pwpo Comments URL: https://news.ycombinator.com/item?id=49684266 Points: 10 # Comments: 11",
+    "title": "Predictive intelligence to anticipate anything.",
+    "link": "https://prior.chat/",
+    "desc": "Article URL: https://prior.chat/ Comments URL: https://news.ycombinator.com/item?id=49684879 Points: 4 # Comments: 4",
+    "date": "2026-09-13",
+    "source": "Hacker News",
+    "cat": "ai",
+    "lang": "en"
+  },
+  {
+    "title": "Astra and Fable still hack on simple variants of alignment evals from 2025",
+    "link": "https://www.lesswrong.com/posts/munJKF7iWMsWJLAH2/astra-and-fable-still-hack-on-simple-variants-of-alignment",
+    "desc": "Article URL: https://www.lesswrong.com/posts/munJKF7iWMsWJLAH2/astra-and-fable-still-hack-on-simple-variants-of-alignment Comments URL: https://news.ycombinator.com/item?id=49684393 Points: 83 # Comments: 22",
+    "date": "2026-09-13",
+    "source": "Hacker News",
+    "cat": "ai",
+    "lang": "en"
+  },
+  {
+    "title": "CUDA for AMD on Windows",
+    "link": "https://github.com/Speedstu/CUDA-for-AMD-Windows",
+    "desc": "Article URL: https://github.com/Speedstu/CUDA-for-AMD-Windows Comments URL: https://news.ycombinator.com/item?id=49684356 Points: 19 # Comments: 1",
+    "date": "2026-09-13",
+    "source": "Hacker News",
+    "cat": "ai",
+    "lang": "en"
+  },
+  {
+    "title": "Making Startups Powerful",
+    "link": "https://paulgraham.com/powerful.html",
+    "desc": "Article URL: https://paulgraham.com/powerful.html Comments URL: https://news.ycombinator.com/item?id=49684196 Points: 12 # Comments: 1",
     "date": "2026-09-13",
     "source": "Hacker News",
     "cat": "ai",
@@ -20,7 +47,7 @@
   {
     "title": "Key symbols we lost to time, pt. 1: The PC side",
     "link": "https://unsung.aresluna.org/key-symbols-we-lost-to-time-pt-1-the-pc-side/",
-    "desc": "Article URL: https://unsung.aresluna.org/key-symbols-we-lost-to-time-pt-1-the-pc-side/ Comments URL: https://news.ycombinator.com/item?id=49684101 Points: 7 # Comments: 0",
+    "desc": "Article URL: https://unsung.aresluna.org/key-symbols-we-lost-to-time-pt-1-the-pc-side/ Comments URL: https://news.ycombinator.com/item?id=49684101 Points: 31 # Comments: 3",
     "date": "2026-09-13",
     "source": "Hacker News",
     "cat": "ai",
@@ -29,34 +56,7 @@
   {
     "title": "Paul A. M. Dirac, Interview by Friedrich Hund (1982) [video]",
     "link": "https://www.youtube.com/watch?v=xJzrU38pGWc",
-    "desc": "Article URL: https://www.youtube.com/watch?v=xJzrU38pGWc Comments URL: https://news.ycombinator.com/item?id=49684042 Points: 12 # Comments: 0",
-    "date": "2026-09-13",
-    "source": "Hacker News",
-    "cat": "ai",
-    "lang": "en"
-  },
-  {
-    "title": "Your car is selling your data",
-    "link": "https://www.theverge.com/column/994172/your-car-is-selling-your-data",
-    "desc": "Article URL: https://www.theverge.com/column/994172/your-car-is-selling-your-data Comments URL: https://news.ycombinator.com/item?id=49683953 Points: 47 # Comments: 28",
-    "date": "2026-09-13",
-    "source": "Hacker News",
-    "cat": "ai",
-    "lang": "en"
-  },
-  {
-    "title": "Flock worker calls police on reporter filming public camera installation",
-    "link": "https://www.investigatetv.com/2026/09/08/flock-worker-calls-police-investigatetv-reporter-filming-public-camera-installation/",
-    "desc": "Article URL: https://www.investigatetv.com/2026/09/08/flock-worker-calls-police-investigatetv-reporter-filming-public-camera-installation/ Comments URL: https://news.ycombinator.com/item?id=49683853 Points: 172 # Comments: 123",
-    "date": "2026-09-13",
-    "source": "Hacker News",
-    "cat": "ai",
-    "lang": "en"
-  },
-  {
-    "title": "AI models don't kill people – people kill people",
-    "link": "https://www.theregister.com/ai-and-ml/2026/09/09/ai-models-dont-kill-people-people-kill-people/5295368",
-    "desc": "Article URL: https://www.theregister.com/ai-and-ml/2026/09/09/ai-models-dont-kill-people-people-kill-people/5295368 Comments URL: https://news.ycombinator.com/item?id=49683834 Points: 31 # Comments: 32",
+    "desc": "Article URL: https://www.youtube.com/watch?v=xJzrU38pGWc Comments URL: https://news.ycombinator.com/item?id=49684042 Points: 21 # Comments: 1",
     "date": "2026-09-13",
     "source": "Hacker News",
     "cat": "ai",
@@ -65,7 +65,7 @@
   {
     "title": "US Customs supervisor busted for stealing hardware from Homeland Security PCs",
     "link": "https://www.tomshardware.com/pc-components/us-customs-supervisor-busted-for-stealing-core-i7-cpus-ram-and-hard-drives-from-homeland-security-pcs-stolen-tech-swapped-with-inferior-hardware-and-cashed-out-on-newegg",
-    "desc": "Article URL: https://www.tomshardware.com/pc-components/us-customs-supervisor-busted-for-stealing-core-i7-cpus-ram-and-hard-drives-from-homeland-security-pcs-stolen-tech-swapped-with-inferior-hardware-and-cashed-out-on-newegg Comments URL: https://news.ycombinator.com/item?id=49683729 Points: 51 ...",
+    "desc": "Article URL: https://www.tomshardware.com/pc-components/us-customs-supervisor-busted-for-stealing-core-i7-cpus-ram-and-hard-drives-from-homeland-security-pcs-stolen-tech-swapped-with-inferior-hardware-and-cashed-out-on-newegg Comments URL: https://news.ycombinator.com/item?id=49683729 Points: 75 ...",
     "date": "2026-09-13",
     "source": "Hacker News",
     "cat": "ai",
@@ -74,7 +74,7 @@
   {
     "title": "Why is the x86 undefined instruction called ud2? Why 2?",
     "link": "https://devblogs.microsoft.com/oldnewthing/20260910-00/?p=112689",
-    "desc": "Article URL: https://devblogs.microsoft.com/oldnewthing/20260910-00/?p=112689 Comments URL: https://news.ycombinator.com/item?id=49683262 Points: 4 # Comments: 1",
+    "desc": "Article URL: https://devblogs.microsoft.com/oldnewthing/20260910-00/?p=112689 Comments URL: https://news.ycombinator.com/item?id=49683262 Points: 31 # Comments: 11",
     "date": "2026-09-13",
     "source": "Hacker News",
     "cat": "ai",
@@ -83,7 +83,7 @@
   {
     "title": "'Fingerprints' inside the Sun could reveal if it once swallowed a planet",
     "link": "https://ras.ac.uk/news-and-press/research-highlights/fingerprints-inside-sun-could-reveal-if-it-once-swallowed-planet",
-    "desc": "Article URL: https://ras.ac.uk/news-and-press/research-highlights/fingerprints-inside-sun-could-reveal-if-it-once-swallowed-planet Comments URL: https://news.ycombinator.com/item?id=49683033 Points: 42 # Comments: 16",
+    "desc": "Article URL: https://ras.ac.uk/news-and-press/research-highlights/fingerprints-inside-sun-could-reveal-if-it-once-swallowed-planet Comments URL: https://news.ycombinator.com/item?id=49683033 Points: 64 # Comments: 17",
     "date": "2026-09-13",
     "source": "Hacker News",
     "cat": "ai",
@@ -92,7 +92,7 @@
   {
     "title": "Revolut confirms customer data breach through fake government requests",
     "link": "https://techcrunch.com/2026/09/12/revolut-confirms-customer-data-breach-through-fake-government-requests/",
-    "desc": "Article URL: https://techcrunch.com/2026/09/12/revolut-confirms-customer-data-breach-through-fake-government-requests/ Comments URL: https://news.ycombinator.com/item?id=49682087 Points: 109 # Comments: 71",
+    "desc": "Article URL: https://techcrunch.com/2026/09/12/revolut-confirms-customer-data-breach-through-fake-government-requests/ Comments URL: https://news.ycombinator.com/item?id=49682087 Points: 128 # Comments: 87",
     "date": "2026-09-13",
     "source": "Hacker News",
     "cat": "ai",
@@ -101,7 +101,7 @@
   {
     "title": "Homebrew 7.0.0",
     "link": "https://brew.sh/2026/09/13/homebrew-7.0.0/",
-    "desc": "Article URL: https://brew.sh/2026/09/13/homebrew-7.0.0/ Comments URL: https://news.ycombinator.com/item?id=49681545 Points: 292 # Comments: 124",
+    "desc": "Article URL: https://brew.sh/2026/09/13/homebrew-7.0.0/ Comments URL: https://news.ycombinator.com/item?id=49681545 Points: 351 # Comments: 140",
     "date": "2026-09-13",
     "source": "Hacker News",
     "cat": "ai",
@@ -110,7 +110,7 @@
   {
     "title": "JetKVM Mini",
     "link": "https://jetkvm.com/blog/introducing-jetkvm-mini",
-    "desc": "Article URL: https://jetkvm.com/blog/introducing-jetkvm-mini Comments URL: https://news.ycombinator.com/item?id=49681152 Points: 315 # Comments: 122",
+    "desc": "Article URL: https://jetkvm.com/blog/introducing-jetkvm-mini Comments URL: https://news.ycombinator.com/item?id=49681152 Points: 351 # Comments: 135",
     "date": "2026-09-13",
     "source": "Hacker News",
     "cat": "ai",
@@ -119,7 +119,7 @@
   {
     "title": "A wandering black hole caught feeding on the run",
     "link": "https://phys.org/news/2026-08-black-hole-caught.html",
-    "desc": "Article URL: https://phys.org/news/2026-08-black-hole-caught.html Comments URL: https://news.ycombinator.com/item?id=49679734 Points: 44 # Comments: 28",
+    "desc": "Article URL: https://phys.org/news/2026-08-black-hole-caught.html Comments URL: https://news.ycombinator.com/item?id=49679734 Points: 56 # Comments: 38",
     "date": "2026-09-13",
     "source": "Hacker News",
     "cat": "ai",
@@ -128,7 +128,7 @@
   {
     "title": "Aligned to whom?",
     "link": "https://hyperbo.la/w/aligned-to-whom/",
-    "desc": "Article URL: https://hyperbo.la/w/aligned-to-whom/ Comments URL: https://news.ycombinator.com/item?id=49679643 Points: 121 # Comments: 62",
+    "desc": "Article URL: https://hyperbo.la/w/aligned-to-whom/ Comments URL: https://news.ycombinator.com/item?id=49679643 Points: 139 # Comments: 80",
     "date": "2026-09-13",
     "source": "Hacker News",
     "cat": "ai",
@@ -137,24 +137,15 @@
   {
     "title": "The Interim Computer Museum",
     "link": "https://icm.museum/",
-    "desc": "Article URL: https://icm.museum/ Comments URL: https://news.ycombinator.com/item?id=49679459 Points: 141 # Comments: 16",
+    "desc": "Article URL: https://icm.museum/ Comments URL: https://news.ycombinator.com/item?id=49679459 Points: 148 # Comments: 17",
     "date": "2026-09-13",
     "source": "Hacker News",
     "cat": "ai",
     "lang": "en"
   },
   {
-    "title": "Everyone should slow down AI development except for me",
-    "link": "https://xeiaso.net/notes/2026/everyone-slowdown-but-me/",
-    "desc": "Article URL: https://xeiaso.net/notes/2026/everyone-slowdown-but-me/ Comments URL: https://news.ycombinator.com/item?id=49678683 Points: 638 # Comments: 379",
-    "date": "2026-09-13",
-    "source": "Hacker News",
-    "cat": "ai",
-    "lang": "en"
-  },
-  {
-    "title": "Don't call yourself an artisanal programmer",
-    "link": "https://purplesyringa.moe/blog/dont-call-yourself-an-artisanal-programmer/",
+    "title": "From Git to Fossil (2025)",
+    "link": "https://lucio.albenga.es/web-en/posts/2025/from-git-to-fossil.html",
     "desc": "Comments",
     "date": "2026-09-13",
     "source": "Lobsters",
@@ -162,8 +153,8 @@
     "lang": "en"
   },
   {
-    "title": "From Git to Fossil (2025)",
-    "link": "https://lucio.albenga.es/web-en/posts/2025/from-git-to-fossil.html",
+    "title": "Don't call yourself an artisanal programmer",
+    "link": "https://purplesyringa.moe/blog/dont-call-yourself-an-artisanal-programmer/",
     "desc": "Comments",
     "date": "2026-09-13",
     "source": "Lobsters",
@@ -189,8 +180,8 @@
     "lang": "en"
   },
   {
-    "title": "Being lazy in C++",
-    "link": "https://cpp-rendering.io/being-lazy-in-c/",
+    "title": "After Math",
+    "link": "https://terrytao.wordpress.com/2026/09/12/after-math/",
     "desc": "Comments",
     "date": "2026-09-13",
     "source": "Lobsters",
@@ -207,26 +198,8 @@
     "lang": "en"
   },
   {
-    "title": "The Esdac Film (1951, 1976)",
-    "link": "https://www.youtube.com/watch?v=DjhRRj6WYcs",
-    "desc": "Comments",
-    "date": "2026-09-13",
-    "source": "Lobsters",
-    "cat": "ai",
-    "lang": "en"
-  },
-  {
-    "title": "After Math",
-    "link": "https://terrytao.wordpress.com/2026/09/12/after-math/",
-    "desc": "Comments",
-    "date": "2026-09-13",
-    "source": "Lobsters",
-    "cat": "ai",
-    "lang": "en"
-  },
-  {
-    "title": "Can a regex match valid card numbers?",
-    "link": "https://abstractnonsense.xyz/blog/2025-08-31-can-a-regex-match-valid-card-numbers/",
+    "title": "Being lazy in C++",
+    "link": "https://cpp-rendering.io/being-lazy-in-c/",
     "desc": "Comments",
     "date": "2026-09-13",
     "source": "Lobsters",
@@ -243,9 +216,36 @@
     "lang": "en"
   },
   {
+    "title": "The Esdac Film (1951, 1976)",
+    "link": "https://www.youtube.com/watch?v=DjhRRj6WYcs",
+    "desc": "Comments",
+    "date": "2026-09-13",
+    "source": "Lobsters",
+    "cat": "ai",
+    "lang": "en"
+  },
+  {
+    "title": "Golang developers should try Odin",
+    "link": "https://rm4n0s.github.io/posts/2-go-devs-should-learn-odin/",
+    "desc": "Comments",
+    "date": "2026-09-13",
+    "source": "Lobsters",
+    "cat": "ai",
+    "lang": "en"
+  },
+  {
     "title": "Anthropic C.E.O. Dario Amodei Calls for A.I. Slowdown",
     "link": "https://www.nytimes.com/2026/09/12/technology/anthropic-dario-amodei-ai-slowdown.html",
     "desc": "In an essay, the head of Anthropic laid out the rapidly advancing capabilities of artificial intelligence and said there needed to be greater safety controls across the industry.",
+    "date": "2026-09-13",
+    "source": "NYT Tech",
+    "cat": "ai",
+    "lang": "en"
+  },
+  {
+    "title": "What Anthropic’s C.E.O. Argued in His Call for Slower A.I. Development",
+    "link": "https://www.nytimes.com/2026/09/13/technology/anthropic-ceo-slower-ai-development.html",
+    "desc": "Dario Amodei’s 3,800-word letter laid out a three-step plan to rein in artificial intelligence.",
     "date": "2026-09-13",
     "source": "NYT Tech",
     "cat": "ai",
@@ -259,6 +259,33 @@
     "source": "NYT Tech",
     "cat": "ai",
     "lang": "en"
+  },
+  {
+    "title": "Пределы сложности искусственного интеллекта и физические основания жизни",
+    "link": "https://habr.com/ru/articles/1081764/?utm_campaign=1081764&utm_source=habrahabr&utm_medium=rss",
+    "desc": "Физические особенности биологических систем позволяют сделать выводы о перспективах искусственного интеллекта. Читать далее",
+    "date": "2026-09-13",
+    "source": "Habr AI",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "Как я делаю ИИ-память из переписки в Telegram: десятки тысяч сообщений, тысячи фактов, сотни людей",
+    "link": "https://habr.com/ru/articles/1081382/?utm_campaign=1081382&utm_source=habrahabr&utm_medium=rss",
+    "desc": "Ночью, около двух по московскому времени, сервер просыпается и запускает конвейер. Сначала сервис идёт в Telegram и скачивает новые сообщения из чатов, которые пользователь отметил галочками. Через час стартует второй воркер и превращает эти сообщения в память: режет на куски, гоняет через DeepSe...",
+    "date": "2026-09-13",
+    "source": "Habr AI",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "Отличи меня, если сможешь! Как дипфейки меняют современный наем в ИТ (и не только)",
+    "link": "https://habr.com/ru/companies/beeline_cloud/articles/1081756/?utm_campaign=1081756&utm_source=habrahabr&utm_medium=rss",
+    "desc": "Вектором для кибератак все чаще становятся обычные собеседования. Злоумышленники используют дипфейки, чтобы выдавать себя за реальных кандидатов и рекрутеров, или распространяют зловреды под видом тестовых заданий — присылают «безобидный» код или пакет-зависимость, при запуске которого на устройс...",
+    "date": "2026-09-13",
+    "source": "Habr AI",
+    "cat": "ai",
+    "lang": "ru"
   },
   {
     "title": "MEO: ещё одна маркетинговая аббревиатура или реальная техническая проблема ранжирования?",
@@ -342,6 +369,60 @@
     "lang": "ru"
   },
   {
+    "title": "Houthis Used Claude Code to Develop Missile Guidance Software: Anthropic",
+    "link": "https://clashreport.com/world/articles/houthis-used-claude-code-to-develop-missile-guidance-software-anthropic-s52mnx4pwpo",
+    "desc": "Article URL: https://clashreport.com/world/articles/houthis-used-claude-code-to-develop-missile-guidance-software-anthropic-s52mnx4pwpo Comments URL: https://news.ycombinator.com/item?id=49684266 Points: 10 # Comments: 11",
+    "date": "2026-09-13",
+    "source": "Hacker News",
+    "cat": "ai",
+    "lang": "en"
+  },
+  {
+    "title": "Your car is selling your data",
+    "link": "https://www.theverge.com/column/994172/your-car-is-selling-your-data",
+    "desc": "Article URL: https://www.theverge.com/column/994172/your-car-is-selling-your-data Comments URL: https://news.ycombinator.com/item?id=49683953 Points: 47 # Comments: 28",
+    "date": "2026-09-13",
+    "source": "Hacker News",
+    "cat": "ai",
+    "lang": "en"
+  },
+  {
+    "title": "Flock worker calls police on reporter filming public camera installation",
+    "link": "https://www.investigatetv.com/2026/09/08/flock-worker-calls-police-investigatetv-reporter-filming-public-camera-installation/",
+    "desc": "Article URL: https://www.investigatetv.com/2026/09/08/flock-worker-calls-police-investigatetv-reporter-filming-public-camera-installation/ Comments URL: https://news.ycombinator.com/item?id=49683853 Points: 172 # Comments: 123",
+    "date": "2026-09-13",
+    "source": "Hacker News",
+    "cat": "ai",
+    "lang": "en"
+  },
+  {
+    "title": "AI models don't kill people – people kill people",
+    "link": "https://www.theregister.com/ai-and-ml/2026/09/09/ai-models-dont-kill-people-people-kill-people/5295368",
+    "desc": "Article URL: https://www.theregister.com/ai-and-ml/2026/09/09/ai-models-dont-kill-people-people-kill-people/5295368 Comments URL: https://news.ycombinator.com/item?id=49683834 Points: 31 # Comments: 32",
+    "date": "2026-09-13",
+    "source": "Hacker News",
+    "cat": "ai",
+    "lang": "en"
+  },
+  {
+    "title": "Everyone should slow down AI development except for me",
+    "link": "https://xeiaso.net/notes/2026/everyone-slowdown-but-me/",
+    "desc": "Article URL: https://xeiaso.net/notes/2026/everyone-slowdown-but-me/ Comments URL: https://news.ycombinator.com/item?id=49678683 Points: 638 # Comments: 379",
+    "date": "2026-09-13",
+    "source": "Hacker News",
+    "cat": "ai",
+    "lang": "en"
+  },
+  {
+    "title": "Can a regex match valid card numbers?",
+    "link": "https://abstractnonsense.xyz/blog/2025-08-31-can-a-regex-match-valid-card-numbers/",
+    "desc": "Comments",
+    "date": "2026-09-13",
+    "source": "Lobsters",
+    "cat": "ai",
+    "lang": "en"
+  },
+  {
     "title": "Norton Neo Browser",
     "link": "https://neobrowser.ai/",
     "desc": "Article URL: https://neobrowser.ai/ Comments URL: https://news.ycombinator.com/item?id=49681724 Points: 16 # Comments: 10",
@@ -416,15 +497,24 @@
   {
     "title": "TailTalk: A modern async user space AppleTalk stack with Rust and Tokio",
     "link": "https://github.com/FeralFirmware/TailTalk/",
-    "desc": "Article URL: https://github.com/FeralFirmware/TailTalk/ Comments URL: https://news.ycombinator.com/item?id=49678423 Points: 29 # Comments: 8",
+    "desc": "Article URL: https://github.com/FeralFirmware/TailTalk/ Comments URL: https://news.ycombinator.com/item?id=49678423 Points: 43 # Comments: 11",
     "date": "2026-09-12",
     "source": "Hacker News",
     "cat": "ai",
     "lang": "en"
   },
   {
-    "title": "a better way of blocking macOS updates",
-    "link": "https://zoey-on-github.github.io/blog/updates.html",
+    "title": "Don't be the out of touch Kung Fu master",
+    "link": "https://twitter.com/ID_AA_Carmack/status/2098443262214230095",
+    "desc": "Article URL: https://twitter.com/ID_AA_Carmack/status/2098443262214230095 Comments URL: https://news.ycombinator.com/item?id=49677577 Points: 210 # Comments: 282",
+    "date": "2026-09-12",
+    "source": "Hacker News",
+    "cat": "ai",
+    "lang": "en"
+  },
+  {
+    "title": "A Dick Smith VZ200 without the Dick Smith",
+    "link": "http://oldvcr.blogspot.com/2026/09/a-dick-smith-vz200-without-dick-smith.html",
     "desc": "Comments",
     "date": "2026-09-12",
     "source": "Lobsters",
@@ -432,8 +522,8 @@
     "lang": "en"
   },
   {
-    "title": "A Dick Smith VZ200 without the Dick Smith",
-    "link": "http://oldvcr.blogspot.com/2026/09/a-dick-smith-vz200-without-dick-smith.html",
+    "title": "a better way of blocking macOS updates",
+    "link": "https://zoey-on-github.github.io/blog/updates.html",
     "desc": "Comments",
     "date": "2026-09-12",
     "source": "Lobsters",
@@ -495,8 +585,8 @@
     "lang": "en"
   },
   {
-    "title": "Optimizing a single Rust Clippy lint by 3133X",
-    "link": "https://blog.goose.love/posts/making-a-clippy-lint-faster-by-3133x/",
+    "title": "Metacarp",
+    "link": "https://blog.veitheller.de/Metacarp.html",
     "desc": "Comments",
     "date": "2026-09-12",
     "source": "Lobsters",
@@ -684,11 +774,11 @@
     "lang": "ru"
   },
   {
-    "title": "Don't be the out of touch Kung Fu master",
-    "link": "https://twitter.com/ID_AA_Carmack/status/2098443262214230095",
-    "desc": "Article URL: https://twitter.com/ID_AA_Carmack/status/2098443262214230095 Comments URL: https://news.ycombinator.com/item?id=49677577 Points: 126 # Comments: 133",
+    "title": "Optimizing a single Rust Clippy lint by 3133X",
+    "link": "https://blog.goose.love/posts/making-a-clippy-lint-faster-by-3133x/",
+    "desc": "Comments",
     "date": "2026-09-12",
-    "source": "Hacker News",
+    "source": "Lobsters",
     "cat": "ai",
     "lang": "en"
   },
@@ -776,15 +866,6 @@
   {
     "title": "Lua Pattern Tester",
     "link": "https://iamreiyn.github.io/lua-pattern-tester/",
-    "desc": "Comments",
-    "date": "2026-09-12",
-    "source": "Lobsters",
-    "cat": "ai",
-    "lang": "en"
-  },
-  {
-    "title": "Metacarp",
-    "link": "https://blog.veitheller.de/Metacarp.html",
     "desc": "Comments",
     "date": "2026-09-12",
     "source": "Lobsters",
@@ -1107,33 +1188,6 @@
     "lang": "ru"
   },
   {
-    "title": "С ИИ новички умнеют. Без ИИ — как повезет. Свежее исследование NBER",
-    "link": "https://habr.com/ru/articles/1081214/?utm_campaign=1081214&utm_source=habrahabr&utm_medium=rss",
-    "desc": "Юристам дали ИИ-помощника для подготовки патентов. Более ста человек из одиннадцати фирм три месяца писали документы, правили заявки клиентов, ну и все такое. Ученые в это время смотрели, насколько поумнеют люди с ИИ. В конце срока подбили метрику. С ИИ юристы работали лучше. Причем новички рвану...",
-    "date": "2026-09-11",
-    "source": "Habr AI",
-    "cat": "ai",
-    "lang": "ru"
-  },
-  {
-    "title": "ИИ заберёт тексты и код. Но это никогда не было главной работой человека. Часть 1",
-    "link": "https://habr.com/ru/companies/X5Tech/articles/1063492/?utm_campaign=1063492&utm_source=habrahabr&utm_medium=rss",
-    "desc": "ИИ всё лучше справляется с текстом, кодом и другими типовыми задачами, а компании переходят от экспериментов к промышленному внедрению. Нынешняя волна автоматизации кажется уникальной, но похожие технологические сдвиги уже происходили раньше. В первой части серии статей посмотрим, как менялись за...",
-    "date": "2026-09-11",
-    "source": "Habr AI",
-    "cat": "ai",
-    "lang": "ru"
-  },
-  {
-    "title": "А зачем искусственному интеллекту душа? Филологический разбор манифеста Никиты Михалкова",
-    "link": "https://habr.com/ru/articles/1081186/?utm_campaign=1081186&utm_source=habrahabr&utm_medium=rss",
-    "desc": "Недавно Никита Михалков, помимо обычного «гона Бесов» — пусть будут с большой буквы, как у Достоевского, — высказался ещё и об искусственном интеллекте. С мыслью, которую он, как всегда, талантливо и красочно преподнёс, спорить трудно. Михалков заявил, что, если искусственный интеллект заменит ес...",
-    "date": "2026-09-11",
-    "source": "Habr AI",
-    "cat": "ai",
-    "lang": "ru"
-  },
-  {
     "title": "Галлюцинации VLM в zero-shot детекции: ложные тревоги о дыме и решение на уровне промпта",
     "link": "https://habr.com/ru/articles/1081166/?utm_campaign=1081166&utm_source=habrahabr&utm_medium=rss",
     "desc": "Как я попробовала решить задачу детекции огня и дыма без обучения, zero-shot детекцией на VLM. О том, как изначально всё работало на видео с настоящим дымом, а на заведомо чистых улицах модель нашла «дым» на 70 % моих данных: рисовала боксы на машинах, знаках и светофорах, иногда с confidence 0% ...",
@@ -1445,6 +1499,33 @@
     "desc": "GigaChat 3.5 Reasoning — единственная российская открытая модель, которая последовательно рассуждает перед ответом, работает с цепочками задач и способна исправлять собственные ошибки.",
     "date": "2026-09-11",
     "source": "Cossa",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "С ИИ новички умнеют. Без ИИ — как повезет. Свежее исследование NBER",
+    "link": "https://habr.com/ru/articles/1081214/?utm_campaign=1081214&utm_source=habrahabr&utm_medium=rss",
+    "desc": "Юристам дали ИИ-помощника для подготовки патентов. Более ста человек из одиннадцати фирм три месяца писали документы, правили заявки клиентов, ну и все такое. Ученые в это время смотрели, насколько поумнеют люди с ИИ. В конце срока подбили метрику. С ИИ юристы работали лучше. Причем новички рвану...",
+    "date": "2026-09-11",
+    "source": "Habr AI",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "ИИ заберёт тексты и код. Но это никогда не было главной работой человека. Часть 1",
+    "link": "https://habr.com/ru/companies/X5Tech/articles/1063492/?utm_campaign=1063492&utm_source=habrahabr&utm_medium=rss",
+    "desc": "ИИ всё лучше справляется с текстом, кодом и другими типовыми задачами, а компании переходят от экспериментов к промышленному внедрению. Нынешняя волна автоматизации кажется уникальной, но похожие технологические сдвиги уже происходили раньше. В первой части серии статей посмотрим, как менялись за...",
+    "date": "2026-09-11",
+    "source": "Habr AI",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "А зачем искусственному интеллекту душа? Филологический разбор манифеста Никиты Михалкова",
+    "link": "https://habr.com/ru/articles/1081186/?utm_campaign=1081186&utm_source=habrahabr&utm_medium=rss",
+    "desc": "Недавно Никита Михалков, помимо обычного «гона Бесов» — пусть будут с большой буквы, как у Достоевского, — высказался ещё и об искусственном интеллекте. С мыслью, которую он, как всегда, талантливо и красочно преподнёс, спорить трудно. Михалков заявил, что, если искусственный интеллект заменит ес...",
+    "date": "2026-09-11",
+    "source": "Habr AI",
     "cat": "ai",
     "lang": "ru"
   },
