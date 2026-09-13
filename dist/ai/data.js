@@ -307,8 +307,8 @@ window.NEWS_DATA = {
       "lang": "en"
     },
     {
-      "title": "Make it anyway",
-      "link": "https://www.joelotter.com/posts/2026/09/make-it-anyway/",
+      "title": "Opusfived",
+      "link": "https://opusfived.dev/",
       "desc": "Comments",
       "date": "2026-09-12",
       "source": "Lobsters",
@@ -316,8 +316,8 @@ window.NEWS_DATA = {
       "lang": "en"
     },
     {
-      "title": "Opusfived",
-      "link": "https://opusfived.dev/",
+      "title": "Make it anyway",
+      "link": "https://www.joelotter.com/posts/2026/09/make-it-anyway/",
       "desc": "Comments",
       "date": "2026-09-12",
       "source": "Lobsters",
