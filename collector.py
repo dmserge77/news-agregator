@@ -683,7 +683,7 @@ footer {{ color: var(--text2); font-size: 0.85rem; padding: 30px 0; text-align: 
 {cards}  </nav>
 
   <footer>
-    Автосборщик новостей о мире AI
+    Автосборщик новостей о мире AI · <a href="about/index.html" style="color:var(--text2)">ℹ️ О проекте</a>
   </footer>
 </div>
 <script>
@@ -715,6 +715,11 @@ def build_dist():
             src = os.path.join(src_cat, fname)
             if os.path.exists(src):
                 shutil.copy2(src, os.path.join(dst_cat, fname))
+
+    # Копируем статичные страницы (about)
+    src_about = os.path.join(BASE_DIR, "about")
+    if os.path.isdir(src_about):
+        shutil.copytree(src_about, os.path.join(dist, "about"), dirs_exist_ok=True)
 
     print(f"  [OK] dist/ собран ({len(os.listdir(dist))} элементов)")
 

@@ -1,19 +1,19 @@
 [
   {
-    "title": "Cpak – OCI application package format for Linux desktops, servers and devices",
-    "link": "https://cpak.it/",
-    "desc": "Article URL: https://cpak.it/ Comments URL: https://news.ycombinator.com/item?id=49684778 Points: 3 # Comments: 1",
-    "date": "2026-09-13",
-    "source": "Hacker News",
-    "cat": "design",
-    "lang": "en"
-  },
-  {
     "title": "The Tuscan Journey Begins",
     "link": "https://www.awwwards.com/sites/the-tuscan-journey-begins",
     "desc": "MONOGRID created an interactive journey for Weekend Max Mara, transforming Italian craftsmanship into an immersive digital experience.",
     "date": "2026-09-13",
     "source": "Awwwards",
+    "cat": "design",
+    "lang": "en"
+  },
+  {
+    "title": "Cpak – OCI application package format for Linux desktops, servers and devices",
+    "link": "https://cpak.it/",
+    "desc": "Article URL: https://cpak.it/ Comments URL: https://news.ycombinator.com/item?id=49684778 Points: 3 # Comments: 1",
+    "date": "2026-09-13",
+    "source": "Hacker News",
     "cat": "design",
     "lang": "en"
   },
@@ -153,20 +153,20 @@
     "lang": "en"
   },
   {
-    "title": "How Minnesota Became the Front Line in the Fight Over Prediction Markets",
-    "link": "https://www.nytimes.com/2026/09/11/business/kalshi-polymarket-minnesota-prediction-markets.html",
-    "desc": "The state was the first to pass a law banning Kalshi and Polymarket. A lawsuit filed by a federal agency may set a precedent on who gets to regulate them.",
-    "date": "2026-09-11",
-    "source": "NYT Tech",
-    "cat": "design",
-    "lang": "en"
-  },
-  {
     "title": "White Desert",
     "link": "https://www.awwwards.com/sites/white-desert",
     "desc": "White Desert is the world's leading luxury Antarctic expedition company, offering once-in-a-lifetime journeys to the South Pole and Emperor Penguins.",
     "date": "2026-09-11",
     "source": "Awwwards",
+    "cat": "design",
+    "lang": "en"
+  },
+  {
+    "title": "How Minnesota Became the Front Line in the Fight Over Prediction Markets",
+    "link": "https://www.nytimes.com/2026/09/11/business/kalshi-polymarket-minnesota-prediction-markets.html",
+    "desc": "The state was the first to pass a law banning Kalshi and Polymarket. A lawsuit filed by a federal agency may set a precedent on who gets to regulate them.",
+    "date": "2026-09-11",
+    "source": "NYT Tech",
     "cat": "design",
     "lang": "en"
   },

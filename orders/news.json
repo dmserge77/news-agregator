@@ -1,5 +1,35 @@
 [
   {
+    "title": "Создать редактор составов для игры (8 мб)",
+    "link": "https://www.fl.ru/projects/5521822/sozdat-redaktor-sostavov-dlya-igryi-8-mb.html",
+    "desc": "Имеется игра ActualCoach 2.32 (2004 г). Игра \"весит\" 8 мб. Футбольная стратегия. Хотелось бы иметь приложение-редактор, с помощью которого можно было редактировать составы...",
+    "date": "2026-09-13",
+    "source": "FL.ru",
+    "cat": "orders",
+    "order_type": "content",
+    "lang": "ru"
+  },
+  {
+    "title": "Нарисовать проект системы видеонаблюдения",
+    "link": "https://www.fl.ru/projects/5521824/narisovat-proekt-sistemyi-videonablyudeniya.html",
+    "desc": "Сделать проект видеонаблюдения для административного здания. Камеры устанавливаются на 1 и 2 этаже. 29 камер. 15 камер уличных цилиндрических. 14 камер купольных внутренних....",
+    "date": "2026-09-13",
+    "source": "FL.ru",
+    "cat": "orders",
+    "order_type": "content",
+    "lang": "ru"
+  },
+  {
+    "title": "Рисование изометрических спрайтов для движения персонажей",
+    "link": "https://www.fl.ru/projects/5521823/risovanie-izometricheskih-spraytov-dlya-dvijeniya-personajey.html",
+    "desc": "Необходимо рисовать движения персонажей в изометрической проекции, предварительно персонажей может быть 10+.",
+    "date": "2026-09-13",
+    "source": "FL.ru",
+    "cat": "orders",
+    "order_type": "content",
+    "lang": "ru"
+  },
+  {
     "title": "Отрисовка смесителей в 3D MAX",
     "link": "https://www.fl.ru/projects/5521814/otrisovka-smesiteley-v-3d-max.html",
     "desc": "Отрисовка смесителей в 3D MAX Добрый день! необходимо отрисовать смесители, которые можно будет отдавать дизайнерам интерьеров при работе с дизайн-проектами. Позиций много,...",
@@ -77,16 +107,6 @@
     "source": "FL.ru",
     "cat": "orders",
     "order_type": "ai",
-    "lang": "ru"
-  },
-  {
-    "title": "календарь квартальный (Бюджет: 2 000  ₽)",
-    "link": "https://www.fl.ru/projects/5521806/kalendar-kvartalnyiy.html",
-    "desc": "квартальный календарь на 2027 год на тему химической промышленности",
-    "date": "2026-09-13",
-    "source": "FL.ru",
-    "cat": "orders",
-    "order_type": "content",
     "lang": "ru"
   },
   {
@@ -473,6 +493,16 @@
     "title": "Хочу сделать кавер на известную песню, но с новыми словами. Подходишь ли ты для такого? (для всех)",
     "link": "https://www.fl.ru/projects/5521691/hochu-sdelat-kaver-na-izvestnuyu-pesnyu-no-s-novyimi-slovami-podhodish-li-tyi-dlya-takogo.html",
     "desc": "Нужен вокалист, надо спеть кавер на известную песню, но с новыми словами. Подходишь ли ты для такого?",
+    "date": "2026-09-13",
+    "source": "FL.ru",
+    "cat": "orders",
+    "order_type": "content",
+    "lang": "ru"
+  },
+  {
+    "title": "календарь квартальный (Бюджет: 2 000  ₽)",
+    "link": "https://www.fl.ru/projects/5521806/kalendar-kvartalnyiy.html",
+    "desc": "квартальный календарь на 2027 год на тему химической промышленности",
     "date": "2026-09-13",
     "source": "FL.ru",
     "cat": "orders",
