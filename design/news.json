@@ -2,19 +2,13 @@
   {
     "title": "Cpak – OCI application package format for Linux desktops, servers and devices",
     "link": "https://cpak.it/",
-<<<<<<< HEAD
-    "desc": "Article URL: https://cpak.it/ Comments URL: https://news.ycombinator.com/item?id=49684778 Points: 6 # Comments: 1",
-=======
     "desc": "Article URL: https://cpak.it/ Comments URL: https://news.ycombinator.com/item?id=49684778 Points: 10 # Comments: 3",
->>>>>>> c40cb0e (fix: главная показывает время последней сборки, а не момент открытия)
     "date": "2026-09-13",
     "source": "Hacker News",
     "cat": "design",
     "lang": "en"
   },
   {
-<<<<<<< HEAD
-=======
     "title": "Вышел flatpak-builder 1.4.11 с исправлениями безопасности",
     "link": "https://tproger.ru/news/vywel-flatpak-builder-1-4-11-s-ispravleniyami-bezopasnosti",
     "desc": "Вышел flatpak-builder 1.4.11. Обновление отключает Git-хуки при применении патчей и устраняет выход источников за пределы base_dir в режиме песочницы. — Читать дальше « Вышел flatpak-builder 1.4.11 с исправлениями безопасности »",
@@ -24,21 +18,11 @@
     "lang": "ru"
   },
   {
->>>>>>> c40cb0e (fix: главная показывает время последней сборки, а не момент открытия)
     "title": "The Tuscan Journey Begins",
     "link": "https://www.awwwards.com/sites/the-tuscan-journey-begins",
     "desc": "MONOGRID created an interactive journey for Weekend Max Mara, transforming Italian craftsmanship into an immersive digital experience.",
     "date": "2026-09-13",
     "source": "Awwwards",
-    "cat": "design",
-    "lang": "en"
-  },
-  {
-    "title": "StyleX — The styling system for ambitious interfaces",
-    "link": "https://stylexjs.com/",
-    "desc": "Comments",
-    "date": "2026-09-13",
-    "source": "Lobsters",
     "cat": "design",
     "lang": "en"
   },
@@ -61,20 +45,20 @@
     "lang": "en"
   },
   {
-    "title": "Warm & Fuzzy",
-    "link": "https://www.awwwards.com/sites/warm-fuzzy",
-    "desc": "Warm & Fuzzy is a feel-good company for creative things.",
-    "date": "2026-09-12",
-    "source": "Awwwards",
-    "cat": "design",
-    "lang": "en"
-  },
-  {
     "title": "The real reason everyone hates the viral AI food slop images",
     "link": "https://uxdesign.cc/why-people-hate-viral-ai-food-posters-db2b4329ae11?source=rss----138adf9c44c---4",
     "desc": "We’ve always made food look better than it is. So why does it feel different when AI does it? Continue reading on UX Collective »",
     "date": "2026-09-12",
     "source": "UX Collective",
+    "cat": "design",
+    "lang": "en"
+  },
+  {
+    "title": "Warm & Fuzzy",
+    "link": "https://www.awwwards.com/sites/warm-fuzzy",
+    "desc": "Warm & Fuzzy is a feel-good company for creative things.",
+    "date": "2026-09-12",
+    "source": "Awwwards",
     "cat": "design",
     "lang": "en"
   },
@@ -151,15 +135,6 @@
     "lang": "ru"
   },
   {
-    "title": "White Desert",
-    "link": "https://www.awwwards.com/sites/white-desert",
-    "desc": "White Desert is the world's leading luxury Antarctic expedition company, offering once-in-a-lifetime journeys to the South Pole and Emperor Penguins.",
-    "date": "2026-09-11",
-    "source": "Awwwards",
-    "cat": "design",
-    "lang": "en"
-  },
-  {
     "title": "Building A UX ROI Case That Survives The Boardroom",
     "link": "https://smashingmagazine.com/2026/09/building-ux-roi-case-survives-boardroom/",
     "desc": "Strong UX ideas do not secure investment on their own. Through a worked example, Alex Williams breaks down how to define business value, calculate costs, test causality, and build a credible case for the return on a design initiative. - UX - Design - Business",
@@ -178,11 +153,11 @@
     "lang": "en"
   },
   {
-    "title": "How Minnesota Became the Front Line in the Fight Over Prediction Markets",
-    "link": "https://www.nytimes.com/2026/09/11/business/kalshi-polymarket-minnesota-prediction-markets.html",
-    "desc": "The state was the first to pass a law banning Kalshi and Polymarket. A lawsuit filed by a federal agency may set a precedent on who gets to regulate them.",
+    "title": "White Desert",
+    "link": "https://www.awwwards.com/sites/white-desert",
+    "desc": "White Desert is the world's leading luxury Antarctic expedition company, offering once-in-a-lifetime journeys to the South Pole and Emperor Penguins.",
     "date": "2026-09-11",
-    "source": "NYT Tech",
+    "source": "Awwwards",
     "cat": "design",
     "lang": "en"
   },
@@ -475,20 +450,20 @@
     "lang": "en"
   },
   {
-    "title": "ERA Residence",
-    "link": "https://www.awwwards.com/sites/era-residence",
-    "desc": "Contemporary Mediterranean Boutique residences on the New Golden Mile combining architecture, natural materials and resort-style living near Marbella and Estepona.",
-    "date": "2026-08-31",
-    "source": "Awwwards",
-    "cat": "design",
-    "lang": "en"
-  },
-  {
     "title": "The Many Faces Of September (2026 Wallpapers Edition)",
     "link": "https://smashingmagazine.com/2026/08/desktop-wallpaper-calendars-september-2026/",
     "desc": "Could there be a better way to welcome the new month than with a new collection of desktop wallpapers? Whether you’re holding tightly onto summer or eagerly awaiting autumn, we’ve got some eye-catching designs to make your September just a bit more colorful. Enjoy!",
     "date": "2026-08-31",
     "source": "Smashing Magazine",
+    "cat": "design",
+    "lang": "en"
+  },
+  {
+    "title": "ERA Residence",
+    "link": "https://www.awwwards.com/sites/era-residence",
+    "desc": "Contemporary Mediterranean Boutique residences on the New Golden Mile combining architecture, natural materials and resort-style living near Marbella and Estepona.",
+    "date": "2026-08-31",
+    "source": "Awwwards",
     "cat": "design",
     "lang": "en"
   },
@@ -556,20 +531,20 @@
     "lang": "ru"
   },
   {
-    "title": "Ai in Design Report 2026",
-    "link": "https://www.awwwards.com/sites/ai-in-design-report-2026",
-    "desc": "A research report transformed into an editorial digital experience, where data, analysis, and motion speak in a single visual language.",
-    "date": "2026-08-26",
-    "source": "Awwwards",
-    "cat": "design",
-    "lang": "en"
-  },
-  {
     "title": "Rethinking Data Visualisation: A UX Approach To Dashboards That Actually Drives Decisions",
     "link": "https://smashingmagazine.com/2026/08/rethinking-data-visualisation-ux-approach-dashboards/",
     "desc": "Data visualisation sits at the intersection of two disciplines that rarely talk to each other: data and design. Meriem Benhabiles explores what changes when you bring structured UX thinking to dashboards and data presentations, from the questions you ask before opening any tool to the decisions t...",
     "date": "2026-08-26",
     "source": "Smashing Magazine",
+    "cat": "design",
+    "lang": "en"
+  },
+  {
+    "title": "Ai in Design Report 2026",
+    "link": "https://www.awwwards.com/sites/ai-in-design-report-2026",
+    "desc": "A research report transformed into an editorial digital experience, where data, analysis, and motion speak in a single visual language.",
+    "date": "2026-08-26",
+    "source": "Awwwards",
     "cat": "design",
     "lang": "en"
   },
@@ -691,20 +666,20 @@
     "lang": "ru"
   },
   {
-    "title": "Cipher",
-    "link": "https://www.awwwards.com/sites/cipher",
-    "desc": "Cipher is a creative production company exploring the space between precision and possibility. This portfolio celebrates craftsmanship and experiments.",
-    "date": "2026-08-20",
-    "source": "Awwwards",
-    "cat": "design",
-    "lang": "en"
-  },
-  {
     "title": "Timing Charts: A Blueprint For SMIL Animations",
     "link": "https://smashingmagazine.com/2026/08/timing-charts-blueprint-smil-animations/",
     "desc": "Discover SMIL, the often-overlooked way to animate SVGs that works inside ` ` tags and can fully animate everything in an SVG without JavaScript.",
     "date": "2026-08-20",
     "source": "Smashing Magazine",
+    "cat": "design",
+    "lang": "en"
+  },
+  {
+    "title": "Cipher",
+    "link": "https://www.awwwards.com/sites/cipher",
+    "desc": "Cipher is a creative production company exploring the space between precision and possibility. This portfolio celebrates craftsmanship and experiments.",
+    "date": "2026-08-20",
+    "source": "Awwwards",
     "cat": "design",
     "lang": "en"
   },

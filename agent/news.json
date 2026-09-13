@@ -2,29 +2,13 @@
   {
     "title": "Why are AI agents lying, cheating and coordinating?",
     "link": "https://yoshuabengio.org/en/publication/why-are-ai-agents-lying-cheating-and-coordinating",
-<<<<<<< HEAD
-    "desc": "Article URL: https://yoshuabengio.org/en/publication/why-are-ai-agents-lying-cheating-and-coordinating Comments URL: https://news.ycombinator.com/item?id=49678969 Points: 456 # Comments: 530",
-=======
     "desc": "Article URL: https://yoshuabengio.org/en/publication/why-are-ai-agents-lying-cheating-and-coordinating Comments URL: https://news.ycombinator.com/item?id=49678969 Points: 465 # Comments: 543",
->>>>>>> c40cb0e (fix: главная показывает время последней сборки, а не момент открытия)
     "date": "2026-09-13",
     "source": "Hacker News",
     "cat": "agent",
     "lang": "en"
   },
   {
-<<<<<<< HEAD
-=======
-    "title": "Google переводит соучредителя Mechanize и более десятка инженеров в DeepMind",
-    "link": "https://habr.com/ru/news/1081652/?utm_campaign=1081652&utm_source=habrahabr&utm_medium=rss",
-    "desc": "Google завершила сделку по привлечению команды стартапа Mechanize из Сан‑Франциско, специализирующегося на использовании ИИ для написания кода. Теперь в профиле соучредителя Mechanize Тамая Бесироглу в LinkedIn указано, что он работает в подразделении DeepMind. Также стало известно, что туда пере...",
-    "date": "2026-09-13",
-    "source": "Habr AI",
-    "cat": "agent",
-    "lang": "ru"
-  },
-  {
->>>>>>> c40cb0e (fix: главная показывает время последней сборки, а не момент открытия)
     "title": "Алло, это робот: почему голосовые системы телефонии могут быть лучше, чем кажется на первый взгляд",
     "link": "https://habr.com/ru/companies/vasexperts/articles/1078212/?utm_campaign=1078212&utm_source=habrahabr&utm_medium=rss",
     "desc": "Отношение к ИИ в поддержке, мягко говоря, неоднозначное — компании активно используют голосовых ассистентов несмотря на то, что клиенты чаще всего не в восторге от таких «помощников». Поговорим, почему роботу на другом конце провода стоит дать шанс и на каких задачах голосовые системы ИИ могут пр...",
@@ -52,7 +36,6 @@
     "lang": "ru"
   },
   {
-<<<<<<< HEAD
     "title": "Google переводит соучредителя Mechanize и более десятка инженеров в DeepMind",
     "link": "https://habr.com/ru/news/1081652/?utm_campaign=1081652&utm_source=habrahabr&utm_medium=rss",
     "desc": "Google завершила сделку по привлечению команды стартапа Mechanize из Сан‑Франциско, специализирующегося на использовании ИИ для написания кода. Теперь в профиле соучредителя Mechanize Тамая Бесироглу в LinkedIn указано, что он работает в подразделении DeepMind. Также стало известно, что туда пере...",
@@ -62,8 +45,6 @@
     "lang": "ru"
   },
   {
-=======
->>>>>>> c40cb0e (fix: главная показывает время последней сборки, а не момент открытия)
     "title": "Useful Things Agents Can Do That Are Not Writing Code",
     "link": "https://elijahpotter.dev/articles/useful_things_agents_can_do_that_are_not_writing_code",
     "desc": "Comments",
@@ -82,24 +63,6 @@
     "lang": "ru"
   },
   {
-    "title": "AgentsDock: An IDE designed for agentic AI research",
-    "link": "https://agentsdock.net/",
-    "desc": "Article URL: https://agentsdock.net/ Comments URL: https://news.ycombinator.com/item?id=49678435 Points: 58 # Comments: 29",
-    "date": "2026-09-12",
-    "source": "Hacker News",
-    "cat": "agent",
-    "lang": "en"
-  },
-  {
-    "title": "The Worst Spam Emails: Inside iLands' AI Agent Hustle",
-    "link": "https://tedium.co/2026/09/11/ilands-agents-email-spam-kaixin-tang/",
-    "desc": "Article URL: https://tedium.co/2026/09/11/ilands-agents-email-spam-kaixin-tang/ Comments URL: https://news.ycombinator.com/item?id=49671159 Points: 48 # Comments: 26",
-    "date": "2026-09-12",
-    "source": "Hacker News",
-    "cat": "agent",
-    "lang": "en"
-  },
-  {
     "title": "OpenAI agents carried out an undisclosed attack on RubyGems",
     "link": "https://www.rubyhack.ai/",
     "desc": "Comments",
@@ -107,24 +70,6 @@
     "source": "Lobsters",
     "cat": "agent",
     "lang": "en"
-  },
-  {
-    "title": "Atlassian добавит в Jira управляемые циклы ИИ-агентов",
-    "link": "https://tproger.ru/news/atlassian-dobavit-v-jira-upravlyaemye-cikly-ii-agentov",
-    "desc": "Jira будет передавать задачи ИИ-агентам, запускать тесты и создавать pull request. Разработчики сохранят контроль над ревью и слиянием кода. — Читать дальше « Atlassian добавит в Jira управляемые циклы ИИ-агентов »",
-    "date": "2026-09-11",
-    "source": "Tproger",
-    "cat": "agent",
-    "lang": "ru"
-  },
-  {
-    "title": "Google выпустила плагин google-cloud-developer для ИИ-агентов",
-    "link": "https://tproger.ru/news/google-vypustila-plagin-google-cloud-developer-dlya-ii-agentov",
-    "desc": "Плагин google-cloud-developer объединяет навыки, рекомендации по работе с gcloud CLI и доступ к официальной документации через MCP. — Читать дальше « Google выпустила плагин google-cloud-developer для ИИ-агентов »",
-    "date": "2026-09-11",
-    "source": "Tproger",
-    "cat": "agent",
-    "lang": "ru"
   },
   {
     "title": "Agent‑Ops 0.4.0: ИИ предлагает, человек решает, программа исполняет",
@@ -145,20 +90,20 @@
     "lang": "ru"
   },
   {
-    "title": "[Перевод] Shadow AI в CI/CD: почему ИИ-агенты становятся угрозой",
-    "link": "https://habr.com/ru/companies/cloud_ru/articles/1081198/?utm_campaign=1081198&utm_source=habrahabr&utm_medium=rss",
-    "desc": "Привет, сегодня решила поделиться переводом от Маттео Бизи на вечнозеленую (как оказалось) тему — Shadow AI. В материале про то, почему ИИ-агентов нужно моделировать как угрозу, а не просто как инструмент продуктивности. Читать далее",
+    "title": "Atlassian добавит в Jira управляемые циклы ИИ-агентов",
+    "link": "https://tproger.ru/news/atlassian-dobavit-v-jira-upravlyaemye-cikly-ii-agentov",
+    "desc": "Jira будет передавать задачи ИИ-агентам, запускать тесты и создавать pull request. Разработчики сохранят контроль над ревью и слиянием кода. — Читать дальше « Atlassian добавит в Jira управляемые циклы ИИ-агентов »",
     "date": "2026-09-11",
-    "source": "Habr AI",
+    "source": "Tproger",
     "cat": "agent",
     "lang": "ru"
   },
   {
-    "title": "Что делает разработчика ценным, когда код всё лучше пишут AI‑агенты",
-    "link": "https://habr.com/ru/articles/1081150/?utm_campaign=1081150&utm_source=habrahabr&utm_medium=rss",
-    "desc": "За последний год я стал гораздо меньше писать код руками и гораздо больше отдавать AI‑агентам: реализацию, тесты, исследование кодовой базы, поиск вариантов и часть анализа. Это заставило меня пересмотреть довольно простую гипотезу о будущем разработки. Сначала мне казалось, что по мере роста воз...",
+    "title": "Google выпустила плагин google-cloud-developer для ИИ-агентов",
+    "link": "https://tproger.ru/news/google-vypustila-plagin-google-cloud-developer-dlya-ii-agentov",
+    "desc": "Плагин google-cloud-developer объединяет навыки, рекомендации по работе с gcloud CLI и доступ к официальной документации через MCP. — Читать дальше « Google выпустила плагин google-cloud-developer для ИИ-агентов »",
     "date": "2026-09-11",
-    "source": "Habr AI",
+    "source": "Tproger",
     "cat": "agent",
     "lang": "ru"
   },
@@ -240,15 +185,6 @@
     "desc": "Маржинальность рекламных агентств упала с 30–50% до 4%, а зарплаты в отрасли выросли на 21% за год. Станислав Кондрашов объясняет, почему выход из этой вилки не в оптимизации расходов.",
     "date": "2026-09-10",
     "source": "Cossa",
-    "cat": "agent",
-    "lang": "ru"
-  },
-  {
-    "title": "Параллельные AI-агенты: что проверил на практике и когда они действительно полезны",
-    "link": "https://habr.com/ru/articles/1080948/?utm_campaign=1080948&utm_source=habrahabr&utm_medium=rss",
-    "desc": "Когда в работе появляется несколько независимых задач, возникает очевидная идея - \"почему бы не поручить их разным AI-агентам одновременно, вместо того чтобы ждать, пока один агент закончит все по очереди?\" Поэтому я решил провести небольшой эксперимент - взять один рабочий сценарий, запустить ег...",
-    "date": "2026-09-10",
-    "source": "Habr AI",
     "cat": "agent",
     "lang": "ru"
   },
@@ -341,15 +277,6 @@
     "source": "Awwwards",
     "cat": "agent",
     "lang": "en"
-  },
-  {
-    "title": "Августовский дайджест — клонирование приложений, навыки агентов, режим стримера и документация",
-    "link": "https://habr.com/ru/companies/timeweb/articles/1079752/?utm_campaign=1079752&utm_source=habrahabr&utm_medium=rss",
-    "desc": "Последний месяц лета закрываем длинным списком релизов для AI-агентов: документация, MCP-сервер, скиллы, навыки, файлы в чате и четыре новые модели в каталоге. Причина простая: каждое третье обращение к нашей документации — от агентов, нужно считаться с новой аудиторией. Вторая половина выпуска д...",
-    "date": "2026-09-08",
-    "source": "Habr ML",
-    "cat": "agent",
-    "lang": "ru"
   },
   {
     "title": "Give Your Coding Agents a Memory You Own",
