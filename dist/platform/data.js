@@ -3,7 +3,7 @@ window.NEWS_DATA = {
     {
       "title": "google.com/goto: Google's anti-scraping update",
       "link": "https://www.autom.dev/blog/google-search-goto-links",
-      "desc": "Article URL: https://www.autom.dev/blog/google-search-goto-links Comments URL: https://news.ycombinator.com/item?id=49668386 Points: 501 # Comments: 401",
+      "desc": "Article URL: https://www.autom.dev/blog/google-search-goto-links Comments URL: https://news.ycombinator.com/item?id=49668386 Points: 508 # Comments: 404",
       "date": "2026-09-12",
       "source": "Hacker News",
       "cat": "platform",
@@ -135,5 +135,5 @@ window.NEWS_DATA = {
     "jobs",
     "orders"
   ],
-  "updated": "12.09.2026, 14:02:25"
+  "updated": "13.09.2026, 10:54:55"
 };

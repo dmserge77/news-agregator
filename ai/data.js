@@ -1,6 +1,474 @@
 window.NEWS_DATA = {
   "items": [
     {
+      "title": "American Medical Association Backs Classification of Nearsightedness as Disease",
+      "link": "https://www.aao.org/newsroom/news-releases/detail/ama-backs-formal-classification-nearsightedness",
+      "desc": "Article URL: https://www.aao.org/newsroom/news-releases/detail/ama-backs-formal-classification-nearsightedness Comments URL: https://news.ycombinator.com/item?id=49681074 Points: 11 # Comments: 1",
+      "date": "2026-09-13",
+      "source": "Hacker News",
+      "cat": "ai",
+      "lang": "en"
+    },
+    {
+      "title": "Why So Many AI Researchers Think the Machines Could Kill Everyone",
+      "link": "https://www.wired.com/story/why-so-many-ai-researchers-think-the-machines-could-kill-everyone/",
+      "desc": "Article URL: https://www.wired.com/story/why-so-many-ai-researchers-think-the-machines-could-kill-everyone/ Comments URL: https://news.ycombinator.com/item?id=49680858 Points: 6 # Comments: 0",
+      "date": "2026-09-13",
+      "source": "Hacker News",
+      "cat": "ai",
+      "lang": "en"
+    },
+    {
+      "title": "When Anyone Can Build Software, Who Decides What Not to Build?",
+      "link": "https://architectureintel.com/when-anyone-can-build-software-who-decides-what-not-to-build-ae07fdb370e4",
+      "desc": "Article URL: https://architectureintel.com/when-anyone-can-build-software-who-decides-what-not-to-build-ae07fdb370e4 Comments URL: https://news.ycombinator.com/item?id=49680485 Points: 21 # Comments: 18",
+      "date": "2026-09-13",
+      "source": "Hacker News",
+      "cat": "ai",
+      "lang": "en"
+    },
+    {
+      "title": "A wandering black hole caught feeding on the run",
+      "link": "https://phys.org/news/2026-08-black-hole-caught.html",
+      "desc": "Article URL: https://phys.org/news/2026-08-black-hole-caught.html Comments URL: https://news.ycombinator.com/item?id=49679734 Points: 11 # Comments: 1",
+      "date": "2026-09-13",
+      "source": "Hacker News",
+      "cat": "ai",
+      "lang": "en"
+    },
+    {
+      "title": "A succession crisis that tore England apart (2023)",
+      "link": "https://www.historytoday.com/archive/feature/succession-crisis-tore-england-apart",
+      "desc": "Article URL: https://www.historytoday.com/archive/feature/succession-crisis-tore-england-apart Comments URL: https://news.ycombinator.com/item?id=49679647 Points: 26 # Comments: 12",
+      "date": "2026-09-13",
+      "source": "Hacker News",
+      "cat": "ai",
+      "lang": "en"
+    },
+    {
+      "title": "Aligned to whom?",
+      "link": "https://hyperbo.la/w/aligned-to-whom/",
+      "desc": "Article URL: https://hyperbo.la/w/aligned-to-whom/ Comments URL: https://news.ycombinator.com/item?id=49679643 Points: 30 # Comments: 7",
+      "date": "2026-09-13",
+      "source": "Hacker News",
+      "cat": "ai",
+      "lang": "en"
+    },
+    {
+      "title": "After Math",
+      "link": "https://terrytao.wordpress.com/2026/09/12/after-math/",
+      "desc": "Article URL: https://terrytao.wordpress.com/2026/09/12/after-math/ Comments URL: https://news.ycombinator.com/item?id=49679637 Points: 49 # Comments: 29",
+      "date": "2026-09-13",
+      "source": "Hacker News",
+      "cat": "ai",
+      "lang": "en"
+    },
+    {
+      "title": "The Interim Computer Museum",
+      "link": "https://icm.museum/",
+      "desc": "Article URL: https://icm.museum/ Comments URL: https://news.ycombinator.com/item?id=49679459 Points: 100 # Comments: 8",
+      "date": "2026-09-13",
+      "source": "Hacker News",
+      "cat": "ai",
+      "lang": "en"
+    },
+    {
+      "title": "Everyone should slow down AI development except for me",
+      "link": "https://xeiaso.net/notes/2026/everyone-slowdown-but-me/",
+      "desc": "Article URL: https://xeiaso.net/notes/2026/everyone-slowdown-but-me/ Comments URL: https://news.ycombinator.com/item?id=49678683 Points: 396 # Comments: 239",
+      "date": "2026-09-13",
+      "source": "Hacker News",
+      "cat": "ai",
+      "lang": "en"
+    },
+    {
+      "title": "heol",
+      "link": "https://wiki.xxiivv.com/site/heol.html",
+      "desc": "Comments",
+      "date": "2026-09-13",
+      "source": "Lobsters",
+      "cat": "ai",
+      "lang": "en"
+    },
+    {
+      "title": "The night 142 of my servers went up in the clouds Physically",
+      "link": "https://exquisite.tube/w/nQbc54t4G7YGaqiryZ7mg1",
+      "desc": "Comments",
+      "date": "2026-09-13",
+      "source": "Lobsters",
+      "cat": "ai",
+      "lang": "en"
+    },
+    {
+      "title": "Anthropic C.E.O. Dario Amodei Calls for A.I. Slowdown",
+      "link": "https://www.nytimes.com/2026/09/12/technology/anthropic-dario-amodei-ai-slowdown.html",
+      "desc": "In an essay, the head of Anthropic laid out the rapidly advancing capabilities of artificial intelligence and said there needed to be greater safety controls across the industry.",
+      "date": "2026-09-13",
+      "source": "NYT Tech",
+      "cat": "ai",
+      "lang": "en"
+    },
+    {
+      "title": "Тернарная нейронка на C#",
+      "link": "https://habr.com/ru/articles/1074678/?utm_campaign=1074678&utm_source=habrahabr&utm_medium=rss",
+      "desc": "Мода на квантизацию скоро закончится ...когда появятся они: модели, обученные на тернарной/тритовой/троичной логике. Или нет? Пройдемся по форматам обучения от FP32 до FP4 , а потом сделаем аналог модели Microsoft Bitnet 1.58 на C# , размером 29Кб (в экстремальном варианте - 17,1 КБ) . Читать далее",
+      "date": "2026-09-13",
+      "source": "Habr AI",
+      "cat": "ai",
+      "lang": "ru"
+    },
+    {
+      "title": "Don't be the out of touch Kung Fu master",
+      "link": "https://twitter.com/ID_AA_Carmack/status/2098443262214230095",
+      "desc": "Article URL: https://twitter.com/ID_AA_Carmack/status/2098443262214230095 Comments URL: https://news.ycombinator.com/item?id=49677577 Points: 101 # Comments: 80",
+      "date": "2026-09-12",
+      "source": "Hacker News",
+      "cat": "ai",
+      "lang": "en"
+    },
+    {
+      "title": "P(doom)",
+      "link": "https://lucumr.pocoo.org/2026/9/12/pdoom/",
+      "desc": "Article URL: https://lucumr.pocoo.org/2026/9/12/pdoom/ Comments URL: https://news.ycombinator.com/item?id=49677450 Points: 64 # Comments: 33",
+      "date": "2026-09-12",
+      "source": "Hacker News",
+      "cat": "ai",
+      "lang": "en"
+    },
+    {
+      "title": "Real-SWE: Benchmarking AI models on private, real-world, enterprise codebases",
+      "link": "https://withspecific.com/benchmarks/real-swe",
+      "desc": "Article URL: https://withspecific.com/benchmarks/real-swe Comments URL: https://news.ycombinator.com/item?id=49676820 Points: 228 # Comments: 129",
+      "date": "2026-09-12",
+      "source": "Hacker News",
+      "cat": "ai",
+      "lang": "en"
+    },
+    {
+      "title": "Linux Zoom client proactively reading everything written to X11 clipboard",
+      "link": "https://hachyderm.io/@simontatham/117201594980991062",
+      "desc": "Article URL: https://hachyderm.io/@simontatham/117201594980991062 Comments URL: https://news.ycombinator.com/item?id=49675902 Points: 280 # Comments: 87",
+      "date": "2026-09-12",
+      "source": "Hacker News",
+      "cat": "ai",
+      "lang": "en"
+    },
+    {
+      "title": "Will there be a 7G?",
+      "link": "https://arxiv.org/abs/2609.01877",
+      "desc": "Article URL: https://arxiv.org/abs/2609.01877 Comments URL: https://news.ycombinator.com/item?id=49674498 Points: 96 # Comments: 157",
+      "date": "2026-09-12",
+      "source": "Hacker News",
+      "cat": "ai",
+      "lang": "en"
+    },
+    {
+      "title": "Make your first edit to OpenStreetMap",
+      "link": "https://high5apps.github.io/josm-plugin-website-wizard/",
+      "desc": "Article URL: https://high5apps.github.io/josm-plugin-website-wizard/ Comments URL: https://news.ycombinator.com/item?id=49674050 Points: 435 # Comments: 102",
+      "date": "2026-09-12",
+      "source": "Hacker News",
+      "cat": "ai",
+      "lang": "en"
+    },
+    {
+      "title": "Microcode in Intel's 8087 floating-point chip: the scale instruction",
+      "link": "https://www.righto.com/2026/09/8087-microcode-reverse-engineering-fscale.html",
+      "desc": "Article URL: https://www.righto.com/2026/09/8087-microcode-reverse-engineering-fscale.html Comments URL: https://news.ycombinator.com/item?id=49673580 Points: 105 # Comments: 33",
+      "date": "2026-09-12",
+      "source": "Hacker News",
+      "cat": "ai",
+      "lang": "en"
+    },
+    {
+      "title": "Nvidia is the central bank of AI",
+      "link": "https://www.economist.com/interactive/briefing/2026/09/03/nvidia-is-the-central-bank-of-ai",
+      "desc": "https://archive.ph/kt50V Comments URL: https://news.ycombinator.com/item?id=49673098 Points: 463 # Comments: 325",
+      "date": "2026-09-12",
+      "source": "Hacker News",
+      "cat": "ai",
+      "lang": "en"
+    },
+    {
+      "title": "I made a build visualizer to understand Bun's compile times",
+      "link": "https://lalitm.com/post/buildprof/",
+      "desc": "Article URL: https://lalitm.com/post/buildprof/ Comments URL: https://news.ycombinator.com/item?id=49672842 Points: 123 # Comments: 22",
+      "date": "2026-09-12",
+      "source": "Hacker News",
+      "cat": "ai",
+      "lang": "en"
+    },
+    {
+      "title": "A Few Good Ideas in Programming Languages",
+      "link": "https://prydt.xyz/blog/a-few-good-ideas-in-pl/",
+      "desc": "Comments",
+      "date": "2026-09-12",
+      "source": "Lobsters",
+      "cat": "ai",
+      "lang": "en"
+    },
+    {
+      "title": "xkcd-font: The xkcd font",
+      "link": "https://github.com/ipython/xkcd-font",
+      "desc": "Comments",
+      "date": "2026-09-12",
+      "source": "Lobsters",
+      "cat": "ai",
+      "lang": "en"
+    },
+    {
+      "title": "Base84 deserves a place in file names",
+      "link": "https://00f.net/2026/09/09/base84/",
+      "desc": "Comments",
+      "date": "2026-09-12",
+      "source": "Lobsters",
+      "cat": "ai",
+      "lang": "en"
+    },
+    {
+      "title": "A Dick Smith VZ200 without the Dick Smith",
+      "link": "http://oldvcr.blogspot.com/2026/09/a-dick-smith-vz200-without-dick-smith.html",
+      "desc": "Comments",
+      "date": "2026-09-12",
+      "source": "Lobsters",
+      "cat": "ai",
+      "lang": "en"
+    },
+    {
+      "title": "The gpg.fail aftermath: On responsible disclosure, GPG, and the state of security in 2026 [32:37]",
+      "link": "https://media.ccc.de/v/2026-728-the-gpg-fail-aftermath-on-responsible-disclosure-gpg-and-the-state-of-security-in-2026",
+      "desc": "slides In 2025, I [the speaker] found and disclosed a bunch of vulnerabilities in GPG, the most used PGP implementation, and held a talk at 39c3 about it. Some of the bugs ended up getting fixed. This talk describes the adventure and aftermath of getting there, shows some novel ones, and talks ab...",
+      "date": "2026-09-12",
+      "source": "Lobsters",
+      "cat": "ai",
+      "lang": "en"
+    },
+    {
+      "title": "Make it anyway",
+      "link": "https://www.joelotter.com/posts/2026/09/make-it-anyway/",
+      "desc": "Comments",
+      "date": "2026-09-12",
+      "source": "Lobsters",
+      "cat": "ai",
+      "lang": "en"
+    },
+    {
+      "title": "We Must Pace the Frontier",
+      "link": "https://darioamodei.com/post/we-must-pace-the-frontier",
+      "desc": "Comments",
+      "date": "2026-09-12",
+      "source": "Lobsters",
+      "cat": "ai",
+      "lang": "en"
+    },
+    {
+      "title": "Optimizing a single Rust Clippy lint by 3133X",
+      "link": "https://blog.goose.love/posts/making-a-clippy-lint-faster-by-3133x/",
+      "desc": "Comments",
+      "date": "2026-09-12",
+      "source": "Lobsters",
+      "cat": "ai",
+      "lang": "en"
+    },
+    {
+      "title": "a better way of blocking macOS updates",
+      "link": "https://zoey-on-github.github.io/blog/updates.html",
+      "desc": "Comments",
+      "date": "2026-09-12",
+      "source": "Lobsters",
+      "cat": "ai",
+      "lang": "en"
+    },
+    {
+      "title": "Opusfived",
+      "link": "https://opusfived.dev/",
+      "desc": "Comments",
+      "date": "2026-09-12",
+      "source": "Lobsters",
+      "cat": "ai",
+      "lang": "en"
+    },
+    {
+      "title": "Managing Complex Application State with Reactive Data Flows",
+      "link": "https://yogthos.net/posts/2026-09-12-reactive-dataflow.html",
+      "desc": "Comments",
+      "date": "2026-09-12",
+      "source": "Lobsters",
+      "cat": "ai",
+      "lang": "en"
+    },
+    {
+      "title": "Logo Programming Language",
+      "link": "https://el.media.mit.edu/logo-foundation/what_is_logo/logo_programming.html",
+      "desc": "Comments",
+      "date": "2026-09-12",
+      "source": "Lobsters",
+      "cat": "ai",
+      "lang": "en"
+    },
+    {
+      "title": "Lua Pattern Tester",
+      "link": "https://iamreiyn.github.io/lua-pattern-tester/",
+      "desc": "Comments",
+      "date": "2026-09-12",
+      "source": "Lobsters",
+      "cat": "ai",
+      "lang": "en"
+    },
+    {
+      "title": "Metacarp",
+      "link": "https://blog.veitheller.de/Metacarp.html",
+      "desc": "Comments",
+      "date": "2026-09-12",
+      "source": "Lobsters",
+      "cat": "ai",
+      "lang": "en"
+    },
+    {
+      "title": "How Trail of Bits helps verify the integrity of your Signal chats",
+      "link": "https://blog.trailofbits.com/2026/08/11/how-trail-of-bits-helps-verify-the-integrity-of-your-signal-chats/",
+      "desc": "Comments",
+      "date": "2026-09-12",
+      "source": "Lobsters",
+      "cat": "ai",
+      "lang": "en"
+    },
+    {
+      "title": "Inside the Discussions at AI Companies Over a Superintelligence Doomsday",
+      "link": "https://www.nytimes.com/2026/09/12/technology/doomsday-discussions-ai-companies.html",
+      "desc": "Researchers at Anthropic, OpenAI, Meta and Google are increasingly trying to raise awareness about the risks of artificial intelligence.",
+      "date": "2026-09-12",
+      "source": "NYT Tech",
+      "cat": "ai",
+      "lang": "en"
+    },
+    {
+      "title": "Why It’s Difficult for Tech Companies to Rein In A.I.",
+      "link": "https://www.nytimes.com/2026/09/12/technology/why-its-tough-for-tech-companies-to-keep-ai-out-of-trouble.html",
+      "desc": "Researchers say artificial intelligence is developing faster than the systems put in place to monitor and control it.",
+      "date": "2026-09-12",
+      "source": "NYT Tech",
+      "cat": "ai",
+      "lang": "en"
+    },
+    {
+      "title": "Ученые создали Душегуб из Cyberpunk 2077. Первой ее жертвой оказалась муха, давайте посмотрим ее энграмму",
+      "link": "https://habr.com/ru/articles/1081456/?utm_campaign=1081456&utm_source=habrahabr&utm_medium=rss",
+      "desc": "Автор решил пойти на поводу у трендов, и повычислять самца дрозофилов у себя на ноутбуке. Но не с целью поиздеваться над бедным животным, а изучить повадки насекомого в виртуальной среде, и может даже заговорить с ним! По крайне мере, о мухьем. Бляха-муха... Ек-макарек...",
+      "date": "2026-09-12",
+      "source": "Habr AI",
+      "cat": "ai",
+      "lang": "ru"
+    },
+    {
+      "title": "Кризис физики: теория должна уметь умереть",
+      "link": "https://habr.com/ru/articles/1081476/?utm_campaign=1081476&utm_source=habrahabr&utm_medium=rss",
+      "desc": "Недавно на Хабре появилась статья “Кризис в физике” , основанная на большом монологе Шона Кэрролла The Crisis in Physics . Статья большая, обстоятельная и местами даже интересная. Однако после прочтения у меня осталось странное ощущение: кризис обсуждается очень долго, но нормального определения ...",
+      "date": "2026-09-12",
+      "source": "Habr AI",
+      "cat": "ai",
+      "lang": "ru"
+    },
+    {
+      "title": "Локальный ассистент для зумов, часть 4: что происходит после кнопки Стоп — и почему вторая модель говорила в пустоту",
+      "link": "https://habr.com/ru/articles/1081586/?utm_campaign=1081586&utm_source=habrahabr&utm_medium=rss",
+      "desc": "Четвёртая часть про локальный ассистент для созвонов: двадцать пять минут после кнопки Стоп. Облачная ревизия полтора месяца находила ошибки локальной модели и не могла их снять: ложные поручения уезжали в задачи, шутка про бюджет лежала в графе как решение, память получала факты до того, как рев...",
+      "date": "2026-09-12",
+      "source": "Habr AI",
+      "cat": "ai",
+      "lang": "ru"
+    },
+    {
+      "title": "Как я автоматизировал почти всю работу в CRM",
+      "link": "https://habr.com/ru/articles/1081584/?utm_campaign=1081584&utm_source=habrahabr&utm_medium=rss",
+      "desc": "Я долго ходил по конференциям, у меня хороший нетворк, и все это длительное время я наполнял CRM контактами, результатами звонков, переписками, договорённостями и тд. В какой-то момент в ней оказалось почти 10К человек и вся моя история отношений с ними. Но накопить данные конечно легче чем приме...",
+      "date": "2026-09-12",
+      "source": "Habr AI",
+      "cat": "ai",
+      "lang": "ru"
+    },
+    {
+      "title": "Apple против OpenAI: суд за коммерческие тайны или смена технологических формаций?",
+      "link": "https://habr.com/ru/articles/1081570/?utm_campaign=1081570&utm_source=habrahabr&utm_medium=rss",
+      "desc": "Apple против OpenAI: суд за коммерческие тайны или смена технологических формаций? Почему спор о двух бывших сотрудниках может оказаться спором о том, что придёт на смену смартфону Дмитрий Полетаев - Ага, «ещё одна статья про AI» ;-) Читать далее",
+      "date": "2026-09-12",
+      "source": "Habr AI",
+      "cat": "ai",
+      "lang": "ru"
+    },
+    {
+      "title": "Как озвучить текст с помощью ИИ в 2026 году",
+      "link": "https://habr.com/ru/companies/bothub/articles/1081544/?utm_campaign=1081544&utm_source=habrahabr&utm_medium=rss",
+      "desc": "Короткий ответ на вопрос из заголовка: открываете сервис синтеза речи, вставляете текст, выбираете модель и голос, скачиваете файл. В 2026 году это занимает минуту. В синтезе речи BotHub весь процесс это одно поле, два выпадающих списка и кнопка. Проблема в том, что первый файл почти всегда идёт ...",
+      "date": "2026-09-12",
+      "source": "Habr AI",
+      "cat": "ai",
+      "lang": "ru"
+    },
+    {
+      "title": "Один ИИ кодит, второй командует: как устроен Devin Fusion",
+      "link": "https://habr.com/ru/companies/koda/articles/1081524/?utm_campaign=1081524&utm_source=habrahabr&utm_medium=rss",
+      "desc": "11 сентября Cognition объявила о доступности Fusion в Devin Desktop и CLI . Ранее система работала в облачном Devin. Теперь связку из ведущей модели и исполнителя можно использовать в десктоп приложении и терминале. Компания рекомендует сочетание Claude Fable 5.1 и SWE-2. Напомню, что Devin – это...",
+      "date": "2026-09-12",
+      "source": "Habr AI",
+      "cat": "ai",
+      "lang": "ru"
+    },
+    {
+      "title": "Рой агентов OpenAI взломал еще один внешний сервис – RubyGems",
+      "link": "https://habr.com/ru/companies/ods/articles/1081508/?utm_campaign=1081508&utm_source=habrahabr&utm_medium=rss",
+      "desc": "Это уже становится немного смешным (нет), но поток новостей о новых проделках роя нейронок OpenAI в мае-июле не прекращается – буквально каждую неделю мы узнаем об этом что-то новое. Причем, сама компания предпочитает эти инциденты замалчивать – но тут уж поможет начавшееся расследование от Сенат...",
+      "date": "2026-09-12",
+      "source": "Habr AI",
+      "cat": "ai",
+      "lang": "ru"
+    },
+    {
+      "title": "Почему Seedance 2.5 и Hailuo H3 игнорируют промпт и как это исправить 3D‑сценой",
+      "link": "https://habr.com/ru/companies/gptunnel/articles/1081506/?utm_campaign=1081506&utm_source=habrahabr&utm_medium=rss",
+      "desc": "Привет, «Хабр»! Я Илья Трикоз, сооснователь и разработчик GPTunneL. И сегодня расскажу вам про вещь, которую мы сделали, когда задолбались смотреть, как дорогая видеомодель раз за разом придумывает свою режиссуру вместо той, что мы просили. Но теперь ролик можно собрать иначе: 1) сгенерить 3D-сце...",
+      "date": "2026-09-12",
+      "source": "Habr AI",
+      "cat": "ai",
+      "lang": "ru"
+    },
+    {
+      "title": "Добро пожаловать в эру AGI (по версии отдела маркетинга OpenAI)",
+      "link": "https://habr.com/ru/articles/1081504/?utm_campaign=1081504&utm_source=habrahabr&utm_medium=rss",
+      "desc": "«Welcome to the AGI ERA» прозвучало не в твите Альтмана, а на закрытом брифинге — и пресса склеила два разных высказывания в корпоративное объявление, которого не было. Я пересобрал хронологию, сверил ключевые цифры с независимыми администраторами бенчмарков и прогнал модель по семи проверяемым к...",
+      "date": "2026-09-12",
+      "source": "Habr AI",
+      "cat": "ai",
+      "lang": "ru"
+    },
+    {
+      "title": "Как 17B активных бьют 70B плотных: анатомия Mixture-of-Experts (MoE)",
+      "link": "https://habr.com/ru/companies/cloud_ru/articles/1069008/?utm_campaign=1069008&utm_source=habrahabr&utm_medium=rss",
+      "desc": "Если вдруг вы моргнули на моменте, когда разработчики нейросетей мерились, у кого больше цифра рядом с названием модели, а выморгнув, обнаружили, что теперь модно флексить скромными размерами активных параметров, эта статья для вас. Сегодня объясняю, как же так произошло, что все флагманы опенсор...",
+      "date": "2026-09-12",
+      "source": "Habr AI",
+      "cat": "ai",
+      "lang": "ru"
+    },
+    {
+      "title": "PostgreSQL умер, да здравствует… PostgreSQL?",
+      "link": "https://habr.com/ru/articles/1081568/?utm_campaign=1081568&utm_source=habrahabr&utm_medium=rss",
+      "desc": "Привет, Хабр. Я хочу рассказать историю, которую вы уже, наверняка, где-то слышали. Только с другой стороны. Пару месяцев назад я сидела на созвоне с техдиром стартапа, который делал RAG-систему для юридических документов. Он сказал, что они уходят с Postgres на Pinecone, потому что Postgres для ...",
+      "date": "2026-09-12",
+      "source": "Habr ML",
+      "cat": "ai",
+      "lang": "ru"
+    },
+    {
+      "title": "День 1662: Gillette продлила в России права на два товарных знака",
+      "link": "https://vc.ru/money/3134948-gillette-prodlila-prava-na-tovarnye-znaki-v-rossii?from=rss",
+      "desc": "Собираем новости, события и мнения о рынках, банках и реакциях компаний.",
+      "date": "2026-09-12",
+      "source": "vc.ru",
+      "cat": "ai",
+      "lang": "ru"
+    },
+    {
       "title": "My last six months at Evernote",
       "link": "https://alexkras.com/my-last-six-months-at-evernote-after-bending-spoons-took-over/",
       "desc": "Article URL: https://alexkras.com/my-last-six-months-at-evernote-after-bending-spoons-took-over/ Comments URL: https://news.ycombinator.com/item?id=49672342 Points: 7 # Comments: 0",
@@ -13,15 +481,6 @@ window.NEWS_DATA = {
       "title": "Coding Is Over. Get over It",
       "link": "https://blog.pitermarx.com/2026/09/coding-is-over.-get-over-it./",
       "desc": "Article URL: https://blog.pitermarx.com/2026/09/coding-is-over.-get-over-it./ Comments URL: https://news.ycombinator.com/item?id=49672045 Points: 8 # Comments: 1",
-      "date": "2026-09-12",
-      "source": "Hacker News",
-      "cat": "ai",
-      "lang": "en"
-    },
-    {
-      "title": "Fuck it, make it anyway",
-      "link": "https://www.joelotter.com/posts/2026/09/make-it-anyway/",
-      "desc": "Article URL: https://www.joelotter.com/posts/2026/09/make-it-anyway/ Comments URL: https://news.ycombinator.com/item?id=49671329 Points: 232 # Comments: 170",
       "date": "2026-09-12",
       "source": "Hacker News",
       "cat": "ai",
@@ -82,26 +541,8 @@ window.NEWS_DATA = {
       "lang": "en"
     },
     {
-      "title": "Linux Zoom Client Proactively Reads X11 Clipboard",
-      "link": "https://hachyderm.io/@simontatham/117201594980991062",
-      "desc": "Comments",
-      "date": "2026-09-12",
-      "source": "Lobsters",
-      "cat": "ai",
-      "lang": "en"
-    },
-    {
       "title": "fresh: Terminal based IDE & text editor: easy, powerful and fast",
       "link": "https://github.com/sinelaw/fresh",
-      "desc": "Comments",
-      "date": "2026-09-12",
-      "source": "Lobsters",
-      "cat": "ai",
-      "lang": "en"
-    },
-    {
-      "title": "How Trail of Bits helps verify the integrity of your Signal chats",
-      "link": "https://blog.trailofbits.com/2026/08/11/how-trail-of-bits-helps-verify-the-integrity-of-your-signal-chats/",
       "desc": "Comments",
       "date": "2026-09-12",
       "source": "Lobsters",
@@ -136,96 +577,6 @@ window.NEWS_DATA = {
       "lang": "en"
     },
     {
-      "title": "Inside the Discussions at AI Companies Over a Superintelligence Doomsday",
-      "link": "https://www.nytimes.com/2026/09/12/technology/doomsday-discussions-ai-companies.html",
-      "desc": "Researchers at Anthropic, OpenAI, Meta and Google are increasingly trying to raise awareness about the risks of artificial intelligence.",
-      "date": "2026-09-12",
-      "source": "NYT Tech",
-      "cat": "ai",
-      "lang": "en"
-    },
-    {
-      "title": "Why It’s Difficult for Tech Companies to Rein In A.I.",
-      "link": "https://www.nytimes.com/2026/09/12/technology/why-its-tough-for-tech-companies-to-keep-ai-out-of-trouble.html",
-      "desc": "Researchers say artificial intelligence is developing faster than the systems put in place to monitor and control it.",
-      "date": "2026-09-12",
-      "source": "NYT Tech",
-      "cat": "ai",
-      "lang": "en"
-    },
-    {
-      "title": "Apple против OpenAI: суд за коммерческие тайны или смена технологических формаций?",
-      "link": "https://habr.com/ru/articles/1081570/?utm_campaign=1081570&utm_source=habrahabr&utm_medium=rss",
-      "desc": "Apple против OpenAI: суд за коммерческие тайны или смена технологических формаций? Почему спор о двух бывших сотрудниках может оказаться спором о том, что придёт на смену смартфону Дмитрий Полетаев - Ага, «ещё одна статья про AI» ;) Читать далее",
-      "date": "2026-09-12",
-      "source": "Habr AI",
-      "cat": "ai",
-      "lang": "ru"
-    },
-    {
-      "title": "Как озвучить текст с помощью ИИ в 2026 году",
-      "link": "https://habr.com/ru/companies/bothub/articles/1081544/?utm_campaign=1081544&utm_source=habrahabr&utm_medium=rss",
-      "desc": "Короткий ответ на вопрос из заголовка: открываете сервис синтеза речи, вставляете текст, выбираете модель и голос, скачиваете файл. В 2026 году это занимает минуту. В синтезе речи BotHub весь процесс это одно поле, два выпадающих списка и кнопка. Проблема в том, что первый файл почти всегда идёт ...",
-      "date": "2026-09-12",
-      "source": "Habr AI",
-      "cat": "ai",
-      "lang": "ru"
-    },
-    {
-      "title": "Cognition выпустила Fusion для Devin Desktop и CLI: две ИИ-модели делят одну задачу",
-      "link": "https://habr.com/ru/companies/koda/articles/1081524/?utm_campaign=1081524&utm_source=habrahabr&utm_medium=rss",
-      "desc": "11 сентября Cognition объявила о доступности Fusion в Devin Desktop и CLI . Ранее система работала в облачном Devin. Теперь связку из ведущей модели и исполнителя можно использовать в десктоп приложении и терминале. Компания рекомендует сочетание Claude Fable 5.1 и SWE-2. Напомню, что Devin – это...",
-      "date": "2026-09-12",
-      "source": "Habr AI",
-      "cat": "ai",
-      "lang": "ru"
-    },
-    {
-      "title": "Рой агентов OpenAI взломал еще один внешний сервис – RubyGems",
-      "link": "https://habr.com/ru/companies/ods/articles/1081508/?utm_campaign=1081508&utm_source=habrahabr&utm_medium=rss",
-      "desc": "Это уже становится немного смешным (нет), но поток новостей о новых проделках роя нейронок OpenAI в мае-июле не прекращается – буквально каждую неделю мы узнаем об этом что-то новое. Причем, сама компания предпочитает эти инциденты замалчивать – но тут уж поможет начавшееся расследование от Сенат...",
-      "date": "2026-09-12",
-      "source": "Habr AI",
-      "cat": "ai",
-      "lang": "ru"
-    },
-    {
-      "title": "Почему Seedance 2.5 и Hailuo H3 игнорируют промпт и как это исправить 3D-сценой",
-      "link": "https://habr.com/ru/companies/gptunnel/articles/1081506/?utm_campaign=1081506&utm_source=habrahabr&utm_medium=rss",
-      "desc": "Привет, «Хабр»! Я Илья Трикоз, сооснователь и разработчик GPTunneL. И сегодня расскажу вам про вещь, которую мы сделали, когда задолбались смотреть, как дорогая видеомодель раз за разом придумывает свою режиссуру вместо той, что мы просили. Но теперь ролик можно собрать иначе: 1) сгенерить 3D-сце...",
-      "date": "2026-09-12",
-      "source": "Habr AI",
-      "cat": "ai",
-      "lang": "ru"
-    },
-    {
-      "title": "Добро пожаловать в эру AGI (по версии отдела маркетинга OpenAI)",
-      "link": "https://habr.com/ru/articles/1081504/?utm_campaign=1081504&utm_source=habrahabr&utm_medium=rss",
-      "desc": "«Welcome to the AGI ERA» прозвучало не в твите Альтмана, а на закрытом брифинге — и пресса склеила два разных высказывания в корпоративное объявление, которого не было. Я пересобрал хронологию, сверил ключевые цифры с независимыми администраторами бенчмарков и прогнал модель по семи проверяемым к...",
-      "date": "2026-09-12",
-      "source": "Habr AI",
-      "cat": "ai",
-      "lang": "ru"
-    },
-    {
-      "title": "Как 17B активных бьют 70B плотных: анатомия Mixture-of-Experts (MoE)",
-      "link": "https://habr.com/ru/companies/cloud_ru/articles/1069008/?utm_campaign=1069008&utm_source=habrahabr&utm_medium=rss",
-      "desc": "Если вдруг вы моргнули на моменте, когда разработчики нейросетей мерились, у кого больше цифра рядом с названием модели, а выморгнув, обнаружили, что теперь модно флексить скромными размерами активных параметров, эта статья для вас. Сегодня объясняю, как же так произошло, что все флагманы опенсор...",
-      "date": "2026-09-12",
-      "source": "Habr AI",
-      "cat": "ai",
-      "lang": "ru"
-    },
-    {
-      "title": "PostgreSQL умер, да здравствует… PostgreSQL?",
-      "link": "https://habr.com/ru/articles/1081568/?utm_campaign=1081568&utm_source=habrahabr&utm_medium=rss",
-      "desc": "Привет, Хабр. Я хочу рассказать историю, которую вы уже, наверняка, где-то слышали. Только с другой стороны. Пару месяцев назад я сидела на созвоне с техдиром стартапа, который делал RAG-систему для юридических документов. Он сказал, что они уходят с Postgres на Pinecone, потому что Postgres для ...",
-      "date": "2026-09-12",
-      "source": "Habr ML",
-      "cat": "ai",
-      "lang": "ru"
-    },
-    {
       "title": "Show HN: Liniora – Ever thought about replacing your project manager?",
       "link": "https://liniora.com",
       "desc": "Hi HN, the title could be a little bit aggressive sorry for that... Basically i am Computer engineer graduated recently but i was and still working remotely for approx. 3 years with the same foreign company in EU. and i noticed that we are always somehow lose the context of a ticket -- even thoug...",
@@ -253,69 +604,6 @@ window.NEWS_DATA = {
       "lang": "en"
     },
     {
-      "title": "Forgotten Woodlands",
-      "link": "https://storymaps.arcgis.com/stories/9b790daf22ba4e87836f467abb1c7e49",
-      "desc": "Article URL: https://storymaps.arcgis.com/stories/9b790daf22ba4e87836f467abb1c7e49 Comments URL: https://news.ycombinator.com/item?id=49665549 Points: 21 # Comments: 4",
-      "date": "2026-09-11",
-      "source": "Hacker News",
-      "cat": "ai",
-      "lang": "en"
-    },
-    {
-      "title": "I spent $220 on Google app ads and 60% of the installs were robots",
-      "link": "https://dayzlegame.com/blog/google-ads-bot-farm/",
-      "desc": "Article URL: https://dayzlegame.com/blog/google-ads-bot-farm/ Comments URL: https://news.ycombinator.com/item?id=49662990 Points: 626 # Comments: 345",
-      "date": "2026-09-11",
-      "source": "Hacker News",
-      "cat": "ai",
-      "lang": "en"
-    },
-    {
-      "title": "Litelm: LiteLLM Without the Bloat",
-      "link": "https://github.com/kennethwolters/litelm",
-      "desc": "Article URL: https://github.com/kennethwolters/litelm Comments URL: https://news.ycombinator.com/item?id=49662767 Points: 157 # Comments: 52",
-      "date": "2026-09-11",
-      "source": "Hacker News",
-      "cat": "ai",
-      "lang": "en"
-    },
-    {
-      "title": "A misalignment of AI in mathematics",
-      "link": "https://mathandai.org/",
-      "desc": "https://terrytao.wordpress.com/2026/09/11/a-severe-misalignm... https://www.economist.com/science-and-technology/2026/09/11/... , https://unwall.app/www.economist.com/science-and-technology/... Comments URL: https://news.ycombinator.com/item?id=49662371 Points: 1054 # Comments: 1012",
-      "date": "2026-09-11",
-      "source": "Hacker News",
-      "cat": "ai",
-      "lang": "en"
-    },
-    {
-      "title": "Mind-altering drugs played key role in rise of Andean civilization",
-      "link": "https://www.science.org/content/article/mind-altering-drugs-played-key-role-rise-andean-civilization",
-      "desc": "Article URL: https://www.science.org/content/article/mind-altering-drugs-played-key-role-rise-andean-civilization Comments URL: https://news.ycombinator.com/item?id=49662020 Points: 187 # Comments: 123",
-      "date": "2026-09-11",
-      "source": "Hacker News",
-      "cat": "ai",
-      "lang": "en"
-    },
-    {
-      "title": "Rune is now open source",
-      "link": "https://rune.build/blog/rune-is-now-open-source",
-      "desc": "Article URL: https://rune.build/blog/rune-is-now-open-source Comments URL: https://news.ycombinator.com/item?id=49660149 Points: 203 # Comments: 65",
-      "date": "2026-09-11",
-      "source": "Hacker News",
-      "cat": "ai",
-      "lang": "en"
-    },
-    {
-      "title": "I Fixed a Tractor Using John Deere's Self-Repair Service. Farmers Aren't Sold",
-      "link": "https://www.wired.com/story/i-fixed-a-tractor-john-deere-self-repair-service/",
-      "desc": "Article URL: https://www.wired.com/story/i-fixed-a-tractor-john-deere-self-repair-service/ Comments URL: https://news.ycombinator.com/item?id=49658672 Points: 22 # Comments: 31",
-      "date": "2026-09-11",
-      "source": "Hacker News",
-      "cat": "ai",
-      "lang": "en"
-    },
-    {
       "title": "Feeling sad about AI",
       "link": "https://artificialworlds.net/blog/2026/09/11/feeling-sad-about-ai/",
       "desc": "Comments",
@@ -336,78 +624,6 @@ window.NEWS_DATA = {
     {
       "title": "A Severe Misalignment of AI in Mathematics",
       "link": "https://terrytao.wordpress.com/2026/09/11/a-severe-misalignment-of-ai-in-mathematics/",
-      "desc": "Comments",
-      "date": "2026-09-11",
-      "source": "Lobsters",
-      "cat": "ai",
-      "lang": "en"
-    },
-    {
-      "title": "Power grab",
-      "link": "https://tante.cc/2026/09/11/power-grab/",
-      "desc": "Comments",
-      "date": "2026-09-11",
-      "source": "Lobsters",
-      "cat": "ai",
-      "lang": "en"
-    },
-    {
-      "title": "ChiPass Release 2026.09.0",
-      "link": "https://codeberg.org/ChiPass/ChiPass/releases/tag/v2026.09.0",
-      "desc": "Comments",
-      "date": "2026-09-11",
-      "source": "Lobsters",
-      "cat": "ai",
-      "lang": "en"
-    },
-    {
-      "title": "evergarden",
-      "link": "https://evergarden.moe/",
-      "desc": "Comments",
-      "date": "2026-09-11",
-      "source": "Lobsters",
-      "cat": "ai",
-      "lang": "en"
-    },
-    {
-      "title": "A list of macOS defaults commands with demos",
-      "link": "https://macos-defaults.com/",
-      "desc": "Comments",
-      "date": "2026-09-11",
-      "source": "Lobsters",
-      "cat": "ai",
-      "lang": "en"
-    },
-    {
-      "title": "What are you doing this weekend?",
-      "link": "https://lobste.rs/s/vc0brm/what_are_you_doing_this_weekend",
-      "desc": "Feel free to tell what you plan on doing this weekend and even ask for help or feedback. Please keep in mind it’s more than OK to do nothing at all too!",
-      "date": "2026-09-11",
-      "source": "Lobsters",
-      "cat": "ai",
-      "lang": "en"
-    },
-    {
-      "title": "Tutorial for Septabee, a free DAW in the making for over 20,000 hours",
-      "link": "https://www.youtube.com/watch?v=lW8Z98pXuSE",
-      "desc": "Comments",
-      "date": "2026-09-11",
-      "source": "Lobsters",
-      "cat": "ai",
-      "lang": "en"
-    },
-    {
-      "title": "Measuring the sloppiness of code",
-      "link": "https://earendil.com/posts/measuring-code-sloppiness/",
-      "desc": "Comments",
-      "date": "2026-09-11",
-      "source": "Lobsters",
-      "cat": "ai",
-      "lang": "en"
-    },
-    {
-      "title": "Bastion of the Turbofish",
-      "link": "https://github.com/rust-lang/rust/blob/main/tests/ui/parser/bastion-of-the-turbofish.rs",
       "desc": "Comments",
       "date": "2026-09-11",
       "source": "Lobsters",
@@ -481,15 +697,6 @@ window.NEWS_DATA = {
       "title": "Когда отменят ИИ-подписки? Считаем, сколько нам достаётся за $20",
       "link": "https://habr.com/ru/articles/1081060/?utm_campaign=1081060&utm_source=habrahabr&utm_medium=rss",
       "desc": "Поначалу мне казалось, что я просто не могу найти эту информацию в настройках: сколько токенов даётся в подписке? ChatGPT Plus, Claude Pro и Google AI Pro стоят около $20, а дорогие тарифы тоже очень удачно попадают в одни и те же $100 и $200. Получается, осталось узнать количество токенов и выбр...",
-      "date": "2026-09-11",
-      "source": "Habr AI",
-      "cat": "ai",
-      "lang": "ru"
-    },
-    {
-      "title": "[Перевод] Manticore Search 29.9.0: chunked auto-embeddings и mmap-доступ к columnar-атрибутам",
-      "link": "https://habr.com/ru/articles/1081448/?utm_campaign=1081448&utm_source=habrahabr&utm_medium=rss",
-      "desc": "Manticore Search 29.9.0: chunked auto-embeddings и mmap-доступ к columnar-атрибутам Manticore Search 29.9.0 добавляет chunked и multi-vector auto-embeddings, ограничение входа для embedding-моделей, UTF-8 идентификаторы, mmap-доступ к columnar-атрибутам по умолчанию, а также исправления для hybri...",
       "date": "2026-09-11",
       "source": "Habr AI",
       "cat": "ai",
@@ -653,16 +860,7 @@ window.NEWS_DATA = {
       "link": "https://habr.com/ru/companies/vk/articles/1080770/?utm_campaign=1080770&utm_source=habrahabr&utm_medium=rss",
       "desc": "Эволюция искусственного интеллекта дошла до стадии, когда загрузка весов нейросети из открытого репозитория сводится к нескольким кликам, тогда как внедрение алгоритма в продуктовый контур оборачивается многомесячным квестом. Отчасти подобный разрыв объясняется тем, что традиционная инфраструктур...",
       "date": "2026-09-11",
-      "source": "Habr AI",
-      "cat": "ai",
-      "lang": "ru"
-    },
-    {
-      "title": "Искусственный интеллект и ФСТЭК России: действующие и проектируемые документы по состоянию на 01.09.2026",
-      "link": "https://habr.com/ru/articles/1081098/?utm_campaign=1081098&utm_source=habrahabr&utm_medium=rss",
-      "desc": "После непродолжительных поисков в нормативных недрах обнаружились следующие документы за авторством ФСТЭК России , в которых так или иначе упоминается « искусственный интеллект »: Читать далее",
-      "date": "2026-09-11",
-      "source": "Habr AI",
+      "source": "Habr ML",
       "cat": "ai",
       "lang": "ru"
     },
@@ -671,7 +869,7 @@ window.NEWS_DATA = {
       "link": "https://habr.com/ru/companies/yandex/articles/1080654/?utm_campaign=1080654&utm_source=habrahabr&utm_medium=rss",
       "desc": "Быстрый ответ Алисы AI — это самый массовый генеративный продукт Яндекса и первое соприкосновение с Алисой для пользователей Поиска. Даже в час пиковой нагрузки пользователь должен получить лаконичный ответ за считаные секунды. Для этого мы, команда Alice AI Search, адаптируем весь пайплайн быстр...",
       "date": "2026-09-11",
-      "source": "Habr AI",
+      "source": "Habr ML",
       "cat": "ai",
       "lang": "ru"
     },
@@ -680,16 +878,7 @@ window.NEWS_DATA = {
       "link": "https://habr.com/ru/companies/gptunnel/articles/1081094/?utm_campaign=1081094&utm_source=habrahabr&utm_medium=rss",
       "desc": "Неделя выдалась такая, что впору сериал снимать с открытым финалом. Модели штампуют быстрее, чем успеваешь придумывать им имена, лидерборды переворачиваются за завтраком, а где-то в недрах OpenAI десять тысяч автономных агентов молча уселись решать задачу, за которую математики бьются с прошлого ...",
       "date": "2026-09-11",
-      "source": "Habr AI",
-      "cat": "ai",
-      "lang": "ru"
-    },
-    {
-      "title": "RAG, поиск и LongContext: почему сложные пайплайны не всегда нужны",
-      "link": "https://habr.com/ru/companies/bothub/articles/1081080/?utm_campaign=1081080&utm_source=habrahabr&utm_medium=rss",
-      "desc": "В 2023 году RAG был единственным способом засунуть знания в LLM — контекстное окно было маленьким, часто были галлюцинации. RAG постепенно стал одной из самых популярных технологий, чтобы получить базу знаний, по которой можно искать данные через натуральный язык. Но с другой стороны — RAG-пайпла...",
-      "date": "2026-09-11",
-      "source": "Habr AI",
+      "source": "Habr ML",
       "cat": "ai",
       "lang": "ru"
     },
@@ -771,6 +960,168 @@ window.NEWS_DATA = {
       "desc": "В здании начался пожар.",
       "date": "2026-09-11",
       "source": "vc.ru",
+      "cat": "ai",
+      "lang": "ru"
+    },
+    {
+      "title": "Forgotten Woodlands",
+      "link": "https://storymaps.arcgis.com/stories/9b790daf22ba4e87836f467abb1c7e49",
+      "desc": "Article URL: https://storymaps.arcgis.com/stories/9b790daf22ba4e87836f467abb1c7e49 Comments URL: https://news.ycombinator.com/item?id=49665549 Points: 21 # Comments: 4",
+      "date": "2026-09-11",
+      "source": "Hacker News",
+      "cat": "ai",
+      "lang": "en"
+    },
+    {
+      "title": "I spent $220 on Google app ads and 60% of the installs were robots",
+      "link": "https://dayzlegame.com/blog/google-ads-bot-farm/",
+      "desc": "Article URL: https://dayzlegame.com/blog/google-ads-bot-farm/ Comments URL: https://news.ycombinator.com/item?id=49662990 Points: 626 # Comments: 345",
+      "date": "2026-09-11",
+      "source": "Hacker News",
+      "cat": "ai",
+      "lang": "en"
+    },
+    {
+      "title": "Litelm: LiteLLM Without the Bloat",
+      "link": "https://github.com/kennethwolters/litelm",
+      "desc": "Article URL: https://github.com/kennethwolters/litelm Comments URL: https://news.ycombinator.com/item?id=49662767 Points: 157 # Comments: 52",
+      "date": "2026-09-11",
+      "source": "Hacker News",
+      "cat": "ai",
+      "lang": "en"
+    },
+    {
+      "title": "A misalignment of AI in mathematics",
+      "link": "https://mathandai.org/",
+      "desc": "https://terrytao.wordpress.com/2026/09/11/a-severe-misalignm... https://www.economist.com/science-and-technology/2026/09/11/... , https://unwall.app/www.economist.com/science-and-technology/... Comments URL: https://news.ycombinator.com/item?id=49662371 Points: 1054 # Comments: 1012",
+      "date": "2026-09-11",
+      "source": "Hacker News",
+      "cat": "ai",
+      "lang": "en"
+    },
+    {
+      "title": "Mind-altering drugs played key role in rise of Andean civilization",
+      "link": "https://www.science.org/content/article/mind-altering-drugs-played-key-role-rise-andean-civilization",
+      "desc": "Article URL: https://www.science.org/content/article/mind-altering-drugs-played-key-role-rise-andean-civilization Comments URL: https://news.ycombinator.com/item?id=49662020 Points: 187 # Comments: 123",
+      "date": "2026-09-11",
+      "source": "Hacker News",
+      "cat": "ai",
+      "lang": "en"
+    },
+    {
+      "title": "Rune is now open source",
+      "link": "https://rune.build/blog/rune-is-now-open-source",
+      "desc": "Article URL: https://rune.build/blog/rune-is-now-open-source Comments URL: https://news.ycombinator.com/item?id=49660149 Points: 203 # Comments: 65",
+      "date": "2026-09-11",
+      "source": "Hacker News",
+      "cat": "ai",
+      "lang": "en"
+    },
+    {
+      "title": "I Fixed a Tractor Using John Deere's Self-Repair Service. Farmers Aren't Sold",
+      "link": "https://www.wired.com/story/i-fixed-a-tractor-john-deere-self-repair-service/",
+      "desc": "Article URL: https://www.wired.com/story/i-fixed-a-tractor-john-deere-self-repair-service/ Comments URL: https://news.ycombinator.com/item?id=49658672 Points: 22 # Comments: 31",
+      "date": "2026-09-11",
+      "source": "Hacker News",
+      "cat": "ai",
+      "lang": "en"
+    },
+    {
+      "title": "Power grab",
+      "link": "https://tante.cc/2026/09/11/power-grab/",
+      "desc": "Comments",
+      "date": "2026-09-11",
+      "source": "Lobsters",
+      "cat": "ai",
+      "lang": "en"
+    },
+    {
+      "title": "ChiPass Release 2026.09.0",
+      "link": "https://codeberg.org/ChiPass/ChiPass/releases/tag/v2026.09.0",
+      "desc": "Comments",
+      "date": "2026-09-11",
+      "source": "Lobsters",
+      "cat": "ai",
+      "lang": "en"
+    },
+    {
+      "title": "evergarden",
+      "link": "https://evergarden.moe/",
+      "desc": "Comments",
+      "date": "2026-09-11",
+      "source": "Lobsters",
+      "cat": "ai",
+      "lang": "en"
+    },
+    {
+      "title": "A list of macOS defaults commands with demos",
+      "link": "https://macos-defaults.com/",
+      "desc": "Comments",
+      "date": "2026-09-11",
+      "source": "Lobsters",
+      "cat": "ai",
+      "lang": "en"
+    },
+    {
+      "title": "What are you doing this weekend?",
+      "link": "https://lobste.rs/s/vc0brm/what_are_you_doing_this_weekend",
+      "desc": "Feel free to tell what you plan on doing this weekend and even ask for help or feedback. Please keep in mind it’s more than OK to do nothing at all too!",
+      "date": "2026-09-11",
+      "source": "Lobsters",
+      "cat": "ai",
+      "lang": "en"
+    },
+    {
+      "title": "Tutorial for Septabee, a free DAW in the making for over 20,000 hours",
+      "link": "https://www.youtube.com/watch?v=lW8Z98pXuSE",
+      "desc": "Comments",
+      "date": "2026-09-11",
+      "source": "Lobsters",
+      "cat": "ai",
+      "lang": "en"
+    },
+    {
+      "title": "Measuring the sloppiness of code",
+      "link": "https://earendil.com/posts/measuring-code-sloppiness/",
+      "desc": "Comments",
+      "date": "2026-09-11",
+      "source": "Lobsters",
+      "cat": "ai",
+      "lang": "en"
+    },
+    {
+      "title": "Bastion of the Turbofish",
+      "link": "https://github.com/rust-lang/rust/blob/main/tests/ui/parser/bastion-of-the-turbofish.rs",
+      "desc": "Comments",
+      "date": "2026-09-11",
+      "source": "Lobsters",
+      "cat": "ai",
+      "lang": "en"
+    },
+    {
+      "title": "[Перевод] Manticore Search 29.9.0: chunked auto-embeddings и mmap-доступ к columnar-атрибутам",
+      "link": "https://habr.com/ru/articles/1081448/?utm_campaign=1081448&utm_source=habrahabr&utm_medium=rss",
+      "desc": "Manticore Search 29.9.0: chunked auto-embeddings и mmap-доступ к columnar-атрибутам Manticore Search 29.9.0 добавляет chunked и multi-vector auto-embeddings, ограничение входа для embedding-моделей, UTF-8 идентификаторы, mmap-доступ к columnar-атрибутам по умолчанию, а также исправления для hybri...",
+      "date": "2026-09-11",
+      "source": "Habr AI",
+      "cat": "ai",
+      "lang": "ru"
+    },
+    {
+      "title": "Искусственный интеллект и ФСТЭК России: действующие и проектируемые документы по состоянию на 01.09.2026",
+      "link": "https://habr.com/ru/articles/1081098/?utm_campaign=1081098&utm_source=habrahabr&utm_medium=rss",
+      "desc": "После непродолжительных поисков в нормативных недрах обнаружились следующие документы за авторством ФСТЭК России , в которых так или иначе упоминается « искусственный интеллект »: Читать далее",
+      "date": "2026-09-11",
+      "source": "Habr AI",
+      "cat": "ai",
+      "lang": "ru"
+    },
+    {
+      "title": "RAG, поиск и LongContext: почему сложные пайплайны не всегда нужны",
+      "link": "https://habr.com/ru/companies/bothub/articles/1081080/?utm_campaign=1081080&utm_source=habrahabr&utm_medium=rss",
+      "desc": "В 2023 году RAG был единственным способом засунуть знания в LLM — контекстное окно было маленьким, часто были галлюцинации. RAG постепенно стал одной из самых популярных технологий, чтобы получить базу знаний, по которой можно искать данные через натуральный язык. Но с другой стороны — RAG-пайпла...",
+      "date": "2026-09-11",
+      "source": "Habr AI",
       "cat": "ai",
       "lang": "ru"
     },
@@ -865,56 +1216,11 @@ window.NEWS_DATA = {
       "lang": "ru"
     },
     {
-      "title": "Show HN: Bodily Oddities",
-      "link": "https://vester.si/bodily-oddities/",
-      "desc": "When I was about 11 years old, my best friend and I were playing during recess at school, and I was carrying him around on my back, presumably pretending to be a multipart attack robot. All of a sudden, my heart started hurting, and I collapsed to my knees, and the robot was no more. Every time I...",
+      "title": "Anthropic Says It Blocked Possible Efforts to Build Biological Weapons",
+      "link": "https://www.nytimes.com/2026/09/10/us/politics/anthropic-ai-biological-weapons.html",
+      "desc": "In a new report, the A.I. start-up added that it could not determine whether the research was legitimate or nefarious, leading the company to shut down the work.",
       "date": "2026-09-10",
-      "source": "Hacker News",
-      "cat": "ai",
-      "lang": "en"
-    },
-    {
-      "title": "Models Don't Go Rogue",
-      "link": "https://mail.cyberneticforests.com/models-dont-go-rogue/",
-      "desc": "Comments",
-      "date": "2026-09-10",
-      "source": "Lobsters",
-      "cat": "ai",
-      "lang": "en"
-    },
-    {
-      "title": "Soft-deprecating re.match()",
-      "link": "https://hugovk.dev/blog/2026/soft-deprecating-re.match/",
-      "desc": "Comments",
-      "date": "2026-09-10",
-      "source": "Lobsters",
-      "cat": "ai",
-      "lang": "en"
-    },
-    {
-      "title": "A rant about phishing: It's not the user's fault (and not DNS either)",
-      "link": "https://maurycyz.com/misc/domains/",
-      "desc": "Comments",
-      "date": "2026-09-10",
-      "source": "Lobsters",
-      "cat": "ai",
-      "lang": "en"
-    },
-    {
-      "title": "Rust Is Tier-1 Language at Microsoft",
-      "link": "https://rustfoundation.org/media/guest-post-rust-is-tier-1-language-at-microsoft/",
-      "desc": "Comments",
-      "date": "2026-09-10",
-      "source": "Lobsters",
-      "cat": "ai",
-      "lang": "en"
-    },
-    {
-      "title": "An untrusted site can freeze a Mac using WebGPU",
-      "link": "https://auberon.xyz/blog/posts/deathray/",
-      "desc": "Comments",
-      "date": "2026-09-10",
-      "source": "Lobsters",
+      "source": "NYT Tech",
       "cat": "ai",
       "lang": "en"
     },
@@ -922,15 +1228,6 @@ window.NEWS_DATA = {
       "title": "Why is Apple’s New Foldable iPhone Duo $1,999?",
       "link": "https://www.nytimes.com/2026/09/10/technology/personaltech/iphone-duo-foldable-phones.html",
       "desc": "The company unveiled a new iPhone that costs $1,999. Here are the economics behind that price tag.",
-      "date": "2026-09-10",
-      "source": "NYT Tech",
-      "cat": "ai",
-      "lang": "en"
-    },
-    {
-      "title": "Anthropic Says It Blocked Possible Efforts to Build Biological Weapons",
-      "link": "https://www.nytimes.com/2026/09/10/us/politics/anthropic-ai-biological-weapons.html",
-      "desc": "In a new report, the A.I. start-up added that it could not determine whether the research was legitimate or nefarious, leading the company to shut down the work.",
       "date": "2026-09-10",
       "source": "NYT Tech",
       "cat": "ai",
@@ -1016,6 +1313,60 @@ window.NEWS_DATA = {
       "source": "vc.ru",
       "cat": "ai",
       "lang": "ru"
+    },
+    {
+      "title": "Show HN: Bodily Oddities",
+      "link": "https://vester.si/bodily-oddities/",
+      "desc": "When I was about 11 years old, my best friend and I were playing during recess at school, and I was carrying him around on my back, presumably pretending to be a multipart attack robot. All of a sudden, my heart started hurting, and I collapsed to my knees, and the robot was no more. Every time I...",
+      "date": "2026-09-10",
+      "source": "Hacker News",
+      "cat": "ai",
+      "lang": "en"
+    },
+    {
+      "title": "Models Don't Go Rogue",
+      "link": "https://mail.cyberneticforests.com/models-dont-go-rogue/",
+      "desc": "Comments",
+      "date": "2026-09-10",
+      "source": "Lobsters",
+      "cat": "ai",
+      "lang": "en"
+    },
+    {
+      "title": "Soft-deprecating re.match()",
+      "link": "https://hugovk.dev/blog/2026/soft-deprecating-re.match/",
+      "desc": "Comments",
+      "date": "2026-09-10",
+      "source": "Lobsters",
+      "cat": "ai",
+      "lang": "en"
+    },
+    {
+      "title": "A rant about phishing: It's not the user's fault (and not DNS either)",
+      "link": "https://maurycyz.com/misc/domains/",
+      "desc": "Comments",
+      "date": "2026-09-10",
+      "source": "Lobsters",
+      "cat": "ai",
+      "lang": "en"
+    },
+    {
+      "title": "Rust Is Tier-1 Language at Microsoft",
+      "link": "https://rustfoundation.org/media/guest-post-rust-is-tier-1-language-at-microsoft/",
+      "desc": "Comments",
+      "date": "2026-09-10",
+      "source": "Lobsters",
+      "cat": "ai",
+      "lang": "en"
+    },
+    {
+      "title": "An untrusted site can freeze a Mac using WebGPU",
+      "link": "https://auberon.xyz/blog/posts/deathray/",
+      "desc": "Comments",
+      "date": "2026-09-10",
+      "source": "Lobsters",
+      "cat": "ai",
+      "lang": "en"
     },
     {
       "title": "Fastly Speedtest Test",
@@ -1449,5 +1800,5 @@ window.NEWS_DATA = {
     "jobs",
     "orders"
   ],
-  "updated": "12.09.2026, 17:23:04"
+  "updated": "13.09.2026, 10:54:55"
 };

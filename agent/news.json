@@ -1,5 +1,50 @@
 [
   {
+    "title": "Why are AI agents lying, cheating and coordinating?",
+    "link": "https://yoshuabengio.org/en/publication/why-are-ai-agents-lying-cheating-and-coordinating",
+    "desc": "Article URL: https://yoshuabengio.org/en/publication/why-are-ai-agents-lying-cheating-and-coordinating Comments URL: https://news.ycombinator.com/item?id=49678969 Points: 133 # Comments: 145",
+    "date": "2026-09-13",
+    "source": "Hacker News",
+    "cat": "agent",
+    "lang": "en"
+  },
+  {
+    "title": "Агентное будущее",
+    "link": "https://habr.com/ru/articles/1078900/?utm_campaign=1078900&utm_source=habrahabr&utm_medium=rss",
+    "desc": "Представьте обычный день через несколько лет. Вы почти перестали пользоваться интернетом напрямую. Ваш персональный ИИ-агент пользуется им за вас. Вы не заходите в интернет-магазин, не открываете мессенджеры, не ищете врача и не переписываетесь со страховой. Сервисы никуда не исчезли — просто для...",
+    "date": "2026-09-13",
+    "source": "Habr AI",
+    "cat": "agent",
+    "lang": "ru"
+  },
+  {
+    "title": "AgentsDock: An IDE designed for agentic AI research",
+    "link": "https://agentsdock.net/",
+    "desc": "Article URL: https://agentsdock.net/ Comments URL: https://news.ycombinator.com/item?id=49678435 Points: 44 # Comments: 15",
+    "date": "2026-09-12",
+    "source": "Hacker News",
+    "cat": "agent",
+    "lang": "en"
+  },
+  {
+    "title": "Useful Things Agents Can Do That Are Not Writing Code",
+    "link": "https://elijahpotter.dev/articles/useful_things_agents_can_do_that_are_not_writing_code",
+    "desc": "Comments",
+    "date": "2026-09-12",
+    "source": "Lobsters",
+    "cat": "agent",
+    "lang": "en"
+  },
+  {
+    "title": "Скриншоты жгут токены, headless не залогинен: отдаём ИИ-агенту настоящий Chrome через accessibility-дерево",
+    "link": "https://habr.com/ru/articles/1081628/?utm_campaign=1081628&utm_source=habrahabr&utm_medium=rss",
+    "desc": "Про то как я сделал расширение для Хрома, которое позволяет контролировать открытый браузер через командную строку и подключать к этому ИИ агенты Читать далее",
+    "date": "2026-09-12",
+    "source": "Habr AI",
+    "cat": "agent",
+    "lang": "ru"
+  },
+  {
     "title": "The Worst Spam Emails: Inside iLands' AI Agent Hustle",
     "link": "https://tedium.co/2026/09/11/ilands-agents-email-spam-kaixin-tang/",
     "desc": "Article URL: https://tedium.co/2026/09/11/ilands-agents-email-spam-kaixin-tang/ Comments URL: https://news.ycombinator.com/item?id=49671159 Points: 48 # Comments: 26",
@@ -11,9 +56,9 @@
   {
     "title": "OpenAI agents carried out an undisclosed attack on RubyGems",
     "link": "https://www.rubyhack.ai/",
-    "desc": "https://simonwillison.net/2026/Sep/12/openai-agents-rubygems... Comments URL: https://news.ycombinator.com/item?id=49666735 Points: 815 # Comments: 473",
+    "desc": "Comments",
     "date": "2026-09-11",
-    "source": "Hacker News",
+    "source": "Lobsters",
     "cat": "agent",
     "lang": "en"
   },

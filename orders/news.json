@@ -1,5 +1,345 @@
 [
   {
+    "title": "Каждый файл png  сделать векторизацию в формат svg, ai, pdf (вектор)",
+    "link": "https://www.fl.ru/projects/5521776/kajdyiy-fayl-png--sdelat-vektorizatsiyu-v-format-svg-ai-pdf-vektor.html",
+    "desc": "Каждый файл png сделать векторизацию в формат svg, ai, pdf (вектор) 300 исходящих примерно - 900 файлов результат. Сохранить имя исходящего файла Брэенд система ПО. Логотипы,...",
+    "date": "2026-09-13",
+    "source": "FL.ru",
+    "cat": "orders",
+    "order_type": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "Приглашение на свадьбу Тильда  (Бюджет: 10 000  ₽)",
+    "link": "https://www.fl.ru/projects/5521772/priglashenie-na-svadbu-tilda-.html",
+    "desc": "Небольшой лэндинг, приглашение на свадьбу",
+    "date": "2026-09-13",
+    "source": "FL.ru",
+    "cat": "orders",
+    "order_type": "sites",
+    "lang": "ru"
+  },
+  {
+    "title": "Изменение фото",
+    "link": "https://www.fl.ru/projects/5521771/izmenenie-foto.html",
+    "desc": "Нужно переделать фото так, чтобы оно подходило под формат \"на паспорт\"",
+    "date": "2026-09-13",
+    "source": "FL.ru",
+    "cat": "orders",
+    "order_type": "content",
+    "lang": "ru"
+  },
+  {
+    "title": "Обновление сайта на базе Moguta.CMS",
+    "link": "https://www.fl.ru/projects/5521770/obnovlenie-sayta-na-baze-mogutacms.html",
+    "desc": "Многостраничный интернет магазин специализирующийся на продаже напольных покрытий Необходимо поправить код сайта и дополнить функционалом - исправить подсчет кратности...",
+    "date": "2026-09-13",
+    "source": "FL.ru",
+    "cat": "orders",
+    "order_type": "sites",
+    "lang": "ru"
+  },
+  {
+    "title": "Добавление в мобильное приложение способов авторизации",
+    "link": "https://www.fl.ru/projects/5521757/dobavlenie-v-mobilnoe-prilojenie-sposobov-avtorizatsii.html",
+    "desc": "Добрый день! Пишу по проекту мобильного приложения для медицинского центра. Хотим добавить подтверждение номера телефона через Сбер ID, VK ID, Госуслуги и, возможно, WaitCall...",
+    "date": "2026-09-13",
+    "source": "FL.ru",
+    "cat": "orders",
+    "order_type": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "Доработка 1С:БП (авто отправка технических паспортов)",
+    "link": "https://www.fl.ru/projects/5521741/dorabotka-1sbp-avto-otpravka-tehnicheskih-pasportov.html",
+    "desc": "Нужна доработка 1С:БП 8.5, которая автоматически формирует технические паспорта на основе счета/УПД по шаблонам. Должна быть возможность отправлять по e-mail и/или сохранять...",
+    "date": "2026-09-13",
+    "source": "FL.ru",
+    "cat": "orders",
+    "order_type": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "Создать сайт онлайн игры в алтайские шашки - шатра (для всех)",
+    "link": "https://www.fl.ru/projects/5521763/sozdat-sayt-onlayn-igryi-v-altayskie-shashki---shatra.html",
+    "desc": "Нужен сайт для одной игры алтай шатра. Разделы - новости, правила игры, форум, турниры, онлайн игра. Требуется учет рейтинга, и сохранение всех игр в базу игр. Чтобы видеть в режиме видео все игры. Форма регистрации игроков через эл почту и согласование админом. Чтобы в режиме онлайн игры могли и...",
+    "date": "2026-09-13",
+    "source": "FL.ru",
+    "cat": "orders",
+    "order_type": "sites",
+    "lang": "ru"
+  },
+  {
+    "title": "Напишите краткое описание на Электровелосипед Strong u2 (Бюджет: 100  ₽)",
+    "link": "https://www.fl.ru/projects/5521749/napishite-kratkoe-opisanie-na-elektrovelosiped-strong-u2.html",
+    "desc": "Просто нужно сделать описание достаточно объемное, какие есть плюсы покупки данного велосипеда, какие минусы",
+    "date": "2026-09-13",
+    "source": "FL.ru",
+    "cat": "orders",
+    "order_type": "content",
+    "lang": "ru"
+  },
+  {
+    "title": "Ai фото по моему селфи (около 10 готовых вариантов )",
+    "link": "https://www.fl.ru/projects/5521742/ai-foto-po-moemu-selfi-okolo-10-gotovyih-variantov--.html",
+    "desc": "Нужно сделать фотосессию живых снимков по моему селфи ( в сумме до 10 фотографий ) фотографии должны быть живыми , обсуждаем все моменты , референсы поищу",
+    "date": "2026-09-13",
+    "source": "FL.ru",
+    "cat": "orders",
+    "order_type": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "Привести html верстку сайта к виду как на макетах",
+    "link": "https://www.fl.ru/projects/5521756/privesti-html-verstku-sayta-k-vidu-kak-na-maketah.html",
+    "desc": "Есть макеты страницы. Есть сверстанная версия html + tailwind 4. Нужно привести макет к виду как на макетах. В основном проблема с изображениями их дорисовать и грамотно...",
+    "date": "2026-09-13",
+    "source": "FL.ru",
+    "cat": "orders",
+    "order_type": "sites",
+    "lang": "ru"
+  },
+  {
+    "title": "Доработка 1С 7.7 (Отправка остатков со склада)",
+    "link": "https://www.fl.ru/projects/5521746/dorabotka-1s-77-otpravka-ostatkov-so-sklada.html",
+    "desc": "Доработка для 1С 7.7 отправка остатков со склада для нескольких контрагентов. Нужно чтобы в 1С автоматически формировались и отправлялись по e-mail остатки со склада. Подробнее...",
+    "date": "2026-09-13",
+    "source": "FL.ru",
+    "cat": "orders",
+    "order_type": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "Афиша , логотип на Кемп",
+    "link": "https://www.fl.ru/projects/5521750/afisha--logotip-na-kemp-.html",
+    "desc": "Афиша с программой дня , фотографиями, ценами , и полной информацией , фото отеля . Корты желательно хардовые на фото. Банер должен быть привлекательным и интересным , ярким ,...",
+    "date": "2026-09-13",
+    "source": "FL.ru",
+    "cat": "orders",
+    "order_type": "design",
+    "lang": "ru"
+  },
+  {
+    "title": "Доработка для 1С: БП 8.5 3.0",
+    "link": "https://www.fl.ru/projects/5521738/dorabotka-dlya-1s-bp-85-30-.html",
+    "desc": "Доработка для 1С: БП 8.5 3.0 Нужно сделать доработку для 1С которая отсылала бы заявки из 1С к нам на склад. Заявки на отгрузку/получение/просмотр/подготовку к отгрузке....",
+    "date": "2026-09-13",
+    "source": "FL.ru",
+    "cat": "orders",
+    "order_type": "content",
+    "lang": "ru"
+  },
+  {
+    "title": "Доработка 1С (подсчет веса и объема в счете)",
+    "link": "https://www.fl.ru/projects/5521747/dorabotka-1s-podschet-vesa-i-obyema-v-schete.html",
+    "desc": "Требуется доработка 1С:БП 8.5. Должен быть указан в счете общий вес и объем продукции (пример в прикрепленном файле-счете). Вес и объем товара должен указываться в...",
+    "date": "2026-09-13",
+    "source": "FL.ru",
+    "cat": "orders",
+    "order_type": "content",
+    "lang": "ru"
+  },
+  {
+    "title": "Автоматизация Word (Бюджет: 100 000  ₽)",
+    "link": "https://www.fl.ru/projects/5521758/avtomatizatsiya-word.html",
+    "desc": "Техническое задание Программа автоматического оформления учебных работ по нормоконтролю Версия ТЗ: 1.0 1. Идея и назначение Студенты тратят много времени на оформление...",
+    "date": "2026-09-13",
+    "source": "FL.ru",
+    "cat": "orders",
+    "order_type": "content",
+    "lang": "ru"
+  },
+  {
+    "title": "Доделать раздел ВК обе стадии (Бюджет: 20 000  ₽, для всех)",
+    "link": "https://www.fl.ru/projects/5521695/dodelat-razdel-vk-obe-stadii.html",
+    "desc": "Доработать проектную и рабочую документацию по выданным замечаниям. Увязать расходы воды и стоков между ИОС2 и ИОС3, исправить расчеты водоснабжения, канализации и ГВС, проверить подбор счетчиков, теплообменника и насоса. Доработать схемы подключения к наружным сетям, планы и аксонометрии: маркир...",
+    "date": "2026-09-13",
+    "source": "FL.ru",
+    "cat": "orders",
+    "order_type": "content",
+    "lang": "ru"
+  },
+  {
+    "title": "Cheat (Бюджет: 2 000  ₽)",
+    "link": "https://www.fl.ru/projects/5521765/cheat.html",
+    "desc": "Рабочий чит ESP игроков сквозь стены. Главное, чтобы после обновления игры софт сам подтягивал данные под обновление. Желательно сделать хорошую защиту от блокировки External",
+    "date": "2026-09-13",
+    "source": "FL.ru",
+    "cat": "orders",
+    "order_type": "content",
+    "lang": "ru"
+  },
+  {
+    "title": "Нужна помощь по продаже мобильного приложения",
+    "link": "https://www.fl.ru/projects/5521744/nujna-pomosch-po-prodaje-mobilnogo-prilojeniya-.html",
+    "desc": "Нужна помощь по продаже мобильного приложения . Процент с продажи вам . Вы выкладывать объявление на доске объявлений , полчанин отклик потенц покупателей . Оплата постфактум ....",
+    "date": "2026-09-13",
+    "source": "FL.ru",
+    "cat": "orders",
+    "order_type": "content",
+    "lang": "ru"
+  },
+  {
+    "title": "Доделать раздел ОВ+АОВ обе стадии   (Бюджет: 20 000  ₽, для всех)",
+    "link": "https://www.fl.ru/projects/5521694/dodelat-razdel-ovaov-obe-stadii--.html",
+    "desc": "ТЗ: разработать проектную и рабочую документацию для торгово-складского здания без офисной части общей площадью около 2176 м². Состав: стадия П - ИОС по отоплению, вентиляции, кондиционированию и теплоснабжению; стадия Р - комплекты ОВ и АОВ. За основу принять готовый проект аналогичного здания с...",
+    "date": "2026-09-13",
+    "source": "FL.ru",
+    "cat": "orders",
+    "order_type": "content",
+    "lang": "ru"
+  },
+  {
+    "title": "Доделать раздел ПБ  (Бюджет: 10 000  ₽, для всех)",
+    "link": "https://www.fl.ru/projects/5521696/dodelat-razdel-pb-.html",
+    "desc": "Отработать замечания проверяющего и дальнейшие итерации. Срочность 1-2 недели. Добавить таблицу соседних объектов и ситуационный план: границы, въезды, проезды, расстояния, ПГ, водопровод, рукавные трассы. Убрать категорию В у здания Ф4.3; рассчитать категории кладовых, ВРУ, серверной и техпомеще...",
+    "date": "2026-09-13",
+    "source": "FL.ru",
+    "cat": "orders",
+    "order_type": "content",
+    "lang": "ru"
+  },
+  {
+    "title": "Настроить в Kaiten рабочее пространство для управления 42 объектами строительства на основе Excel",
+    "link": "https://www.fl.ru/projects/5521740/nastroit-v-kaiten-rabochee-prostranstvo-dlya-upravleniya-42-obyektami-stroitelstva-na-osnove-excel.html",
+    "desc": "Настроить в Kaiten рабочее пространство для управления 42 объектами строительства (инженерные изыскания и подготовка территории) на основе существующего Excel-файла. Система...",
+    "date": "2026-09-13",
+    "source": "FL.ru",
+    "cat": "orders",
+    "order_type": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "Создать упаковку: лендинг, брошюру, презентацию, визитку (Бюджет: 20 000  ₽)",
+    "link": "https://www.fl.ru/projects/5521753/sozdat-upakovku-lending-broshyuru-prezentatsiyu-vizitku.html",
+    "desc": "Под агента по продаже недвижимости нужны: лендинг, рекламная брошюра (текст и дизайн), нужна стильная визитка, презентация в пдф. Ничего нет: нужно вместе придумать текст,...",
+    "date": "2026-09-13",
+    "source": "FL.ru",
+    "cat": "orders",
+    "order_type": "sites",
+    "lang": "ru"
+  },
+  {
+    "title": "Хочу сделать кавер на известную песню, но с новыми словами. Подходишь ли ты для такого? (для всех)",
+    "link": "https://www.fl.ru/projects/5521691/hochu-sdelat-kaver-na-izvestnuyu-pesnyu-no-s-novyimi-slovami-podhodish-li-tyi-dlya-takogo.html",
+    "desc": "Нужен вокалист, надо спеть кавер на известную песню, но с новыми словами. Подходишь ли ты для такого?",
+    "date": "2026-09-13",
+    "source": "FL.ru",
+    "cat": "orders",
+    "order_type": "content",
+    "lang": "ru"
+  },
+  {
+    "title": "«Нужен монтажёр для регулярной нарезки стримов (для всех)",
+    "link": "https://www.fl.ru/projects/5521662/nujen-montajr-dlya-regulyarnoy-narezki-strimov.html",
+    "desc": "Ищу монтажёра / нарезчика Нужно делать вертикальные Shorts, TikTok и VK Клипы из моих Twitch/YouTube-стримов. Формат: 15-35 секунд, 9:16, динамичный монтаж, русские субтитры, зумы, саунд-дизайн, мемные вставки - без перегруза. Нужны моменты: мультикиллы, камбэки, лорд-стилы, смешные фейлы и реакц...",
+    "date": "2026-09-12",
+    "source": "FL.ru",
+    "cat": "orders",
+    "order_type": "design",
+    "lang": "ru"
+  },
+  {
+    "title": "академический анализ фильма «Parthenope» Паоло Соррентино",
+    "link": "https://www.fl.ru/projects/5521755/akademicheskiy-analiz-filma-parthenope-paolo-sorrentino.html",
+    "desc": "Необходимо подготовить подробный академический киноведческий анализ фильма Paolo Sorrentino — Parthenope (2024) в соответствии с требованиями преподавателя университетского...",
+    "date": "2026-09-12",
+    "source": "FL.ru",
+    "cat": "orders",
+    "order_type": "content",
+    "lang": "ru"
+  },
+  {
+    "title": "Программа для тик ток эфиров  (Бюджет: 2 000  ₽, для всех)",
+    "link": "https://www.fl.ru/projects/5521685/programma-dlya-tik-tok-efirov-.html",
+    "desc": "Я должен без соглашения авторов в тик токе присоединятся к ним анти блок от них чтоб меня не смогли заблокировать",
+    "date": "2026-09-12",
+    "source": "FL.ru",
+    "cat": "orders",
+    "order_type": "content",
+    "lang": "ru"
+  },
+  {
+    "title": "Аудит по выходу из аффилиации Google (Бюджет: 10 000  ₽)",
+    "link": "https://www.fl.ru/projects/5521752/audit-po-vyihodu-iz-affiliatsii-google.html",
+    "desc": "1. Необходимо провести аудит сайта и разработать стратегию по выходу из аффилиации Google 2. Дать рекомендации по выходу в ТОП.",
+    "date": "2026-09-12",
+    "source": "FL.ru",
+    "cat": "orders",
+    "order_type": "sites",
+    "lang": "ru"
+  },
+  {
+    "title": "Нужно продать доступ от известной платформы (Бюджет: 8 000  ₽)",
+    "link": "https://www.fl.ru/projects/5521751/nujno-prodat-dostup-ot-izvestnoy-platformyi.html",
+    "desc": "Покупал курс за 184, не использовал по назначению т.к. нет времени. Помогите продать со сменой данных аккаунт, плачу вам 10% от продажи. Цену курса вижу 80 т.р.",
+    "date": "2026-09-12",
+    "source": "FL.ru",
+    "cat": "orders",
+    "order_type": "content",
+    "lang": "ru"
+  },
+  {
+    "title": "Нужен аудит схемы и разводки двух плат интерактивной напольной плитки перед производством",
+    "link": "https://www.fl.ru/projects/5521745/nujen-audit-shemyi-i-razvodki-dvuh-plat-interaktivnoy-napolnoy-plitki-pered-proizvodstvom.html",
+    "desc": "Здравствуйте! Нужен аудит схемы и разводки двух плат интерактивной напольной плитки перед производством. Проект в KiCad, питание 24 В, STM32, HX711, CAN/RS-485. Занимаетесь...",
+    "date": "2026-09-12",
+    "source": "FL.ru",
+    "cat": "orders",
+    "order_type": "content",
+    "lang": "ru"
+  },
+  {
+    "title": "Топосьёмка земельного участка (для всех)",
+    "link": "https://www.fl.ru/projects/5521669/toposmka-zemelnogo-uchastka.html",
+    "desc": "Топосьёмка земельного участка в Калужской области 40:17:080405:75",
+    "date": "2026-09-12",
+    "source": "FL.ru",
+    "cat": "orders",
+    "order_type": "content",
+    "lang": "ru"
+  },
+  {
+    "title": "увеличивать \"живую\" (не боты) посещаемость сайта с поисковых систем и др. источников (Бюджет: 50 000  ₽, для всех)",
+    "link": "https://www.fl.ru/projects/5521661/uvelichivat-jivuyu-ne-botyi-poseschaemost-sayta-s-poiskovyih-sistem-i-dr-istochnikov.html",
+    "desc": "Здравствуйте. ищу исполнителя-партнера для того, что помочь мне для созданного сайта увеличивать \"живую\" (не боты) посещаемость сайта с поисковых систем и др. источников как вариант, льете трафик, РСЯ дает добавочный доход от этого, часть получаете вы. пишите заинтересованным и способным выполнят...",
+    "date": "2026-09-12",
+    "source": "FL.ru",
+    "cat": "orders",
+    "order_type": "sites",
+    "lang": "ru"
+  },
+  {
+    "title": "Собрать 20 человек на ретрит  (Бюджет: 200 000  ₽, для всех)",
+    "link": "https://www.fl.ru/projects/5521655/sobrat-20-chelovek-na-retrit-.html",
+    "desc": "Продюссер (трафик менеджер) Нужно собрать 20 человек на готовый духовный ретрит Описание проекта: Мы — команда духовных мастеров, проводим трансформационный ретрит. Мероприятие полностью организовано: площадка забронирована, логистика выстроена, программа утверждена. Дата проведения: с 22 по 28 с...",
+    "date": "2026-09-12",
+    "source": "FL.ru",
+    "cat": "orders",
+    "order_type": "sites",
+    "lang": "ru"
+  },
+  {
+    "title": "Создание макета для плоттера через плагин и Adobe Illustrator",
+    "link": "https://www.fl.ru/projects/5521737/sozdanie-maketa-dlya-plottera-cherez-plagin-i-adobe-illustrator.html",
+    "desc": "Есть готовый лист с рисунками. Что нужно сделать? Добавьте контур для резки на рисунке. Нарисуйте отдельный контур (линию), который плагин будет использовать как инструкцию...",
+    "date": "2026-09-12",
+    "source": "FL.ru",
+    "cat": "orders",
+    "order_type": "design",
+    "lang": "ru"
+  },
+  {
+    "title": "Зарегистрировать карточку в гугл бизнес (Бюджет: 1 000  ₽, для всех)",
+    "link": "https://www.fl.ru/projects/5521653/zaregistrirovat-kartochku-v-gugl-biznes.html",
+    "desc": "нужно сделать простые действия, а именно пройти регистрацию на гугл бизне, для этого нужно чтобы у вас был свой личный аккаунт \"Аккаунт должен быть активным и создан более 4 лет назад\". Все данные и инструкцию по прохождению предоставлю. Работы буквально на 5-10 минут.",
+    "date": "2026-09-12",
+    "source": "FL.ru",
+    "cat": "orders",
+    "order_type": "content",
+    "lang": "ru"
+  },
+  {
     "title": "Сделать проект корпусной мебели в базис мебельщик",
     "link": "https://www.fl.ru/projects/5521736/sdelat-proekt-korpusnoy-mebeli-v-bazis-mebelschik.html",
     "desc": "Подробности в личке",
@@ -110,16 +450,6 @@
     "lang": "ru"
   },
   {
-    "title": "Разработать MVP информационной платформы (full stack разработка)",
-    "link": "https://www.fl.ru/projects/5521722/razrabotat-mvp-informatsionnoy-platformyi-full-stack-razrabotka.html",
-    "desc": "Ищу full stack разработчика для создания MVP аналитической рыночной платформы. Концепция и интерактивный мокап уже есть. Что требуется сделать: Веб-интерфейс Регистрацию,...",
-    "date": "2026-09-12",
-    "source": "FL.ru",
-    "cat": "orders",
-    "order_type": "content",
-    "lang": "ru"
-  },
-  {
     "title": "Создание BIM-каталога (для всех)",
     "link": "https://www.fl.ru/projects/5521616/sozdanie-bim-kataloga.html",
     "desc": "Требуется разработать BIM-каталог для строительных товаров, чтобы проектировщик мог взять готовый узел и вставить его в свою модель здания. Объем работы будем обсуждать в процессе беседы. Пришлите стоимость часа вашей работы и примерную стоимость за 1 страницу работы.",
@@ -157,16 +487,6 @@
     "source": "FL.ru",
     "cat": "orders",
     "order_type": "ai",
-    "lang": "ru"
-  },
-  {
-    "title": "Сделать сайт",
-    "link": "https://www.fl.ru/projects/5521712/sdelat-sayt.html",
-    "desc": "Сделать сайт на вордпресс по благоустройству. Весь контент есть.",
-    "date": "2026-09-12",
-    "source": "FL.ru",
-    "cat": "orders",
-    "order_type": "sites",
     "lang": "ru"
   },
   {
@@ -250,16 +570,6 @@
     "lang": "ru"
   },
   {
-    "title": "Доделать раздел ВК обе стадии (Бюджет: 20 000  ₽)",
-    "link": "https://www.fl.ru/projects/5521695/dodelat-razdel-vk-obe-stadii.html",
-    "desc": "Доработать проектную и рабочую документацию по выданным замечаниям. Увязать расходы воды и стоков между ИОС2 и ИОС3, исправить расчеты водоснабжения, канализации и ГВС,...",
-    "date": "2026-09-12",
-    "source": "FL.ru",
-    "cat": "orders",
-    "order_type": "content",
-    "lang": "ru"
-  },
-  {
     "title": "нарисовать каркасное здание для пчел (Бюджет: 1 000  ₽)",
     "link": "https://www.fl.ru/projects/5521690/narisovat-karkasnoe-zdanie-dlya-pchel.html",
     "desc": "требуется нарисовать каркасное здание для пчел. из бруса и коннектороров. у тепленное. с летками. размер 130 метров на 2,5 высота 2,5. может кто проектировал здания беседки",
@@ -290,9 +600,9 @@
     "lang": "ru"
   },
   {
-    "title": "Доделать раздел ОВ+АОВ обе стадии   (Бюджет: 20 000  ₽)",
-    "link": "https://www.fl.ru/projects/5521694/dodelat-razdel-ovaov-obe-stadii--.html",
-    "desc": "ТЗ: разработать проектную и рабочую документацию для торгово-складского здания без офисной части общей площадью около 2176 м². Состав: стадия П - ИОС по отоплению, вентиляции,...",
+    "title": "Разработать MVP информационной платформы (full stack разработка)",
+    "link": "https://www.fl.ru/projects/5521722/razrabotat-mvp-informatsionnoy-platformyi-full-stack-razrabotka.html",
+    "desc": "Ищу full stack разработчика для создания MVP аналитической рыночной платформы. Концепция и интерактивный мокап уже есть. Что требуется сделать: Веб-интерфейс Регистрацию,...",
     "date": "2026-09-12",
     "source": "FL.ru",
     "cat": "orders",
@@ -300,13 +610,13 @@
     "lang": "ru"
   },
   {
-    "title": "Доделать раздел ПБ  (Бюджет: 10 000  ₽)",
-    "link": "https://www.fl.ru/projects/5521696/dodelat-razdel-pb-.html",
-    "desc": "Отработать замечания проверяющего и дальнейшие итерации. Срочность 1-2 недели. Добавить таблицу соседних объектов и ситуационный план: границы, въезды, проезды, расстояния, ПГ,...",
+    "title": "Сделать сайт",
+    "link": "https://www.fl.ru/projects/5521712/sdelat-sayt.html",
+    "desc": "Сделать сайт на вордпресс по благоустройству. Весь контент есть.",
     "date": "2026-09-12",
     "source": "FL.ru",
     "cat": "orders",
-    "order_type": "content",
+    "order_type": "sites",
     "lang": "ru"
   },
   {
@@ -323,16 +633,6 @@
     "title": "Консольный скрипт-снайпер для ультрабыстрого выкупа и перевода анонимных номеров TON (+888) (Бюджет: 6 000  ₽)",
     "link": "https://www.fl.ru/projects/5521688/konsolnyiy-skript-snayper-dlya-ultrabyistrogo-vyikupa-i-perevoda-anonimnyih-nomerov-ton-888.html",
     "desc": "Требуется разработать легковесного, ультрабыстрого бота-снайпера (сниффера) для мониторинга и мгновенного выкупа анонимных номеров Telegram (+888) на маркетплейсах экосистемы...",
-    "date": "2026-09-12",
-    "source": "FL.ru",
-    "cat": "orders",
-    "order_type": "content",
-    "lang": "ru"
-  },
-  {
-    "title": "Хочу сделать кавер на известную песню, но с новыми словами. Подходишь ли ты для такого?",
-    "link": "https://www.fl.ru/projects/5521691/hochu-sdelat-kaver-na-izvestnuyu-pesnyu-no-s-novyimi-slovami-podhodish-li-tyi-dlya-takogo.html",
-    "desc": "Нужен вокалист, надо спеть кавер на известную песню, но с новыми словами. Подходишь ли ты для такого?",
     "date": "2026-09-12",
     "source": "FL.ru",
     "cat": "orders",
@@ -360,16 +660,6 @@
     "lang": "ru"
   },
   {
-    "title": "Программа для тик ток эфиров  (Бюджет: 2 000  ₽)",
-    "link": "https://www.fl.ru/projects/5521685/programma-dlya-tik-tok-efirov-.html",
-    "desc": "Я должен без соглашения авторов в тик токе присоединятся к ним анти блок от них чтоб меня не смогли заблокировать",
-    "date": "2026-09-11",
-    "source": "FL.ru",
-    "cat": "orders",
-    "order_type": "content",
-    "lang": "ru"
-  },
-  {
     "title": "Консультация по лидгену для B2B AI платформы 4-8К / час",
     "link": "https://www.fl.ru/projects/5521670/konsultatsiya-po-lidgenu-dlya-b2b-ai-platformyi-4-8k---chas.html",
     "desc": "Мы развиваем B2B-продукт ИИ-платформа для автоматизации входящих линий (поддержка, клиентский сервис, квалификация обращений в звонках и тексте). Сейчас перед нами стоит задача...",
@@ -393,16 +683,6 @@
     "title": "Сделать видеомонтаж (трейлер к видео интервью)",
     "link": "https://www.fl.ru/projects/5521671/sdelat-videomontaj-treyler-k-video-intervyu.html",
     "desc": "Необходимо нарезать фрагменты из видео согласно ТЗ (тайминг расписан). И затем профессионально склеить (объединить) в один файл.",
-    "date": "2026-09-11",
-    "source": "FL.ru",
-    "cat": "orders",
-    "order_type": "content",
-    "lang": "ru"
-  },
-  {
-    "title": "Топосьёмка земельного участка",
-    "link": "https://www.fl.ru/projects/5521669/toposmka-zemelnogo-uchastka.html",
-    "desc": "Топосьёмка земельного участка в Калужской области 40:17:080405:75",
     "date": "2026-09-11",
     "source": "FL.ru",
     "cat": "orders",
@@ -460,16 +740,6 @@
     "lang": "ru"
   },
   {
-    "title": "увеличивать \"живую\" (не боты) посещаемость сайта с поисковых систем и др. источников (Бюджет: 50 000  ₽)",
-    "link": "https://www.fl.ru/projects/5521661/uvelichivat-jivuyu-ne-botyi-poseschaemost-sayta-s-poiskovyih-sistem-i-dr-istochnikov.html",
-    "desc": "Здравствуйте. ищу исполнителя-партнера для того, что помочь мне для созданного сайта увеличивать \"живую\" (не боты) посещаемость сайта с поисковых систем и др. источников как...",
-    "date": "2026-09-11",
-    "source": "FL.ru",
-    "cat": "orders",
-    "order_type": "sites",
-    "lang": "ru"
-  },
-  {
     "title": "Перевести логотип в вектор (со слоями)",
     "link": "https://www.fl.ru/projects/5521657/perevesti-logotip-v-vektor-so-sloyami.html",
     "desc": "Есть логотип. Сгенерирован нейросетью. Нужно его перевести в вектор. В AI формат.",
@@ -480,29 +750,9 @@
     "lang": "ru"
   },
   {
-    "title": "Собрать 20 человек на ретрит  (Бюджет: 200 000  ₽)",
-    "link": "https://www.fl.ru/projects/5521655/sobrat-20-chelovek-na-retrit-.html",
-    "desc": "Продюссер (трафик менеджер) Нужно собрать 20 человек на готовый духовный ретрит Описание проекта: Мы — команда духовных мастеров, проводим трансформационный ретрит....",
-    "date": "2026-09-11",
-    "source": "FL.ru",
-    "cat": "orders",
-    "order_type": "content",
-    "lang": "ru"
-  },
-  {
     "title": "Сконструировать корпусную мебель в Базис-мебельщик (для всех)",
     "link": "https://www.fl.ru/projects/5521523/skonstruirovat-korpusnuyu-mebel-v-bazis-mebelschik.html",
     "desc": "Подробности отправлю в личные сообщения.",
-    "date": "2026-09-11",
-    "source": "FL.ru",
-    "cat": "orders",
-    "order_type": "content",
-    "lang": "ru"
-  },
-  {
-    "title": "Зарегистрировать карточку в гугл бизнес (Бюджет: 1 000  ₽)",
-    "link": "https://www.fl.ru/projects/5521653/zaregistrirovat-kartochku-v-gugl-biznes.html",
-    "desc": "нужно сделать простые действия, а именно пройти регистрацию на гугл бизне, для этого нужно чтобы у вас был свой личный аккаунт \"Аккаунт должен быть активным и создан более 4...",
     "date": "2026-09-11",
     "source": "FL.ru",
     "cat": "orders",
