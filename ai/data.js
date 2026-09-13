@@ -3,7 +3,7 @@ window.NEWS_DATA = {
     {
       "title": "Dramatic insider warnings over AI fall flat with some in Silicon Valley",
       "link": "https://www.bbc.co.uk/news/articles/cq635037g18o",
-      "desc": "Article URL: https://www.bbc.co.uk/news/articles/cq635037g18o Comments URL: https://news.ycombinator.com/item?id=49681276 Points: 13 # Comments: 10",
+      "desc": "Article URL: https://www.bbc.co.uk/news/articles/cq635037g18o Comments URL: https://news.ycombinator.com/item?id=49681276 Points: 18 # Comments: 13",
       "date": "2026-09-13",
       "source": "Hacker News",
       "cat": "ai",
@@ -12,7 +12,7 @@ window.NEWS_DATA = {
     {
       "title": "JetKVM Mini",
       "link": "https://jetkvm.com/blog/introducing-jetkvm-mini",
-      "desc": "Article URL: https://jetkvm.com/blog/introducing-jetkvm-mini Comments URL: https://news.ycombinator.com/item?id=49681152 Points: 53 # Comments: 29",
+      "desc": "Article URL: https://jetkvm.com/blog/introducing-jetkvm-mini Comments URL: https://news.ycombinator.com/item?id=49681152 Points: 68 # Comments: 36",
       "date": "2026-09-13",
       "source": "Hacker News",
       "cat": "ai",
@@ -21,7 +21,7 @@ window.NEWS_DATA = {
     {
       "title": "A wandering black hole caught feeding on the run",
       "link": "https://phys.org/news/2026-08-black-hole-caught.html",
-      "desc": "Article URL: https://phys.org/news/2026-08-black-hole-caught.html Comments URL: https://news.ycombinator.com/item?id=49679734 Points: 16 # Comments: 5",
+      "desc": "Article URL: https://phys.org/news/2026-08-black-hole-caught.html Comments URL: https://news.ycombinator.com/item?id=49679734 Points: 17 # Comments: 5",
       "date": "2026-09-13",
       "source": "Hacker News",
       "cat": "ai",
@@ -30,7 +30,7 @@ window.NEWS_DATA = {
     {
       "title": "A succession crisis that tore England apart (2023)",
       "link": "https://www.historytoday.com/archive/feature/succession-crisis-tore-england-apart",
-      "desc": "Article URL: https://www.historytoday.com/archive/feature/succession-crisis-tore-england-apart Comments URL: https://news.ycombinator.com/item?id=49679647 Points: 31 # Comments: 16",
+      "desc": "Article URL: https://www.historytoday.com/archive/feature/succession-crisis-tore-england-apart Comments URL: https://news.ycombinator.com/item?id=49679647 Points: 31 # Comments: 19",
       "date": "2026-09-13",
       "source": "Hacker News",
       "cat": "ai",
@@ -39,7 +39,7 @@ window.NEWS_DATA = {
     {
       "title": "Aligned to whom?",
       "link": "https://hyperbo.la/w/aligned-to-whom/",
-      "desc": "Article URL: https://hyperbo.la/w/aligned-to-whom/ Comments URL: https://news.ycombinator.com/item?id=49679643 Points: 45 # Comments: 17",
+      "desc": "Article URL: https://hyperbo.la/w/aligned-to-whom/ Comments URL: https://news.ycombinator.com/item?id=49679643 Points: 46 # Comments: 21",
       "date": "2026-09-13",
       "source": "Hacker News",
       "cat": "ai",
@@ -48,7 +48,7 @@ window.NEWS_DATA = {
     {
       "title": "After Math",
       "link": "https://terrytao.wordpress.com/2026/09/12/after-math/",
-      "desc": "Article URL: https://terrytao.wordpress.com/2026/09/12/after-math/ Comments URL: https://news.ycombinator.com/item?id=49679637 Points: 66 # Comments: 48",
+      "desc": "Article URL: https://terrytao.wordpress.com/2026/09/12/after-math/ Comments URL: https://news.ycombinator.com/item?id=49679637 Points: 68 # Comments: 50",
       "date": "2026-09-13",
       "source": "Hacker News",
       "cat": "ai",
@@ -66,7 +66,7 @@ window.NEWS_DATA = {
     {
       "title": "Everyone should slow down AI development except for me",
       "link": "https://xeiaso.net/notes/2026/everyone-slowdown-but-me/",
-      "desc": "Article URL: https://xeiaso.net/notes/2026/everyone-slowdown-but-me/ Comments URL: https://news.ycombinator.com/item?id=49678683 Points: 442 # Comments: 274",
+      "desc": "Article URL: https://xeiaso.net/notes/2026/everyone-slowdown-but-me/ Comments URL: https://news.ycombinator.com/item?id=49678683 Points: 451 # Comments: 280",
       "date": "2026-09-13",
       "source": "Hacker News",
       "cat": "ai",
@@ -165,7 +165,7 @@ window.NEWS_DATA = {
     {
       "title": "Don't be the out of touch Kung Fu master",
       "link": "https://twitter.com/ID_AA_Carmack/status/2098443262214230095",
-      "desc": "Article URL: https://twitter.com/ID_AA_Carmack/status/2098443262214230095 Comments URL: https://news.ycombinator.com/item?id=49677577 Points: 115 # Comments: 108",
+      "desc": "Article URL: https://twitter.com/ID_AA_Carmack/status/2098443262214230095 Comments URL: https://news.ycombinator.com/item?id=49677577 Points: 120 # Comments: 113",
       "date": "2026-09-12",
       "source": "Hacker News",
       "cat": "ai",
@@ -174,7 +174,7 @@ window.NEWS_DATA = {
     {
       "title": "P(doom)",
       "link": "https://lucumr.pocoo.org/2026/9/12/pdoom/",
-      "desc": "Article URL: https://lucumr.pocoo.org/2026/9/12/pdoom/ Comments URL: https://news.ycombinator.com/item?id=49677450 Points: 80 # Comments: 45",
+      "desc": "Article URL: https://lucumr.pocoo.org/2026/9/12/pdoom/ Comments URL: https://news.ycombinator.com/item?id=49677450 Points: 83 # Comments: 48",
       "date": "2026-09-12",
       "source": "Hacker News",
       "cat": "ai",
@@ -183,7 +183,7 @@ window.NEWS_DATA = {
     {
       "title": "Real-SWE: Benchmarking AI models on private, real-world, enterprise codebases",
       "link": "https://withspecific.com/benchmarks/real-swe",
-      "desc": "Article URL: https://withspecific.com/benchmarks/real-swe Comments URL: https://news.ycombinator.com/item?id=49676820 Points: 237 # Comments: 134",
+      "desc": "Article URL: https://withspecific.com/benchmarks/real-swe Comments URL: https://news.ycombinator.com/item?id=49676820 Points: 238 # Comments: 134",
       "date": "2026-09-12",
       "source": "Hacker News",
       "cat": "ai",
@@ -192,7 +192,7 @@ window.NEWS_DATA = {
     {
       "title": "Will there be a 7G?",
       "link": "https://arxiv.org/abs/2609.01877",
-      "desc": "Article URL: https://arxiv.org/abs/2609.01877 Comments URL: https://news.ycombinator.com/item?id=49674498 Points: 101 # Comments: 158",
+      "desc": "Article URL: https://arxiv.org/abs/2609.01877 Comments URL: https://news.ycombinator.com/item?id=49674498 Points: 102 # Comments: 159",
       "date": "2026-09-12",
       "source": "Hacker News",
       "cat": "ai",
@@ -201,7 +201,7 @@ window.NEWS_DATA = {
     {
       "title": "Make your first edit to OpenStreetMap",
       "link": "https://high5apps.github.io/josm-plugin-website-wizard/",
-      "desc": "Article URL: https://high5apps.github.io/josm-plugin-website-wizard/ Comments URL: https://news.ycombinator.com/item?id=49674050 Points: 447 # Comments: 111",
+      "desc": "Article URL: https://high5apps.github.io/josm-plugin-website-wizard/ Comments URL: https://news.ycombinator.com/item?id=49674050 Points: 451 # Comments: 112",
       "date": "2026-09-12",
       "source": "Hacker News",
       "cat": "ai",
@@ -210,7 +210,7 @@ window.NEWS_DATA = {
     {
       "title": "Microcode in Intel's 8087 floating-point chip: the scale instruction",
       "link": "https://www.righto.com/2026/09/8087-microcode-reverse-engineering-fscale.html",
-      "desc": "Article URL: https://www.righto.com/2026/09/8087-microcode-reverse-engineering-fscale.html Comments URL: https://news.ycombinator.com/item?id=49673580 Points: 107 # Comments: 33",
+      "desc": "Article URL: https://www.righto.com/2026/09/8087-microcode-reverse-engineering-fscale.html Comments URL: https://news.ycombinator.com/item?id=49673580 Points: 109 # Comments: 34",
       "date": "2026-09-12",
       "source": "Hacker News",
       "cat": "ai",
@@ -219,7 +219,7 @@ window.NEWS_DATA = {
     {
       "title": "Nvidia is the central bank of AI",
       "link": "https://www.economist.com/interactive/briefing/2026/09/03/nvidia-is-the-central-bank-of-ai",
-      "desc": "https://archive.ph/kt50V Comments URL: https://news.ycombinator.com/item?id=49673098 Points: 473 # Comments: 336",
+      "desc": "https://archive.ph/kt50V Comments URL: https://news.ycombinator.com/item?id=49673098 Points: 476 # Comments: 337",
       "date": "2026-09-12",
       "source": "Hacker News",
       "cat": "ai",
@@ -228,7 +228,7 @@ window.NEWS_DATA = {
     {
       "title": "We must pace the frontier",
       "link": "https://darioamodei.com/post/we-must-pace-the-frontier",
-      "desc": "Article URL: https://darioamodei.com/post/we-must-pace-the-frontier Comments URL: https://news.ycombinator.com/item?id=49672510 Points: 640 # Comments: 895",
+      "desc": "Article URL: https://darioamodei.com/post/we-must-pace-the-frontier Comments URL: https://news.ycombinator.com/item?id=49672510 Points: 642 # Comments: 900",
       "date": "2026-09-12",
       "source": "Hacker News",
       "cat": "ai",
@@ -262,18 +262,18 @@ window.NEWS_DATA = {
       "lang": "en"
     },
     {
-      "title": "A Dick Smith VZ200 without the Dick Smith",
-      "link": "http://oldvcr.blogspot.com/2026/09/a-dick-smith-vz200-without-dick-smith.html",
-      "desc": "Comments",
+      "title": "The gpg.fail aftermath: On responsible disclosure, GPG, and the state of security in 2026 [32:37]",
+      "link": "https://media.ccc.de/v/2026-728-the-gpg-fail-aftermath-on-responsible-disclosure-gpg-and-the-state-of-security-in-2026",
+      "desc": "slides In 2025, I [the speaker] found and disclosed a bunch of vulnerabilities in GPG, the most used PGP implementation, and held a talk at 39c3 about it. Some of the bugs ended up getting fixed. This talk describes the adventure and aftermath of getting there, shows some novel ones, and talks ab...",
       "date": "2026-09-12",
       "source": "Lobsters",
       "cat": "ai",
       "lang": "en"
     },
     {
-      "title": "The gpg.fail aftermath: On responsible disclosure, GPG, and the state of security in 2026 [32:37]",
-      "link": "https://media.ccc.de/v/2026-728-the-gpg-fail-aftermath-on-responsible-disclosure-gpg-and-the-state-of-security-in-2026",
-      "desc": "slides In 2025, I [the speaker] found and disclosed a bunch of vulnerabilities in GPG, the most used PGP implementation, and held a talk at 39c3 about it. Some of the bugs ended up getting fixed. This talk describes the adventure and aftermath of getting there, shows some novel ones, and talks ab...",
+      "title": "A Dick Smith VZ200 without the Dick Smith",
+      "link": "http://oldvcr.blogspot.com/2026/09/a-dick-smith-vz200-without-dick-smith.html",
+      "desc": "Comments",
       "date": "2026-09-12",
       "source": "Lobsters",
       "cat": "ai",
