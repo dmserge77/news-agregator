@@ -198,6 +198,15 @@
     "lang": "en"
   },
   {
+    "title": "what if my git host were a static site generator?",
+    "link": "https://char.lt/blog/2026/09/sorcery-repo-viewer/",
+    "desc": "Comments",
+    "date": "2026-09-13",
+    "source": "Lobsters",
+    "cat": "ai",
+    "lang": "en"
+  },
+  {
     "title": "Golang developers should try Odin",
     "link": "https://rm4n0s.github.io/posts/2-go-devs-should-learn-odin/",
     "desc": "Comments",
@@ -209,15 +218,6 @@
   {
     "title": "Session Context — what a web page knows about you",
     "link": "https://sessioncontext.org",
-    "desc": "Comments",
-    "date": "2026-09-13",
-    "source": "Lobsters",
-    "cat": "ai",
-    "lang": "en"
-  },
-  {
-    "title": "what if my git host were a static site generator?",
-    "link": "https://char.lt/blog/2026/09/sorcery-repo-viewer/",
     "desc": "Comments",
     "date": "2026-09-13",
     "source": "Lobsters",
@@ -398,7 +398,7 @@
   {
     "title": "Crush 0.94.1 получил вход через ChatGPT и ускоренный интерфейс",
     "link": "https://tproger.ru/news/crush-0-94-1-poluchil-vhod-cherez-chatgpt-i-uskorennyj-interfejs",
-    "desc": "Crush 0.94.1 получил поддержку подписки ChatGPT и настройку reasoning effort для запуска без интерфейса. Разработчики также ускорили прокрутку и уменьшили размер программы. — Читать дальше « Crush 0.94.1 получил вход через ChatGPT и ускоренный интерфейс »",
+    "desc": "Терминальный ИИ-помощник для программистов Crush 0.94.1 получил поддержку подписки ChatGPT и настройку reasoning effort для запуска без интерфейса. Разработчики также ускорили прокрутку и уменьшили размер программы. — Читать дальше « Crush 0.94.1 получил вход через ChatGPT и ускоренный интерфейс »",
     "date": "2026-09-13",
     "source": "Tproger",
     "cat": "ai",
