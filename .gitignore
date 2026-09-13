@@ -9,3 +9,4 @@ dist/
 **/data.js
 **/index.html
 !_category_template.html
+!about/index.html
