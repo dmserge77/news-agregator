@@ -1,5 +1,25 @@
 [
   {
+    "title": "Разработать сайт",
+    "link": "https://www.fl.ru/projects/5521778/razrabotat-sayt.html",
+    "desc": "Здравствуйте Нужно разработать сайт, интересует только поиск и выдача торгов с документами, без личного кабинета и прочего.",
+    "date": "2026-09-13",
+    "source": "FL.ru",
+    "cat": "orders",
+    "order_type": "sites",
+    "lang": "ru"
+  },
+  {
+    "title": "3D Character Artist / Technical Artist / Rigger",
+    "link": "https://www.fl.ru/projects/5521777/3d-character-artist---technical-artist---rigger.html",
+    "desc": "Есть готовый персонаж Jois в Blender с рабочими rig, анимациями, face rig, lip-sync и волосами. Есть новое полноценное тело SK_NYGIRL_BODY_FULL. Нужно довести персонажа до...",
+    "date": "2026-09-13",
+    "source": "FL.ru",
+    "cat": "orders",
+    "order_type": "content",
+    "lang": "ru"
+  },
+  {
     "title": "Каждый файл png  сделать векторизацию в формат svg, ai, pdf (вектор)",
     "link": "https://www.fl.ru/projects/5521776/kajdyiy-fayl-png--sdelat-vektorizatsiyu-v-format-svg-ai-pdf-vektor.html",
     "desc": "Каждый файл png сделать векторизацию в формат svg, ai, pdf (вектор) 300 исходящих примерно - 900 файлов результат. Сохранить имя исходящего файла Брэенд система ПО. Логотипы,...",
