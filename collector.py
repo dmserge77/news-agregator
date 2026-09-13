@@ -41,7 +41,12 @@ FEEDS = [
     {"url": "https://hnrss.org/frontpage", "cat": "ai", "source": "Hacker News"},
     {"url": "https://lobste.rs/rss", "cat": "ai", "source": "Lobsters"},
     {"url": "https://github.blog/feed/", "cat": "vibe", "source": "GitHub Blog"},
+    {"url": "https://github.blog/category/engineering/feed/", "cat": "vibe", "source": "GitHub Eng"},
+    {"url": "https://blog.replit.com/feed.xml", "cat": "vibe", "source": "Replit"},
     {"url": "https://huggingface.co/blog/feed.xml", "cat": "platform", "source": "Hugging Face"},
+    {"url": "https://vercel.com/blog/feed.xml", "cat": "platform", "source": "Vercel"},
+    {"url": "https://aws.amazon.com/blogs/aws/feed/", "cat": "platform", "source": "AWS"},
+    {"url": "https://blog.railway.app/rss.xml", "cat": "platform", "source": "Railway"},
     {"url": "https://rss.nytimes.com/services/xml/rss/nyt/Technology.xml", "cat": "ai", "source": "NYT Tech"},
     # Русскоязычные
     {"url": "https://habr.com/ru/rss/hub/artificial_intelligence/?fl=ru", "cat": "ai", "source": "Habr AI"},

@@ -144,6 +144,15 @@
     "lang": "ru"
   },
   {
+    "title": "Build with OpenAI Agents API on Vercel",
+    "link": "https://vercel.com/changelog/build-with-openai-agents-api-on-vercel",
+    "desc": "",
+    "date": "2026-09-10",
+    "source": "Vercel",
+    "cat": "agent",
+    "lang": "en"
+  },
+  {
     "title": "Hugging Face выпустила ML Intern — агента для обучения и публикации моделей",
     "link": "https://habr.com/ru/news/1081052/?utm_campaign=1081052&utm_source=habrahabr&utm_medium=rss",
     "desc": "Hugging Face добавила в HuggingChat AI‑агента ML Intern для задач, связанных с машинным обучением. В компании его описывают как автономного ML‑инженера: пользователь формулирует задачу на естественном языке, а агент изучает документацию, подбирает данные и модели, генерирует код, запускает вычисл...",
@@ -223,6 +232,15 @@
     "source": "Habr AI",
     "cat": "agent",
     "lang": "ru"
+  },
+  {
+    "title": "Persistent memory for eve agents",
+    "link": "https://vercel.com/changelog/persistent-memory-for-eve-agents",
+    "desc": "",
+    "date": "2026-09-09",
+    "source": "Vercel",
+    "cat": "agent",
+    "lang": "en"
   },
   {
     "title": "ML System Design: Что на самом деле проверяют на собеседовании?",
@@ -324,11 +342,92 @@
     "lang": "en"
   },
   {
+    "title": "How our agents build on-brand pages with design.md",
+    "link": "https://vercel.com/blog/how-our-agents-build-on-brand-pages-with-design-md",
+    "desc": "",
+    "date": "2026-08-31",
+    "source": "Vercel",
+    "cat": "agent",
+    "lang": "en"
+  },
+  {
+    "title": "AWS Weekly Roundup: Welcome DuckLabs to the team, Agentic Resource Discovery (ARD), and more (August 31, 2026)",
+    "link": "https://aws.amazon.com/blogs/aws/aws-weekly-roundup-welcome-ducklabs-to-the-team-agentic-resource-discovery-ard-and-more-august-31-2026/",
+    "desc": "The news that interested me the most last week was the DuckLabs acquisition. AWS has signed a definitive agreement to acquire DuckLabs, the Amsterdam-based company behind DuckDB, the popular open source analytical database that runs in-process and executes SQL directly against files like Parquet,...",
+    "date": "2026-08-31",
+    "source": "AWS",
+    "cat": "agent",
+    "lang": "en"
+  },
+  {
+    "title": "Build and deploy eve agents from the Vercel dashboard",
+    "link": "https://vercel.com/changelog/build-and-deploy-eve-agents-from-the-vercel-dashboard",
+    "desc": "",
+    "date": "2026-08-28",
+    "source": "Vercel",
+    "cat": "agent",
+    "lang": "en"
+  },
+  {
+    "title": "Introducing Run SDK: secure eval for your agents",
+    "link": "https://vercel.com/blog/introducing-run",
+    "desc": "",
+    "date": "2026-08-25",
+    "source": "Vercel",
+    "cat": "agent",
+    "lang": "en"
+  },
+  {
+    "title": "The end of credential sprawl for agents",
+    "link": "https://vercel.com/blog/the-end-of-credential-sprawl-for-agents",
+    "desc": "",
+    "date": "2026-08-25",
+    "source": "Vercel",
+    "cat": "agent",
+    "lang": "en"
+  },
+  {
+    "title": "Bring your agent to Notion with Chat SDK",
+    "link": "https://vercel.com/changelog/notion-chat-sdk",
+    "desc": "",
+    "date": "2026-08-25",
+    "source": "Vercel",
+    "cat": "agent",
+    "lang": "en"
+  },
+  {
     "title": "Why Your Website Should Never Stop Changing",
     "link": "https://smashingmagazine.com/2026/08/why-website-should-never-stop-changing/",
     "desc": "Every website peaks on launch day and slowly drifts from there, not because it breaks, but because nobody has time to keep it current. Autonomous websites, continuously optimized by agents after launch, aim to change that. Pierre Burgy shares what they learned building for full website autonomy a...",
     "date": "2026-08-25",
     "source": "Smashing Magazine",
+    "cat": "agent",
+    "lang": "en"
+  },
+  {
+    "title": "How Ora benchmarks every major AI agent on Vercel",
+    "link": "https://vercel.com/blog/how-ora-benchmarks-every-major-ai-agent-on-vercel",
+    "desc": "",
+    "date": "2026-08-21",
+    "source": "Vercel",
+    "cat": "agent",
+    "lang": "en"
+  },
+  {
+    "title": "Vercel Agent is now available in Slack code channels",
+    "link": "https://vercel.com/changelog/vercel-agent-is-now-available-in-slack-code-channels",
+    "desc": "",
+    "date": "2026-08-20",
+    "source": "Vercel",
+    "cat": "agent",
+    "lang": "en"
+  },
+  {
+    "title": "Exa joins the Vercel AI Gateway and Agent Marketplace",
+    "link": "https://vercel.com/changelog/exa-joins-vercel-ai-gateway-agent-marketplace",
+    "desc": "",
+    "date": "2026-08-19",
+    "source": "Vercel",
     "cat": "agent",
     "lang": "en"
   },
@@ -342,11 +441,47 @@
     "lang": "en"
   },
   {
+    "title": "The Vercel Sandbox CLI is now more agent-friendly",
+    "link": "https://vercel.com/changelog/the-vercel-sandbox-cli-is-now-more-agent-friendly",
+    "desc": "",
+    "date": "2026-08-18",
+    "source": "Vercel",
+    "cat": "agent",
+    "lang": "en"
+  },
+  {
     "title": "Record, train, and deploy from one place with Strands Agents, LeRobot, and Hugging Face Storage Buckets",
     "link": "https://huggingface.co/blog/amazon/strands-lerobot-streaming-data-loop",
     "desc": "",
     "date": "2026-08-13",
     "source": "Hugging Face",
+    "cat": "agent",
+    "lang": "en"
+  },
+  {
+    "title": "GLM 5.2 free for eve agents through August 27 via Blackbox on AI Gateway",
+    "link": "https://vercel.com/changelog/glm-5-2-free-for-eve-agents-through-august-27-via-blackbox-on-ai-gateway",
+    "desc": "",
+    "date": "2026-08-13",
+    "source": "Vercel",
+    "cat": "agent",
+    "lang": "en"
+  },
+  {
+    "title": "Your Cloud should come with an app builder",
+    "link": "https://blog.railway.com/p/dev-new",
+    "desc": "Announcing: dev.new, an agent that can build, preview, test, and deploy an app from the same place. We tested the whole loop by asking it to ship a real-time multiplayer FPS game that runs in the browser",
+    "date": "2026-08-13",
+    "source": "Railway",
+    "cat": "agent",
+    "lang": "en"
+  },
+  {
+    "title": "Set up coding agents in one command with AI Gateway",
+    "link": "https://vercel.com/changelog/set-up-coding-agents-in-one-command-with-ai-gateway",
+    "desc": "",
+    "date": "2026-08-12",
+    "source": "Vercel",
     "cat": "agent",
     "lang": "en"
   },
@@ -369,6 +504,96 @@
     "lang": "en"
   },
   {
+    "title": "Vercel AI Gateway and Vercel Sandbox now available on Hermes Agent",
+    "link": "https://vercel.com/changelog/vercel-ai-gateway-and-vercel-sandbox-now-available-on-hermes-agent",
+    "desc": "",
+    "date": "2026-08-07",
+    "source": "Vercel",
+    "cat": "agent",
+    "lang": "en"
+  },
+  {
+    "title": "Give every agent in Herdr its own Vercel Sandbox",
+    "link": "https://vercel.com/changelog/give-every-agent-in-herdr-its-own-vercel-sandbox",
+    "desc": "",
+    "date": "2026-08-06",
+    "source": "Vercel",
+    "cat": "agent",
+    "lang": "en"
+  },
+  {
+    "title": "Introducing Agent Plugins",
+    "link": "https://vercel.com/blog/introducing-agent-plugins",
+    "desc": "",
+    "date": "2026-08-06",
+    "source": "Vercel",
+    "cat": "agent",
+    "lang": "en"
+  },
+  {
+    "title": "Introducing Agent Plugins 1.0.0",
+    "link": "https://vercel.com/changelog/introducing-agent-plugins-1-0-0",
+    "desc": "",
+    "date": "2026-08-06",
+    "source": "Vercel",
+    "cat": "agent",
+    "lang": "en"
+  },
+  {
+    "title": "Runtime instances: persistent compute for production AI agents on Amazon Bedrock AgentCore",
+    "link": "https://aws.amazon.com/blogs/aws/runtime-instances-persistent-compute-for-production-ai-agents-on-amazon-bedrock-agentcore/",
+    "desc": "Announcing runtime instances in Amazon Bedrock AgentCore—persistent, managed EC2 infrastructure for production AI agents with multi-agent collaboration, GPU support, and sessions lasting up to 14 days.",
+    "date": "2026-08-06",
+    "source": "AWS",
+    "cat": "agent",
+    "lang": "en"
+  },
+  {
+    "title": "iMessage support for eve agents",
+    "link": "https://vercel.com/changelog/imessage-support-for-eve-agents",
+    "desc": "",
+    "date": "2026-08-05",
+    "source": "Vercel",
+    "cat": "agent",
+    "lang": "en"
+  },
+  {
+    "title": "Turn one giant AI-generated pull request to a reviewable stack",
+    "link": "https://github.blog/engineering/turn-one-giant-ai-generated-pull-request-to-a-reviewable-stack/",
+    "desc": "Instead of one huge, un-reviewable pull request, teach coding agents to decompose work into a clean, ordered stack with GitHub stacked pull requests. The post Turn one giant AI-generated pull request to a reviewable stack appeared first on The GitHub Blog .",
+    "date": "2026-08-04",
+    "source": "GitHub Eng",
+    "cat": "agent",
+    "lang": "en"
+  },
+  {
+    "title": "Give your eve agent a browser",
+    "link": "https://vercel.com/changelog/give-your-eve-agent-a-browser",
+    "desc": "",
+    "date": "2026-08-04",
+    "source": "Vercel",
+    "cat": "agent",
+    "lang": "en"
+  },
+  {
+    "title": "AI adoption starts with truth",
+    "link": "https://replit.com/blog/ai-adoption",
+    "desc": "The semantic layer is the foundation AI adoption is limited by trust. A user who gets burned by a confidently wrong answer will double-check the next one, eventually routing consequential work around the system entirely. Once that happens, AI remains a tool at the edges rather than infrastructure...",
+    "date": "2026-08-03",
+    "source": "Replit",
+    "cat": "agent",
+    "lang": "en"
+  },
+  {
+    "title": "Run multiple isolated agents in a single Sandbox",
+    "link": "https://vercel.com/changelog/run-multiple-isolated-agents-in-a-single-sandbox",
+    "desc": "",
+    "date": "2026-07-30",
+    "source": "Vercel",
+    "cat": "agent",
+    "lang": "en"
+  },
+  {
     "title": "Anatomy of a Frontier Lab Agent Intrusion: A Technical Timeline of the July 2026 Incident",
     "link": "https://huggingface.co/blog/agent-intrusion-technical-timeline",
     "desc": "",
@@ -378,11 +603,200 @@
     "lang": "en"
   },
   {
+    "title": "Extend eve agents with installable extensions",
+    "link": "https://vercel.com/changelog/eve-extensions",
+    "desc": "",
+    "date": "2026-07-22",
+    "source": "Vercel",
+    "cat": "agent",
+    "lang": "en"
+  },
+  {
+    "title": "Introducing the new Vercel Agent",
+    "link": "https://vercel.com/blog/vercel-agent",
+    "desc": "",
+    "date": "2026-07-21",
+    "source": "Vercel",
+    "cat": "agent",
+    "lang": "en"
+  },
+  {
+    "title": "Chat SDK adds native Slack agent support",
+    "link": "https://vercel.com/changelog/chat-sdk-adds-native-slack-agent-support",
+    "desc": "",
+    "date": "2026-07-17",
+    "source": "Vercel",
+    "cat": "agent",
+    "lang": "en"
+  },
+  {
+    "title": "Roll it out, roll it back, never redeploy",
+    "link": "https://blog.railway.com/p/feature-flags",
+    "desc": "Merge now, release when you're ready: turn a feature on for your team, then 10% of users, then everyone. Feature flags are now built into every Railway project, and your agents can run the rollout from the CLI, SDK, and MCP. No third-party service required.",
+    "date": "2026-07-17",
+    "source": "Railway",
+    "cat": "agent",
+    "lang": "en"
+  },
+  {
+    "title": "AgentMail joins the Vercel Marketplace",
+    "link": "https://vercel.com/changelog/agentmail-vercel-marketplace",
+    "desc": "",
+    "date": "2026-07-14",
+    "source": "Vercel",
+    "cat": "agent",
+    "lang": "en"
+  },
+  {
+    "title": "Agent Runs now show subagent activity on eve projects",
+    "link": "https://vercel.com/changelog/agent-runs-now-show-subagent-activity-on-eve-projects",
+    "desc": "",
+    "date": "2026-07-13",
+    "source": "Vercel",
+    "cat": "agent",
+    "lang": "en"
+  },
+  {
+    "title": "Give your eve agent GitHub tools",
+    "link": "https://vercel.com/changelog/github-tools-eve",
+    "desc": "",
+    "date": "2026-07-07",
+    "source": "Vercel",
+    "cat": "agent",
+    "lang": "en"
+  },
+  {
+    "title": "AWS Weekly Roundup: Claude Sonnet 5 on AWS, Amazon WorkSpaces for AI agents, AWS service availability updates, and more (July 6, 2026)",
+    "link": "https://aws.amazon.com/blogs/aws/aws-weekly-roundup-claude-sonnet-5-on-aws-amazon-workspaces-for-ai-agents-aws-service-availability-updates-and-more-july-6-2026/",
+    "desc": "A couple of editions ago I wrote about what I find so energizing about working with startups. Last week I got a fresh dose of it: I spent a few days with the AWS Startups team, listening to stories of founders talking about the problems they’re actually solving. One story that stayed with me came...",
+    "date": "2026-07-06",
+    "source": "AWS",
+    "cat": "agent",
+    "lang": "en"
+  },
+  {
+    "title": "Agent Runs now available in the Vercel MCP and CLI",
+    "link": "https://vercel.com/changelog/agent-runs-vercel-mcp-cli",
+    "desc": "",
+    "date": "2026-07-03",
+    "source": "Vercel",
+    "cat": "agent",
+    "lang": "en"
+  },
+  {
+    "title": "Enforce consistent code for agents and humans with konsistent",
+    "link": "https://vercel.com/changelog/enforce-consistent-code-for-agents-and-humans-with-konsistent",
+    "desc": "",
+    "date": "2026-07-01",
+    "source": "Vercel",
+    "cat": "agent",
+    "lang": "en"
+  },
+  {
     "title": "ScarfBench: Benchmarking AI Agents for Enterprise Java Framework Migration",
     "link": "https://huggingface.co/blog/ibm-research/scarfbench",
     "desc": "",
     "date": "2026-06-30",
     "source": "Hugging Face",
+    "cat": "agent",
+    "lang": "en"
+  },
+  {
+    "title": "Vercel Agent has updated pricing",
+    "link": "https://vercel.com/changelog/vercel-agent-has-updated-pricing",
+    "desc": "",
+    "date": "2026-06-30",
+    "source": "Vercel",
+    "cat": "agent",
+    "lang": "en"
+  },
+  {
+    "title": "An expanded Vercel Agent: chat, investigations, and approved actions, now in public beta",
+    "link": "https://vercel.com/changelog/an-expanded-vercel-agent-chat-investigations-and-approved-actions-now-in-public-beta",
+    "desc": "",
+    "date": "2026-06-30",
+    "source": "Vercel",
+    "cat": "agent",
+    "lang": "en"
+  },
+  {
+    "title": "Accelerate your infrastructure deployments by up to 4x with AWS CloudFormation Express mode",
+    "link": "https://aws.amazon.com/blogs/aws/accelerate-your-infrastructure-deployments-by-up-to-4x-with-aws-cloudformation-express-mode/",
+    "desc": "AWS CloudFormation speeds up infrastructure deployment with Express mode, enabling AI agents and developers to receive deployment confirmation in seconds and iterate faster. Available in all commercial Regions at no additional cost.",
+    "date": "2026-06-30",
+    "source": "AWS",
+    "cat": "agent",
+    "lang": "en"
+  },
+  {
+    "title": "Build realtime voice agents on AI Gateway",
+    "link": "https://vercel.com/blog/realtime-voice-agents-on-ai-gateway",
+    "desc": "",
+    "date": "2026-06-29",
+    "source": "Vercel",
+    "cat": "agent",
+    "lang": "en"
+  },
+  {
+    "title": "Trace and debug eve agent sessions with Vercel Observability",
+    "link": "https://vercel.com/changelog/eve-agent-observability",
+    "desc": "",
+    "date": "2026-06-26",
+    "source": "Vercel",
+    "cat": "agent",
+    "lang": "en"
+  },
+  {
+    "title": "Every (Agents) Connection to Railway",
+    "link": "https://blog.railway.com/p/agent-connection-to-railway",
+    "desc": "We've created a few workflow patterns on how to get your agent talking to Railway peacefully. The balance of Local and Remote MCPs, Railway's Agent Skills, the CLI + Railway Agent give your local harness all the ways to ride the rails and building in Railway.",
+    "date": "2026-06-26",
+    "source": "Railway",
+    "cat": "agent",
+    "lang": "en"
+  },
+  {
+    "title": "Teaching agents product design at Vercel",
+    "link": "https://vercel.com/blog/teaching-agents-product-design-at-vercel",
+    "desc": "",
+    "date": "2026-06-25",
+    "source": "Vercel",
+    "cat": "agent",
+    "lang": "en"
+  },
+  {
+    "title": "Deep Agents and OpenCode are now available in the AI SDK Harness",
+    "link": "https://vercel.com/changelog/deepagents-and-opencode-harness-adapters",
+    "desc": "",
+    "date": "2026-06-25",
+    "source": "Vercel",
+    "cat": "agent",
+    "lang": "en"
+  },
+  {
+    "title": "Skill Issue, Writing /skills to solve agent failures",
+    "link": "https://blog.railway.com/p/skills-issue-writing-skills",
+    "desc": "How we wrote the Railway Agent skills, which give agents repeatable workflows to follow.",
+    "date": "2026-06-24",
+    "source": "Railway",
+    "cat": "agent",
+    "lang": "en"
+  },
+  {
+    "title": "State of Railway: Agents",
+    "link": "https://blog.railway.com/p/state-of-railway-agents",
+    "desc": "Railway is turning the full deploy loop into something agents can actually drive: discovering Railway, signing up, shipping the first deploy, debugging failures, iterating in sandboxes, and handing off platform work to Railway Agent. We cover the agent-first CLI, local and remote MCP, Railway ski...",
+    "date": "2026-06-23",
+    "source": "Railway",
+    "cat": "agent",
+    "lang": "en"
+  },
+  {
+    "title": "The Agent Stack",
+    "link": "https://vercel.com/blog/agent-stack",
+    "desc": "",
+    "date": "2026-06-20",
+    "source": "Vercel",
     "cat": "agent",
     "lang": "en"
   },
@@ -419,6 +833,33 @@
     "desc": "",
     "date": "2026-06-17",
     "source": "Hugging Face",
+    "cat": "agent",
+    "lang": "en"
+  },
+  {
+    "title": "Vercel Connect: Secure access to external services for your agents",
+    "link": "https://vercel.com/changelog/vercel-connect-secure-access-to-external-services-for-your-agents",
+    "desc": "",
+    "date": "2026-06-17",
+    "source": "Vercel",
+    "cat": "agent",
+    "lang": "en"
+  },
+  {
+    "title": "Introducing eve, an open-source agent framework",
+    "link": "https://vercel.com/changelog/introducing-eve-an-open-source-agent-framework",
+    "desc": "",
+    "date": "2026-06-17",
+    "source": "Vercel",
+    "cat": "agent",
+    "lang": "en"
+  },
+  {
+    "title": "Vercel for Enterprise Apps and Agents",
+    "link": "https://vercel.com/blog/vercel-for-enterprise-apps-and-agents",
+    "desc": "",
+    "date": "2026-06-16",
+    "source": "Vercel",
     "cat": "agent",
     "lang": "en"
   }

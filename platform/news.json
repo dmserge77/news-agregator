@@ -9,11 +9,353 @@
     "lang": "en"
   },
   {
+    "title": "backendlessConf_ 2019",
+    "link": "https://vercel.com/blog/our-first-online-conference",
+    "desc": "",
+    "date": "2026-09-13",
+    "source": "Vercel",
+    "cat": "platform",
+    "lang": "en"
+  },
+  {
+    "title": "Branch Domains",
+    "link": "https://vercel.com/blog/branch-domains",
+    "desc": "",
+    "date": "2026-09-13",
+    "source": "Vercel",
+    "cat": "platform",
+    "lang": "en"
+  },
+  {
+    "title": "December 2019",
+    "link": "https://vercel.com/blog/changelog-december-2019",
+    "desc": "",
+    "date": "2026-09-13",
+    "source": "Vercel",
+    "cat": "platform",
+    "lang": "en"
+  },
+  {
+    "title": "Vercel for Bitbucket",
+    "link": "https://vercel.com/blog/bitbucket",
+    "desc": "",
+    "date": "2026-09-13",
+    "source": "Vercel",
+    "cat": "platform",
+    "lang": "en"
+  },
+  {
+    "title": "Dashboard redesign",
+    "link": "https://vercel.com/blog/dashboard-redesign",
+    "desc": "",
+    "date": "2026-09-13",
+    "source": "Vercel",
+    "cat": "platform",
+    "lang": "en"
+  },
+  {
+    "title": "Introducing the Deploy Button",
+    "link": "https://vercel.com/blog/deploy-button",
+    "desc": "",
+    "date": "2026-09-13",
+    "source": "Vercel",
+    "cat": "platform",
+    "lang": "en"
+  },
+  {
+    "title": "Inspecting Serverless Functions",
+    "link": "https://vercel.com/blog/functions-tab",
+    "desc": "",
+    "date": "2026-09-13",
+    "source": "Vercel",
+    "cat": "platform",
+    "lang": "en"
+  },
+  {
+    "title": "Customizing Serverless Functions",
+    "link": "https://vercel.com/blog/customizing-serverless-functions",
+    "desc": "",
+    "date": "2026-09-13",
+    "source": "Vercel",
+    "cat": "platform",
+    "lang": "en"
+  },
+  {
+    "title": "November 2019",
+    "link": "https://vercel.com/blog/changelog-november-2019",
+    "desc": "",
+    "date": "2026-09-13",
+    "source": "Vercel",
+    "cat": "platform",
+    "lang": "en"
+  },
+  {
+    "title": "Default Production Domain",
+    "link": "https://vercel.com/blog/default-production-domain",
+    "desc": "",
+    "date": "2026-09-13",
+    "source": "Vercel",
+    "cat": "platform",
+    "lang": "en"
+  },
+  {
+    "title": "Redirecting Domains",
+    "link": "https://vercel.com/blog/redirecting-domains",
+    "desc": "",
+    "date": "2026-09-13",
+    "source": "Vercel",
+    "cat": "platform",
+    "lang": "en"
+  },
+  {
+    "title": "Advanced Invoice Settings",
+    "link": "https://vercel.com/blog/advanced-invoice-settings",
+    "desc": "",
+    "date": "2026-09-13",
+    "source": "Vercel",
+    "cat": "platform",
+    "lang": "en"
+  },
+  {
+    "title": "October 2019",
+    "link": "https://vercel.com/blog/changelog-october-2019",
+    "desc": "",
+    "date": "2026-09-13",
+    "source": "Vercel",
+    "cat": "platform",
+    "lang": "en"
+  },
+  {
+    "title": "Introducing Wildcard Domains",
+    "link": "https://vercel.com/blog/wildcard-domains",
+    "desc": "",
+    "date": "2026-09-13",
+    "source": "Vercel",
+    "cat": "platform",
+    "lang": "en"
+  },
+  {
+    "title": "Deploy Summary Integration",
+    "link": "https://vercel.com/blog/deploy-summary",
+    "desc": "",
+    "date": "2026-09-13",
+    "source": "Vercel",
+    "cat": "platform",
+    "lang": "en"
+  },
+  {
+    "title": "Zero Config Deployments",
+    "link": "https://vercel.com/blog/zero-config",
+    "desc": "",
+    "date": "2026-09-13",
+    "source": "Vercel",
+    "cat": "platform",
+    "lang": "en"
+  },
+  {
+    "title": "Introducing Deploy Hooks",
+    "link": "https://vercel.com/blog/introducing-deploy-hooks",
+    "desc": "",
+    "date": "2026-09-13",
+    "source": "Vercel",
+    "cat": "platform",
+    "lang": "en"
+  },
+  {
+    "title": "Node.js 10 is Now Available",
+    "link": "https://vercel.com/blog/node-10",
+    "desc": "",
+    "date": "2026-09-13",
+    "source": "Vercel",
+    "cat": "platform",
+    "lang": "en"
+  },
+  {
+    "title": "Helpers for Serverless Node.js Functions",
+    "link": "https://vercel.com/blog/vercel-node-helpers",
+    "desc": "",
+    "date": "2026-09-13",
+    "source": "Vercel",
+    "cat": "platform",
+    "lang": "en"
+  },
+  {
+    "title": "Vercel Hackathon Winners",
+    "link": "https://vercel.com/blog/hackathon-winners",
+    "desc": "",
+    "date": "2026-09-13",
+    "source": "Vercel",
+    "cat": "platform",
+    "lang": "en"
+  },
+  {
+    "title": "Windows Support for `vercel dev`",
+    "link": "https://vercel.com/blog/vercel-dev-windows",
+    "desc": "",
+    "date": "2026-09-13",
+    "source": "Vercel",
+    "cat": "platform",
+    "lang": "en"
+  },
+  {
+    "title": "Introducing Serverless Pre-Rendering (SPR)",
+    "link": "https://vercel.com/blog/serverless-pre-rendering",
+    "desc": "",
+    "date": "2026-09-13",
+    "source": "Vercel",
+    "cat": "platform",
+    "lang": "en"
+  },
+  {
+    "title": "Introducing `vercel dev`: Serverless, on localhost",
+    "link": "https://vercel.com/blog/vercel-dev",
+    "desc": "",
+    "date": "2026-09-13",
+    "source": "Vercel",
+    "cat": "platform",
+    "lang": "en"
+  },
+  {
+    "title": "Automatic SSL with Vercel and Let's Encrypt",
+    "link": "https://vercel.com/blog/automatic-ssl-with-vercel-lets-encrypt",
+    "desc": "",
+    "date": "2026-09-13",
+    "source": "Vercel",
+    "cat": "platform",
+    "lang": "en"
+  },
+  {
+    "title": "Auto Job Cancellation for Vercel for GitHub",
+    "link": "https://vercel.com/blog/auto-job-cancellation-for-vercel-github",
+    "desc": "",
+    "date": "2026-09-13",
+    "source": "Vercel",
+    "cat": "platform",
+    "lang": "en"
+  },
+  {
+    "title": "Next.js 6.1",
+    "link": "https://vercel.com/blog/next6-1",
+    "desc": "",
+    "date": "2026-09-13",
+    "source": "Vercel",
+    "cat": "platform",
+    "lang": "en"
+  },
+  {
+    "title": "Next.js 6 and Nextjs.org",
+    "link": "https://vercel.com/blog/next6",
+    "desc": "",
+    "date": "2026-09-13",
+    "source": "Vercel",
+    "cat": "platform",
+    "lang": "en"
+  },
+  {
+    "title": "Next.js 5.1: Faster Page Resolution",
+    "link": "https://vercel.com/blog/next5-1",
+    "desc": "",
+    "date": "2026-09-13",
+    "source": "Vercel",
+    "cat": "platform",
+    "lang": "en"
+  },
+  {
+    "title": "Next.js 5: Universal Webpack, CSS Imports, Plugins and Zones",
+    "link": "https://vercel.com/blog/next5",
+    "desc": "",
+    "date": "2026-09-13",
+    "source": "Vercel",
+    "cat": "platform",
+    "lang": "en"
+  },
+  {
+    "title": "Towards Next.js 5: Introducing Canary Updates",
+    "link": "https://vercel.com/blog/next-canary",
+    "desc": "",
+    "date": "2026-09-13",
+    "source": "Vercel",
+    "cat": "platform",
+    "lang": "en"
+  },
+  {
+    "title": "Next.js 4: React 16 and styled-jsx 2",
+    "link": "https://vercel.com/blog/next4",
+    "desc": "",
+    "date": "2026-09-13",
+    "source": "Vercel",
+    "cat": "platform",
+    "lang": "en"
+  },
+  {
+    "title": "Next.js 3.0",
+    "link": "https://vercel.com/blog/next3",
+    "desc": "",
+    "date": "2026-09-13",
+    "source": "Vercel",
+    "cat": "platform",
+    "lang": "en"
+  },
+  {
+    "title": "Next 3.0 Preview: Static Exports and Dynamic Imports",
+    "link": "https://vercel.com/blog/next3-preview",
+    "desc": "",
+    "date": "2026-09-13",
+    "source": "Vercel",
+    "cat": "platform",
+    "lang": "en"
+  },
+  {
+    "title": "Next.js 2.0",
+    "link": "https://vercel.com/blog/next2",
+    "desc": "",
+    "date": "2026-09-13",
+    "source": "Vercel",
+    "cat": "platform",
+    "lang": "en"
+  },
+  {
+    "title": "Next.js",
+    "link": "https://vercel.com/blog/next",
+    "desc": "",
+    "date": "2026-09-13",
+    "source": "Vercel",
+    "cat": "platform",
+    "lang": "en"
+  },
+  {
     "title": "google.com/goto: Google's anti-scraping update",
     "link": "https://www.autom.dev/blog/google-search-goto-links",
     "desc": "Article URL: https://www.autom.dev/blog/google-search-goto-links Comments URL: https://news.ycombinator.com/item?id=49668386 Points: 508 # Comments: 404",
     "date": "2026-09-12",
     "source": "Hacker News",
+    "cat": "platform",
+    "lang": "en"
+  },
+  {
+    "title": "Vercel Sandbox now provides 64 GB of storage",
+    "link": "https://vercel.com/changelog/vercel-sandbox-64-gb-storage",
+    "desc": "",
+    "date": "2026-09-11",
+    "source": "Vercel",
+    "cat": "platform",
+    "lang": "en"
+  },
+  {
+    "title": "How Featured's users make 100K media pitches per month on Vercel",
+    "link": "https://vercel.com/blog/how-featureds-users-make-100k-media-pitches-per-month-on-vercel",
+    "desc": "",
+    "date": "2026-09-11",
+    "source": "Vercel",
+    "cat": "platform",
+    "lang": "en"
+  },
+  {
+    "title": "Control who can manage connectors in Vercel Connect",
+    "link": "https://vercel.com/changelog/control-who-can-manage-connectors-in-vercel-connect",
+    "desc": "",
+    "date": "2026-09-11",
+    "source": "Vercel",
     "cat": "platform",
     "lang": "en"
   },
@@ -81,6 +423,42 @@
     "lang": "en"
   },
   {
+    "title": "FastAPI frontends and static files served from the CDN",
+    "link": "https://vercel.com/changelog/fastapi-frontends-and-static-files-served-from-the-cdn",
+    "desc": "",
+    "date": "2026-09-10",
+    "source": "Vercel",
+    "cat": "platform",
+    "lang": "en"
+  },
+  {
+    "title": "How we cut CDN metadata lookup latency by 91%",
+    "link": "https://vercel.com/blog/how-we-cut-cdn-metadata-lookup-latency-by-91-percent",
+    "desc": "",
+    "date": "2026-09-10",
+    "source": "Vercel",
+    "cat": "platform",
+    "lang": "en"
+  },
+  {
+    "title": "Tako Search is free on AI Gateway through September 30",
+    "link": "https://vercel.com/changelog/tako-search-is-free-on-ai-gateway-through-september-30th",
+    "desc": "",
+    "date": "2026-09-10",
+    "source": "Vercel",
+    "cat": "platform",
+    "lang": "en"
+  },
+  {
+    "title": "Vercel Sandbox is now available in all regions",
+    "link": "https://vercel.com/changelog/vercel-sandbox-is-now-available-in-all-regions",
+    "desc": "",
+    "date": "2026-09-10",
+    "source": "Vercel",
+    "cat": "platform",
+    "lang": "en"
+  },
+  {
     "title": "650 млн точек, 3 поломки и PI System: технический разбор предиктивной аналитики на НПЗ (часть 2)",
     "link": "https://habr.com/ru/companies/datasapience/articles/1080892/?utm_campaign=1080892&utm_source=habrahabr&utm_medium=rss",
     "desc": "Часть 2 из 2. В первой части серии мы предсказали отказ насоса за 60 дней и выяснили, что годами чинили не то. Увидели, что материал встретил вашу живую реакцию, поэтому возвращаемся по горячим следам со второй частью. В этом материале, как и обещали, погружаемся в технику. Расскажем, что было по...",
@@ -117,6 +495,60 @@
     "lang": "en"
   },
   {
+    "title": "Password Protection is now available per project on Pro",
+    "link": "https://vercel.com/changelog/password-protection-now-costs-20-per-project-per-month-on-pro",
+    "desc": "",
+    "date": "2026-09-09",
+    "source": "Vercel",
+    "cat": "platform",
+    "lang": "en"
+  },
+  {
+    "title": "Protect production deployments for free on every plan",
+    "link": "https://vercel.com/changelog/protect-production-deployments-for-free-on-every-plan",
+    "desc": "",
+    "date": "2026-09-09",
+    "source": "Vercel",
+    "cat": "platform",
+    "lang": "en"
+  },
+  {
+    "title": "DeepSeek V4.1 Flash now available on AI Gateway",
+    "link": "https://vercel.com/changelog/deepseek-v4-1-flash-now-available-on-ai-gateway",
+    "desc": "",
+    "date": "2026-09-09",
+    "source": "Vercel",
+    "cat": "platform",
+    "lang": "en"
+  },
+  {
+    "title": "You can now read and search changelogs from the CLI",
+    "link": "https://vercel.com/changelog/you-can-now-read-and-search-changelogs-from-the-cli",
+    "desc": "",
+    "date": "2026-09-09",
+    "source": "Vercel",
+    "cat": "platform",
+    "lang": "en"
+  },
+  {
+    "title": "v0 adds one-click integrations for email, auth, search, and databases",
+    "link": "https://vercel.com/changelog/v0-adds-one-click-integrations-for-email-auth-search-and-databases",
+    "desc": "",
+    "date": "2026-09-09",
+    "source": "Vercel",
+    "cat": "platform",
+    "lang": "en"
+  },
+  {
+    "title": "Introducing Amazon EBS Volume Clones across AWS accounts",
+    "link": "https://aws.amazon.com/blogs/aws/introducing-amazon-ebs-volume-clones-across-aws-accounts/",
+    "desc": "AWS introduces Amazon EBS Volume Clones with cross-account copy, so you can create copies of your EBS volumes into other AWS accounts and optionally re-encrypt them with an AWS Key Management Service (AWS KMS) key in the target account.",
+    "date": "2026-09-09",
+    "source": "AWS",
+    "cat": "platform",
+    "lang": "en"
+  },
+  {
     "title": "Suno представила v6 — новое поколение ИИ‑моделей для генерации музыки",
     "link": "https://habr.com/ru/companies/bothub/news/1080418/?utm_campaign=1080418&utm_source=habrahabr&utm_medium=rss",
     "desc": "Suno представила новое поколение моделей для генерации музыки — v6. В линейку вошли сразу три версии: флагманская v6, экспериментальная v6-wild и бесплатная v6-mini. По словам разработчиков, новые модели стали быстрее и лучше понимают структуру композиции, вокал, инструменты, настроение и музыкал...",
@@ -131,6 +563,42 @@
     "desc": "",
     "date": "2026-09-08",
     "source": "Hugging Face",
+    "cat": "platform",
+    "lang": "en"
+  },
+  {
+    "title": "Deployment step now 10% faster",
+    "link": "https://vercel.com/changelog/deployment-step-now-10-faster",
+    "desc": "",
+    "date": "2026-09-08",
+    "source": "Vercel",
+    "cat": "platform",
+    "lang": "en"
+  },
+  {
+    "title": "Vercel Sandbox routing is now 18x faster globally",
+    "link": "https://vercel.com/changelog/vercel-sandbox-routing-is-now-18x-faster-globally",
+    "desc": "",
+    "date": "2026-09-08",
+    "source": "Vercel",
+    "cat": "platform",
+    "lang": "en"
+  },
+  {
+    "title": "Introducing Flat Rate CDN",
+    "link": "https://vercel.com/blog/introducing-flat-rate-cdn",
+    "desc": "",
+    "date": "2026-09-08",
+    "source": "Vercel",
+    "cat": "platform",
+    "lang": "en"
+  },
+  {
+    "title": "Flat Rate CDN is now GA for Pro teams",
+    "link": "https://vercel.com/changelog/flat-rate-cdn-is-now-ga-for-pro-teams",
+    "desc": "",
+    "date": "2026-09-08",
+    "source": "Vercel",
     "cat": "platform",
     "lang": "en"
   },
@@ -151,6 +619,15 @@
     "source": "Habr ML",
     "cat": "platform",
     "lang": "ru"
+  },
+  {
+    "title": "Ling 3.0 Flash Sante is now available on AI Gateway for free",
+    "link": "https://vercel.com/changelog/ling-3-0-flash-sante-is-now-available-on-ai-gateway-for-free",
+    "desc": "",
+    "date": "2026-09-04",
+    "source": "Vercel",
+    "cat": "platform",
+    "lang": "en"
   },
   {
     "title": "Блогеры смогут управлять монетизацией контента на разных площадках из одного сервиса  —  Яндекс ПроБлогер",
@@ -189,11 +666,119 @@
     "lang": "en"
   },
   {
+    "title": "Free domain with Pro offer now includes .app and .dev",
+    "link": "https://vercel.com/changelog/app-and-dev-domains-included-with-free-domain-for-pro",
+    "desc": "",
+    "date": "2026-09-02",
+    "source": "Vercel",
+    "cat": "platform",
+    "lang": "en"
+  },
+  {
+    "title": "Muse Spark 1.3 now available on AI Gateway",
+    "link": "https://vercel.com/changelog/muse-spark-1-3-now-available-on-ai-gateway",
+    "desc": "",
+    "date": "2026-09-02",
+    "source": "Vercel",
+    "cat": "platform",
+    "lang": "en"
+  },
+  {
+    "title": "GLM-5.3 is 50% off through DigitalOcean on AI Gateway",
+    "link": "https://vercel.com/changelog/glm-5-3-is-50-off-through-digitalocean-on-ai-gateway",
+    "desc": "",
+    "date": "2026-09-02",
+    "source": "Vercel",
+    "cat": "platform",
+    "lang": "en"
+  },
+  {
     "title": "Introducing @huggingface/kernels: 200+ WebGPU Kernels for Local AI",
     "link": "https://huggingface.co/blog/webgpu-kernels",
     "desc": "",
     "date": "2026-09-01",
     "source": "Hugging Face",
+    "cat": "platform",
+    "lang": "en"
+  },
+  {
+    "title": "Compute that takes any shape",
+    "link": "https://vercel.com/blog/fluid-compute-takes-any-shape",
+    "desc": "",
+    "date": "2026-09-01",
+    "source": "Vercel",
+    "cat": "platform",
+    "lang": "en"
+  },
+  {
+    "title": "Qwen 3.8 Max 0902 now available on AI Gateway",
+    "link": "https://vercel.com/changelog/qwen-3-8-max-0902-now-available-on-ai-gateway",
+    "desc": "",
+    "date": "2026-09-01",
+    "source": "Vercel",
+    "cat": "platform",
+    "lang": "en"
+  },
+  {
+    "title": "AWS PrivateLink is now available on Pro and Enterprise",
+    "link": "https://vercel.com/changelog/aws-privatelink-is-now-available-on-pro-and-enterprise",
+    "desc": "",
+    "date": "2026-09-01",
+    "source": "Vercel",
+    "cat": "platform",
+    "lang": "en"
+  },
+  {
+    "title": "Node.js Hosting Options Compared",
+    "link": "https://blog.railway.com/p/nodejs-hosting-options-compared",
+    "desc": "A guide to the most popular hosting options for Node.js applications.",
+    "date": "2026-09-01",
+    "source": "Railway",
+    "cat": "platform",
+    "lang": "en"
+  },
+  {
+    "title": "fx is now available in the AI SDK harness layer",
+    "link": "https://vercel.com/changelog/fx-ai-sdk-harness-adapter",
+    "desc": "",
+    "date": "2026-08-31",
+    "source": "Vercel",
+    "cat": "platform",
+    "lang": "en"
+  },
+  {
+    "title": "Set per-user budgets on AI Gateway",
+    "link": "https://vercel.com/changelog/set-per-user-budgets-on-ai-gateway",
+    "desc": "",
+    "date": "2026-08-31",
+    "source": "Vercel",
+    "cat": "platform",
+    "lang": "en"
+  },
+  {
+    "title": "Vercel Sandbox now calculates snapshot storage costs daily",
+    "link": "https://vercel.com/changelog/vercel-sandbox-now-calculates-snapshot-storage-costs-daily",
+    "desc": "",
+    "date": "2026-08-31",
+    "source": "Vercel",
+    "cat": "platform",
+    "lang": "en"
+  },
+  {
+    "title": "Amazon EC2 R9g and R9gd instances powered by AWS Graviton5 processors are now generally available",
+    "link": "https://aws.amazon.com/blogs/aws/amazon-ec2-r9g-and-r9gd-instances-powered-by-aws-graviton5-processors-are-now-generally-available/",
+    "desc": "Amazon EC2 R9g and R9gd instances powered by AWS Graviton5 are now generally available, delivering up to 25% better compute performance than R8g, ideal for databases, in-memory caches, and real-time analytics.",
+    "date": "2026-08-31",
+    "source": "AWS",
+    "cat": "platform",
+    "lang": "en"
+  },
+  {
+    "title": "MiniMax H3 and H3 Max are 50% off on AI Gateway",
+    "link": "https://vercel.com/changelog/minimax-h3-and-h3-max-are-50-off-on-ai-gateway",
+    "desc": "",
+    "date": "2026-08-30",
+    "source": "Vercel",
     "cat": "platform",
     "lang": "en"
   },
@@ -207,11 +792,101 @@
     "lang": "en"
   },
   {
+    "title": "Hy4 Preview now available on AI Gateway",
+    "link": "https://vercel.com/changelog/hy4-preview-now-available-on-ai-gateway",
+    "desc": "",
+    "date": "2026-08-28",
+    "source": "Vercel",
+    "cat": "platform",
+    "lang": "en"
+  },
+  {
+    "title": "Vercel CLI expands commands for DNS, domains, and projects",
+    "link": "https://vercel.com/changelog/vercel-cli-expands-commands-for-dns-domains-and-projects",
+    "desc": "",
+    "date": "2026-08-28",
+    "source": "Vercel",
+    "cat": "platform",
+    "lang": "en"
+  },
+  {
+    "title": "Find deployments faster with redesigned filters",
+    "link": "https://vercel.com/changelog/find-deployments-faster-with-redesigned-filters",
+    "desc": "",
+    "date": "2026-08-27",
+    "source": "Vercel",
+    "cat": "platform",
+    "lang": "en"
+  },
+  {
+    "title": "The best workflow engine is a programming language",
+    "link": "https://vercel.com/blog/the-best-workflow-engine-is-a-programming-language",
+    "desc": "",
+    "date": "2026-08-27",
+    "source": "Vercel",
+    "cat": "platform",
+    "lang": "en"
+  },
+  {
+    "title": "Ling 3.0 Flash Fin now available on AI Gateway for free",
+    "link": "https://vercel.com/changelog/ling-3-0-flash-fin-now-available-on-ai-gateway-for-free",
+    "desc": "",
+    "date": "2026-08-27",
+    "source": "Vercel",
+    "cat": "platform",
+    "lang": "en"
+  },
+  {
     "title": "Sharplink",
     "link": "https://www.awwwards.com/sites/sharplink",
     "desc": "Sharplink is the institutional-grade Ethereum treasury platform giving investors a smarter, more productive access vehicle to ETH.",
     "date": "2026-08-27",
     "source": "Awwwards",
+    "cat": "platform",
+    "lang": "en"
+  },
+  {
+    "title": "Muse Image now available on AI Gateway",
+    "link": "https://vercel.com/changelog/muse-image-now-available-on-ai-gateway",
+    "desc": "",
+    "date": "2026-08-26",
+    "source": "Vercel",
+    "cat": "platform",
+    "lang": "en"
+  },
+  {
+    "title": "Qwen 3.8 Flash now available on AI Gateway",
+    "link": "https://vercel.com/changelog/qwen-3-8-flash-now-available-on-ai-gateway",
+    "desc": "",
+    "date": "2026-08-26",
+    "source": "Vercel",
+    "cat": "platform",
+    "lang": "en"
+  },
+  {
+    "title": "GLM 5.3 Flash now available on AI Gateway",
+    "link": "https://vercel.com/changelog/glm-5-3-flash-now-available-on-ai-gateway",
+    "desc": "",
+    "date": "2026-08-26",
+    "source": "Vercel",
+    "cat": "platform",
+    "lang": "en"
+  },
+  {
+    "title": "Vercel Security Dashboard is now generally available",
+    "link": "https://vercel.com/changelog/vercel-security-dashboard-is-now-generally-available",
+    "desc": "",
+    "date": "2026-08-26",
+    "source": "Vercel",
+    "cat": "platform",
+    "lang": "en"
+  },
+  {
+    "title": "Python projects now support routing rules",
+    "link": "https://vercel.com/changelog/python-projects-now-support-routing-rules",
+    "desc": "",
+    "date": "2026-08-26",
+    "source": "Vercel",
     "cat": "platform",
     "lang": "en"
   },
@@ -234,6 +909,123 @@
     "lang": "en"
   },
   {
+    "title": "Vercel applications are protected from Next.js August 2026 security vulnerabilities",
+    "link": "https://vercel.com/changelog/nextjs-august-2026-security-release",
+    "desc": "",
+    "date": "2026-08-25",
+    "source": "Vercel",
+    "cat": "platform",
+    "lang": "en"
+  },
+  {
+    "title": "Speed Insights now has a free tier",
+    "link": "https://vercel.com/changelog/speed-insights-free-tier",
+    "desc": "",
+    "date": "2026-08-25",
+    "source": "Vercel",
+    "cat": "platform",
+    "lang": "en"
+  },
+  {
+    "title": "MiniMax M3 and M2.7 are free on AI Gateway",
+    "link": "https://vercel.com/changelog/minimax-m3-and-m2-7-are-free-on-ai-gateway",
+    "desc": "",
+    "date": "2026-08-25",
+    "source": "Vercel",
+    "cat": "platform",
+    "lang": "en"
+  },
+  {
+    "title": "Wan 3.0 now available on AI Gateway",
+    "link": "https://vercel.com/changelog/wan-3-0-now-available-on-ai-gateway",
+    "desc": "",
+    "date": "2026-08-25",
+    "source": "Vercel",
+    "cat": "platform",
+    "lang": "en"
+  },
+  {
+    "title": "AI Gateway now supports asynchronous video generation",
+    "link": "https://vercel.com/changelog/ai-gateway-now-supports-asynchronous-video-generation",
+    "desc": "",
+    "date": "2026-08-25",
+    "source": "Vercel",
+    "cat": "platform",
+    "lang": "en"
+  },
+  {
+    "title": "Vercel Connect is now generally available",
+    "link": "https://vercel.com/changelog/vercel-connect-ga",
+    "desc": "",
+    "date": "2026-08-25",
+    "source": "Vercel",
+    "cat": "platform",
+    "lang": "en"
+  },
+  {
+    "title": "Chat SDK now supports Slack Enterprise Grid",
+    "link": "https://vercel.com/changelog/chat-sdk-slack-enterprise-grid",
+    "desc": "",
+    "date": "2026-08-25",
+    "source": "Vercel",
+    "cat": "platform",
+    "lang": "en"
+  },
+  {
+    "title": "Vercel Connect now supports Linq",
+    "link": "https://vercel.com/changelog/vercel-connect-now-supports-linq",
+    "desc": "",
+    "date": "2026-08-25",
+    "source": "Vercel",
+    "cat": "platform",
+    "lang": "en"
+  },
+  {
+    "title": "Chat SDK now supports XChat",
+    "link": "https://vercel.com/changelog/chat-sdk-now-supports-xchat",
+    "desc": "",
+    "date": "2026-08-25",
+    "source": "Vercel",
+    "cat": "platform",
+    "lang": "en"
+  },
+  {
+    "title": "Vercel Sandbox is now globally available",
+    "link": "https://vercel.com/changelog/vercel-sandbox-is-now-globally-available",
+    "desc": "",
+    "date": "2026-08-24",
+    "source": "Vercel",
+    "cat": "platform",
+    "lang": "en"
+  },
+  {
+    "title": "Environment variables now use Config and Secret types",
+    "link": "https://vercel.com/changelog/environment-variables-now-use-config-and-secret-types",
+    "desc": "",
+    "date": "2026-08-24",
+    "source": "Vercel",
+    "cat": "platform",
+    "lang": "en"
+  },
+  {
+    "title": "Bun runtime now supports large functions and extended max duration",
+    "link": "https://vercel.com/changelog/bun-runtime-now-supports-large-functions-and-extended-max-duration",
+    "desc": "",
+    "date": "2026-08-24",
+    "source": "Vercel",
+    "cat": "platform",
+    "lang": "en"
+  },
+  {
+    "title": "Connect v0 apps to Slack, Google, and 100+ other services",
+    "link": "https://vercel.com/changelog/connect-v0-apps-to-slack-google-and-100-other-services",
+    "desc": "",
+    "date": "2026-08-24",
+    "source": "Vercel",
+    "cat": "platform",
+    "lang": "en"
+  },
+  {
     "title": "How Hugging Face Inference Endpoints, Jobs, and Buckets Power Search on Papers with Code",
     "link": "https://huggingface.co/blog/pwc-search",
     "desc": "",
@@ -252,11 +1044,218 @@
     "lang": "en"
   },
   {
+    "title": "Deployment Storage keeps your deployments rollback-ready",
+    "link": "https://vercel.com/changelog/deployment-storage-keeps-your-deployments-rollback-ready",
+    "desc": "",
+    "date": "2026-08-21",
+    "source": "Vercel",
+    "cat": "platform",
+    "lang": "en"
+  },
+  {
+    "title": "DeepSeek V4 Flash Vision Experimental now available on AI Gateway",
+    "link": "https://vercel.com/changelog/deepseek-v4-flash-with-vision-now-available-on-ai-gateway",
+    "desc": "",
+    "date": "2026-08-21",
+    "source": "Vercel",
+    "cat": "platform",
+    "lang": "en"
+  },
+  {
+    "title": "Always-on tracing for production and preview traffic",
+    "link": "https://vercel.com/changelog/always-on-tracing-for-production-and-preview-traffic",
+    "desc": "",
+    "date": "2026-08-21",
+    "source": "Vercel",
+    "cat": "platform",
+    "lang": "en"
+  },
+  {
+    "title": "Microfrontends previews now link across repositories",
+    "link": "https://vercel.com/changelog/microfrontends-previews-now-link-across-repositories",
+    "desc": "",
+    "date": "2026-08-21",
+    "source": "Vercel",
+    "cat": "platform",
+    "lang": "en"
+  },
+  {
     "title": "Up to 3.2x Faster Inference with LFM2.5-DSpark",
     "link": "https://huggingface.co/blog/LiquidAI/lfm25-dspark",
     "desc": "",
     "date": "2026-08-20",
     "source": "Hugging Face",
+    "cat": "platform",
+    "lang": "en"
+  },
+  {
+    "title": "Manage Vercel Toolbar comments from the CLI",
+    "link": "https://vercel.com/changelog/manage-vercel-toolbar-comments-from-the-cli",
+    "desc": "",
+    "date": "2026-08-20",
+    "source": "Vercel",
+    "cat": "platform",
+    "lang": "en"
+  },
+  {
+    "title": "Custom metrics are now supported in Vercel Observability",
+    "link": "https://vercel.com/changelog/custom-metrics-are-now-supported-in-vercel-observability",
+    "desc": "",
+    "date": "2026-08-20",
+    "source": "Vercel",
+    "cat": "platform",
+    "lang": "en"
+  },
+  {
+    "title": "How v0 authenticates to Snowflake without exposing the user's OAuth token",
+    "link": "https://vercel.com/blog/how-v0-authenticates-to-snowflake-without-exposing-the-users-oauth-token",
+    "desc": "",
+    "date": "2026-08-20",
+    "source": "Vercel",
+    "cat": "platform",
+    "lang": "en"
+  },
+  {
+    "title": "Manage Vercel Container Registry with Vercel CLI",
+    "link": "https://vercel.com/changelog/manage-vercel-container-registry-with-vercel-cli",
+    "desc": "",
+    "date": "2026-08-20",
+    "source": "Vercel",
+    "cat": "platform",
+    "lang": "en"
+  },
+  {
+    "title": "Bun 1.4 is now available in Vercel Functions",
+    "link": "https://vercel.com/changelog/bun-1-4-is-now-available-in-vercel-functions",
+    "desc": "",
+    "date": "2026-08-20",
+    "source": "Vercel",
+    "cat": "platform",
+    "lang": "en"
+  },
+  {
+    "title": "Algolia joins the Vercel Marketplace",
+    "link": "https://vercel.com/changelog/algolia-vercel-marketplace",
+    "desc": "",
+    "date": "2026-08-19",
+    "source": "Vercel",
+    "cat": "platform",
+    "lang": "en"
+  },
+  {
+    "title": "Introducing Vercel for Slack",
+    "link": "https://vercel.com/blog/introducing-vercel-for-slack",
+    "desc": "",
+    "date": "2026-08-19",
+    "source": "Vercel",
+    "cat": "platform",
+    "lang": "en"
+  },
+  {
+    "title": "Vercel Python Queues SDK is now available in beta",
+    "link": "https://vercel.com/changelog/vercel-python-queues-sdk-is-now-available-in-beta",
+    "desc": "",
+    "date": "2026-08-19",
+    "source": "Vercel",
+    "cat": "platform",
+    "lang": "en"
+  },
+  {
+    "title": "Compliance documents are now available in Team settings",
+    "link": "https://vercel.com/changelog/compliance-documents-are-now-available-in-team-settings",
+    "desc": "",
+    "date": "2026-08-19",
+    "source": "Vercel",
+    "cat": "platform",
+    "lang": "en"
+  },
+  {
+    "title": "Fish Audio models now available on Vercel AI Gateway for free",
+    "link": "https://vercel.com/changelog/fish-audio-models-now-available-on-ai-gateway-for-free",
+    "desc": "",
+    "date": "2026-08-19",
+    "source": "Vercel",
+    "cat": "platform",
+    "lang": "en"
+  },
+  {
+    "title": "Vercel for Slack now in public beta",
+    "link": "https://vercel.com/changelog/vercel-for-slack-now-in-public-beta",
+    "desc": "",
+    "date": "2026-08-19",
+    "source": "Vercel",
+    "cat": "platform",
+    "lang": "en"
+  },
+  {
+    "title": "Vercel Connect now supports Microsoft",
+    "link": "https://vercel.com/changelog/vercel-connect-supports-microsoft",
+    "desc": "",
+    "date": "2026-08-19",
+    "source": "Vercel",
+    "cat": "platform",
+    "lang": "en"
+  },
+  {
+    "title": "Chat SDK adds Instagram adapter",
+    "link": "https://vercel.com/changelog/chat-sdk-adds-instagram-adapter",
+    "desc": "",
+    "date": "2026-08-19",
+    "source": "Vercel",
+    "cat": "platform",
+    "lang": "en"
+  },
+  {
+    "title": "Vercel for Platforms can now deploy from your users' GitHub repositories",
+    "link": "https://vercel.com/changelog/vercel-for-platforms-can-now-deploy-from-your-users-github-repositories",
+    "desc": "",
+    "date": "2026-08-18",
+    "source": "Vercel",
+    "cat": "platform",
+    "lang": "en"
+  },
+  {
+    "title": "$1 million hacker challenge for Vercel Sandbox",
+    "link": "https://vercel.com/blog/one-million-dollar-hacker-challenge-for-vercel-sandbox",
+    "desc": "",
+    "date": "2026-08-18",
+    "source": "Vercel",
+    "cat": "platform",
+    "lang": "en"
+  },
+  {
+    "title": "Cline is now available in the AI SDK harness layer",
+    "link": "https://vercel.com/changelog/cline-harness-adapter",
+    "desc": "",
+    "date": "2026-08-18",
+    "source": "Vercel",
+    "cat": "platform",
+    "lang": "en"
+  },
+  {
+    "title": "GLM 5.3 now available on AI Gateway",
+    "link": "https://vercel.com/changelog/glm-5-3-now-available-on-ai-gateway",
+    "desc": "",
+    "date": "2026-08-18",
+    "source": "Vercel",
+    "cat": "platform",
+    "lang": "en"
+  },
+  {
+    "title": "Sign JWTs from your Functions without managing private keys",
+    "link": "https://vercel.com/changelog/sign-jwts-from-your-functions-without-managing-private-keys",
+    "desc": "",
+    "date": "2026-08-18",
+    "source": "Vercel",
+    "cat": "platform",
+    "lang": "en"
+  },
+  {
+    "title": "In the works: AWS Builder Lofts in Berlin, Hyderabad, and São Paulo",
+    "link": "https://aws.amazon.com/blogs/aws/in-the-works-aws-builder-lofts-in-berlin-hyderabad-and-sao-paulo/",
+    "desc": "Each location will be a permanent community space to offer free workshops, networking events, pitch nights, content creation spaces, collaboration/co-working areas, and event hosting for developers, students, or tech professionals who want to walk through the doors.",
+    "date": "2026-08-18",
+    "source": "AWS",
     "cat": "platform",
     "lang": "en"
   },
@@ -270,11 +1269,29 @@
     "lang": "en"
   },
   {
+    "title": "Railway for Everyone: Deploy for free without a Railway account",
+    "link": "https://blog.railway.com/p/deploy-without-account",
+    "desc": "We are allowing people to deploy code on Railway without an account, read how we made this new development happen.",
+    "date": "2026-08-17",
+    "source": "Railway",
+    "cat": "platform",
+    "lang": "en"
+  },
+  {
     "title": "State of Open Models: Summer 2026 Observations",
     "link": "https://huggingface.co/blog/state-of-open-models-summer-2026",
     "desc": "",
     "date": "2026-08-14",
     "source": "Hugging Face",
+    "cat": "platform",
+    "lang": "en"
+  },
+  {
+    "title": "Encrypted Client Hello (ECH) is now supported on Vercel CDN",
+    "link": "https://vercel.com/changelog/encrypted-client-hello-now-supported-on-vercel-cdn",
+    "desc": "",
+    "date": "2026-08-14",
+    "source": "Vercel",
     "cat": "platform",
     "lang": "en"
   },
@@ -288,11 +1305,74 @@
     "lang": "en"
   },
   {
+    "title": "Inside the Vercel intern experience",
+    "link": "https://vercel.com/blog/inside-the-vercel-intern-experience",
+    "desc": "",
+    "date": "2026-08-13",
+    "source": "Vercel",
+    "cat": "platform",
+    "lang": "en"
+  },
+  {
+    "title": "One-click upgrade for deprecated Node.js versions",
+    "link": "https://vercel.com/changelog/one-click-upgrade-for-deprecated-node-js-versions",
+    "desc": "",
+    "date": "2026-08-13",
+    "source": "Vercel",
+    "cat": "platform",
+    "lang": "en"
+  },
+  {
+    "title": "Use ACP-compatible harnesses with the AI SDK harness layer",
+    "link": "https://vercel.com/changelog/use-acp-compatible-harnesses-with-the-ai-sdk-harness-layer",
+    "desc": "",
+    "date": "2026-08-13",
+    "source": "Vercel",
+    "cat": "platform",
+    "lang": "en"
+  },
+  {
     "title": "Introducing OlmoEarth embeddings: Custom embedding exports from OlmoEarth Studio for downstream analysis",
     "link": "https://huggingface.co/blog/allenai/olmoearth-embeddings",
     "desc": "",
     "date": "2026-08-12",
     "source": "Hugging Face",
+    "cat": "platform",
+    "lang": "en"
+  },
+  {
+    "title": "DeepSeek V4 Pro now runs updated weights on AI Gateway",
+    "link": "https://vercel.com/changelog/deepseek-v4-pro-now-runs-updated-weights-on-ai-gateway",
+    "desc": "",
+    "date": "2026-08-12",
+    "source": "Vercel",
+    "cat": "platform",
+    "lang": "en"
+  },
+  {
+    "title": "Exa web search free through August 31 on AI Gateway and eve",
+    "link": "https://vercel.com/changelog/exa-web-search-free-through-august-31-on-ai-gateway-and-eve",
+    "desc": "",
+    "date": "2026-08-12",
+    "source": "Vercel",
+    "cat": "platform",
+    "lang": "en"
+  },
+  {
+    "title": "Free domain for one year, now for all Pro teams",
+    "link": "https://vercel.com/changelog/free-domain-for-one-year-now-for-all-pro-teams",
+    "desc": "",
+    "date": "2026-08-12",
+    "source": "Vercel",
+    "cat": "platform",
+    "lang": "en"
+  },
+  {
+    "title": "Grok 4.6 now available on AI Gateway",
+    "link": "https://vercel.com/changelog/grok-4-6-now-available-on-ai-gateway",
+    "desc": "",
+    "date": "2026-08-12",
+    "source": "Vercel",
     "cat": "platform",
     "lang": "en"
   },
@@ -306,11 +1386,146 @@
     "lang": "en"
   },
   {
+    "title": "Vercel Connect adds observability support",
+    "link": "https://vercel.com/changelog/vercel-connect-adds-observability-support",
+    "desc": "",
+    "date": "2026-08-11",
+    "source": "Vercel",
+    "cat": "platform",
+    "lang": "en"
+  },
+  {
+    "title": "Enterprise Managed Users is now generally available",
+    "link": "https://vercel.com/changelog/enterprise-managed-users",
+    "desc": "",
+    "date": "2026-08-11",
+    "source": "Vercel",
+    "cat": "platform",
+    "lang": "en"
+  },
+  {
+    "title": "Vercel Connect now supports CLI setup for 100+ connectors",
+    "link": "https://vercel.com/changelog/vercel-cli-100-services",
+    "desc": "",
+    "date": "2026-08-11",
+    "source": "Vercel",
+    "cat": "platform",
+    "lang": "en"
+  },
+  {
+    "title": "Everything hackable will get hacked",
+    "link": "https://vercel.com/blog/everything-hackable-will-get-hacked",
+    "desc": "",
+    "date": "2026-08-11",
+    "source": "Vercel",
+    "cat": "platform",
+    "lang": "en"
+  },
+  {
+    "title": "DeepSeek overtakes Google on volume, cost per token falls 13.6%",
+    "link": "https://vercel.com/blog/deepseek-overtakes-google-on-volume-cost-per-token-falls",
+    "desc": "",
+    "date": "2026-08-11",
+    "source": "Vercel",
+    "cat": "platform",
+    "lang": "en"
+  },
+  {
+    "title": "A sandbox without a network boundary is only half a sandbox",
+    "link": "https://vercel.com/blog/a-sandbox-without-a-network-boundary-is-only-half-a-sandbox",
+    "desc": "",
+    "date": "2026-08-11",
+    "source": "Vercel",
+    "cat": "platform",
+    "lang": "en"
+  },
+  {
+    "title": "LaunchDarkly is now available on the Vercel Marketplace",
+    "link": "https://vercel.com/changelog/launchdarkly-is-now-available-on-the-vercel-marketplace",
+    "desc": "",
+    "date": "2026-08-11",
+    "source": "Vercel",
+    "cat": "platform",
+    "lang": "en"
+  },
+  {
     "title": "Making Knowledge Distillation Cheap Enough to Run at Scale",
     "link": "https://huggingface.co/blog/MultiverseComputingCAI/efficient-knowledge-distillation",
     "desc": "",
     "date": "2026-08-10",
     "source": "Hugging Face",
+    "cat": "platform",
+    "lang": "en"
+  },
+  {
+    "title": "Vercel Sandbox now runs on Vercel Managed Images",
+    "link": "https://vercel.com/changelog/vercel-sandbox-managed-images",
+    "desc": "",
+    "date": "2026-08-10",
+    "source": "Vercel",
+    "cat": "platform",
+    "lang": "en"
+  },
+  {
+    "title": "Simplified onboarding for deepsec",
+    "link": "https://vercel.com/changelog/simplified-onboarding-for-deepsec",
+    "desc": "",
+    "date": "2026-08-10",
+    "source": "Vercel",
+    "cat": "platform",
+    "lang": "en"
+  },
+  {
+    "title": "Bun runtime for Vercel Functions now accepts Bun.serve as an entrypoint",
+    "link": "https://vercel.com/changelog/bun-serve-entrypoint-for-vercel-functions",
+    "desc": "",
+    "date": "2026-08-10",
+    "source": "Vercel",
+    "cat": "platform",
+    "lang": "en"
+  },
+  {
+    "title": "Grok Imagine Image 2.0 now available on Vercel AI Gateway",
+    "link": "https://vercel.com/changelog/grok-imagine-image-2-0-preview-now-available-on-vercel-ai-gateway",
+    "desc": "",
+    "date": "2026-08-08",
+    "source": "Vercel",
+    "cat": "platform",
+    "lang": "en"
+  },
+  {
+    "title": "Vercel Container Registry repositories can now be made public",
+    "link": "https://vercel.com/changelog/vercel-container-registry-repositories-can-now-be-made-public",
+    "desc": "",
+    "date": "2026-08-07",
+    "source": "Vercel",
+    "cat": "platform",
+    "lang": "en"
+  },
+  {
+    "title": "Audit Log Drains now support Datadog, Splunk, and Panther",
+    "link": "https://vercel.com/changelog/audit-log-drains-now-support-datadog-splunk-and-panther",
+    "desc": "",
+    "date": "2026-08-07",
+    "source": "Vercel",
+    "cat": "platform",
+    "lang": "en"
+  },
+  {
+    "title": "Skill packs are now available on skills.sh",
+    "link": "https://vercel.com/changelog/skill-packs-are-now-available",
+    "desc": "",
+    "date": "2026-08-07",
+    "source": "Vercel",
+    "cat": "platform",
+    "lang": "en"
+  },
+  {
+    "title": "Free domain now included with new Pro subscriptions",
+    "link": "https://vercel.com/changelog/free-domain-now-included-with-new-pro-subscriptions",
+    "desc": "",
+    "date": "2026-08-07",
+    "source": "Vercel",
     "cat": "platform",
     "lang": "en"
   },
@@ -333,11 +1548,434 @@
     "lang": "en"
   },
   {
+    "title": "Seedance 2.5 now available on Vercel AI Gateway",
+    "link": "https://vercel.com/changelog/seedance-2-5-now-available-on-vercel-ai-gateway",
+    "desc": "",
+    "date": "2026-08-06",
+    "source": "Vercel",
+    "cat": "platform",
+    "lang": "en"
+  },
+  {
+    "title": "Marketplace integrations now install provider skills",
+    "link": "https://vercel.com/changelog/vercel-marketplace-agent-skills",
+    "desc": "",
+    "date": "2026-08-06",
+    "source": "Vercel",
+    "cat": "platform",
+    "lang": "en"
+  },
+  {
+    "title": "Ling 3.0 Tiny is now available on AI Gateway",
+    "link": "https://vercel.com/changelog/ling-3-0-tiny-is-now-available-on-ai-gateway",
+    "desc": "",
+    "date": "2026-08-06",
+    "source": "Vercel",
+    "cat": "platform",
+    "lang": "en"
+  },
+  {
+    "title": "Pause workflows for approval with Chat SDK",
+    "link": "https://vercel.com/changelog/chat-sdk-durable-approvals",
+    "desc": "",
+    "date": "2026-08-06",
+    "source": "Vercel",
+    "cat": "platform",
+    "lang": "en"
+  },
+  {
+    "title": "Set your own project avatars",
+    "link": "https://vercel.com/changelog/project-avatars",
+    "desc": "",
+    "date": "2026-08-05",
+    "source": "Vercel",
+    "cat": "platform",
+    "lang": "en"
+  },
+  {
+    "title": "New setup page after domain checkout",
+    "link": "https://vercel.com/changelog/new-setup-page-after-domain-checkout",
+    "desc": "",
+    "date": "2026-08-05",
+    "source": "Vercel",
+    "cat": "platform",
+    "lang": "en"
+  },
+  {
+    "title": "Export AI Gateway traces with Vercel Drains",
+    "link": "https://vercel.com/changelog/export-ai-gateway-traces-with-vercel-drains",
+    "desc": "",
+    "date": "2026-08-05",
+    "source": "Vercel",
+    "cat": "platform",
+    "lang": "en"
+  },
+  {
+    "title": "Introducing the new v0 API",
+    "link": "https://vercel.com/blog/introducing-the-new-v0-api",
+    "desc": "",
+    "date": "2026-08-05",
+    "source": "Vercel",
+    "cat": "platform",
+    "lang": "en"
+  },
+  {
+    "title": "AI Gateway is now available on AWS Marketplace",
+    "link": "https://vercel.com/changelog/ai-gateway-is-now-available-on-aws-marketplace",
+    "desc": "",
+    "date": "2026-08-05",
+    "source": "Vercel",
+    "cat": "platform",
+    "lang": "en"
+  },
+  {
+    "title": "Muse Spark 1.2 is now available on Vercel AI Gateway",
+    "link": "https://vercel.com/changelog/muse-spark-1-2-is-now-available-on-vercel-ai-gateway",
+    "desc": "",
+    "date": "2026-08-05",
+    "source": "Vercel",
+    "cat": "platform",
+    "lang": "en"
+  },
+  {
+    "title": "Vercel Sandbox now supports 10,000 concurrent sandboxes and 5,000 vCPUs per minute",
+    "link": "https://vercel.com/changelog/vercel-sandbox-now-supports-10-000-concurrent-sandboxes-and-5-000-vcpus-per-minute",
+    "desc": "",
+    "date": "2026-08-05",
+    "source": "Vercel",
+    "cat": "platform",
+    "lang": "en"
+  },
+  {
+    "title": "Search and buy domains in the dashboard",
+    "link": "https://vercel.com/changelog/search-and-buy-domains-in-the-dashboard",
+    "desc": "",
+    "date": "2026-08-05",
+    "source": "Vercel",
+    "cat": "platform",
+    "lang": "en"
+  },
+  {
+    "title": "Measure time between steps in Vercel Workflows",
+    "link": "https://vercel.com/changelog/measure-time-between-steps-in-vercel-workflows",
+    "desc": "",
+    "date": "2026-08-05",
+    "source": "Vercel",
+    "cat": "platform",
+    "lang": "en"
+  },
+  {
+    "title": "Full Sandbox egress firewall now available on Hobby plan",
+    "link": "https://vercel.com/changelog/full-sandbox-egress-firewall-now-available-on-hobby-plan",
+    "desc": "",
+    "date": "2026-08-05",
+    "source": "Vercel",
+    "cat": "platform",
+    "lang": "en"
+  },
+  {
+    "title": "Vercel Sandbox now supports Devin Outposts",
+    "link": "https://vercel.com/changelog/vercel-sandbox-now-supports-devin-outposts",
+    "desc": "",
+    "date": "2026-08-04",
+    "source": "Vercel",
+    "cat": "platform",
+    "lang": "en"
+  },
+  {
+    "title": "Next.js 16.3 support on Vercel",
+    "link": "https://vercel.com/blog/vercel-supports-next-js-16-3",
+    "desc": "",
+    "date": "2026-08-04",
+    "source": "Vercel",
+    "cat": "platform",
+    "lang": "en"
+  },
+  {
+    "title": "Deploys are now up to 33% faster for apps with many ISR pages",
+    "link": "https://vercel.com/changelog/deploys-are-now-up-to-33-faster-for-apps-with-many-isr-pages",
+    "desc": "",
+    "date": "2026-08-04",
+    "source": "Vercel",
+    "cat": "platform",
+    "lang": "en"
+  },
+  {
+    "title": "DeepSeek V4 Flash is 90% off through Novita on AI Gateway",
+    "link": "https://vercel.com/changelog/deepseek-v4-flash-is-90-off-through-novita",
+    "desc": "",
+    "date": "2026-08-04",
+    "source": "Vercel",
+    "cat": "platform",
+    "lang": "en"
+  },
+  {
+    "title": "Vercel WAF for Blob is now generally available",
+    "link": "https://vercel.com/changelog/vercel-waf-for-blob-is-now-generally-available",
+    "desc": "",
+    "date": "2026-08-03",
+    "source": "Vercel",
+    "cat": "platform",
+    "lang": "en"
+  },
+  {
+    "title": "How Factory scaled its cloud backend to one billion monthly requests on Vercel",
+    "link": "https://vercel.com/blog/how-factory-scaled-its-cloud-backend-to-one-billion-monthly-requests-on-vercel",
+    "desc": "",
+    "date": "2026-08-03",
+    "source": "Vercel",
+    "cat": "platform",
+    "lang": "en"
+  },
+  {
+    "title": "Share Vercel Container Registry repositories across teams",
+    "link": "https://vercel.com/changelog/share-vercel-container-registry-repositories-across-teams",
+    "desc": "",
+    "date": "2026-08-03",
+    "source": "Vercel",
+    "cat": "platform",
+    "lang": "en"
+  },
+  {
+    "title": "Qwen 3.8 Max now available on Vercel AI Gateway",
+    "link": "https://vercel.com/changelog/qwen-3-8-max-now-available-on-vercel-ai-gateway",
+    "desc": "",
+    "date": "2026-08-02",
+    "source": "Vercel",
+    "cat": "platform",
+    "lang": "en"
+  },
+  {
+    "title": "AI Gateway now supports team and project spend budgets",
+    "link": "https://vercel.com/changelog/ai-gateway-spend-budgets-and-alerts",
+    "desc": "",
+    "date": "2026-07-31",
+    "source": "Vercel",
+    "cat": "platform",
+    "lang": "en"
+  },
+  {
+    "title": "DeepSeek V4 Flash now runs updated weights on AI Gateway",
+    "link": "https://vercel.com/changelog/deepseek-v4-flash-now-runs-updated-weights-on-ai-gateway",
+    "desc": "",
+    "date": "2026-07-31",
+    "source": "Vercel",
+    "cat": "platform",
+    "lang": "en"
+  },
+  {
+    "title": "Run background tasks with Celery on Vercel",
+    "link": "https://vercel.com/changelog/run-background-tasks-with-celery-on-vercel",
+    "desc": "",
+    "date": "2026-07-31",
+    "source": "Vercel",
+    "cat": "platform",
+    "lang": "en"
+  },
+  {
+    "title": "Chat SDK now supports reactions and ephemeral messages on Teams",
+    "link": "https://vercel.com/changelog/chat-sdk-reactions-and-ephemeral-messages-on-teams",
+    "desc": "",
+    "date": "2026-07-31",
+    "source": "Vercel",
+    "cat": "platform",
+    "lang": "en"
+  },
+  {
+    "title": "AI Gateway logs now have a dedicated page",
+    "link": "https://vercel.com/changelog/ai-gateway-logs",
+    "desc": "",
+    "date": "2026-07-31",
+    "source": "Vercel",
+    "cat": "platform",
+    "lang": "en"
+  },
+  {
+    "title": "Vercel MCP now supports the 2026-07-28 MCP specification",
+    "link": "https://vercel.com/changelog/vercel-mcp-now-supports-the-2026-07-28-mcp-specification",
+    "desc": "",
+    "date": "2026-07-31",
+    "source": "Vercel",
+    "cat": "platform",
+    "lang": "en"
+  },
+  {
+    "title": "Expanded search for workflow runs in Vercel Observability",
+    "link": "https://vercel.com/changelog/expanded-search-for-workflow-runs-in-vercel-observability",
+    "desc": "",
+    "date": "2026-07-31",
+    "source": "Vercel",
+    "cat": "platform",
+    "lang": "en"
+  },
+  {
+    "title": "10x more capacity for Laguna S 2.1 on AI Gateway",
+    "link": "https://vercel.com/changelog/10x-more-capacity-for-laguna-s-2-1-on-ai-gateway",
+    "desc": "",
+    "date": "2026-07-31",
+    "source": "Vercel",
+    "cat": "platform",
+    "lang": "en"
+  },
+  {
+    "title": "Vercel Passport is now generally available",
+    "link": "https://vercel.com/changelog/vercel-passport-generally-available",
+    "desc": "",
+    "date": "2026-07-31",
+    "source": "Vercel",
+    "cat": "platform",
+    "lang": "en"
+  },
+  {
+    "title": "AI Gateway adds unified fast mode support",
+    "link": "https://vercel.com/changelog/ai-gateway-adds-unified-fast-mode-support",
+    "desc": "",
+    "date": "2026-07-31",
+    "source": "Vercel",
+    "cat": "platform",
+    "lang": "en"
+  },
+  {
+    "title": "How we made a viral commercial for developers",
+    "link": "https://blog.railway.com/p/how-to-make-viral-commercial",
+    "desc": "We made a commercial for Railway featuring the actor behind Gilfoyle from Silicon Valley. This is how we made it so that a developer like you would watch it.",
+    "date": "2026-07-31",
+    "source": "Railway",
+    "cat": "platform",
+    "lang": "en"
+  },
+  {
     "title": "GPU Management: Why Idle GPUs Are the New Grounded Aircraft",
     "link": "https://huggingface.co/blog/Dharma-AI/gpu-management",
     "desc": "",
     "date": "2026-07-30",
     "source": "Hugging Face",
+    "cat": "platform",
+    "lang": "en"
+  },
+  {
+    "title": "Server-Timing response headers will pass through to the client",
+    "link": "https://vercel.com/changelog/server-timing-header",
+    "desc": "",
+    "date": "2026-07-30",
+    "source": "Vercel",
+    "cat": "platform",
+    "lang": "en"
+  },
+  {
+    "title": "MiniMax H3 now available on AI Gateway",
+    "link": "https://vercel.com/changelog/minimax-h3-now-available-on-vercel-ai-gateway",
+    "desc": "",
+    "date": "2026-07-30",
+    "source": "Vercel",
+    "cat": "platform",
+    "lang": "en"
+  },
+  {
+    "title": "Inkling Small from Thinking Machines is now available on AI Gateway",
+    "link": "https://vercel.com/changelog/inkling-small-now-available-on-ai-gateway",
+    "desc": "",
+    "date": "2026-07-30",
+    "source": "Vercel",
+    "cat": "platform",
+    "lang": "en"
+  },
+  {
+    "title": "Turborepo and Vercel Remote Cache now support OpenID Connect (OIDC)",
+    "link": "https://vercel.com/changelog/turborepo-and-remote-cache-now-support-openid-connect-oidc",
+    "desc": "",
+    "date": "2026-07-30",
+    "source": "Vercel",
+    "cat": "platform",
+    "lang": "en"
+  },
+  {
+    "title": "Deployments are now up to 7 seconds faster",
+    "link": "https://vercel.com/changelog/deployments-are-now-up-to-7-seconds-faster",
+    "desc": "",
+    "date": "2026-07-30",
+    "source": "Vercel",
+    "cat": "platform",
+    "lang": "en"
+  },
+  {
+    "title": "Latest MCP spec now supported in mcp-handler",
+    "link": "https://vercel.com/changelog/latest-mcp-spec-now-supported-in-mcp-handler",
+    "desc": "",
+    "date": "2026-07-30",
+    "source": "Vercel",
+    "cat": "platform",
+    "lang": "en"
+  },
+  {
+    "title": "Introducing Enterprise Flexible Commitment for Vercel Marketplace",
+    "link": "https://vercel.com/changelog/introducing-enterprise-flexible-commitment-for-vercel-marketplace",
+    "desc": "",
+    "date": "2026-07-30",
+    "source": "Vercel",
+    "cat": "platform",
+    "lang": "en"
+  },
+  {
+    "title": "Project-scoped Tokens",
+    "link": "https://vercel.com/changelog/project-scoped-tokens",
+    "desc": "",
+    "date": "2026-07-30",
+    "source": "Vercel",
+    "cat": "platform",
+    "lang": "en"
+  },
+  {
+    "title": "Grok Voice Think Fast 2.0 now available on AI Gateway",
+    "link": "https://vercel.com/changelog/grok-voice-think-fast-2-0-now-available-on-ai-gateway",
+    "desc": "",
+    "date": "2026-07-29",
+    "source": "Vercel",
+    "cat": "platform",
+    "lang": "en"
+  },
+  {
+    "title": "Edge Config is now Global Config",
+    "link": "https://vercel.com/changelog/edge-config-is-now-global-config",
+    "desc": "",
+    "date": "2026-07-29",
+    "source": "Vercel",
+    "cat": "platform",
+    "lang": "en"
+  },
+  {
+    "title": "Additional custom environments can now be purchased",
+    "link": "https://vercel.com/changelog/additional-custom-environments-can-now-be-purchased",
+    "desc": "",
+    "date": "2026-07-29",
+    "source": "Vercel",
+    "cat": "platform",
+    "lang": "en"
+  },
+  {
+    "title": "Discover and install eve integrations from the CLI",
+    "link": "https://vercel.com/changelog/discover-and-install-eve-integrations-from-the-cli",
+    "desc": "",
+    "date": "2026-07-29",
+    "source": "Vercel",
+    "cat": "platform",
+    "lang": "en"
+  },
+  {
+    "title": "Vercel Sandbox supports forking",
+    "link": "https://vercel.com/changelog/vercel-sandbox-supports-forking",
+    "desc": "",
+    "date": "2026-07-28",
+    "source": "Vercel",
+    "cat": "platform",
+    "lang": "en"
+  },
+  {
+    "title": "Vercel Connect now supports Custom Environments",
+    "link": "https://vercel.com/changelog/vercel-connect-now-supports-custom-environments",
+    "desc": "",
+    "date": "2026-07-28",
+    "source": "Vercel",
     "cat": "platform",
     "lang": "en"
   },
@@ -351,11 +1989,263 @@
     "lang": "en"
   },
   {
+    "title": "Regional inference now available on AI Gateway",
+    "link": "https://vercel.com/changelog/regional-inference-now-available-on-ai-gateway",
+    "desc": "",
+    "date": "2026-07-27",
+    "source": "Vercel",
+    "cat": "platform",
+    "lang": "en"
+  },
+  {
+    "title": "eve adds new Slack event hooks and session controls",
+    "link": "https://vercel.com/changelog/eve-adds-new-slack-event-hooks-and-session-controls",
+    "desc": "",
+    "date": "2026-07-27",
+    "source": "Vercel",
+    "cat": "platform",
+    "lang": "en"
+  },
+  {
+    "title": "How Sandstone grew 40x in 147 days on Vercel",
+    "link": "https://vercel.com/blog/how-sandstone-grew-40x-in-147-days-on-vercel",
+    "desc": "",
+    "date": "2026-07-27",
+    "source": "Vercel",
+    "cat": "platform",
+    "lang": "en"
+  },
+  {
+    "title": "DeepsecBench: evaluating model performance in finding cybersecurity vulnerabilities",
+    "link": "https://vercel.com/blog/deepsecbench-evaluating-model-performance-in-finding-cybersecurity-vulnerabilities",
+    "desc": "",
+    "date": "2026-07-27",
+    "source": "Vercel",
+    "cat": "platform",
+    "lang": "en"
+  },
+  {
+    "title": "Kimi K3 and Kimi K3 Fast with ZDR and US-based providers now on AI Gateway",
+    "link": "https://vercel.com/changelog/kimi-k3-and-kimi-k3-fast-on-ai-gateway",
+    "desc": "",
+    "date": "2026-07-27",
+    "source": "Vercel",
+    "cat": "platform",
+    "lang": "en"
+  },
+  {
+    "title": "Vercel WAF for Blob is now in beta",
+    "link": "https://vercel.com/changelog/vercel-waf-for-blob-is-now-in-beta",
+    "desc": "",
+    "date": "2026-07-24",
+    "source": "Vercel",
+    "cat": "platform",
+    "lang": "en"
+  },
+  {
+    "title": "Workflow steps now support extended function durations",
+    "link": "https://vercel.com/changelog/workflow-steps-now-support-extended-function-durations",
+    "desc": "",
+    "date": "2026-07-24",
+    "source": "Vercel",
+    "cat": "platform",
+    "lang": "en"
+  },
+  {
+    "title": "WebSocket support is now available for Python Functions",
+    "link": "https://vercel.com/changelog/websocket-support-is-now-available-for-python-functions",
+    "desc": "",
+    "date": "2026-07-23",
+    "source": "Vercel",
+    "cat": "platform",
+    "lang": "en"
+  },
+  {
+    "title": "Evaluation metrics for Vercel Flags",
+    "link": "https://vercel.com/changelog/evaluation-metrics-for-vercel-flags",
+    "desc": "",
+    "date": "2026-07-23",
+    "source": "Vercel",
+    "cat": "platform",
+    "lang": "en"
+  },
+  {
+    "title": "Connect to and manage Sandboxes from the dashboard",
+    "link": "https://vercel.com/changelog/connect-to-and-manage-sandboxes-from-the-dashboard",
+    "desc": "",
+    "date": "2026-07-23",
+    "source": "Vercel",
+    "cat": "platform",
+    "lang": "en"
+  },
+  {
+    "title": "Inspect feature flag history with Vercel CLI",
+    "link": "https://vercel.com/changelog/inspect-feature-flag-history-with-vercel-cli",
+    "desc": "",
+    "date": "2026-07-23",
+    "source": "Vercel",
+    "cat": "platform",
+    "lang": "en"
+  },
+  {
+    "title": "GitHub tools are now an installable eve extension",
+    "link": "https://vercel.com/changelog/github-tools-eve-extension",
+    "desc": "",
+    "date": "2026-07-23",
+    "source": "Vercel",
+    "cat": "platform",
+    "lang": "en"
+  },
+  {
+    "title": "Ling 3.0 Flash is now available on AI Gateway",
+    "link": "https://vercel.com/changelog/ling-3-0-flash-is-now-available-on-ai-gateway",
+    "desc": "",
+    "date": "2026-07-23",
+    "source": "Vercel",
+    "cat": "platform",
+    "lang": "en"
+  },
+  {
+    "title": "Vercel MCP can now deploy code",
+    "link": "https://vercel.com/changelog/vercel-mcp-can-now-deploy-code",
+    "desc": "",
+    "date": "2026-07-23",
+    "source": "Vercel",
+    "cat": "platform",
+    "lang": "en"
+  },
+  {
+    "title": "AI Gateway now supports streaming transcription",
+    "link": "https://vercel.com/changelog/ai-gateway-now-supports-streaming-transcription",
+    "desc": "",
+    "date": "2026-07-22",
+    "source": "Vercel",
+    "cat": "platform",
+    "lang": "en"
+  },
+  {
     "title": "Grabette: an open system to record robot-manipulation data",
     "link": "https://huggingface.co/blog/grabette",
     "desc": "",
     "date": "2026-07-21",
     "source": "Hugging Face",
+    "cat": "platform",
+    "lang": "en"
+  },
+  {
+    "title": "How Searchable ships customer-requested features in 30 minutes on Vercel",
+    "link": "https://vercel.com/blog/how-searchable-ships-customer-requested-features-in-30-minutes-on-vercel",
+    "desc": "",
+    "date": "2026-07-21",
+    "source": "Vercel",
+    "cat": "platform",
+    "lang": "en"
+  },
+  {
+    "title": "Python function bundles now include precompiled bytecode",
+    "link": "https://vercel.com/changelog/python-function-bundles-now-include-precompiled-bytecode",
+    "desc": "",
+    "date": "2026-07-21",
+    "source": "Vercel",
+    "cat": "platform",
+    "lang": "en"
+  },
+  {
+    "title": "Vercel Connect adds 100+ preset connectors",
+    "link": "https://vercel.com/changelog/vercel-connect-preset-connectors",
+    "desc": "",
+    "date": "2026-07-21",
+    "source": "Vercel",
+    "cat": "platform",
+    "lang": "en"
+  },
+  {
+    "title": "Vercel MCP now supports purchases",
+    "link": "https://vercel.com/changelog/vercel-mcp-now-supports-purchases",
+    "desc": "",
+    "date": "2026-07-21",
+    "source": "Vercel",
+    "cat": "platform",
+    "lang": "en"
+  },
+  {
+    "title": "Laguna S 2.1 is now available on AI Gateway",
+    "link": "https://vercel.com/changelog/laguna-s-2-1-is-now-available-on-ai-gateway",
+    "desc": "",
+    "date": "2026-07-21",
+    "source": "Vercel",
+    "cat": "platform",
+    "lang": "en"
+  },
+  {
+    "title": "Service tiers now available on AI Gateway",
+    "link": "https://vercel.com/changelog/service-tiers-now-available-on-ai-gateway",
+    "desc": "",
+    "date": "2026-07-21",
+    "source": "Vercel",
+    "cat": "platform",
+    "lang": "en"
+  },
+  {
+    "title": "Configure where run state lives in Vercel Workflows",
+    "link": "https://vercel.com/changelog/configure-where-run-state-lives-in-vercel-workflows",
+    "desc": "",
+    "date": "2026-07-20",
+    "source": "Vercel",
+    "cat": "platform",
+    "lang": "en"
+  },
+  {
+    "title": "The cost of saying yes has changed",
+    "link": "https://github.blog/engineering/the-cost-of-saying-yes-has-changed/",
+    "desc": "The cost of writing code dropped; the cost of owning it didn't. A framework for deciding which changes are actually cheap in the AI era. The post The cost of saying yes has changed appeared first on The GitHub Blog .",
+    "date": "2026-07-17",
+    "source": "GitHub Eng",
+    "cat": "platform",
+    "lang": "en"
+  },
+  {
+    "title": "Data downloaded by Vercel Sandbox is now free",
+    "link": "https://vercel.com/changelog/data-downloaded-by-vercel-sandbox-is-now-free",
+    "desc": "",
+    "date": "2026-07-17",
+    "source": "Vercel",
+    "cat": "platform",
+    "lang": "en"
+  },
+  {
+    "title": "Runtime logs now show cache reasons",
+    "link": "https://vercel.com/changelog/runtime-logs-now-show-cache-reasons",
+    "desc": "",
+    "date": "2026-07-17",
+    "source": "Vercel",
+    "cat": "platform",
+    "lang": "en"
+  },
+  {
+    "title": "GLM 5.2 is 35% off via Novita on AI Gateway",
+    "link": "https://vercel.com/changelog/glm-5-2-is-35-off-via-novita-on-ai-gateway",
+    "desc": "",
+    "date": "2026-07-17",
+    "source": "Vercel",
+    "cat": "platform",
+    "lang": "en"
+  },
+  {
+    "title": "Optimized CDN caching and deploying of immutable static assets",
+    "link": "https://vercel.com/changelog/optimized-cdn-caching-and-deploying-of-immutable-static-assets",
+    "desc": "",
+    "date": "2026-07-17",
+    "source": "Vercel",
+    "cat": "platform",
+    "lang": "en"
+  },
+  {
+    "title": "Vercel Plugin now available in Kimi Code CLI",
+    "link": "https://vercel.com/changelog/vercel-plugin-now-available-in-kimi-code-cli",
+    "desc": "",
+    "date": "2026-07-17",
+    "source": "Vercel",
     "cat": "platform",
     "lang": "en"
   },
@@ -374,6 +2264,24 @@
     "desc": "",
     "date": "2026-07-16",
     "source": "Hugging Face",
+    "cat": "platform",
+    "lang": "en"
+  },
+  {
+    "title": "Write utilization now available in ISR Observability",
+    "link": "https://vercel.com/changelog/write-utilization-now-available-in-isr-observability",
+    "desc": "",
+    "date": "2026-07-16",
+    "source": "Vercel",
+    "cat": "platform",
+    "lang": "en"
+  },
+  {
+    "title": "Kimi K3 is now available on AI Gateway",
+    "link": "https://vercel.com/changelog/kimi-k3-is-now-available-on-ai-gateway",
+    "desc": "",
+    "date": "2026-07-16",
+    "source": "Vercel",
     "cat": "platform",
     "lang": "en"
   },
@@ -405,6 +2313,168 @@
     "lang": "en"
   },
   {
+    "title": "How Speechify serves 500,000 dynamic pages to 60 million users on Vercel",
+    "link": "https://vercel.com/blog/how-speechify-serves-50000-dynamic-pages-to-60-million-users-on-vercel",
+    "desc": "",
+    "date": "2026-07-15",
+    "source": "Vercel",
+    "cat": "platform",
+    "lang": "en"
+  },
+  {
+    "title": "Vercel Connect support in GitHub Tools",
+    "link": "https://vercel.com/changelog/vercel-connect-support-in-github-tools",
+    "desc": "",
+    "date": "2026-07-15",
+    "source": "Vercel",
+    "cat": "platform",
+    "lang": "en"
+  },
+  {
+    "title": "Faster, predictable project linking in the Vercel CLI",
+    "link": "https://vercel.com/changelog/faster-predictable-project-linking-in-the-vercel-cli",
+    "desc": "",
+    "date": "2026-07-15",
+    "source": "Vercel",
+    "cat": "platform",
+    "lang": "en"
+  },
+  {
+    "title": "Inkling from Thinking Machines is now available on AI Gateway",
+    "link": "https://vercel.com/changelog/inkling-from-thinking-machines-is-now-available-on-ai-gateway",
+    "desc": "",
+    "date": "2026-07-15",
+    "source": "Vercel",
+    "cat": "platform",
+    "lang": "en"
+  },
+  {
+    "title": "Vercel Workflows trace viewer now has a minimap",
+    "link": "https://vercel.com/changelog/vercel-workflows-trace-viewer-now-has-a-minimap",
+    "desc": "",
+    "date": "2026-07-15",
+    "source": "Vercel",
+    "cat": "platform",
+    "lang": "en"
+  },
+  {
+    "title": "Chat SDK adds Discord Components V2 support",
+    "link": "https://vercel.com/changelog/chat-sdk-adds-discord-components-v2-support",
+    "desc": "",
+    "date": "2026-07-15",
+    "source": "Vercel",
+    "cat": "platform",
+    "lang": "en"
+  },
+  {
+    "title": "Vercel Blob now supports consistent reads on private storage",
+    "link": "https://vercel.com/changelog/vercel-blob-now-supports-consistent-reads-on-private-storage",
+    "desc": "",
+    "date": "2026-07-14",
+    "source": "Vercel",
+    "cat": "platform",
+    "lang": "en"
+  },
+  {
+    "title": "Node.js 20 is being deprecated on October 1, 2026",
+    "link": "https://vercel.com/changelog/node-js-20-is-being-deprecated",
+    "desc": "",
+    "date": "2026-07-14",
+    "source": "Vercel",
+    "cat": "platform",
+    "lang": "en"
+  },
+  {
+    "title": "Endform joins the Vercel Marketplace",
+    "link": "https://vercel.com/changelog/endform-joins-the-vercel-marketplace",
+    "desc": "",
+    "date": "2026-07-14",
+    "source": "Vercel",
+    "cat": "platform",
+    "lang": "en"
+  },
+  {
+    "title": "Chat SDK adds X adapter support",
+    "link": "https://vercel.com/changelog/chat-sdk-adds-x-adapter-support",
+    "desc": "",
+    "date": "2026-07-14",
+    "source": "Vercel",
+    "cat": "platform",
+    "lang": "en"
+  },
+  {
+    "title": "Access and share AI Gateway leaderboard data",
+    "link": "https://vercel.com/changelog/open-data-and-shareable-charts-for-ai-gateway-leaderboards",
+    "desc": "",
+    "date": "2026-07-14",
+    "source": "Vercel",
+    "cat": "platform",
+    "lang": "en"
+  },
+  {
+    "title": "Open-weight models surge to 29% of volume, price per token flattens",
+    "link": "https://vercel.com/blog/ai-gateway-production-index-july-2026",
+    "desc": "",
+    "date": "2026-07-13",
+    "source": "Vercel",
+    "cat": "platform",
+    "lang": "en"
+  },
+  {
+    "title": "Manage Vercel Flags targeting rules from the CLI",
+    "link": "https://vercel.com/changelog/manage-vercel-flags-targeting-rules-from-the-cli",
+    "desc": "",
+    "date": "2026-07-13",
+    "source": "Vercel",
+    "cat": "platform",
+    "lang": "en"
+  },
+  {
+    "title": "Configure which sources can create deployments with Deployment Policies",
+    "link": "https://vercel.com/changelog/configure-which-sources-can-create-deployments-with-deployment-policies",
+    "desc": "",
+    "date": "2026-07-13",
+    "source": "Vercel",
+    "cat": "platform",
+    "lang": "en"
+  },
+  {
+    "title": "Web Analytics and Speed Insights are now more cost-efficient",
+    "link": "https://vercel.com/changelog/web-analytics-and-speed-insights-are-now-more-cost-efficient",
+    "desc": "",
+    "date": "2026-07-13",
+    "source": "Vercel",
+    "cat": "platform",
+    "lang": "en"
+  },
+  {
+    "title": "Amazon SQS turns 20: Two decades of reliable messaging at scale",
+    "link": "https://aws.amazon.com/blogs/aws/amazon-sqs-turns-20-two-decades-of-reliable-messaging-at-scale/",
+    "desc": "On July 13, 2006, we launched Amazon Simple Queue Service (Amazon SQS) as one of the first three services available to customers, alongside Amazon EC2 and Amazon S3. We had learned firsthand that distributed systems need a reliable way to pass messages between components without creating tight de...",
+    "date": "2026-07-13",
+    "source": "AWS",
+    "cat": "platform",
+    "lang": "en"
+  },
+  {
+    "title": "AWS Weekly Roundup: AWS Builder Center at 1 year, Network Scanning in Security Hub, Loom for AWS, and more (July 13, 2026)",
+    "link": "https://aws.amazon.com/blogs/aws/aws-weekly-roundup-aws-builder-center-at-one-year-network-scanning-in-security-hub-loom-for-aws-and-more-july-13-2026/",
+    "desc": "AWS Builder Center turned one year old last week. Launched on July 9, 2025, the platform has grown from a community hub with Wishlist voting, community profiles, and a toolbox into a full ecosystem with sandbox environments, workshops, Spaces, and a Builders’ Library. To mark the anniversary, Ric...",
+    "date": "2026-07-13",
+    "source": "AWS",
+    "cat": "platform",
+    "lang": "en"
+  },
+  {
+    "title": "Seedream 5.0 Pro is now available on AI Gateway",
+    "link": "https://vercel.com/changelog/seedream-5-0-pro-is-now-available-on-ai-gateway",
+    "desc": "",
+    "date": "2026-07-11",
+    "source": "Vercel",
+    "cat": "platform",
+    "lang": "en"
+  },
+  {
     "title": "Profiling in PyTorch (Part 3): Attention is all you profile",
     "link": "https://huggingface.co/blog/torch-attention-profile",
     "desc": "",
@@ -414,11 +2484,101 @@
     "lang": "en"
   },
   {
+    "title": "Traces now support Tree and Waterfall views",
+    "link": "https://vercel.com/changelog/traces-now-support-tree-and-waterfall-views",
+    "desc": "",
+    "date": "2026-07-10",
+    "source": "Vercel",
+    "cat": "platform",
+    "lang": "en"
+  },
+  {
+    "title": "Muse Spark 1.1 is now available on AI Gateway",
+    "link": "https://vercel.com/changelog/muse-spark-1-1-is-now-available-on-ai-gateway",
+    "desc": "",
+    "date": "2026-07-09",
+    "source": "Vercel",
+    "cat": "platform",
+    "lang": "en"
+  },
+  {
     "title": "Designing For Distressed Users: Why Mental Health Apps Shouldn’t Follow Every UI Fashion",
     "link": "https://smashingmagazine.com/2026/07/designing-distressed-users-mental-health-apps-ui/",
     "desc": "Many UI trends are designed to capture attention and signal innovation, but those goals often conflict with the needs of mental health apps: reducing cognitive strain, fostering trust, and providing a sense of refuge. Kat Homan introduces an evaluation framework that helps designers assess whethe...",
     "date": "2026-07-09",
     "source": "Smashing Magazine",
+    "cat": "platform",
+    "lang": "en"
+  },
+  {
+    "title": "Grok 4.5 now available on AI Gateway",
+    "link": "https://vercel.com/changelog/grok-4-5-now-available-on-ai-gateway",
+    "desc": "",
+    "date": "2026-07-08",
+    "source": "Vercel",
+    "cat": "platform",
+    "lang": "en"
+  },
+  {
+    "title": "Update Project Settings from the Vercel CLI",
+    "link": "https://vercel.com/changelog/update-project-settings-from-the-vercel-cli",
+    "desc": "",
+    "date": "2026-07-08",
+    "source": "Vercel",
+    "cat": "platform",
+    "lang": "en"
+  },
+  {
+    "title": "Vercel Microfrontends checks for missing configuration",
+    "link": "https://vercel.com/changelog/vercel-microfrontends-checks-for-missing-configuration",
+    "desc": "",
+    "date": "2026-07-08",
+    "source": "Vercel",
+    "cat": "platform",
+    "lang": "en"
+  },
+  {
+    "title": "Flags SDK now evaluates flags 10x faster",
+    "link": "https://vercel.com/changelog/flags-sdk-now-evaluates-flags-10x-faster",
+    "desc": "",
+    "date": "2026-07-08",
+    "source": "Vercel",
+    "cat": "platform",
+    "lang": "en"
+  },
+  {
+    "title": "Use any Chat SDK adapter with eve",
+    "link": "https://vercel.com/changelog/eve-chat-sdk-channel",
+    "desc": "",
+    "date": "2026-07-08",
+    "source": "Vercel",
+    "cat": "platform",
+    "lang": "en"
+  },
+  {
+    "title": "Chat SDK now supports Vercel Connect",
+    "link": "https://vercel.com/changelog/chat-sdk-vercel-connect",
+    "desc": "",
+    "date": "2026-07-08",
+    "source": "Vercel",
+    "cat": "platform",
+    "lang": "en"
+  },
+  {
+    "title": "Chat SDK adds Dial support",
+    "link": "https://vercel.com/changelog/chat-sdk-adds-dial-support",
+    "desc": "",
+    "date": "2026-07-08",
+    "source": "Vercel",
+    "cat": "platform",
+    "lang": "en"
+  },
+  {
+    "title": "Chat SDK adds Photon support",
+    "link": "https://vercel.com/changelog/chat-sdk-adds-photon-support",
+    "desc": "",
+    "date": "2026-07-08",
+    "source": "Vercel",
     "cat": "platform",
     "lang": "en"
   },
@@ -459,6 +2619,24 @@
     "lang": "en"
   },
   {
+    "title": "You can now view the Activity Log at a project-level",
+    "link": "https://vercel.com/changelog/you-can-now-view-the-activity-log-at-a-project-level",
+    "desc": "",
+    "date": "2026-07-07",
+    "source": "Vercel",
+    "cat": "platform",
+    "lang": "en"
+  },
+  {
+    "title": "More granular observability for Vercel Sandbox",
+    "link": "https://vercel.com/changelog/more-granular-observability-for-vercel-sandbox",
+    "desc": "",
+    "date": "2026-07-07",
+    "source": "Vercel",
+    "cat": "platform",
+    "lang": "en"
+  },
+  {
     "title": "PRX Part 4: Our Data Strategy",
     "link": "https://huggingface.co/blog/Photoroom/prx-part4-data",
     "desc": "",
@@ -477,11 +2655,83 @@
     "lang": "en"
   },
   {
+    "title": "Vercel Sandbox now supports FUSE-based filesystems",
+    "link": "https://vercel.com/changelog/vercel-sandbox-now-supports-fuse-based-filesystems",
+    "desc": "",
+    "date": "2026-07-03",
+    "source": "Vercel",
+    "cat": "platform",
+    "lang": "en"
+  },
+  {
+    "title": "Manage Vercel Flags segments with Vercel CLI",
+    "link": "https://vercel.com/changelog/manage-vercel-flags-segments-with-vercel-cli",
+    "desc": "",
+    "date": "2026-07-03",
+    "source": "Vercel",
+    "cat": "platform",
+    "lang": "en"
+  },
+  {
+    "title": "Incident Report: July 2, 2026 — US East Services Outage",
+    "link": "https://blog.railway.com/p/incident-report-july-2-2026-us-east-services-outage",
+    "desc": "Railway experienced a Major Outage concentrated in one of our US East availability zones on July 2, 2026 between roughly 07:44 and 12:01 UTC.",
+    "date": "2026-07-03",
+    "source": "Railway",
+    "cat": "platform",
+    "lang": "en"
+  },
+  {
+    "title": "Routing rules now available on AI Gateway",
+    "link": "https://vercel.com/changelog/ai-gateway-routing-rules",
+    "desc": "",
+    "date": "2026-07-02",
+    "source": "Vercel",
+    "cat": "platform",
+    "lang": "en"
+  },
+  {
     "title": "Hugging Face and Cerebras bring Gemma 4 to real-time voice AI",
     "link": "https://huggingface.co/blog/cerebras-gemma4-voice-ai",
     "desc": "",
     "date": "2026-07-01",
     "source": "Hugging Face",
+    "cat": "platform",
+    "lang": "en"
+  },
+  {
+    "title": "Secure internal communication between services (beta)",
+    "link": "https://vercel.com/changelog/secure-internal-communication-between-services",
+    "desc": "",
+    "date": "2026-07-01",
+    "source": "Vercel",
+    "cat": "platform",
+    "lang": "en"
+  },
+  {
+    "title": "Dry-run deployments with Vercel CLI",
+    "link": "https://vercel.com/changelog/dry-run-deployments-with-vercel-cli",
+    "desc": "",
+    "date": "2026-07-01",
+    "source": "Vercel",
+    "cat": "platform",
+    "lang": "en"
+  },
+  {
+    "title": "Vercel Security Dashboard is in private beta",
+    "link": "https://vercel.com/changelog/vercel-security-dashboard-is-in-private-beta",
+    "desc": "",
+    "date": "2026-07-01",
+    "source": "Vercel",
+    "cat": "platform",
+    "lang": "en"
+  },
+  {
+    "title": "Resend joins the Vercel Marketplace",
+    "link": "https://vercel.com/changelog/resend-vercel-marketplace",
+    "desc": "",
+    "date": "2026-07-01",
+    "source": "Vercel",
     "cat": "platform",
     "lang": "en"
   },
@@ -504,6 +2754,168 @@
     "lang": "en"
   },
   {
+    "title": "Run any Dockerfile on Vercel",
+    "link": "https://vercel.com/blog/dockerfile-on-vercel",
+    "desc": "",
+    "date": "2026-06-30",
+    "source": "Vercel",
+    "cat": "platform",
+    "lang": "en"
+  },
+  {
+    "title": "Vercel Ship 2026 recap",
+    "link": "https://vercel.com/blog/vercel-ship-2026-recap",
+    "desc": "",
+    "date": "2026-06-30",
+    "source": "Vercel",
+    "cat": "platform",
+    "lang": "en"
+  },
+  {
+    "title": "Vercel Services: Run full stack on Vercel",
+    "link": "https://vercel.com/blog/vercel-services-run-full-stack-on-vercel",
+    "desc": "",
+    "date": "2026-06-30",
+    "source": "Vercel",
+    "cat": "platform",
+    "lang": "en"
+  },
+  {
+    "title": "Vercel Private Blob is now generally available",
+    "link": "https://vercel.com/changelog/vercel-private-blob-is-now-generally-available",
+    "desc": "",
+    "date": "2026-06-30",
+    "source": "Vercel",
+    "cat": "platform",
+    "lang": "en"
+  },
+  {
+    "title": "Vercel Sandbox now support Custom Images",
+    "link": "https://vercel.com/changelog/vercel-sandbox-now-support-custom-images",
+    "desc": "",
+    "date": "2026-06-30",
+    "source": "Vercel",
+    "cat": "platform",
+    "lang": "en"
+  },
+  {
+    "title": "Introducing VCR: Vercel Container Registry",
+    "link": "https://vercel.com/changelog/introducing-vcr-vercel-container-registry",
+    "desc": "",
+    "date": "2026-06-30",
+    "source": "Vercel",
+    "cat": "platform",
+    "lang": "en"
+  },
+  {
+    "title": "Run multiple frameworks in one project with Vercel Services",
+    "link": "https://vercel.com/changelog/run-multiple-frameworks-in-one-project-with-vercel-services",
+    "desc": "",
+    "date": "2026-06-30",
+    "source": "Vercel",
+    "cat": "platform",
+    "lang": "en"
+  },
+  {
+    "title": "Bring your Dockerfile to Vercel Functions",
+    "link": "https://vercel.com/changelog/bring-your-dockerfile-to-vercel-functions",
+    "desc": "",
+    "date": "2026-06-30",
+    "source": "Vercel",
+    "cat": "platform",
+    "lang": "en"
+  },
+  {
+    "title": "Expanded Audit Log coverage, now delivered through Vercel Drains",
+    "link": "https://vercel.com/changelog/expanded-audit-log-coverage-now-delivered-through-vercel-drains",
+    "desc": "",
+    "date": "2026-06-30",
+    "source": "Vercel",
+    "cat": "platform",
+    "lang": "en"
+  },
+  {
+    "title": "Vercel Open Source Program: Spring 2026 cohort",
+    "link": "https://vercel.com/blog/vercel-open-source-program-spring-2026-cohort",
+    "desc": "",
+    "date": "2026-06-29",
+    "source": "Vercel",
+    "cat": "platform",
+    "lang": "en"
+  },
+  {
+    "title": "Vercel Functions can now be up to 5GB in package size",
+    "link": "https://vercel.com/changelog/vercel-functions-can-now-be-up-to-5-gb-in-package-size",
+    "desc": "",
+    "date": "2026-06-29",
+    "source": "Vercel",
+    "cat": "platform",
+    "lang": "en"
+  },
+  {
+    "title": "Query Speed Insights from the Vercel CLI",
+    "link": "https://vercel.com/changelog/query-speed-insights-from-the-vercel-cli",
+    "desc": "",
+    "date": "2026-06-29",
+    "source": "Vercel",
+    "cat": "platform",
+    "lang": "en"
+  },
+  {
+    "title": "Sandboxes now expire based on last use",
+    "link": "https://vercel.com/changelog/sandboxes-now-expire-based-on-last-use",
+    "desc": "",
+    "date": "2026-06-29",
+    "source": "Vercel",
+    "cat": "platform",
+    "lang": "en"
+  },
+  {
+    "title": "xAI Grok audio models now available on Vercel AI Gateway",
+    "link": "https://vercel.com/changelog/xai-grok-audio-models-now-available-on-vercel-ai-gateway",
+    "desc": "",
+    "date": "2026-06-29",
+    "source": "Vercel",
+    "cat": "platform",
+    "lang": "en"
+  },
+  {
+    "title": "Realtime voice, speech, and transcription now supported on AI Gateway",
+    "link": "https://vercel.com/changelog/realtime-voice-speech-and-transcription-now-supported-on-ai-gateway",
+    "desc": "",
+    "date": "2026-06-29",
+    "source": "Vercel",
+    "cat": "platform",
+    "lang": "en"
+  },
+  {
+    "title": "Query Web Analytics from the Vercel CLI",
+    "link": "https://vercel.com/changelog/query-web-analytics-from-the-vercel-cli",
+    "desc": "",
+    "date": "2026-06-26",
+    "source": "Vercel",
+    "cat": "platform",
+    "lang": "en"
+  },
+  {
+    "title": "AI SDK 7",
+    "link": "https://vercel.com/blog/ai-sdk-7",
+    "desc": "",
+    "date": "2026-06-25",
+    "source": "Vercel",
+    "cat": "platform",
+    "lang": "en"
+  },
+  {
+    "title": "AI SDK 7 is now available",
+    "link": "https://vercel.com/changelog/ai-sdk-7",
+    "desc": "",
+    "date": "2026-06-25",
+    "source": "Vercel",
+    "cat": "platform",
+    "lang": "en"
+  },
+  {
     "title": "Introducing the FFASR Leaderboard: Benchmarking ASR in the Real World",
     "link": "https://huggingface.co/blog/ffasr-leaderboard",
     "desc": "",
@@ -513,11 +2925,74 @@
     "lang": "en"
   },
   {
+    "title": "GLM 5.2 Fast via Wafer now available on AI Gateway",
+    "link": "https://vercel.com/changelog/glm-5-2-fast-via-wafer-now-available-on-ai-gateway",
+    "desc": "",
+    "date": "2026-06-24",
+    "source": "Vercel",
+    "cat": "platform",
+    "lang": "en"
+  },
+  {
     "title": "Shipping huggingface_hub every week with AI, open tools, and a human in the loop",
     "link": "https://huggingface.co/blog/huggingface-hub-release-ci",
     "desc": "",
     "date": "2026-06-23",
     "source": "Hugging Face",
+    "cat": "platform",
+    "lang": "en"
+  },
+  {
+    "title": "Deploy Node servers with zero configuration",
+    "link": "https://vercel.com/changelog/deploy-node-servers-with-zero-configuration",
+    "desc": "",
+    "date": "2026-06-23",
+    "source": "Vercel",
+    "cat": "platform",
+    "lang": "en"
+  },
+  {
+    "title": "Vercel CLI now supports verifying DNS configuration",
+    "link": "https://vercel.com/changelog/vercel-cli-now-supports-verifying-dns-configuration",
+    "desc": "",
+    "date": "2026-06-23",
+    "source": "Vercel",
+    "cat": "platform",
+    "lang": "en"
+  },
+  {
+    "title": "Scaffold your chat apps with create-chat-sdk",
+    "link": "https://vercel.com/changelog/scaffold-your-chat-apps-with-create-chat-sdk",
+    "desc": "",
+    "date": "2026-06-23",
+    "source": "Vercel",
+    "cat": "platform",
+    "lang": "en"
+  },
+  {
+    "title": "Preserve local environment variables when linking with the Vercel CLI",
+    "link": "https://vercel.com/changelog/preserve-local-environment-variables-when-linking-with-the-vercel-cli",
+    "desc": "",
+    "date": "2026-06-23",
+    "source": "Vercel",
+    "cat": "platform",
+    "lang": "en"
+  },
+  {
+    "title": "Custom OIDC Token Audiences",
+    "link": "https://vercel.com/changelog/custom-oidc-token-audiences",
+    "desc": "",
+    "date": "2026-06-23",
+    "source": "Vercel",
+    "cat": "platform",
+    "lang": "en"
+  },
+  {
+    "title": "Redesigned trace viewer for Vercel Workflows",
+    "link": "https://vercel.com/changelog/redesigned-trace-viewer-for-vercel-workflows",
+    "desc": "",
+    "date": "2026-06-23",
+    "source": "Vercel",
     "cat": "platform",
     "lang": "en"
   },
@@ -549,11 +3024,173 @@
     "lang": "en"
   },
   {
+    "title": "Chat SDK adds Kapso support",
+    "link": "https://vercel.com/changelog/chat-sdk-adds-kapso-support",
+    "desc": "",
+    "date": "2026-06-22",
+    "source": "Vercel",
+    "cat": "platform",
+    "lang": "en"
+  },
+  {
+    "title": "Chat SDK adds Novu support",
+    "link": "https://vercel.com/changelog/chat-sdk-adds-novu-support",
+    "desc": "",
+    "date": "2026-06-22",
+    "source": "Vercel",
+    "cat": "platform",
+    "lang": "en"
+  },
+  {
+    "title": "Chat SDK adds Sendblue support",
+    "link": "https://vercel.com/changelog/chat-sdk-adds-sendblue-support",
+    "desc": "",
+    "date": "2026-06-22",
+    "source": "Vercel",
+    "cat": "platform",
+    "lang": "en"
+  },
+  {
+    "title": "Chat SDK adds Linq support",
+    "link": "https://vercel.com/changelog/chat-sdk-adds-linq-adapter",
+    "desc": "",
+    "date": "2026-06-22",
+    "source": "Vercel",
+    "cat": "platform",
+    "lang": "en"
+  },
+  {
+    "title": "Vercel Flags: Platform-native feature flags",
+    "link": "https://vercel.com/blog/vercel-flags-platform-native-feature-flags",
+    "desc": "",
+    "date": "2026-06-22",
+    "source": "Vercel",
+    "cat": "platform",
+    "lang": "en"
+  },
+  {
+    "title": "Workflow SDK now compresses run and step payloads",
+    "link": "https://vercel.com/changelog/workflow-sdk-now-compresses-run-and-step-payloads",
+    "desc": "",
+    "date": "2026-06-22",
+    "source": "Vercel",
+    "cat": "platform",
+    "lang": "en"
+  },
+  {
+    "title": "Vercel CLI now supports signing blob URLs",
+    "link": "https://vercel.com/changelog/vercel-cli-now-supports-signing-blob-urls",
+    "desc": "",
+    "date": "2026-06-22",
+    "source": "Vercel",
+    "cat": "platform",
+    "lang": "en"
+  },
+  {
+    "title": "Increased limit for projects per Git repo",
+    "link": "https://vercel.com/changelog/increased-limit-for-projects-per-git-repo",
+    "desc": "",
+    "date": "2026-06-22",
+    "source": "Vercel",
+    "cat": "platform",
+    "lang": "en"
+  },
+  {
+    "title": "WebSocket support is now in Public Beta",
+    "link": "https://vercel.com/changelog/websocket-support-is-now-in-public-beta",
+    "desc": "",
+    "date": "2026-06-22",
+    "source": "Vercel",
+    "cat": "platform",
+    "lang": "en"
+  },
+  {
+    "title": "Sakana Fugu Ultra now available on AI Gateway",
+    "link": "https://vercel.com/changelog/sakana-fugu-ultra-now-available-on-ai-gateway",
+    "desc": "",
+    "date": "2026-06-22",
+    "source": "Vercel",
+    "cat": "platform",
+    "lang": "en"
+  },
+  {
     "title": "Beyond LoRA: Can you beat the most popular fine-tuning technique?",
     "link": "https://huggingface.co/blog/peft-beyond-lora",
     "desc": "",
     "date": "2026-06-18",
     "source": "Hugging Face",
+    "cat": "platform",
+    "lang": "en"
+  },
+  {
+    "title": "Introducing Vercel Connect",
+    "link": "https://vercel.com/blog/introducing-vercel-connect",
+    "desc": "",
+    "date": "2026-06-17",
+    "source": "Vercel",
+    "cat": "platform",
+    "lang": "en"
+  },
+  {
+    "title": "Introducing eve",
+    "link": "https://vercel.com/blog/introducing-eve",
+    "desc": "",
+    "date": "2026-06-17",
+    "source": "Vercel",
+    "cat": "platform",
+    "lang": "en"
+  },
+  {
+    "title": "CLI deployment limits removed",
+    "link": "https://vercel.com/changelog/cli-deployment-limits-removed",
+    "desc": "",
+    "date": "2026-06-17",
+    "source": "Vercel",
+    "cat": "platform",
+    "lang": "en"
+  },
+  {
+    "title": "Vercel Passport is now in Public Beta",
+    "link": "https://vercel.com/changelog/vercel-passport-is-now-in-public-beta",
+    "desc": "",
+    "date": "2026-06-17",
+    "source": "Vercel",
+    "cat": "platform",
+    "lang": "en"
+  },
+  {
+    "title": "Vercel Sandbox can now run for up to 24 hours",
+    "link": "https://vercel.com/changelog/vercel-sandbox-can-now-run-for-up-to-24-hours",
+    "desc": "",
+    "date": "2026-06-16",
+    "source": "Vercel",
+    "cat": "platform",
+    "lang": "en"
+  },
+  {
+    "title": "GLM 5.2 now available on AI Gateway",
+    "link": "https://vercel.com/changelog/glm-5-2-now-available-on-ai-gateway",
+    "desc": "",
+    "date": "2026-06-16",
+    "source": "Vercel",
+    "cat": "platform",
+    "lang": "en"
+  },
+  {
+    "title": "Workflow SDK now supports inflight cancellation",
+    "link": "https://vercel.com/changelog/workflow-sdk-now-supports-inflight-cancellation",
+    "desc": "",
+    "date": "2026-06-16",
+    "source": "Vercel",
+    "cat": "platform",
+    "lang": "en"
+  },
+  {
+    "title": "Workflow SDK now supports TanStack Start",
+    "link": "https://vercel.com/changelog/workflow-sdk-now-supports-tanstack-start",
+    "desc": "",
+    "date": "2026-06-16",
+    "source": "Vercel",
     "cat": "platform",
     "lang": "en"
   },

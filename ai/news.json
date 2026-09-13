@@ -2511,6 +2511,15 @@
     "lang": "ru"
   },
   {
+    "title": "GPT Image 2.5 Flare and Sunburst now available on AI Gateway",
+    "link": "https://vercel.com/changelog/gpt-image-2-5-flare-and-sunburst-now-available-on-ai-gateway",
+    "desc": "",
+    "date": "2026-09-08",
+    "source": "Vercel",
+    "cat": "ai",
+    "lang": "en"
+  },
+  {
     "title": "Apple Expected to Unveil a Folding iPhone at Annual Launch Event",
     "link": "https://www.nytimes.com/2026/09/08/technology/apple-iphone-event.html",
     "desc": "Fans of the company’s products widely believe it will unveil a folding smartphone at its annual launch event on Wednesday.",
@@ -2736,6 +2745,15 @@
     "lang": "ru"
   },
   {
+    "title": "AWS Weekly Roundup: Claude Fable 5.1 on AWS, Amazon Linux 2027 preview, AWS Certified AI Business Strategist, and more (September 7, 2026)",
+    "link": "https://aws.amazon.com/blogs/aws/aws-weekly-roundup-claude-fable-5-1-on-aws-amazon-linux-2027-preview-aws-certified-ai-business-strategist-and-more-september-7-2026/",
+    "desc": "Last week, Claude Fable 5.1 became available on AWS. According to Anthropic, Claude Fable 5.1 delivers frontier intelligence for ambitious tasks across coding, scientific research, and enterprise workflows. Claude Fable 5.1 is built for long-running, high-stakes work that runs for hours and spans...",
+    "date": "2026-09-07",
+    "source": "AWS",
+    "cat": "ai",
+    "lang": "en"
+  },
+  {
     "title": "Early Data Indicates an A.I.-Generated Drug Could Slow Aging",
     "link": "https://www.nytimes.com/2026/09/07/science/ai-generated-drug-longevity.html",
     "desc": "Artificial intelligence was used to help develop a drug candidate, rentosertib, for a rare lung condition. Its maker says the drug also seems to reduce the biological hallmarks of age.",
@@ -2844,6 +2862,24 @@
     "lang": "en"
   },
   {
+    "title": "GPT 6 Astra now available on Vercel AI Gateway",
+    "link": "https://vercel.com/changelog/gpt-6-astra-now-available-on-vercel-ai-gateway",
+    "desc": "",
+    "date": "2026-09-04",
+    "source": "Vercel",
+    "cat": "ai",
+    "lang": "en"
+  },
+  {
+    "title": "Gemini 3.8 Flash now available on AI Gateway",
+    "link": "https://vercel.com/changelog/gemini-3-8-flash-now-available-on-ai-gateway",
+    "desc": "",
+    "date": "2026-09-02",
+    "source": "Vercel",
+    "cat": "ai",
+    "lang": "en"
+  },
+  {
     "title": "BenchMIRT: What are LLM benchmarks actually measuring?",
     "link": "https://huggingface.co/blog/allenai/benchmirt",
     "desc": "",
@@ -2853,11 +2889,38 @@
     "lang": "en"
   },
   {
+    "title": "Claude Fable 5.1 now available on AI Gateway",
+    "link": "https://vercel.com/changelog/claude-fable-5-1-now-available-on-ai-gateway",
+    "desc": "",
+    "date": "2026-09-01",
+    "source": "Vercel",
+    "cat": "ai",
+    "lang": "en"
+  },
+  {
+    "title": "Run Claude Managed Agents with Chat SDK",
+    "link": "https://vercel.com/changelog/claude-managed-agents-with-chat-sdk",
+    "desc": "",
+    "date": "2026-08-28",
+    "source": "Vercel",
+    "cat": "ai",
+    "lang": "en"
+  },
+  {
     "title": "Training and Finetuning Multi-Vector Embedding Models with Sentence Transformers",
     "link": "https://huggingface.co/blog/train-multi-vector-encoder",
     "desc": "",
     "date": "2026-08-26",
     "source": "Hugging Face",
+    "cat": "ai",
+    "lang": "en"
+  },
+  {
+    "title": "Gemini 3.5 Transcribe now available on AI Gateway",
+    "link": "https://vercel.com/changelog/gemini-3-5-transcribe-now-available-on-ai-gateway",
+    "desc": "",
+    "date": "2026-08-26",
+    "source": "Vercel",
     "cat": "ai",
     "lang": "en"
   },
@@ -2880,11 +2943,101 @@
     "lang": "en"
   },
   {
+    "title": "GPT-5.6 Sol is now 50% off a lower price",
+    "link": "https://vercel.com/changelog/gpt-5-6-sol-is-now-50-percent-off-a-lower-price",
+    "desc": "",
+    "date": "2026-08-21",
+    "source": "Vercel",
+    "cat": "ai",
+    "lang": "en"
+  },
+  {
     "title": "Multi-Vector (Late Interaction) Embedding Models with Sentence Transformers",
     "link": "https://huggingface.co/blog/multi-vector-encoder",
     "desc": "",
     "date": "2026-08-18",
     "source": "Hugging Face",
+    "cat": "ai",
+    "lang": "en"
+  },
+  {
+    "title": "GPT-5.6 Sol is 50% off on AI Gateway for the next month",
+    "link": "https://vercel.com/changelog/gpt-5-6-sol-is-50-off-on-ai-gateway-for-the-next-month",
+    "desc": "",
+    "date": "2026-08-17",
+    "source": "Vercel",
+    "cat": "ai",
+    "lang": "en"
+  },
+  {
+    "title": "AWS Weekly Roundup: EC2 application status checks, IAM role manager, OpenAI Daybreak on Bedrock, and more (August 17, 2026)",
+    "link": "https://aws.amazon.com/blogs/aws/aws-weekly-roundup-ec2-application-status-checks-iam-role-manager-openai-daybreak-on-bedrock-and-more-august-17-2026/",
+    "desc": "Last week, AWS contributors joined the OpenSearch and Valkey communities at Open Source Summit Korea 2026 and MCP DevSummit Seoul 2026 to meet open source developers and contributors. At the four-day event, community leaders and users of these Linux Foundation open source projects gathered to sha...",
+    "date": "2026-08-17",
+    "source": "AWS",
+    "cat": "ai",
+    "lang": "en"
+  },
+  {
+    "title": "Gemini 3.7 Flash now available on AI Gateway for 50% off",
+    "link": "https://vercel.com/changelog/gemini-3-7-flash-now-available-on-ai-gateway-for-50-off",
+    "desc": "",
+    "date": "2026-08-13",
+    "source": "Vercel",
+    "cat": "ai",
+    "lang": "en"
+  },
+  {
+    "title": "AWS Weekly Roundup: Price reduction of GPT models in Bedrock, CloudWatch managed collectors for Prometheus metrics, and more (August 3, 2026)",
+    "link": "https://aws.amazon.com/blogs/aws/aws-weekly-roundup-price-reduction-of-gpt-models-in-bedrock-cloudwatch-managed-collectors-for-prometheus-metrics-and-more-august-3-2026/",
+    "desc": "Last week I had the joy of participating in Amazon’s “Bring Your Kids to Work Day” with my 7 year old son. We commuted together into the New York City office, his first real rush hour train ride, and spent the day exploring how Amazon uses AI, machine learning, and robotics to deliver packages to...",
+    "date": "2026-08-03",
+    "source": "AWS",
+    "cat": "ai",
+    "lang": "en"
+  },
+  {
+    "title": "AI Gateway: GPT-5.6 pricing and speed updates",
+    "link": "https://vercel.com/changelog/ai-gateway-gpt-5-6-pricing-speed-updates",
+    "desc": "",
+    "date": "2026-07-30",
+    "source": "Vercel",
+    "cat": "ai",
+    "lang": "en"
+  },
+  {
+    "title": "Sign in with ChatGPT is now available on Vercel",
+    "link": "https://vercel.com/changelog/sign-in-with-chatgpt-is-now-available-on-vercel",
+    "desc": "",
+    "date": "2026-07-29",
+    "source": "Vercel",
+    "cat": "ai",
+    "lang": "en"
+  },
+  {
+    "title": "WebSocket support for OpenAI Responses API live on AI Gateway",
+    "link": "https://vercel.com/changelog/websocket-support-for-openai-responses-api-live-on-ai-gateway",
+    "desc": "",
+    "date": "2026-07-27",
+    "source": "Vercel",
+    "cat": "ai",
+    "lang": "en"
+  },
+  {
+    "title": "AWS Weekly Roundup: Local Zone in Athens, Claude Opus 5 on AWS, Lambda durable execution for .NET, and more (July 27, 2026)",
+    "link": "https://aws.amazon.com/blogs/aws/aws-weekly-roundup-july-27-2026/",
+    "desc": "Last week I had the privilege of spending three days in São Paulo with technical builders from across Latin America, brought together for a regional tech event full of deep-dive sessions, hands-on workshops, and conversations with customers and partners. What struck me most wasn’t any single sess...",
+    "date": "2026-07-27",
+    "source": "AWS",
+    "cat": "ai",
+    "lang": "en"
+  },
+  {
+    "title": "Claude Opus 5 now available on AI Gateway",
+    "link": "https://vercel.com/changelog/claude-opus-5-now-available-on-ai-gateway",
+    "desc": "",
+    "date": "2026-07-24",
+    "source": "Vercel",
     "cat": "ai",
     "lang": "en"
   },
@@ -2898,11 +3051,65 @@
     "lang": "en"
   },
   {
+    "title": "Gemini 3.6 Flash and Gemini 3.5 Flash-Lite are now available on AI Gateway",
+    "link": "https://vercel.com/changelog/gemini-3-6-flash-3-5-flash-lite-on-ai-gateway",
+    "desc": "",
+    "date": "2026-07-21",
+    "source": "Vercel",
+    "cat": "ai",
+    "lang": "en"
+  },
+  {
+    "title": "AWS Weekly Roundup: One-click Lambda setup prompt, OpenAI GPT-5.6 models on Bedrock, and more (July 20, 2026)",
+    "link": "https://aws.amazon.com/blogs/aws/aws-weekly-roundup-one-click-lambda-setup-prompt-openai-gpt-5-6-models-on-bedrock-and-more-july-20-2026/",
+    "desc": "Last week, my team visited Seoul to meet AWS Korea User Group (AWSKRUG) leaders. AWSKRUG is the largest cloud developer community in Korea, with 20 meetup groups organized by topic and area that collectively host over 100 events each year, primarily in Seoul. My team regularly visits countries ac...",
+    "date": "2026-07-20",
+    "source": "AWS",
+    "cat": "ai",
+    "lang": "en"
+  },
+  {
+    "title": "GPT 5.6 Sol, Luna, and Terra now available on AI Gateway",
+    "link": "https://vercel.com/changelog/gpt-5-6-now-available-on-ai-gateway",
+    "desc": "",
+    "date": "2026-07-09",
+    "source": "Vercel",
+    "cat": "ai",
+    "lang": "en"
+  },
+  {
     "title": "Native-speed vLLM transformers modeling backend",
     "link": "https://huggingface.co/blog/native-speed-vllm-transformers-backend",
     "desc": "",
     "date": "2026-07-08",
     "source": "Hugging Face",
+    "cat": "ai",
+    "lang": "en"
+  },
+  {
+    "title": "Claude Fable 5 access restored on AI Gateway",
+    "link": "https://vercel.com/changelog/claude-fable-5-access-restored-on-ai-gateway",
+    "desc": "",
+    "date": "2026-07-01",
+    "source": "Vercel",
+    "cat": "ai",
+    "lang": "en"
+  },
+  {
+    "title": "Claude Sonnet 5 now available on Vercel AI Gateway",
+    "link": "https://vercel.com/changelog/claude-sonnet-5-ai-gateway",
+    "desc": "",
+    "date": "2026-06-30",
+    "source": "Vercel",
+    "cat": "ai",
+    "lang": "en"
+  },
+  {
+    "title": "Nano Banana 2 Lite (Gemini 3.1 Flash Lite Image) now on AI Gateway",
+    "link": "https://vercel.com/changelog/nano-banana-2-lite-gemini-3-1-flash-lite-image-ai-gateway",
+    "desc": "",
+    "date": "2026-06-30",
+    "source": "Vercel",
     "cat": "ai",
     "lang": "en"
   },
@@ -2934,11 +3141,38 @@
     "lang": "en"
   },
   {
+    "title": "Agents in the Sandbox",
+    "link": "https://blog.railway.com/p/agents-in-the-sandbox",
+    "desc": "This week we shipped the most popular agent harnesses as default options in Railway Sandboxes. Once configured with your credentials, you can fire off prompts against Claude Code, OpenAI Codex, OpenCode, and Pi, right alongside all the parts of the applications your building. The agent loop just ...",
+    "date": "2026-06-24",
+    "source": "Railway",
+    "cat": "ai",
+    "lang": "en"
+  },
+  {
     "title": "Experimenting with the proposed Cross-Origin Storage API in Transformers.js",
     "link": "https://huggingface.co/blog/cross-origin-storage",
     "desc": "",
     "date": "2026-06-23",
     "source": "Hugging Face",
+    "cat": "ai",
+    "lang": "en"
+  },
+  {
+    "title": "Deploy from Claude Design to Vercel",
+    "link": "https://vercel.com/changelog/claude-design-and-vercel",
+    "desc": "",
+    "date": "2026-06-23",
+    "source": "Vercel",
+    "cat": "ai",
+    "lang": "en"
+  },
+  {
+    "title": "Replit is now available in Claude",
+    "link": "https://replit.com/blog/replit-claude",
+    "desc": "Replit is now available directly inside Claude, making it easier than ever to go from a conversation to a fully built, shipped product - without losing context, in one seamless workflow. Design in Claude, Build in Replit You can now design on-brand, beautiful apps in Claude Design using natural l...",
+    "date": "2026-06-17",
+    "source": "Replit",
     "cat": "ai",
     "lang": "en"
   }

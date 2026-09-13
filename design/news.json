@@ -54,6 +54,15 @@
     "lang": "en"
   },
   {
+    "title": "How Tailscale built a customer-facing model router on AI Gateway",
+    "link": "https://vercel.com/blog/how-tailscale-built-a-customer-facing-model-router-on-ai-gateway",
+    "desc": "",
+    "date": "2026-09-11",
+    "source": "Vercel",
+    "cat": "design",
+    "lang": "en"
+  },
+  {
     "title": "How Minnesota Became the Front Line in the Fight Over Prediction Markets",
     "link": "https://www.nytimes.com/2026/09/11/business/kalshi-polymarket-minnesota-prediction-markets.html",
     "desc": "The state was the first to pass a law banning Kalshi and Polymarket. A lawsuit filed by a federal agency may set a precedent on who gets to regulate them.",
@@ -158,6 +167,15 @@
     "desc": "",
     "date": "2026-09-10",
     "source": "Hugging Face",
+    "cat": "design",
+    "lang": "en"
+  },
+  {
+    "title": "First-Class Databases on Railway",
+    "link": "https://blog.railway.com/p/first-class-databases-on-railway",
+    "desc": "A guide to features of a first-class database offering, and how to enable one on Railway.",
+    "date": "2026-09-10",
+    "source": "Railway",
     "cat": "design",
     "lang": "en"
   },
@@ -396,6 +414,15 @@
     "lang": "en"
   },
   {
+    "title": "Basic build machines are now available on Pro and Enterprise",
+    "link": "https://vercel.com/changelog/basic-build-machines",
+    "desc": "",
+    "date": "2026-09-03",
+    "source": "Vercel",
+    "cat": "design",
+    "lang": "en"
+  },
+  {
     "title": "Trevor Noah",
     "link": "https://www.awwwards.com/sites/trevor-noah",
     "desc": "An immersive digital home for Trevor Noah, uniting his stand-up, podcast, books and world tour in one interactive experience built to explore.",
@@ -522,6 +549,15 @@
     "lang": "en"
   },
   {
+    "title": "Happy 20th Birthday, Amazon EC2",
+    "link": "https://aws.amazon.com/blogs/aws/happy-20th-birthday-amazon-ec2/",
+    "desc": "On the 20th Anniversary, we recognize how AWS has continued to push the boundaries of what cloud computing can deliver, building custom silicon for general-purpose and AI workloads and expanding EC2 into new form factors and deployment models that our customers in 2006 could not have imagined.",
+    "date": "2026-08-25",
+    "source": "AWS",
+    "cat": "design",
+    "lang": "en"
+  },
+  {
     "title": "Как перенести навайбкоженный проект в Figma через Claude Code и получить дизайн‑систему",
     "link": "https://habr.com/ru/articles/1074204/?utm_campaign=1074204&utm_source=habrahabr&utm_medium=rss",
     "desc": "Знакомая ситуация: продукт написан за выходные, гипотеза подтвердилась, кто‑то уже платит. Приходит дизайнер и просит файл. Файла нет. Есть интерфейс, который существует только в виде кода. Кнопка там называется.btn‑primary,.btn‑add и.button‑save — три класса, одна кнопка, паддинги отличаются на ...",
@@ -549,6 +585,33 @@
     "lang": "en"
   },
   {
+    "title": "Your alt text passes automated checks. That doesn’t mean it’s any good.",
+    "link": "https://github.blog/engineering/user-experience/your-alt-text-passes-automated-checks-that-doesnt-mean-its-any-good/",
+    "desc": "We built a plugin for the GitHub Accessibility Scanner to make sure your alt text is actually accessible. Here's how it works. The post Your alt text passes automated checks. That doesn’t mean it’s any good. appeared first on The GitHub Blog .",
+    "date": "2026-08-24",
+    "source": "GitHub Eng",
+    "cat": "design",
+    "lang": "en"
+  },
+  {
+    "title": "Elastic build machines now use Turborepo cache hits to prevent downgrades",
+    "link": "https://vercel.com/changelog/elastic-build-machines-now-use-turborepo-cache-hits-to-prevent-downgrades",
+    "desc": "",
+    "date": "2026-08-24",
+    "source": "Vercel",
+    "cat": "design",
+    "lang": "en"
+  },
+  {
+    "title": "AWS Weekly Roundup: Student Rewards on AWS Builder Center, Local Zone in Las Vegas, and more (August 24, 2026)",
+    "link": "https://aws.amazon.com/blogs/aws/aws-weekly-roundup-student-rewards-on-aws-builder-center-local-zone-in-las-vegas-and-more-august-24-2026/",
+    "desc": "During my time at AWS, I have always looked for opportunities to work with students. I have delivered over 50 talks at universities across the region, and watching the potential in the room is always a strong motivator. It reminds me of why I do this work, and that the students I meet today may […]",
+    "date": "2026-08-24",
+    "source": "AWS",
+    "cat": "design",
+    "lang": "en"
+  },
+  {
     "title": "/zeroz Brand Site",
     "link": "https://www.awwwards.com/sites/zeroz-brand-site",
     "desc": "Brand site for /zeroz, a self-conditioning food born from Otsuka Pharmaceutical Co., Ltd.'s \"Active Inner Resource\" concept. Chapters unfold through 3DCG and immersive WebGL.",
@@ -572,6 +635,15 @@
     "desc": "mesh3d - \"The state of the gallery\" is an overiew of the gallery in numbers and picks. What's catalogued, who is making the strongest Three.js work and what's at the top today.",
     "date": "2026-08-22",
     "source": "Awwwards",
+    "cat": "design",
+    "lang": "en"
+  },
+  {
+    "title": "AWS Glue 6.0 now available with 30% lower price and full Apache Iceberg v3 support",
+    "link": "https://aws.amazon.com/blogs/aws/aws-glue-6-0-now-available-with-30-lower-price-and-full-apache-iceberg-v3-support/",
+    "desc": "AWS Glue 6.0 is built on a fully modernized runtime, Apache Spark 4.1, Python 3.13, and Scala 2.13, delivering 30% lower pricing than previous AWS Glue versions.",
+    "date": "2026-08-21",
+    "source": "AWS",
     "cat": "design",
     "lang": "en"
   },
@@ -648,6 +720,15 @@
     "lang": "en"
   },
   {
+    "title": "Govern Replit at scale",
+    "link": "https://replit.com/blog/new-enterprise-governance-tools",
+    "desc": "New Admin API, Audit Logs, and Workspace Settings give organizations more insight and flexibility into how they adopt AI with Replit. Replit helps teams turn ideas into working software quickly. Most companies start with a handful of builders and a few prototypes. Then it works, and it spreads: m...",
+    "date": "2026-08-16",
+    "source": "Replit",
+    "cat": "design",
+    "lang": "en"
+  },
+  {
     "title": "SSTR - Friction Reduction",
     "link": "https://www.awwwards.com/sites/sstr-friction-reduction",
     "desc": "Brand, site and 3D for a friction-reduction company in oil drilling. Editorial minimalism that speaks the engineer's language: a modular grid, motion tuned to the hardware.",
@@ -662,6 +743,15 @@
     "desc": "PX PUSH is a design subscription studio of record for brands that understand the value of consistent, professional output — established to meet the demands of modern business.",
     "date": "2026-08-15",
     "source": "Awwwards",
+    "cat": "design",
+    "lang": "en"
+  },
+  {
+    "title": "Grok Build is now available in the AI SDK harness layer",
+    "link": "https://vercel.com/changelog/grok-build-harness-adapter",
+    "desc": "",
+    "date": "2026-08-13",
+    "source": "Vercel",
     "cat": "design",
     "lang": "en"
   },
@@ -684,11 +774,47 @@
     "lang": "en"
   },
   {
+    "title": "Building a software factory for AI SDK",
+    "link": "https://vercel.com/blog/building-a-software-factory-for-ai-sdk",
+    "desc": "",
+    "date": "2026-08-12",
+    "source": "Vercel",
+    "cat": "design",
+    "lang": "en"
+  },
+  {
+    "title": "How we migrated the database behind every Vercel build",
+    "link": "https://vercel.com/blog/how-we-migrated-the-database-behind-every-vercel-build",
+    "desc": "",
+    "date": "2026-08-11",
+    "source": "Vercel",
+    "cat": "design",
+    "lang": "en"
+  },
+  {
     "title": "Building Tactile UX: Honoring Intentional Design With Lottie",
     "link": "https://smashingmagazine.com/2026/08/building-tactile-ux-honoring-intentional-design-lottie/",
     "desc": "When tasked with building a highly interactive, tactile web experience, the architecture must serve the art direction. In this article, Alexey Kopytin explains their architectural rationale for building a digital stress-relief squeeze toy game using Lottie animations, DOM events, and distance-bas...",
     "date": "2026-08-11",
     "source": "Smashing Magazine",
+    "cat": "design",
+    "lang": "en"
+  },
+  {
+    "title": "AWS Weekly Roundup: AWS Heroes Summit, Web Search on Amazon Bedrock, Dogwood, Kiro Crew, and more (August 10, 2026)",
+    "link": "https://aws.amazon.com/blogs/aws/aws-weekly-roundup-aws-heroes-summit-web-search-on-amazon-bedrock-dogwood-kiro-crew-and-more-august-10-2026/",
+    "desc": "Last week, we brought together AWS Heroes from around the world to connect, collaborate, and celebrate the builders who go above and beyond for the AWS community. The AWS Heroes Summit, an invite-only annual gathering, brings global experts specializing in fields like AI, serverless, and containe...",
+    "date": "2026-08-10",
+    "source": "AWS",
+    "cat": "design",
+    "lang": "en"
+  },
+  {
+    "title": "Amazon DynamoDB now supports real-time vector search at any scale",
+    "link": "https://aws.amazon.com/blogs/aws/amazon-dynamodb-now-supports-real-time-vector-search-at-any-scale/",
+    "desc": "DynamoDB now supports native vector search with single-digit millisecond latency at 99%+ recall. It is designed for any scale, even trillions of vectors and requires zero infrastructure management.",
+    "date": "2026-08-05",
+    "source": "AWS",
     "cat": "design",
     "lang": "en"
   },
@@ -738,6 +864,15 @@
     "lang": "en"
   },
   {
+    "title": "Shopify and Vercel are rebuilding Hydrogen for faster storefronts",
+    "link": "https://vercel.com/blog/shopify-and-vercel-are-rebuilding-hydrogen-for-faster-storefronts",
+    "desc": "",
+    "date": "2026-07-30",
+    "source": "Vercel",
+    "cat": "design",
+    "lang": "en"
+  },
+  {
     "title": "The Bull And Bear Case For Digital Design In The Age Of AI",
     "link": "https://smashingmagazine.com/2026/07/bull-and-bear-case-digital-design-age-ai/",
     "desc": "As AI reshapes product design, it could give designers greater autonomy or expose the gaps that autonomy makes harder to hide. Exploring both the bull and bear cases, Andy Budd examines what happens when designers need less permission to act.",
@@ -752,6 +887,15 @@
     "desc": "Many of the AI tools we interact with take the form of text boxes. But what if there was a different way to interact with AI? Oleksii Hrzhehorzhevskyi explores a different approach to creating a new AI assistant and how designers can navigate the field as AI continues to change it.",
     "date": "2026-07-28",
     "source": "Smashing Magazine",
+    "cat": "design",
+    "lang": "en"
+  },
+  {
+    "title": "Nuxt July 2026 security advisory",
+    "link": "https://vercel.com/changelog/nuxt-july-2026-security-advisory",
+    "desc": "",
+    "date": "2026-07-27",
+    "source": "Vercel",
     "cat": "design",
     "lang": "en"
   },
@@ -779,6 +923,15 @@
     "desc": "While React Server Components rely on the custom Flight protocol to stream interactive UIs, this same mechanism introduces powerful deserialization sinks that attackers can exploit. Durgesh Pawar breaks down the mechanics behind the CVSS 10.0 “React2Shell” vulnerability to show how protocol manip...",
     "date": "2026-07-21",
     "source": "Smashing Magazine",
+    "cat": "design",
+    "lang": "en"
+  },
+  {
+    "title": "Purge your Remote Cache's build and CI artifacts",
+    "link": "https://vercel.com/changelog/purge-your-remote-caches-build-and-ci-artifacts",
+    "desc": "",
+    "date": "2026-07-20",
+    "source": "Vercel",
     "cat": "design",
     "lang": "en"
   },
@@ -815,6 +968,24 @@
     "desc": "The strongest visual concepts don’t start in Figma. They start with the right questions. Explore the pre-concept phase of brand identity design, where teams research brand context, uncover hidden assumptions with stakeholders, and turn shared direction into a visual foundation before a single con...",
     "date": "2026-07-10",
     "source": "Smashing Magazine",
+    "cat": "design",
+    "lang": "en"
+  },
+  {
+    "title": "Build logs now redact Sensitive Environment Variable values",
+    "link": "https://vercel.com/changelog/build-logs-now-redact-sensitive-environment-variable-values",
+    "desc": "",
+    "date": "2026-07-09",
+    "source": "Vercel",
+    "cat": "design",
+    "lang": "en"
+  },
+  {
+    "title": "Vercel acquires Better Auth to accelerate open source auth",
+    "link": "https://vercel.com/blog/vercel-acquires-better-auth",
+    "desc": "",
+    "date": "2026-07-07",
+    "source": "Vercel",
     "cat": "design",
     "lang": "en"
   },
@@ -864,6 +1035,24 @@
     "lang": "en"
   },
   {
+    "title": "Upgrade Amazon EKS clusters with confidence using Kubernetes version rollbacks",
+    "link": "https://aws.amazon.com/blogs/aws/upgrade-amazon-eks-clusters-with-confidence-using-kubernetes-version-rollbacks/",
+    "desc": "Learn how Kubernetes version rollbacks for Amazon EKS let you reverse cluster upgrades within seven days. This new feature provides a safety net for upgrade failures—no cluster rebuilds required—turning Kubernetes version upgrades into a reversible, low-risk operation.",
+    "date": "2026-07-01",
+    "source": "AWS",
+    "cat": "design",
+    "lang": "en"
+  },
+  {
+    "title": "Vercel and Shopify are rebuilding Hydrogen",
+    "link": "https://vercel.com/blog/vercel-and-shopify-are-rebuilding-hydrogen",
+    "desc": "",
+    "date": "2026-06-30",
+    "source": "Vercel",
+    "cat": "design",
+    "lang": "en"
+  },
+  {
     "title": "Как мы перестали полировать макеты и начали отдавать дизайн итерациями",
     "link": "https://habr.com/ru/articles/1048298/?utm_campaign=1048298&utm_source=habrahabr&utm_medium=rss",
     "desc": "Итеративный дизайн на самом деле не только про дизайн, но и про подход к созданию продукта. Он связывает дизайнеров, команду разработки, PO (product owner), PM (project manager) и пользователей в систему, где каждый влияет на то, каким становится продукт. Дизайнер перестаёт быть исполнителем маке...",
@@ -907,6 +1096,24 @@
     "source": "Habr Веб-дизайн",
     "cat": "design",
     "lang": "ru"
+  },
+  {
+    "title": "Vercel Flags no longer requires SDK Keys for Vercel deployments",
+    "link": "https://vercel.com/changelog/authenticate-vercel-flags-with-openid-connect-by-default",
+    "desc": "",
+    "date": "2026-06-24",
+    "source": "Vercel",
+    "cat": "design",
+    "lang": "en"
+  },
+  {
+    "title": "Pro teams can now run up to 500 concurrent builds",
+    "link": "https://vercel.com/changelog/pro-teams-can-now-run-up-to-500-concurrent-builds",
+    "desc": "",
+    "date": "2026-06-24",
+    "source": "Vercel",
+    "cat": "design",
+    "lang": "en"
   },
   {
     "title": "Сайт Своего Банка вошел в топ-20 рейтинга по росту качества",
