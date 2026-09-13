@@ -3,7 +3,7 @@ window.NEWS_DATA = {
     {
       "title": "Why are AI agents lying, cheating and coordinating?",
       "link": "https://yoshuabengio.org/en/publication/why-are-ai-agents-lying-cheating-and-coordinating",
-      "desc": "Article URL: https://yoshuabengio.org/en/publication/why-are-ai-agents-lying-cheating-and-coordinating Comments URL: https://news.ycombinator.com/item?id=49678969 Points: 133 # Comments: 145",
+      "desc": "Article URL: https://yoshuabengio.org/en/publication/why-are-ai-agents-lying-cheating-and-coordinating Comments URL: https://news.ycombinator.com/item?id=49678969 Points: 158 # Comments: 185",
       "date": "2026-09-13",
       "source": "Hacker News",
       "cat": "agent",
@@ -30,7 +30,7 @@ window.NEWS_DATA = {
     {
       "title": "AgentsDock: An IDE designed for agentic AI research",
       "link": "https://agentsdock.net/",
-      "desc": "Article URL: https://agentsdock.net/ Comments URL: https://news.ycombinator.com/item?id=49678435 Points: 44 # Comments: 15",
+      "desc": "Article URL: https://agentsdock.net/ Comments URL: https://news.ycombinator.com/item?id=49678435 Points: 45 # Comments: 23",
       "date": "2026-09-12",
       "source": "Hacker News",
       "cat": "agent",
@@ -162,5 +162,5 @@ window.NEWS_DATA = {
     "jobs",
     "orders"
   ],
-  "updated": "13.09.2026, 08:09:34"
+  "updated": "13.09.2026, 08:39:05"
 };

@@ -1,6 +1,16 @@
 window.NEWS_DATA = {
   "items": [
     {
+      "title": "необходимо создать веб-3 игру",
+      "link": "https://www.fl.ru/projects/5521780/neobhodimo-sozdat-veb-3-igru.html",
+      "desc": "игра, есть пример обычной игры, будет проще объяснить.",
+      "date": "2026-09-13",
+      "source": "FL.ru",
+      "cat": "orders",
+      "order_type": "content",
+      "lang": "ru"
+    },
+    {
       "title": "Разработать сайт",
       "link": "https://www.fl.ru/projects/5521778/razrabotat-sayt.html",
       "desc": "Здравствуйте Нужно разработать сайт, интересует только поиск и выдача торгов с документами, без личного кабинета и прочего.",
@@ -1059,5 +1069,5 @@ window.NEWS_DATA = {
     "jobs",
     "orders"
   ],
-  "updated": "13.09.2026, 08:09:34"
+  "updated": "13.09.2026, 08:39:05"
 };
