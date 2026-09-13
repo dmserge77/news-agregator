@@ -2,7 +2,7 @@
   {
     "title": "Dramatic insider warnings over AI fall flat with some in Silicon Valley",
     "link": "https://www.bbc.co.uk/news/articles/cq635037g18o",
-    "desc": "Article URL: https://www.bbc.co.uk/news/articles/cq635037g18o Comments URL: https://news.ycombinator.com/item?id=49681276 Points: 18 # Comments: 13",
+    "desc": "Article URL: https://www.bbc.co.uk/news/articles/cq635037g18o Comments URL: https://news.ycombinator.com/item?id=49681276 Points: 23 # Comments: 28",
     "date": "2026-09-13",
     "source": "Hacker News",
     "cat": "ai",
@@ -11,7 +11,7 @@
   {
     "title": "JetKVM Mini",
     "link": "https://jetkvm.com/blog/introducing-jetkvm-mini",
-    "desc": "Article URL: https://jetkvm.com/blog/introducing-jetkvm-mini Comments URL: https://news.ycombinator.com/item?id=49681152 Points: 68 # Comments: 36",
+    "desc": "Article URL: https://jetkvm.com/blog/introducing-jetkvm-mini Comments URL: https://news.ycombinator.com/item?id=49681152 Points: 78 # Comments: 47",
     "date": "2026-09-13",
     "source": "Hacker News",
     "cat": "ai",
@@ -20,7 +20,7 @@
   {
     "title": "A wandering black hole caught feeding on the run",
     "link": "https://phys.org/news/2026-08-black-hole-caught.html",
-    "desc": "Article URL: https://phys.org/news/2026-08-black-hole-caught.html Comments URL: https://news.ycombinator.com/item?id=49679734 Points: 17 # Comments: 5",
+    "desc": "Article URL: https://phys.org/news/2026-08-black-hole-caught.html Comments URL: https://news.ycombinator.com/item?id=49679734 Points: 18 # Comments: 6",
     "date": "2026-09-13",
     "source": "Hacker News",
     "cat": "ai",
@@ -38,7 +38,7 @@
   {
     "title": "Aligned to whom?",
     "link": "https://hyperbo.la/w/aligned-to-whom/",
-    "desc": "Article URL: https://hyperbo.la/w/aligned-to-whom/ Comments URL: https://news.ycombinator.com/item?id=49679643 Points: 46 # Comments: 21",
+    "desc": "Article URL: https://hyperbo.la/w/aligned-to-whom/ Comments URL: https://news.ycombinator.com/item?id=49679643 Points: 52 # Comments: 28",
     "date": "2026-09-13",
     "source": "Hacker News",
     "cat": "ai",
@@ -47,7 +47,7 @@
   {
     "title": "After Math",
     "link": "https://terrytao.wordpress.com/2026/09/12/after-math/",
-    "desc": "Article URL: https://terrytao.wordpress.com/2026/09/12/after-math/ Comments URL: https://news.ycombinator.com/item?id=49679637 Points: 68 # Comments: 50",
+    "desc": "Article URL: https://terrytao.wordpress.com/2026/09/12/after-math/ Comments URL: https://news.ycombinator.com/item?id=49679637 Points: 70 # Comments: 50",
     "date": "2026-09-13",
     "source": "Hacker News",
     "cat": "ai",
@@ -56,7 +56,7 @@
   {
     "title": "The Interim Computer Museum",
     "link": "https://icm.museum/",
-    "desc": "Article URL: https://icm.museum/ Comments URL: https://news.ycombinator.com/item?id=49679459 Points: 107 # Comments: 11",
+    "desc": "Article URL: https://icm.museum/ Comments URL: https://news.ycombinator.com/item?id=49679459 Points: 110 # Comments: 12",
     "date": "2026-09-13",
     "source": "Hacker News",
     "cat": "ai",
@@ -65,7 +65,7 @@
   {
     "title": "Everyone should slow down AI development except for me",
     "link": "https://xeiaso.net/notes/2026/everyone-slowdown-but-me/",
-    "desc": "Article URL: https://xeiaso.net/notes/2026/everyone-slowdown-but-me/ Comments URL: https://news.ycombinator.com/item?id=49678683 Points: 451 # Comments: 280",
+    "desc": "Article URL: https://xeiaso.net/notes/2026/everyone-slowdown-but-me/ Comments URL: https://news.ycombinator.com/item?id=49678683 Points: 461 # Comments: 283",
     "date": "2026-09-13",
     "source": "Hacker News",
     "cat": "ai",
@@ -126,6 +126,24 @@
     "lang": "ru"
   },
   {
+    "title": "Подписка OpenCode Go вышла на самоокупаемость",
+    "link": "https://habr.com/ru/news/1081676/?utm_campaign=1081676&utm_source=habrahabr&utm_medium=rss",
+    "desc": "Соучредитель ИИ‑сервиса для написания кода OpenCode Дакс Раад сообщил , что тарифный план OpenCode Go за $10 в месяц вышел на самоокупаемость и сохраняет этот статус уже две недели подряд. Читать далее",
+    "date": "2026-09-13",
+    "source": "Habr AI",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "Правозащитники обеспокоены новыми функциями Apple Watch, которые записывают разговоры людей без их согласия",
+    "link": "https://habr.com/ru/news/1081674/?utm_campaign=1081674&utm_source=habrahabr&utm_medium=rss",
+    "desc": "На осенней презентации Apple представила умные часы Apple Watch Series 12 и Apple Watch Ultra 4 с набором функций Audio Intelligence. С их помощью устройства анализируют разговоры вокруг пользователя, выводят расшифровки последних 15 секунд диалога и составляют краткие пересказы бесед. При этом с...",
+    "date": "2026-09-13",
+    "source": "Habr AI",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
     "title": "Revolut подтвердил утечку данных части пользователей из-за мошеннических запросов с почтового домена государственного ведомства",
     "link": "https://vc.ru/services/3135851-revolut-podtverdil-utechku-dannyh-polzovatelej?from=rss",
     "desc": "В какой стране она произошла — не раскрыли.",
@@ -164,7 +182,7 @@
   {
     "title": "Don't be the out of touch Kung Fu master",
     "link": "https://twitter.com/ID_AA_Carmack/status/2098443262214230095",
-    "desc": "Article URL: https://twitter.com/ID_AA_Carmack/status/2098443262214230095 Comments URL: https://news.ycombinator.com/item?id=49677577 Points: 120 # Comments: 113",
+    "desc": "Article URL: https://twitter.com/ID_AA_Carmack/status/2098443262214230095 Comments URL: https://news.ycombinator.com/item?id=49677577 Points: 123 # Comments: 117",
     "date": "2026-09-12",
     "source": "Hacker News",
     "cat": "ai",
@@ -173,7 +191,7 @@
   {
     "title": "P(doom)",
     "link": "https://lucumr.pocoo.org/2026/9/12/pdoom/",
-    "desc": "Article URL: https://lucumr.pocoo.org/2026/9/12/pdoom/ Comments URL: https://news.ycombinator.com/item?id=49677450 Points: 83 # Comments: 48",
+    "desc": "Article URL: https://lucumr.pocoo.org/2026/9/12/pdoom/ Comments URL: https://news.ycombinator.com/item?id=49677450 Points: 87 # Comments: 57",
     "date": "2026-09-12",
     "source": "Hacker News",
     "cat": "ai",
@@ -182,7 +200,7 @@
   {
     "title": "Real-SWE: Benchmarking AI models on private, real-world, enterprise codebases",
     "link": "https://withspecific.com/benchmarks/real-swe",
-    "desc": "Article URL: https://withspecific.com/benchmarks/real-swe Comments URL: https://news.ycombinator.com/item?id=49676820 Points: 238 # Comments: 134",
+    "desc": "Article URL: https://withspecific.com/benchmarks/real-swe Comments URL: https://news.ycombinator.com/item?id=49676820 Points: 242 # Comments: 134",
     "date": "2026-09-12",
     "source": "Hacker News",
     "cat": "ai",
@@ -191,7 +209,7 @@
   {
     "title": "Will there be a 7G?",
     "link": "https://arxiv.org/abs/2609.01877",
-    "desc": "Article URL: https://arxiv.org/abs/2609.01877 Comments URL: https://news.ycombinator.com/item?id=49674498 Points: 102 # Comments: 159",
+    "desc": "Article URL: https://arxiv.org/abs/2609.01877 Comments URL: https://news.ycombinator.com/item?id=49674498 Points: 103 # Comments: 159",
     "date": "2026-09-12",
     "source": "Hacker News",
     "cat": "ai",
@@ -200,7 +218,7 @@
   {
     "title": "Make your first edit to OpenStreetMap",
     "link": "https://high5apps.github.io/josm-plugin-website-wizard/",
-    "desc": "Article URL: https://high5apps.github.io/josm-plugin-website-wizard/ Comments URL: https://news.ycombinator.com/item?id=49674050 Points: 451 # Comments: 112",
+    "desc": "Article URL: https://high5apps.github.io/josm-plugin-website-wizard/ Comments URL: https://news.ycombinator.com/item?id=49674050 Points: 457 # Comments: 112",
     "date": "2026-09-12",
     "source": "Hacker News",
     "cat": "ai",
@@ -209,7 +227,7 @@
   {
     "title": "Microcode in Intel's 8087 floating-point chip: the scale instruction",
     "link": "https://www.righto.com/2026/09/8087-microcode-reverse-engineering-fscale.html",
-    "desc": "Article URL: https://www.righto.com/2026/09/8087-microcode-reverse-engineering-fscale.html Comments URL: https://news.ycombinator.com/item?id=49673580 Points: 109 # Comments: 34",
+    "desc": "Article URL: https://www.righto.com/2026/09/8087-microcode-reverse-engineering-fscale.html Comments URL: https://news.ycombinator.com/item?id=49673580 Points: 111 # Comments: 34",
     "date": "2026-09-12",
     "source": "Hacker News",
     "cat": "ai",
@@ -218,7 +236,7 @@
   {
     "title": "Nvidia is the central bank of AI",
     "link": "https://www.economist.com/interactive/briefing/2026/09/03/nvidia-is-the-central-bank-of-ai",
-    "desc": "https://archive.ph/kt50V Comments URL: https://news.ycombinator.com/item?id=49673098 Points: 476 # Comments: 337",
+    "desc": "https://archive.ph/kt50V Comments URL: https://news.ycombinator.com/item?id=49673098 Points: 481 # Comments: 337",
     "date": "2026-09-12",
     "source": "Hacker News",
     "cat": "ai",
@@ -227,7 +245,7 @@
   {
     "title": "We must pace the frontier",
     "link": "https://darioamodei.com/post/we-must-pace-the-frontier",
-    "desc": "Article URL: https://darioamodei.com/post/we-must-pace-the-frontier Comments URL: https://news.ycombinator.com/item?id=49672510 Points: 642 # Comments: 900",
+    "desc": "Article URL: https://darioamodei.com/post/we-must-pace-the-frontier Comments URL: https://news.ycombinator.com/item?id=49672510 Points: 645 # Comments: 907",
     "date": "2026-09-12",
     "source": "Hacker News",
     "cat": "ai",
@@ -270,8 +288,8 @@
     "lang": "en"
   },
   {
-    "title": "A Dick Smith VZ200 without the Dick Smith",
-    "link": "http://oldvcr.blogspot.com/2026/09/a-dick-smith-vz200-without-dick-smith.html",
+    "title": "a better way of blocking macOS updates",
+    "link": "https://zoey-on-github.github.io/blog/updates.html",
     "desc": "Comments",
     "date": "2026-09-12",
     "source": "Lobsters",
@@ -279,8 +297,8 @@
     "lang": "en"
   },
   {
-    "title": "a better way of blocking macOS updates",
-    "link": "https://zoey-on-github.github.io/blog/updates.html",
+    "title": "A Dick Smith VZ200 without the Dick Smith",
+    "link": "http://oldvcr.blogspot.com/2026/09/a-dick-smith-vz200-without-dick-smith.html",
     "desc": "Comments",
     "date": "2026-09-12",
     "source": "Lobsters",
@@ -477,11 +495,56 @@
     "lang": "ru"
   },
   {
+    "title": "Глава Anthropic призвал замедлить развитие ИИ",
+    "link": "https://habr.com/ru/news/1081594/?utm_campaign=1081594&utm_source=habrahabr&utm_medium=rss",
+    "desc": "Глава Anthropic Дарио Амодеи опубликовал эссе We Must Pace the Frontier , в котором предложил замедлить рост возможностей передовых ИИ-моделей. По его мнению, исследования безопасности перестают успевать за прогрессом. Anthropic обязуется начать с постоянного доступа внешних проверяющих к внутрен...",
+    "date": "2026-09-12",
+    "source": "Habr AI",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "Рекомендации Минпросвещения по работе педагогов с ИИ исключают применение ИИ учениками начальной школы",
+    "link": "https://habr.com/ru/news/1081498/?utm_campaign=1081498&utm_source=habrahabr&utm_medium=rss",
+    "desc": "По информации СМИ, методические рекомендации Минпросвещения России по работе педагогов с искусственным интеллектом исключают применение ИИ учениками начальной школы. В средних классах нейросети могут использоваться для проверки гипотез и поиска информации. Об этом рассказала СМИ директор Институт...",
+    "date": "2026-09-12",
+    "source": "Habr AI",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
     "title": "День 1662: Gillette продлила в России права на два товарных знака",
     "link": "https://vc.ru/money/3134948-gillette-prodlila-prava-na-tovarnye-znaki-v-rossii?from=rss",
     "desc": "Собираем новости, события и мнения о рынках, банках и реакциях компаний.",
     "date": "2026-09-12",
     "source": "vc.ru",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "Коробка подарков для айтишников",
+    "link": "https://tproger.ru/interactive/korobka-podarkov-dlya-ajtiwnikov",
+    "desc": "Забирайте свой презент ко Дню программиста! — Читать дальше « Коробка подарков для айтишников »",
+    "date": "2026-09-12",
+    "source": "Tproger",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "GitLab выпустила критические патчи 19.3.2, 19.2.6 и 19.1.8",
+    "link": "https://tproger.ru/news/gitlab-vypustila-kriticheskie-patchi-19-3-2-19-2-6-i-19-1-8",
+    "desc": "GitLab выпустила патчи для 18 уязвимостей в CE и EE. Владельцам self-managed-инсталляций рекомендуют обновиться немедленно. — Читать дальше « GitLab выпустила критические патчи 19.3.2, 19.2.6 и 19.1.8 »",
+    "date": "2026-09-12",
+    "source": "Tproger",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "Что смотрят программисты: 50+ фильмов и сериалов",
+    "link": "https://thecode.media/chto-smotryat-programmisty/",
+    "desc": "Собрали по рекомендациям наших читателей Сообщение Что смотрят программисты: 50+ фильмов и сериалов появились сначала на Журнал «Код» программирование без снобизма .",
+    "date": "2026-09-12",
+    "source": "The Code",
     "cat": "ai",
     "lang": "ru"
   },
@@ -909,6 +972,96 @@
     "lang": "ru"
   },
   {
+    "title": "Международная конференция «Искусственный интеллект в нейронауках» в Плехановском университете",
+    "link": "https://habr.com/ru/news/1081468/?utm_campaign=1081468&utm_source=habrahabr&utm_medium=rss",
+    "desc": "исходная ссылка на официальную новость . Идет трехдневный форум на стыке промышленности, медицины и искусственного интеллекта. Конференция объединила исследователей динамики сложных систем, математиков, практиков-разработчиков. Сайт конференции интересно показывает взаимосвязь фундаментальной нау...",
+    "date": "2026-09-11",
+    "source": "Habr AI",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "Unity выпустила официальный плагин для Claude Code, Codex и Grok",
+    "link": "https://habr.com/ru/news/1081400/?utm_campaign=1081400&utm_source=habrahabr&utm_medium=rss",
+    "desc": "Unity выпустила официальный плагин для сторонних AI‑агентов, с помощью которого Codex. Claude и Grok могут работать с проектами на Unity. Плагин работает с Unity 6 и подключается непосредственно к AI‑агенту. Читать далее",
+    "date": "2026-09-11",
+    "source": "Habr AI",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "В Anthropic предотвратили попытки создания биологического оружия",
+    "link": "https://habr.com/ru/news/1081342/?utm_campaign=1081342&utm_source=habrahabr&utm_medium=rss",
+    "desc": "Anthropic предотвратила несколько попыток учёных использовать её передовые модели искусственного интеллекта для проведения исследований, которые могли привести к созданию биологического оружия. Об этом сообщила New York Times со ссылкой на отчёт американской компании. Читать далее",
+    "date": "2026-09-11",
+    "source": "Habr AI",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "НАСА и IBM представили ИИ‑модель для исследования Луны",
+    "link": "https://habr.com/ru/news/1081326/?utm_campaign=1081326&utm_source=habrahabr&utm_medium=rss",
+    "desc": "НАСА начинает активнее использовать искусственный интеллект для изучения Луны, чтобы изменить подход исследователей к анализу её поверхности. В рамках сотрудничества с IBM Research и несколькими научными организациями агентство представило NASA‑IBM Lunar Foundation Model, одну из первых открытых ...",
+    "date": "2026-09-11",
+    "source": "Habr AI",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "Google и НАСА представили ИИ‑модель MAPL‑EMIT для глобального поиска выбросов метана по спутниковым данным",
+    "link": "https://habr.com/ru/news/1081252/?utm_campaign=1081252&utm_source=habrahabr&utm_medium=rss",
+    "desc": "Google и Лаборатория реактивного движения НАСА (JPL) представили модель искусственного интеллекта MAPL‑EMIT , которая отслеживает глобальные выбросы метана по всему миру, используя спутниковые данные. Данные для модели поставляет детектор Earth Surface Mineral Dust Source Investigation ( EMIT ), ...",
+    "date": "2026-09-11",
+    "source": "Habr AI",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "Anthropic сообщила подробности о кампаниях по дистилляции моделей, проводимых китайскими Alibaba, Moonshot AI и DeepSeek",
+    "link": "https://habr.com/ru/news/1081216/?utm_campaign=1081216&utm_source=habrahabr&utm_medium=rss",
+    "desc": "Anthropic сообщила подробности о кампаниях по дистилляции моделей американских разработчиков со стороны китайских компаний в сфере искусственного интеллекта. В последние месяцы китайские разработчики нарастили усилия в этой области, что стало поводом для коллективных обвинений, выдвинутых спецслу...",
+    "date": "2026-09-11",
+    "source": "Habr AI",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "В «Яндекс Картах» появился поиск мест по маршруту между двумя точками",
+    "link": "https://habr.com/ru/news/1081202/?utm_campaign=1081202&utm_source=habrahabr&utm_medium=rss",
+    "desc": "В ИИ‑чате «Яндекс Карт» появилась возможность искать заведения и другие места между двумя заданными объектами. Например, пользователь может указать общежитие и учебный корпус и попросить найти кафе по пути между ними. Также места можно искать рядом с конкретным ориентиром — например, вузом, расск...",
+    "date": "2026-09-11",
+    "source": "Habr AI",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "«Алисе AI» могут дать расширенные права при предустановке на устройства",
+    "link": "https://habr.com/ru/news/1081172/?utm_campaign=1081172&utm_source=habrahabr&utm_medium=rss",
+    "desc": "«Ъ» ознакомился с проектом постановления правительства, который вносит изменения в правила предустановки отечественных приложений на устройства, ввозимые в Россию. Речь идёт о ранее обсуждаемой инициативе, согласно которой ИИ‑ассистенту «Яндекса» «Алисе AI» могут предоставить дополнительные расши...",
+    "date": "2026-09-11",
+    "source": "Habr AI",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "Anthropic: DeepSeek и Moonshot выдавали ответы Claude за ответы собственных моделей",
+    "link": "https://habr.com/ru/news/1081164/?utm_campaign=1081164&utm_source=habrahabr&utm_medium=rss",
+    "desc": "Китайские ИИ-компании DeepSeek и Moonshot, по данным Anthropic, использовали Claude для обработки запросов пользователей, а затем выдавали полученные ответы за результаты работы собственных моделей. Читать далее",
+    "date": "2026-09-11",
+    "source": "Habr AI",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "Anthropic: DeepSeek и Moonshot отправляли пользовательские запросы в Claude",
+    "link": "https://habr.com/ru/companies/bothub/news/1081110/?utm_campaign=1081110&utm_source=habrahabr&utm_medium=rss",
+    "desc": "Anthropic опубликовала новый Threat Intelligence Report об использовании Claude в кибератаках, шпионаже, мошенничестве и дистилляции ИИ-моделей. Интересного много, искренне советую почитать самим, здесь остановимся на истории с китайскими ИИ-компаниями. По данным Anthropic, DeepSeek и Moonshot (K...",
+    "date": "2026-09-11",
+    "source": "Habr AI",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
     "title": "Минцифры объявило о запуске первых коммерческих сетей 5G в 16 российских городах — подключиться к ним могут только пользователи Android",
     "link": "https://vc.ru/services/3132830-zapusk-5g-v-16-gorodah-rossii-dlya-polzovatelej-android?from=rss",
     "desc": "Apple заблокировала активацию 5G для российских SIM-карт.",
@@ -977,6 +1130,114 @@
     "desc": "В здании начался пожар.",
     "date": "2026-09-11",
     "source": "vc.ru",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "Kilo Code 7.6 получил режим долгих задач и лишился интерактивного терминала в CLI",
+    "link": "https://tproger.ru/news/kilo-code-7-6-poluchil-rezhim-dolgih-zadach-i-liwilsya-interaktivnog",
+    "desc": "Kilo Code 7.6 добавил долгие задачи, уведомления и новые функции для pull request. Из CLI удалили интерактивный терминал. — Читать дальше « Kilo Code 7.6 получил режим долгих задач и лишился интерактивного терминала в CLI »",
+    "date": "2026-09-11",
+    "source": "Tproger",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "Обучение ИИ в 2026 году: школы и курсы для детей",
+    "link": "https://tproger.ru/articles/obuchenie-ii-v-2026-godu-wkoly-i-kursy-dlya-detej",
+    "desc": "Школы с ИИ для детей в 2026 году: сравниваем курсы по нейросетям, возраст, формат, стоимость и проекты. Как выбрать обучение для ребенка? — Читать дальше « Обучение ИИ в 2026 году: школы и курсы для детей »",
+    "date": "2026-09-11",
+    "source": "Tproger",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "Trame v4 научился управлять React-компонентами из Python",
+    "link": "https://tproger.ru/news/trame-v4-nauchilsya-upravlyat-react-komponentami-iz-python",
+    "desc": "Trame v4 позволяет управлять существующими React-компонентами из Python. Vue.js остаётся основным и наиболее полным клиентом фреймворка. — Читать дальше « Trame v4 научился управлять React-компонентами из Python »",
+    "date": "2026-09-11",
+    "source": "Tproger",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "GitHub прекратил поддержку MAI-Code-1-Flash во всех режимах Copilot",
+    "link": "https://tproger.ru/news/github-prekratil-podderzhku-mai-code-1-flash-vo-vseh-rezhimah-copi",
+    "desc": "GitHub объявил модель MAI-Code-1-Flash устаревшей во всех режимах Copilot. Пользователям рекомендуют перейти на MAI-Code-1.1-Flash. — Читать дальше « GitHub прекратил поддержку MAI-Code-1-Flash во всех режимах Copilot »",
+    "date": "2026-09-11",
+    "source": "Tproger",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "DeepSeek выпустила мультимодальную модель V4.1-Flash и начала замену V4-Pro",
+    "link": "https://tproger.ru/news/deepseek-vypustila-multimodalnuyu-model-v4-1-flash-i-nachala-za",
+    "desc": "DeepSeek запустила V4.1-Flash в API и выводит из эксплуатации прежние модели. С 14 сентября запросы к V4-Pro перенаправят на новинку. — Читать дальше « DeepSeek выпустила мультимодальную модель V4.1-Flash и начала замену V4-Pro »",
+    "date": "2026-09-11",
+    "source": "Tproger",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "Объем данных растет? Как оптимизировать расходы и хранить больше, а платить – меньше",
+    "link": "https://tproger.ru/articles/obem-dannyh-rastet-kak-optimizirovat-rashody-i-hranit-bolwe",
+    "desc": "S3 облачное хранилище Beget: храните бэкапы, логи и медиа отдельно от сервера, платите только за объём. Аренда S3-хранилища — в один клик. — Читать дальше « Объем данных растет? Как оптимизировать расходы и хранить больше, а платить – меньше »",
+    "date": "2026-09-11",
+    "source": "Tproger",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "OpenAI закрыла ChatGPT Pro для новых пользователей из-за ажиотажа вокруг Astra",
+    "link": "https://thecode.media/openai-zakryla-chatgpt-pro-dlya-novyh-yuzerov-iz-za-astra/",
+    "desc": "И такое бывает Сообщение OpenAI закрыла ChatGPT Pro для новых пользователей из-за ажиотажа вокруг Astra появились сначала на Журнал «Код» программирование без снобизма .",
+    "date": "2026-09-11",
+    "source": "The Code",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "Нейросети для работы с файлами и документацией: 15 лучших ИИ сервисов",
+    "link": "https://thecode.media/nejroseti-dlya-raboty-s-fajlami/",
+    "desc": "Топовые нейросети для документов Сообщение Нейросети для работы с файлами и документацией: 15 лучших ИИ сервисов появились сначала на Журнал «Код» программирование без снобизма .",
+    "date": "2026-09-11",
+    "source": "The Code",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "5G-сети заработали в России сразу в 16 городах",
+    "link": "https://thecode.media/5g-seti-zarabotali-v-rossii-srazu-v-16-gorodah/",
+    "desc": "Вот теперь заживем... Сообщение 5G-сети заработали в России сразу в 16 городах появились сначала на Журнал «Код» программирование без снобизма .",
+    "date": "2026-09-11",
+    "source": "The Code",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "Anthropic: из-за ИИ программистам придется переучиваться на электриков и медсестер",
+    "link": "https://thecode.media/anthropic-ii-vynudit-programmistov-ujti-v-elektriki-i-medsestry/",
+    "desc": "Неутешительный прогноз Сообщение Anthropic: из-за ИИ программистам придется переучиваться на электриков и медсестер появились сначала на Журнал «Код» программирование без снобизма .",
+    "date": "2026-09-11",
+    "source": "The Code",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "Почти половина онлайн-покупателей считают, что нейросети заменяют необходимость читать отзывы",
+    "link": "https://www.cossa.ru/news/350872/",
+    "desc": "Если отзывы противоречат совету ИИ, только 32% покупателей готовы довериться отзывам.",
+    "date": "2026-09-11",
+    "source": "Cossa",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "Сбер разработал новую reasoning-нейросеть, которая уже доступна пользователям и разработчикам",
+    "link": "https://www.cossa.ru/news/350875/",
+    "desc": "GigaChat 3.5 Reasoning — единственная российская открытая модель, которая последовательно рассуждает перед ответом, работает с цепочками задач и способна исправлять собственные ошибки.",
+    "date": "2026-09-11",
+    "source": "Cossa",
     "cat": "ai",
     "lang": "ru"
   },
@@ -1305,6 +1566,123 @@
     "lang": "ru"
   },
   {
+    "title": "OpenAI приостановит оформление новых подписок ChatGPT Pro из‑за спроса на Astra",
+    "link": "https://habr.com/ru/companies/bothub/news/1081022/?utm_campaign=1081022&utm_source=habrahabr&utm_medium=rss",
+    "desc": "После запуска GPT-6 Astra OpenAI столкнулась с рекордным спросом на новую модель. Об этом сообщил Тибо Сотью. По его словам, интерес к Astra превысил все предыдущие исторические показатели сервиса. Спасибо, что хоть действующие подписки отключать не планируют. Более дешевые тарифы за $20 и $100 п...",
+    "date": "2026-09-10",
+    "source": "Habr AI",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "Программирование с нуля бесплатно: 10 курсов, демодоступов и вебинаров — от тестировщика до ИИ и безопасности",
+    "link": "https://habr.com/ru/companies/netologyru/news/1080954/?utm_campaign=1080954&utm_source=habrahabr&utm_medium=rss",
+    "desc": "Гайдов о том, как войти в IT, — вагон. Беда в другом: почти все ведут в платный марафон или предлагают выучить десять языков за месяц, а с главным вопросом оставляют один на один — в какую сторону двигаться и что из этого можно попробовать бесплатно. Собрали бесплатные способы попробовать себя в ...",
+    "date": "2026-09-10",
+    "source": "Habr AI",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "️ DeepSeek выпустила Flash‑модель, которая убила собственную Pro‑версию",
+    "link": "https://habr.com/ru/companies/koda/news/1080868/?utm_campaign=1080868&utm_source=habrahabr&utm_medium=rss",
+    "desc": "Только что официально вышла DeepSeek V4.1 Flash , и слово Flash здесь означает не «облегчённая», а «зачем теперь вообще нужна Pro». По данным DeepSeek, новая модель превосходит предыдущую V4 Pro одновременно по качеству, скорости, стоимости и времени выполнения задач. Разрыв оказался настолько уб...",
+    "date": "2026-09-10",
+    "source": "Habr AI",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "«Сбер» показал умное зеркало на базе медицинского ассистента GigaDoc",
+    "link": "https://habr.com/ru/news/1080740/?utm_campaign=1080740&utm_source=habrahabr&utm_medium=rss",
+    "desc": "«Сбер» на международной промышленной выставке «Иннопром. Индия» представил умное зеркало на базе медицинского ассистента GigaDoc (проект СберМедИИ, входит в индустрию здоровья «Сбера»). Гаджет за 15 секунд бесконтактно анализирует 17 ключевых показателей здоровья пользователя. Читать далее",
+    "date": "2026-09-10",
+    "source": "Habr AI",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "«Сбер» представил GigaChat 3.5 Reasoning с режимом рассуждений",
+    "link": "https://habr.com/ru/news/1080736/?utm_campaign=1080736&utm_source=habrahabr&utm_medium=rss",
+    "desc": "«Сбер» представил новую версию своей мультимодальной нейросети GigaChat — GigaChat 3.5 Reasoning. В модели появился отдельный режим рассуждений: перед формированием ответа она разбивает задачу на этапы, составляет план решения, при необходимости использует внешние инструменты и проверяет промежут...",
+    "date": "2026-09-10",
+    "source": "Habr AI",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "Несколько спецслужб США выдвинули коллективные обвинения в адрес китайских ИИ‑компаний",
+    "link": "https://habr.com/ru/news/1080732/?utm_campaign=1080732&utm_source=habrahabr&utm_medium=rss",
+    "desc": "Агентство по кибербезопасности и защите инфраструктуры США (CISA) в сотрудничестве с Агентством национальной безопасности и Федеральным бюро расследований выпустило совместное предупреждение о кибербезопасности в области дистилляции знаний. Федеральные агентства указали, что китайские компании в ...",
+    "date": "2026-09-10",
+    "source": "Habr AI",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "DeepSeek V4.1-Flash: новая архитектура, 552 млрд параметров и агентные тесты",
+    "link": "https://habr.com/ru/companies/bothub/news/1080718/?utm_campaign=1080718&utm_source=habrahabr&utm_medium=rss",
+    "desc": "DeepSeek вывела V4.1-Flash — младшую модель новой архитектурной линейки компании. Это MoE-модель на 552 млрд параметров с нативной поддержкой изображений, контекстом до 1 млн токенов и отдельными режимами reasoning. Наиболее интересная часть релиза — архитектурные изменения. DeepSeek перешла к ас...",
+    "date": "2026-09-10",
+    "source": "Habr AI",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "Google планирует за два года направить €13 млрд на развитие цифровой инфраструктуры Финляндии",
+    "link": "https://habr.com/ru/news/1080686/?utm_campaign=1080686&utm_source=habrahabr&utm_medium=rss",
+    "desc": "Google объявила о планах за два года инвестировать €13 млрд в цифровую инфраструктуру, экологически чистую энергетику и развитие местных партнёрств Финляндии. Инвестиции должны обеспечить создание тысяч рабочих мест и профинансировать региональные экологические проекты по всей территории европейс...",
+    "date": "2026-09-10",
+    "source": "Habr AI",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "Google DeepMind открыла базу прогнозов влияния однонуклеотидных изменений в геноме человека",
+    "link": "https://habr.com/ru/news/1080652/?utm_campaign=1080652&utm_source=habrahabr&utm_medium=rss",
+    "desc": "Google DeepMind открыла AlphaGenome Atlas — базу данных, позволяющую прогнозировать последствия любого возможного однонуклеотидного варианта в геноме человека. Для её формирования использовали ИИ‑модель AlphaGenome, чтобы рассчитать влияние всех 9 млрд однонуклеотидных изменений. Читать далее",
+    "date": "2026-09-10",
+    "source": "Habr AI",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "DeepSeek V4.1 Flash: почти вдвое больше параметров и на 57% дешевле кэш",
+    "link": "https://habr.com/ru/news/1080640/?utm_campaign=1080640&utm_source=habrahabr&utm_medium=rss",
+    "desc": "DeepSeek выпустили V4.1 Flash. Количество параметров почти удвоилось: с 284 до 552 млрд. Модель прибавила в тестах на программирование, а чтение из кэша подешевело в 2,3 раза относительно августовских тарифов. По таблице DeepSeek, на Terminal-Bench 4.0 новая Flash набрала 31,2% против 7% у V4-Fla...",
+    "date": "2026-09-10",
+    "source": "Habr AI",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "Исследование: ИИ‑агенты ChatGPT могли извлекать данные из одной учётной записи и передавать их в другую",
+    "link": "https://habr.com/ru/news/1080636/?utm_campaign=1080636&utm_source=habrahabr&utm_medium=rss",
+    "desc": "Компания Check Point Research обнаружила скрытый канал, позволяющий сеансу ChatGPT под одной учётной записью отправлять задачи в совершенно отдельный сеанс другого аккаунта. При этом в беседе обоих пользователей не наблюдалось ничего необычного. Читать далее",
+    "date": "2026-09-10",
+    "source": "Habr AI",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "Сергей Брин вернулся к ручному управлению Google для спасения компании в ИИ‑гонке",
+    "link": "https://habr.com/ru/news/1080624/?utm_campaign=1080624&utm_source=habrahabr&utm_medium=rss",
+    "desc": "Сооснователь Google Сергей Брин создал оперативный штаб в Маунтин‑Вью, где он объединил ключевую команду инженеров. Топ‑менеджер задался целью убрать внутреннюю бюрократию, ускорить разработку флагманской модели Gemini и перехватить инициативу у OpenAI в ИИ‑гонке. Читать далее",
+    "date": "2026-09-10",
+    "source": "Habr AI",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "Система обработки заявок в магазине дополнений Microsoft Edge перегружена из‑за расширений с ИИ",
+    "link": "https://habr.com/ru/news/1080598/?utm_campaign=1080598&utm_source=habrahabr&utm_medium=rss",
+    "desc": "Microsoft решила обновить процесс проверки расширений для Edge, добавив этапы автоматизированного контроля, чтобы ускорить рассмотрение заявок от разработчиков. Компания идёт на эти меры из‑за роста числа сервисов, созданных с помощью ИИ и вайб‑кодинга. Читать далее",
+    "date": "2026-09-10",
+    "source": "Habr AI",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
     "title": "The Boring Company Илона Маска подтвердила привлечение инвестиций при оценке $23 млрд, раунд возглавили ОАЭ — компания построит тоннель в Дубае",
     "link": "https://vc.ru/transport/3128026-the-boring-company-investitsii-tonneli-dubai?from=rss",
     "desc": "Стратегические инвестиции ускорят развёртывание подземной инфраструктуры в ОАЭ, в том числе более 150 км тоннелей, отметила компания.",
@@ -1319,6 +1697,105 @@
     "desc": "9 сентября 2026 года Apple презентовала свой первый складной смартфон.",
     "date": "2026-09-10",
     "source": "vc.ru",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "ITAM как конвейер: как перестать инвентаризировать и начать управлять активами",
+    "link": "https://tproger.ru/articles/itam-kak-konvejer-kak-perestat-inventarizirovat-i-nachat-upra",
+    "desc": "Где ломается учет ИТ-активов, и как выстроить систему, при которой пропажа монитора обнаруживается в момент, когда его выносят из офиса, а не через полгода. — Читать дальше « ITAM как конвейер: как перестать инвентаризировать и начать управлять активами »",
+    "date": "2026-09-10",
+    "source": "Tproger",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "Почему белковая нейронка уже не тянет и кто такой руководитель нового типа",
+    "link": "https://tproger.ru/articles/pochemu-belkovaya-nejronka-uzhe-ne-tyanet-i-kto-takoj-rukovoditel-n",
+    "desc": "ИИ купили все, выиграли единицы. Разбираем, почему инструмент сам по себе не работает, какие три операции стали дефицитом и как выглядит руководитель нового типа. Опыт Льва Шестопалова, Битрикс24. — Читать дальше « Почему белковая нейронка уже не тянет и кто такой руководитель нового типа »",
+    "date": "2026-09-10",
+    "source": "Tproger",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "Эволюция архитектуры страниц данных в СУБД: от NSM до FastLanes",
+    "link": "https://tproger.ru/articles/evolyuciya-arhitektury-stranic-dannyh-v-subd-ot-nsm-do-fastlanes",
+    "desc": "Эволюция файлов данных в СУБД. Хотя NSM уже больше 15 лет, это архитектура продолжает использоваться ведущими СУБД. Рассмотрим какие задачи решает модель PAX и ее оптимизированный вариант FastLanes. — Читать дальше « Эволюция архитектуры страниц данных в СУБД: от NSM до FastLanes »",
+    "date": "2026-09-10",
+    "source": "Tproger",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "Как распознать паспорт на Python за 5 минут",
+    "link": "https://tproger.ru/articles/kak-raspoznat-pasport-na-python-za-5-minut",
+    "desc": "Как распознать паспорт на Python за 5 минут: пошаговая интеграция Smart ID Engine, настройка распознавания паспорта РФ, обработка изображения и получение текстовых и графических данных. — Читать дальше « Как распознать паспорт на Python за 5 минут »",
+    "date": "2026-09-10",
+    "source": "Tproger",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "Apple открыла приём приложений для iOS 27, macOS 27 и других новых ОС",
+    "link": "https://tproger.ru/news/apple-otkryla-priyom-prilozhenij-dlya-ios-27-macos-27-i-drugih-nov",
+    "desc": "В App Store Connect уже можно отправлять приложения для новых ОС Apple. С апреля 2027 года для загрузок начнут действовать новые минимальные требования к SDK. — Читать дальше « Apple открыла приём приложений для iOS 27, macOS 27 и других новых ОС »",
+    "date": "2026-09-10",
+    "source": "Tproger",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "ИИ для подростков: топ-5 курсов в 2026 году",
+    "link": "https://tproger.ru/articles/ii-dlya-podrostkov-top-5-kursov-v-2026-godu",
+    "desc": "Топ-5 курсов по ИИ для подростков: нейросети, промптинг, Python и AI-проекты. Сравниваем школы и рассказываем, как выбрать курс. — Читать дальше « ИИ для подростков: топ-5 курсов в 2026 году »",
+    "date": "2026-09-10",
+    "source": "Tproger",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "Ловушки формального контроля: когда всё соответствует требованиям, но защищенности больше не становится",
+    "link": "https://tproger.ru/articles/lovuwki-formalnogo-kontrolya-kogda-vsyo-sootvetstvuet-trebovaniya",
+    "desc": "Ловушки формального контроля в ИБ: почему соответствие требованиям, наличие СЗИ, MFA, SIEM и регламентов не гарантируют реальной защищенности. Разбираем сценарное тестирование, управление доступом, телеметрию, DLP и автоматическое реагирование. — Читать дальше « Ловушки формального контроля: когд...",
+    "date": "2026-09-10",
+    "source": "Tproger",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "CAPTCHA оказалась для Claude Mythos 5 сложнее задачи на взлом",
+    "link": "https://thecode.media/captcha-okazalas-dlya-claude-mythos-5-slozhnee-zadachi-na-vzlom/",
+    "desc": "Ироничненько вышло Сообщение CAPTCHA оказалась для Claude Mythos 5 сложнее задачи на взлом появились сначала на Журнал «Код» программирование без снобизма .",
+    "date": "2026-09-10",
+    "source": "The Code",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "Представлен одноплатник Mu Ultra размером с кредитку на 115 TOPS для локального ИИ",
+    "link": "https://thecode.media/predstavlen-odnoplatnik-razmerom-s-kreditku-na-115-tops-dlya-ii/",
+    "desc": "Raspberry Pi больше не нужен? Сообщение Представлен одноплатник Mu Ultra размером с кредитку на 115 TOPS для локального ИИ появились сначала на Журнал «Код» программирование без снобизма .",
+    "date": "2026-09-10",
+    "source": "The Code",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "Как выбрать LLM для кода: почему дешёвая модель обойдется дороже",
+    "link": "https://thecode.media/kak-vybrat-llm-dlya-koda/",
+    "desc": "Иногда дёшево выходит дороже, чем дорого Сообщение Как выбрать LLM для кода: почему дешёвая модель обойдется дороже появились сначала на Журнал «Код» программирование без снобизма .",
+    "date": "2026-09-10",
+    "source": "The Code",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "Россиянам придется работать до 4 месяцев ради покупки iPhone Duo и 18 Pro",
+    "link": "https://thecode.media/rossiyanam-pridetsya-rabotat-do-4-mesyacev-radi-pokupki-iphone-duo/",
+    "desc": "И это печально Сообщение Россиянам придется работать до 4 месяцев ради покупки iPhone Duo и 18 Pro появились сначала на Журнал «Код» программирование без снобизма .",
+    "date": "2026-09-10",
+    "source": "The Code",
     "cat": "ai",
     "lang": "ru"
   },
@@ -1665,6 +2142,132 @@
     "lang": "ru"
   },
   {
+    "title": "Anthropic выпустили 3 сценария будущего с ИИ",
+    "link": "https://habr.com/ru/news/1080570/?utm_campaign=1080570&utm_source=habrahabr&utm_medium=rss",
+    "desc": "Красивый сайт и PDF . Если кратко, то к 2030 году ИИ сделает экономику богаче, но неравенство — рекордным: по прогнозу Anthropic, к 2030 году ВВП США может вырасти до +32%, однако безработица среди офисных работников достигнет 18%, а 15% национального дохода уйдёт от людей владельцам технологий. ...",
+    "date": "2026-09-09",
+    "source": "Habr AI",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "Наблюдаемость: где на самом деле теряются миллисекунды",
+    "link": "https://tproger.ru/articles/nablyudaemost-gde-na-samom-dele-teryayutsya-millisekundy",
+    "desc": "Как собрать трассы без правки кода через eBPF, превратить их в метрики по медленным запросам и не принять смену методики за регрессию. Разбираем три слоя с цифрами. — Читать дальше « Наблюдаемость: где на самом деле теряются миллисекунды »",
+    "date": "2026-09-09",
+    "source": "Tproger",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "Chrome перешёл на двухнедельный цикл обновлений",
+    "link": "https://tproger.ru/news/chrome-perewyol-na-dvuhnedelnyj-cikl-obnovlenij",
+    "desc": "Google перевела Chrome на двухнедельный цикл релизов. Изменение ускорит доставку новых функций и исправлений безопасности. — Читать дальше « Chrome перешёл на двухнедельный цикл обновлений »",
+    "date": "2026-09-09",
+    "source": "Tproger",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "Check Point обнаружила канал утечки данных между аккаунтами ChatGPT",
+    "link": "https://tproger.ru/news/check-point-obnaruzhila-kanal-utechki-dannyh-mezhdu-akkauntami-chat",
+    "desc": "Check Point обнаружила скрытый канал между контейнерами разных аккаунтов ChatGPT, который позволял передавать команды и получать данные из подключённых сервисов. — Читать дальше « Check Point обнаружила канал утечки данных между аккаунтами ChatGPT »",
+    "date": "2026-09-09",
+    "source": "Tproger",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "Баги, которые не ловятся тестами: три расследования и общая методика",
+    "link": "https://tproger.ru/articles/bagi-kotorye-ne-lovyatsya-testami-tri-rassledovaniya-i-obshhaya-meto",
+    "desc": "Три расследования редких дефектов: гонка в SQLite, потеря сообщений в TCP и гонки в биллинге. Разбираем общую методику поиска невоспроизводимых багов. — Читать дальше « Баги, которые не ловятся тестами: три расследования и общая методика »",
+    "date": "2026-09-09",
+    "source": "Tproger",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "ИИ для школьников: рейтинг курсов и школ в 2026 году",
+    "link": "https://tproger.ru/articles/ii-dlya-wkolnikov-rejting-kursov-i-wkol-v-2026-godu",
+    "desc": "Рейтинг курсов ИИ для школьников: сравниваем школы, программы, цены, форматы и результаты. Как выбрать обучение нейросетям для ребенка? — Читать дальше « ИИ для школьников: рейтинг курсов и школ в 2026 году »",
+    "date": "2026-09-09",
+    "source": "Tproger",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "Inception выпустила диффузионную модель Mercury 2.5",
+    "link": "https://tproger.ru/news/inception-vypustila-diffuzionnuyu-model-mercury-2-5",
+    "desc": "По данным Inception, Mercury 2.5 выдаёт 1 107 токенов в секунду и поддерживает контекст на 260 тысяч токенов. Модель доступна через Inception API, Baseten и OpenRouter. — Читать дальше « Inception выпустила диффузионную модель Mercury 2.5 »",
+    "date": "2026-09-09",
+    "source": "Tproger",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "Идемпотентность и Outbox: как не выполнить одну операцию дважды",
+    "link": "https://tproger.ru/articles/idempotentnost-i-outbox-kak-ne-vypolnit-odnu-operaciyu-dvazhdy",
+    "desc": "Как сделать ручку идемпотентной, где ломается наивная проверка ключа и зачем нужен transactional outbox. Забирайте код на Python, SQL и Node.js и чеклист. — Читать дальше « Идемпотентность и Outbox: как не выполнить одну операцию дважды »",
+    "date": "2026-09-09",
+    "source": "Tproger",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "Как инженер радиосвязи стал тестировщиком базовых станций",
+    "link": "https://tproger.ru/articles/kak-inzhener-radiosvyazi-stal-testirovshhikom-bazovyh-stancij-2",
+    "desc": "История перехода из радиосвязи в IT: от полевых измерений и стадионов ЧМ-2018 до тестирования базовых станций в YADRO. Как инженерный опыт помогает в новой профессии. — Читать дальше « Как инженер радиосвязи стал тестировщиком базовых станций »",
+    "date": "2026-09-09",
+    "source": "Tproger",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "Джуны больше не нужны? Как войти в профессию, когда рутину забрали нейросети",
+    "link": "https://tproger.ru/articles/dzhuny-bolwe-ne-nuzhny-kak-vojti-v-professiyu-kogda-rutinu-zabra",
+    "desc": "Нейросети заменяют людей на простых задачах, и первыми страдают джуны. Рассказываем, кого это касается, чем грозит рынку и как войти в профессию сегодня. — Читать дальше « Джуны больше не нужны? Как войти в профессию, когда рутину забрали нейросети »",
+    "date": "2026-09-09",
+    "source": "Tproger",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "Apple представила iPhone 18 Pro, складной Duo, AirPods 5 и Apple Watch 12 — итоги презентации",
+    "link": "https://thecode.media/apple-predstavila-iphone-18-pro-skladnoj-duo-airpods-5-i-watch-12/",
+    "desc": "Цены, конечно, кусаются Сообщение Apple представила iPhone 18 Pro, складной Duo, AirPods 5 и Apple Watch 12 — итоги презентации появились сначала на Журнал «Код» программирование без снобизма .",
+    "date": "2026-09-09",
+    "source": "The Code",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "Экс-сотрудник OpenAI и Anthropic обвинил ИИ-компании в угрозе человечеству",
+    "link": "https://thecode.media/eks-sotrudnik-openai-i-anthropic-obvinil-ii-kompanii-v-ugroze-miru/",
+    "desc": "Из-за этого он даже уволился из последней Сообщение Экс-сотрудник OpenAI и Anthropic обвинил ИИ-компании в угрозе человечеству появились сначала на Журнал «Код» программирование без снобизма .",
+    "date": "2026-09-09",
+    "source": "The Code",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "Монолит и микросервисы: как выбрать архитектуру проекта",
+    "link": "https://thecode.media/monolit-ili-mikroservisy/",
+    "desc": "Решения с последствиями для бюджета и команды Сообщение Монолит и микросервисы: как выбрать архитектуру проекта появились сначала на Журнал «Код» программирование без снобизма .",
+    "date": "2026-09-09",
+    "source": "The Code",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "OpenAI обвинили в краже решения задачи тысячелетия Навье—Стокса",
+    "link": "https://thecode.media/openai-obvinili-v-krazhe-resheniya-zadachi-tysyacheletiya-navestoksa/",
+    "desc": "И есть шансы, что все это правда Сообщение OpenAI обвинили в краже решения задачи тысячелетия Навье—Стокса появились сначала на Журнал «Код» программирование без снобизма .",
+    "date": "2026-09-09",
+    "source": "The Code",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
     "title": "Apple Expected to Unveil a Folding iPhone at Annual Launch Event",
     "link": "https://www.nytimes.com/2026/09/08/technology/apple-iphone-event.html",
     "desc": "Fans of the company’s products widely believe it will unveil a folding smartphone at its annual launch event on Wednesday.",
@@ -1728,6 +2331,132 @@
     "lang": "ru"
   },
   {
+    "title": "Fable 5.1, GPT-6 Astra и дешёвые Flash: что брать в API в сентябре 2026",
+    "link": "https://tproger.ru/articles/fable-5-1-gpt-6-astra-i-dewyovye-flash-chto-brat-v-api-v-sentyab",
+    "desc": "Fable 5.1 и GPT-6 Astra по $10/$50, Gemini 3.8 Flash за $0,75, Mercury 2.5 за $0,20, MAI-Transcribe-2 за $0,10 в час: цена задачи, уровни усилия и команды API. — Читать дальше « Fable 5.1, GPT-6 Astra и дешёвые Flash: что брать в API в сентябре 2026 »",
+    "date": "2026-09-08",
+    "source": "Tproger",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "Открытые нейросети сентября 2026 нашлись под любую видеокарту и ноутбук",
+    "link": "https://tproger.ru/articles/otkrytye-nejroseti-sentyabrya-2026-nawlis-pod-lyubuyu-videokartu-i",
+    "desc": "Nex-N2.5-Max на 1,6 трлн, K2 Horizon от 0,9 до 375 млрд, MiniCPM5-2B для ноутбука и замер Quesma: 4-битный Qwen3.8-27B в 17 ГБ без потери качества. — Читать дальше « Открытые нейросети сентября 2026 нашлись под любую видеокарту и ноутбук »",
+    "date": "2026-09-08",
+    "source": "Tproger",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "Anthropic показала, как срезать счёт за Claude без потери качества",
+    "link": "https://tproger.ru/news/anthropic-pokazala-kak-srezat-schyot-za-claude-bez-poteri-kachest",
+    "desc": "Три рычага экономии на Claude Platform: кэш промптов, чистка инструкций и уровень усилия. Команда prompt-audit дала минус 14,6% к цене и плюс 5,3 пункта точности. — Читать дальше « Anthropic показала, как срезать счёт за Claude без потери качества »",
+    "date": "2026-09-08",
+    "source": "Tproger",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "Обвязка важнее модели: три слоя, которые определяют результат",
+    "link": "https://tproger.ru/articles/obvyazka-vazhnee-modeli-tri-sloya-kotorye-opredelyayut-rezultat",
+    "desc": "Почему код вокруг модели влияет на результат сильнее выбора модели: маршрутизация вычислений, автоматические проверки отказов и контроль границ информации. — Читать дальше « Обвязка важнее модели: три слоя, которые определяют результат »",
+    "date": "2026-09-08",
+    "source": "Tproger",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "Модели для кода в 2026: Claude, GPT, Gemini, DeepSeek, Qwen",
+    "link": "https://tproger.ru/articles/modeli-dlya-koda-v-2026-claude-gpt-gemini-deepseek-qwen",
+    "desc": "Сравниваем Claude Opus 5, GPT-6 Astra, Gemini 3.1 Pro, DeepSeek V4 и Qwen3.8 для кода и агентных задач. Как выбрать LLM в 2026 году. — Читать дальше « Модели для кода в 2026: Claude, GPT, Gemini, DeepSeek, Qwen »",
+    "date": "2026-09-08",
+    "source": "Tproger",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "В Kotlin 2.4.20 команду kotlin переименовали в kotlinr",
+    "link": "https://tproger.ru/news/v-kotlin-2-4-20-komandu-kotlin-pereimenovali-v-kotlinr",
+    "desc": "Вышел Kotlin 2.4.20: раннер переименован в kotlinr, webpack 5.108.1 ломает CommonJS-файлы, компилятор получил экспериментальный нативный образ. — Читать дальше « В Kotlin 2.4.20 команду kotlin переименовали в kotlinr »",
+    "date": "2026-09-08",
+    "source": "Tproger",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "Producer-Consumer на Java, Go и Rust: одна задача и три уровня решения",
+    "link": "https://tproger.ru/articles/producer-consumer-na-java-go-i-rust-odna-zadacha-i-tri-urovnya-r",
+    "desc": "Три уровня решения задачи производителя и потребителя: BlockingQueue в Java, каналы в Go и очередь без блокировок на Rust. Разбираемся, какой уровень нужен вам. — Читать дальше « Producer-Consumer на Java, Go и Rust: одна задача и три уровня решения »",
+    "date": "2026-09-08",
+    "source": "Tproger",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "NULL в SQL: почему запрос отрабатывает и молча отдаёт неверное число",
+    "link": "https://tproger.ru/articles/null-v-sql-pochemu-zapros-otrabatyvaet-i-molcha-otdayot-nevernoe-ch",
+    "desc": "Почему WHERE x = NULL не находит строки, как одно пустое значение обнуляет весь NOT IN и на что делится среднее. Разбираем на примерах Postgres. — Читать дальше « NULL в SQL: почему запрос отрабатывает и молча отдаёт неверное число »",
+    "date": "2026-09-08",
+    "source": "Tproger",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "Люди начали массово прятать промты для ИИ в резюме, чтобы обмануть HR",
+    "link": "https://thecode.media/lyudi-nachali-massovo-pryatat-promty-dlya-ii-v-rezyume-chtoby-obmanut-hr/",
+    "desc": "Вечное противостояние бизнеса с работниками вышло на новый уровень Сообщение Люди начали массово прятать промты для ИИ в резюме, чтобы обмануть HR появились сначала на Журнал «Код» программирование без снобизма .",
+    "date": "2026-09-08",
+    "source": "The Code",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "OpenAI обвинили в пиратстве при обучении ИИ — против компании подали иск в суд",
+    "link": "https://thecode.media/openai-obvinili-v-piratstve-pri-obuchenii-ii-i-podali-isk-v-sud/",
+    "desc": "В деле фигурируют торренты Сообщение OpenAI обвинили в пиратстве при обучении ИИ — против компании подали иск в суд появились сначала на Журнал «Код» программирование без снобизма .",
+    "date": "2026-09-08",
+    "source": "The Code",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "Человек впервые за 10 лет выиграл официальную серию у ИИ в го",
+    "link": "https://thecode.media/chelovek-vpervye-za-10-let-vyigral-oficialnuyu-seriyu-u-ii-v-go/",
+    "desc": "Скайнет отменяется Сообщение Человек впервые за 10 лет выиграл официальную серию у ИИ в го появились сначала на Журнал «Код» программирование без снобизма .",
+    "date": "2026-09-08",
+    "source": "The Code",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "АЙNET разработал сервис для анализа видимости брендов в ответах нейросетей",
+    "link": "https://www.cossa.ru/news/350803/",
+    "desc": "Поисковое поведение пользователей изменилось.",
+    "date": "2026-09-08",
+    "source": "Cossa",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "Как паблишерам зарабатывать на AR и VR: монетизация иммерсивного трафика",
+    "link": "https://www.cossa.ru/trends/350779/",
+    "desc": "Встраиваем иммерсивные форматы в существующую модель монетизации и превращаем этот трафик в устойчивый доход.",
+    "date": "2026-09-08",
+    "source": "Cossa",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "Нейросети в дизайн-поддержке: что мы поняли за год экспериментов",
+    "link": "https://www.cossa.ru/trends/350777/",
+    "desc": "Что реально сработало, где ошиблись и какие вопросы до сих пор остаются открытыми.",
+    "date": "2026-09-08",
+    "source": "Cossa",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
     "title": "How a Blacklisted Chinese Tech Giant Kept Buying America’s Best A.I. Chips",
     "link": "https://www.nytimes.com/2026/09/06/technology/ai-chips-china-blacklist.html",
     "desc": "Washington imposed sanctions on Inspur because of its work with the Chinese military. But the company’s subsidiary kept shipping Nvidia’s best chips to feed China’s leading A.I. firms.",
@@ -1771,6 +2500,78 @@
     "source": "NYT Tech",
     "cat": "ai",
     "lang": "en"
+  },
+  {
+    "title": "Инференс под нагрузкой: как обслуживать модель и честно считать её стоимость",
+    "link": "https://tproger.ru/articles/inferens-pod-nagruzkoj-kak-obsluzhivat-model-i-chestno-schitat",
+    "desc": "Куда уходит память видеокарты при инференсе, что дают PagedAttention и непрерывное пакетирование и как посчитать стоимость задачи до запуска. Разбираем с цифрами. — Читать дальше « Инференс под нагрузкой: как обслуживать модель и честно считать её стоимость »",
+    "date": "2026-09-07",
+    "source": "Tproger",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "Microsoft показала Project Zenith: Windows 11 для разработчиков из коробки",
+    "link": "https://tproger.ru/news/microsoft-pokazala-project-zenith-windows-11-dlya-razrabotchikov",
+    "desc": "Project Zenith получит от 64 ГБ единой памяти и полосу от 250 ГБ/с. Microsoft обещает локальные модели от 30 млрд параметров, цены и сроки продаж не названы. — Читать дальше « Microsoft показала Project Zenith: Windows 11 для разработчиков из коробки »",
+    "date": "2026-09-07",
+    "source": "Tproger",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "Mozilla планирует включить Nova в Firefox 157 для всех пользователей",
+    "link": "https://tproger.ru/news/mozilla-planiruet-vklyuchit-nova-v-firefox-157-dlya-vseh-polzovat",
+    "desc": "Релиз браузера намечен на 29 сентября. В Nova вернули компактный режим, а ранний вариант можно проверить через browser.nova.enabled в стабильной версии. — Читать дальше « Mozilla планирует включить Nova в Firefox 157 для всех пользователей »",
+    "date": "2026-09-07",
+    "source": "Tproger",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "В Excelize нашли DoS: файл в 3 КБ занимает OpenFile на минуту",
+    "link": "https://tproger.ru/news/v-excelize-nawli-dos-fajl-v-3-kb-zanimaet-openfile-na-minutu",
+    "desc": "GHSA-jrfj-fhj2-jjvm: Excelize 2.3.1–2.11.0 без ограничений выполняет spinCount итераций из файла. 3 072 байта держат OpenFile 58,65 с, отмены нет, патча нет. — Читать дальше « В Excelize нашли DoS: файл в 3 КБ занимает OpenFile на минуту »",
+    "date": "2026-09-07",
+    "source": "Tproger",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "libheif 1.23.4 закрыла уязвимости при чтении и декодировании HEIF",
+    "link": "https://tproger.ru/news/libheif-1-23-4-zakryla-uyazvimosti-pri-chtenii-i-dekodirovanii-hei",
+    "desc": "libheif 1.23.4 чинит квадратичный разбор iinf (23 МБ файла дают 1,5 ГБ памяти), рекурсию в проверке ссылок, вечный дедлок декодера и падение WebAssembly-сборки. — Читать дальше « libheif 1.23.4 закрыла уязвимости при чтении и декодировании HEIF »",
+    "date": "2026-09-07",
+    "source": "Tproger",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "Nitter продолжит работу после писем X Corp, nitter.net вернётся",
+    "link": "https://tproger.ru/news/nitter-prodolzhit-rabotu-posle-pisem-x-corp-nitter-net-vernyotsya",
+    "desc": "После юридической консультации автор отменил закрытие проекта. RSS зависит от настроек инстанса, а подробности решения разработчик обещает объявить позже. — Читать дальше « Nitter продолжит работу после писем X Corp, nitter.net вернётся »",
+    "date": "2026-09-07",
+    "source": "Tproger",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "Для Android вышла клавиатура, считающая тюремный срок за набранное сообщение",
+    "link": "https://thecode.media/dlya-android-vyshla-klaviatura-schitayushaya-srok-za-vvedennyj-tekst/",
+    "desc": "Интересное применение ИИ Сообщение Для Android вышла клавиатура, считающая тюремный срок за набранное сообщение появились сначала на Журнал «Код» программирование без снобизма .",
+    "date": "2026-09-07",
+    "source": "The Code",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "GPT-6 Astra не справилась с миссией на вертолетике в GTA: Vice City",
+    "link": "https://thecode.media/gpt-6-astra-ne-spravilas-s-missiej-na-vertoletike-v-gta-vice-city/",
+    "desc": "Хоть в чем-то ИИ похож на человека... Сообщение GPT-6 Astra не справилась с миссией на вертолетике в GTA: Vice City появились сначала на Журнал «Код» программирование без снобизма .",
+    "date": "2026-09-07",
+    "source": "The Code",
+    "cat": "ai",
+    "lang": "ru"
   },
   {
     "title": "The Generation That’s Never Had to Say ‘Hello?’",

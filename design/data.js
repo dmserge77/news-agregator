@@ -12,7 +12,7 @@ window.NEWS_DATA = {
     {
       "title": "Linux Zoom client proactively reading everything written to X11 clipboard",
       "link": "https://hachyderm.io/@simontatham/117201594980991062",
-      "desc": "Article URL: https://hachyderm.io/@simontatham/117201594980991062 Comments URL: https://news.ycombinator.com/item?id=49675902 Points: 309 # Comments: 100",
+      "desc": "Article URL: https://hachyderm.io/@simontatham/117201594980991062 Comments URL: https://news.ycombinator.com/item?id=49675902 Points: 319 # Comments: 102",
       "date": "2026-09-12",
       "source": "Hacker News",
       "cat": "design",
@@ -21,18 +21,9 @@ window.NEWS_DATA = {
     {
       "title": "I made a build visualizer to understand Bun's compile times",
       "link": "https://lalitm.com/post/buildprof/",
-      "desc": "Article URL: https://lalitm.com/post/buildprof/ Comments URL: https://news.ycombinator.com/item?id=49672842 Points: 130 # Comments: 24",
+      "desc": "Article URL: https://lalitm.com/post/buildprof/ Comments URL: https://news.ycombinator.com/item?id=49672842 Points: 131 # Comments: 24",
       "date": "2026-09-12",
       "source": "Hacker News",
-      "cat": "design",
-      "lang": "en"
-    },
-    {
-      "title": "The real reason everyone hates the viral AI food slop images",
-      "link": "https://uxdesign.cc/why-people-hate-viral-ai-food-posters-db2b4329ae11?source=rss----138adf9c44c---4",
-      "desc": "We’ve always made food look better than it is. So why does it feel different when AI does it? Continue reading on UX Collective »",
-      "date": "2026-09-12",
-      "source": "UX Collective",
       "cat": "design",
       "lang": "en"
     },
@@ -42,6 +33,15 @@ window.NEWS_DATA = {
       "desc": "Warm & Fuzzy is a feel-good company for creative things.",
       "date": "2026-09-12",
       "source": "Awwwards",
+      "cat": "design",
+      "lang": "en"
+    },
+    {
+      "title": "The real reason everyone hates the viral AI food slop images",
+      "link": "https://uxdesign.cc/why-people-hate-viral-ai-food-posters-db2b4329ae11?source=rss----138adf9c44c---4",
+      "desc": "We’ve always made food look better than it is. So why does it feel different when AI does it? Continue reading on UX Collective »",
+      "date": "2026-09-12",
+      "source": "UX Collective",
       "cat": "design",
       "lang": "en"
     },
@@ -64,6 +64,69 @@ window.NEWS_DATA = {
       "lang": "en"
     },
     {
+      "title": "Как обновиться на Kubernetes 1.37 и не уронить прод",
+      "link": "https://tproger.ru/articles/kak-obnovitsya-na-kubernetes-1-37-i-ne-uronit-prod",
+      "desc": "Перед обновлением Kubernetes 1.37 проверьте static Pods, флаги kubelet и SELinux. Разберите порядок работ с kubeadm и подготовьте восстановление. — Читать дальше « Как обновиться на Kubernetes 1.37 и не уронить прод »",
+      "date": "2026-09-11",
+      "source": "Tproger",
+      "cat": "design",
+      "lang": "ru"
+    },
+    {
+      "title": "Ecommerce: адаптация к рациональному потреблению, CPA снижается на 4,9% при стабильной цене клика",
+      "link": "https://www.cossa.ru/news/350866/",
+      "desc": "Исследование E-Promo .",
+      "date": "2026-09-11",
+      "source": "Cossa",
+      "cat": "design",
+      "lang": "ru"
+    },
+    {
+      "title": "Айдентика: что делает бренд узнаваемым в эпоху перенасыщения рынка",
+      "link": "https://www.cossa.ru/trends/350791/",
+      "desc": "Хороший дизайн давно база, а одним заметным логотипом уже не обойтись. Как выделиться?",
+      "date": "2026-09-11",
+      "source": "Cossa",
+      "cat": "design",
+      "lang": "ru"
+    },
+    {
+      "title": "Геомаркетинг для государства — terra incognita госкоммуникаций",
+      "link": "https://www.cossa.ru/trends/350734/",
+      "desc": "Как отзывы на картах помогают государству услышать реальный голос граждан.",
+      "date": "2026-09-11",
+      "source": "Cossa",
+      "cat": "design",
+      "lang": "ru"
+    },
+    {
+      "title": "Пользователи Битрикс24 смогут работать с сервисом через Алису AI для бизнеса",
+      "link": "https://www.cossa.ru/news/350869/",
+      "desc": "Что нужно для подключения.",
+      "date": "2026-09-11",
+      "source": "Cossa",
+      "cat": "design",
+      "lang": "ru"
+    },
+    {
+      "title": "Где и как бизнесу из России продвигать соцсети в 2026–2027",
+      "link": "https://www.cossa.ru/trends/350799/",
+      "desc": "В каких соцсетях находится основная часть аудитории.",
+      "date": "2026-09-11",
+      "source": "Cossa",
+      "cat": "design",
+      "lang": "ru"
+    },
+    {
+      "title": "White Desert",
+      "link": "https://www.awwwards.com/sites/white-desert",
+      "desc": "White Desert is the world's leading luxury Antarctic expedition company, offering once-in-a-lifetime journeys to the South Pole and Emperor Penguins.",
+      "date": "2026-09-11",
+      "source": "Awwwards",
+      "cat": "design",
+      "lang": "en"
+    },
+    {
       "title": "Building A UX ROI Case That Survives The Boardroom",
       "link": "https://smashingmagazine.com/2026/09/building-ux-roi-case-survives-boardroom/",
       "desc": "Strong UX ideas do not secure investment on their own. Through a worked example, Alex Williams breaks down how to define business value, calculate costs, test causality, and build a credible case for the return on a design initiative. - UX - Design - Business",
@@ -82,15 +145,6 @@ window.NEWS_DATA = {
       "lang": "en"
     },
     {
-      "title": "White Desert",
-      "link": "https://www.awwwards.com/sites/white-desert",
-      "desc": "White Desert is the world's leading luxury Antarctic expedition company, offering once-in-a-lifetime journeys to the South Pole and Emperor Penguins.",
-      "date": "2026-09-11",
-      "source": "Awwwards",
-      "cat": "design",
-      "lang": "en"
-    },
-    {
       "title": "Rebuilding AUTOMATIC1111 with Gradio Workflow",
       "link": "https://huggingface.co/blog/gradio-workflow-1111",
       "desc": "",
@@ -98,6 +152,51 @@ window.NEWS_DATA = {
       "source": "Hugging Face",
       "cat": "design",
       "lang": "en"
+    },
+    {
+      "title": "Внедрение ИИ в индийской Wipro привело к росту производительности, который равен результату работы 20 тысяч сотрудников",
+      "link": "https://habr.com/ru/news/1080930/?utm_campaign=1080930&utm_source=habrahabr&utm_medium=rss",
+      "desc": "Внедрение инструментов искусственного интеллекта в индийской технологической компании Wipro привело к росту производительности, который равен результату работы 20 тыс. сотрудников. Высвободившихся из‑за этого работников направили на другие должности внутри компании, пишет Reuters со ссылкой на то...",
+      "date": "2026-09-10",
+      "source": "Habr AI",
+      "cat": "design",
+      "lang": "ru"
+    },
+    {
+      "title": "Простой RPC на Си для Linux-приложений",
+      "link": "https://tproger.ru/articles/prostoj-rpc-na-si-dlya-linux-prilozhenij",
+      "desc": "Как просто вызвать функцию из другого приложения на Linux. — Читать дальше « Простой RPC на Си для Linux-приложений »",
+      "date": "2026-09-10",
+      "source": "Tproger",
+      "cat": "design",
+      "lang": "ru"
+    },
+    {
+      "title": "Копирайтер как археолог",
+      "link": "https://www.cossa.ru/trends/350832/",
+      "desc": "Серия эссе Влада Ситникова. Сегодня о том, почему в рекламе никто ничего не придумывает.",
+      "date": "2026-09-10",
+      "source": "Cossa",
+      "cat": "design",
+      "lang": "ru"
+    },
+    {
+      "title": "Отчётность без Excel: сократили время на аналитику в 10 раз и научим вас",
+      "link": "https://www.cossa.ru/news/350813/",
+      "desc": "Как заменить надоевшие таблицы Excel одним эффективным дашбордом.",
+      "date": "2026-09-10",
+      "source": "Cossa",
+      "cat": "design",
+      "lang": "ru"
+    },
+    {
+      "title": "Две точки одной сети нельзя рекламировать одинаково. Как мы развели их по ролям",
+      "link": "https://www.cossa.ru/cases/350830/",
+      "desc": "Сеть одна, а точки совсем разные. Масштабирование вместо тихой конкуренции между филиалами.",
+      "date": "2026-09-10",
+      "source": "Cossa",
+      "cat": "design",
+      "lang": "ru"
     },
     {
       "title": "8 voice AIUX patterns",
@@ -154,6 +253,15 @@ window.NEWS_DATA = {
       "lang": "en"
     },
     {
+      "title": "Как сделать B2B-мерч, который вовлечёт команду и продолжит жить",
+      "link": "https://www.cossa.ru/cases/350796/",
+      "desc": "Галстук, который надо исписать: как мерч становится коммуникацией.",
+      "date": "2026-09-09",
+      "source": "Cossa",
+      "cat": "design",
+      "lang": "ru"
+    },
+    {
       "title": "The Death Of The Button: Why The Best Interface Is No Interface",
       "link": "https://smashingmagazine.com/2026/09/death-button-why-best-interface-is-no-interface/",
       "desc": "TThe web is evolving beyond menus, forms, and endless clicks toward experiences shaped around human intent. For UX designers, understanding this shift means re-evaluating their role, moving from designing visible interfaces to guiding transparent, intent-driven AI experiences.",
@@ -195,6 +303,24 @@ window.NEWS_DATA = {
       "desc": "В вашей дизайн-системе могут быть особые требования к внешнему виду скроллбаров. К сожалению, нативные возможности стилизации весьма ограничены, поэтому, если вы сталкивались с подобными требованиями, единственный вариант — делать собственный компонент. Для этого нам нужно решить несколько задач:...",
       "date": "2026-09-08",
       "source": "Habr Веб-дизайн",
+      "cat": "design",
+      "lang": "ru"
+    },
+    {
+      "title": "Как питомец определяет ваше поведение в магазине: исследование «X5 Медиа»",
+      "link": "https://www.cossa.ru/news/350758/",
+      "desc": "Питомец меняет не только распорядок дня, но и покупательские привычки: владельцы животных чаще ходят в магазины и совершают импульсивные покупки.",
+      "date": "2026-09-07",
+      "source": "Cossa",
+      "cat": "design",
+      "lang": "ru"
+    },
+    {
+      "title": "Станислав Кондрашов: в России деньги уходят из рекламы в удержание",
+      "link": "https://www.cossa.ru/trends/350687/",
+      "desc": "Куда переехали бюджеты и что это значит для планов на следующий год.",
+      "date": "2026-09-07",
+      "source": "Cossa",
       "cat": "design",
       "lang": "ru"
     },
@@ -289,20 +415,20 @@ window.NEWS_DATA = {
       "lang": "en"
     },
     {
-      "title": "The Many Faces Of September (2026 Wallpapers Edition)",
-      "link": "https://smashingmagazine.com/2026/08/desktop-wallpaper-calendars-september-2026/",
-      "desc": "Could there be a better way to welcome the new month than with a new collection of desktop wallpapers? Whether you’re holding tightly onto summer or eagerly awaiting autumn, we’ve got some eye-catching designs to make your September just a bit more colorful. Enjoy!",
-      "date": "2026-08-31",
-      "source": "Smashing Magazine",
-      "cat": "design",
-      "lang": "en"
-    },
-    {
       "title": "ERA Residence",
       "link": "https://www.awwwards.com/sites/era-residence",
       "desc": "Contemporary Mediterranean Boutique residences on the New Golden Mile combining architecture, natural materials and resort-style living near Marbella and Estepona.",
       "date": "2026-08-31",
       "source": "Awwwards",
+      "cat": "design",
+      "lang": "en"
+    },
+    {
+      "title": "The Many Faces Of September (2026 Wallpapers Edition)",
+      "link": "https://smashingmagazine.com/2026/08/desktop-wallpaper-calendars-september-2026/",
+      "desc": "Could there be a better way to welcome the new month than with a new collection of desktop wallpapers? Whether you’re holding tightly onto summer or eagerly awaiting autumn, we’ve got some eye-catching designs to make your September just a bit more colorful. Enjoy!",
+      "date": "2026-08-31",
+      "source": "Smashing Magazine",
       "cat": "design",
       "lang": "en"
     },
@@ -370,20 +496,20 @@ window.NEWS_DATA = {
       "lang": "ru"
     },
     {
-      "title": "Rethinking Data Visualisation: A UX Approach To Dashboards That Actually Drives Decisions",
-      "link": "https://smashingmagazine.com/2026/08/rethinking-data-visualisation-ux-approach-dashboards/",
-      "desc": "Data visualisation sits at the intersection of two disciplines that rarely talk to each other: data and design. Meriem Benhabiles explores what changes when you bring structured UX thinking to dashboards and data presentations, from the questions you ask before opening any tool to the decisions t...",
-      "date": "2026-08-26",
-      "source": "Smashing Magazine",
-      "cat": "design",
-      "lang": "en"
-    },
-    {
       "title": "Ai in Design Report 2026",
       "link": "https://www.awwwards.com/sites/ai-in-design-report-2026",
       "desc": "A research report transformed into an editorial digital experience, where data, analysis, and motion speak in a single visual language.",
       "date": "2026-08-26",
       "source": "Awwwards",
+      "cat": "design",
+      "lang": "en"
+    },
+    {
+      "title": "Rethinking Data Visualisation: A UX Approach To Dashboards That Actually Drives Decisions",
+      "link": "https://smashingmagazine.com/2026/08/rethinking-data-visualisation-ux-approach-dashboards/",
+      "desc": "Data visualisation sits at the intersection of two disciplines that rarely talk to each other: data and design. Meriem Benhabiles explores what changes when you bring structured UX thinking to dashboards and data presentations, from the questions you ask before opening any tool to the decisions t...",
+      "date": "2026-08-26",
+      "source": "Smashing Magazine",
       "cat": "design",
       "lang": "en"
     },
@@ -460,20 +586,20 @@ window.NEWS_DATA = {
       "lang": "ru"
     },
     {
-      "title": "Timing Charts: A Blueprint For SMIL Animations",
-      "link": "https://smashingmagazine.com/2026/08/timing-charts-blueprint-smil-animations/",
-      "desc": "Discover SMIL, the often-overlooked way to animate SVGs that works inside ` ` tags and can fully animate everything in an SVG without JavaScript.",
-      "date": "2026-08-20",
-      "source": "Smashing Magazine",
-      "cat": "design",
-      "lang": "en"
-    },
-    {
       "title": "Cipher",
       "link": "https://www.awwwards.com/sites/cipher",
       "desc": "Cipher is a creative production company exploring the space between precision and possibility. This portfolio celebrates craftsmanship and experiments.",
       "date": "2026-08-20",
       "source": "Awwwards",
+      "cat": "design",
+      "lang": "en"
+    },
+    {
+      "title": "Timing Charts: A Blueprint For SMIL Animations",
+      "link": "https://smashingmagazine.com/2026/08/timing-charts-blueprint-smil-animations/",
+      "desc": "Discover SMIL, the often-overlooked way to animate SVGs that works inside ` ` tags and can fully animate everything in an SVG without JavaScript.",
+      "date": "2026-08-20",
+      "source": "Smashing Magazine",
       "cat": "design",
       "lang": "en"
     },

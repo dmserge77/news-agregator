@@ -37,6 +37,33 @@ window.NEWS_DATA = {
       "lang": "ru"
     },
     {
+      "title": "Commit → Query → Test: разыгрываем консультацию",
+      "link": "https://habr.com/ru/companies/usetech/news/1081174/?utm_campaign=1081174&utm_source=habrahabr&utm_medium=rss",
+      "desc": "В сентябре отмечаем сразу три профессиональных праздника: 🎉 9 сентября — День тестировщика 🎉 13 сентября — День программиста 🎉 24 сентября — День системного аналитика В ГК «Юзтех» решили не размениваться на стандартные призы. Вместо мерча и сертификатов разыгрываем то, что действительно двигает к...",
+      "date": "2026-09-11",
+      "source": "Habr AI",
+      "cat": "platform",
+      "lang": "ru"
+    },
+    {
+      "title": "Один фундамент для разных продуктов: как VK выстраивает платформенную разработку",
+      "link": "https://tproger.ru/articles/odin-fundament-dlya-raznyh-produktov-kak-vk-vystraivaet-platform",
+      "desc": "Как VK строит единую платформенную разработку для ВКонтакте, Одноклассников, Дзена, VK Видео и MAX: внутренняя платформа, One-cloud, видеоплатформа и OneAB. — Читать дальше « Один фундамент для разных продуктов: как VK выстраивает платформенную разработку »",
+      "date": "2026-09-11",
+      "source": "Tproger",
+      "cat": "platform",
+      "lang": "ru"
+    },
+    {
+      "title": "Hugging Face выпустила TRL 1.13 с обучением на контексте свыше миллиона токенов",
+      "link": "https://tproger.ru/news/hugging-face-vypustila-trl-1-13-s-obucheniem-na-kontekste-svywe-m",
+      "desc": "TRL 1.13 ускоряет расчёт функции потерь и добавляет пример обучения на контексте свыше миллиона токенов. Из библиотеки удалён устаревший PPOTrainer. — Читать дальше « Hugging Face выпустила TRL 1.13 с обучением на контексте свыше миллиона токенов »",
+      "date": "2026-09-11",
+      "source": "Tproger",
+      "cat": "platform",
+      "lang": "ru"
+    },
+    {
       "title": "The EPA is planning to scrap public review rules for data center pollution",
       "link": "https://capitalbnews.org/data-centers-permit-rules-epa/",
       "desc": "Article URL: https://capitalbnews.org/data-centers-permit-rules-epa/ Comments URL: https://news.ycombinator.com/item?id=49662672 Points: 438 # Comments: 301",
@@ -55,6 +82,24 @@ window.NEWS_DATA = {
       "lang": "ru"
     },
     {
+      "title": "Всероссийская олимпиада по ИИ впервые открыла участие для студентов колледжей",
+      "link": "https://habr.com/ru/news/1080878/?utm_campaign=1080878&utm_source=habrahabr&utm_medium=rss",
+      "desc": "Открылась регистрация на Всероссийскую олимпиаду по искусственному интеллекту. В этом году к участию впервые допустили студентов колледжей, техникумов и училищ. Ранее олимпиада была рассчитана на школьников 8–11 классов и иностранных учащихся. Зарегистрироваться можно до 6 октября на платформе Al...",
+      "date": "2026-09-10",
+      "source": "Habr AI",
+      "cat": "platform",
+      "lang": "ru"
+    },
+    {
+      "title": "Selectel проведет юбилейную флагманскую конференцию Selectel ТехноДень 2026 в Москве",
+      "link": "https://tproger.ru/news/selectel-provedet-yubilejnuyu-flagmanskuyu-konferenciyu-selectel-teh",
+      "desc": "Selectel проведет юбилейную конференцию ТехноДень 2026 8 октября в Москве. Программа: ИИ, инфраструктура, безопасность, данные. Участие бесплатное. — Читать дальше « Selectel проведет юбилейную флагманскую конференцию Selectel ТехноДень 2026 в Москве »",
+      "date": "2026-09-10",
+      "source": "Tproger",
+      "cat": "platform",
+      "lang": "ru"
+    },
+    {
       "title": "IBM releases SOTA Granite Time Series PatchTST-FM-r2 model with commercial-friendly license",
       "link": "https://huggingface.co/blog/ibm-research/ibm-releases-sota-granite-time-series",
       "desc": "",
@@ -62,6 +107,15 @@ window.NEWS_DATA = {
       "source": "Hugging Face",
       "cat": "platform",
       "lang": "en"
+    },
+    {
+      "title": "Suno представила v6 — новое поколение ИИ‑моделей для генерации музыки",
+      "link": "https://habr.com/ru/companies/bothub/news/1080418/?utm_campaign=1080418&utm_source=habrahabr&utm_medium=rss",
+      "desc": "Suno представила новое поколение моделей для генерации музыки — v6. В линейку вошли сразу три версии: флагманская v6, экспериментальная v6-wild и бесплатная v6-mini. По словам разработчиков, новые модели стали быстрее и лучше понимают структуру композиции, вокал, инструменты, настроение и музыкал...",
+      "date": "2026-09-09",
+      "source": "Habr AI",
+      "cat": "platform",
+      "lang": "ru"
     },
     {
       "title": "Safety for Whom? Refusing the Right Subset of a Topic, Not the Whole Topic",
@@ -73,11 +127,29 @@ window.NEWS_DATA = {
       "lang": "en"
     },
     {
+      "title": "Вышла FreeBSD 14.5 с поддержкой Linux API inotify",
+      "link": "https://tproger.ru/news/vywla-freebsd-14-5-s-podderzhkoj-linux-api-inotify",
+      "desc": "FreeBSD 14.5 получила нативный API inotify, LLVM 21.1.8 и изменения для Clang. Релиз доступен с 8 сентября, его поддержка продлится до 30 июня 2027 года. — Читать дальше « Вышла FreeBSD 14.5 с поддержкой Linux API inotify »",
+      "date": "2026-09-08",
+      "source": "Tproger",
+      "cat": "platform",
+      "lang": "ru"
+    },
+    {
       "title": "Пока все следят за Маском, Цукерберг вынужден менять алгоритмы? Соцсети проходят свой «момент Big Tobacco»?",
       "link": "https://habr.com/ru/articles/1079810/?utm_campaign=1079810&utm_source=habrahabr&utm_medium=rss",
       "desc": "Последние недели внимание индустрии приковано к X: 13 августа Илон Маск выложил в открытый доступ веса ранжирования алгоритма «For You» и запустил инструмент «Under the Hood», который прямо показывает пользователю, есть ли ограничения на видимость его постов и почему. Пока все обсуждают честен ли...",
       "date": "2026-09-08",
       "source": "Habr ML",
+      "cat": "platform",
+      "lang": "ru"
+    },
+    {
+      "title": "Блогеры смогут управлять монетизацией контента на разных площадках из одного сервиса  —  Яндекс ПроБлогер",
+      "link": "https://www.cossa.ru/news/350747/",
+      "desc": "Яндекс объединил свои инструменты заработка на контенте в новый сервис Яндекс ПроБлогер. Авторы каналов и блогеры получат «одно окно» для рекламной монетизации и аналитики сразу всех ключевых контент-площадок — Telegram, МАКС, VK, RuTube, YouTube и Дзен. Аналогичных сервисов с таким широким набор...",
+      "date": "2026-09-04",
+      "source": "Cossa",
       "cat": "platform",
       "lang": "ru"
     },

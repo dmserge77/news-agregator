@@ -3,7 +3,7 @@ window.NEWS_DATA = {
     {
       "title": "Why are AI agents lying, cheating and coordinating?",
       "link": "https://yoshuabengio.org/en/publication/why-are-ai-agents-lying-cheating-and-coordinating",
-      "desc": "Article URL: https://yoshuabengio.org/en/publication/why-are-ai-agents-lying-cheating-and-coordinating Comments URL: https://news.ycombinator.com/item?id=49678969 Points: 188 # Comments: 247",
+      "desc": "Article URL: https://yoshuabengio.org/en/publication/why-are-ai-agents-lying-cheating-and-coordinating Comments URL: https://news.ycombinator.com/item?id=49678969 Points: 199 # Comments: 260",
       "date": "2026-09-13",
       "source": "Hacker News",
       "cat": "agent",
@@ -28,9 +28,18 @@ window.NEWS_DATA = {
       "lang": "ru"
     },
     {
+      "title": "Google переводит соучредителя Mechanize и более десятка инженеров в DeepMind",
+      "link": "https://habr.com/ru/news/1081652/?utm_campaign=1081652&utm_source=habrahabr&utm_medium=rss",
+      "desc": "Google завершила сделку по привлечению команды стартапа Mechanize из Сан‑Франциско, специализирующегося на использовании ИИ для написания кода. Теперь в профиле соучредителя Mechanize Тамая Бесироглу в LinkedIn указано, что он работает в подразделении DeepMind. Также стало известно, что туда пере...",
+      "date": "2026-09-13",
+      "source": "Habr AI",
+      "cat": "agent",
+      "lang": "ru"
+    },
+    {
       "title": "AgentsDock: An IDE designed for agentic AI research",
       "link": "https://agentsdock.net/",
-      "desc": "Article URL: https://agentsdock.net/ Comments URL: https://news.ycombinator.com/item?id=49678435 Points: 51 # Comments: 29",
+      "desc": "Article URL: https://agentsdock.net/ Comments URL: https://news.ycombinator.com/item?id=49678435 Points: 54 # Comments: 29",
       "date": "2026-09-12",
       "source": "Hacker News",
       "cat": "agent",
@@ -100,11 +109,101 @@ window.NEWS_DATA = {
       "lang": "ru"
     },
     {
+      "title": "Atlassian добавит в Jira управляемые циклы ИИ-агентов",
+      "link": "https://tproger.ru/news/atlassian-dobavit-v-jira-upravlyaemye-cikly-ii-agentov",
+      "desc": "Jira будет передавать задачи ИИ-агентам, запускать тесты и создавать pull request. Разработчики сохранят контроль над ревью и слиянием кода. — Читать дальше « Atlassian добавит в Jira управляемые циклы ИИ-агентов »",
+      "date": "2026-09-11",
+      "source": "Tproger",
+      "cat": "agent",
+      "lang": "ru"
+    },
+    {
+      "title": "Google выпустила плагин google-cloud-developer для ИИ-агентов",
+      "link": "https://tproger.ru/news/google-vypustila-plagin-google-cloud-developer-dlya-ii-agentov",
+      "desc": "Плагин google-cloud-developer объединяет навыки, рекомендации по работе с gcloud CLI и доступ к официальной документации через MCP. — Читать дальше « Google выпустила плагин google-cloud-developer для ИИ-агентов »",
+      "date": "2026-09-11",
+      "source": "Tproger",
+      "cat": "agent",
+      "lang": "ru"
+    },
+    {
       "title": "Что делает разработчика ценным, когда код всё лучше пишут AI‑агенты",
       "link": "https://habr.com/ru/articles/1081150/?utm_campaign=1081150&utm_source=habrahabr&utm_medium=rss",
       "desc": "За последний год я стал гораздо меньше писать код руками и гораздо больше отдавать AI‑агентам: реализацию, тесты, исследование кодовой базы, поиск вариантов и часть анализа. Это заставило меня пересмотреть довольно простую гипотезу о будущем разработки. Сначала мне казалось, что по мере роста воз...",
       "date": "2026-09-11",
       "source": "Habr AI",
+      "cat": "agent",
+      "lang": "ru"
+    },
+    {
+      "title": "Hugging Face выпустила ML Intern — агента для обучения и публикации моделей",
+      "link": "https://habr.com/ru/news/1081052/?utm_campaign=1081052&utm_source=habrahabr&utm_medium=rss",
+      "desc": "Hugging Face добавила в HuggingChat AI‑агента ML Intern для задач, связанных с машинным обучением. В компании его описывают как автономного ML‑инженера: пользователь формулирует задачу на естественном языке, а агент изучает документацию, подбирает данные и модели, генерирует код, запускает вычисл...",
+      "date": "2026-09-10",
+      "source": "Habr AI",
+      "cat": "agent",
+      "lang": "ru"
+    },
+    {
+      "title": "ГигаКонф 2026: место, где бизнес и разработчики обсудят будущее агентной экономики и генеративной разработки",
+      "link": "https://habr.com/ru/companies/sberbank/news/1080982/?utm_campaign=1080982&utm_source=habrahabr&utm_medium=rss",
+      "desc": "Ежегодная технологическая конференция Сбера ГигаКонф в 2026 году пройдёт в новом формате. Первая часть объединит лидеров бизнеса, определяющих ИИ-стратегию компаний, вторая — инженеров, архитекторов и разработчиков, которые воплощают её в продуктах и процессах. Читать далее",
+      "date": "2026-09-10",
+      "source": "Habr AI",
+      "cat": "agent",
+      "lang": "ru"
+    },
+    {
+      "title": "Рок‑группа Muse лишилась юзернеймов в соцсетях из‑за ИИ‑агента от Meta*",
+      "link": "https://habr.com/ru/news/1080792/?utm_campaign=1080792&utm_source=habrahabr&utm_medium=rss",
+      "desc": "Британская рок‑группа Muse уступила свой хендл @muse в социальных сетях одноимённому агенту на искусственном интеллекте, который в этом месяце представила Meta*. Однако пользователи Reddit обнаружили смену юзернейма группы ещё в июне. Обстоятельства перехода прав собственности на эти аккаунты ост...",
+      "date": "2026-09-10",
+      "source": "Habr AI",
+      "cat": "agent",
+      "lang": "ru"
+    },
+    {
+      "title": "У ИИ‑помощника Instinct появился собственный адрес электронной почты",
+      "link": "https://habr.com/ru/news/1080604/?utm_campaign=1080604&utm_source=habrahabr&utm_medium=rss",
+      "desc": "Новый ИИ‑ассистент Instinct предложит функцию, которая позволит ему действовать от имени пользователя через собственный адрес электронной почты. Агент будет создавать учётные записи и управлять ими самостоятельно, не перегружая при этом личные почтовые ящики клиентов. Читать далее",
+      "date": "2026-09-10",
+      "source": "Habr AI",
+      "cat": "agent",
+      "lang": "ru"
+    },
+    {
+      "title": "OpenClaw 2.0 появился случайно, и мы осознанно выводим его в маркетплейс отдельным образом",
+      "link": "https://habr.com/ru/companies/cloud_ru/news/1080432/?utm_campaign=1080432&utm_source=habrahabr&utm_medium=rss",
+      "desc": "В прошлой статье я рассказывал, как развернуть образ OpenClaw в облаке и не слить ему все свои данные: что мы положили в образ, что сознательно не положили и где проходит граница ответственности. Считайте этот текст второй серией. Повод серьезный: 30 августа OpenClaw Foundation выпустил версию 2....",
+      "date": "2026-09-10",
+      "source": "Habr AI",
+      "cat": "agent",
+      "lang": "ru"
+    },
+    {
+      "title": "Spec Kit 1.0 от GitHub заменяет переписку с ИИ-агентом спекой, плюс десять инструментов для агентов",
+      "link": "https://tproger.ru/news/spec-kit-1-0-i-eshhyo-desyat-ii-repozitoriev-sobravwih-zvyozdy-za-n",
+      "desc": "GitHub довёл Spec Kit до 1.0: 135 тысяч звёзд, 30+ агентов, converge, расширения bug и assess. Рядом ponytail, ECC, humanizer, archify, MiniMind, Magnitude и blender-mcp. — Читать дальше « Spec Kit 1.0 от GitHub заменяет переписку с ИИ-агентом спекой, плюс десять инструментов для агентов »",
+      "date": "2026-09-10",
+      "source": "Tproger",
+      "cat": "agent",
+      "lang": "ru"
+    },
+    {
+      "title": "CISA добавила четыре активно эксплуатируемые уязвимости в каталог KEV",
+      "link": "https://tproger.ru/news/cisa-dobavila-chetyre-aktivno-ekspluatiruemye-uyazvimosti-v-katalo",
+      "desc": "В каталог CISA KEV вошли уязвимости Adobe Commerce, Magento, Windows и N-able N-central. Организациям рекомендуют приоритетно проверить затронутые системы. — Читать дальше « CISA добавила четыре активно эксплуатируемые уязвимости в каталог KEV »",
+      "date": "2026-09-10",
+      "source": "Tproger",
+      "cat": "agent",
+      "lang": "ru"
+    },
+    {
+      "title": "Станислав Кондрашов: при марже в 4% агентство в России продаёт не часы, а ответственность",
+      "link": "https://www.cossa.ru/news/350815/",
+      "desc": "Маржинальность рекламных агентств упала с 30–50% до 4%, а зарплаты в отрасли выросли на 21% за год. Станислав Кондрашов объясняет, почему выход из этой вилки не в оптимизации расходов.",
+      "date": "2026-09-10",
+      "source": "Cossa",
       "cat": "agent",
       "lang": "ru"
     },
@@ -127,6 +226,15 @@ window.NEWS_DATA = {
       "lang": "ru"
     },
     {
+      "title": "PR без событий: как находить инфоповоды в ежедневной работе компании",
+      "link": "https://www.cossa.ru/news/350801/",
+      "desc": "«Хлеба и зрелищ» — запрос, который не теряет актуальности даже спустя тысячи лет. Но что делать бизнесу, если в повестке затишье? Ответ прост: создавать их самостоятельно. Как — знает основатель и CEO коммуникационного агентства PR Development Алла Аксенова.",
+      "date": "2026-09-09",
+      "source": "Cossa",
+      "cat": "agent",
+      "lang": "ru"
+    },
+    {
       "title": "USAvionix",
       "link": "https://www.awwwards.com/sites/usavionix",
       "desc": "The first agent in the air, built with the speed, range, and onboard intelligence to search vast areas on its own.",
@@ -143,6 +251,42 @@ window.NEWS_DATA = {
       "source": "NYT Tech",
       "cat": "agent",
       "lang": "en"
+    },
+    {
+      "title": "Дэн Лу проверил ИИ-агентов: больше тестов не сделало код надёжнее",
+      "link": "https://tproger.ru/news/den-lu-proveril-ii-agentov-bolwe-testov-ne-sdelalo-kod-nadyozhne",
+      "desc": "Дэн Лу сравнил инструкции по тестированию ИИ-кода на Rust. Разбираем, почему зелёные тесты не гарантируют корректность и что проверить при следующем ревью кода. — Читать дальше « Дэн Лу проверил ИИ-агентов: больше тестов не сделало код надёжнее »",
+      "date": "2026-09-08",
+      "source": "Tproger",
+      "cat": "agent",
+      "lang": "ru"
+    },
+    {
+      "title": "Как подключить Qwen3.6-27B к ИИ-агенту: тестируем immers.cloud и запускаем инструменты",
+      "link": "https://tproger.ru/articles/kak-podklyuchit-qwen3-6-27b-k-ii-agentu-testiruem-immers-cloud-i",
+      "desc": "Тестируем Qwen3.6-27B на immers.cloud: публичный и частный API, tool calls и сборка ИИ-агента для разбора инцидентов. Практический гайд. — Читать дальше « Как подключить Qwen3.6-27B к ИИ-агенту: тестируем immers.cloud и запускаем инструменты »",
+      "date": "2026-09-08",
+      "source": "Tproger",
+      "cat": "agent",
+      "lang": "ru"
+    },
+    {
+      "title": "OpenAI решила одну из задач тысячелетия с помощью 10 000 ИИ-агентов за 88 часов",
+      "link": "https://thecode.media/openai-reshila-zadachu-tysyacheletiya-10-000-ii-agentov-i-88-chasov/",
+      "desc": "Звучит впечатляюще Сообщение OpenAI решила одну из задач тысячелетия с помощью 10 000 ИИ-агентов за 88 часов появились сначала на Журнал «Код» программирование без снобизма .",
+      "date": "2026-09-08",
+      "source": "The Code",
+      "cat": "agent",
+      "lang": "ru"
+    },
+    {
+      "title": "Skills, MCP и субагенты: вся база про ИИ-агентов",
+      "link": "https://thecode.media/kak-ustroen-ii-agent/",
+      "desc": "Разбираемся, что подключать и когда Сообщение Skills, MCP и субагенты: вся база про ИИ-агентов появились сначала на Журнал «Код» программирование без снобизма .",
+      "date": "2026-09-08",
+      "source": "The Code",
+      "cat": "agent",
+      "lang": "ru"
     },
     {
       "title": "Seasats",

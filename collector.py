@@ -46,10 +46,14 @@ FEEDS = [
     # Русскоязычные
     {"url": "https://habr.com/ru/rss/hub/artificial_intelligence/?fl=ru", "cat": "ai", "source": "Habr AI"},
     {"url": "https://habr.com/ru/rss/hub/machine_learning/?fl=ru", "cat": "ai", "source": "Habr ML"},
+    {"url": "https://habr.com/ru/rss/hubs/artificial_intelligence/news/?fl=ru", "cat": "ai", "source": "Habr AI"},
     {"url": "https://vc.ru/rss", "cat": "ai", "source": "vc.ru"},
+    {"url": "https://tproger.ru/feed/", "cat": "ai", "source": "Tproger"},
+    {"url": "https://thecode.media/feed/", "cat": "ai", "source": "The Code"},
     # Дизайн
     {"url": "https://habr.com/ru/rss/hubs/web_design/articles/?fl=ru", "cat": "design", "source": "Habr Веб-дизайн"},
     {"url": "https://habr.com/ru/rss/hubs/web_design/news/?fl=ru", "cat": "design", "source": "Habr Веб-дизайн"},
+    {"url": "https://cossa.ru/rss/", "cat": "design", "source": "Cossa"},
     {"url": "https://www.smashingmagazine.com/feed/", "cat": "design", "source": "Smashing Magazine"},
     {"url": "https://uxdesign.cc/feed", "cat": "design", "source": "UX Collective"},
     {"url": "https://www.awwwards.com/feed/", "cat": "design", "source": "Awwwards"},
