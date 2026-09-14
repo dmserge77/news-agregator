@@ -137,8 +137,14 @@ function render() {
   var html = '', lastDate = '';
   for (var i = 0; i < arr.length; i++) {
     var n = arr[i];
+    if (n.date !== lastDate) {
+      if (lastDate !== '') html += '</div>';
+      html += '<div class="date-sep">' + n.date + '</div><div class="news-grid">';
+      lastDate = n.date;
+    }
     html += '<div class="news-card" data-idx="' + i + '"><h3>' + n.title + '</h3><div class="src"><a href="' + n.link + '" target="_blank" rel="noopener">' + n.source + '</a></div></div>';
   }
+  if (lastDate !== '') html += '</div>';
   grid.innerHTML = html;
 }
 
