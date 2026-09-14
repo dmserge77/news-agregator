@@ -50,8 +50,9 @@ ORDER_TYPES = {
 
 # Подкатегории для "Солянка" — каждая отдельная папка
 MISC_TYPES = {
-    "raznoe": {"label": "Разное",   "emoji": "📰", "accent": "#c9762d"},
-    "curio":  {"label": "Курьёзы",  "emoji": "🤪", "accent": "#e3a133"},
+    "raznoe":     {"label": "Разное",           "emoji": "📰", "accent": "#c9762d"},
+    "curio":      {"label": "Курьёзы",          "emoji": "🤪", "accent": "#e3a133"},
+    "unfiltered": {"label": "Не фильтрованное", "emoji": "🍺", "accent": "#8a6d3b"},
 }
 
 FEEDS = [
@@ -84,7 +85,8 @@ FEEDS = [
     {"url": "https://te-st.org/feed/", "cat": "platform", "source": "Теплица соцтех"},
     {"url": "https://dtf.ru/rss/", "cat": "misc", "source": "DTF"},
     {"url": "https://rb.ru/feeds/all/", "cat": "misc", "source": "Rusbase"},
-    {"url": "https://nauka.tass.ru/rss/v2.xml", "cat": "misc", "source": "ТАСС Наука"},
+    # ТАСС Наука убран: это научпоп не про ИИ (рачки, ITER, чёрные дыры),
+    # он не проходил фильтр и оседал мусором в разных рубриках.
     # --- Русскоязычные: техно-медиа (проходят фильтр по ИИ) ---
     {"url": "https://3dnews.ru/news/rss/", "cat": "misc", "source": "3DNews"},
     {"url": "https://hi-tech.mail.ru/rss/all/", "cat": "misc", "source": "Hi-Tech Mail"},
@@ -123,11 +125,15 @@ CAT_KEYWORDS = {
                "photoshop", "illustrator", "логотип", "вебдизайн", "ux/ui", "ui/ux",
                "дизайнер", "нейро-дизайн", "нейросетевой дизайн"],
     "misc": [],
-    "jobs": ["вакансия", "вакансии", "ищем", "требуется", "зарплата", "оплата",
-             "резюме", "собеседование", "оффер", "грейд", "senior", "middle",
-             "junior", "remote", "удалёнка", "гибрид", "full-time", "part-time",
-             "мы ищем", "в команду", "в штат", "зарплатная вилка", "компания ищет",
-             "hh.ru", "headhunter", "трудоустройство", "работа", "подработка"],
+    # ВНИМАНИЕ: не добавлять сюда словоформы вроде «работа»/«подработка» —
+    # они ловятся внутри «работать» и затаскивают в вакансии обычные статьи
+    # («придётся работать до 4 месяцев ради iPhone»). Только точные формы.
+    "jobs": ["вакансия", "вакансии", "вакансий", "ищем", "требуется", "зарплата",
+             "оплата труда", "резюме", "собеседование", "оффер", "грейд", "senior",
+             "middle", "junior", "remote", "удалёнка", "гибрид", "full-time",
+             "part-time", "мы ищем", "в команду", "в штат", "зарплатная вилка",
+             "компания ищет", "hh.ru", "headhunter", "трудоустройство",
+             "подработка", "работа вахтой", "работа удалённо"],
     # Заказы в RSS не приходят — они собираются только через fetch_fl_orders().
     # Здесь пусто, чтобы статьи про фриланс не попадали в рубрику заказов.
     "orders": [],
@@ -168,13 +174,28 @@ FALSE_POSITIVES = [
 ]
 
 
+# Короткие названия, которые нужно искать как отдельные слова:
+# "llama" иначе ловится в домене wisellama.rocks, "sora"/"grok"/"qwen" — в мусорных словах.
+AI_NAMES_WORD = ["llama", "sora", "grok", "qwen", "xai", "mistral", "депсик"]
+
+
 def has_ai_signal(text):
     """Есть ли в тексте явный признак темы ИИ."""
     t = text.lower()
     if any(w in t for w in AI_STRONG):
         return True
     if any(w in t for w in AI_NAMES):
-        return True
+        # Короткие имена проверяем отдельным словом, чтобы не ловить домены
+        # и обычные слова (wisellama.rocks, "sora" в чужом слове).
+        for w in AI_NAMES_WORD:
+            if w not in t:
+                continue
+            if re.search(r"(?<![a-zа-я0-9])" + re.escape(w) + r"(?![a-zа-я0-9])", t):
+                return True
+        # Если ни одно короткое имя не подтвердилось отдельным словом,
+        # проверяем остальные имена обычным вхождением.
+        if any(w in t for w in AI_NAMES if w not in AI_NAMES_WORD):
+            return True
     # "AI" отдельным словом, а не внутри "mail", "said", "captain".
     # Исключение: перечисление графических форматов (svg, ai, pdf, eps) —
     # там "ai" это Adobe Illustrator, а не искусственный интеллект.
@@ -261,6 +282,11 @@ def parse_rss(xml_text, feed):
             continue
         text = title + " " + desc
         cat = classify(text, feed["cat"])
+        # Вакансии из RSS не берём вообще: настоящие вакансии приходят только
+        # с hh.ru (fetch_hh_vacancies). Иначе статьи со словом «работать»
+        # просачивались в рубрику «Вакансии».
+        if cat == "jobs":
+            cat = "misc"
         if not is_ai_relevant(text, cat):
             continue
         item_data = {
@@ -284,6 +310,11 @@ def parse_rss(xml_text, feed):
             continue
         text = title + " " + desc
         cat = classify(text, feed["cat"])
+        # Вакансии из RSS не берём вообще: настоящие вакансии приходят только
+        # с hh.ru (fetch_hh_vacancies). Иначе статьи со словом «работать»
+        # просачивались в рубрику «Вакансии».
+        if cat == "jobs":
+            cat = "misc"
         if not is_ai_relevant(text, cat):
             continue
         entry_data = {
@@ -929,20 +960,51 @@ def main():
             seen_links.add(o["link"])
 
     # 2. Загружаем существующие новости (чтобы не потерять ручные правки).
-    #    Устаревшие заказы (не про ИИ и не про сайты) отбрасываем — иначе
-    #    старый мусор из накопителя возвращался бы в каждую сборку.
-    dropped = 0
+    #    Записи, которые не проходят фильтр, НЕ выбрасываем, а переводим
+    #    в Солянку — подрубрику «Не фильтрованное». Иначе старый мусор
+    #    из накопителя возвращался бы в каждую сборку и портил рубрики.
+    to_unfiltered = []
     for key in CATEGORIES:
         fpath = os.path.join(BASE_DIR, key, "news.json")
         for item in load_news(fpath):
-            if item.get("cat") == "orders" and not is_ai_order(item.get("title", ""), item.get("desc", "")):
-                dropped += 1
+            if item["link"] in seen_links:
                 continue
-            if item["link"] not in seen_links:
-                all_news.append(item)
+            # Заказы проверяются отдельной функцией
+            if item.get("cat") == "orders":
+                if not is_ai_order(item.get("title", ""), item.get("desc", "")):
+                    item["cat"] = "misc"
+                    item["misc_type"] = "unfiltered"
+                    to_unfiltered.append(item)
+                    seen_links.add(item["link"])
+                    continue
+            # Вакансии: остаются только от hh.ru, RSS-статьи уезжают в Солянку
+            elif item.get("cat") == "jobs" and item.get("source") != "hh.ru":
+                item["cat"] = "misc"
+                item["misc_type"] = "unfiltered"
+                to_unfiltered.append(item)
                 seen_links.add(item["link"])
-    if dropped:
-        print(f"  [чистка] отброшено устаревших заказов: {dropped}")
+                continue
+            # Остальные категории проверяются на тему ИИ
+            elif item.get("cat") not in ("jobs", "misc"):
+                text = (item.get("title", "") or "") + " " + (item.get("desc", "") or "")
+                if not is_ai_relevant(text, item.get("cat")):
+                    item["cat"] = "misc"
+                    item["misc_type"] = "unfiltered"
+                    to_unfiltered.append(item)
+                    seen_links.add(item["link"])
+                    continue
+            all_news.append(item)
+            seen_links.add(item["link"])
+
+    if to_unfiltered:
+        # Просто добавляем их к общему потоку: шаг 5 разложит их в misc
+        # и запишет накопитель сам. Отдельно писать misc/news.json здесь
+        # нельзя — шаг 5 всё равно перезапишет файл из filtered.
+        for item in to_unfiltered:
+            item.pop("job_type", None)
+            item.pop("order_type", None)
+            all_news.append(item)
+        print(f"  [сортировка] в «Не фильтрованное» переведено: {len(to_unfiltered)}")
 
     # 3. Фильтр по дате
     cutoff = now_msk() - timedelta(days=MAX_AGE_DAYS)
