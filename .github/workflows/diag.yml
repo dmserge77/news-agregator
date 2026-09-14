@@ -6,21 +6,15 @@ jobs:
   diag:
     runs-on: ubuntu-latest
     steps:
+      - uses: actions/checkout@v4
+
       - name: Пробуем скачать data.js разными способами
         run: |
           echo "=== 1. curl без параметров ==="
           curl -s -o /dev/null -w "code=%{http_code} size=%{size_download}\n" \
             https://dmserge77.github.io/news-agregator/ai/data.js || echo "curl failed"
 
-          echo "=== 2. curl с -L ==="
-          curl -sL -o /dev/null -w "code=%{http_code} size=%{size_download} url=%{url_effective}\n" \
-            https://dmserge77.github.io/news-agregator/ai/data.js || echo "curl failed"
-
-          echo "=== 3. curl с ?nocache ==="
-          curl -s -o /dev/null -w "code=%{http_code} size=%{size_download}\n" \
-            "https://dmserge77.github.io/news-agregator/ai/data.js?nocache=$RANDOM" || echo "curl failed"
-
-          echo "=== 4. Python urllib ==="
+          echo "=== 2. Python urllib — как в стороже, но без nocache ==="
           python3 -c "
           import urllib.request, re
           url='https://dmserge77.github.io/news-agregator/ai/data.js'
@@ -34,5 +28,28 @@ jobs:
               print('FAIL:', type(e).__name__, e)
           "
 
-          echo "=== 5. Корень сайта ==="
-          curl -s -o /dev/null -w "code=%{http_code}\n" https://dmserge77.github.io/news-agregator/ || true
+          echo "=== 3. Python urllib С ?nocache, как в стороже ==="
+          python3 -c "
+          import time, urllib.request, re
+          url='https://dmserge77.github.io/news-agregator/ai/data.js?nocache=%d' % int(time.time())
+          print('url =', url)
+          req=urllib.request.Request(url, headers={
+              'User-Agent':'Mozilla/5.0 (compatible; news-aggregator-watchdog)',
+              'Cache-Control':'no-cache',
+              'Pragma':'no-cache',
+          })
+          try:
+              r=urllib.request.urlopen(req, timeout=30)
+              t=r.read().decode('utf-8','replace')
+              print('OK', r.status, 'len', len(t))
+              m=re.search(r'\"updated\"\s*:\s*\"([^\"]+)\"', t)
+              print('updated =', m.group(1) if m else 'NOT FOUND')
+          except Exception as e:
+              print('FAIL:', type(e).__name__, e)
+          "
+
+          echo "=== 4. curl с теми же заголовками ==="
+          curl -s -o /dev/null -w "code=%{http_code} size=%{size_download}\n" \
+            -A "Mozilla/5.0 (compatible; news-aggregator-watchdog)" \
+            -H "Cache-Control: no-cache" -H "Pragma: no-cache" \
+            "https://dmserge77.github.io/news-agregator/ai/data.js?nocache=$(date +%s)" || echo "curl failed"
