@@ -38,6 +38,17 @@ CATEGORIES = {
 # (вакансии и заказы фильтруются своими отдельными функциями)
 NO_AI_CHECK = {"jobs", "orders"}
 
+# Мёртвые источники: убраны из FEEDS (не про ИИ, ошибочные адреса, закрытые ленты).
+# Их записи уже лежат в накопителях, поэтому одной правки FEEDS мало — старые
+# материалы продолжают висеть на сайте. Фильтруем и на входе (parse_rss),
+# и при загрузке накопителя (main, шаг 2), чтобы они не вернулись ниоткуда.
+#   ТАСС Наука  — научпоп не про ИИ (рачки, ITER, чёрные дыры)
+#   NYT Tech    — отдаёт 404
+#   Cossa       — закрылась
+#   AWS         — лента не отдаётся
+#   vc.ru       — закрыл RSS
+DEAD_SOURCES = {"ТАСС Наука", "NYT Tech", "Cossa", "AWS", "vc.ru"}
+
 # Подкатегории для "Есть заказ" — каждая отдельная папка
 ORDER_TYPES = {
     "sites":     {"label": "Сайты",           "emoji": "🌐", "accent": "#0071e3"},
@@ -273,6 +284,9 @@ def parse_date(date_str):
 def parse_rss(xml_text, feed):
     items = []
     root = ElementTree.fromstring(xml_text)
+    # Мёртвый источник — не читаем вовсе (лента могла вернуться в FEEDS случайно).
+    if feed.get("source") in DEAD_SOURCES:
+        return items
     for item in root.iter("item"):
         title = unescape(item.findtext("title", "")).strip()
         link = item.findtext("link", "").strip()
@@ -964,10 +978,16 @@ def main():
     #    в Солянку — подрубрику «Не фильтрованное». Иначе старый мусор
     #    из накопителя возвращался бы в каждую сборку и портил рубрики.
     to_unfiltered = []
+    dropped_dead = 0
     for key in CATEGORIES:
         fpath = os.path.join(BASE_DIR, key, "news.json")
         for item in load_news(fpath):
             if item["link"] in seen_links:
+                continue
+            # Мёртвые источники выкидываем совсем — они не должны висеть на сайте
+            # ни в рубриках, ни в «Не фильтрованном».
+            if item.get("source") in DEAD_SOURCES:
+                dropped_dead += 1
                 continue
             # Заказы проверяются отдельной функцией
             if item.get("cat") == "orders":
@@ -1005,6 +1025,9 @@ def main():
             item.pop("order_type", None)
             all_news.append(item)
         print(f"  [сортировка] в «Не фильтрованное» переведено: {len(to_unfiltered)}")
+
+    if dropped_dead:
+        print(f"  [чистка] мёртвых источников удалено: {dropped_dead}")
 
     # 3. Фильтр по дате
     cutoff = now_msk() - timedelta(days=MAX_AGE_DAYS)
