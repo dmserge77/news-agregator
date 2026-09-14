@@ -1,5 +1,105 @@
 [
   {
+    "title": "Стажёр AI-дизайнер: визуал, анимация и видео с нейросетями",
+    "link": "https://hh.ru/vacancy/137283053",
+    "desc": "Вакансия компании: MAXCAPITAL Создана: 14.09.2026 Регион: Москва Предполагаемый уровень месячного дохода: не указан",
+    "date": "2026-09-14",
+    "source": "hh.ru",
+    "cat": "jobs",
+    "job_type": "ai_dev",
+    "lang": "ru"
+  },
+  {
+    "title": "MLSecOps / AI Security Engineer",
+    "link": "https://hh.ru/vacancy/130242203",
+    "desc": "Вакансия компании: Росгосстрах Создана: 14.09.2026 Регион: Москва Предполагаемый уровень месячного дохода: не указан",
+    "date": "2026-09-14",
+    "source": "hh.ru",
+    "cat": "jobs",
+    "job_type": "ai_dev",
+    "lang": "ru"
+  },
+  {
+    "title": "AI-native Software Engineer",
+    "link": "https://hh.ru/vacancy/137282136",
+    "desc": "Вакансия компании: НЛ Континент Создана: 14.09.2026 Регион: Новосибирск Предполагаемый уровень месячного дохода: не указан",
+    "date": "2026-09-14",
+    "source": "hh.ru",
+    "cat": "jobs",
+    "job_type": "ai_dev",
+    "lang": "ru"
+  },
+  {
+    "title": "Senior MLOps & BlockchainOps Engineer (DevOps Engineer in AI & Blockchain products)",
+    "link": "https://hh.ru/vacancy/137288377",
+    "desc": "Вакансия компании: Simplenight Создана: 14.09.2026 Регион: Москва Предполагаемый уровень месячного дохода: от 300 000 до 400 000 ₽",
+    "date": "2026-09-14",
+    "source": "hh.ru",
+    "cat": "jobs",
+    "job_type": "ai_dev",
+    "lang": "ru"
+  },
+  {
+    "title": "AI/LLM инженер (г.Архангельск)",
+    "link": "https://hh.ru/vacancy/137006294",
+    "desc": "Вакансия компании: Трактородеталь Создана: 14.09.2026 Регион: Архангельск Предполагаемый уровень месячного дохода: не указан",
+    "date": "2026-09-14",
+    "source": "hh.ru",
+    "cat": "jobs",
+    "job_type": "ai_dev",
+    "lang": "ru"
+  },
+  {
+    "title": "Senior DevSecOps Engineer",
+    "link": "https://hh.ru/vacancy/137287875",
+    "desc": "Вакансия компании: ОТП Банк. IT Создана: 14.09.2026 Регион: Москва Предполагаемый уровень месячного дохода: не указан",
+    "date": "2026-09-14",
+    "source": "hh.ru",
+    "cat": "jobs",
+    "job_type": "ai_dev",
+    "lang": "ru"
+  },
+  {
+    "title": "Fullstack Software engineer (Python + React)",
+    "link": "https://hh.ru/vacancy/137291956",
+    "desc": "Вакансия компании: Сбер. IT Создана: 14.09.2026 Регион: Москва Предполагаемый уровень месячного дохода: не указан",
+    "date": "2026-09-14",
+    "source": "hh.ru",
+    "cat": "jobs",
+    "job_type": "dev",
+    "lang": "ru"
+  },
+  {
+    "title": "Python Tech Lead / Staff Backend Engineer (Payments)",
+    "link": "https://hh.ru/vacancy/136199617",
+    "desc": "Вакансия компании: ТМГТ Создана: 14.09.2026 Регион: Москва Предполагаемый уровень месячного дохода: от 300 000 до 350 000 ₽",
+    "date": "2026-09-14",
+    "source": "hh.ru",
+    "cat": "jobs",
+    "job_type": "dev",
+    "lang": "ru"
+  },
+  {
+    "title": "Senior Data Scientist (AI- агенты)",
+    "link": "https://hh.ru/vacancy/135469867",
+    "desc": "Вакансия компании: Сбер. Data Science Создана: 14.09.2026 Регион: Москва Предполагаемый уровень месячного дохода: не указан",
+    "date": "2026-09-14",
+    "source": "hh.ru",
+    "cat": "jobs",
+    "job_type": "ai_dev",
+    "lang": "ru"
+  },
+  {
+    "title": "AI Finance Specialist",
+    "link": "https://hh.ru/vacancy/136533375",
+    "desc": "Вакансия компании: Softline Создана: 14.09.2026 Регион: Москва Предполагаемый уровень месячного дохода: не указан",
+    "date": "2026-09-14",
+    "source": "hh.ru",
+    "cat": "jobs",
+    "job_type": "ai_dev",
+    "lang": "ru"
+  },
+  {
     "title": "AI Engineer/ AI-Специалист (Middle+ / Senior)",
     "link": "https://hh.ru/vacancy/137063103",
     "desc": "Вакансия компании: CRT Создана: 13.09.2026 Регион: Санкт-Петербург Предполагаемый уровень месячного дохода: не указан",
@@ -50,6 +150,36 @@
     "lang": "ru"
   },
   {
+    "title": "Data Scientist (Middle)",
+    "link": "https://hh.ru/vacancy/137197907",
+    "desc": "Вакансия компании: Farpost IT Создана: 13.09.2026 Регион: Владивосток Предполагаемый уровень месячного дохода: не указан",
+    "date": "2026-09-13",
+    "source": "hh.ru",
+    "cat": "jobs",
+    "job_type": "ai_dev",
+    "lang": "ru"
+  },
+  {
+    "title": "Data Scientist NLP/LLM",
+    "link": "https://hh.ru/vacancy/135521664",
+    "desc": "Вакансия компании: Сбер2B Создана: 13.09.2026 Регион: Москва Предполагаемый уровень месячного дохода: не указан",
+    "date": "2026-09-13",
+    "source": "hh.ru",
+    "cat": "jobs",
+    "job_type": "ai_dev",
+    "lang": "ru"
+  },
+  {
+    "title": "Сценарист вертикальных роликов reels",
+    "link": "https://hh.ru/vacancy/137197294",
+    "desc": "Вакансия компании: LENIVINS.AI Создана: 13.09.2026 Регион: Москва Предполагаемый уровень месячного дохода: не указан",
+    "date": "2026-09-13",
+    "source": "hh.ru",
+    "cat": "jobs",
+    "job_type": "ai_dev",
+    "lang": "ru"
+  },
+  {
     "title": "Robotics Software Engineer (C++, Python, ROS2)",
     "link": "https://hh.ru/vacancy/137011506",
     "desc": "Вакансия компании: Аксион Софт Создана: 13.09.2026 Регион: Москва Предполагаемый уровень месячного дохода: не указан",
@@ -83,36 +213,6 @@
     "title": "Data Scientist",
     "link": "https://hh.ru/vacancy/136327913",
     "desc": "Вакансия компании: Ок Софт Создана: 13.09.2026 Регион: Москва Предполагаемый уровень месячного дохода: не указан",
-    "date": "2026-09-13",
-    "source": "hh.ru",
-    "cat": "jobs",
-    "job_type": "ai_dev",
-    "lang": "ru"
-  },
-  {
-    "title": "Data Scientist NLP/LLM",
-    "link": "https://hh.ru/vacancy/135521664",
-    "desc": "Вакансия компании: Сбер2B Создана: 13.09.2026 Регион: Москва Предполагаемый уровень месячного дохода: не указан",
-    "date": "2026-09-13",
-    "source": "hh.ru",
-    "cat": "jobs",
-    "job_type": "ai_dev",
-    "lang": "ru"
-  },
-  {
-    "title": "Data Scientist (Middle)",
-    "link": "https://hh.ru/vacancy/137197907",
-    "desc": "Вакансия компании: Farpost IT Создана: 13.09.2026 Регион: Владивосток Предполагаемый уровень месячного дохода: не указан",
-    "date": "2026-09-13",
-    "source": "hh.ru",
-    "cat": "jobs",
-    "job_type": "ai_dev",
-    "lang": "ru"
-  },
-  {
-    "title": "Сценарист вертикальных роликов reels",
-    "link": "https://hh.ru/vacancy/137197294",
-    "desc": "Вакансия компании: LENIVINS.AI Создана: 13.09.2026 Регион: Москва Предполагаемый уровень месячного дохода: не указан",
     "date": "2026-09-13",
     "source": "hh.ru",
     "cat": "jobs",
@@ -250,36 +350,6 @@
     "lang": "ru"
   },
   {
-    "title": "Lead Backend Developer / AI Engineer",
-    "link": "https://hh.ru/vacancy/136913942",
-    "desc": "Вакансия компании: CRT Создана: 12.09.2026 Регион: Санкт-Петербург Предполагаемый уровень месячного дохода: не указан",
-    "date": "2026-09-12",
-    "source": "hh.ru",
-    "cat": "jobs",
-    "job_type": "ai_dev",
-    "lang": "ru"
-  },
-  {
-    "title": "Data Scientist в команду RecSys",
-    "link": "https://hh.ru/vacancy/136422402",
-    "desc": "Вакансия компании: Домклик Создана: 12.09.2026 Регион: Москва Предполагаемый уровень месячного дохода: не указан",
-    "date": "2026-09-12",
-    "source": "hh.ru",
-    "cat": "jobs",
-    "job_type": "ai_dev",
-    "lang": "ru"
-  },
-  {
-    "title": "Data Scientist LLM (Middle)",
-    "link": "https://hh.ru/vacancy/136778474",
-    "desc": "Вакансия компании: СберМедИИ Создана: 12.09.2026 Регион: Москва Предполагаемый уровень месячного дохода: не указан",
-    "date": "2026-09-12",
-    "source": "hh.ru",
-    "cat": "jobs",
-    "job_type": "ai_dev",
-    "lang": "ru"
-  },
-  {
     "title": "Data Scientist Middle/Senior Scoring",
     "link": "https://hh.ru/vacancy/136113706",
     "desc": "Вакансия компании: билайн: ИТ Создана: 12.09.2026 Регион: Москва Предполагаемый уровень месячного дохода: не указан",
@@ -293,6 +363,16 @@
     "title": "Прикладной AI-инженер / Специалист по внедрению AI-решений",
     "link": "https://hh.ru/vacancy/136581990",
     "desc": "Вакансия компании: Алф маркет Создана: 12.09.2026 Регион: Москва Предполагаемый уровень месячного дохода: не указан",
+    "date": "2026-09-12",
+    "source": "hh.ru",
+    "cat": "jobs",
+    "job_type": "ai_dev",
+    "lang": "ru"
+  },
+  {
+    "title": "Data Scientist LLM (Middle)",
+    "link": "https://hh.ru/vacancy/136778474",
+    "desc": "Вакансия компании: СберМедИИ Создана: 12.09.2026 Регион: Москва Предполагаемый уровень месячного дохода: не указан",
     "date": "2026-09-12",
     "source": "hh.ru",
     "cat": "jobs",
@@ -330,6 +410,16 @@
     "lang": "ru"
   },
   {
+    "title": "Data Scientist в команду RecSys",
+    "link": "https://hh.ru/vacancy/136422402",
+    "desc": "Вакансия компании: Домклик Создана: 12.09.2026 Регион: Москва Предполагаемый уровень месячного дохода: не указан",
+    "date": "2026-09-12",
+    "source": "hh.ru",
+    "cat": "jobs",
+    "job_type": "ai_dev",
+    "lang": "ru"
+  },
+  {
     "title": "Data Engineer (Data Governance)",
     "link": "https://hh.ru/vacancy/136395955",
     "desc": "Вакансия компании: Digital Chief Создана: 12.09.2026 Регион: Москва Предполагаемый уровень месячного дохода: не указан",
@@ -353,6 +443,16 @@
     "title": "AI-инженер по автоматизации бизнес-процессов / AI Product Engineer",
     "link": "https://hh.ru/vacancy/136762290",
     "desc": "Вакансия компании: Национальная Транспортная Компания Создана: 12.09.2026 Регион: Екатеринбург Предполагаемый уровень месячного дохода: от 150 000 ₽",
+    "date": "2026-09-12",
+    "source": "hh.ru",
+    "cat": "jobs",
+    "job_type": "ai_dev",
+    "lang": "ru"
+  },
+  {
+    "title": "Lead Backend Developer / AI Engineer",
+    "link": "https://hh.ru/vacancy/136913942",
+    "desc": "Вакансия компании: CRT Создана: 12.09.2026 Регион: Санкт-Петербург Предполагаемый уровень месячного дохода: не указан",
     "date": "2026-09-12",
     "source": "hh.ru",
     "cat": "jobs",
@@ -430,39 +530,9 @@
     "lang": "ru"
   },
   {
-    "title": "Back-end / AI Engineer",
-    "link": "https://hh.ru/vacancy/136500537",
-    "desc": "Вакансия компании: Диджитал Лайн Создана: 11.09.2026 Регион: Москва Предполагаемый уровень месячного дохода: от 250 000 до 380 000 ₽",
-    "date": "2026-09-11",
-    "source": "hh.ru",
-    "cat": "jobs",
-    "job_type": "ai_dev",
-    "lang": "ru"
-  },
-  {
-    "title": "Senior Data Scientist",
-    "link": "https://hh.ru/vacancy/137245152",
-    "desc": "Вакансия компании: Сбер. Data Science Создана: 11.09.2026 Регион: Москва Предполагаемый уровень месячного дохода: не указан",
-    "date": "2026-09-11",
-    "source": "hh.ru",
-    "cat": "jobs",
-    "job_type": "ai_dev",
-    "lang": "ru"
-  },
-  {
-    "title": "Data Scientist (Маркетинг)",
-    "link": "https://hh.ru/vacancy/137238740",
-    "desc": "Вакансия компании: Ecom.tech Создана: 11.09.2026 Регион: Москва Предполагаемый уровень месячного дохода: не указан",
-    "date": "2026-09-11",
-    "source": "hh.ru",
-    "cat": "jobs",
-    "job_type": "ai_dev",
-    "lang": "ru"
-  },
-  {
-    "title": "Senior Data Scientist (команда рекомендаций)",
-    "link": "https://hh.ru/vacancy/134991226",
-    "desc": "Вакансия компании: HeadHunter::Analytics/Data Science Создана: 11.09.2026 Регион: Москва Предполагаемый уровень месячного дохода: от 450 000 ₽",
+    "title": "Data Scientist",
+    "link": "https://hh.ru/vacancy/136311467",
+    "desc": "Вакансия компании: Ventra Создана: 11.09.2026 Регион: Москва Предполагаемый уровень месячного дохода: не указан",
     "date": "2026-09-11",
     "source": "hh.ru",
     "cat": "jobs",
@@ -473,6 +543,16 @@
     "title": "Data Scientist (валидация ml моделей)",
     "link": "https://hh.ru/vacancy/137252260",
     "desc": "Вакансия компании: Сбер. IT Создана: 11.09.2026 Регион: Москва Предполагаемый уровень месячного дохода: не указан",
+    "date": "2026-09-11",
+    "source": "hh.ru",
+    "cat": "jobs",
+    "job_type": "ai_dev",
+    "lang": "ru"
+  },
+  {
+    "title": "Senior Data Scientist",
+    "link": "https://hh.ru/vacancy/137245152",
+    "desc": "Вакансия компании: Сбер. Data Science Создана: 11.09.2026 Регион: Москва Предполагаемый уровень месячного дохода: не указан",
     "date": "2026-09-11",
     "source": "hh.ru",
     "cat": "jobs",
@@ -560,9 +640,29 @@
     "lang": "ru"
   },
   {
-    "title": "Data Scientist",
-    "link": "https://hh.ru/vacancy/136311467",
-    "desc": "Вакансия компании: Ventra Создана: 11.09.2026 Регион: Москва Предполагаемый уровень месячного дохода: не указан",
+    "title": "Back-end / AI Engineer",
+    "link": "https://hh.ru/vacancy/136500537",
+    "desc": "Вакансия компании: Диджитал Лайн Создана: 11.09.2026 Регион: Москва Предполагаемый уровень месячного дохода: от 250 000 до 380 000 ₽",
+    "date": "2026-09-11",
+    "source": "hh.ru",
+    "cat": "jobs",
+    "job_type": "ai_dev",
+    "lang": "ru"
+  },
+  {
+    "title": "Data Scientist (Маркетинг)",
+    "link": "https://hh.ru/vacancy/137238740",
+    "desc": "Вакансия компании: Ecom.tech Создана: 11.09.2026 Регион: Москва Предполагаемый уровень месячного дохода: не указан",
+    "date": "2026-09-11",
+    "source": "hh.ru",
+    "cat": "jobs",
+    "job_type": "ai_dev",
+    "lang": "ru"
+  },
+  {
+    "title": "Senior Data Scientist (команда рекомендаций)",
+    "link": "https://hh.ru/vacancy/134991226",
+    "desc": "Вакансия компании: HeadHunter::Analytics/Data Science Создана: 11.09.2026 Регион: Москва Предполагаемый уровень месячного дохода: от 450 000 ₽",
     "date": "2026-09-11",
     "source": "hh.ru",
     "cat": "jobs",
@@ -700,16 +800,6 @@
     "lang": "ru"
   },
   {
-    "title": "MLSecOps / AI Security Engineer",
-    "link": "https://hh.ru/vacancy/130242203",
-    "desc": "Вакансия компании: Росгосстрах Создана: 11.09.2026 Регион: Москва Предполагаемый уровень месячного дохода: не указан",
-    "date": "2026-09-11",
-    "source": "hh.ru",
-    "cat": "jobs",
-    "job_type": "ai_dev",
-    "lang": "ru"
-  },
-  {
     "title": "Data Engineer в AI-команду",
     "link": "https://hh.ru/vacancy/134760348",
     "desc": "Вакансия компании: Домклик Создана: 11.09.2026 Регион: Москва Предполагаемый уровень месячного дохода: не указан",
@@ -790,8 +880,28 @@
     "lang": "ru"
   },
   {
+    "title": "ML Engineer / Data Engineer",
+    "link": "https://hh.ru/vacancy/137205879",
+    "desc": "Вакансия компании: Сбер. IT Создана: 10.09.2026 Регион: Москва Предполагаемый уровень месячного дохода: не указан",
+    "date": "2026-09-10",
+    "source": "hh.ru",
+    "cat": "jobs",
+    "job_type": "ai_dev",
+    "lang": "ru"
+  },
+  {
     "title": "Lead Data Scientist",
     "link": "https://hh.ru/vacancy/137219856",
+    "desc": "Вакансия компании: Сбер. Data Science Создана: 10.09.2026 Регион: Москва Предполагаемый уровень месячного дохода: не указан",
+    "date": "2026-09-10",
+    "source": "hh.ru",
+    "cat": "jobs",
+    "job_type": "ai_dev",
+    "lang": "ru"
+  },
+  {
+    "title": "Middle Data Scientist LLM агенты (Финансы)",
+    "link": "https://hh.ru/vacancy/137202016",
     "desc": "Вакансия компании: Сбер. Data Science Создана: 10.09.2026 Регион: Москва Предполагаемый уровень месячного дохода: не указан",
     "date": "2026-09-10",
     "source": "hh.ru",
@@ -823,26 +933,6 @@
     "title": "AI Prompt Engineer / Prompt Writer",
     "link": "https://hh.ru/vacancy/137219952",
     "desc": "Вакансия компании: Промсельхозбанк Создана: 10.09.2026 Регион: Москва Предполагаемый уровень месячного дохода: не указан",
-    "date": "2026-09-10",
-    "source": "hh.ru",
-    "cat": "jobs",
-    "job_type": "ai_dev",
-    "lang": "ru"
-  },
-  {
-    "title": "ML Engineer / Data Engineer",
-    "link": "https://hh.ru/vacancy/137205879",
-    "desc": "Вакансия компании: Сбер. IT Создана: 10.09.2026 Регион: Москва Предполагаемый уровень месячного дохода: не указан",
-    "date": "2026-09-10",
-    "source": "hh.ru",
-    "cat": "jobs",
-    "job_type": "ai_dev",
-    "lang": "ru"
-  },
-  {
-    "title": "Middle Data Scientist LLM агенты (Финансы)",
-    "link": "https://hh.ru/vacancy/137202016",
-    "desc": "Вакансия компании: Сбер. Data Science Создана: 10.09.2026 Регион: Москва Предполагаемый уровень месячного дохода: не указан",
     "date": "2026-09-10",
     "source": "hh.ru",
     "cat": "jobs",
@@ -1090,26 +1180,6 @@
     "lang": "ru"
   },
   {
-    "title": "Prompt Engineer / AI System Analyst",
-    "link": "https://hh.ru/vacancy/137120199",
-    "desc": "Вакансия компании: Нетбелл Создана: 08.09.2026 Регион: Москва Предполагаемый уровень месячного дохода: не указан",
-    "date": "2026-09-08",
-    "source": "hh.ru",
-    "cat": "jobs",
-    "job_type": "ai_dev",
-    "lang": "ru"
-  },
-  {
-    "title": "Team Lead TrustML",
-    "link": "https://hh.ru/vacancy/134700462",
-    "desc": "Вакансия компании: HeadHunter::Analytics/Data Science Создана: 08.09.2026 Регион: Москва Предполагаемый уровень месячного дохода: не указан",
-    "date": "2026-09-08",
-    "source": "hh.ru",
-    "cat": "jobs",
-    "job_type": "ai_dev",
-    "lang": "ru"
-  },
-  {
     "title": "Middle Data Scientist",
     "link": "https://hh.ru/vacancy/137117372",
     "desc": "Вакансия компании: Нетбелл Создана: 08.09.2026 Регион: Москва Предполагаемый уровень месячного дохода: не указан",
@@ -1123,6 +1193,26 @@
     "title": "Разработчик BigData/Data Engineer",
     "link": "https://hh.ru/vacancy/137119920",
     "desc": "Вакансия компании: Нетбелл Создана: 08.09.2026 Регион: Москва Предполагаемый уровень месячного дохода: не указан",
+    "date": "2026-09-08",
+    "source": "hh.ru",
+    "cat": "jobs",
+    "job_type": "ai_dev",
+    "lang": "ru"
+  },
+  {
+    "title": "Prompt Engineer / AI System Analyst",
+    "link": "https://hh.ru/vacancy/137120199",
+    "desc": "Вакансия компании: Нетбелл Создана: 08.09.2026 Регион: Москва Предполагаемый уровень месячного дохода: не указан",
+    "date": "2026-09-08",
+    "source": "hh.ru",
+    "cat": "jobs",
+    "job_type": "ai_dev",
+    "lang": "ru"
+  },
+  {
+    "title": "Team Lead TrustML",
+    "link": "https://hh.ru/vacancy/134700462",
+    "desc": "Вакансия компании: HeadHunter::Analytics/Data Science Создана: 08.09.2026 Регион: Москва Предполагаемый уровень месячного дохода: не указан",
     "date": "2026-09-08",
     "source": "hh.ru",
     "cat": "jobs",
@@ -1270,9 +1360,9 @@
     "lang": "ru"
   },
   {
-    "title": "Инженер по искусственному интеллекту (ML engineer/AI engineer)",
-    "link": "https://hh.ru/vacancy/136895011",
-    "desc": "Вакансия компании: ББР Банк Создана: 02.09.2026 Регион: Москва Предполагаемый уровень месячного дохода: не указан",
+    "title": "Стажёр Data Scientist (uplift & causal inference)",
+    "link": "https://hh.ru/vacancy/136882044",
+    "desc": "Вакансия компании: Сбер. Начало карьеры Создана: 02.09.2026 Регион: Москва Предполагаемый уровень месячного дохода: до 80 000 ₽",
     "date": "2026-09-02",
     "source": "hh.ru",
     "cat": "jobs",
@@ -1280,9 +1370,9 @@
     "lang": "ru"
   },
   {
-    "title": "Стажёр Data Scientist (uplift & causal inference)",
-    "link": "https://hh.ru/vacancy/136882044",
-    "desc": "Вакансия компании: Сбер. Начало карьеры Создана: 02.09.2026 Регион: Москва Предполагаемый уровень месячного дохода: до 80 000 ₽",
+    "title": "Инженер по искусственному интеллекту (ML engineer/AI engineer)",
+    "link": "https://hh.ru/vacancy/136895011",
+    "desc": "Вакансия компании: ББР Банк Создана: 02.09.2026 Регион: Москва Предполагаемый уровень месячного дохода: не указан",
     "date": "2026-09-02",
     "source": "hh.ru",
     "cat": "jobs",

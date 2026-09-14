@@ -1,19 +1,10 @@
 [
   {
-    "title": "AI recursive self-improvement might not come so quickly after all (August 2026)",
-    "link": "https://www.technologyreview.com/2026/08/18/1142188/ai-recursive-self-improvement/",
-    "desc": "Article URL: https://www.technologyreview.com/2026/08/18/1142188/ai-recursive-self-improvement/ Comments URL: https://news.ycombinator.com/item?id=49687334 Points: 19 # Comments: 15",
+    "title": "Writing a Guix service from scratch, as a beginner",
+    "link": "https://aloysberger.com/posts/writing-a-guix-service-from-scratch-as-a-beginner.html",
+    "desc": "Comments",
     "date": "2026-09-13",
-    "source": "Hacker News",
-    "cat": "design",
-    "lang": "en"
-  },
-  {
-    "title": "Cpak – OCI application package format for Linux desktops, servers and devices",
-    "link": "https://cpak.it/",
-    "desc": "Article URL: https://cpak.it/ Comments URL: https://news.ycombinator.com/item?id=49684778 Points: 35 # Comments: 11",
-    "date": "2026-09-13",
-    "source": "Hacker News",
+    "source": "Lobsters",
     "cat": "design",
     "lang": "en"
   },
@@ -21,6 +12,15 @@
     "title": "Switching to GNU Guix: A Beginner's Perspective",
     "link": "https://whhone.com/posts/switching-to-gnu-guix/",
     "desc": "Comments",
+    "date": "2026-09-13",
+    "source": "Lobsters",
+    "cat": "design",
+    "lang": "en"
+  },
+  {
+    "title": "Singeli: High-level interface for low-level programming",
+    "link": "https://github.com/mlochbaum/Singeli",
+    "desc": "Singeli is a domain-specific language for building high-performance algorithms (including SIMD) with flexible abstractions over code that corresponds to individual instructions. It's implemented in BQN, with a frontend that emits IR and a backend that converts it to C (the IR is simple, so that o...",
     "date": "2026-09-13",
     "source": "Lobsters",
     "cat": "design",
@@ -45,17 +45,26 @@
     "lang": "en"
   },
   {
-    "title": "I made a build visualizer to understand Bun’s compile times",
-    "link": "https://lalitm.com/post/buildprof/",
-    "desc": "Comments",
-    "date": "2026-09-12",
-    "source": "Lobsters",
+    "title": "AI recursive self-improvement might not come so quickly after all (August 2026)",
+    "link": "https://www.technologyreview.com/2026/08/18/1142188/ai-recursive-self-improvement/",
+    "desc": "Article URL: https://www.technologyreview.com/2026/08/18/1142188/ai-recursive-self-improvement/ Comments URL: https://news.ycombinator.com/item?id=49687334 Points: 19 # Comments: 15",
+    "date": "2026-09-13",
+    "source": "Hacker News",
     "cat": "design",
     "lang": "en"
   },
   {
-    "title": "Linux Zoom Client Proactively Reads X11 Clipboard",
-    "link": "https://hachyderm.io/@simontatham/117201594980991062",
+    "title": "Cpak – OCI application package format for Linux desktops, servers and devices",
+    "link": "https://cpak.it/",
+    "desc": "Article URL: https://cpak.it/ Comments URL: https://news.ycombinator.com/item?id=49684778 Points: 35 # Comments: 11",
+    "date": "2026-09-13",
+    "source": "Hacker News",
+    "cat": "design",
+    "lang": "en"
+  },
+  {
+    "title": "I made a build visualizer to understand Bun’s compile times",
+    "link": "https://lalitm.com/post/buildprof/",
     "desc": "Comments",
     "date": "2026-09-12",
     "source": "Lobsters",
@@ -77,6 +86,15 @@
     "desc": "Warm & Fuzzy is a feel-good company for creative things.",
     "date": "2026-09-12",
     "source": "Awwwards",
+    "cat": "design",
+    "lang": "en"
+  },
+  {
+    "title": "Linux Zoom Client Proactively Reads X11 Clipboard",
+    "link": "https://hachyderm.io/@simontatham/117201594980991062",
+    "desc": "Comments",
+    "date": "2026-09-12",
+    "source": "Lobsters",
     "cat": "design",
     "lang": "en"
   },
@@ -1148,42 +1166,6 @@
     "desc": "",
     "date": "2026-06-17",
     "source": "Hugging Face",
-    "cat": "design",
-    "lang": "en"
-  },
-  {
-    "title": "Заменит ли умная строка традиционные графические интерфейсы? История смены парадигм в интерфейсостроении",
-    "link": "https://habr.com/ru/companies/ozontech/articles/1047914/?utm_campaign=1047914&utm_source=habrahabr&utm_medium=rss",
-    "desc": "Весь этот шум вокруг AI заставляет задуматься, а выживут ли традиционные интерфейсы с окнами и кнопками. Не окажется ли, что через несколько лет основным интерфейсом станет одна умная строка, в которую мы просто пишем или говорим, что хотим получить? Я думаю, что графические интерфейсы не исчезну...",
-    "date": "2026-06-16",
-    "source": "Habr Веб-дизайн",
-    "cat": "design",
-    "lang": "ru"
-  },
-  {
-    "title": "Линия в дизайне: как направление управляет вниманием и ощущением движения",
-    "link": "https://habr.com/ru/companies/severstal/articles/1048254/?utm_campaign=1048254&utm_source=habrahabr&utm_medium=rss",
-    "desc": "Линия — это движение. Даже в самых простых интерфейсах линия почти всегда присутствует. Именно она определяет, как пользователь «читает» интерфейс и куда движется его взгляд. Исследуем, как линия управляет вниманием пользователя. Больше о линиях",
-    "date": "2026-06-16",
-    "source": "Habr Веб-дизайн",
-    "cat": "design",
-    "lang": "ru"
-  },
-  {
-    "title": "Сабглифы, гайдлайн на 50 страниц и 2500 иконок: пересобрали всю систему, когда «просто» захотели освежить иконки",
-    "link": "https://habr.com/ru/companies/alfa/articles/1048062/?utm_campaign=1048062&utm_source=habrahabr&utm_medium=rss",
-    "desc": "Привет друзья! Меня зовут Тима, я дизайнер в дизайн-системе Альфа-Бизнес. Когда в крупном финтех-продукте заходит речь об обновлении иконок, со стороны это кажется легкой творческой задачей на пару недель: сел, порисовал в Figma, выгрузил — готово. Но в реальности бигтеха любая попытка просто «ос...",
-    "date": "2026-06-16",
-    "source": "Habr Веб-дизайн",
-    "cat": "design",
-    "lang": "ru"
-  },
-  {
-    "title": "Designing With Uncertainty: How AI Supercharges Probabilistic Thinking",
-    "link": "https://smashingmagazine.com/2026/06/designing-uncertainty-how-ai-supercharges-probabilistic-thinking/",
-    "desc": "In a world where AI is informing more design choices, it’s easy to mistake predictions for certainties. This article introduces Probabilistic Design, a mindset that allows UX and product teams to accept uncertainty, decipher AI outputs with nuance, and make smart, adaptive decisions.",
-    "date": "2026-06-16",
-    "source": "Smashing Magazine",
     "cat": "design",
     "lang": "en"
   }

@@ -1,9 +1,18 @@
 [
   {
+    "title": "Chess.com Leak Exposes 7.3M Users, Evidence Points to Scraping",
+    "link": "https://securityaffairs.com/197174/breaking-news/chess-com-leak-exposes-7-3-million-users-evidence-points-to-scraping.html",
+    "desc": "Article URL: https://securityaffairs.com/197174/breaking-news/chess-com-leak-exposes-7-3-million-users-evidence-points-to-scraping.html Comments URL: https://news.ycombinator.com/item?id=49691584 Points: 40 # Comments: 12",
+    "date": "2026-09-14",
+    "source": "Hacker News",
+    "cat": "platform",
+    "lang": "en"
+  },
+  {
     "title": "backendlessConf_ 2019",
     "link": "https://vercel.com/blog/our-first-online-conference",
     "desc": "",
-    "date": "2026-09-13",
+    "date": "2026-09-14",
     "source": "Vercel",
     "cat": "platform",
     "lang": "en"
@@ -12,7 +21,7 @@
     "title": "Branch Domains",
     "link": "https://vercel.com/blog/branch-domains",
     "desc": "",
-    "date": "2026-09-13",
+    "date": "2026-09-14",
     "source": "Vercel",
     "cat": "platform",
     "lang": "en"
@@ -21,7 +30,7 @@
     "title": "December 2019",
     "link": "https://vercel.com/blog/changelog-december-2019",
     "desc": "",
-    "date": "2026-09-13",
+    "date": "2026-09-14",
     "source": "Vercel",
     "cat": "platform",
     "lang": "en"
@@ -30,7 +39,7 @@
     "title": "Vercel for Bitbucket",
     "link": "https://vercel.com/blog/bitbucket",
     "desc": "",
-    "date": "2026-09-13",
+    "date": "2026-09-14",
     "source": "Vercel",
     "cat": "platform",
     "lang": "en"
@@ -39,7 +48,7 @@
     "title": "Dashboard redesign",
     "link": "https://vercel.com/blog/dashboard-redesign",
     "desc": "",
-    "date": "2026-09-13",
+    "date": "2026-09-14",
     "source": "Vercel",
     "cat": "platform",
     "lang": "en"
@@ -48,7 +57,7 @@
     "title": "Introducing the Deploy Button",
     "link": "https://vercel.com/blog/deploy-button",
     "desc": "",
-    "date": "2026-09-13",
+    "date": "2026-09-14",
     "source": "Vercel",
     "cat": "platform",
     "lang": "en"
@@ -57,7 +66,7 @@
     "title": "Inspecting Serverless Functions",
     "link": "https://vercel.com/blog/functions-tab",
     "desc": "",
-    "date": "2026-09-13",
+    "date": "2026-09-14",
     "source": "Vercel",
     "cat": "platform",
     "lang": "en"
@@ -66,7 +75,7 @@
     "title": "Customizing Serverless Functions",
     "link": "https://vercel.com/blog/customizing-serverless-functions",
     "desc": "",
-    "date": "2026-09-13",
+    "date": "2026-09-14",
     "source": "Vercel",
     "cat": "platform",
     "lang": "en"
@@ -75,7 +84,7 @@
     "title": "November 2019",
     "link": "https://vercel.com/blog/changelog-november-2019",
     "desc": "",
-    "date": "2026-09-13",
+    "date": "2026-09-14",
     "source": "Vercel",
     "cat": "platform",
     "lang": "en"
@@ -84,7 +93,7 @@
     "title": "Default Production Domain",
     "link": "https://vercel.com/blog/default-production-domain",
     "desc": "",
-    "date": "2026-09-13",
+    "date": "2026-09-14",
     "source": "Vercel",
     "cat": "platform",
     "lang": "en"
@@ -93,7 +102,7 @@
     "title": "Redirecting Domains",
     "link": "https://vercel.com/blog/redirecting-domains",
     "desc": "",
-    "date": "2026-09-13",
+    "date": "2026-09-14",
     "source": "Vercel",
     "cat": "platform",
     "lang": "en"
@@ -102,7 +111,7 @@
     "title": "Advanced Invoice Settings",
     "link": "https://vercel.com/blog/advanced-invoice-settings",
     "desc": "",
-    "date": "2026-09-13",
+    "date": "2026-09-14",
     "source": "Vercel",
     "cat": "platform",
     "lang": "en"
@@ -111,7 +120,7 @@
     "title": "October 2019",
     "link": "https://vercel.com/blog/changelog-october-2019",
     "desc": "",
-    "date": "2026-09-13",
+    "date": "2026-09-14",
     "source": "Vercel",
     "cat": "platform",
     "lang": "en"
@@ -120,7 +129,7 @@
     "title": "Introducing Wildcard Domains",
     "link": "https://vercel.com/blog/wildcard-domains",
     "desc": "",
-    "date": "2026-09-13",
+    "date": "2026-09-14",
     "source": "Vercel",
     "cat": "platform",
     "lang": "en"
@@ -129,7 +138,7 @@
     "title": "Deploy Summary Integration",
     "link": "https://vercel.com/blog/deploy-summary",
     "desc": "",
-    "date": "2026-09-13",
+    "date": "2026-09-14",
     "source": "Vercel",
     "cat": "platform",
     "lang": "en"
@@ -138,7 +147,7 @@
     "title": "Zero Config Deployments",
     "link": "https://vercel.com/blog/zero-config",
     "desc": "",
-    "date": "2026-09-13",
+    "date": "2026-09-14",
     "source": "Vercel",
     "cat": "platform",
     "lang": "en"
@@ -147,7 +156,7 @@
     "title": "Introducing Deploy Hooks",
     "link": "https://vercel.com/blog/introducing-deploy-hooks",
     "desc": "",
-    "date": "2026-09-13",
+    "date": "2026-09-14",
     "source": "Vercel",
     "cat": "platform",
     "lang": "en"
@@ -156,7 +165,7 @@
     "title": "Node.js 10 is Now Available",
     "link": "https://vercel.com/blog/node-10",
     "desc": "",
-    "date": "2026-09-13",
+    "date": "2026-09-14",
     "source": "Vercel",
     "cat": "platform",
     "lang": "en"
@@ -165,7 +174,7 @@
     "title": "Helpers for Serverless Node.js Functions",
     "link": "https://vercel.com/blog/vercel-node-helpers",
     "desc": "",
-    "date": "2026-09-13",
+    "date": "2026-09-14",
     "source": "Vercel",
     "cat": "platform",
     "lang": "en"
@@ -174,7 +183,7 @@
     "title": "Vercel Hackathon Winners",
     "link": "https://vercel.com/blog/hackathon-winners",
     "desc": "",
-    "date": "2026-09-13",
+    "date": "2026-09-14",
     "source": "Vercel",
     "cat": "platform",
     "lang": "en"
@@ -183,7 +192,7 @@
     "title": "Windows Support for `vercel dev`",
     "link": "https://vercel.com/blog/vercel-dev-windows",
     "desc": "",
-    "date": "2026-09-13",
+    "date": "2026-09-14",
     "source": "Vercel",
     "cat": "platform",
     "lang": "en"
@@ -192,7 +201,7 @@
     "title": "Introducing Serverless Pre-Rendering (SPR)",
     "link": "https://vercel.com/blog/serverless-pre-rendering",
     "desc": "",
-    "date": "2026-09-13",
+    "date": "2026-09-14",
     "source": "Vercel",
     "cat": "platform",
     "lang": "en"
@@ -201,7 +210,7 @@
     "title": "Introducing `vercel dev`: Serverless, on localhost",
     "link": "https://vercel.com/blog/vercel-dev",
     "desc": "",
-    "date": "2026-09-13",
+    "date": "2026-09-14",
     "source": "Vercel",
     "cat": "platform",
     "lang": "en"
@@ -210,7 +219,7 @@
     "title": "Automatic SSL with Vercel and Let's Encrypt",
     "link": "https://vercel.com/blog/automatic-ssl-with-vercel-lets-encrypt",
     "desc": "",
-    "date": "2026-09-13",
+    "date": "2026-09-14",
     "source": "Vercel",
     "cat": "platform",
     "lang": "en"
@@ -219,7 +228,7 @@
     "title": "Auto Job Cancellation for Vercel for GitHub",
     "link": "https://vercel.com/blog/auto-job-cancellation-for-vercel-github",
     "desc": "",
-    "date": "2026-09-13",
+    "date": "2026-09-14",
     "source": "Vercel",
     "cat": "platform",
     "lang": "en"
@@ -228,7 +237,7 @@
     "title": "Next.js 6.1",
     "link": "https://vercel.com/blog/next6-1",
     "desc": "",
-    "date": "2026-09-13",
+    "date": "2026-09-14",
     "source": "Vercel",
     "cat": "platform",
     "lang": "en"
@@ -237,7 +246,7 @@
     "title": "Next.js 6 and Nextjs.org",
     "link": "https://vercel.com/blog/next6",
     "desc": "",
-    "date": "2026-09-13",
+    "date": "2026-09-14",
     "source": "Vercel",
     "cat": "platform",
     "lang": "en"
@@ -246,7 +255,7 @@
     "title": "Next.js 5.1: Faster Page Resolution",
     "link": "https://vercel.com/blog/next5-1",
     "desc": "",
-    "date": "2026-09-13",
+    "date": "2026-09-14",
     "source": "Vercel",
     "cat": "platform",
     "lang": "en"
@@ -255,7 +264,7 @@
     "title": "Next.js 5: Universal Webpack, CSS Imports, Plugins and Zones",
     "link": "https://vercel.com/blog/next5",
     "desc": "",
-    "date": "2026-09-13",
+    "date": "2026-09-14",
     "source": "Vercel",
     "cat": "platform",
     "lang": "en"
@@ -264,7 +273,7 @@
     "title": "Towards Next.js 5: Introducing Canary Updates",
     "link": "https://vercel.com/blog/next-canary",
     "desc": "",
-    "date": "2026-09-13",
+    "date": "2026-09-14",
     "source": "Vercel",
     "cat": "platform",
     "lang": "en"
@@ -273,7 +282,7 @@
     "title": "Next.js 4: React 16 and styled-jsx 2",
     "link": "https://vercel.com/blog/next4",
     "desc": "",
-    "date": "2026-09-13",
+    "date": "2026-09-14",
     "source": "Vercel",
     "cat": "platform",
     "lang": "en"
@@ -282,7 +291,7 @@
     "title": "Next.js 3.0",
     "link": "https://vercel.com/blog/next3",
     "desc": "",
-    "date": "2026-09-13",
+    "date": "2026-09-14",
     "source": "Vercel",
     "cat": "platform",
     "lang": "en"
@@ -291,7 +300,7 @@
     "title": "Next 3.0 Preview: Static Exports and Dynamic Imports",
     "link": "https://vercel.com/blog/next3-preview",
     "desc": "",
-    "date": "2026-09-13",
+    "date": "2026-09-14",
     "source": "Vercel",
     "cat": "platform",
     "lang": "en"
@@ -300,7 +309,7 @@
     "title": "Next.js 2.0",
     "link": "https://vercel.com/blog/next2",
     "desc": "",
-    "date": "2026-09-13",
+    "date": "2026-09-14",
     "source": "Vercel",
     "cat": "platform",
     "lang": "en"
@@ -309,7 +318,7 @@
     "title": "Next.js",
     "link": "https://vercel.com/blog/next",
     "desc": "",
-    "date": "2026-09-13",
+    "date": "2026-09-14",
     "source": "Vercel",
     "cat": "platform",
     "lang": "en"
@@ -3157,50 +3166,5 @@
     "source": "Vercel",
     "cat": "platform",
     "lang": "en"
-  },
-  {
-    "title": "Vercel Sandbox can now run for up to 24 hours",
-    "link": "https://vercel.com/changelog/vercel-sandbox-can-now-run-for-up-to-24-hours",
-    "desc": "",
-    "date": "2026-06-16",
-    "source": "Vercel",
-    "cat": "platform",
-    "lang": "en"
-  },
-  {
-    "title": "GLM 5.2 now available on AI Gateway",
-    "link": "https://vercel.com/changelog/glm-5-2-now-available-on-ai-gateway",
-    "desc": "",
-    "date": "2026-06-16",
-    "source": "Vercel",
-    "cat": "platform",
-    "lang": "en"
-  },
-  {
-    "title": "Workflow SDK now supports inflight cancellation",
-    "link": "https://vercel.com/changelog/workflow-sdk-now-supports-inflight-cancellation",
-    "desc": "",
-    "date": "2026-06-16",
-    "source": "Vercel",
-    "cat": "platform",
-    "lang": "en"
-  },
-  {
-    "title": "Workflow SDK now supports TanStack Start",
-    "link": "https://vercel.com/changelog/workflow-sdk-now-supports-tanstack-start",
-    "desc": "",
-    "date": "2026-06-16",
-    "source": "Vercel",
-    "cat": "platform",
-    "lang": "en"
-  },
-  {
-    "title": "Эволюция токенов цветов в Туту: как навести порядок в дизайне и не уехать в дурку",
-    "link": "https://habr.com/ru/articles/1048072/?utm_campaign=1048072&utm_source=habrahabr&utm_medium=rss",
-    "desc": "Создание единой дизайн-системы для крупного кроссплатформенного продукта — это всегда вызов. А если процесс совпадает с масштабным ребрендингом компании, задача усложняется в разы. В этой статье мы разберем двухлетний кейс команды «Туту», которая прошла путь от полного отсутствия стандартов до ги...",
-    "date": "2026-06-16",
-    "source": "Habr Веб-дизайн",
-    "cat": "platform",
-    "lang": "ru"
   }
 ]

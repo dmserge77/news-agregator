@@ -153,15 +153,6 @@
     "lang": "ru"
   },
   {
-    "title": "OpenClaw 2.0 появился случайно, и мы осознанно выводим его в маркетплейс отдельным образом",
-    "link": "https://habr.com/ru/companies/cloud_ru/news/1080432/?utm_campaign=1080432&utm_source=habrahabr&utm_medium=rss",
-    "desc": "В прошлой статье я рассказывал, как развернуть образ OpenClaw в облаке и не слить ему все свои данные: что мы положили в образ, что сознательно не положили и где проходит граница ответственности. Считайте этот текст второй серией. Повод серьезный: 30 августа OpenClaw Foundation выпустил версию 2....",
-    "date": "2026-09-10",
-    "source": "Habr AI",
-    "cat": "agent",
-    "lang": "ru"
-  },
-  {
     "title": "Spec Kit 1.0 от GitHub заменяет переписку с ИИ-агентом спекой, плюс десять инструментов для агентов",
     "link": "https://tproger.ru/news/spec-kit-1-0-i-eshhyo-desyat-ii-repozitoriev-sobravwih-zvyozdy-za-n",
     "desc": "GitHub довёл Spec Kit до 1.0: 135 тысяч звёзд, 30+ агентов, converge, расширения bug и assess. Рядом ponytail, ECC, humanizer, archify, MiniMind, Magnitude и blender-mcp. — Читать дальше « Spec Kit 1.0 от GitHub заменяет переписку с ИИ-агентом спекой, плюс десять инструментов для агентов »",
@@ -185,6 +176,15 @@
     "desc": "Маржинальность рекламных агентств упала с 30–50% до 4%, а зарплаты в отрасли выросли на 21% за год. Станислав Кондрашов объясняет, почему выход из этой вилки не в оптимизации расходов.",
     "date": "2026-09-10",
     "source": "Cossa",
+    "cat": "agent",
+    "lang": "ru"
+  },
+  {
+    "title": "OpenClaw 2.0 появился случайно, и мы осознанно выводим его в маркетплейс отдельным образом",
+    "link": "https://habr.com/ru/companies/cloud_ru/news/1080432/?utm_campaign=1080432&utm_source=habrahabr&utm_medium=rss",
+    "desc": "В прошлой статье я рассказывал, как развернуть образ OpenClaw в облаке и не слить ему все свои данные: что мы положили в образ, что сознательно не положили и где проходит граница ответственности. Считайте этот текст второй серией. Повод серьезный: 30 августа OpenClaw Foundation выпустил версию 2....",
+    "date": "2026-09-10",
+    "source": "Habr AI",
     "cat": "agent",
     "lang": "ru"
   },
@@ -796,15 +796,6 @@
     "link": "https://vercel.com/changelog/introducing-eve-an-open-source-agent-framework",
     "desc": "",
     "date": "2026-06-17",
-    "source": "Vercel",
-    "cat": "agent",
-    "lang": "en"
-  },
-  {
-    "title": "Vercel for Enterprise Apps and Agents",
-    "link": "https://vercel.com/blog/vercel-for-enterprise-apps-and-agents",
-    "desc": "",
-    "date": "2026-06-16",
     "source": "Vercel",
     "cat": "agent",
     "lang": "en"
