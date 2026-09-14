@@ -1,8 +1,26 @@
 [
   {
+    "title": "XCancel suspended \"due to a new development in the ongoing legal proceedings\"",
+    "link": "https://xcancel.com/twitter",
+    "desc": "Article URL: https://xcancel.com/twitter Comments URL: https://news.ycombinator.com/item?id=49695459 Points: 27 # Comments: 7",
+    "date": "2026-09-14",
+    "source": "Hacker News",
+    "cat": "ai",
+    "lang": "en"
+  },
+  {
     "title": "Apple's Siri AI Can Be Swapped Out for Claude, ChatGPT, Code Shows",
     "link": "https://www.macrumors.com/2026/09/14/siri-can-be-swapped-out-for-chatgpt-claude/",
-    "desc": "Article URL: https://www.macrumors.com/2026/09/14/siri-can-be-swapped-out-for-chatgpt-claude/ Comments URL: https://news.ycombinator.com/item?id=49695409 Points: 3 # Comments: 0",
+    "desc": "Article URL: https://www.macrumors.com/2026/09/14/siri-can-be-swapped-out-for-chatgpt-claude/ Comments URL: https://news.ycombinator.com/item?id=49695409 Points: 14 # Comments: 2",
+    "date": "2026-09-14",
+    "source": "Hacker News",
+    "cat": "ai",
+    "lang": "en"
+  },
+  {
+    "title": "Show HN: Kinesis – Control your Mac with the Meta Neural Band",
+    "link": "https://github.com/callbacked/kinesis",
+    "desc": "a couple hours ago i had astra take on a 10 month old repo of mine https://github.com/callbacked/neural-band-poc/ that involved finding a way to use the meta neural band independently from the glasses to read the sEMG data off of it. i really think it is a cool piece of technology that largely ge...",
     "date": "2026-09-14",
     "source": "Hacker News",
     "cat": "ai",
@@ -11,7 +29,7 @@
   {
     "title": "D-Matrix Raptor 3D-DRAM Accelerator for Generative Inference at Hot Chips 2026",
     "link": "https://www.servethehome.com/d-matrix-raptor-3d-dram-accelerator-for-generative-inference-at-hot-chips-2026/",
-    "desc": "Article URL: https://www.servethehome.com/d-matrix-raptor-3d-dram-accelerator-for-generative-inference-at-hot-chips-2026/ Comments URL: https://news.ycombinator.com/item?id=49695065 Points: 6 # Comments: 0",
+    "desc": "Article URL: https://www.servethehome.com/d-matrix-raptor-3d-dram-accelerator-for-generative-inference-at-hot-chips-2026/ Comments URL: https://news.ycombinator.com/item?id=49695065 Points: 7 # Comments: 0",
     "date": "2026-09-14",
     "source": "Hacker News",
     "cat": "ai",
@@ -20,7 +38,7 @@
   {
     "title": "HP ZGX Fury Is Now Orderable: GB300 Superchip, 748GB Unified Memory",
     "link": "https://www.storagereview.com/news/hp-zgx-fury-is-now-orderable-gb300-superchip-748gb-unified-memory-and-a-red-hat-ai-factory-plan-for-the-edge",
-    "desc": "Article URL: https://www.storagereview.com/news/hp-zgx-fury-is-now-orderable-gb300-superchip-748gb-unified-memory-and-a-red-hat-ai-factory-plan-for-the-edge Comments URL: https://news.ycombinator.com/item?id=49694905 Points: 18 # Comments: 20",
+    "desc": "Article URL: https://www.storagereview.com/news/hp-zgx-fury-is-now-orderable-gb300-superchip-748gb-unified-memory-and-a-red-hat-ai-factory-plan-for-the-edge Comments URL: https://news.ycombinator.com/item?id=49694905 Points: 22 # Comments: 23",
     "date": "2026-09-14",
     "source": "Hacker News",
     "cat": "ai",
@@ -29,7 +47,7 @@
   {
     "title": "Watch AI materials-science and bioscience abilities closely",
     "link": "https://www.lesswrong.com/posts/SCtkSz4nQ9icLZ4uq/watch-ai-materials-science-and-bioscience-abilities-closely",
-    "desc": "Article URL: https://www.lesswrong.com/posts/SCtkSz4nQ9icLZ4uq/watch-ai-materials-science-and-bioscience-abilities-closely Comments URL: https://news.ycombinator.com/item?id=49694871 Points: 9 # Comments: 3",
+    "desc": "Article URL: https://www.lesswrong.com/posts/SCtkSz4nQ9icLZ4uq/watch-ai-materials-science-and-bioscience-abilities-closely Comments URL: https://news.ycombinator.com/item?id=49694871 Points: 14 # Comments: 6",
     "date": "2026-09-14",
     "source": "Hacker News",
     "cat": "ai",
@@ -38,7 +56,7 @@
   {
     "title": "Who Aligns the Aligners?",
     "link": "https://prestonbyrne.com/2026/09/13/aligners/",
-    "desc": "Article URL: https://prestonbyrne.com/2026/09/13/aligners/ Comments URL: https://news.ycombinator.com/item?id=49694722 Points: 16 # Comments: 5",
+    "desc": "Article URL: https://prestonbyrne.com/2026/09/13/aligners/ Comments URL: https://news.ycombinator.com/item?id=49694722 Points: 27 # Comments: 21",
     "date": "2026-09-14",
     "source": "Hacker News",
     "cat": "ai",
@@ -47,7 +65,7 @@
   {
     "title": "Pkgsrc Is Cool (2022)",
     "link": "https://www.wisellama.rocks/posts/2021-12-23-pkgsrc-is-cool/",
-    "desc": "Article URL: https://www.wisellama.rocks/posts/2021-12-23-pkgsrc-is-cool/ Comments URL: https://news.ycombinator.com/item?id=49694311 Points: 19 # Comments: 6",
+    "desc": "Article URL: https://www.wisellama.rocks/posts/2021-12-23-pkgsrc-is-cool/ Comments URL: https://news.ycombinator.com/item?id=49694311 Points: 21 # Comments: 7",
     "date": "2026-09-14",
     "source": "Hacker News",
     "cat": "ai",
@@ -56,7 +74,7 @@
   {
     "title": "A 386 PC for Your RP2350",
     "link": "https://github.com/rh1tech/frank-386",
-    "desc": "Article URL: https://github.com/rh1tech/frank-386 Comments URL: https://news.ycombinator.com/item?id=49693613 Points: 75 # Comments: 20",
+    "desc": "Article URL: https://github.com/rh1tech/frank-386 Comments URL: https://news.ycombinator.com/item?id=49693613 Points: 80 # Comments: 21",
     "date": "2026-09-14",
     "source": "Hacker News",
     "cat": "ai",
@@ -65,7 +83,7 @@
   {
     "title": "EuroBirdPortal – Live bird movements across Europe",
     "link": "https://www.eurobirdportal.org/ebp/en/",
-    "desc": "Article URL: https://www.eurobirdportal.org/ebp/en/ Comments URL: https://news.ycombinator.com/item?id=49693610 Points: 99 # Comments: 37",
+    "desc": "Article URL: https://www.eurobirdportal.org/ebp/en/ Comments URL: https://news.ycombinator.com/item?id=49693610 Points: 107 # Comments: 40",
     "date": "2026-09-14",
     "source": "Hacker News",
     "cat": "ai",
@@ -74,7 +92,7 @@
   {
     "title": "OpenArch – PyTorch implementations of modern LLM architectures",
     "link": "https://github.com/anuj0456/OpenArch",
-    "desc": "Article URL: https://github.com/anuj0456/OpenArch Comments URL: https://news.ycombinator.com/item?id=49693384 Points: 49 # Comments: 10",
+    "desc": "Article URL: https://github.com/anuj0456/OpenArch Comments URL: https://news.ycombinator.com/item?id=49693384 Points: 56 # Comments: 10",
     "date": "2026-09-14",
     "source": "Hacker News",
     "cat": "ai",
@@ -83,7 +101,7 @@
   {
     "title": "Show HN: 1080p is 920px tall – 1k real browser viewports",
     "link": "https://screensize.net/reports/viewport-stats",
-    "desc": "Article URL: https://screensize.net/reports/viewport-stats Comments URL: https://news.ycombinator.com/item?id=49693226 Points: 27 # Comments: 17",
+    "desc": "Article URL: https://screensize.net/reports/viewport-stats Comments URL: https://news.ycombinator.com/item?id=49693226 Points: 29 # Comments: 17",
     "date": "2026-09-14",
     "source": "Hacker News",
     "cat": "ai",
@@ -92,7 +110,7 @@
   {
     "title": "Nike exits the S&P 100 after 18 years and a $200B market-cap wipeout",
     "link": "https://fortune.com/2026/09/08/nike-stock-plummets-sp500-market-cap-index/",
-    "desc": "https://archive.ph/8NmSg Comments URL: https://news.ycombinator.com/item?id=49691343 Points: 187 # Comments: 249",
+    "desc": "https://archive.ph/8NmSg Comments URL: https://news.ycombinator.com/item?id=49691343 Points: 197 # Comments: 254",
     "date": "2026-09-14",
     "source": "Hacker News",
     "cat": "ai",
@@ -101,16 +119,7 @@
   {
     "title": "The case against JPEG XL",
     "link": "https://giannirosato.com/blog/post/case-against-jxl/",
-    "desc": "Article URL: https://giannirosato.com/blog/post/case-against-jxl/ Comments URL: https://news.ycombinator.com/item?id=49690554 Points: 192 # Comments: 252",
-    "date": "2026-09-14",
-    "source": "Hacker News",
-    "cat": "ai",
-    "lang": "en"
-  },
-  {
-    "title": "Open-source AI and open models reading list",
-    "link": "https://www.interconnects.ai/p/open-source-ai-reading-list",
-    "desc": "Article URL: https://www.interconnects.ai/p/open-source-ai-reading-list Comments URL: https://news.ycombinator.com/item?id=49690260 Points: 124 # Comments: 24",
+    "desc": "Article URL: https://giannirosato.com/blog/post/case-against-jxl/ Comments URL: https://news.ycombinator.com/item?id=49690554 Points: 196 # Comments: 257",
     "date": "2026-09-14",
     "source": "Hacker News",
     "cat": "ai",
@@ -119,7 +128,7 @@
   {
     "title": "Apple's Dimensional Drawings",
     "link": "https://developer.apple.com/accessories/dimensional-drawings/",
-    "desc": "Article URL: https://developer.apple.com/accessories/dimensional-drawings/ Comments URL: https://news.ycombinator.com/item?id=49690174 Points: 244 # Comments: 87",
+    "desc": "Article URL: https://developer.apple.com/accessories/dimensional-drawings/ Comments URL: https://news.ycombinator.com/item?id=49690174 Points: 249 # Comments: 89",
     "date": "2026-09-14",
     "source": "Hacker News",
     "cat": "ai",
@@ -351,6 +360,15 @@
     "lang": "ru"
   },
   {
+    "title": "Open-source AI and open models reading list",
+    "link": "https://www.interconnects.ai/p/open-source-ai-reading-list",
+    "desc": "Article URL: https://www.interconnects.ai/p/open-source-ai-reading-list Comments URL: https://news.ycombinator.com/item?id=49690260 Points: 124 # Comments: 24",
+    "date": "2026-09-14",
+    "source": "Hacker News",
+    "cat": "ai",
+    "lang": "en"
+  },
+  {
     "title": "OEMpocalypse: Unprivileged Android app to root on Samsung, Xiaomi, others",
     "link": "https://calif.io/research/oempocalypse",
     "desc": "Article URL: https://calif.io/research/oempocalypse Comments URL: https://news.ycombinator.com/item?id=49691152 Points: 75 # Comments: 35",
@@ -407,7 +425,7 @@
   {
     "title": "Registration without a phone number on Signal will use zero-knowledge proofs",
     "link": "https://community.signalusers.org/t/registration-without-a-phone-number/2222?page=10",
-    "desc": "Article URL: https://community.signalusers.org/t/registration-without-a-phone-number/2222?page=10 Comments URL: https://news.ycombinator.com/item?id=49689048 Points: 304 # Comments: 156",
+    "desc": "Article URL: https://community.signalusers.org/t/registration-without-a-phone-number/2222?page=10 Comments URL: https://news.ycombinator.com/item?id=49689048 Points: 308 # Comments: 156",
     "date": "2026-09-13",
     "source": "Hacker News",
     "cat": "ai",
@@ -416,7 +434,7 @@
   {
     "title": "Fable 5.1 Solves the Cyphral Distich, a 370-year-old cipher",
     "link": "https://www.vals.ai/blogs/fable-solves-cyphral-distich",
-    "desc": "Article URL: https://www.vals.ai/blogs/fable-solves-cyphral-distich Comments URL: https://news.ycombinator.com/item?id=49688695 Points: 1033 # Comments: 448",
+    "desc": "Article URL: https://www.vals.ai/blogs/fable-solves-cyphral-distich Comments URL: https://news.ycombinator.com/item?id=49688695 Points: 1040 # Comments: 459",
     "date": "2026-09-13",
     "source": "Hacker News",
     "cat": "ai",
@@ -425,7 +443,7 @@
   {
     "title": "Flawed routers flood University of Wisconsin internet time server (2003)",
     "link": "https://pages.cs.wisc.edu/~plonka/netgear-sntp/",
-    "desc": "Article URL: https://pages.cs.wisc.edu/~plonka/netgear-sntp/ Comments URL: https://news.ycombinator.com/item?id=49688391 Points: 92 # Comments: 11",
+    "desc": "Article URL: https://pages.cs.wisc.edu/~plonka/netgear-sntp/ Comments URL: https://news.ycombinator.com/item?id=49688391 Points: 93 # Comments: 11",
     "date": "2026-09-13",
     "source": "Hacker News",
     "cat": "ai",
@@ -434,7 +452,7 @@
   {
     "title": "Mullenweg has returned as CEO after attempted board ouster",
     "link": "https://techcrunch.com/2026/09/12/automattic-confirms-mullenweg-has-returned-as-ceo-after-attempted-ouster-by-board/",
-    "desc": "Article URL: https://techcrunch.com/2026/09/12/automattic-confirms-mullenweg-has-returned-as-ceo-after-attempted-ouster-by-board/ Comments URL: https://news.ycombinator.com/item?id=49688259 Points: 194 # Comments: 262",
+    "desc": "Article URL: https://techcrunch.com/2026/09/12/automattic-confirms-mullenweg-has-returned-as-ceo-after-attempted-ouster-by-board/ Comments URL: https://news.ycombinator.com/item?id=49688259 Points: 203 # Comments: 266",
     "date": "2026-09-13",
     "source": "Hacker News",
     "cat": "ai",
@@ -443,16 +461,7 @@
   {
     "title": "Why is Google still serving dodgy ads?",
     "link": "https://www.atomic14.com/2026/09/13/why-is-google-still-serving-dodgy-ads",
-    "desc": "Article URL: https://www.atomic14.com/2026/09/13/why-is-google-still-serving-dodgy-ads Comments URL: https://news.ycombinator.com/item?id=49686445 Points: 861 # Comments: 377",
-    "date": "2026-09-13",
-    "source": "Hacker News",
-    "cat": "ai",
-    "lang": "en"
-  },
-  {
-    "title": "Ask HN: What are you working on? (September 2026)",
-    "link": "https://news.ycombinator.com/item?id=49686380",
-    "desc": "What are you working on? What have you been curious about lately? Comments URL: https://news.ycombinator.com/item?id=49686380 Points: 204 # Comments: 606",
+    "desc": "Article URL: https://www.atomic14.com/2026/09/13/why-is-google-still-serving-dodgy-ads Comments URL: https://news.ycombinator.com/item?id=49686445 Points: 868 # Comments: 377",
     "date": "2026-09-13",
     "source": "Hacker News",
     "cat": "ai",
@@ -781,6 +790,15 @@
     "source": "Tproger",
     "cat": "ai",
     "lang": "ru"
+  },
+  {
+    "title": "Ask HN: What are you working on? (September 2026)",
+    "link": "https://news.ycombinator.com/item?id=49686380",
+    "desc": "What are you working on? What have you been curious about lately? Comments URL: https://news.ycombinator.com/item?id=49686380 Points: 204 # Comments: 606",
+    "date": "2026-09-13",
+    "source": "Hacker News",
+    "cat": "ai",
+    "lang": "en"
   },
   {
     "title": "Astra and Fable still hack on simple variants of alignment evals from 2025",
