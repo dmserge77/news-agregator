@@ -40,11 +40,12 @@ NO_AI_CHECK = {"jobs", "orders"}
 
 # Подкатегории для "Есть заказ" — каждая отдельная папка
 ORDER_TYPES = {
-    "sites":   {"label": "Сайты",         "emoji": "🌐", "accent": "#0071e3"},
-    "prompts": {"label": "Промты",        "emoji": "✍️", "accent": "#34c759"},
-    "ai":      {"label": "AI-задачи",     "emoji": "🤖", "accent": "#ff9500"},
-    "design":  {"label": "Дизайн",        "emoji": "🎨", "accent": "#5856d6"},
-    "content": {"label": "Контент",       "emoji": "📝", "accent": "#e34133"},
+    "sites":     {"label": "Сайты",           "emoji": "🌐", "accent": "#0071e3"},
+    "prompts":   {"label": "Промты",          "emoji": "✍️", "accent": "#34c759"},
+    "ai":        {"label": "AI-разработка",   "emoji": "🤖", "accent": "#ff9500"},
+    "media":     {"label": "Изображения",     "emoji": "🎨", "accent": "#5856d6"},
+    "audio":     {"label": "Видео и аудио",   "emoji": "🎧", "accent": "#c9762d"},
+    "automate":  {"label": "Автоматизация",   "emoji": "🔧", "accent": "#e34133"},
 }
 
 # Подкатегории для "Солянка" — каждая отдельная папка
@@ -75,7 +76,7 @@ FEEDS = [
     {"url": "https://habr.com/ru/rss/hub/devops/?fl=ru", "cat": "platform", "source": "Habr DevOps"},
     {"url": "https://habr.com/ru/rss/hub/api/?fl=ru", "cat": "platform", "source": "Habr API"},
     {"url": "https://habr.com/ru/rss/hubs/cloud_computing/?fl=ru", "cat": "platform", "source": "Habr Облака"},
-    {"url": "https://habr.com/ru/rss/hub/freelance/?fl=ru", "cat": "jobs", "source": "Habr Фриланс"},
+    {"url": "https://habr.com/ru/rss/hub/freelance/?fl=ru", "cat": "misc", "source": "Habr Фриланс"},
     {"url": "https://tproger.ru/feed/", "cat": "vibe", "source": "Tproger"},
     {"url": "https://thecode.media/feed/", "cat": "platform", "source": "The Code"},
     {"url": "https://www.kaspersky.ru/blog/feed/", "cat": "platform", "source": "Kaspersky"},
@@ -127,9 +128,9 @@ CAT_KEYWORDS = {
              "junior", "remote", "удалёнка", "гибрид", "full-time", "part-time",
              "мы ищем", "в команду", "в штат", "зарплатная вилка", "компания ищет",
              "hh.ru", "headhunter", "трудоустройство", "работа", "подработка"],
-    "orders": ["заказ", "заказы", "фриланс", "исполнитель", "заказчик", "бюджет",
-               "оплата по", "нужно сделать", "требуется сделать", "проект под ключ",
-               "фрилансер", "тендер", "предоплата", "ставка", "почасовая"],
+    # Заказы в RSS не приходят — они собираются только через fetch_fl_orders().
+    # Здесь пусто, чтобы статьи про фриланс не попадали в рубрику заказов.
+    "orders": [],
 }
 
 # Что гарантированно говорит о связи материала с ИИ.
@@ -144,6 +145,12 @@ AI_STRONG = [
     "deep learning", "generative ai", "large language model", "language model",
     "llm", "chatbot", "chat bot", "prompt engineering", "fine-tuning", "fine tuning",
     "diffusion model", "transformer model", "computer vision", "inference",
+    # Слова из мира заказов и услуг
+    "нейрофото", "нейрокартинк", "нейроарт", "нейрохудожник", "нейроаватар",
+    "нейроозвуч", "нейровидео", "нейроконтент", "нейротекст", "нейросетев",
+    "распознаван", "разметка данных", "обучение модели", "дообучение",
+    "сгенерировать изображен", "генерация изображен", "генерация видео",
+    "синтез речи", "клонирование голоса", "ai-агент", "ии-агент",
 ]
 # Названия компаний и моделей — тоже сильный сигнал
 AI_NAMES = [
@@ -168,8 +175,14 @@ def has_ai_signal(text):
         return True
     if any(w in t for w in AI_NAMES):
         return True
-    # "AI" отдельным словом, а не внутри "mail", "said", "captain"
+    # "AI" отдельным словом, а не внутри "mail", "said", "captain".
+    # Исключение: перечисление графических форматов (svg, ai, pdf, eps) —
+    # там "ai" это Adobe Illustrator, а не искусственный интеллект.
     if re.search(r"(?<![a-z])ai(?![a-z])", t):
+        if re.search(r"(svg|eps|png|jpg|pdf|cdr|dxf)\s*,\s*ai\b", t):
+            return False
+        if re.search(r"\bai\s*,\s*(pdf|eps|svg|cdr|dxf|png)", t):
+            return False
         return True
     return False
 
@@ -381,26 +394,72 @@ def is_real_ai_job(title, desc):
     return any(w in text for w in tech_words)
 
 
+# Маркеры веб-разработки. Такой заказ проходит в «Есть заказ» ДАЖЕ БЕЗ ИИ:
+# сайты — отдельное направление рубрики, здесь важен не ИИ, а сама работа.
+SITE_MARKERS = [
+    "сайт", "сайта", "сайтов", "сайте", "лендинг", "landing", "веб-сайт", "website",
+    "web site", "интернет-магазин", "магазин на", "html", "css", "javascript",
+    "верстк", "вёрстк", "сверстать", "разверстать", "frontend", "фронтенд",
+    "backend", "бэкенд", "wordpress", "вордпресс", "tilda", "тильд", "битрикс",
+    "bitrix", "opencart", "modx", "joomla", "django", "laravel", "react",
+    "vue", "next.js", "nuxt", "web-приложен", "веб-приложен", "веб приложен",
+    "web приложен", "парсинг сайта", "доработка сайта", "правки на сайте",
+    "перенести сайт", "настроить сайт", "лендинг-пейдж", "одностраничник",
+    "многостраничник", "хостинг", "домен", "cms", "crm-систем", "доработка crm",
+]
+
+
 def classify_order(title, desc):
-    """Определяет подкатегорию заказа."""
+    """Определяет подкатегорию заказа. Сайты идут первыми — с ИИ или без."""
     text = (title + " " + desc).lower()
-    if any(w in text for w in ["сайт", "лендинг", "landing", "site", "web", "html",
-                                "css", "frontend", "wordpress", "tilda", "тильда",
-                                "сайта", "сайтов"]):
+    if any(w in text for w in SITE_MARKERS):
         return "sites"
-    if any(w in text for w in ["промт", "prompt", "prompt engineering", "prompt engineer",
-                                "chatgpt prompt", "gpt prompt"]):
+    if any(w in text for w in ["промт", "prompt", "промпт", "промт-инжинир",
+                                "prompt engineering", "prompt engineer",
+                                "chatgpt prompt", "gpt prompt", "текст для нейросет"]):
         return "prompts"
-    if any(w in text for w in ["ai", "нейросет", "искусственный интеллект", "нейрон",
-                                "машинное обучение", "чат-бот", "chatbot", "gpt",
-                                "llm", "ml", "data science", "computer vision",
-                                "распознаван", "генерац", "ai agent"]):
-        return "ai"
-    if any(w in text for w in ["дизайн", "design", "figma", "логотип", "лого",
-                                "фирменный", "бренд", "ui", "ux", "график",
-                                "illustrator", "photoshop", "верстк"]):
-        return "design"
-    return "content"
+    if any(w in text for w in ["озвуч", "voice over", "voiceover", "дубляж",
+                                "липсинк", "lip sync", "lipsync", "подкаст",
+                                "аудио", "звук", "музык", "вокал", "синтез речи",
+                                "tts", "speech", "клонирован голос", "клонировать голос",
+                                "видео", "ролик", "рилс", "reels", "shorts", "шортс",
+                                "монтаж", "видеомонтаж", "анимац", "аватар"]):
+        return "audio"
+    if any(w in text for w in ["нейрофото", "нейрокартинк", "генерац изображен",
+                                "генерац картин", "сгенерировать изображен",
+                                "иллюстрац", "изображен", "картинк", "баннер",
+                                "арт", "midjourney", "stable diffusion", "dall-e",
+                                "flux", "обрисовать", "ретуш", "фото", "фотограф"]):
+        return "media"
+    if any(w in text for w in ["автоматизац", "парсинг", "парсер", "скрипт",
+                                "бот", "telegram-бот", "телеграм-бот", "чат-бот",
+                                "chatbot", "интеграц", "api", "выгрузк", "спарсить",
+                                "собрать данные", "excel", "таблиц", "google sheets"]):
+        return "automate"
+    return "ai"
+
+
+def is_ai_order(title, desc):
+    """Заказ проходит, если он про ИИ ИЛИ про сайты (сайты — без требования ИИ)."""
+    text = (title + " " + desc).lower()
+    # Реклама, SEO, лидоген — не разработка, рубрике не подходят
+    if any(w in text for w in ["директолог", "яндекс директ", "контекстн", "seo",
+                                "сео", "лидген", "аффилиац", "таргет", "обзвон",
+                                "посещаемост", "раскрутк", "продвижени"]):
+        return False
+    # Статьи и новости — не заказы (в заказы попадают только через FL.ru)
+    if any(w in text for w in ["объявил", "объявила", "на днях", "в интервью",
+                                "рассказал", "рассказала", "выяснил", "я фрилансер",
+                                "как я ", "почему бизнес", "обнаружил", "написал свой"]):
+        return False
+    if any(w in text for w in SITE_MARKERS):
+        return True
+    if has_ai_signal(text):
+        return True
+    # Парсинг, боты и автоматизация — профильные темы рубрики
+    return any(w in text for w in ["парсинг", "парсер", "спарсить", "автоматизац",
+                                    "чат-бот", "chatbot", "telegram бот",
+                                    "телеграм бот", "скрипт для", "бот для"])
 
 
 # Маркеры рубрики «Курьёзы» внутри «Солянки».
@@ -428,16 +487,20 @@ def classify_misc(title, desc):
 
 
 def fetch_fl_orders():
-    """Парсит заказы с fl.ru."""
+    """Парсит заказы с fl.ru. Ищет только ИИ-заказы и сайты."""
     items = []
     seen_titles = {}
     keywords = [
-        "искусственный интеллект", "нейросети", "сайт", "ai", "gpt",
-        "chatbot", "промт", "prompt", "design", "дизайн",
-        "лендинг", "telegram bot", "телеграм бот", "написать бота",
-        "сделать сайт", "разработка сайта", "верстка", "ui ux",
-        "машинное обучение", "ml", "data science", "нейросеть API",
-        "бот для", "парсинг", "скрипт", "автоматизация",
+        # ИИ
+        "нейросети", "искусственный интеллект", "нейросеть", "gpt", "chatgpt",
+        "промт", "prompt", "машинное обучение", "llm", "ai агент", "ai-агент",
+        "нейрофото", "нейроарт", "генерация изображений", "midjourney",
+        "обучение модели", "датасет", "разметка данных", "computer vision",
+        "распознавание", "ии", "ai видео", "ai озвучка", "ai аватар",
+        "автоматизация", "парсинг", "чат-бот", "telegram бот",
+        # Сайты (без требования ИИ)
+        "сайт", "лендинг", "верстка", "html", "wordpress", "тильда", "битрикс",
+        "интернет-магазин", "доработка сайта", "frontend", "web приложение",
     ]
 
     for kw in keywords:
@@ -459,6 +522,10 @@ def fetch_fl_orders():
                     continue
                 seen_titles[title_norm] = seen_titles.get(title_norm, 0) + 1
 
+                # Отсекаем всё, что не про ИИ и не про сайты
+                if not is_ai_order(title, desc):
+                    continue
+
                 if link:
                     items.append({
                         "title": title,
@@ -473,83 +540,6 @@ def fetch_fl_orders():
         except Exception as e:
             pass
     print(f"  -> {len(items)} заказов с FL.ru")
-    return items
-
-
-def fetch_freelancehunt_orders():
-    """Парсит заказы с freelancehunt.com через RSS."""
-    items = []
-    seen_titles = {}
-    categories = ["ai-machine-learning", "chatbots", "web-design", "html-css",
-                   "javascript", "python", "php", "data-parsing"]
-
-    for cat in categories:
-        try:
-            url = f"https://freelancehunt.com/en/projects/rss/{cat}.xml"
-            xml = fetch_url(url).decode("utf-8", errors="replace")
-            root = ElementTree.fromstring(xml)
-            for item in root.iter("item"):
-                title = unescape(item.findtext("title", "")).strip()
-                link = item.findtext("link", "").strip()
-                desc = unescape(item.findtext("description", "")).strip()
-                pubdate = item.findtext("pubDate", "")
-                if not title:
-                    continue
-                title_norm = title.lower().strip()
-                if seen_titles.get(title_norm, 0) >= 1:
-                    continue
-                seen_titles[title_norm] = seen_titles.get(title_norm, 0) + 1
-                if link:
-                    items.append({
-                        "title": title,
-                        "link": link,
-                        "desc": clean_desc(desc),
-                        "date": parse_date(pubdate),
-                        "source": "Freelancehunt",
-                        "cat": "orders",
-                        "order_type": classify_order(title, desc),
-                        "lang": detect_lang(title + " " + desc),
-                    })
-        except Exception as e:
-            pass
-    print(f"  -> {len(items)} заказов с Freelancehunt")
-    return items
-
-
-def fetch_etxt_orders():
-    """Парсит заказы с eTXT.ru через RSS."""
-    items = []
-    seen_norm = set()
-    try:
-        url = "http://www.etxt.ru/rss/tasks/"
-        xml = fetch_url(url).decode("utf-8", errors="replace")
-        root = ElementTree.fromstring(xml)
-        for item in root.iter("item"):
-            title = unescape(item.findtext("title", "")).strip()
-            link = item.findtext("link", "").strip()
-            desc = unescape(item.findtext("description", "")).strip()
-            pubdate = item.findtext("pubDate", "")
-            if not title:
-                continue
-            # Нормализуем: убираем номер заказа (№XXXX)
-            norm = re.sub(r"[\s#]\d{4,}[/\s-]*\d*", "", title).strip().lower()
-            if norm in seen_norm:
-                continue
-            seen_norm.add(norm)
-            if link:
-                items.append({
-                    "title": title,
-                    "link": link,
-                    "desc": clean_desc(desc),
-                    "date": parse_date(pubdate),
-                    "source": "eTXT",
-                    "cat": "orders",
-                    "order_type": classify_order(title, desc),
-                    "lang": "ru",
-                })
-    except Exception as e:
-        print(f"  ! eTXT: {e}")
-    print(f"  -> {len(items)} заказов с eTXT")
     return items
 
 
@@ -933,13 +923,21 @@ def main():
             all_news.append(o)
             seen_links.add(o["link"])
 
-    # 2. Загружаем существующие новости (чтобы не потерять ручные правки)
+    # 2. Загружаем существующие новости (чтобы не потерять ручные правки).
+    #    Устаревшие заказы (не про ИИ и не про сайты) отбрасываем — иначе
+    #    старый мусор из накопителя возвращался бы в каждую сборку.
+    dropped = 0
     for key in CATEGORIES:
         fpath = os.path.join(BASE_DIR, key, "news.json")
         for item in load_news(fpath):
+            if item.get("cat") == "orders" and not is_ai_order(item.get("title", ""), item.get("desc", "")):
+                dropped += 1
+                continue
             if item["link"] not in seen_links:
                 all_news.append(item)
                 seen_links.add(item["link"])
+    if dropped:
+        print(f"  [чистка] отброшено устаревших заказов: {dropped}")
 
     # 3. Фильтр по дате
     cutoff = now_msk() - timedelta(days=MAX_AGE_DAYS)
