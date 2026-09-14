@@ -12,3 +12,5 @@ dist/
 !_category_template.html
 !about/index.html
 !/index.html
+# Резервные копии редактируемых файлов
+_backup/
