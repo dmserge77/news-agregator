@@ -162,24 +162,6 @@
     "lang": "en"
   },
   {
-    "title": "We are all Product Engineers now",
-    "link": "https://seldo.com/posts/we-are-all-product-engineers-now/",
-    "desc": "Comments",
-    "date": "2026-09-14",
-    "source": "Lobsters",
-    "cat": "ai",
-    "lang": "en"
-  },
-  {
-    "title": "Who Gets to Define the Rules for AI?",
-    "link": "https://cohere.com/blog/who-gets-to-define-the-rules-for-ai",
-    "desc": "Comments",
-    "date": "2026-09-14",
-    "source": "Lobsters",
-    "cat": "ai",
-    "lang": "en"
-  },
-  {
     "title": "Sticking Functions Where They Donʼt Belong",
     "link": "https://blog.veritates.love/functions-as-data",
     "desc": "Comments",
@@ -387,6 +369,24 @@
     "lang": "ru"
   },
   {
+    "title": "We are all Product Engineers now",
+    "link": "https://seldo.com/posts/we-are-all-product-engineers-now/",
+    "desc": "Comments",
+    "date": "2026-09-14",
+    "source": "Lobsters",
+    "cat": "ai",
+    "lang": "en"
+  },
+  {
+    "title": "Who Gets to Define the Rules for AI?",
+    "link": "https://cohere.com/blog/who-gets-to-define-the-rules-for-ai",
+    "desc": "Comments",
+    "date": "2026-09-14",
+    "source": "Lobsters",
+    "cat": "ai",
+    "lang": "en"
+  },
+  {
     "title": "Pkgsrc Is Cool (2022)",
     "link": "https://www.wisellama.rocks/posts/2021-12-23-pkgsrc-is-cool/",
     "desc": "Article URL: https://www.wisellama.rocks/posts/2021-12-23-pkgsrc-is-cool/ Comments URL: https://news.ycombinator.com/item?id=49694311 Points: 21 # Comments: 7",
@@ -567,15 +567,6 @@
     "lang": "en"
   },
   {
-    "title": "This PCB is brought to you by Fable 5",
-    "link": "https://a6mzero.com/posts/this-pcb-is-brought-to-you-by-fable-5/",
-    "desc": "Comments",
-    "date": "2026-09-13",
-    "source": "Lobsters",
-    "cat": "ai",
-    "lang": "en"
-  },
-  {
     "title": "From Git to Fossil (2025)",
     "link": "https://lucio.albenga.es/web-en/posts/2025/from-git-to-fossil.html",
     "desc": "Comments",
@@ -612,8 +603,8 @@
     "lang": "en"
   },
   {
-    "title": "After Math",
-    "link": "https://terrytao.wordpress.com/2026/09/12/after-math/",
+    "title": "Sorry, Wrong Number: Debugging a Crash under Wine (2022)",
+    "link": "https://blog.jchw.dev/wrong-number/",
     "desc": "Comments",
     "date": "2026-09-13",
     "source": "Lobsters",
@@ -621,8 +612,26 @@
     "lang": "en"
   },
   {
-    "title": "Sorry, Wrong Number: Debugging a Crash under Wine (2022)",
-    "link": "https://blog.jchw.dev/wrong-number/",
+    "title": "GEFS: The File Shredder of the Future",
+    "link": "https://exquisite.tube/w/3QQimMdswWJxrsPaJtak2u",
+    "desc": "Comments",
+    "date": "2026-09-13",
+    "source": "Lobsters",
+    "cat": "ai",
+    "lang": "en"
+  },
+  {
+    "title": "Being lazy in C++",
+    "link": "https://cpp-rendering.io/being-lazy-in-c/",
+    "desc": "Comments",
+    "date": "2026-09-13",
+    "source": "Lobsters",
+    "cat": "ai",
+    "lang": "en"
+  },
+  {
+    "title": "The Edsac Film (1951, 1976)",
+    "link": "https://www.youtube.com/watch?v=DjhRRj6WYcs",
     "desc": "Comments",
     "date": "2026-09-13",
     "source": "Lobsters",
@@ -819,6 +828,24 @@
     "lang": "ru"
   },
   {
+    "title": "This PCB is brought to you by Fable 5",
+    "link": "https://a6mzero.com/posts/this-pcb-is-brought-to-you-by-fable-5/",
+    "desc": "Comments",
+    "date": "2026-09-13",
+    "source": "Lobsters",
+    "cat": "ai",
+    "lang": "en"
+  },
+  {
+    "title": "After Math",
+    "link": "https://terrytao.wordpress.com/2026/09/12/after-math/",
+    "desc": "Comments",
+    "date": "2026-09-13",
+    "source": "Lobsters",
+    "cat": "ai",
+    "lang": "en"
+  },
+  {
     "title": "Flawed routers flood University of Wisconsin internet time server (2003)",
     "link": "https://pages.cs.wisc.edu/~plonka/netgear-sntp/",
     "desc": "Article URL: https://pages.cs.wisc.edu/~plonka/netgear-sntp/ Comments URL: https://news.ycombinator.com/item?id=49688391 Points: 93 # Comments: 11",
@@ -864,38 +891,11 @@
     "lang": "en"
   },
   {
-    "title": "GEFS: The File Shredder of the Future",
-    "link": "https://exquisite.tube/w/3QQimMdswWJxrsPaJtak2u",
-    "desc": "Comments",
-    "date": "2026-09-13",
-    "source": "Lobsters",
-    "cat": "ai",
-    "lang": "en"
-  },
-  {
-    "title": "Being lazy in C++",
-    "link": "https://cpp-rendering.io/being-lazy-in-c/",
-    "desc": "Comments",
-    "date": "2026-09-13",
-    "source": "Lobsters",
-    "cat": "ai",
-    "lang": "en"
-  },
-  {
     "title": "Why is privacy so hard? (2019)",
     "link": "https://cacm.acm.org/blogcacm/why-is-privacy-so-hard/",
     "desc": "Article URL: https://cacm.acm.org/blogcacm/why-is-privacy-so-hard/ Comments URL: https://news.ycombinator.com/item?id=49688766 Points: 40 # Comments: 43",
     "date": "2026-09-13",
     "source": "Hacker News",
-    "cat": "ai",
-    "lang": "en"
-  },
-  {
-    "title": "The Edsac Film (1951, 1976)",
-    "link": "https://www.youtube.com/watch?v=DjhRRj6WYcs",
-    "desc": "Comments",
-    "date": "2026-09-13",
-    "source": "Lobsters",
     "cat": "ai",
     "lang": "en"
   },
@@ -1098,6 +1098,15 @@
     "lang": "ru"
   },
   {
+    "title": "A Dick Smith VZ200 without the Dick Smith",
+    "link": "http://oldvcr.blogspot.com/2026/09/a-dick-smith-vz200-without-dick-smith.html",
+    "desc": "Comments",
+    "date": "2026-09-12",
+    "source": "Lobsters",
+    "cat": "ai",
+    "lang": "en"
+  },
+  {
     "title": "Why It’s Difficult for Tech Companies to Rein In A.I.",
     "link": "https://www.nytimes.com/2026/09/12/technology/why-its-tough-for-tech-companies-to-keep-ai-out-of-trouble.html",
     "desc": "Researchers say artificial intelligence is developing faster than the systems put in place to monitor and control it.",
@@ -1274,15 +1283,6 @@
     "desc": "Article URL: https://www.threebodyorbits.com/ Comments URL: https://news.ycombinator.com/item?id=49670852 Points: 27 # Comments: 0",
     "date": "2026-09-12",
     "source": "Hacker News",
-    "cat": "ai",
-    "lang": "en"
-  },
-  {
-    "title": "A Dick Smith VZ200 without the Dick Smith",
-    "link": "http://oldvcr.blogspot.com/2026/09/a-dick-smith-vz200-without-dick-smith.html",
-    "desc": "Comments",
-    "date": "2026-09-12",
-    "source": "Lobsters",
     "cat": "ai",
     "lang": "en"
   },
