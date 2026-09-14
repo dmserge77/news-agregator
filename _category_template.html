@@ -37,7 +37,8 @@ header p{color:var(--text2);font-size:1rem;margin-top:4px}
 .lang-btn{padding:6px 18px;border-radius:20px;border:1.5px solid var(--border);background:var(--card-bg);color:var(--text);cursor:pointer;font-size:.85rem;transition:all .2s}
 .lang-btn:hover{border-color:var(--accent);color:var(--accent)}
 .lang-btn.active{background:var(--accent);color:#fff;border-color:var(--accent)}
-.date-sep{font-size:.8rem;color:var(--text2);font-weight:600;padding:16px 0 6px;border-bottom:1px solid var(--border);margin-bottom:8px}
+.date-sep{font-size:.8rem;color:var(--text2);font-weight:600;padding:16px 0 6px;border-bottom:1px solid var(--border);margin-bottom:10px}
+.news-feed{display:block}
 .news-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(320px,1fr));gap:8px}
 .news-card{background:var(--card-bg);border-radius:10px;padding:10px 14px;box-shadow:var(--shadow);display:flex;flex-direction:column;cursor:pointer;animation:fadeIn .3s ease}
 .news-card:hover{box-shadow:0 4px 16px rgba(0,0,0,.1)}
@@ -99,7 +100,7 @@ footer{text-align:center;padding:40px 0 20px;color:var(--text2);font-size:.85rem
 <button class="lang-btn" data-sub="design">🎨 Дизайн</button>
 <button class="lang-btn" data-sub="content">📝 Контент</button>
 </div>
-<div class="news-grid" id="newsGrid"></div>
+<div class="news-feed" id="newsGrid"></div>
 <footer></footer>
 </div>
 <div class="overlay" id="overlay">
@@ -120,6 +121,13 @@ var activeLang = 'ru', activeSub = 'all';
 
 function sortByDate(arr) { return arr.sort(function(a,b){return (b.date||'').localeCompare(a.date||'')}); }
 
+// 2026-09-14 -> 14.09.2026
+function fmtDate(s) {
+  if (!s) return '';
+  var p = String(s).split('-');
+  return (p.length === 3) ? (p[2] + '.' + p[1] + '.' + p[0]) : s;
+}
+
 function getFiltered() {
   var arr = sortByDate(items.slice());
   if (activeLang !== 'all') arr = arr.filter(function(n){ return n.lang === activeLang; });
@@ -134,17 +142,19 @@ function render() {
     grid.innerHTML = '<div class="empty-state"><div class="emoji">📭</div><p>Новостей пока нет</p></div>';
     return;
   }
-  var html = '', lastDate = '';
+  var html = '', lastDate = '', gridOpen = false;
   for (var i = 0; i < arr.length; i++) {
     var n = arr[i];
     if (n.date !== lastDate) {
-      if (lastDate !== '') html += '</div>';
-      html += '<div class="date-sep">' + n.date + '</div><div class="news-grid">';
+      if (gridOpen) { html += '</div>'; gridOpen = false; }
+      html += '<div class="date-sep">' + fmtDate(n.date) + '</div>';
+      html += '<div class="news-grid">';
+      gridOpen = true;
       lastDate = n.date;
     }
     html += '<div class="news-card" data-idx="' + i + '"><h3>' + n.title + '</h3><div class="src"><a href="' + n.link + '" target="_blank" rel="noopener">' + n.source + '</a></div></div>';
   }
-  if (lastDate !== '') html += '</div>';
+  if (gridOpen) html += '</div>';
   grid.innerHTML = html;
 }
 
@@ -157,7 +167,7 @@ document.getElementById('newsGrid').addEventListener('click', function(e) {
   var arr = getFiltered();
   var n = arr[idx];
   if (!n) return;
-  document.getElementById('mDate').textContent = n.date;
+  document.getElementById('mDate').textContent = fmtDate(n.date);
   document.getElementById('mTitle').textContent = n.title;
   document.getElementById('mBody').textContent = n.desc || n.title;
   var src = document.getElementById('mSource');
