@@ -8,6 +8,7 @@ Thumbs.db
 dist/
 **/data.js
 **/index.html
+**/news.json
 !_category_template.html
 !about/index.html
 !/index.html

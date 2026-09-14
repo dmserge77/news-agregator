@@ -7,9 +7,13 @@ on:
   workflow_dispatch:
 
 permissions:
-  contents: write
+  contents: read
   pages: write
   id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
 
 jobs:
   build:
@@ -22,15 +26,43 @@ jobs:
         with:
           python-version: '3.11'
 
+      # Накопитель новостей живёт в кеше Actions, а не в репозитории.
+      # Ключ меняется каждый запуск, restore-keys подтягивает последний доступный кеш.
+      - name: Восстановление накопителя новостей
+        uses: actions/cache/restore@v4
+        with:
+          path: |
+            ai/news.json
+            vibe/news.json
+            agent/news.json
+            platform/news.json
+            design/news.json
+            jobs/news.json
+            orders/news.json
+          key: news-store-${{ github.run_id }}
+          restore-keys: |
+            news-store-
+
       - name: Сбор новостей и дистрибутива
         run: python collector.py
 
-      - name: Коммит обновлённых данных
-        uses: stefanzweifel/git-auto-commit-action@v5
+      - name: Сохранение накопителя новостей
+        uses: actions/cache/save@v4
         with:
-          commit_message: 'автообновление новостей'
-          commit_user_name: 'github-actions[bot]'
-          commit_user_email: '41898282+github-actions[bot]@users.noreply.github.com'
+          path: |
+            ai/news.json
+            vibe/news.json
+            agent/news.json
+            platform/news.json
+            design/news.json
+            jobs/news.json
+            orders/news.json
+          key: news-store-${{ github.run_id }}
+
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: 'dist'
 
   deploy:
     needs: build
@@ -39,21 +71,6 @@ jobs:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
     steps:
-      - uses: actions/checkout@v4
-
-      - name: Установка Python
-        uses: actions/setup-python@v5
-        with:
-          python-version: '3.11'
-
-      - name: Генерация дистрибутива
-        run: python collector.py
-
-      - name: Upload Pages artifact
-        uses: actions/upload-pages-artifact@v3
-        with:
-          path: 'dist'
-
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
