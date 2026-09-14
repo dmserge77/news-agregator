@@ -650,8 +650,8 @@ header p {{ color: var(--text2); margin-top: 4px; font-size: 1.1rem; }}
 
 .cat-grid {{
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
-  gap: 14px;
+  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+  gap: 16px;
   margin-top: 24px;
 }}
 .cat-card {{
@@ -670,9 +670,34 @@ header p {{ color: var(--text2); margin-top: 4px; font-size: 1.1rem; }}
   box-shadow: 0 6px 20px rgba(0,0,0,.12);
   border-color: var(--accent);
 }}
-.cat-emoji {{ font-size: 2.2rem; }}
-.cat-name {{ font-size: 1.1rem; font-weight: 600; margin-top: 10px; }}
-.cat-count {{ font-size: .85rem; color: var(--text2); margin-top: 4px; }}
+.cat-emoji {{
+  font-size: 2.2rem;
+  margin-bottom: 12px;
+  display: inline-block;
+  line-height: 1;
+}}
+.cat-name {{
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin-top: 10px;
+  line-height: 1.3;
+}}
+.cat-count {{
+  font-size: .85rem;
+  color: var(--text2);
+  margin-top: 4px;
+}}
+.cat-card:last-child {{
+  margin-bottom: 0;
+}}
+.cat-card:focus-visible {{
+  outline: 2px solid var(--accent);
+  outline-offset: 2px;
+}}
+.cat-card:active {{
+  transform: translateY(0);
+  box-shadow: 0 4px 12px rgba(0,0,0,.08);
+}}
 
 footer {{ color: var(--text2); font-size: 0.85rem; padding: 30px 0; text-align: center; }}
 </style>

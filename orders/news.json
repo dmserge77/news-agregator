@@ -1,5 +1,265 @@
 [
   {
+    "title": "дизайн карточек для агенства праздников",
+    "link": "https://www.fl.ru/projects/5521918/dizayn-kartochek-dlya-agenstva-prazdnikov.html",
+    "desc": "Нужно сделать 27 карточек с описанием праздничных программ. Есть утвержденный дизайн — все новые карточки нужно выполнить строго в этом стиле. Для каждой карточки...",
+    "date": "2026-09-14",
+    "source": "FL.ru",
+    "cat": "orders",
+    "order_type": "design",
+    "lang": "ru"
+  },
+  {
+    "title": "покадровая анимация кота (Бюджет: 10 000  ₽)",
+    "link": "https://www.fl.ru/projects/5521916/pokadrovaya-animatsiya-kota.html",
+    "desc": "кот появляется из щели в полу, справа возможно по скейлу появляется чашка, кот приседает и прыгает в неё, при пересечении граней чашки меняет цвет с белого на чёрный, чашка...",
+    "date": "2026-09-14",
+    "source": "FL.ru",
+    "cat": "orders",
+    "order_type": "design",
+    "lang": "ru"
+  },
+  {
+    "title": "Верстка личного кабинета",
+    "link": "https://www.fl.ru/projects/5521915/verstka-lichnogo-kabineta-.html",
+    "desc": "Вакансия: HTML-верстальщик для проекта МКО (Межгосударственный каталог оборудования). Ищем верстальщика для реализации личного кабинета проекта МКО. Требования: Bootstrap...",
+    "date": "2026-09-14",
+    "source": "FL.ru",
+    "cat": "orders",
+    "order_type": "sites",
+    "lang": "ru"
+  },
+  {
+    "title": "Разработка Landing Page на Tilda под ключ (Mobile-First + кастомная интеграция Webhook + редиректы)",
+    "link": "https://www.fl.ru/projects/5521914/razrabotka-landing-page-na-tilda-pod-klyuch-mobile-first--kastomnaya-integratsiya-webhook--redirektyi.html",
+    "desc": "Ищем сильного технического специалиста (веб-мастера) для разработки флагманского Landing Page по аренде и выкупу автомобилей. Нам не нужен просто «красивый дизайн». Нам нужен...",
+    "date": "2026-09-14",
+    "source": "FL.ru",
+    "cat": "orders",
+    "order_type": "sites",
+    "lang": "ru"
+  },
+  {
+    "title": "Нужен редактор для проверки понятности карточной игры (Бюджет: 10 000  ₽, для всех)",
+    "link": "https://www.fl.ru/projects/5521913/nujen-redaktor-dlya-proverki-ponyatnosti-kartochnoy-igryi.html",
+    "desc": "Объём: около 60 двухсторонних карточек, примерно 30 000 знаков / 4 500 слов. Это НЕ обычная корректура. Главная задача — проверить каждую карточку глазами человека, который впервые открыл игру и не может ничего спросить у автора. Нужно проверить: — сразу ли понятно задание — понятно ли, кто именн...",
+    "date": "2026-09-14",
+    "source": "FL.ru",
+    "cat": "orders",
+    "order_type": "content",
+    "lang": "ru"
+  },
+  {
+    "title": "Сбор Telegram-агентств",
+    "link": "https://www.fl.ru/projects/5521910/sbor-telegram-agentstv-.html",
+    "desc": "Сбор Telegram-агентств по организации продвижения через папки. Например - https://t.me/хххххх. Тема - маркетинг и SEO.",
+    "date": "2026-09-14",
+    "source": "FL.ru",
+    "cat": "orders",
+    "order_type": "content",
+    "lang": "ru"
+  },
+  {
+    "title": "Специалист по SEO оптимизации на Baidu",
+    "link": "https://www.fl.ru/projects/5521911/spetsialist-po-seo-optimizatsii-na-baidu.html",
+    "desc": "Требуется специалист со знанием специфики китайской поисковой системы Baidu для проведения анализа сата и выдачи, разработки мер по продвижению. На первом этапе нужен анализ....",
+    "date": "2026-09-14",
+    "source": "FL.ru",
+    "cat": "orders",
+    "order_type": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "Юрист по взысканию с Wildberries стоимости утерянного товара (3 кабинета, 25+ млн ₽)",
+    "link": "https://www.fl.ru/projects/5521909/yurist-po-vzyiskaniyu-s-wildberries-stoimosti-uteryannogo-tovara-3-kabineta-25-mln-.html",
+    "desc": "Суть задачи Ищем юриста или юридическую фирму с реальной практикой арбитражных споров против ООО «Вайлдберриз» по утрате товара на складах. Нужно взыскать стоимость товара,...",
+    "date": "2026-09-14",
+    "source": "FL.ru",
+    "cat": "orders",
+    "order_type": "content",
+    "lang": "ru"
+  },
+  {
+    "title": "Настройка Claude AI (Pro + API) под задачи юриста по госзакупкам (44-ФЗ / 223-ФЗ)",
+    "link": "https://www.fl.ru/projects/5521908/nastroyka-claude-ai-pro--api-pod-zadachi-yurista-po-goszakupkam-44-fz---223-fz.html",
+    "desc": "Добрый день. Я ищу специалиста/промпт-инженера для комплексной настройки и адаптации Claude AI под специфику работы юриста в сфере регламентированных закупок в РФ...",
+    "date": "2026-09-14",
+    "source": "FL.ru",
+    "cat": "orders",
+    "order_type": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "Бухгалтерская отчетность ИП на УСН через СБИС (Бюджет: 5 000  ₽)",
+    "link": "https://www.fl.ru/projects/5521907/buhgalterskaya-otchetnost-ip-na-usn-cherez-sbis.html",
+    "desc": "Здравствуйте. Нужна помощь с отчетностью ИП на УСН. Требуется ликбез по составлению календаля, что и как сдавать, досдать пропущенное, запланировать предстоящее и как вести...",
+    "date": "2026-09-14",
+    "source": "FL.ru",
+    "cat": "orders",
+    "order_type": "content",
+    "lang": "ru"
+  },
+  {
+    "title": "Необходим Seo-специалист+вебмастер. Произвести технические seo работы по сайту.",
+    "link": "https://www.fl.ru/projects/5521904/neobhodim-seo-spetsialistvebmaster-proizvesti-tehnicheskie-seo-rabotyi-po-saytu-.html",
+    "desc": "Интернет-магазин, опенкарт. 1432 карточки включено в показе товаров. ( Всего 2552 карточки товара с включенной индексацией(1120 выключено из показа, но индексируется)...",
+    "date": "2026-09-14",
+    "source": "FL.ru",
+    "cat": "orders",
+    "order_type": "sites",
+    "lang": "ru"
+  },
+  {
+    "title": "Инженер-конструктор для разработки универсального производственного стенда из древесины и фанеры",
+    "link": "https://www.fl.ru/projects/5521902/injener-konstruktor-dlya-razrabotki-universalnogo-proizvodstvennogo-stenda-iz-drevesinyi-i-faneryi.html",
+    "desc": "Имеется исходная концептуальная модель в Archicad 28 и подробное ПТЗ. Требуется не просто выполнить чертежи, а самостоятельно проработать конструкцию изделия, систему разборных...",
+    "date": "2026-09-14",
+    "source": "FL.ru",
+    "cat": "orders",
+    "order_type": "content",
+    "lang": "ru"
+  },
+  {
+    "title": "Разработка 3D-кронштейна для установки 3-дюймового BI-LED/Laser проектора в ПТФ Škoda Octavia A7 (Бюджет: 10 000  ₽)",
+    "link": "https://www.fl.ru/projects/5521903/razrabotka-3d-kronshteyna-dlya-ustanovki-3-dyuymovogo-bi-led-laser-proektora-v-ptf-koda-octavia-a7.html",
+    "desc": "## Разработка 3D-кронштейна для установки 3-дюймового BI-LED/Laser проектора в ПТФ Škoda Octavia A7 Ищу конструктора / инженера / CAD-моделлера для разработки индивидуального...",
+    "date": "2026-09-14",
+    "source": "FL.ru",
+    "cat": "orders",
+    "order_type": "content",
+    "lang": "ru"
+  },
+  {
+    "title": "Ищу графического дизайнера для карточной игры Для свиданий. Ищу в первую очередь сильную типографику (Бюджет: 10 000  ₽, для всех)",
+    "link": "https://www.fl.ru/projects/5521901/ischu-graficheskogo-dizaynera-dlya-kartochnoy-igryi-dlya-svidaniy-ischu-v-pervuyu-ochered-silnuyu-tipografiku.html",
+    "desc": "Ищу графического дизайнера для карточной игры «Детектор совместимости». Нужно НЕ верстать всю колоду и НЕ рисовать иллюстрации. Все тексты, персонажи, иллюстрации, цвета и общая стилистика уже есть. Задача - сделать профессиональный дизайн 7 основных типов карточек, которые дальше будут использов...",
+    "date": "2026-09-14",
+    "source": "FL.ru",
+    "cat": "orders",
+    "order_type": "design",
+    "lang": "ru"
+  },
+  {
+    "title": "Сценарис / копирайтер (для всех)",
+    "link": "https://www.fl.ru/projects/5521900/stsenaris---kopirayter.html",
+    "desc": "Банальные сценарии из чата GPT не предлагать, давно работаем на рынке и видим живую руку и чат. Написать 5 сценариев для роликов Рилс Написать 5 постов для ТГ канала",
+    "date": "2026-09-14",
+    "source": "FL.ru",
+    "cat": "orders",
+    "order_type": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "Разработка сервиса автоматической разметки строительной документации",
+    "link": "https://www.fl.ru/projects/5521899/razrabotka-servisa-avtomaticheskoy-razmetki-stroitelnoy-dokumentatsii-.html",
+    "desc": "Имеется массив однотипной технической документации — строительные чертежи/детали преимущественно в формате PDF. Для каждого документа существуют правила, определяющие, в каких...",
+    "date": "2026-09-14",
+    "source": "FL.ru",
+    "cat": "orders",
+    "order_type": "content",
+    "lang": "ru"
+  },
+  {
+    "title": "AI Solution Architect / Senior AI Engineer для разработки корпоративной системы AI-агентов",
+    "link": "https://www.fl.ru/projects/5521895/ai-solution-architect---senior-ai-engineer-dlya-razrabotki-korporativnoy-sistemyi-ai-agentov-.html",
+    "desc": "Задача — объединить данные Bitrix24, проектной документации, смет, чатов, звонков, строительства, снабжения и финансов и создать систему, которая автоматически выявляет риски,...",
+    "date": "2026-09-14",
+    "source": "FL.ru",
+    "cat": "orders",
+    "order_type": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "Создание инфографики для МП",
+    "link": "https://www.fl.ru/projects/5521894/sozdanie-infografiki-dlya-mp.html",
+    "desc": "Бренд мёда и продуктов пчеловодства - работы по дизайну карточек на МП и сайте компании.",
+    "date": "2026-09-14",
+    "source": "FL.ru",
+    "cat": "orders",
+    "order_type": "sites",
+    "lang": "ru"
+  },
+  {
+    "title": "Макет листовки с рекламой маникюрного кабинета (Бюджет: 500  ₽)",
+    "link": "https://www.fl.ru/projects/5521893/maket-listovki-s-reklamoy-manikyurnogo-kabineta.html",
+    "desc": "По стилю не могу сказать, хотелось бы рассмотреть 2-3 варианта дизайна Таргет по цвету – темный шоколад с зеленым (фисташковым) Информация на флаере: Маникюр – 1 000 рублей...",
+    "date": "2026-09-14",
+    "source": "FL.ru",
+    "cat": "orders",
+    "order_type": "design",
+    "lang": "ru"
+  },
+  {
+    "title": "Написать минус для песни",
+    "link": "https://www.fl.ru/projects/5521891/napisat-minus-dlya-pesni.html",
+    "desc": "Написать минус для песни Есть песня Моны - воин и дракон. Надо написать минус. Не задавить голос, а именно написать. С задавкой продается в инете - но все не то",
+    "date": "2026-09-14",
+    "source": "FL.ru",
+    "cat": "orders",
+    "order_type": "content",
+    "lang": "ru"
+  },
+  {
+    "title": "создание чертежа, конструкторской документации",
+    "link": "https://www.fl.ru/projects/5521889/sozdanie-cherteja-konstruktorskoy-dokumentatsii.html",
+    "desc": "Необходимо разработать конструкторскую документацию для изготовления шнекового перегрузчика зерна из вагонов в самосвалы. Тех задание и примерный вид креплю в файлы",
+    "date": "2026-09-14",
+    "source": "FL.ru",
+    "cat": "orders",
+    "order_type": "content",
+    "lang": "ru"
+  },
+  {
+    "title": "Требуется исполнитель для размещения отзывов",
+    "link": "https://www.fl.ru/projects/5521888/trebuetsya-ispolnitel-dlya-razmescheniya-otzyivov.html",
+    "desc": "Ищу ответственного исполнителя для размещения отзывов о компании на следующих площадках. Что требуется: • размещение отзывов на указанных площадках; • грамотный русский язык;...",
+    "date": "2026-09-14",
+    "source": "FL.ru",
+    "cat": "orders",
+    "order_type": "content",
+    "lang": "ru"
+  },
+  {
+    "title": "Доработать AI-систему (Бюджет: 10 000  ₽)",
+    "link": "https://www.fl.ru/projects/5521886/dorabotat-ai-sistemu.html",
+    "desc": "Есть действующий сервис оборудования с парсингом, загрузкой каталогов, поиском покупателей и системой уведомлений. . Нужно провести аудит текущей реализации, найти слабые...",
+    "date": "2026-09-14",
+    "source": "FL.ru",
+    "cat": "orders",
+    "order_type": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "Создание 3д модели для дальнейшей обработки на ЧПУ STL файл",
+    "link": "https://www.fl.ru/projects/5521885/sozdanie-3d-modeli-dlya-dalneyshey-obrabotki-na-chpu-stl-fayl.html",
+    "desc": "Есть что то типо иконы, с разных сторон могу сделать фото, предмета как такогого нет, есть картинка нужно через ИИ обработать и созать правильную модель для того чтобы потом на...",
+    "date": "2026-09-14",
+    "source": "FL.ru",
+    "cat": "orders",
+    "order_type": "content",
+    "lang": "ru"
+  },
+  {
+    "title": "Ищу дизайнера для перерисовки готового дизайна спортивной формы в вектор",
+    "link": "https://www.fl.ru/projects/5521883/ischu-dizaynera-dlya-pererisovki-gotovogo-dizayna-sportivnoy-formyi-v-vektor.html",
+    "desc": "Дизайн уже разработан, придумывать новую концепцию не нужно. Есть готовые изображения формы — вид спереди и сзади. Задача: — максимально точно перерисовать существующий дизайн...",
+    "date": "2026-09-14",
+    "source": "FL.ru",
+    "cat": "orders",
+    "order_type": "design",
+    "lang": "ru"
+  },
+  {
+    "title": "Задача по 1С",
+    "link": "https://www.fl.ru/projects/5521881/zadacha-po-1s.html",
+    "desc": "Система: — платформа 1С 8.3.27; — УТ 11.5.22; — есть расширения и доработки; На первом этапе необходимо разобрать 2–3 бизнес-задачи и подготовить по ним профессиональные...",
+    "date": "2026-09-14",
+    "source": "FL.ru",
+    "cat": "orders",
+    "order_type": "content",
+    "lang": "ru"
+  },
+  {
     "title": "Размещение отзыва на картах (Бюджет: 200  ₽)",
     "link": "https://www.fl.ru/projects/5521880/razmeschenie-otzyiva-na-kartah.html",
     "desc": "Необходимо разместить отзыв на картах (ссылка и текст будут направлены в личные сообщения после утверждения вас, как исполнителя) с живого аккаунта. Желательно, чтобы...",
@@ -17,6 +277,16 @@
     "source": "FL.ru",
     "cat": "orders",
     "order_type": "content",
+    "lang": "ru"
+  },
+  {
+    "title": "3D Character Artist / Technical Artist / Rigger (для всех)",
+    "link": "https://www.fl.ru/projects/5521777/3d-character-artist---technical-artist---rigger.html",
+    "desc": "Есть готовый персонаж Jois в Blender с рабочими rig, анимациями, face rig, lip-sync и волосами. Есть новое полноценное тело SK_NYGIRL_BODY_FULL. Нужно довести персонажа до production-ready состояния и подготовить под VRM + мобильное приложение. Что сделать 1. Заменить старое неполное тело Jois на...",
+    "date": "2026-09-14",
+    "source": "FL.ru",
+    "cat": "orders",
+    "order_type": "ai",
     "lang": "ru"
   },
   {
@@ -570,16 +840,6 @@
     "lang": "ru"
   },
   {
-    "title": "Работы по сео интернет магазина картин",
-    "link": "https://www.fl.ru/projects/5521800/rabotyi-po-seo-internet-magazina-kartin.html",
-    "desc": "Здравствуйте, требуются Работы по сео интернет магазина картин по всей РФ. Позиции по мск с кластеризацией, коммерциализацией, частотой и т.д. во вложении. сайту 4 года. сейчас...",
-    "date": "2026-09-13",
-    "source": "FL.ru",
-    "cat": "orders",
-    "order_type": "sites",
-    "lang": "ru"
-  },
-  {
     "title": "Создать сайт онлайн игры в алтайские шашки - шатра (для всех)",
     "link": "https://www.fl.ru/projects/5521763/sozdat-sayt-onlayn-igryi-v-altayskie-shashki---shatra.html",
     "desc": "Нужен сайт для одной игры - алтай шатра. Разделы - новости, правила игры, форум, турниры, онлайн игра. Требуется учет рейтинга, и сохранение всех игр в базу игр. Чтобы видеть все сыгранные игры по ходам, в режиме плей-повтор партий по ходам. Форма регистрации игроков через эл почту и согласование...",
@@ -707,16 +967,6 @@
     "source": "FL.ru",
     "cat": "orders",
     "order_type": "sites",
-    "lang": "ru"
-  },
-  {
-    "title": "3D Character Artist / Technical Artist / Rigger",
-    "link": "https://www.fl.ru/projects/5521777/3d-character-artist---technical-artist---rigger.html",
-    "desc": "Есть готовый персонаж Jois в Blender с рабочими rig, анимациями, face rig, lip-sync и волосами. Есть новое полноценное тело SK_NYGIRL_BODY_FULL. Нужно довести персонажа до...",
-    "date": "2026-09-13",
-    "source": "FL.ru",
-    "cat": "orders",
-    "order_type": "content",
     "lang": "ru"
   },
   {
