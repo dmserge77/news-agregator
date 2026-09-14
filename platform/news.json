@@ -1,14 +1,5 @@
 [
   {
-    "title": "Chess.com Leak Exposes 7.3M Users, Evidence Points to Scraping",
-    "link": "https://securityaffairs.com/197174/breaking-news/chess-com-leak-exposes-7-3-million-users-evidence-points-to-scraping.html",
-    "desc": "Article URL: https://securityaffairs.com/197174/breaking-news/chess-com-leak-exposes-7-3-million-users-evidence-points-to-scraping.html Comments URL: https://news.ycombinator.com/item?id=49691584 Points: 40 # Comments: 13",
-    "date": "2026-09-14",
-    "source": "Hacker News",
-    "cat": "platform",
-    "lang": "en"
-  },
-  {
     "title": "backendlessConf_ 2019",
     "link": "https://vercel.com/blog/our-first-online-conference",
     "desc": "",
@@ -324,6 +315,24 @@
     "lang": "en"
   },
   {
+    "title": "Бесплатный API для LLM: тестирую 6 сервисов, модели и реальные лимиты",
+    "link": "https://habr.com/ru/articles/1081820/?utm_campaign=1081820&utm_source=habrahabr&utm_medium=rss",
+    "desc": "Собрал 6 сервисов с бесплатным или стартовым доступом к LLM API и проверил их. Какие модели реально работают, что дают после регистрации, сколько уходит баланса и какие лимиты встречаются — всё на реальных запросах. Читать далее",
+    "date": "2026-09-14",
+    "source": "Habr AI",
+    "cat": "platform",
+    "lang": "ru"
+  },
+  {
+    "title": "Chess.com Leak Exposes 7.3M Users, Evidence Points to Scraping",
+    "link": "https://securityaffairs.com/197174/breaking-news/chess-com-leak-exposes-7-3-million-users-evidence-points-to-scraping.html",
+    "desc": "Article URL: https://securityaffairs.com/197174/breaking-news/chess-com-leak-exposes-7-3-million-users-evidence-points-to-scraping.html Comments URL: https://news.ycombinator.com/item?id=49691584 Points: 40 # Comments: 13",
+    "date": "2026-09-14",
+    "source": "Hacker News",
+    "cat": "platform",
+    "lang": "en"
+  },
+  {
     "title": "Show HN: Analyst Index – analysts who make money telling you good stock calls",
     "link": "https://www.analystidx.com/",
     "desc": "Hi HN! What if analyst ratings could be relied on to help you find the next Sandisk, before it takes off? On Analyst Index, analysts publish price targets with a maturity date. Every call gets scored against what the stock actually did, so an analyst builds a record on accuracy instead of on foll...",
@@ -387,15 +396,6 @@
     "lang": "en"
   },
   {
-    "title": "MCP без хаоса: как мы создали в корпоративном ландшафте централизованный шлюз для ИИ‑агентов",
-    "link": "https://habr.com/ru/companies/sberbank/articles/1080158/?utm_campaign=1080158&utm_source=habrahabr&utm_medium=rss",
-    "desc": "Привет, Хабр! Меня зовут Анастасия Трегубова, я архитектор продукта Platform V Synapse API Mesh в СберТехе. Хочу поделиться идеями по работе с агентскими инструментами и внедрением протокола МСР в корпоративном ландшафте. Расскажу, как мы обеспечиваем централизацию, но обходим узкие места, и как ...",
-    "date": "2026-09-11",
-    "source": "Habr AI",
-    "cat": "platform",
-    "lang": "ru"
-  },
-  {
     "title": "Commit → Query → Test: разыгрываем консультацию",
     "link": "https://habr.com/ru/companies/usetech/news/1081174/?utm_campaign=1081174&utm_source=habrahabr&utm_medium=rss",
     "desc": "В сентябре отмечаем сразу три профессиональных праздника: 🎉 9 сентября — День тестировщика 🎉 13 сентября — День программиста 🎉 24 сентября — День системного аналитика В ГК «Юзтех» решили не размениваться на стандартные призы. Вместо мерча и сертификатов разыгрываем то, что действительно двигает к...",
@@ -423,11 +423,29 @@
     "lang": "ru"
   },
   {
+    "title": "MCP без хаоса: как мы создали в корпоративном ландшафте централизованный шлюз для ИИ‑агентов",
+    "link": "https://habr.com/ru/companies/sberbank/articles/1080158/?utm_campaign=1080158&utm_source=habrahabr&utm_medium=rss",
+    "desc": "Привет, Хабр! Меня зовут Анастасия Трегубова, я архитектор продукта Platform V Synapse API Mesh в СберТехе. Хочу поделиться идеями по работе с агентскими инструментами и внедрением протокола МСР в корпоративном ландшафте. Расскажу, как мы обеспечиваем централизацию, но обходим узкие места, и как ...",
+    "date": "2026-09-11",
+    "source": "Habr AI",
+    "cat": "platform",
+    "lang": "ru"
+  },
+  {
     "title": "The EPA is planning to scrap public review rules for data center pollution",
     "link": "https://capitalbnews.org/data-centers-permit-rules-epa/",
     "desc": "Article URL: https://capitalbnews.org/data-centers-permit-rules-epa/ Comments URL: https://news.ycombinator.com/item?id=49662672 Points: 438 # Comments: 301",
     "date": "2026-09-11",
     "source": "Hacker News",
+    "cat": "platform",
+    "lang": "en"
+  },
+  {
+    "title": "Async GRPO with LoRA across HF Jobs: a bucket, a proxy, and no NCCL",
+    "link": "https://huggingface.co/blog/asyncgrpo-lora-hfjobs",
+    "desc": "",
+    "date": "2026-09-10",
+    "source": "Hugging Face",
     "cat": "platform",
     "lang": "en"
   },
