@@ -1,8 +1,17 @@
 [
   {
+    "title": "Show HN: I'm Serving Esp32s31.fun",
+    "link": "https://news.ycombinator.com/item?id=49695744",
+    "desc": "esp32s31.fun is an experiment to see how far it can go, maybe a week without crash/reboot? Comments URL: https://news.ycombinator.com/item?id=49695744 Points: 4 # Comments: 1",
+    "date": "2026-09-14",
+    "source": "Hacker News",
+    "cat": "ai",
+    "lang": "en"
+  },
+  {
     "title": "XCancel suspended \"due to a new development in the ongoing legal proceedings\"",
     "link": "https://xcancel.com/twitter",
-    "desc": "Article URL: https://xcancel.com/twitter Comments URL: https://news.ycombinator.com/item?id=49695459 Points: 27 # Comments: 7",
+    "desc": "Article URL: https://xcancel.com/twitter Comments URL: https://news.ycombinator.com/item?id=49695459 Points: 51 # Comments: 23",
     "date": "2026-09-14",
     "source": "Hacker News",
     "cat": "ai",
@@ -11,7 +20,7 @@
   {
     "title": "Apple's Siri AI Can Be Swapped Out for Claude, ChatGPT, Code Shows",
     "link": "https://www.macrumors.com/2026/09/14/siri-can-be-swapped-out-for-chatgpt-claude/",
-    "desc": "Article URL: https://www.macrumors.com/2026/09/14/siri-can-be-swapped-out-for-chatgpt-claude/ Comments URL: https://news.ycombinator.com/item?id=49695409 Points: 14 # Comments: 2",
+    "desc": "Article URL: https://www.macrumors.com/2026/09/14/siri-can-be-swapped-out-for-chatgpt-claude/ Comments URL: https://news.ycombinator.com/item?id=49695409 Points: 27 # Comments: 5",
     "date": "2026-09-14",
     "source": "Hacker News",
     "cat": "ai",
@@ -36,9 +45,18 @@
     "lang": "en"
   },
   {
+    "title": "Show HN: StemJSON – a language for LLMs to extend native mobile apps on the fly",
+    "link": "https://stemjson.com/",
+    "desc": "Hey HN! I'd like to share something I've been working on for a while and hear what you think. It's a new domain-specific language built on JSON and designed for AI, along with an ecosystem for building native mobile features, screens, and even entire apps quickly, right on the devices where they ...",
+    "date": "2026-09-14",
+    "source": "Hacker News",
+    "cat": "ai",
+    "lang": "en"
+  },
+  {
     "title": "HP ZGX Fury Is Now Orderable: GB300 Superchip, 748GB Unified Memory",
     "link": "https://www.storagereview.com/news/hp-zgx-fury-is-now-orderable-gb300-superchip-748gb-unified-memory-and-a-red-hat-ai-factory-plan-for-the-edge",
-    "desc": "Article URL: https://www.storagereview.com/news/hp-zgx-fury-is-now-orderable-gb300-superchip-748gb-unified-memory-and-a-red-hat-ai-factory-plan-for-the-edge Comments URL: https://news.ycombinator.com/item?id=49694905 Points: 22 # Comments: 23",
+    "desc": "Article URL: https://www.storagereview.com/news/hp-zgx-fury-is-now-orderable-gb300-superchip-748gb-unified-memory-and-a-red-hat-ai-factory-plan-for-the-edge Comments URL: https://news.ycombinator.com/item?id=49694905 Points: 25 # Comments: 26",
     "date": "2026-09-14",
     "source": "Hacker News",
     "cat": "ai",
@@ -47,7 +65,7 @@
   {
     "title": "Watch AI materials-science and bioscience abilities closely",
     "link": "https://www.lesswrong.com/posts/SCtkSz4nQ9icLZ4uq/watch-ai-materials-science-and-bioscience-abilities-closely",
-    "desc": "Article URL: https://www.lesswrong.com/posts/SCtkSz4nQ9icLZ4uq/watch-ai-materials-science-and-bioscience-abilities-closely Comments URL: https://news.ycombinator.com/item?id=49694871 Points: 14 # Comments: 6",
+    "desc": "Article URL: https://www.lesswrong.com/posts/SCtkSz4nQ9icLZ4uq/watch-ai-materials-science-and-bioscience-abilities-closely Comments URL: https://news.ycombinator.com/item?id=49694871 Points: 22 # Comments: 14",
     "date": "2026-09-14",
     "source": "Hacker News",
     "cat": "ai",
@@ -56,16 +74,7 @@
   {
     "title": "Who Aligns the Aligners?",
     "link": "https://prestonbyrne.com/2026/09/13/aligners/",
-    "desc": "Article URL: https://prestonbyrne.com/2026/09/13/aligners/ Comments URL: https://news.ycombinator.com/item?id=49694722 Points: 27 # Comments: 21",
-    "date": "2026-09-14",
-    "source": "Hacker News",
-    "cat": "ai",
-    "lang": "en"
-  },
-  {
-    "title": "Pkgsrc Is Cool (2022)",
-    "link": "https://www.wisellama.rocks/posts/2021-12-23-pkgsrc-is-cool/",
-    "desc": "Article URL: https://www.wisellama.rocks/posts/2021-12-23-pkgsrc-is-cool/ Comments URL: https://news.ycombinator.com/item?id=49694311 Points: 21 # Comments: 7",
+    "desc": "Article URL: https://prestonbyrne.com/2026/09/13/aligners/ Comments URL: https://news.ycombinator.com/item?id=49694722 Points: 39 # Comments: 34",
     "date": "2026-09-14",
     "source": "Hacker News",
     "cat": "ai",
@@ -74,7 +83,7 @@
   {
     "title": "A 386 PC for Your RP2350",
     "link": "https://github.com/rh1tech/frank-386",
-    "desc": "Article URL: https://github.com/rh1tech/frank-386 Comments URL: https://news.ycombinator.com/item?id=49693613 Points: 80 # Comments: 21",
+    "desc": "Article URL: https://github.com/rh1tech/frank-386 Comments URL: https://news.ycombinator.com/item?id=49693613 Points: 81 # Comments: 23",
     "date": "2026-09-14",
     "source": "Hacker News",
     "cat": "ai",
@@ -83,7 +92,7 @@
   {
     "title": "EuroBirdPortal – Live bird movements across Europe",
     "link": "https://www.eurobirdportal.org/ebp/en/",
-    "desc": "Article URL: https://www.eurobirdportal.org/ebp/en/ Comments URL: https://news.ycombinator.com/item?id=49693610 Points: 107 # Comments: 40",
+    "desc": "Article URL: https://www.eurobirdportal.org/ebp/en/ Comments URL: https://news.ycombinator.com/item?id=49693610 Points: 114 # Comments: 41",
     "date": "2026-09-14",
     "source": "Hacker News",
     "cat": "ai",
@@ -92,7 +101,7 @@
   {
     "title": "OpenArch – PyTorch implementations of modern LLM architectures",
     "link": "https://github.com/anuj0456/OpenArch",
-    "desc": "Article URL: https://github.com/anuj0456/OpenArch Comments URL: https://news.ycombinator.com/item?id=49693384 Points: 56 # Comments: 10",
+    "desc": "Article URL: https://github.com/anuj0456/OpenArch Comments URL: https://news.ycombinator.com/item?id=49693384 Points: 62 # Comments: 11",
     "date": "2026-09-14",
     "source": "Hacker News",
     "cat": "ai",
@@ -101,7 +110,7 @@
   {
     "title": "Show HN: 1080p is 920px tall – 1k real browser viewports",
     "link": "https://screensize.net/reports/viewport-stats",
-    "desc": "Article URL: https://screensize.net/reports/viewport-stats Comments URL: https://news.ycombinator.com/item?id=49693226 Points: 29 # Comments: 17",
+    "desc": "Article URL: https://screensize.net/reports/viewport-stats Comments URL: https://news.ycombinator.com/item?id=49693226 Points: 29 # Comments: 18",
     "date": "2026-09-14",
     "source": "Hacker News",
     "cat": "ai",
@@ -110,7 +119,7 @@
   {
     "title": "Nike exits the S&P 100 after 18 years and a $200B market-cap wipeout",
     "link": "https://fortune.com/2026/09/08/nike-stock-plummets-sp500-market-cap-index/",
-    "desc": "https://archive.ph/8NmSg Comments URL: https://news.ycombinator.com/item?id=49691343 Points: 197 # Comments: 254",
+    "desc": "https://archive.ph/8NmSg Comments URL: https://news.ycombinator.com/item?id=49691343 Points: 208 # Comments: 260",
     "date": "2026-09-14",
     "source": "Hacker News",
     "cat": "ai",
@@ -119,7 +128,7 @@
   {
     "title": "The case against JPEG XL",
     "link": "https://giannirosato.com/blog/post/case-against-jxl/",
-    "desc": "Article URL: https://giannirosato.com/blog/post/case-against-jxl/ Comments URL: https://news.ycombinator.com/item?id=49690554 Points: 196 # Comments: 257",
+    "desc": "Article URL: https://giannirosato.com/blog/post/case-against-jxl/ Comments URL: https://news.ycombinator.com/item?id=49690554 Points: 199 # Comments: 261",
     "date": "2026-09-14",
     "source": "Hacker News",
     "cat": "ai",
@@ -128,7 +137,7 @@
   {
     "title": "Apple's Dimensional Drawings",
     "link": "https://developer.apple.com/accessories/dimensional-drawings/",
-    "desc": "Article URL: https://developer.apple.com/accessories/dimensional-drawings/ Comments URL: https://news.ycombinator.com/item?id=49690174 Points: 249 # Comments: 89",
+    "desc": "Article URL: https://developer.apple.com/accessories/dimensional-drawings/ Comments URL: https://news.ycombinator.com/item?id=49690174 Points: 255 # Comments: 89",
     "date": "2026-09-14",
     "source": "Hacker News",
     "cat": "ai",
@@ -138,24 +147,6 @@
     "title": "What are you doing this week?",
     "link": "https://lobste.rs/s/0inlyw/what_are_you_doing_this_week",
     "desc": "What are you doing this week? Feel free to share! Keep in mind it’s OK to do nothing at all, too.",
-    "date": "2026-09-14",
-    "source": "Lobsters",
-    "cat": "ai",
-    "lang": "en"
-  },
-  {
-    "title": "Who Gets to Define the Rules for AI?",
-    "link": "https://cohere.com/blog/who-gets-to-define-the-rules-for-ai",
-    "desc": "Comments",
-    "date": "2026-09-14",
-    "source": "Lobsters",
-    "cat": "ai",
-    "lang": "en"
-  },
-  {
-    "title": "Sticking Functions Where They Donʼt Belong",
-    "link": "https://blog.veritates.love/functions-as-data",
-    "desc": "Comments",
     "date": "2026-09-14",
     "source": "Lobsters",
     "cat": "ai",
@@ -173,6 +164,24 @@
   {
     "title": "We are all Product Engineers now",
     "link": "https://seldo.com/posts/we-are-all-product-engineers-now/",
+    "desc": "Comments",
+    "date": "2026-09-14",
+    "source": "Lobsters",
+    "cat": "ai",
+    "lang": "en"
+  },
+  {
+    "title": "Who Gets to Define the Rules for AI?",
+    "link": "https://cohere.com/blog/who-gets-to-define-the-rules-for-ai",
+    "desc": "Comments",
+    "date": "2026-09-14",
+    "source": "Lobsters",
+    "cat": "ai",
+    "lang": "en"
+  },
+  {
+    "title": "Sticking Functions Where They Donʼt Belong",
+    "link": "https://blog.veritates.love/functions-as-data",
     "desc": "Comments",
     "date": "2026-09-14",
     "source": "Lobsters",
@@ -306,6 +315,15 @@
     "lang": "ru"
   },
   {
+    "title": "Wildberries добавил кнопку «Хочу скидку» — пользователи смогут попросить у продавцов персональную скидку до 35%",
+    "link": "https://vc.ru/marketplace/3138042-wildberries-dobavil-knopku-hochu-skidku-polzovateli-smogut-poprosit-u-prodavcov-personalnuyu-skidku-do-35?from=rss",
+    "desc": "Решение останется за предпринимателем.",
+    "date": "2026-09-14",
+    "source": "vc.ru",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
     "title": "OpenAI покажет своего первого человекоподобного робота в 2027 году — Сэм Альтман",
     "link": "https://vc.ru/future/3137561-openai-predstavit-chelovekopodobnogo-robota?from=rss",
     "desc": "Но массовое распространение роботов начнётся не раньше, чем через несколько лет, считает глава компании.",
@@ -320,6 +338,15 @@
     "desc": "Собираем новости, события и мнения о рынках, банках и реакциях компаний.",
     "date": "2026-09-14",
     "source": "vc.ru",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "Вышло обновление Debian 13.7 с исправлениями безопасности",
+    "link": "https://tproger.ru/news/vywlo-obnovlenie-debian-13-7-s-ispravleniyami-bezopasnosti",
+    "desc": "Вышло седьмое обновление Debian 13, свободной операционной системы. Релиз исправляет уязвимости и серьёзные ошибки в пакетах. — Читать дальше « Вышло обновление Debian 13.7 с исправлениями безопасности »",
+    "date": "2026-09-14",
+    "source": "Tproger",
     "cat": "ai",
     "lang": "ru"
   },
@@ -358,6 +385,15 @@
     "source": "The Code",
     "cat": "ai",
     "lang": "ru"
+  },
+  {
+    "title": "Pkgsrc Is Cool (2022)",
+    "link": "https://www.wisellama.rocks/posts/2021-12-23-pkgsrc-is-cool/",
+    "desc": "Article URL: https://www.wisellama.rocks/posts/2021-12-23-pkgsrc-is-cool/ Comments URL: https://news.ycombinator.com/item?id=49694311 Points: 21 # Comments: 7",
+    "date": "2026-09-14",
+    "source": "Hacker News",
+    "cat": "ai",
+    "lang": "en"
   },
   {
     "title": "Open-source AI and open models reading list",
@@ -425,7 +461,7 @@
   {
     "title": "Registration without a phone number on Signal will use zero-knowledge proofs",
     "link": "https://community.signalusers.org/t/registration-without-a-phone-number/2222?page=10",
-    "desc": "Article URL: https://community.signalusers.org/t/registration-without-a-phone-number/2222?page=10 Comments URL: https://news.ycombinator.com/item?id=49689048 Points: 308 # Comments: 156",
+    "desc": "Article URL: https://community.signalusers.org/t/registration-without-a-phone-number/2222?page=10 Comments URL: https://news.ycombinator.com/item?id=49689048 Points: 312 # Comments: 157",
     "date": "2026-09-13",
     "source": "Hacker News",
     "cat": "ai",
@@ -434,16 +470,7 @@
   {
     "title": "Fable 5.1 Solves the Cyphral Distich, a 370-year-old cipher",
     "link": "https://www.vals.ai/blogs/fable-solves-cyphral-distich",
-    "desc": "Article URL: https://www.vals.ai/blogs/fable-solves-cyphral-distich Comments URL: https://news.ycombinator.com/item?id=49688695 Points: 1040 # Comments: 459",
-    "date": "2026-09-13",
-    "source": "Hacker News",
-    "cat": "ai",
-    "lang": "en"
-  },
-  {
-    "title": "Flawed routers flood University of Wisconsin internet time server (2003)",
-    "link": "https://pages.cs.wisc.edu/~plonka/netgear-sntp/",
-    "desc": "Article URL: https://pages.cs.wisc.edu/~plonka/netgear-sntp/ Comments URL: https://news.ycombinator.com/item?id=49688391 Points: 93 # Comments: 11",
+    "desc": "Article URL: https://www.vals.ai/blogs/fable-solves-cyphral-distich Comments URL: https://news.ycombinator.com/item?id=49688695 Points: 1050 # Comments: 465",
     "date": "2026-09-13",
     "source": "Hacker News",
     "cat": "ai",
@@ -452,7 +479,7 @@
   {
     "title": "Mullenweg has returned as CEO after attempted board ouster",
     "link": "https://techcrunch.com/2026/09/12/automattic-confirms-mullenweg-has-returned-as-ceo-after-attempted-ouster-by-board/",
-    "desc": "Article URL: https://techcrunch.com/2026/09/12/automattic-confirms-mullenweg-has-returned-as-ceo-after-attempted-ouster-by-board/ Comments URL: https://news.ycombinator.com/item?id=49688259 Points: 203 # Comments: 266",
+    "desc": "Article URL: https://techcrunch.com/2026/09/12/automattic-confirms-mullenweg-has-returned-as-ceo-after-attempted-ouster-by-board/ Comments URL: https://news.ycombinator.com/item?id=49688259 Points: 206 # Comments: 275",
     "date": "2026-09-13",
     "source": "Hacker News",
     "cat": "ai",
@@ -461,7 +488,7 @@
   {
     "title": "Why is Google still serving dodgy ads?",
     "link": "https://www.atomic14.com/2026/09/13/why-is-google-still-serving-dodgy-ads",
-    "desc": "Article URL: https://www.atomic14.com/2026/09/13/why-is-google-still-serving-dodgy-ads Comments URL: https://news.ycombinator.com/item?id=49686445 Points: 868 # Comments: 377",
+    "desc": "Article URL: https://www.atomic14.com/2026/09/13/why-is-google-still-serving-dodgy-ads Comments URL: https://news.ycombinator.com/item?id=49686445 Points: 875 # Comments: 377",
     "date": "2026-09-13",
     "source": "Hacker News",
     "cat": "ai",
@@ -790,6 +817,15 @@
     "source": "Tproger",
     "cat": "ai",
     "lang": "ru"
+  },
+  {
+    "title": "Flawed routers flood University of Wisconsin internet time server (2003)",
+    "link": "https://pages.cs.wisc.edu/~plonka/netgear-sntp/",
+    "desc": "Article URL: https://pages.cs.wisc.edu/~plonka/netgear-sntp/ Comments URL: https://news.ycombinator.com/item?id=49688391 Points: 93 # Comments: 11",
+    "date": "2026-09-13",
+    "source": "Hacker News",
+    "cat": "ai",
+    "lang": "en"
   },
   {
     "title": "Ask HN: What are you working on? (September 2026)",
@@ -1584,15 +1620,6 @@
     "lang": "ru"
   },
   {
-    "title": "ЦБ впервые с 2025 года сохранил ключевую ставку — 14% годовых",
-    "link": "https://vc.ru/money/3133288-cb-rossii-uderzhivaet-klyuchevuyu-stavku-14?from=rss",
-    "desc": "До этого регулятор десять раз подряд смягчал денежно-кредитные условия.",
-    "date": "2026-09-11",
-    "source": "vc.ru",
-    "cat": "ai",
-    "lang": "ru"
-  },
-  {
     "title": "Kilo Code 7.6 получил режим долгих задач и лишился интерактивного терминала в CLI",
     "link": "https://tproger.ru/news/kilo-code-7-6-poluchil-rezhim-dolgih-zadach-i-liwilsya-interaktivnog",
     "desc": "Kilo Code 7.6 добавил долгие задачи, уведомления и новые функции для pull request. Из CLI удалили интерактивный терминал. — Читать дальше « Kilo Code 7.6 получил режим долгих задач и лишился интерактивного терминала в CLI »",
@@ -1697,6 +1724,15 @@
     "desc": "GigaChat 3.5 Reasoning — единственная российская открытая модель, которая последовательно рассуждает перед ответом, работает с цепочками задач и способна исправлять собственные ошибки.",
     "date": "2026-09-11",
     "source": "Cossa",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "ЦБ впервые с 2025 года сохранил ключевую ставку — 14% годовых",
+    "link": "https://vc.ru/money/3133288-cb-rossii-uderzhivaet-klyuchevuyu-stavku-14?from=rss",
+    "desc": "До этого регулятор десять раз подряд смягчал денежно-кредитные условия.",
+    "date": "2026-09-11",
+    "source": "vc.ru",
     "cat": "ai",
     "lang": "ru"
   },
@@ -2475,15 +2511,6 @@
     "lang": "ru"
   },
   {
-    "title": "NULL в SQL: почему запрос отрабатывает и молча отдаёт неверное число",
-    "link": "https://tproger.ru/articles/null-v-sql-pochemu-zapros-otrabatyvaet-i-molcha-otdayot-nevernoe-ch",
-    "desc": "Почему WHERE x = NULL не находит строки, как одно пустое значение обнуляет весь NOT IN и на что делится среднее. Разбираем на примерах Postgres. — Читать дальше « NULL в SQL: почему запрос отрабатывает и молча отдаёт неверное число »",
-    "date": "2026-09-08",
-    "source": "Tproger",
-    "cat": "ai",
-    "lang": "ru"
-  },
-  {
     "title": "Люди начали массово прятать промты для ИИ в резюме, чтобы обмануть HR",
     "link": "https://thecode.media/lyudi-nachali-massovo-pryatat-promty-dlya-ii-v-rezyume-chtoby-obmanut-hr/",
     "desc": "Вечное противостояние бизнеса с работниками вышло на новый уровень Сообщение Люди начали массово прятать промты для ИИ в резюме, чтобы обмануть HR появились сначала на Журнал «Код» программирование без снобизма .",
@@ -2534,6 +2561,15 @@
     "desc": "Что реально сработало, где ошиблись и какие вопросы до сих пор остаются открытыми.",
     "date": "2026-09-08",
     "source": "Cossa",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "NULL в SQL: почему запрос отрабатывает и молча отдаёт неверное число",
+    "link": "https://tproger.ru/articles/null-v-sql-pochemu-zapros-otrabatyvaet-i-molcha-otdayot-nevernoe-ch",
+    "desc": "Почему WHERE x = NULL не находит строки, как одно пустое значение обнуляет весь NOT IN и на что делится среднее. Разбираем на примерах Postgres. — Читать дальше « NULL в SQL: почему запрос отрабатывает и молча отдаёт неверное число »",
+    "date": "2026-09-08",
+    "source": "Tproger",
     "cat": "ai",
     "lang": "ru"
   },
