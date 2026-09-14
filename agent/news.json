@@ -279,15 +279,6 @@
     "lang": "ru"
   },
   {
-    "title": "Skills, MCP и субагенты: вся база про ИИ-агентов",
-    "link": "https://thecode.media/kak-ustroen-ii-agent/",
-    "desc": "Разбираемся, что подключать и когда Сообщение Skills, MCP и субагенты: вся база про ИИ-агентов появились сначала на Журнал «Код» программирование без снобизма .",
-    "date": "2026-09-08",
-    "source": "The Code",
-    "cat": "agent",
-    "lang": "ru"
-  },
-  {
     "title": "Seasats",
     "link": "https://www.awwwards.com/sites/seasats",
     "desc": "Seasats is a San Diego-based robotics and marine technology company that designs and builds autonomous surface vehicles. Specifically, solar-electric multipurpose unmanned boats.",
@@ -295,6 +286,15 @@
     "source": "Awwwards",
     "cat": "agent",
     "lang": "en"
+  },
+  {
+    "title": "Skills, MCP и субагенты: вся база про ИИ-агентов",
+    "link": "https://thecode.media/kak-ustroen-ii-agent/",
+    "desc": "Разбираемся, что подключать и когда Сообщение Skills, MCP и субагенты: вся база про ИИ-агентов появились сначала на Журнал «Код» программирование без снобизма .",
+    "date": "2026-09-08",
+    "source": "The Code",
+    "cat": "agent",
+    "lang": "ru"
   },
   {
     "title": "Give Your Coding Agents a Memory You Own",
