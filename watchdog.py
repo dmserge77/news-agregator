@@ -20,8 +20,9 @@ import json
 import os
 import re
 import sys
-import ssl
+import time
 from datetime import datetime, timedelta, timezone
+from urllib.error import HTTPError, URLError
 from urllib.request import urlopen, Request
 
 if sys.platform == "win32":
@@ -34,6 +35,10 @@ WORKFLOW = "deploy.yml"
 SLOT_HOURS = [2, 6, 10, 14, 18, 22]
 # Сколько ждать после начала слота, прежде чем считать данные устаревшими
 GRACE_MINUTES = 90
+# Адрес живого сайта (это же значение используется и в data.js)
+SITE_URL = "https://dmserge77.github.io/news-agregator/ai/data.js"
+# Сколько раз пытаться скачать data.js (GitHub Pages кэширует ответы на 10 мин)
+FETCH_ATTEMPTS = 3
 
 
 def now_msk():
@@ -44,49 +49,38 @@ def now_msk():
 def read_last_build():
     """Определяет время последней сборки.
 
-    Источники по приоритету:
-      1. dist/ai/data.js — если сборка уже прошла (локальный запуск)
-      2. online — живой сайт (в CI репозиторий чистый, файлов сборки нет)
-      3. ai/news.json — накопитель, там нет времени сборки, но есть даты новостей
+    Читаем с живого сайта — это единственный источник, который показывает,
+    что реально видят посетители. Локальный dist/ai/data.js намеренно НЕ
+    используется: он остаётся от прошлого запуска collector.py и может быть
+    на много часов старше того, что уже опубликовано. На этом сторож уже
+    один раз ошибся — увидел локальные 18:38 вместо онлайн 00:48.
+
+    Возвращает (datetime | None, описание проблемы | None).
     """
-    path = os.path.join(BASE_DIR, "dist", "ai", "data.js")
-    if os.path.exists(path):
-        ts = read_updated_from(path)
-        if ts:
-            return ts
+    last_error = None
+    for attempt in range(1, FETCH_ATTEMPTS + 1):
+        try:
+            # Параметр ?nocache= нужен, чтобы обойти кэш страницы (max-age=600):
+            # иначе сторож может увидеть старый ответ и зря дёрнуть сборку.
+            url = f"{SITE_URL}?nocache={int(time.time())}"
+            req = Request(url, headers={
+                "User-Agent": "Mozilla/5.0 (compatible; news-aggregator-watchdog)",
+                "Cache-Control": "no-cache",
+                "Pragma": "no-cache",
+            })
+            with urlopen(req, timeout=30) as resp:
+                text = resp.read().decode("utf-8", errors="replace")
+            m = re.search(r'"updated"\s*:\s*"([^"]+)"', text)
+            if m:
+                return datetime.strptime(m.group(1), "%d.%m.%Y, %H:%M:%S"), None
+            last_error = "в ответе нет поля updated"
+        except Exception as e:
+            last_error = f"{type(e).__name__}: {e}"
+        if attempt < FETCH_ATTEMPTS:
+            time.sleep(5 * attempt)
 
-    # Живой сайт — основной источник для CI
-    try:
-        ctx = ssl.create_default_context()
-        ctx.check_hostname = False
-        ctx.verify_mode = ssl.CERT_NONE
-        url = "https://dmserge77.github.io/news-agregator/ai/data.js"
-        req = Request(url, headers={"User-Agent": "news-agregator-watchdog"})
-        with urlopen(req, timeout=20, context=ctx) as resp:
-            text = resp.read().decode("utf-8", errors="replace")
-        m = re.search(r'"updated"\s*:\s*"([^"]+)"', text)
-        if m:
-            return datetime.strptime(m.group(1), "%d.%m.%Y, %H:%M:%S")
-    except Exception as e:
-        print(f"  ! не удалось прочитать время с сайта: {e}")
-
-    return None
-
-
-def read_updated_from(path):
-    """Читает "updated" из локального data.js."""
-    try:
-        with open(path, "r", encoding="utf-8") as f:
-            text = f.read()
-    except OSError:
-        return None
-    m = re.search(r'"updated"\s*:\s*"([^"]+)"', text)
-    if not m:
-        return None
-    try:
-        return datetime.strptime(m.group(1), "%d.%m.%Y, %H:%M:%S")
-    except ValueError:
-        return None
+    print(f"  ! не удалось прочитать время с сайта: {last_error}")
+    return None, last_error
 
 
 def current_slot_start(now):
@@ -113,21 +107,24 @@ def trigger_build(token):
         "Accept": "application/vnd.github+json",
         "User-Agent": "news-agregator-watchdog",
     })
-    ctx = ssl.create_default_context()
-    ctx.check_hostname = False
-    ctx.verify_mode = ssl.CERT_NONE
-    with urlopen(req, timeout=20, context=ctx) as resp:
+    with urlopen(req, timeout=30) as resp:
         return resp.status
 
 
 def main():
     now = now_msk()
-    last = read_last_build()
-
     print(f"Сторож: сейчас {now.strftime('%d.%m.%Y %H:%M')} МСК")
+
+    last, read_error = read_last_build()
+
     if last is None:
-        print("  ! не удалось прочитать время последней сборки — пропускаю проверку")
+        # Не смогли узнать время сборки. Это НЕ повод бездействовать:
+        # раньше сторож в такой ситуации молча выходил, и получалось, что
+        # «прочитать не удалось» = «всё хорошо». Теперь перезапускаем сборку.
+        print("  ! время последней сборки неизвестно — на всякий случай перезапускаю сборку")
+        request_build("не удалось прочитать время сборки")
         return
+
     print(f"  последняя сборка: {last.strftime('%d.%m.%Y %H:%M:%S')} МСК")
 
     slot = current_slot_start(now)
@@ -142,17 +139,31 @@ def main():
 
     age = now - last
     print(f"  [!] данные устарели на {int(age.total_seconds() // 60)} мин — перезапускаю сборку")
+    request_build(f"данные устарели на {int(age.total_seconds() // 60)} мин")
 
+
+def request_build(reason):
+    """Дёргает workflow_dispatch. Печатает результат, не роняя сторож."""
     token = os.environ.get("GITHUB_TOKEN")
     if not token:
         print("  ! нет GITHUB_TOKEN — перезапуск невозможен")
-        return
-
+        return False
     try:
         status = trigger_build(token)
-        print(f"  -> сборка запрошена (HTTP {status})")
+        print(f"  -> сборка запрошена (HTTP {status}); причина: {reason}")
+        return True
+    except HTTPError as e:
+        # 403/404 — чаще всего мало прав у токена (нужен actions: write)
+        print(f"  ! GitHub отказал ({e.code}): {reason}")
+        if e.code in (401, 403, 404):
+            print("      проверьте, что у workflow есть permissions: actions: write")
+        return False
+    except URLError as e:
+        print(f"  ! сеть недоступна ({e.reason}) — причина: {reason}")
+        return False
     except Exception as e:
-        print(f"  ! не удалось запросить сборку: {e}")
+        print(f"  ! не удалось запросить сборку: {type(e).__name__}: {e}")
+        return False
 
 
 if __name__ == "__main__":
