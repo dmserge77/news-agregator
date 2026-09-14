@@ -18,6 +18,11 @@ if sys.platform == "win32":
 BASE_DIR = os.path.dirname(__file__)
 MAX_AGE_DAYS = 90
 
+
+def now_msk():
+    """Текущее время по Москве (UTC+3)."""
+    return datetime.utcnow() + timedelta(hours=3)
+
 CATEGORIES = {
     "ai":       {"label": "Нейросети",    "emoji": "🧠", "accent": "#0071e3"},
     "vibe":     {"label": "Вайбкодинг",   "emoji": "✨", "accent": "#34c759"},
@@ -110,7 +115,7 @@ def clean_desc(html_text):
 
 def parse_date(date_str):
     if not date_str:
-        return datetime.now().strftime("%Y-%m-%d")
+        return now_msk().strftime("%Y-%m-%d")
     s = date_str.strip()
     for fmt in ["%a, %d %b %Y %H:%M:%S %z", "%a, %d %b %Y %H:%M:%S %Z",
                  "%Y-%m-%dT%H:%M:%S%z", "%Y-%m-%dT%H:%M:%SZ", "%Y-%m-%d"]:
@@ -127,7 +132,7 @@ def parse_date(date_str):
     m = re.search(r"202\d-\d{2}-\d{2}", s)
     if m:
         return m.group()
-    return datetime.now().strftime("%Y-%m-%d")
+    return now_msk().strftime("%Y-%m-%d")
 
 
 def parse_rss(xml_text, feed):
@@ -416,7 +421,7 @@ def fetch_hh_vacancies():
                 "ai engineer", "data scientist", "gpt", "llm", "prompt engineer"]
     seen_links = set()
     seen_titles = {}  # title -> count
-    now = datetime.now().strftime("%Y-%m-%d")
+    now = now_msk().strftime("%Y-%m-%d")
 
     for kw in keywords:
         try:
@@ -472,7 +477,7 @@ def fetch_trudvsem_vacancies():
     """Парсит вакансии через API Работа России."""
     items = []
     seen = set()
-    now = datetime.now().strftime("%Y-%m-%d")
+    now = now_msk().strftime("%Y-%m-%d")
     keywords = ["искусственный интеллект", "нейросети", "машинное обучение"]
 
     for kw in keywords:
@@ -551,7 +556,7 @@ def save_news(filepath, items):
 
 
 def save_data_js(filepath, items, cat_keys=None):
-    ts = datetime.now().strftime("%d.%m.%Y, %H:%M:%S")
+    ts = now_msk().strftime("%d.%m.%Y, %H:%M:%S")
     data = {"items": items, "cat_keys": list(CATEGORIES.keys()), "updated": ts} if cat_keys is None else items
     body = "window.NEWS_DATA = " + json.dumps(data, ensure_ascii=False, indent=2) + ";\n"
     write_if_changed(filepath, body)
@@ -580,7 +585,7 @@ def generate_main_page(all_news):
         if n["cat"] in counts:
             counts[n["cat"]] += 1
     total = len(all_news)
-    build_time = datetime.now().strftime("%d.%m.%Y, %H:%M:%S")
+    build_time = now_msk().strftime("%d.%m.%Y, %H:%M:%S")
 
     cards = ""
     for k, cat in CATEGORIES.items():
@@ -773,7 +778,7 @@ def main():
                 seen_links.add(item["link"])
 
     # 3. Фильтр по дате
-    cutoff = datetime.now() - timedelta(days=MAX_AGE_DAYS)
+    cutoff = now_msk() - timedelta(days=MAX_AGE_DAYS)
     filtered = []
     for item in all_news:
         try:
