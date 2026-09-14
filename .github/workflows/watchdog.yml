@@ -1,0 +1,27 @@
+name: Сторож свежести новостей
+on:
+  schedule:
+    # Каждый час в :45. Сторож сам решает, нужно ли что-то делать:
+    # если данные в текущем слоте не обновились — перезапускает сборку.
+    - cron: '45 * * * *'
+  workflow_dispatch:
+
+permissions:
+  actions: write
+  contents: read
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Установка Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Проверка свежести данных
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python watchdog.py
