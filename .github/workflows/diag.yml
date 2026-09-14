@@ -1,0 +1,38 @@
+name: Диагностика (временно)
+on:
+  workflow_dispatch:
+
+jobs:
+  diag:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Пробуем скачать data.js разными способами
+        run: |
+          echo "=== 1. curl без параметров ==="
+          curl -s -o /dev/null -w "code=%{http_code} size=%{size_download}\n" \
+            https://dmserge77.github.io/news-agregator/ai/data.js || echo "curl failed"
+
+          echo "=== 2. curl с -L ==="
+          curl -sL -o /dev/null -w "code=%{http_code} size=%{size_download} url=%{url_effective}\n" \
+            https://dmserge77.github.io/news-agregator/ai/data.js || echo "curl failed"
+
+          echo "=== 3. curl с ?nocache ==="
+          curl -s -o /dev/null -w "code=%{http_code} size=%{size_download}\n" \
+            "https://dmserge77.github.io/news-agregator/ai/data.js?nocache=$RANDOM" || echo "curl failed"
+
+          echo "=== 4. Python urllib ==="
+          python3 -c "
+          import urllib.request, re
+          url='https://dmserge77.github.io/news-agregator/ai/data.js'
+          try:
+              r=urllib.request.urlopen(url, timeout=20)
+              t=r.read().decode('utf-8','replace')
+              print('OK', r.status, 'len', len(t))
+              m=re.search(r'\"updated\"\s*:\s*\"([^\"]+)\"', t)
+              print('updated =', m.group(1) if m else 'NOT FOUND')
+          except Exception as e:
+              print('FAIL:', type(e).__name__, e)
+          "
+
+          echo "=== 5. Корень сайта ==="
+          curl -s -o /dev/null -w "code=%{http_code}\n" https://dmserge77.github.io/news-agregator/ || true
