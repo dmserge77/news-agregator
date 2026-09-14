@@ -490,6 +490,7 @@ def fetch_fl_orders():
     """Парсит заказы с fl.ru. Ищет только ИИ-заказы и сайты."""
     items = []
     seen_titles = {}
+    errors = []
     keywords = [
         # ИИ
         "нейросети", "искусственный интеллект", "нейросеть", "gpt", "chatgpt",
@@ -506,8 +507,10 @@ def fetch_fl_orders():
     for kw in keywords:
         try:
             url = f"https://www.fl.ru/rss/projects.xml?category=all&search={quote(kw)}"
-            xml = fetch_url(url).decode("utf-8", errors="replace")
+            raw = fetch_url(url)
+            xml = raw.decode("utf-8", errors="replace")
             root = ElementTree.fromstring(xml)
+            raw_count = 0
             for item in root.iter("item"):
                 title = unescape(item.findtext("title", "")).strip()
                 link = item.findtext("link", "").strip()
@@ -516,6 +519,7 @@ def fetch_fl_orders():
 
                 if not title:
                     continue
+                raw_count += 1
 
                 title_norm = title.lower().strip()
                 if seen_titles.get(title_norm, 0) >= 1:
@@ -537,8 +541,13 @@ def fetch_fl_orders():
                         "order_type": classify_order(title, desc),
                         "lang": detect_lang(title + " " + desc),
                     })
+            print(f"    [{kw}] ответ {len(raw)} б, записей: {raw_count}")
         except Exception as e:
-            pass
+            errors.append(f"{kw}: {e}")
+    if errors:
+        print(f"  ! FL.ru ошибки ({len(errors)} из {len(keywords)} запросов):")
+        for err in errors[:5]:
+            print(f"      {err}")
     print(f"  -> {len(items)} заказов с FL.ru")
     return items
 
