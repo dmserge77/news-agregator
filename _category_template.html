@@ -68,7 +68,7 @@ footer{text-align:center;padding:40px 0 20px;color:var(--text2);font-size:.85rem
 <div class="container">
 <header>
 <h1><a href="../index.html" style="color:inherit;text-decoration:none">AI News Hub</a></h1>
-<p>Нейросети · Вайбкодинг · ИИ-агенты · Платформы</p>
+<p>Нейросети · Вайбкодинг · ИИ-агенты · Платформы · Солянка</p>
 </header>
 <nav class="nav-bar">
 <a href="../ai/index.html" class="nav-btn %%ACT_ai%%">🧠 Нейросети</a>
@@ -76,6 +76,7 @@ footer{text-align:center;padding:40px 0 20px;color:var(--text2);font-size:.85rem
 <a href="../design/index.html" class="nav-btn %%ACT_design%%">🎨 Дизайн</a>
 <a href="../agent/index.html" class="nav-btn %%ACT_agent%%">🤖 ИИ-агенты</a>
 <a href="../platform/index.html" class="nav-btn %%ACT_platform%%">⚡ Платформы</a>
+<a href="../misc/index.html" class="nav-btn %%ACT_misc%%">🍲 Солянка</a>
 <a href="../jobs/index.html" class="nav-btn %%ACT_jobs%%">💼 Вакансии</a>
 <a href="../orders/index.html" class="nav-btn %%ACT_orders%%">💰 Есть заказ</a>
 <a href="../about/index.html" class="nav-btn">ℹ️ О проекте</a>
@@ -100,6 +101,11 @@ footer{text-align:center;padding:40px 0 20px;color:var(--text2);font-size:.85rem
 <button class="lang-btn" data-sub="ai">🤖 AI-задачи</button>
 <button class="lang-btn" data-sub="design">🎨 Дизайн</button>
 <button class="lang-btn" data-sub="content">📝 Контент</button>
+</div>
+<div class="sub-bar hidden" id="miscBar">
+<button class="lang-btn active" data-sub="all">📋 Все</button>
+<button class="lang-btn" data-sub="raznoe">📰 Разное</button>
+<button class="lang-btn" data-sub="curio">🤪 Курьёзы</button>
 </div>
 <div class="news-feed" id="newsGrid"></div>
 <footer></footer>
@@ -132,7 +138,7 @@ function fmtDate(s) {
 function getFiltered() {
   var arr = sortByDate(items.slice());
   if (activeLang !== 'all') arr = arr.filter(function(n){ return n.lang === activeLang; });
-  if (activeSub !== 'all') arr = arr.filter(function(n){ return (n.job_type||n.order_type) === activeSub; });
+  if (activeSub !== 'all') arr = arr.filter(function(n){ return (n.job_type||n.order_type||n.misc_type) === activeSub; });
   return arr;
 }
 
@@ -191,12 +197,14 @@ document.getElementById('langBar').addEventListener('click', function(e) {
   render();
 });
 
-// Sub filters (jobs/orders)
+// Sub filters (jobs/orders/misc)
 var hasJobType = items.some(function(n){ return n.job_type; });
 var hasOrderType = items.some(function(n){ return n.order_type; });
+var hasMiscType = items.some(function(n){ return n.misc_type; });
 if (hasJobType) document.getElementById('jobBar').className = 'sub-bar';
 if (hasOrderType) document.getElementById('orderBar').className = 'sub-bar';
-[document.getElementById('jobBar'), document.getElementById('orderBar')].forEach(function(bar) {
+if (hasMiscType) document.getElementById('miscBar').className = 'sub-bar';
+[document.getElementById('jobBar'), document.getElementById('orderBar'), document.getElementById('miscBar')].forEach(function(bar) {
   if (!bar) return;
   bar.addEventListener('click', function(e) {
     var btn = e.target.closest('.lang-btn');

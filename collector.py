@@ -29,9 +29,14 @@ CATEGORIES = {
     "agent":    {"label": "ИИ-агенты",    "emoji": "🤖", "accent": "#ff9500"},
     "platform": {"label": "Платформы",    "emoji": "⚡", "accent": "#5856d6"},
     "design":   {"label": "Дизайн",       "emoji": "🎨", "accent": "#e3a133"},
+    "misc":     {"label": "Солянка",      "emoji": "🍲", "accent": "#c9762d"},
     "jobs":     {"label": "Вакансии",     "emoji": "💼", "accent": "#e34133"},
     "orders":   {"label": "Есть заказ",   "emoji": "💰", "accent": "#e3a133"},
 }
+
+# Категории, содержимое которых НЕ проверяется на AI-релевантность
+# (вакансии и заказы фильтруются своими отдельными функциями)
+NO_AI_CHECK = {"jobs", "orders"}
 
 # Подкатегории для "Есть заказ" — каждая отдельная папка
 ORDER_TYPES = {
@@ -42,7 +47,14 @@ ORDER_TYPES = {
     "content": {"label": "Контент",       "emoji": "📝", "accent": "#e34133"},
 }
 
+# Подкатегории для "Солянка" — каждая отдельная папка
+MISC_TYPES = {
+    "raznoe": {"label": "Разное",   "emoji": "📰", "accent": "#c9762d"},
+    "curio":  {"label": "Курьёзы",  "emoji": "🤪", "accent": "#e3a133"},
+}
+
 FEEDS = [
+    # --- Англоязычные ---
     {"url": "https://hnrss.org/frontpage", "cat": "ai", "source": "Hacker News"},
     {"url": "https://lobste.rs/rss", "cat": "ai", "source": "Lobsters"},
     {"url": "https://github.blog/feed/", "cat": "vibe", "source": "GitHub Blog"},
@@ -50,44 +62,128 @@ FEEDS = [
     {"url": "https://blog.replit.com/feed.xml", "cat": "vibe", "source": "Replit"},
     {"url": "https://huggingface.co/blog/feed.xml", "cat": "platform", "source": "Hugging Face"},
     {"url": "https://vercel.com/blog/feed.xml", "cat": "platform", "source": "Vercel"},
-    {"url": "https://aws.amazon.com/blogs/aws/feed/", "cat": "platform", "source": "AWS"},
     {"url": "https://blog.railway.app/rss.xml", "cat": "platform", "source": "Railway"},
-    {"url": "https://rss.nytimes.com/services/xml/rss/nyt/Technology.xml", "cat": "ai", "source": "NYT Tech"},
-    # Русскоязычные
+    # --- Русскоязычные: ИИ и ML ---
     {"url": "https://habr.com/ru/rss/hub/artificial_intelligence/?fl=ru", "cat": "ai", "source": "Habr AI"},
     {"url": "https://habr.com/ru/rss/hub/machine_learning/?fl=ru", "cat": "ai", "source": "Habr ML"},
-    {"url": "https://habr.com/ru/rss/hubs/artificial_intelligence/news/?fl=ru", "cat": "ai", "source": "Habr AI"},
-    {"url": "https://vc.ru/rss", "cat": "ai", "source": "vc.ru"},
-    {"url": "https://tproger.ru/feed/", "cat": "ai", "source": "Tproger"},
-    {"url": "https://thecode.media/feed/", "cat": "ai", "source": "The Code"},
-    # Дизайн
+    {"url": "https://habr.com/ru/rss/hubs/artificial_intelligence/news/?fl=ru", "cat": "ai", "source": "Habr AI Новости"},
+    {"url": "https://habr.com/ru/rss/hubs/machine_learning/news/?fl=ru", "cat": "ai", "source": "Habr ML Новости"},
+    {"url": "https://habr.com/ru/rss/hub/natural_language_processing/?fl=ru", "cat": "ai", "source": "Habr NLP"},
+    {"url": "https://habr.com/ru/rss/hub/bigdata/?fl=ru", "cat": "platform", "source": "Habr Big Data"},
+    {"url": "https://habr.com/ru/rss/hub/python/?fl=ru", "cat": "vibe", "source": "Habr Python"},
+    {"url": "https://habr.com/ru/rss/hub/open_source/?fl=ru", "cat": "platform", "source": "Habr Open Source"},
+    {"url": "https://habr.com/ru/rss/hub/devops/?fl=ru", "cat": "platform", "source": "Habr DevOps"},
+    {"url": "https://habr.com/ru/rss/hub/api/?fl=ru", "cat": "platform", "source": "Habr API"},
+    {"url": "https://habr.com/ru/rss/hubs/cloud_computing/?fl=ru", "cat": "platform", "source": "Habr Облака"},
+    {"url": "https://habr.com/ru/rss/hub/freelance/?fl=ru", "cat": "jobs", "source": "Habr Фриланс"},
+    {"url": "https://tproger.ru/feed/", "cat": "vibe", "source": "Tproger"},
+    {"url": "https://thecode.media/feed/", "cat": "platform", "source": "The Code"},
+    {"url": "https://www.kaspersky.ru/blog/feed/", "cat": "platform", "source": "Kaspersky"},
+    {"url": "https://www.comnews.ru/rss.xml", "cat": "platform", "source": "ComNews"},
+    {"url": "https://te-st.org/feed/", "cat": "platform", "source": "Теплица соцтех"},
+    {"url": "https://dtf.ru/rss/", "cat": "misc", "source": "DTF"},
+    {"url": "https://rb.ru/feeds/all/", "cat": "misc", "source": "Rusbase"},
+    {"url": "https://nauka.tass.ru/rss/v2.xml", "cat": "misc", "source": "ТАСС Наука"},
+    # --- Русскоязычные: техно-медиа (проходят фильтр по ИИ) ---
+    {"url": "https://3dnews.ru/news/rss/", "cat": "misc", "source": "3DNews"},
+    {"url": "https://hi-tech.mail.ru/rss/all/", "cat": "misc", "source": "Hi-Tech Mail"},
+    # --- Дизайн ---
     {"url": "https://habr.com/ru/rss/hubs/web_design/articles/?fl=ru", "cat": "design", "source": "Habr Веб-дизайн"},
     {"url": "https://habr.com/ru/rss/hubs/web_design/news/?fl=ru", "cat": "design", "source": "Habr Веб-дизайн"},
-    {"url": "https://cossa.ru/rss/", "cat": "design", "source": "Cossa"},
+    {"url": "https://habr.com/ru/rss/hub/design/?fl=ru", "cat": "design", "source": "Habr Дизайн"},
     {"url": "https://www.smashingmagazine.com/feed/", "cat": "design", "source": "Smashing Magazine"},
     {"url": "https://uxdesign.cc/feed", "cat": "design", "source": "UX Collective"},
     {"url": "https://www.awwwards.com/feed/", "cat": "design", "source": "Awwwards"},
 ]
 
 CAT_KEYWORDS = {
-    "ai": ["gpt", "claude", "llama", "gemini", "openai", "anthropic", "diffusion",
-           "нейросет", "модель", "языков", "language model", "deep learning", "llm",
-           "transformer", "neural", "machine learning"],
-    "vibe": ["vibe coding", "cursor", "copilot", "bolt.new", "lovable", "replit",
-             "вайбкод", "промпт", "генерац", "no-code", "low-code", "app generator",
-             "ai coding", "generate code"],
-    "agent": ["ai agent", "autogpt", "auto-gpt", "agent", "агент", "crewai",
-              "langgraph", "function call", "tool use", "autonomous"],
-    "platform": ["api", "platform", "платформ", "saas", "free tier", "бесплат",
-                 "hosting", "spaces", "hugging face", "framework"],
-    "design": ["figma", "тильд", "tilda", "веб-дизайн", "web design", "verstka",
-               "верстк", "ui", "ux", "дизайн сайт", "дизайн", "design system",
-               "интерфейс", "interface", "landing", "лендинг", "макет", "prototype",
-               "прототип", "webflow", "photoshop", "illustrator", "логотип",
-               "вебдизайн", "ux/ui", "ui/ux", "дизайнер"],
-    "jobs": [],
-    "orders": [],
+    "ai": ["gpt", "chatgpt", "gpt-4", "gpt-5", "claude", "llama", "gemini", "deepseek",
+           "qwen", "mistral", "grok", "midjourney", "stable diffusion", "sora",
+           "openai", "anthropic", "deepmind", "hugging face", "нейросет", "нейронн",
+           "искусственный интеллект", "ии-", "ии ", "ии,", "ии.", "машинное обучение",
+           "машинного обучения", "языкова", "llm", "deep learning", "transformer",
+           "diffusion", "chatbot", "чат-бот", "чатбот", "инференс", "обучение модель",
+           "генеративн", "мультимодальн", "токен", "эмбеддинг", "датасет"],
+    "vibe": ["vibe coding", "вайбкод", "cursor", "github copilot", "copilot",
+             "bolt.new", "lovable", "replit", "codeium", "windsurf", "cline",
+             "ai coding", "промпт-инжинир", "prompt engineering", "no-code",
+             "low-code", "генерация кода", "кодогенерац", "автодополнение кода"],
+    "agent": ["ai agent", "ии-агент", "autogpt", "auto-gpt", "crewai", "langgraph",
+              "langchain", "mcp-сервер", "model context protocol", "function call",
+              "tool use", "tool use", "автономн", "оркестрац агент", "агентная систем",
+              "agentic"],
+    "platform": ["api", "платформ", "saas", "free tier", "бесплатн", "хостинг",
+                 "hosting", "framework", "фреймворк", "облачн", "инфраструктур",
+                 "серверн", "open source", "опенсорс", "релиз", "обновление",
+                 "разработк", "библиотек", "sdk", "разработчик"],
+    "design": ["figma", "тильд", "tilda", "веб-дизайн", "web design", "верстк",
+               "ui", "ux", "дизайн", "design system", "интерфейс", "interface",
+               "landing", "лендинг", "макет", "prototype", "прототип", "webflow",
+               "photoshop", "illustrator", "логотип", "вебдизайн", "ux/ui", "ui/ux",
+               "дизайнер", "нейро-дизайн", "нейросетевой дизайн"],
+    "misc": [],
+    "jobs": ["вакансия", "вакансии", "ищем", "требуется", "зарплата", "оплата",
+             "резюме", "собеседование", "оффер", "грейд", "senior", "middle",
+             "junior", "remote", "удалёнка", "гибрид", "full-time", "part-time",
+             "мы ищем", "в команду", "в штат", "зарплатная вилка", "компания ищет",
+             "hh.ru", "headhunter", "трудоустройство", "работа", "подработка"],
+    "orders": ["заказ", "заказы", "фриланс", "исполнитель", "заказчик", "бюджет",
+               "оплата по", "нужно сделать", "требуется сделать", "проект под ключ",
+               "фрилансер", "тендер", "предоплата", "ставка", "почасовая"],
 }
+
+# Что гарантированно говорит о связи материала с ИИ.
+# Если ни одного совпадения — новость в сборник не попадает.
+AI_STRONG = [
+    "искусственный интеллект", "искусственного интеллекта", "искусственном интеллекте",
+    "нейросет", "нейронн", "машинное обучение", "машинного обучения", "глубокое обучение",
+    "генеративн", "мультимодальн", "языковая модель", "языковой модели",
+    "языковых модел", "большая языковая", "чат-бот", "чатбот", "промпт", "промт",
+    "датасет", "инференс", "токенизац",
+    "artificial intelligence", "neural network", "neural net", "machine learning",
+    "deep learning", "generative ai", "large language model", "language model",
+    "llm", "chatbot", "chat bot", "prompt engineering", "fine-tuning", "fine tuning",
+    "diffusion model", "transformer model", "computer vision", "inference",
+]
+# Названия компаний и моделей — тоже сильный сигнал
+AI_NAMES = [
+    "gpt", "chatgpt", "openai", "anthropic", "claude", "gemini", "google deepmind",
+    "deepmind", "llama", "meta ai", "mistral", "deepseek", "qwen", "grok", "xai",
+    "hugging face", "stability ai", "midjourney", "stablediffusion", "stable diffusion",
+    "copilot", "cursor", "perplexity", "sora", "nvidia", "сбер", "gigachat", "гигачат",
+    "yandexgpt", "яндекс gpt", "шедеврум", "кандинский", "адам", "gpt-4", "gpt-5",
+]
+# Мусор: не ИИ, а бытовая техника, дизайн интерьера и прочее
+FALSE_POSITIVES = [
+    "стиральн", "холодильник", "пылесос", "микроволнов", "мультиварк", "посудомоеч",
+    "кондиционер", "телевизор", "смартфон обзор", "наушники", "кроссовк", "автомобил",
+    "шин", "квартир", "ремонт", "мебел", "интерьер", "кухн", "ванн",
+]
+
+
+def has_ai_signal(text):
+    """Есть ли в тексте явный признак темы ИИ."""
+    t = text.lower()
+    if any(w in t for w in AI_STRONG):
+        return True
+    if any(w in t for w in AI_NAMES):
+        return True
+    # "AI" отдельным словом, а не внутри "mail", "said", "captain"
+    if re.search(r"(?<![a-z])ai(?![a-z])", t):
+        return True
+    return False
+
+
+def is_ai_relevant(text, cat):
+    """Пропускает только материалы про ИИ. Вакансии и заказы не проверяются."""
+    if cat in NO_AI_CHECK:
+        return True
+    if cat not in CATEGORIES:
+        return False
+    t = text.lower()
+    if any(w in t for w in FALSE_POSITIVES):
+        return False
+    return has_ai_signal(t)
 
 
 def detect_lang(text):
@@ -103,7 +199,12 @@ def classify(text, default_cat):
             if kw.lower() in text:
                 scores[cat] += 1
     best = max(scores, key=scores.get)
-    return best if scores[best] > 0 else default_cat
+    if scores[best] > 0:
+        return best
+    # Ничего не подошло, но материал всё равно про ИИ — это «Солянка»
+    if has_ai_signal(text):
+        return "misc"
+    return None
 
 
 def clean_desc(html_text):
@@ -145,14 +246,21 @@ def parse_rss(xml_text, feed):
         pubdate = item.findtext("pubDate", "")
         if not title or not link:
             continue
-        items.append({
+        text = title + " " + desc
+        cat = classify(text, feed["cat"])
+        if not is_ai_relevant(text, cat):
+            continue
+        item_data = {
             "title": title, "link": link,
             "desc": clean_desc(desc),
             "date": parse_date(pubdate),
             "source": feed["source"],
-            "cat": classify(title + " " + desc, feed["cat"]),
-            "lang": detect_lang(title + " " + desc),
-        })
+            "cat": cat,
+            "lang": detect_lang(text),
+        }
+        if cat == "misc":
+            item_data["misc_type"] = classify_misc(title, desc)
+        items.append(item_data)
     for entry in root.iter("{http://www.w3.org/2005/Atom}entry"):
         title = unescape(entry.findtext("{http://www.w3.org/2005/Atom}title", "")).strip()
         link_el = entry.find("{http://www.w3.org/2005/Atom}link")
@@ -161,14 +269,21 @@ def parse_rss(xml_text, feed):
         updated = entry.findtext("{http://www.w3.org/2005/Atom}updated", "")
         if not title or not link:
             continue
-        items.append({
+        text = title + " " + desc
+        cat = classify(text, feed["cat"])
+        if not is_ai_relevant(text, cat):
+            continue
+        entry_data = {
             "title": title, "link": link,
             "desc": clean_desc(desc),
             "date": parse_date(updated),
             "source": feed["source"],
-            "cat": classify(title + " " + desc, feed["cat"]),
-            "lang": detect_lang(title + " " + desc),
-        })
+            "cat": cat,
+            "lang": detect_lang(text),
+        }
+        if cat == "misc":
+            entry_data["misc_type"] = classify_misc(title, desc)
+        items.append(entry_data)
     return items
 
 
@@ -286,6 +401,30 @@ def classify_order(title, desc):
                                 "illustrator", "photoshop", "верстк"]):
         return "design"
     return "content"
+
+
+# Маркеры рубрики «Курьёзы» внутри «Солянки».
+# Только то, что мы ОПОВЕЩАЕМ: шутки, мемы, нелепые истории, скандалы, фейлы.
+# Никаких «советов» и «лайфхаков» — мы не советуем, мы оповещаем.
+CURIO_MARKERS = [
+    "шутк", "пошутил", "пошутила", "шутит", "шутить", "юмор", "юморист",
+    "мем", "мемы", "мемасик", "мемчик", "смешн", "смешно", "смех", "насмешил",
+    "забавн", "прикол", "курьёз", "курьез", "нелеп", "абсурдн", "анекдот",
+    "скандал", "фейл", "fail", "провал", "опозорил", "конфуз", "недоразумени",
+    "разыграл", "розыгрыш", "устроил переполох", "рассмешил", "перепутал",
+    "приняли за", "перепутали", "обманул", "обманули", "нейросеть ошиблась",
+    "галлюцинир", "галлюцинац", "нагенерировал", "сгенерировал ерунду",
+    "funny", "joke", "humor", "meme", "mishap", "blunder", "embarrassing",
+    "ridiculous", "absurd", "hallucinat", "went wrong", "prank", "weird",
+]
+
+
+def classify_misc(title, desc):
+    """Определяет подкатегорию «Солянки»: курьёзы или всё остальное."""
+    text = (title + " " + desc).lower()
+    if any(w in text for w in CURIO_MARKERS):
+        return "curio"
+    return "raznoe"
 
 
 def fetch_fl_orders():
@@ -706,7 +845,7 @@ footer {{ color: var(--text2); font-size: 0.85rem; padding: 30px 0; text-align: 
 <div class="container">
   <header>
     <h1>AI News Hub</h1>
-    <p>Нейросети · Вайбкодинг · Дизайн · ИИ-агенты · Платформы</p>
+    <p>Нейросети · Вайбкодинг · Дизайн · ИИ-агенты · Платформы · Солянка</p>
     <div id="lastUpdated"></div>
   </header>
 
