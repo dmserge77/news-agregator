@@ -972,10 +972,52 @@ def build_dist():
     print(f"  [OK] dist/ собран ({len(os.listdir(dist))} элементов)")
 
 
+def norm_title(title):
+    """Заголовок для сравнения дублей: без регистра, пунктуации и лишних пробелов."""
+    t = (title or "").lower()
+    t = re.sub(r"[^\w\s]+", " ", t, flags=re.UNICODE)
+    t = re.sub(r"\s+", " ", t)
+    return t.strip()
+
+
+def dedup_key(item):
+    """Ключ уникальности новости: источник + заголовок + дата.
+
+    Одну и ту же новость можно получить по РАЗНЫМ адресам, поэтому сверки
+    по ссылке недостаточно. Реальный случай: vc.ru отдал статью 3139979
+    в тегах #ai и #нейросети с разными слагами —
+      vc.ru/ai/3139979-alisa-ai-vybirayet-rezhim-dlya-zadach
+      vc.ru/ai/3139979-alisa-ai-sama-vybiraet-rezhim-kakie-zadachi-ei-teper-poruchat
+    Ссылки разные, а новость одна. Дата в ключе нужна, чтобы не склеить
+    разные выпуски с одинаковым названием (например, еженедельные дайджесты).
+    """
+    return (
+        (item.get("source") or "").strip().lower(),
+        norm_title(item.get("title")),
+        (item.get("date") or "").strip(),
+    )
+
+
 def main():
     # 1. Собираем новые новости из RSS
     all_news = []
     seen_links = set()
+    seen_keys = set()
+    dup_count = 0
+
+    def is_dup(item):
+        """Новость уже попадалась? Сверяем ссылку и «источник+заголовок+дата»."""
+        link = item.get("link") or ""
+        if link and link in seen_links:
+            return True
+        return dedup_key(item) in seen_keys
+
+    def mark(item):
+        """Запоминаем новость как уже добавленную."""
+        link = item.get("link") or ""
+        if link:
+            seen_links.add(link)
+        seen_keys.add(dedup_key(item))
 
     for feed in FEEDS:
         try:
@@ -984,10 +1026,12 @@ def main():
             items = parse_rss(xml, feed)
             added = 0
             for item in items:
-                if item["link"] not in seen_links:
-                    all_news.append(item)
-                    seen_links.add(item["link"])
-                    added += 1
+                if is_dup(item):
+                    dup_count += 1
+                    continue
+                all_news.append(item)
+                mark(item)
+                added += 1
             print(f"  -> {len(items)} записей, новых: {added}")
         except Exception as e:
             print(f"  ! Ошибка: {e}")
@@ -995,21 +1039,24 @@ def main():
     # 1b. Собираем вакансии
     print("Собираю вакансии с hh.ru...")
     for v in fetch_hh_vacancies():
-        if v["link"] not in seen_links:
-            all_news.append(v)
-            seen_links.add(v["link"])
+        if is_dup(v):
+            continue
+        all_news.append(v)
+        mark(v)
     print("Собираю вакансии с Работа России...")
     for v in fetch_trudvsem_vacancies():
-        if v["link"] not in seen_links:
-            all_news.append(v)
-            seen_links.add(v["link"])
+        if is_dup(v):
+            continue
+        all_news.append(v)
+        mark(v)
 
     # 1c. Собираем заказы
     print("Собираю заказы с FL.ru...")
     for o in fetch_fl_orders():
-        if o["link"] not in seen_links:
-            all_news.append(o)
-            seen_links.add(o["link"])
+        if is_dup(o):
+            continue
+        all_news.append(o)
+        mark(o)
 
     # 2. Загружаем существующие новости (чтобы не потерять ручные правки).
     #    Записи, которые не проходят фильтр, НЕ выбрасываем, а переводим
@@ -1020,7 +1067,9 @@ def main():
     for key in CATEGORIES:
         fpath = os.path.join(BASE_DIR, key, "news.json")
         for item in load_news(fpath):
-            if item["link"] in seen_links:
+            if is_dup(item):
+                # Здесь же чинится и старый дубль, уже лежащий в накопителе.
+                dup_count += 1
                 continue
             # Мёртвые источники выкидываем совсем — они не должны висеть на сайте
             # ни в рубриках, ни в «Не фильтрованном».
@@ -1033,14 +1082,14 @@ def main():
                     item["cat"] = "misc"
                     item["misc_type"] = "unfiltered"
                     to_unfiltered.append(item)
-                    seen_links.add(item["link"])
+                    mark(item)
                     continue
             # Вакансии: остаются только от hh.ru, RSS-статьи уезжают в Солянку
             elif item.get("cat") == "jobs" and item.get("source") != "hh.ru":
                 item["cat"] = "misc"
                 item["misc_type"] = "unfiltered"
                 to_unfiltered.append(item)
-                seen_links.add(item["link"])
+                mark(item)
                 continue
             # Остальные категории проверяются на тему ИИ
             elif item.get("cat") not in ("jobs", "misc"):
@@ -1049,10 +1098,10 @@ def main():
                     item["cat"] = "misc"
                     item["misc_type"] = "unfiltered"
                     to_unfiltered.append(item)
-                    seen_links.add(item["link"])
+                    mark(item)
                     continue
             all_news.append(item)
-            seen_links.add(item["link"])
+            mark(item)
 
     if to_unfiltered:
         # Просто добавляем их к общему потоку: шаг 5 разложит их в misc
@@ -1066,6 +1115,9 @@ def main():
 
     if dropped_dead:
         print(f"  [чистка] мёртвых источников удалено: {dropped_dead}")
+
+    if dup_count:
+        print(f"  [дедуп] повторов отброшено: {dup_count}")
 
     # 3. Фильтр по дате
     cutoff = now_msk() - timedelta(days=MAX_AGE_DAYS)
