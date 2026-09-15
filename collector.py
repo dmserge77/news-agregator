@@ -46,8 +46,10 @@ NO_AI_CHECK = {"jobs", "orders"}
 #   NYT Tech    — отдаёт 404
 #   Cossa       — закрылась
 #   AWS         — лента не отдаётся
-#   vc.ru       — закрыл RSS
-DEAD_SOURCES = {"ТАСС Наука", "NYT Tech", "Cossa", "AWS", "vc.ru"}
+#   ComNews     — по 1 записи за сборку, и та не про ИИ. НЕ ПОДКЛЮЧАТЬ НИКОГДА.
+# ВНИМАНИЕ: vc.ru здесь был ошибочно — лента живая и материалы про ИИ попадаются.
+# Он снова в FEEDS, но берём только ИИ-теги, чтобы не тащить бизнес и маркетинг.
+DEAD_SOURCES = {"ТАСС Наука", "NYT Tech", "Cossa", "AWS", "ComNews"}
 
 # Подкатегории для "Есть заказ" — каждая отдельная папка
 ORDER_TYPES = {
@@ -92,10 +94,14 @@ FEEDS = [
     {"url": "https://tproger.ru/feed/", "cat": "vibe", "source": "Tproger"},
     {"url": "https://thecode.media/feed/", "cat": "platform", "source": "The Code"},
     {"url": "https://www.kaspersky.ru/blog/feed/", "cat": "platform", "source": "Kaspersky"},
-    {"url": "https://www.comnews.ru/rss.xml", "cat": "platform", "source": "ComNews"},
+    # ComNews не подключать НИКОГДА: отдаёт по 1 записи и она не про ИИ.
     {"url": "https://te-st.org/feed/", "cat": "platform", "source": "Теплица соцтех"},
     {"url": "https://dtf.ru/rss/", "cat": "misc", "source": "DTF"},
     {"url": "https://rb.ru/feeds/all/", "cat": "misc", "source": "Rusbase"},
+    # vc.ru — только ИИ-теги: общая лента тащит бизнес, маркетинг и личные истории,
+    # которые фильтр «про ИИ» всё равно не пропустит. Теги дают чистый материал.
+    {"url": "https://vc.ru/rss/tag/ai", "cat": "ai", "source": "vc.ru"},
+    {"url": "https://vc.ru/rss/tag/нейросети", "cat": "ai", "source": "vc.ru"},
     # ТАСС Наука убран: это научпоп не про ИИ (рачки, ITER, чёрные дыры),
     # он не проходил фильтр и оседал мусором в разных рубриках.
     # --- Русскоязычные: техно-медиа (проходят фильтр по ИИ) ---
@@ -183,6 +189,28 @@ FALSE_POSITIVES = [
     "кондиционер", "телевизор", "смартфон обзор", "наушники", "кроссовк", "автомобил",
     "шин", "квартир", "ремонт", "мебел", "интерьер", "кухн", "ванн",
 ]
+
+# SEO-мусор из ИИ-тегов vc.ru. Там рядом с нормальными статьями публикуют
+# десятки почти одинаковых заголовков вида «нейросеть для X бесплатно: промпт и сервисы»
+# (один автор залил 14 подряд за одну ночь). Ловим по характерным признакам.
+# Только для источников из SPAM_FILTER_SOURCES, чтобы не задеть обычные ленты.
+SEO_SPAM = [
+    "бесплатно",              # главный маркер: реальные статьи так не называют
+    "бесплатно: нейросеть", "нейросеть для", "промпт и", "рейтинг ии-сервис",
+    "топ чатов", "лучшие текстовые ии-модели", "сервисы для создания",
+    "обучение бесплатно", "запись в сообществе",
+]
+
+# Источники, к которым применяется фильтр SEO_SPAM
+SPAM_FILTER_SOURCES = {"vc.ru"}
+
+
+def is_seo_spam(title):
+    """Рекламный пост-заглушка в ИИ-теге (актуально для vc.ru)."""
+    t = (title or "").lower().strip()
+    if not t:
+        return True
+    return any(w in t for w in SEO_SPAM)
 
 
 # Короткие названия, которые нужно искать как отдельные слова:
@@ -295,6 +323,9 @@ def parse_rss(xml_text, feed):
         if not title or not link:
             continue
         text = title + " " + desc
+        # SEO-мусор в ИИ-тегах vc.ru («нейросеть для X бесплатно: промпт и ...»)
+        if feed.get("source") in SPAM_FILTER_SOURCES and is_seo_spam(title):
+            continue
         cat = classify(text, feed["cat"])
         # Вакансии из RSS не берём вообще: настоящие вакансии приходят только
         # с hh.ru (fetch_hh_vacancies). Иначе статьи со словом «работать»
@@ -323,6 +354,9 @@ def parse_rss(xml_text, feed):
         if not title or not link:
             continue
         text = title + " " + desc
+        # SEO-мусор в ИИ-тегах vc.ru («нейросеть для X бесплатно: промпт и ...»)
+        if feed.get("source") in SPAM_FILTER_SOURCES and is_seo_spam(title):
+            continue
         cat = classify(text, feed["cat"])
         # Вакансии из RSS не берём вообще: настоящие вакансии приходят только
         # с hh.ru (fetch_hh_vacancies). Иначе статьи со словом «работать»
@@ -349,6 +383,10 @@ def fetch_url(url):
     ctx = ssl.create_default_context()
     ctx.check_hostname = False
     ctx.verify_mode = ssl.CERT_NONE
+    # Кириллицу в URL (например, теги vc.ru вида /rss/tag/нейросети) urlopen
+    # не умеет кодировать сам: падает 'ascii' codec can't encode.
+    # quote безопасен для обычных адресов — он кодирует только не-ASCII.
+    url = quote(url, safe=":/?#[]@!$&'()*+,;=%~")
     req = Request(url, headers={"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"})
     with urlopen(req, timeout=15, context=ctx) as resp:
         return resp.read()
