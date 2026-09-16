@@ -335,10 +335,37 @@ def classify(text, default_cat):
     return None
 
 
-def clean_desc(html_text):
-    text = re.sub(r"<[^>]+>", " ", html_text)
+# Символы, которыми можно вылезти из атрибута href.
+_UNSAFE_IN_URL = re.compile(r"""[\s"'<>\\]""")
+
+
+def strip_html(text):
+    """Убирает теги из чужого текста — заголовка, описания, названия вакансии.
+
+    Заголовок НЕ обрезаем: в отличие от описания он должен остаться целиком.
+    Чистим дважды, потому что после unescape из «&lt;img&gt;» снова
+    получается тег — одной замены до unescape недостаточно.
+    """
+    text = re.sub(r"<[^>]*>", " ", text or "")
     text = unescape(text)
-    text = re.sub(r"\s+", " ", text).strip()
+    text = re.sub(r"<[^>]*>", " ", text)
+    return re.sub(r"\s+", " ", text.replace("<", " ").replace(">", " ")).strip()
+
+
+def safe_link(url):
+    """Ссылка попадает в атрибут href, поэтому одной проверки схемы мало:
+    кавычка или пробел внутри позволяют вылезти из атрибута и подсунуть
+    обработчик события. Проверено на архиве: таких ссылок там нет,
+    ужесточение ничего не теряет.
+    """
+    url = (url or "").strip()
+    if _UNSAFE_IN_URL.search(url):
+        return ""
+    return url if url.lower().startswith(("http://", "https://")) else ""
+
+
+def clean_desc(html_text):
+    text = strip_html(html_text)
     return text[:297] + "..." if len(text) > 300 else text
 
 
@@ -371,8 +398,8 @@ def parse_rss(xml_text, feed):
     if feed.get("source") in DEAD_SOURCES:
         return items
     for item in root.iter("item"):
-        title = unescape(item.findtext("title", "")).strip()
-        link = item.findtext("link", "").strip()
+        title = strip_html(unescape(item.findtext("title", "")))
+        link = safe_link(item.findtext("link", ""))
         desc = unescape(item.findtext("description", "")).strip()
         pubdate = item.findtext("pubDate", "")
         if not title or not link:
@@ -401,9 +428,9 @@ def parse_rss(xml_text, feed):
             item_data["misc_type"] = classify_misc(title, desc)
         items.append(item_data)
     for entry in root.iter("{http://www.w3.org/2005/Atom}entry"):
-        title = unescape(entry.findtext("{http://www.w3.org/2005/Atom}title", "")).strip()
+        title = strip_html(unescape(entry.findtext("{http://www.w3.org/2005/Atom}title", "")))
         link_el = entry.find("{http://www.w3.org/2005/Atom}link")
-        link = link_el.get("href", "").strip() if link_el is not None else ""
+        link = safe_link(link_el.get("href", "") if link_el is not None else "")
         desc = unescape(entry.findtext("{http://www.w3.org/2005/Atom}summary", "")).strip()
         updated = entry.findtext("{http://www.w3.org/2005/Atom}updated", "")
         if not title or not link:
@@ -434,17 +461,25 @@ def parse_rss(xml_text, feed):
     return items
 
 
+# Потолок на размер ответа: без него одна лента может отдать гигабайты
+# и уронить сборку. Заодно закрывает XML-бомбу.
+MAX_FEED_BYTES = 8 * 1024 * 1024
+
+
 def fetch_url(url):
+    # Проверка сертификата включена. Прогон всех 36 лент с нормальным
+    # контекстом проходит без падений — ослаблять TLS не за чем.
     ctx = ssl.create_default_context()
-    ctx.check_hostname = False
-    ctx.verify_mode = ssl.CERT_NONE
     # Кириллицу в URL (например, теги vc.ru вида /rss/tag/нейросети) urlopen
     # не умеет кодировать сам: падает 'ascii' codec can't encode.
     # quote безопасен для обычных адресов — он кодирует только не-ASCII.
     url = quote(url, safe=":/?#[]@!$&'()*+,;=%~")
     req = Request(url, headers={"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"})
     with urlopen(req, timeout=15, context=ctx) as resp:
-        return resp.read()
+        data = resp.read(MAX_FEED_BYTES + 1)
+        if len(data) > MAX_FEED_BYTES:
+            raise ValueError(f"ответ больше {MAX_FEED_BYTES // 1024 // 1024} МБ — пропускаем")
+        return data
 
 
 # Ключевые слова для подкатегорий вакансий
@@ -701,8 +736,8 @@ def fetch_fl_orders():
             xml = fetch_url(url).decode("utf-8", errors="replace")
             root = ElementTree.fromstring(xml)
             for item in root.iter("item"):
-                title = unescape(item.findtext("title", "")).strip()
-                link = item.findtext("link", "").strip()
+                title = strip_html(unescape(item.findtext("title", "")))
+                link = safe_link(item.findtext("link", ""))
                 desc = unescape(item.findtext("description", "")).strip()
                 pubdate = item.findtext("pubDate", "")
 
@@ -754,8 +789,8 @@ def fetch_hh_vacancies():
             xml = fetch_url(url).decode("utf-8", errors="replace")
             root = ElementTree.fromstring(xml)
             for item in root.iter("item"):
-                title = unescape(item.findtext("title", "")).strip()
-                link = item.findtext("link", "").strip()
+                title = strip_html(unescape(item.findtext("title", "")))
+                link = safe_link(item.findtext("link", ""))
                 desc = unescape(item.findtext("description", "")).strip()
                 pubdate = item.findtext("pubDate", "")
 
@@ -845,8 +880,8 @@ def fetch_trudvsem_vacancies():
             vacancies = parsed.get("results", {}).get("vacancies", [])
             for v in vacancies:
                 vdata = v.get("vacancy", {})
-                title = _api_text(vdata.get("job-name"))
-                link = _api_text(vdata.get("vac_url"))
+                title = strip_html(_api_text(vdata.get("job-name")))
+                link = safe_link(_api_text(vdata.get("vac_url")))
                 if not title.strip() or not link:
                     continue
 

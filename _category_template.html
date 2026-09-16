@@ -128,6 +128,24 @@ var items = Array.isArray(raw) ? raw : (raw.items || []);
 var buildTime = raw.updated || new Date().toLocaleString('ru-RU', {timeZone:'Europe/Moscow'});
 var activeLang = 'ru', activeSub = 'all';
 
+// Карточки собираются строкой и вставляются через innerHTML, поэтому любой
+// чужой текст обязан пройти через esc(), а ссылка — через safeUrl().
+// Заголовок приходит из чужой ленты и является кодом для браузера, пока
+// не экранирован: <img src=x onerror=...> выполнится у каждого посетителя.
+function esc(s) {
+  return String(s === null || s === undefined ? '' : s)
+    .replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;')
+    .replace(/"/g, '&quot;').replace(/'/g, '&#39;');
+}
+
+// Ссылка попадает в атрибут href, поэтому одной проверки схемы мало:
+// кавычка или пробел внутри позволяют вылезти из атрибута.
+function safeUrl(u) {
+  var s = String(u === null || u === undefined ? '' : u).trim();
+  if (/[\s"'<>\\]/.test(s)) return '#';
+  return /^https?:\/\//i.test(s) ? s : '#';
+}
+
 function sortByDate(arr) { return arr.sort(function(a,b){return (b.date||'').localeCompare(a.date||'')}); }
 
 // 2026-09-14 -> 14.09.2026
@@ -156,12 +174,12 @@ function render() {
     var n = arr[i];
     if (n.date !== lastDate) {
       if (gridOpen) { html += '</div>'; gridOpen = false; }
-      html += '<div class="date-sep">' + fmtDate(n.date) + '</div>';
+      html += '<div class="date-sep">' + esc(fmtDate(n.date)) + '</div>';
       html += '<div class="news-grid">';
       gridOpen = true;
       lastDate = n.date;
     }
-    html += '<div class="news-card" data-idx="' + i + '"><h3>' + n.title + '</h3><div class="src"><a href="' + n.link + '" target="_blank" rel="noopener">' + n.source + '</a></div></div>';
+    html += '<div class="news-card" data-idx="' + i + '"><h3>' + esc(n.title) + '</h3><div class="src"><a href="' + esc(safeUrl(n.link)) + '" target="_blank" rel="noopener">' + esc(n.source) + '</a></div></div>';
   }
   if (gridOpen) html += '</div>';
   grid.innerHTML = html;
@@ -181,7 +199,7 @@ document.getElementById('newsGrid').addEventListener('click', function(e) {
   document.getElementById('mBody').textContent = n.desc || n.title;
   var src = document.getElementById('mSource');
   src.textContent = n.source;
-    src.href = n.link;
+    src.href = safeUrl(n.link);
     src.target = "_blank";
     src.rel = "noopener";
   document.getElementById('overlay').className = 'overlay open';
