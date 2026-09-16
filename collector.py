@@ -120,10 +120,11 @@ CAT_KEYWORDS = {
     "ai": ["gpt", "chatgpt", "gpt-4", "gpt-5", "claude", "llama", "gemini", "deepseek",
            "qwen", "mistral", "grok", "midjourney", "stable diffusion", "sora",
            "openai", "anthropic", "deepmind", "hugging face", "нейросет", "нейронн",
-           "искусственный интеллект", "ии-", "ии ", "ии,", "ии.", "машинное обучение",
+           "искусственный интеллект", "ии", "машинное обучение",
            "машинного обучения", "языкова", "llm", "deep learning", "transformer",
-           "diffusion", "chatbot", "чат-бот", "чатбот", "инференс", "обучение модель",
-           "генеративн", "мультимодальн", "токен", "эмбеддинг", "датасет"],
+           "diffusion", "chatbot",
+           "чат-бот", "чатбот", "инференс", "обучение модель", "генеративн",
+           "мультимодальн", "токен", "эмбеддинг", "датасет", "rag", "nlp", "asr", "vlm"],
     "vibe": ["vibe coding", "вайбкод", "cursor", "github copilot", "copilot",
              "bolt.new", "lovable", "replit", "codeium", "windsurf", "cline",
              "ai coding", "промпт-инжинир", "prompt engineering", "no-code",
@@ -217,6 +218,10 @@ def is_seo_spam(title):
 # "llama" иначе ловится в домене wisellama.rocks, "sora"/"grok"/"qwen" — в мусорных словах.
 AI_NAMES_WORD = ["llama", "sora", "grok", "qwen", "xai", "mistral", "депсик"]
 
+# Аббревиатуры тем ИИ. Тоже только отдельным словом: «rag» сидит внутри
+# «storage», и вхождением оно тянуло бы в ленту всё про жёсткие диски.
+AI_TERMS_WORD = ["rag", "nlp", "asr", "vlm"]
+
 
 def has_ai_signal(text):
     """Есть ли в тексте явный признак темы ИИ."""
@@ -234,6 +239,10 @@ def has_ai_signal(text):
         # Если ни одно короткое имя не подтвердилось отдельным словом,
         # проверяем остальные имена обычным вхождением.
         if any(w in t for w in AI_NAMES if w not in AI_NAMES_WORD):
+            return True
+    # Аббревиатуры тем ИИ — только отдельным словом.
+    for w in AI_TERMS_WORD:
+        if re.search(r"(?<![a-zа-я0-9])" + re.escape(w) + r"s?(?![a-zа-я0-9])", t):
             return True
     # "AI" отдельным словом, а не внутри "mail", "said", "captain".
     # Исключение: перечисление графических форматов (svg, ai, pdf, eps) —
@@ -264,13 +273,55 @@ def detect_lang(text):
     return "ru" if re.search(r"[а-яА-ЯёЁ]", text) else "en"
 
 
+# Рубрики, у которых ключевые слова — конкретные названия продуктов и терминов.
+# Если сработала такая рубрика, она побеждает «Нейросети», даже если там очков
+# больше: статья про Cursor — это вайбкодинг, а не нейросети, хотя LLM в ней
+# упомянут. «Платформы» сюда НЕ входят: у неё слова общие (api, релиз,
+# разработка, обновление), и с приоритетом она забрала бы себе всё подряд.
+NARROW_CATS = ["vibe", "agent"]
+
+# Ключи, которые нельзя искать вхождением, хотя они и длиннее трёх букв:
+# «cline» находится внутри «decline».
+KW_TRAPS = {"cline"}
+
+
+def _kw_hit(text, kw):
+    """Есть ли ключевое слово в тексте.
+
+    Русские ключи — это основы («нейросет», «дизайн»), их ищем вхождением.
+    А короткие — только словом целиком: «ux» сидит внутри «linux», «ui» —
+    внутри «build», а «ии» — внутри «компании» и «акции». Из-за последнего
+    в «Нейросети» уезжала вообще любая статья, где рядом с русским словом
+    на -ии стоял пробел: туда попадала даже ботаника про «дьявольский цветок».
+
+    Класс символов включает кириллицу: без неё «ии» всё равно находилось бы
+    внутри «компании», потому что «и» в [a-z0-9] не входит.
+
+    Хвостовая «s» допускается: иначе «LLMs», «GPTs» и «APIs» перестали бы
+    находиться, а это самые частые формы.
+    """
+    if kw in KW_TRAPS or len(kw) <= 3:
+        return re.search(r"(?<![a-zа-яё0-9])" + re.escape(kw) + r"s?(?![a-zа-яё0-9])",
+                         text) is not None
+    return kw in text
+
+
 def classify(text, default_cat):
     text = text.lower()
     scores = {cat: 0 for cat in CATEGORIES}
     for cat, keywords in CAT_KEYWORDS.items():
         for kw in keywords:
-            if kw.lower() in text:
+            if _kw_hit(text, kw.lower()):
                 scores[cat] += 1
+
+    # Узкая рубрика важнее общей. Иначе материал про Cursor уезжает
+    # в «Нейросети»: там ключевых слов в разы больше, и упоминание LLM или
+    # OpenAI перевешивает единственное совпадение в «Вайбкодинге». Из-за этого
+    # «Вайбкодинг» не обновлялся с 11.09, хотя материалы были.
+    narrow = [cat for cat in NARROW_CATS if scores.get(cat)]
+    if narrow:
+        return max(narrow, key=lambda cat: scores[cat])
+
     best = max(scores, key=scores.get)
     if scores[best] > 0:
         return best
