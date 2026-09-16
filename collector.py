@@ -509,7 +509,7 @@ TOO_SENIOR_RU = ["сеньор", "ведущий", "тимлид", "руково
                  "архитектор", "начальник", "эксперт", "главный"]
 
 
-def is_real_ai_job(title, desc):
+def is_real_ai_job(title, desc, role_text=None):
     """Проверяет, что это релевантная удалённая AI-вакансия «попроще».
 
     Правила — из договорённостей с пользователем:
@@ -519,8 +519,17 @@ def is_real_ai_job(title, desc):
       * стажировки, «без опыта», студенты и джуны, наоборот, приветствуются;
       * вакансия должна быть про ИИ или про технологии;
       * курсы и «школы» — это не вакансии.
+
+    `role_text` — по какому тексту проверять профессию, уровень и курсы.
+    По умолчанию заголовок вместе с описанием: у hh.ru описание короткое
+    и шаблонное, и там это работает. А у «Работы России» описание — длинный
+    текст обязанностей, в котором всегда найдутся «контент», «эксперт» и
+    «университет»; по нему проверять нельзя, иначе «AI-тренер для обучения
+    нейросетей» отбивается словом «эксперт» из своих же обязанностей.
+    Такие источники передают сюда только заголовок.
     """
     text = (title + " " + desc).lower()
+    role = (title + " " + desc if role_text is None else role_text).lower()
 
     # 1. Язык. Смотрим заголовок: в описании hh.ru всегда есть русское
     #    «вакансия компании: …», поэтому по описанию язык не определить.
@@ -536,11 +545,11 @@ def is_real_ai_job(title, desc):
              "менеджер", "sales", "маркетолог", "marketing", "директолог",
              "seo", "smm", "таргетолог", "копирайтер", "контент", "content",
              "hr", "hr-", "рекрутер", "recruiter"]
-    if any(w in text for w in block):
+    if any(w in role for w in block):
         return False
 
     # 3. «Крутые» вакансии — не наши
-    if _has_word(text, TOO_SENIOR) or _has_stem(text, TOO_SENIOR_RU):
+    if _has_word(role, TOO_SENIOR) or _has_stem(role, TOO_SENIOR_RU):
         return False
 
     # 4. Курсы и обучение — это не вакансия.
@@ -548,7 +557,7 @@ def is_real_ai_job(title, desc):
     #    НЕ блокируем — пользователь просил вакансии попроще.
     courses = ["курс", "школа", "интенсив", "вебинар", "тренинг", "марафон",
                "академия", "университет", "course", "bootcamp"]
-    if any(w in text for w in courses):
+    if any(w in role for w in courses):
         return False
 
     # 5. Формат работы. Лента hh.ru запрашивается с schedule=remote, то есть
@@ -789,10 +798,42 @@ def fetch_hh_vacancies():
     return items
 
 
+def _api_text(value):
+    """Приводит значение из API к строке.
+
+    «Работа России» отдаёт поля по-разному: `job-name` — строка,
+    а `requirement` — словарь вида `{'education': '…', 'experience': 4}`.
+    Без этого в описание попадал бы `repr` словаря.
+    """
+    if value is None:
+        return ""
+    if isinstance(value, dict):
+        return " ".join(str(v) for v in value.values() if isinstance(v, str))
+    return str(value)
+
+
 def fetch_trudvsem_vacancies():
-    """Парсит вакансии через API Работа России."""
-    items = []
-    seen = set()
+    """Парсит вакансии через API «Работа России» (opendata.trudvsem.ru).
+
+    Имена полей у этого API свои, через дефис: `job-name`, `creation-date`.
+    Пока здесь стояли `title` и `creation_date`, заголовок всегда получался
+    пустым, все записи отбрасывались на проверке `if not title` — и функция
+    молча возвращала ноль вакансий. В логе это выглядело как «источник
+    ответил, вакансий просто нет», хотя источник их отдаёт.
+
+    Удалёнку приходится проверять руками. В ленте hh.ru её отсекает сам
+    запрос (`schedule=remote`), а здесь фильтровать нечем: признак лежит
+    в поле `employment` («Дистанционная (удаленная) работа»).
+
+    Дубли внутри источника приходится склеивать самим. «Работа России» —
+    это реестр по регионам: Сбербанк публикует одну и ту же вакансию
+    «Редактор текстов для обучения нейросетей (GigaChat)» в двух десятках
+    регионов, каждый раз со своей датой. Ссылки разные, даты разные, поэтому
+    общий дедуп проекта («источник + заголовок + дата») их не ловит и рубрика
+    забивается копиями. Склеиваем по «заголовок + компания», оставляя самую
+    свежую дату.
+    """
+    by_key = {}
     now = now_msk().strftime("%Y-%m-%d")
     keywords = ["искусственный интеллект", "нейросети", "машинное обучение"]
 
@@ -804,44 +845,50 @@ def fetch_trudvsem_vacancies():
             vacancies = parsed.get("results", {}).get("vacancies", [])
             for v in vacancies:
                 vdata = v.get("vacancy", {})
-                title = vdata.get("title", "")
-                if isinstance(title, dict):
-                    title = title.get("$", "") or str(title)
-                link = vdata.get("vac_url", "")
-                desc_raw = vdata.get("requirement", "")
-                if isinstance(desc_raw, dict):
-                    desc_raw = desc_raw.get("$", "") or str(desc_raw)
-                duty_raw = vdata.get("duty", "")
-                if isinstance(duty_raw, dict):
-                    duty_raw = duty_raw.get("$", "") or str(duty_raw)
-                desc = str(desc_raw) + " " + str(duty_raw)
-                date_str = vdata.get("creation_date", "")[:10]
-
-                if not title or not title.strip():
+                title = _api_text(vdata.get("job-name"))
+                link = _api_text(vdata.get("vac_url"))
+                if not title.strip() or not link:
                     continue
 
-                skip_words = ["курс", "обучение", "школа", "интенсив", "вебинар",
-                              "тренинг", "марафон", "академия", "университет"]
-                if any(w in (title + desc).lower() for w in skip_words):
+                # Только удалёнка — то же требование, что и в вакансиях hh.ru.
+                employment = _api_text(vdata.get("employment")).lower()
+                if not any(w in employment for w in ("дистанционн", "удаленн", "удалённ")):
                     continue
 
-                if not is_real_ai_job(title, desc):
+                desc = _api_text(vdata.get("duty")) + " " + _api_text(vdata.get("requirement"))
+                date_str = _api_text(vdata.get("creation-date"))[:10] or now
+
+                # Курсы, школы и «крутые» вакансии отсекает is_real_ai_job —
+                # здесь этот список дублировать не нужно: в нём было слово
+                # «обучение», а оно есть в половине описаний разметки данных,
+                # то есть выкашивало ровно то, что нам нужно.
+                #
+                # role_text=title — потому что проверки профессии и уровня
+                # смотрят по заголовку. Описание здесь это длинный текст
+                # обязанностей: в нём всегда найдутся «контент», «эксперт»
+                # и «университет», и по нему «AI-тренер для обучения
+                # нейросетей» отбивался собственными обязанностями.
+                if not is_real_ai_job(title, desc, role_text=title):
                     continue
 
-                if link and link not in seen:
-                    seen.add(link)
-                    items.append({
+                cdata = vdata.get("company")
+                company = str(cdata.get("name") or "") if isinstance(cdata, dict) else ""
+                key = (title.strip().lower(), company.strip().lower())
+                prev = by_key.get(key)
+                if prev is None or date_str > prev["date"]:
+                    by_key[key] = {
                         "title": title,
                         "link": link,
                         "desc": clean_desc(desc),
-                        "date": date_str or now,
+                        "date": date_str,
                         "source": "Работа России",
                         "cat": "jobs",
                         "job_type": classify_job(title, desc),
                         "lang": detect_lang(title + " " + desc),
-                    })
+                    }
         except Exception as e:
             print(f"  ! trudvsem ({kw}): {e}")
+    items = list(by_key.values())
     print(f"  -> {len(items)} вакансий с Работа России")
     return items
 

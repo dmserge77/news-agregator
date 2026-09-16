@@ -227,6 +227,67 @@ class Jobs(unittest.TestCase):
     # Тест намеренно не написан, чтобы не закреплять спорное поведение.
 
 
+class LongDescriptions(unittest.TestCase):
+    """Профессия и уровень проверяются по заголовку, а не по длинному описанию.
+
+    У «Работы России» описание — это текст обязанностей на несколько абзацев.
+    В нём всегда найдутся «контент», «эксперт» и «университет», и проверка
+    по всему тексту отбивала вакансии их же собственными обязанностями.
+    Поэтому источник передаёт role_text=title.
+    """
+
+    # Реальное описание вакансии «AI-тренер для обучения нейросетей».
+    DUTY = ("Ищем внимательных специалистов, которые помогут ИИ отвечать понятнее. "
+            "Вам предстоит исследовать ответы, искать изъяны и предлагать идеи. "
+            "Работа с контентом, оценка качества текстов. Высшее образование, "
+            "университет. Опыт эксперта в предметной области приветствуется.")
+
+    def test_role_text_saves_a_good_vacancy(self):
+        title = "AI-тренер для обучения нейросетей"
+        self.assertTrue(c.is_real_ai_job(title, self.DUTY, role_text=title))
+
+    def test_without_role_text_the_same_vacancy_is_lost(self):
+        # Так было до правки: слово «эксперт» из обязанностей отбивало вакансию.
+        title = "AI-тренер для обучения нейросетей"
+        self.assertFalse(c.is_real_ai_job(title, self.DUTY))
+
+    def test_junk_profession_is_still_rejected_by_its_title(self):
+        for title in ("Уборщик территорий", "Водитель автомобиля",
+                      "Менеджер по работе с клиентами", "Офис-менеджер"):
+            self.assertFalse(c.is_real_ai_job(title, self.DUTY, role_text=title), title)
+
+    def test_senior_is_still_rejected_by_its_title(self):
+        for title in ("Главный специалист по обучению нейросетей",
+                      "Руководитель отдела машинного обучения"):
+            self.assertFalse(c.is_real_ai_job(title, self.DUTY, role_text=title), title)
+
+    def test_topic_is_still_checked_over_the_whole_text(self):
+        # Описание всё ещё участвует — но только в проверке темы.
+        self.assertTrue(c.is_real_ai_job("Разметчик", "Разметка данных для нейросетей",
+                                         role_text="Разметчик"))
+        self.assertFalse(c.is_real_ai_job("Специалист", "Уборка помещений",
+                                          role_text="Специалист"))
+
+
+class ApiText(unittest.TestCase):
+    """Приведение полей API «Работы России» к строке."""
+
+    def test_none_becomes_empty(self):
+        self.assertEqual(c._api_text(None), "")
+
+    def test_plain_string_passes_through(self):
+        self.assertEqual(c._api_text("AI-тренер"), "AI-тренер")
+
+    def test_dict_becomes_joined_strings(self):
+        # `requirement` приходит словарём, а не строкой. Без этого в описание
+        # попадал бы repr словаря.
+        value = {"education": "Высшее образование — бакалавриат", "experience": 4}
+        self.assertEqual(c._api_text(value), "Высшее образование — бакалавриат")
+
+    def test_nested_values_do_not_leak(self):
+        self.assertNotIn("{", c._api_text({"education": "Высшее", "extra": {"a": 1}}))
+
+
 class Misc(unittest.TestCase):
     """Подрубрики «Солянки»."""
 
