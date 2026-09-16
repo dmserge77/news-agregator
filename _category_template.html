@@ -109,6 +109,12 @@ footer{text-align:center;padding:40px 0 20px;color:var(--text2);font-size:.85rem
 <button class="lang-btn" data-sub="curio">🤪 Курьёзы</button>
 <button class="lang-btn" data-sub="unfiltered">🍺 Не фильтрованное</button>
 </div>
+<div class="sub-bar hidden" id="habrBar">
+<button class="lang-btn active" data-habr="all">📋 Все</button>
+<button class="lang-btn" data-habr="habr">📡 Только Хабр</button>
+<button class="lang-btn" data-habr="articles">📄 Статьи</button>
+<button class="lang-btn" data-habr="news">📰 Новости</button>
+</div>
 <div class="news-feed" id="newsGrid"></div>
 <footer></footer>
 </div>
@@ -126,7 +132,8 @@ footer{text-align:center;padding:40px 0 20px;color:var(--text2);font-size:.85rem
 var raw = window.NEWS_DATA || {};
 var items = Array.isArray(raw) ? raw : (raw.items || []);
 var buildTime = raw.updated || new Date().toLocaleString('ru-RU', {timeZone:'Europe/Moscow'});
-var activeLang = 'ru', activeSub = 'all';
+var activeLang = 'ru', activeSub = 'all', activeHabr = 'all';
+var CAT_KEY = '%%CATKEY%%';
 
 // Карточки собираются строкой и вставляются через innerHTML, поэтому любой
 // чужой текст обязан пройти через esc(), а ссылка — через safeUrl().
@@ -146,6 +153,21 @@ function safeUrl(u) {
   return /^https?:\/\//i.test(s) ? s : '#';
 }
 
+// Хабр отдаёт три раздельных потока, и тип записи виден прямо в ссылке:
+// /ru/articles/<id>/ — статья, /ru/news/<id>/ — новость (у компаний
+// /ru/companies/<компания>/news/<id>/), /ru/posts/<id>/ — пост.
+// Хост проверяем первым: у чужого сайта тоже может быть свой /news/123.
+function habrType(link) {
+  var s = String(link || '');
+  if (!/^https?:\/\/(www\.)?habr\.com\//i.test(s)) return '';
+  if (/\/articles\/\d/.test(s)) return 'articles';
+  if (/\/news\/\d/.test(s)) return 'news';
+  if (/\/posts\/\d/.test(s)) return 'posts';
+  return '';
+}
+
+function isHabr(link) { return habrType(link) !== ''; }
+
 function sortByDate(arr) { return arr.sort(function(a,b){return (b.date||'').localeCompare(a.date||'')}); }
 
 // 2026-09-14 -> 14.09.2026
@@ -159,6 +181,10 @@ function getFiltered() {
   var arr = sortByDate(items.slice());
   if (activeLang !== 'all') arr = arr.filter(function(n){ return n.lang === activeLang; });
   if (activeSub !== 'all') arr = arr.filter(function(n){ return (n.job_type||n.order_type||n.misc_type) === activeSub; });
+  if (activeHabr !== 'all') arr = arr.filter(function(n){
+    var t = habrType(n.link);
+    return activeHabr === 'habr' ? t !== '' : t === activeHabr;
+  });
   return arr;
 }
 
@@ -235,6 +261,21 @@ if (hasMiscType) document.getElementById('miscBar').className = 'sub-bar';
     render();
   });
 });
+
+// Полоса «Хабр» — только в «Нейросетях»: в остальных рубриках хабровских
+// лент мало, и отдельный фильтр там только мешал бы.
+var habrBar = document.getElementById('habrBar');
+if (CAT_KEY === 'ai' && items.some(function(n){ return isHabr(n.link); })) {
+  habrBar.className = 'sub-bar';
+  habrBar.addEventListener('click', function(e) {
+    var btn = e.target.closest('.lang-btn');
+    if (!btn) return;
+    habrBar.querySelectorAll('.lang-btn').forEach(function(b){b.classList.remove('active')});
+    btn.classList.add('active');
+    activeHabr = btn.getAttribute('data-habr');
+    render();
+  });
+}
 
 document.getElementById('lastUpdated').textContent = 'Обновлено: ' + buildTime + ' (МСК)';
 document.getElementById('overlay').addEventListener('click', function(e) { if (e.target === this) closeModal(); });

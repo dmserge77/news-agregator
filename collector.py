@@ -969,6 +969,9 @@ def generate_category_page(cat_key, cat_info):
         html = f.read()
     html = html.replace("%%TITLE%%", cat_info["emoji"] + " " + cat_info["label"])
     html = html.replace("%%ACCENT%%", cat_info["accent"])
+    # Ключ рубрики нужен шаблону, чтобы включать полосы фильтров только там,
+    # где они уместны (полоса «Хабр» — лишь в «Нейросетях»).
+    html = html.replace("%%CATKEY%%", cat_key)
     for k in CATEGORIES:
         html = html.replace(f"%%ACT_{k}%%", "active" if k == cat_key else "")
     cat_dir = os.path.join(BASE_DIR, cat_key)
