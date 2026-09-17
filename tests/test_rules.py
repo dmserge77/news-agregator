@@ -10,6 +10,7 @@
 """
 
 import os
+import re
 import sys
 import unittest
 
@@ -157,6 +158,97 @@ class AiSignal(unittest.TestCase):
 
     def test_household_false_positives_are_rejected(self):
         self.assertFalse(c.is_ai_relevant("стиральная машина с ии", "ai"))
+
+
+class MlTerm(unittest.TestCase):
+    """«ML» — сокращение темы ИИ, как «RAG» и «NLP» (добавлено 17.09.2026).
+
+    Без него вакансии «Python + ML разработчик» и «Data scientist (Junior)»
+    проходили в рубрику не по теме, а по слову «инженер» / «data» из
+    технического списка. Ищем отдельным словом — тогда «html» и «xml»
+    по-прежнему не считаются ИИ, хотя «ml» внутри них и есть.
+    """
+
+    def test_ml_is_a_signal(self):
+        for text in ("ml-инженер", "python + ml разработчик", "ml engineer",
+                     "data scientist (ml)", "mls"):
+            self.assertTrue(c.has_ai_signal(text.lower()), text)
+
+    def test_ml_inside_a_word_is_not_a_signal(self):
+        # Главная ловушка: «ml» сидит внутри «html» и «xml».
+        for text in ("верстка html", "парсер xml", "saml-авторизация",
+                     "вёрстка и html5"):
+            self.assertFalse(c.has_ai_signal(text.lower()), text)
+
+    def test_ml_is_not_duplicated_in_the_tech_list(self):
+        # «ml» переехало в AI_TERMS_WORD, и в хвостовом _has_word его быть
+        # не должно: два списка с одним словом — это будущая рассинхронизация.
+        src_path = os.path.join(os.path.dirname(os.path.dirname(
+            os.path.abspath(__file__))), "collector.py")
+        with open(src_path, encoding="utf-8") as f:
+            src = f.read()
+        self.assertIn('_has_word(text, ["qa", "ui", "ux"])', src)
+
+
+class VibeKeywords(unittest.TestCase):
+    """Словарь «Вайбкодинга» (расширен 17.09.2026).
+
+    Рубрика почти не обновлялась не из-за источников, а из-за словаря:
+    статья «Куда уходят токены у кодинг-агента» не попадала никуда — слова
+    «нейросет» в ней нет, а «кодинг-агент» в списке ключей не было. Замер
+    по 36 лентам: новые ключи дают +40 записей из уже подключённых лент.
+    """
+
+    def test_coding_agent_articles_are_vibe(self):
+        for title in ("Куда уходят токены у кодинг-агента: разбираем счёт по полям usage",
+                      "Codex CLI через свой endpoint: config.toml по строкам",
+                      "Как перенести навайбкоженный проект в Figma через Claude Code",
+                      "Give Your Coding Agents a Memory You Own",
+                      "Vercel Sandbox now supports Devin Outposts"):
+            self.assertEqual(c.classify(title.lower(), "vibe"), "vibe", title)
+
+    def test_aider_is_a_whole_word(self):
+        # «aider» — инструмент ИИ-кодинга, но внутри «raider» он ни при чём.
+        self.assertEqual(c.classify("aider для рефакторинга", "vibe"), "vibe")
+        self.assertIsNone(c.classify("raider game про рейды", "vibe"))
+
+    def test_old_vibe_keys_still_work(self):
+        for title in ("vibe coding для продакшена", "Replit запустил новую версию",
+                      "cursor обновился", "github copilot в редакторе"):
+            self.assertEqual(c.classify(title.lower(), "vibe"), "vibe", title)
+
+
+class NonAiJobDirections(unittest.TestCase):
+    """1С и информационная безопасность — не про ИИ (17.09.2026).
+
+    Их вакансии проходили только по слову «программист» / «инженер» из
+    технического списка. Сузить сам список нельзя: на нём же держится
+    «Вайбкодер/Программист-разработчик». Поэтому отдельное правило — и только
+    для вакансий без собственного признака ИИ.
+    """
+
+    def test_non_ai_directions_are_rejected(self):
+        for title in ("Программист-консультант 1С (стажер)",
+                      "Младший инженер информационной безопасности (Junior InfoSec Engineer)",
+                      "Специалист по кибербезопасности (стажер)"):
+            self.assertFalse(c.is_real_ai_job(title, HH_DESC), title)
+
+    def test_ai_vacancies_in_the_same_directions_survive(self):
+        # У них признак ИИ свой, поэтому правило до них не доходит.
+        for title in ("ML-инженер в области кибербезопасности",
+                      "Data scientist (Junior) в консалтинг",
+                      "Python + ML разработчик (стажер)",
+                      "Вайбкодер/Программист-разработчик"):
+            self.assertTrue(c.is_real_ai_job(title, HH_DESC), title)
+
+    def test_one_c_is_a_whole_word(self):
+        # «1с» не должно находиться внутри «21сентября»: иначе правило
+        # выкосило бы обычные технические вакансии. Проверяем саму регулярку.
+        pattern = [p for p in c.NON_AI_JOB_DIRECTIONS if "1с" in p][0]
+        self.assertIsNone(re.search(pattern, "программист 21сентября"))
+        self.assertIsNone(re.search(pattern, "программист 100с"))
+        self.assertIsNotNone(re.search(pattern, "программист 1с (стажер)"))
+        self.assertIsNotNone(re.search(pattern, "1с-битрикс разработчик"))
 
 
 class AiSignalHeadWindow(unittest.TestCase):

@@ -4,7 +4,7 @@
 
     python tests/check_js.py
 
-Юнит-тестов на Python здесь мало: esc(), safeUrl() и habrType() живут
+Юнит-тестов на Python здесь мало: esc() и safeUrl() живут
 в `_category_template.html` и выполняются в браузере. Проверять их надо
 там же, поэтому функции вырезаются из шаблона (не копируются руками)
 и прогоняются через node.
@@ -26,7 +26,7 @@ import tempfile
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 TEMPLATE = os.path.join(BASE_DIR, "_category_template.html")
 
-FUNCTIONS = ["esc", "safeUrl", "habrType", "isHabr"]
+FUNCTIONS = ["esc", "safeUrl"]
 
 NODE_CANDIDATES = [
     shutil.which("node"),
@@ -75,18 +75,6 @@ check('safeUrl: угол', safeUrl('https://x/<script>'), '#');
 check('safeUrl: пусто', safeUrl(''), '#');
 check('safeUrl: null', safeUrl(null), '#');
 
-check('habrType: статья', habrType('https://habr.com/ru/articles/1083166/?utm_campaign=1'), 'articles');
-check('habrType: новость', habrType('https://habr.com/ru/news/1083160/'), 'news');
-check('habrType: новость компании', habrType('https://habr.com/ru/companies/garage8/news/1083018/'), 'news');
-check('habrType: пост', habrType('https://habr.com/ru/posts/1083114/'), 'posts');
-check('habrType: чужой /news/ не наш', habrType('https://example.com/news/123'), '');
-check('habrType: лента хаба не запись', habrType('https://habr.com/ru/hubs/artificial_intelligence/'), '');
-check('habrType: www тоже Хабр', habrType('https://www.habr.com/ru/articles/1/'), 'articles');
-check('habrType: пусто', habrType(''), '');
-check('habrType: null', habrType(null), '');
-check('isHabr: да', isHabr('https://habr.com/ru/news/1/'), true);
-check('isHabr: нет', isHabr('https://3dnews.ru/1148403'), false);
-
 console.log('\nвсего ' + total + ', провалено ' + fails);
 if (fails) process.exit(1);
 """
@@ -133,7 +121,7 @@ def main():
             print(f"  ПРОВАЛ  {e}")
             return 1
 
-    tmp_dir = tempfile.mkdtemp(prefix="habr_js_")
+    tmp_dir = tempfile.mkdtemp(prefix="template_js_")
     js_path = os.path.join(tmp_dir, "checks.js")
     with open(js_path, "w", encoding="utf-8") as f:
         f.write("\n\n".join(parts) + "\n\n" + CHECKS)

@@ -247,6 +247,20 @@ class TemplateGuard(unittest.TestCase):
             self.assertRegex(self.template,
                              r"getElementById\('" + field + r"'\)\.textContent")
 
+    def test_no_placeholders_left_in_the_template(self):
+        """В шаблоне не должно остаться подстановок, которых нет в сборщике.
+
+        Так было с %%CATKEY%%: полосу «Хабр» убрали, а подстановка осталась бы
+        видна прямо на странице как «%%CATKEY%%». Сверяем оба списка.
+        """
+        collector_path = os.path.join(os.path.dirname(TEMPLATE_PATH), "collector.py")
+        with open(collector_path, encoding="utf-8") as f:
+            collector = f.read()
+        in_template = set(re.findall(r"%%[A-Z_]+%%", self.template))
+        replaced = set(re.findall(r'"(%%[A-Z_]+%%)"', collector))
+        self.assertEqual(in_template, replaced,
+                         "подстановки шаблона и сборщика разошлись")
+
 
 class CollectorHasNoUnsafeReads(unittest.TestCase):
     """Проверки по самому файлу сборщика — на случай отката правки."""
