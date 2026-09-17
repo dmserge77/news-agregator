@@ -159,6 +159,128 @@ class AiSignal(unittest.TestCase):
         self.assertFalse(c.is_ai_relevant("стиральная машина с ии", "ai"))
 
 
+class AiSignalHeadWindow(unittest.TestCase):
+    """У обычных техноизданий признак ИИ ищется только в начале материала.
+
+    Они пишут обо всём подряд, и слово про ИИ у них часто стоит вскользь —
+    в конце длинного описания. Из-за этого в «Нейросети» уезжали обзоры
+    iPhone, прошивка PlayStation и Samsung One UI.
+
+    Замер 17.09.2026 по 36 живым лентам: окно в 200 знаков отсекает ровно
+    девять таких записей (список в OFFTopic ниже) и не теряет ни одной
+    настоящей статьи про ИИ. Правило точечное: сделать его общим нельзя —
+    это убило бы 52 записи Replit про вайбкодинг (см. test_replit_...).
+    """
+
+    # Описание техноиздания: длинное, а слово про ИИ — в самом конце.
+    PADDING = "Обзор устройства и его характеристик. " * 8
+    TAIL = (" Подробности о ценах и сроках поставки появятся позже. "
+            "Отдельно отметим работу встроенных нейросетей и чат-ботов.")
+
+    # Девять записей, на которых правило замерено: заголовок, источник, рубрика.
+    OFFTopic = [
+        ("Sony обновила прошивку PlayStation 5: главные изменения сентябрьского апдейта",
+         "Hi-Tech Mail", "ai"),
+        ("Samsung начала выпуск One UI 9 для Galaxy S26 — оболочка основана на Android 16",
+         "Rusbase", "ai"),
+        ("iQOO запускает в России технологический чемпионат «Смарт Кон»",
+         "Hi-Tech Mail", "ai"),
+        ("Российские ученые обнаружили необычное в атмосфере Земли",
+         "Hi-Tech Mail", "ai"),
+        ("Internet Archive оказался под атакой ботов и стал блокировать обычных пользователей",
+         "3DNews", "ai"),
+        ("Apple устранила рекордное число уязвимостей в iOS и других программных продуктах",
+         "3DNews", "ai"),
+        ("В сети вышли первые обзоры iPhone 18 Pro и iPhone 18 Pro Max",
+         "Hi-Tech Mail", "misc"),
+        ("Meta* выпустит очки без камер: для тех, кто боится слежки",
+         "Hi-Tech Mail", "agent"),
+        ("Открытие китайских учёных кратно ускорит производство водорода солнечным светом",
+         "3DNews", "ai"),
+    ]
+
+    def long_desc(self):
+        return self.PADDING + self.TAIL
+
+    def test_window_is_two_hundred(self):
+        self.assertEqual(c.AI_SIGNAL_HEAD_LEN, 200)
+
+    def test_the_offtopic_nine_are_rejected(self):
+        for title, source, cat in self.OFFTopic:
+            check = c.ai_check_text(title, self.long_desc(), source)
+            self.assertFalse(c.is_ai_relevant(check, cat), f"{source}: {title}")
+
+    def test_the_same_text_would_have_passed_by_the_old_rule(self):
+        # Без обрезки признак ИИ находится — значит отсекает именно окно,
+        # а не какой-то другой фильтр.
+        for title, source, cat in self.OFFTopic:
+            full = c.ai_check_text(title, self.long_desc(), "Habr AI")
+            self.assertTrue(c.is_ai_relevant(full, cat), title)
+
+    def test_genuine_ai_articles_from_the_same_sources_survive(self):
+        good = [
+            ("Названы лучшие нейросети для создания видео", "Hi-Tech Mail"),
+            ("Nvidia представила нейросеть для генерации видео", "3DNews"),
+            ("Стартап привлёк 10 млн на ИИ-сервис для логистики", "Rusbase"),
+            ("Как мы внедрили LLM в код-ревью", "Tproger"),
+            ("Что умеют нейросети в 2026 году", "The Code"),
+        ]
+        for title, source in good:
+            check = c.ai_check_text(title, self.long_desc(), source)
+            self.assertTrue(c.is_ai_relevant(check, "ai"), title)
+
+    def test_a_short_description_is_not_cut(self):
+        # Обрезаем только длинные описания: короткое попадает в окно целиком.
+        check = c.ai_check_text("Обзор смартфона", "Внутри работает нейросеть для фото.",
+                                "Hi-Tech Mail")
+        self.assertIn("нейросеть", check)
+        self.assertTrue(c.is_ai_relevant(check, "ai"))
+
+    def test_the_title_is_never_cut(self):
+        # Признак ИИ в заголовке — всегда по делу, как бы длинно он ни звучал.
+        title = "Как нейросети меняют разработку: разбор" + " с примерами" * 20
+        check = c.ai_check_text(title, "Описание без темы.", "Hi-Tech Mail")
+        self.assertIn("нейросети меняют разработку", check)
+        self.assertTrue(c.is_ai_relevant(check, "ai"))
+
+    def test_other_sources_still_see_the_whole_text(self):
+        # У профильных лент ничего не меняется: там признак ИИ в конце — норма.
+        for source in ("Habr AI", "Habr ML", "vc.ru", "DTF", "Hacker News"):
+            check = c.ai_check_text("Заголовок", self.long_desc(), source)
+            self.assertIn("нейросетей", check, source)
+
+    def test_replit_is_not_in_the_strict_list(self):
+        # Общее правило («сужаем всем, кроме ИИ-лент») замерено и отброшено:
+        # оно теряло 52 живые записи Replit — они как раз про вайбкодинг.
+        self.assertNotIn("Replit", c.AI_SIGNAL_HEAD_SOURCES)
+
+    def test_strict_list_is_exactly_the_measured_sources(self):
+        self.assertEqual(c.AI_SIGNAL_HEAD_SOURCES,
+                         {"Hi-Tech Mail", "3DNews", "Rusbase", "Tproger", "The Code"})
+
+    def test_parse_rss_drops_the_offtopic_from_tech_media(self):
+        feed = {"url": "https://hi-tech.mail.ru/rss/all/", "cat": "misc",
+                "source": "Hi-Tech Mail"}
+        self.assertEqual(c.parse_rss(self.deep_rss(), feed), [])
+
+    def test_parse_rss_keeps_the_same_record_for_another_source(self):
+        # Тот же текст, но источник профильный — запись на месте.
+        feed = {"url": "https://habr.com/ru/rss/hub/artificial_intelligence/?fl=ru",
+                "cat": "ai", "source": "Habr AI"}
+        items = c.parse_rss(self.deep_rss(), feed)
+        self.assertEqual(len(items), 1)
+
+    def deep_rss(self):
+        title, _, _ = self.OFFTopic[0]
+        return ('<?xml version="1.0" encoding="UTF-8"?>'
+                '<rss version="2.0"><channel><item>'
+                f"<title>{title}</title>"
+                "<link>https://example.com/ps5</link>"
+                f"<description>{self.long_desc()}</description>"
+                "<pubDate>Wed, 16 Sep 2026 10:00:00 GMT</pubDate>"
+                "</item></channel></rss>")
+
+
 class Jobs(unittest.TestCase):
     """Вакансии: только удалёнка, по-русски и «попроще»."""
 

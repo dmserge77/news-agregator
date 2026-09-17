@@ -260,8 +260,42 @@ def has_ai_signal(text):
     return False
 
 
+# Обычные техноиздания пишут обо всём подряд, и ИИ в их текстах часто
+# упомянут вскользь — где-нибудь ближе к концу. Из-за этого в «Нейросети»
+# уезжали «Sony обновила прошивку PlayStation 5», «Samsung начала выпуск
+# One UI 9», «Internet Archive оказался под атакой ботов», «iQOO запускает
+# чемпионат»: слово про ИИ в тексте есть, а статья не о нём.
+#
+# Для этих источников признак ИИ обязан стоять в заголовке или в начале
+# описания. Замер 17.09.2026 по 36 живым лентам: окно в 200 знаков отсекает
+# девять таких записей и не теряет ни одной настоящей статьи про ИИ.
+#
+# Правило намеренно точечное, а не «для всех не-ИИ-лент»: у Хабра хабы
+# профильные, а описания длинные — там признак ИИ законно стоит в конце.
+# Попытка сделать правило общим убила бы 52 записи Replit, которые как раз
+# про вайбкодинг, и «Большие модели и цена миллиона токенов» с Хабра.
+AI_SIGNAL_HEAD_SOURCES = {"Hi-Tech Mail", "3DNews", "Rusbase", "Tproger", "The Code"}
+AI_SIGNAL_HEAD_LEN = 200
+
+
+def ai_check_text(title, desc, source):
+    """Текст, по которому решаем, про ИИ ли материал.
+
+    У источников из AI_SIGNAL_HEAD_SOURCES смотрим заголовок и только начало
+    описания; у остальных — весь текст. Заголовок не обрезаем никогда: он
+    короткий и в нём признак ИИ стоит по делу.
+    """
+    if source in AI_SIGNAL_HEAD_SOURCES:
+        return title + " " + (desc or "")[:AI_SIGNAL_HEAD_LEN]
+    return title + " " + (desc or "")
+
+
 def is_ai_relevant(text, cat):
-    """Пропускает только материалы про ИИ. Вакансии и заказы не проверяются."""
+    """Пропускает только материалы про ИИ. Вакансии и заказы не проверяются.
+
+    text сюда приходит уже подготовленным через ai_check_text(): у части
+    источников он обрезан до начала материала.
+    """
     if cat in NO_AI_CHECK:
         return True
     if cat not in CATEGORIES:
@@ -414,7 +448,10 @@ def parse_rss(xml_text, feed):
         # просачивались в рубрику «Вакансии».
         if cat == "jobs":
             cat = "misc"
-        if not is_ai_relevant(text, cat):
+        # У обычных техноизданий тема проверяется только по началу материала
+        # (см. AI_SIGNAL_HEAD_SOURCES). classify() выше видит текст целиком:
+        # рубрику он выбирает, но правом пропустить запись не владеет.
+        if not is_ai_relevant(ai_check_text(title, desc, feed["source"]), cat):
             continue
         item_data = {
             "title": title, "link": link,
@@ -445,7 +482,7 @@ def parse_rss(xml_text, feed):
         # просачивались в рубрику «Вакансии».
         if cat == "jobs":
             cat = "misc"
-        if not is_ai_relevant(text, cat):
+        if not is_ai_relevant(ai_check_text(title, desc, feed["source"]), cat):
             continue
         entry_data = {
             "title": title, "link": link,
@@ -1275,10 +1312,12 @@ def main():
                 to_unfiltered.append(item)
                 mark(item)
                 continue
-            # Остальные категории проверяются на тему ИИ
+            # Остальные категории проверяются на тему ИИ — тем же отбором,
+            # что и при сборе: у обычных техноизданий смотрим начало материала.
             elif item.get("cat") not in ("jobs", "misc"):
-                text = (item.get("title", "") or "") + " " + (item.get("desc", "") or "")
-                if not is_ai_relevant(text, item.get("cat")):
+                check = ai_check_text(item.get("title", ""), item.get("desc", ""),
+                                      item.get("source", ""))
+                if not is_ai_relevant(check, item.get("cat")):
                     item["cat"] = "misc"
                     item["misc_type"] = "unfiltered"
                     to_unfiltered.append(item)
