@@ -165,7 +165,7 @@ class DesignFeedDefaultCat(unittest.TestCase):
 
 
 class DesignSources(unittest.TestCase):
-    """Awwwards убран, UX Planet подключён (18.09.2026)."""
+    """Awwwards убран, UX Planet, Figma и Webflow подключены (18.09.2026)."""
 
     def test_awwwards_is_not_in_feeds(self):
         sources = {f["source"] for f in c.FEEDS}
@@ -179,9 +179,33 @@ class DesignSources(unittest.TestCase):
         self.assertIn("UX Planet", feeds)
         self.assertEqual(feeds["UX Planet"]["cat"], "design")
 
+    def test_figma_and_webflow_are_connected_to_design(self):
+        feeds = {f["source"]: f for f in c.FEEDS}
+        for name in ("Figma", "Webflow"):
+            self.assertIn(name, feeds)
+            self.assertEqual(feeds[name]["cat"], "design", name)
+
+    def test_figma_feed_is_the_atom_address(self):
+        # /blog/feed/ отдаёт 404 — лента лежит по /blog/feed/atom.xml,
+        # из-за этого её раньше не находили.
+        feeds = {f["source"]: f for f in c.FEEDS}
+        self.assertTrue(feeds["Figma"]["url"].endswith("/blog/feed/atom.xml"),
+                        feeds["Figma"]["url"])
+
+    def test_website_builders_are_in_the_dictionary(self):
+        # Русское название темы, которого в словаре не было.
+        self.assertIn("конструктор сайт", c.CAT_KEYWORDS["design"])
+        # Названия самих конструкторов: webflow и тильда.
+        self.assertIn("webflow", c.CAT_KEYWORDS["design"])
+        self.assertIn("тильд", c.CAT_KEYWORDS["design"])
+
     def test_every_feed_has_a_known_category(self):
         for feed in c.FEEDS:
             self.assertIn(feed["cat"], c.CATEGORIES, feed["source"])
+
+    def test_feed_addresses_are_https(self):
+        for feed in c.FEEDS:
+            self.assertTrue(feed["url"].startswith("https://"), feed["url"])
 
 
 class AiSignal(unittest.TestCase):
