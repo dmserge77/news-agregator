@@ -7,7 +7,7 @@ AI News Hub — автосборщик новостей из RSS/Atom лент.
 
 import json, os, re, sys, ssl, shutil
 from datetime import datetime, timedelta
-from html import unescape
+from html import unescape, escape
 from urllib.request import urlopen, Request
 from urllib.parse import quote
 from xml.etree import ElementTree
@@ -17,6 +17,18 @@ if sys.platform == "win32":
 
 BASE_DIR = os.path.dirname(__file__)
 MAX_AGE_DAYS = 90
+
+# Адрес сайта — для меток предпросмотра ссылки (Open Graph). Мессенджеры
+# требуют АБСОЛЮТНЫЙ адрес страницы и картинки: относительный путь они не
+# разбирают, а сайт лежит в подпапке /news-agregator/, поэтому «og-image.png»
+# они бы не нашли. Поменяется домен — правится здесь, в одном месте.
+SITE_URL = "https://dmserge77.github.io/news-agregator"
+SITE_NAME = "AI News Hub"
+OG_IMAGE = SITE_URL + "/og-image.png"
+OG_LOCALE = "ru_RU"
+OG_MAIN_TITLE = SITE_NAME + " — новости про ИИ"
+OG_MAIN_DESC = ("Агрегатор новостей про искусственный интеллект: "
+                "восемь рубрик, обновление шесть раз в день.")
 
 
 def now_msk():
@@ -33,6 +45,21 @@ CATEGORIES = {
     "jobs":     {"label": "Вакансии",     "emoji": "💼", "accent": "#e34133"},
     "orders":   {"label": "Есть заказ",   "emoji": "💰", "accent": "#e3a133"},
 }
+
+# Описания рубрик для карточки предпросмотра (og:description). В мессенджере
+# видно две строки, дальше текст обрезается, поэтому описания короткие.
+# Ключа нет — подставляется OG_DESC_FALLBACK.
+CAT_OG_DESC = {
+    "ai":       "Нейросети, языковые модели и ИИ-сервисы: что вышло и что изменилось.",
+    "vibe":     "Вайбкодинг: разработка с ИИ-помощниками, от промта до готового проекта.",
+    "agent":    "ИИ-агенты: что умеют, где применяются и чем отличаются друг от друга.",
+    "platform": "Платформы и инструменты для работы с искусственным интеллектом.",
+    "design":   "ИИ в дизайне: интерфейсы, генерация картинок, инструменты для работы.",
+    "misc":     "Солянка: всё про искусственный интеллект, что не попало в другие рубрики.",
+    "jobs":     "Удалённые вакансии, связанные с ИИ. Берут и без опыта.",
+    "orders":   "Заказы на работы, связанные с искусственным интеллектом.",
+}
+OG_DESC_FALLBACK = "Новости про искусственный интеллект."
 
 # Категории, содержимое которых НЕ проверяется на AI-релевантность
 # (вакансии и заказы фильтруются своими отдельными функциями)
@@ -1087,17 +1114,73 @@ def save_data_js(filepath, items, cat_keys=None):
     write_if_changed(filepath, body)
 
 
-def generate_category_page(cat_key, cat_info):
-    """Генерируем index.html для конкретной категории."""
+def og_meta_block(title, desc, url):
+    """Метки предпросмотра ссылки для шапки страницы.
+
+    Мессенджеры и соцсети не выполняют JS и содержимое не читают — карточку
+    предпросмотра они собирают только из этих меток. Без них при вставке
+    ссылки видна одна серая строка адреса.
+
+    Ту же самую россыпь меток несёт _category_template.html, только там она
+    с подстановками %%OG_TITLE%% и соседними. Списки меток в двух местах
+    сверяет тест LinkPreview, чтобы страницы не разошлись.
+    """
+    return (
+        f'<meta name="description" content="{escape(desc)}">\n'
+        f'<meta property="og:type" content="website">\n'
+        f'<meta property="og:site_name" content="{escape(SITE_NAME)}">\n'
+        f'<meta property="og:locale" content="{OG_LOCALE}">\n'
+        f'<meta property="og:title" content="{escape(title)}">\n'
+        f'<meta property="og:description" content="{escape(desc)}">\n'
+        f'<meta property="og:url" content="{escape(url)}">\n'
+        f'<meta property="og:image" content="{OG_IMAGE}">\n'
+        f'<meta property="og:image:width" content="1200">\n'
+        f'<meta property="og:image:height" content="630">\n'
+        f'<meta property="og:image:alt" content="{escape(title)}">\n'
+        f'<meta name="twitter:card" content="summary_large_image">\n'
+        f'<meta name="twitter:title" content="{escape(title)}">\n'
+        f'<meta name="twitter:description" content="{escape(desc)}">\n'
+        f'<meta name="twitter:image" content="{OG_IMAGE}">\n'
+    )
+
+
+def og_category_title(cat_info):
+    """«Дизайн — AI News Hub»: название рубрики важнее, оно идёт первым."""
+    return cat_info["label"] + " — " + SITE_NAME
+
+
+def og_category_desc(cat_key):
+    """Описание рубрики для карточки предпросмотра."""
+    return CAT_OG_DESC.get(cat_key, OG_DESC_FALLBACK)
+
+
+def render_category_page(cat_key, cat_info):
+    """Собираем страницу рубрики в строку, ничего не записывая на диск.
+
+    Вынесено отдельно от записи, чтобы тест мог проверить готовую страницу,
+    не трогая файлы проекта.
+    """
     tmpl_path = os.path.join(BASE_DIR, "_category_template.html")
     if not os.path.exists(tmpl_path):
-        return
+        return None
     with open(tmpl_path, "r", encoding="utf-8") as f:
         html = f.read()
     html = html.replace("%%TITLE%%", cat_info["emoji"] + " " + cat_info["label"])
     html = html.replace("%%ACCENT%%", cat_info["accent"])
+    html = html.replace("%%OG_TITLE%%", escape(og_category_title(cat_info)))
+    html = html.replace("%%OG_DESC%%", escape(og_category_desc(cat_key)))
+    html = html.replace("%%OG_URL%%", escape(SITE_URL + "/" + cat_key + "/"))
+    html = html.replace("%%OG_IMAGE%%", OG_IMAGE)
     for k in CATEGORIES:
         html = html.replace(f"%%ACT_{k}%%", "active" if k == cat_key else "")
+    return html
+
+
+def generate_category_page(cat_key, cat_info):
+    """Генерируем index.html для конкретной категории."""
+    html = render_category_page(cat_key, cat_info)
+    if html is None:
+        return
     cat_dir = os.path.join(BASE_DIR, cat_key)
     os.makedirs(cat_dir, exist_ok=True)
     write_if_changed(os.path.join(cat_dir, "index.html"), html)
@@ -1127,7 +1210,7 @@ def generate_main_page(all_news):
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>AI News Hub</title>
-<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🤖</text></svg>">
+{og_meta_block(OG_MAIN_TITLE, OG_MAIN_DESC, SITE_URL + "/")}<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🤖</text></svg>">
 <!-- Yandex.Metrika counter -->
 <script type="text/javascript">
     (function(m,e,t,r,i,k,a){{
@@ -1276,6 +1359,13 @@ def build_dist():
     src_about = os.path.join(BASE_DIR, "about")
     if os.path.isdir(src_about):
         shutil.copytree(src_about, os.path.join(dist, "about"), dirs_exist_ok=True)
+
+    # Картинка для предпросмотра ссылки. В dist/ попадает только перечисленное
+    # здесь, поэтому без этой строки og:image вёл бы на несуществующий файл —
+    # и мессенджер показал бы карточку без картинки.
+    src_og = os.path.join(BASE_DIR, "og-image.png")
+    if os.path.exists(src_og):
+        shutil.copy2(src_og, os.path.join(dist, "og-image.png"))
 
     print(f"  [OK] dist/ собран ({len(os.listdir(dist))} элементов)")
 

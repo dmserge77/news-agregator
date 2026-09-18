@@ -564,6 +564,102 @@ class LongDescriptions(unittest.TestCase):
                                           role_text="Специалист"))
 
 
+class LinkPreview(unittest.TestCase):
+    """Метки предпросмотра ссылки (Open Graph) в шапке страниц.
+
+    Мессенджеры не выполняют JS и содержимое страницы не читают: карточку
+    предпросмотра они собирают только из этих меток. Пока их не было, при
+    вставке ссылки была видна одна серая строка адреса.
+    """
+
+    @classmethod
+    def setUpClass(cls):
+        cls.root = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+        with open(os.path.join(cls.root, "_category_template.html"), encoding="utf-8") as f:
+            cls.template = f.read()
+
+    @staticmethod
+    def _meta_names(text):
+        """Имена меток: og:*, twitter:* и description. Значения не смотрим."""
+        names = set(re.findall(r'(?:property|name)="([^"]+)"', text))
+        return {n for n in names
+                if n.startswith("og:") or n.startswith("twitter:") or n == "description"}
+
+    def test_addresses_are_absolute(self):
+        # Относительный путь мессенджер не разберёт: сайт лежит в подпапке
+        # /news-agregator/, и «og-image.png» он бы не нашёл.
+        self.assertTrue(c.SITE_URL.startswith("https://"))
+        self.assertTrue(c.OG_IMAGE.startswith(c.SITE_URL + "/"))
+
+    def test_image_url_ends_with_png(self):
+        # SVG и data:-адреса в og:image не принимает ни Telegram, ни VK.
+        self.assertTrue(c.OG_IMAGE.endswith(".png"))
+
+    def test_template_carries_the_meta_block(self):
+        for tag in ('property="og:title"', 'property="og:description"',
+                    'property="og:image"', 'property="og:url"',
+                    'property="og:type"', 'property="og:site_name"',
+                    'property="og:locale"', 'name="twitter:card"',
+                    'name="description"'):
+            self.assertIn(tag, self.template, tag)
+
+    def test_main_page_and_template_carry_the_same_tags(self):
+        # Метки лежат в двух местах: шаблон рубрик и сборщик главной. Разошлись —
+        # половина сайта уехала бы с неполной карточкой.
+        block = c.og_meta_block(c.OG_MAIN_TITLE, c.OG_MAIN_DESC, c.SITE_URL + "/")
+        self.assertEqual(self._meta_names(block), self._meta_names(self.template))
+
+    def test_about_page_carries_the_same_tags(self):
+        with open(os.path.join(self.root, "about", "index.html"), encoding="utf-8") as f:
+            about = f.read()
+        self.assertEqual(self._meta_names(about), self._meta_names(self.template))
+
+    def test_rendered_category_page_has_absolute_addresses(self):
+        html = c.render_category_page("design", c.CATEGORIES["design"])
+        self.assertIn(f'property="og:url" content="{c.SITE_URL}/design/"', html)
+        self.assertIn(f'property="og:image" content="{c.OG_IMAGE}"', html)
+
+    def test_rendered_page_keeps_no_placeholder(self):
+        # Незаменённая подстановка видна прямо на странице как «%%OG_TITLE%%».
+        for key, info in c.CATEGORIES.items():
+            html = c.render_category_page(key, info)
+            self.assertNotIn("%%", html, key)
+
+    def test_every_category_has_its_own_description(self):
+        # Общий текст вместо своего — признак, что рубрику завели, а описание
+        # для карточки предпросмотра забыли.
+        for key in c.CATEGORIES:
+            self.assertIn(key, c.CAT_OG_DESC, key)
+
+    def test_quotes_in_the_description_are_escaped(self):
+        # Кавычка разорвала бы атрибут content="...".
+        block = c.og_meta_block('тест "кавычка"', 'тест "кавычка"', c.SITE_URL)
+        self.assertIn("&quot;кавычка&quot;", block)
+
+    def test_image_file_is_in_the_project(self):
+        path = os.path.join(self.root, "og-image.png")
+        self.assertTrue(os.path.exists(path), "нет og-image.png")
+        with open(path, "rb") as f:
+            head = f.read(24)
+        self.assertEqual(head[:8], b"\x89PNG\r\n\x1a\n", "это не PNG")
+        # Размер читаем из заголовка PNG — без сторонних библиотек.
+        self.assertEqual((int.from_bytes(head[16:20], "big"),
+                          int.from_bytes(head[20:24], "big")), (1200, 630))
+
+    def test_image_is_not_too_heavy(self):
+        # Telegram не принимает картинку тяжелее 5 МБ.
+        self.assertLess(os.path.getsize(os.path.join(self.root, "og-image.png")),
+                        5 * 1024 * 1024)
+
+    def test_build_dist_copies_the_image(self):
+        # В dist/ попадает только перечисленное в build_dist. Забыли строку —
+        # og:image ведёт на несуществующий файл, и карточка выходит без картинки.
+        with open(os.path.join(self.root, "collector.py"), encoding="utf-8") as f:
+            src = f.read()
+        body = src.split("def build_dist(")[1].split("\ndef ")[0]
+        self.assertIn("og-image.png", body)
+
+
 class ApiText(unittest.TestCase):
     """Приведение полей API «Работы России» к строке."""
 
