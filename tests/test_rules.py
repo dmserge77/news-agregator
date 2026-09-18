@@ -127,6 +127,63 @@ class Classify(unittest.TestCase):
             self.assertIsNone(c.classify(text, "ai"), text)
 
 
+class DesignFeedDefaultCat(unittest.TestCase):
+    """Ленты дизайна не разбрасываются по «Солянке».
+
+    Статья «The Bull And Bear Case For Digital Design In The Age Of AI» пришла
+    из ленты Smashing Magazine, признак ИИ в ней есть, а слова «дизайн» — нет:
+    в словаре есть «web design» и «design system», но не голое «design».
+    Такая запись уезжала в «Солянку», из-за чего рубрика «Дизайн» молчала.
+    Причина — параметр default_cat в classify() не использовался вообще.
+    """
+
+    # Текст без единого слова из словаря дизайна, но с признаком ИИ.
+    SAME_TEXT = ("the bull and bear case for digital design in the age of ai: "
+                 "what changes for teams and how to prepare")
+
+    def test_design_feed_keeps_its_own_category(self):
+        self.assertEqual(c.classify(self.SAME_TEXT, "design"), "design")
+
+    def test_other_feeds_still_go_to_misc(self):
+        # Тот же текст из обычной ленты — по-прежнему «Солянка». Расширять
+        # правило на все ленты нельзя: замерено, что это перетряхнуло бы
+        # 215 записей («Солянка → Платформы» 65, «Солянка → Нейросети» 58).
+        self.assertEqual(c.classify(self.SAME_TEXT, "ai"), "misc")
+        self.assertEqual(c.classify(self.SAME_TEXT, "platform"), "misc")
+
+    def test_trusted_list_is_only_design(self):
+        self.assertEqual(c.DEFAULT_CAT_TRUSTED, {"design"})
+
+    def test_default_cat_is_actually_used(self):
+        # Ловушка: параметр однажды уже был объявлен и не использовался ни разу.
+        root = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+        with open(os.path.join(root, "collector.py"), encoding="utf-8") as f:
+            source = f.read()
+        body = source.split("def classify(")[1].split("\ndef ")[0]
+        self.assertIn("default_cat", body,
+                      "default_cat объявлен, но в теле classify() не используется")
+
+
+class DesignSources(unittest.TestCase):
+    """Awwwards убран, UX Planet подключён (18.09.2026)."""
+
+    def test_awwwards_is_not_in_feeds(self):
+        sources = {f["source"] for f in c.FEEDS}
+        self.assertNotIn("Awwwards", sources)
+        # В DEAD_SOURCES его быть не должно: записи доживают 90 дней сами,
+        # удалять их не за чем.
+        self.assertNotIn("Awwwards", c.DEAD_SOURCES)
+
+    def test_ux_planet_is_connected_to_design(self):
+        feeds = {f["source"]: f for f in c.FEEDS}
+        self.assertIn("UX Planet", feeds)
+        self.assertEqual(feeds["UX Planet"]["cat"], "design")
+
+    def test_every_feed_has_a_known_category(self):
+        for feed in c.FEEDS:
+            self.assertIn(feed["cat"], c.CATEGORIES, feed["source"])
+
+
 class AiSignal(unittest.TestCase):
     """Проверка «это вообще про ИИ»."""
 
