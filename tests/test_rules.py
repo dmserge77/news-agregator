@@ -298,6 +298,44 @@ class VibeKeywords(unittest.TestCase):
                       "cursor обновился", "github copilot в редакторе"):
             self.assertEqual(c.classify(title.lower(), "vibe"), "vibe", title)
 
+    def test_automation_platforms_go_to_vibe(self):
+        """n8n, Make и Integromat — в «Вайбкодинг», без отдельной рубрики.
+
+        Решение пользователя 18.09.2026: «я думаю их не отделной рубрикой,
+        а можно воткнуть в вайб кодинг». Замер по архиву (1259 записей,
+        90 дней): сегодня эти слова дают в новостях ноль записей, так что
+        правка ничего не перетряхивает.
+        """
+        for title in ("n8n: собираем сценарий на 20 узлов",
+                      "N8N и локальный запуск через docker",
+                      "Как связать CRM и телеграм через Make.com",
+                      "Integromat переименовали, но сценарии остались",
+                      "https://n8n.io/ — что нового в релизе"):
+            self.assertEqual(c.classify(title.lower(), "vibe"), "vibe", title)
+
+    def test_the_automation_keys_are_in_the_dictionary(self):
+        vibe = c.CAT_KEYWORDS["vibe"]
+        for kw in ("n8n", "make.com", "integromat"):
+            self.assertIn(kw, vibe)
+
+    def test_bare_make_is_not_a_keyword(self):
+        """Голое «make» брать нельзя: это обычный английский глагол.
+
+        Как ключ оно поймало бы «how to make a website» и утащило бы
+        в «Вайбкодинг» всё подряд. Работают только составные маркеры —
+        make.com и integromat, как и просил пользователь.
+        """
+        vibe = c.CAT_KEYWORDS["vibe"]
+        self.assertNotIn("make", vibe)
+        self.assertNotEqual(c.classify("how to make a website without code", "vibe"),
+                            "vibe")
+
+    def test_zapier_is_not_a_keyword(self):
+        # Пользователь отказался 18.09.2026: «он не настолько популярен
+        # как н8н или тотже мэйк». Если однажды понадобится — тест напомнит,
+        # что это было осознанное решение, а не забывчивость.
+        self.assertNotIn("zapier", c.CAT_KEYWORDS["vibe"])
+
 
 class NonAiJobDirections(unittest.TestCase):
     """1С и информационная безопасность — не про ИИ (17.09.2026).

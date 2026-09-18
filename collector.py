@@ -187,7 +187,18 @@ CAT_KEYWORDS = {
              # (GitHub Changelog) даёт всего 4 записи.
              "claude code", "codex", "кодинг-агент", "coding agent",
              "code assistant", "ассистент для кода", "continue.dev",
-             "aider", "devin", "zed", "qodo", "tabnine"],
+             "aider", "devin", "zed", "qodo", "tabnine",
+             # Добавлено 18.09.2026: платформы автоматизации — та же семья,
+             # что no-code и low-code, отдельной рубрики им не заводим.
+             # Замер по архиву (1259 записей, 90 дней, включая 347 с Хабра):
+             # в новостях эти слова сегодня дают НОЛЬ записей — n8n попадался
+             # только в вакансиях и заказах, make.com и integromat не
+             # попадались нигде. Правка ничего не перетряхивает, она
+             # поставлена на будущее.
+             # Голое «make» брать нельзя: это обычный английский глагол, он
+             # поймает «how to make a website». Только составные маркеры:
+             # make.com и integromat (прежнее имя Make).
+             "n8n", "make.com", "integromat"],
     "agent": ["ai agent", "ии-агент", "autogpt", "auto-gpt", "crewai", "langgraph",
               "langchain", "mcp-сервер", "model context protocol", "function call",
               "tool use", "tool use", "автономн", "оркестрац агент", "агентная систем",
