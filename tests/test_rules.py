@@ -636,6 +636,34 @@ class LinkPreview(unittest.TestCase):
         block = c.og_meta_block('тест "кавычка"', 'тест "кавычка"', c.SITE_URL)
         self.assertIn("&quot;кавычка&quot;", block)
 
+    @staticmethod
+    def _site_frequency(root):
+        """Частота обновления так, как она написана посетителю на сайте.
+
+        Единственное место, где она написана словами, — страница «О проекте».
+        Всё остальное (описание карточки, подпись на картинке) обязано с ней
+        совпадать, иначе получается «6 раз в сутки» в одном месте и «шесть раз
+        в день» в другом.
+        """
+        with open(os.path.join(root, "about", "index.html"), encoding="utf-8") as f:
+            page = f.read()
+        found = re.search(r"автоматически\s+(\d+\s+раз в сутки)", page)
+        assert found, "на странице «О проекте» не нашлась формулировка частоты"
+        return found.group(1)
+
+    def test_the_card_description_repeats_the_site_wording(self):
+        self.assertIn(self._site_frequency(self.root), c.OG_MAIN_DESC)
+
+    def test_the_image_caption_repeats_the_site_wording(self):
+        # Текст на картинке запечён в пиксели и расходится с сайтом молча:
+        # так и вышло — в описании карточки уже стояло «6 раз в сутки»,
+        # а на картинке осталось «шесть раз в день».
+        with open(os.path.join(self.root, "make_og_image.py"), encoding="utf-8") as f:
+            src = f.read()
+        found = re.search(r'^NOTE = "(.*)"', src, re.M)
+        self.assertIsNotNone(found, "в make_og_image.py не нашлась подпись NOTE")
+        self.assertIn(self._site_frequency(self.root), found.group(1))
+
     def test_image_file_is_in_the_project(self):
         path = os.path.join(self.root, "og-image.png")
         self.assertTrue(os.path.exists(path), "нет og-image.png")
